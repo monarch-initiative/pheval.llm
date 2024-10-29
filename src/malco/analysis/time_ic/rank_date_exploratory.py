@@ -1,7 +1,18 @@
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# As some exploratory data analysis, let us divide the set into two and look for
-# some properties. Meanwhile, create dictonary: {ppkt_name : [rank, date]}.
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""
+As some exploratory data analysis, let us divide the set into two and look for
+some properties. Meanwhile, create dictonary: {ppkt_name : [rank, date]}.
+
+Needs model name as input, e.g. run as: 
+
+>>> python src/malco/analysis/time_ic/rank_date_exploratory.py gpt-4o
+
+Some output will be printed (TODO document) to terminal. Most importantly, it generates (TODO add model name in pickle file name):
+`rank_date_dict.pkl`
+which is needed for running 
+
+>>> python src/malco/analysis/time_ic/diseases_avail_knowledge.py gpt-4o
+"""
+
 import pickle 
 from pathlib import Path
 import pandas as pd 

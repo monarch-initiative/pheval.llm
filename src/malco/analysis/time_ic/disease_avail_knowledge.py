@@ -1,16 +1,17 @@
-"""This script looks for correlations between the ability of an LLM to 
+"""
+This script looks for correlations between the ability of an LLM to 
 diagnose the correct disease and certain parameters.
+
+Make sure to run rank_date_exploratory.py first!
+The output of this file can be used to try to train ML models, see logit_predict_llm.py (TODO)
 
 (1) The first idea is using time, namely dates of discovery, as a way to capture how much of a 
 disease is present in the web. This is a proxy for how much an LLM knows about such a diseases.
 We use HPOA, we do not parse out disease genes discovered after 2008 though (first thing in HPOA)
 
-(2) Then we could look at some IC(prompt) as a second proxy. To start, avg(IC) as computed with
+(2) Then we could look at some IC(prompt) as a second proxy. To start, avg(IC) was computed with
 
 `runoak -g hpoa_file -G hpoa -i hpo_file  information-content -p i --use-associations .all`
-
-Finally, if the two things correlate, can we use them to train a logit or SVM to predict whether
-the LLM will be successfull or not?
 """
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import sys
@@ -55,7 +56,7 @@ rank_results_df = pd.read_csv(
         ranking_results_filename, sep="\t" 
     )
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ANALYSIS STARTS HERE:
 # Look for correlation in box plot of ppkts' rank vs time
@@ -89,8 +90,8 @@ if make_plots:
    plt.xlabel("Year of HPOA annotation")
    plt.ylabel("Rank")
    plt.title("LLM performance uncorrelated with date of discovery")
-   #TODO change show to save
-   plt.show()
+   plt.savefig(outdir / "boxplot_discovery_date.png")
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Statistical test, simplest idea: chi2 of contingency table with:
@@ -215,27 +216,32 @@ print(kolsmirnov_result,"\n")
 # evidence of any deviation from the Gaussian ideal? 
 # With moderately large real data sets, the answer is almost always yes." 
 
+# --------------- t-test ---------------
 # TODO: regardless of above, our distributions are not normal. Discard t and add non-parametric U-test (Mann-Whitney)
 from scipy.stats import ttest_ind
 found_ic = list(ppkt_ic_df.loc[ppkt_ic_df['Diagnosed']>0, 'avg(IC)'])
 not_found_ic = list(ppkt_ic_df.loc[ppkt_ic_df['Diagnosed']<1, 'avg(IC)'])
 tresult = ttest_ind(found_ic, not_found_ic, equal_var=False)
-fsum = [np.mean(found_ic),
-        np.std(found_ic),
-        np.mean(not_found_ic),
-        np.std(not_found_ic),
-      ] 
+print("T-test result:\n", tresult,"\n")
+
+# --------------- u-test ---------------
+from scipy.stats import mannwhitneyu
+u_value, p_of_u = mannwhitneyu(found_ic, not_found_ic)
+print(f"U-test, u_value={u_value} and its associated p_val={p_of_u}","\n")
+
+
+# --------------- plot ---------------
 if make_plots:
    plt.hist(found_ic, bins=25, color='c', edgecolor='k', alpha=0.5, density=True)
    plt.hist(not_found_ic, bins=25, color='r', edgecolor='k', alpha=0.5, density=True)
    plt.xlabel("Average Information Content")
    plt.ylabel("Counts")
    plt.legend(['Successful Diagnosis', 'Unsuccessful Diagnosis'])
-   #TODO change show to save
-   plt.show()
+   plt.savefig(outdir / "inf_content_histograms.png")
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# TODO U test for ranks (separate table):
+# Still important TODO!
+# U test for ranks (separate table) comparing Exomiser vs LLM:
 # 1) cont table 8 cells... chi2 test
 # 2) MRR test --> one way
 # 3) rank based u-test, max 50, 51 for not found or >50

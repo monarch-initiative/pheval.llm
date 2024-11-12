@@ -1,79 +1,35 @@
-# MALCO
+# pheval.llm 
 
-Multilingual Analysis of LLMs for Clinical Observations
+![Contributors](https://img.shields.io/github/contributors/monarch-initiative/pheval.llm?style=plastic)
+![Stars](https://img.shields.io/github/stars/monarch-initiative/pheval.llm)
+![Licence](https://img.shields.io/github/license/monarch-initiative/pheval.llm)
+![Issues](https://img.shields.io/github/issues/monarch-initiative/pheval.llm)
 
-Built using the PhEval runner template (see instructions below).
+## Evaluate LLMs' capability at performing differential diagnosis for rare genetic diseases through medical-vignette-like prompts created with [phenopacket2prompt](https://github.com/monarch-initiative/phenopacket2prompt). 
+
+### Description
+To systematically assess and evaluate an LLM's ability to perform differential diagnostics tasks, we employed prompts programatically created with [phenopacket2prompt](https://github.com/monarch-initiative/phenopacket2prompt), thereby avoiding any patient privacy issues. The original data are phenopackets located at [phenopacket-store](https://github.com/monarch-initiative/phenopacket-store/). A programmatic approach for scoring and grounding results is also developed, made possible thanks to the ontological structure of the [Mondo Disease Ontology](https://mondo.monarchinitiative.org/).
+
+Two main analyses are carried out:
+- A benchmark of some openAI GPT-models against a state of the art tool for differential diagnostics, [Exomiser](https://github.com/exomiser/Exomiser). The bottom line, Exomiser [clearly outperforms the LLMs](https://github.com/monarch-initiative/pheval.llm/blob/short_letter/notebooks/plot_exomiser_o1MINI_o1PREVIEW_4o.ipynb).
+- A comparison of gpt-4o's ability to carry out differential diagnosis when prompted in different languages. 
+
+Formerly MALCO, Multilingual Analysis of LLMs for Clinical Observations.
+Built using the [PhEval](https://github.com/monarch-initiative/pheval) runner template.
+
 
 # Usage
-Let us start by documenting how to run the current version in a new folder. This has to be changed!
+Before starting a run take care of editing the [run parameters](inputdir/run_parameters.csv) as follows:
+- The first line contains a non-empty comma-separated list of (supported) language codes between double quotation marks in which one wishes to prompt.
+- The second line contains a non-empty comma-separated list of (supported) model names between double quotation marks which one wishes to prompt.
+- The third line contains two comma-separated binary entries, represented by 0 (false) and 1 (true). The first set to true runs the prompting and grounding, i.e. the run step, the second one executes the scoring and the rest of the analysis, i.e. the post processing step. 
+
+At this point one can install and run the code by doing
 ```shell
 poetry install
 poetry shell
-mkdir myinputdirectory
-mkdir myoutputdirectory
-cp -r /path/to/promptdir myinputdirectory/
-cp inputdir/config.yaml myinputdirectory
-pheval run -i myinputdirectory -r "malcorunner" -o myoutputdirectory -t tests
+mkdir outputdirectory
+cp -r /path/to/promptdir inputdir/
+pheval run -i inputdir -r "malcorunner" -o outputdirectory -t tests
 ```
 
-## Template Runner for PhEval
-
-This serves as a template repository designed for crafting a personalised PhEval runner. Presently, the runner executes a mock predictor found in `src/pheval_template/run/fake_predictor.py`. Nevertheless, the primary objective is to leverage this repository as a starting point to develop your own runner for your tool, allowing you to customise and override existing methods effortlessly, given that it already encompasses all the necessary setup for integration with PhEval. There are exemplary methods throughout the runner to provide an idea on how things could be implemented.
-
-## Installation
-
-```bash
-git clone https://github.com/yaseminbridges/pheval.template.git
-cd pheval.template
-poetry install
-poetry shell
-```
-
-## Configuring a run with the template runner
-
-A `config.yaml` should be located in the input directory and formatted like so:
-
-```yaml
-tool: template
-tool_version: 1.0.0
-variant_analysis: False
-gene_analysis: True
-disease_analysis: False
-tool_specific_configuration_options:
-```
-
-The testdata directory should include the subdirectory named `phenopackets` - which should contain phenopackets.
-
-## Run command
-
-```bash
-pheval run --input-dir /path/to/input_dir \
---runner templatephevalrunner \
---output-dir /path/to/output_dir \
---testdata-dir /path/to/testdata_dir
-```
-
-## Benchmark
-
-You can benchmark the run with the `pheval-utils benchmark` command:
-
-```bash
-pheval-utils benchmark --directory /path/to/output_directoy \
---phenopacket-dir /path/to/phenopacket_dir \
---output-prefix OUTPUT_PREFIX \
---gene-analysis \
---plot-type bar_cumulative
-```
-
-The path provided to the `--directory` parameter should be the same as the one provided to the `--output-dir` in the `pheval run` command
-
-## Personalising to your own tool
-
-If overriding this template to create your own runner implementation. There are key files that should change to fit with your runner implementation.
-
-1. The name of the Runner class in `src/pheval_template/runner.py` should be changed.
-2. Once the name of the Runner class has been customised, line 15 in `pyproject.toml` should also be changed to match the class name, then run `poetry lock` and `poetry install`
-
-The runner you give on the CLI will then change to the name of the runner class.
-
-You should also remove the `src/pheval_template/run/fake_predictor.py` and implement the running of your own tool. Methods in the post-processing can also be altered to process your own tools output.

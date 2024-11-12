@@ -29,6 +29,24 @@ def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
 def create_standardised_results(raw_results_dir: Path, output_dir: Path,
                                 output_file_name: str) -> pd.DataFrame:
     data = []
+
+    # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    # Maybe add JR code here? TODO
+    # Cleaning and grounding the sample differential diagnosis text
+    from malco.post_process.extended_scoring import clean_service_answer, ground_diagnosis_text_to_mondo
+    from oaklib import get_adapter
+    # Set up OAK SQLite implementation for MONDO
+    annotator = get_adapter("sqlite:obo:mondo")
+    cleaned_text = clean_service_answer(differential_diagnosis_text)
+
+    # Assert that the cleaning process returns non-empty text
+    assert cleaned_text != "", "Cleaning failed: the cleaned text is empty."
+
+    # Ground the text to MONDO
+    result = ground_diagnosis_text_to_mondo(annotator, cleaned_text, verbose=False)
+    # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
     for raw_result_path in raw_results_dir.iterdir():
         if raw_result_path.is_file():
             # Cannot have further files in raw_result_path!

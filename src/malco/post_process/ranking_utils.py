@@ -95,7 +95,7 @@ def compute_mrr_and_ranks(
         for df in results_data:
             # For each label in the results file, find if the correct term is ranked
             df["rank"] = df.groupby("label")["score"].rank(ascending=False, method="first")
-            label_4_non_eng = df["label"].str.replace("_[a-z][a-z]-prompt", "_en-prompt", regex=True)
+            label_4_non_eng = df["label"].str.replace("_[a-z][a-z]-prompt", "_en-prompt", regex=True) #TODO is bug here?
 
             # df['correct_term'] is an OMIM
             # df['term'] is Mondo or OMIM ID, or even disease label

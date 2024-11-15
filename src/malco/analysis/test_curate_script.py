@@ -26,6 +26,7 @@ data = []
 
 if some_yaml_res.is_file():
     all_results = read_raw_result_yaml(some_yaml_res)
+    j = 0
     for this_result in all_results:
         extracted_object = this_result.get("extracted_object")
         if extracted_object: # Necessary because this is how I keep track of multiple runs
@@ -37,7 +38,7 @@ if some_yaml_res.is_file():
 
             label = extracted_object.get('label') # pubmed id 
             # terms will now ONLY contain MONDO IDs OR 'N/A'. The latter should be dealt with downstream
-            terms = [i[1][0] for i in result] 
+            terms = [i[1][0][0] for i in result] 
             #terms = extracted_object.get('terms') # list of strings, the mondo id or description
             if terms:
             # Note, the if allows for rerunning ppkts that failed due to connection issues
@@ -47,3 +48,6 @@ if some_yaml_res.is_file():
                 rank_list = [ i+1 for i in range(num_terms)]
                 for term, scr, rank in zip(terms, score, rank_list):
                     data.append({'label': label, 'term': term, 'score': scr, 'rank': rank})
+        if j>20:
+            break
+        j += 1

@@ -6,6 +6,7 @@ from curategpt.store import get_store
 from typing import List, Tuple
 
 # Read in OpenAI key file (for curategpt grounding)
+#TODO 
 key_file_path = os.path.expanduser(r"~/Library/Application Support/ontology-access-kit/openai-apikey.txt")
 # Read the key from the file and set the environment variable
 with open(key_file_path, "r") as key_file:

@@ -13,19 +13,21 @@ setuptools = "^69.5.1"
 shelved-cache = "^0.3.1"
 curategpt = "^0.2.2"
 
-
 [tool.poetry.plugins."pheval.plugins"]
 template = "malco.runner:MalcoRunner"
 
-[tool.poetry.dev-dependencies]
-pytest = "^7.1.2"
-pylint = "^2.15.6"
-pycodestyle = "^2.10.0"
-coverage = "^6.5.0"
-ontogpt = {git = "https://github.com/monarch-initiative/ontogpt.git", tag = "v1.0.3"}
 
 [tool.poetry.group.dev.dependencies]
 tox = "^4.15.0"
+coverage = "^7.5.0"
+pytest = "^7.1.2"
+pylint = "^2.15.6"
+pycodestyle = "^2.10.0"
+pytest-cov = "^6.0.0"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.5.44"
+mkdocstrings = {extras = ["python"], version = "^0.27.0"}
+ontogpt = {git = "https://github.com/monarch-initiative/ontogpt.git", tag = "v1.0.3"}
 
 [tool.pytest.ini_options]
 pythonpath = [

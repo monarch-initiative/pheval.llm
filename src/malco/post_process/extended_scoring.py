@@ -5,13 +5,6 @@ from oaklib.interfaces.text_annotator_interface import TextAnnotatorInterface
 from curategpt.store import get_store
 from typing import List, Tuple
 
-# Read in OpenAI key file (for curategpt grounding)
-#TODO 
-key_file_path = os.path.expanduser(r"~/Library/Application Support/ontology-access-kit/openai-apikey.txt")
-# Read the key from the file and set the environment variable
-with open(key_file_path, "r") as key_file:
-    openai_api_key = key_file.read().strip()
-os.environ["OPENAI_API_KEY"] = openai_api_key
 
 # Compile a regex pattern to detect lines starting with "Differential Diagnosis:"
 dd_re = re.compile(r"^[^A-z]*Differential Diagnosis")
@@ -131,9 +124,8 @@ def perform_oak_grounding(
     else:
         match_type = "exact" if exact_match else "inexact"
         if verbose:
-            #logging.warning(f"No {match_type} grounded IDs found for: {diagnosis}")
+            print(f"No {match_type} grounded IDs found for: {diagnosis}")
             pass 
-            #TODO ?
         return [('N/A', 'No grounding found')]
 
 # Now, integrate curategpt into your ground_diagnosis_text_to_mondo function
@@ -143,7 +135,7 @@ def ground_diagnosis_text_to_mondo(
     verbose: bool = False,
     include_list: List[str] = ["MONDO:"],
     use_ontogpt_grounding: bool = True,
-    curategpt_path: str = "../curategpt/stagedb/", #TODO make nicer
+    curategpt_path: str = "../curategpt/stagedb/", 
     curategpt_collection: str = "ont_mondo",
     curategpt_database_type: str = "chromadb"
 ) -> List[Tuple[str, List[Tuple[str, str]]]]:

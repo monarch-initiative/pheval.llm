@@ -49,7 +49,7 @@ def compute_mrr_and_ranks(
     output_dir = output_dir / out_subdir
     results_data = []
     results_files = []
-    num_ppkt = 0
+    num_ppkt = {}
     pc2_cache_file = str(out_caches / "score_grounded_result_cache")
     pc2 = PersistentCache(LRUCache, pc2_cache_file, maxsize=524288)        
     pc1_cache_file = str(out_caches / "omim_mappings_cache")
@@ -59,15 +59,13 @@ def compute_mrr_and_ranks(
     pc2.hits = pc2.misses = 0
     PersistentCache.cache_info = cache_info
     
-
+    mode_index = 0
     for subdir, dirs, files in os.walk(output_dir):
         for filename in files:
             if filename.startswith("result") and filename.endswith(".tsv"):
                 file_path = os.path.join(subdir, filename)
                 df = pd.read_csv(file_path, sep="\t")
-                num_ppkt = df["label"].nunique() 
-                #TODO this just picks the number of ppkts of the last dirs...
-                # num_ppkt should be a list with one entry per model/language...
+                num_ppkt[subdir.split('/')[-1]] = df["label"].nunique() 
                 results_data.append(df)
                 # Append both the subdirectory relative to output_dir and the filename
                 results_files.append(os.path.relpath(file_path, output_dir))
@@ -81,7 +79,7 @@ def compute_mrr_and_ranks(
     label_to_correct_term = answers.set_index("label")["term"].to_dict()
     # Calculate the Mean Reciprocal Rank (MRR) for each file
     mrr_scores = []
-    header = [comparing, "n1", "n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10", "n10p", "nf"]
+    header = [comparing, "n1", "n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10", "n10p", "nf", 'num_cases']
     rank_df = pd.DataFrame(0, index=np.arange(len(results_files)), columns=header)
 
     cache_file = out_caches / "cache_log.txt"
@@ -167,7 +165,8 @@ def compute_mrr_and_ranks(
     pc1.close()
     pc2.close()
     
-
+    for modelname in num_ppkt.keys():
+        rank_df.loc[rank_df['model']==modelname,'num_cases'] = num_ppkt[modelname]
     data_dir = output_dir / "rank_data"
     data_dir.mkdir(exist_ok=True)
     topn_file_name = "topn_result.tsv"
@@ -185,15 +184,14 @@ def compute_mrr_and_ranks(
         writer.writerow(mrr_scores)
 
     df = pd.read_csv(topn_file, delimiter='\t')
-    df["top1"] = df['n1']
-    df["top3"] = df["n1"] + df["n2"] + df["n3"]
-    df["top5"] = df["top3"] + df["n4"] + df["n5"]
-    df["top10"] = df["top5"] + df["n6"] + df["n7"] + df["n8"] + df["n9"] + df["n10"]
-    df["not_found"] = df["nf"]
+    df["top1"] = (df['n1']) / df["num_cases"]
+    df["top3"] = (df["n1"] + df["n2"] + df["n3"] ) / df["num_cases"]
+    df["top5"] = (df["n1"] + df["n2"] + df["n3"] + df["n4"] + df["n5"] ) / df["num_cases"]
+    df["top10"] = (df["n1"] + df["n2"] + df["n3"] + df["n4"] + df["n5"] + df["n6"] + df["n7"] + df["n8"] + df["n9"] + df["n10"] ) / df["num_cases"]
+    df["not_found"] = (df["nf"]) / df["num_cases"]
     
     df_aggr = pd.DataFrame()
-    df_aggr = pd.melt(df, id_vars=comparing, value_vars=["top1", "top3", "top5", "top10", "not_found"], var_name="Rank_in", value_name="counts")
-    df_aggr["percentage"] = df_aggr["counts"]/num_ppkt
+    df_aggr = pd.melt(df, id_vars=comparing, value_vars=["top1", "top3", "top5", "top10", "not_found"], var_name="Rank_in", value_name="percentage")
 
     # If "topn_aggr.tsv" already exists, prepend "old_"
     # It's the user's responsibility to know only up to 2 versions can exist, then data is lost

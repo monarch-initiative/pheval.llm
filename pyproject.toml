@@ -12,6 +12,7 @@ pheval = "^0.3.2"
 setuptools = "^69.5.1"
 shelved-cache = "^0.3.1"
 curategpt = "^0.2.2"
+psutil = "^6.1.0"
 
 [tool.poetry.plugins."pheval.plugins"]
 template = "malco.runner:MalcoRunner"

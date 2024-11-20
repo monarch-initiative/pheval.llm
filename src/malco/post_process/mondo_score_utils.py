@@ -1,16 +1,14 @@
+from typing import List
+
+from cachetools.keys import hashkey
 from oaklib.datamodels.vocabulary import IS_A
 from oaklib.interfaces import MappingProviderInterface
-from pathlib import Path
-
-from typing import List 
-from cachetools.keys import hashkey
-
 
 FULL_SCORE = 1.0
 PARTIAL_SCORE = 0.5
 
 
-def omim_mappings(term: str, adapter) -> List[str]: 
+def omim_mappings(term: str, adapter) -> List[str]:
     """
     Get the OMIM mappings for a term.
 
@@ -26,7 +24,7 @@ def omim_mappings(term: str, adapter) -> List[str]:
 
     Returns:
         str: The OMIM mappings.
-    """   
+    """
     omims = []
     for m in adapter.sssom_mappings([term], source="OMIM"):
         if m.predicate_id == "skos:exactMatch":
@@ -45,13 +43,13 @@ def score_grounded_result(prediction: str, ground_truth: str, mondo, cache=None)
 
     The predicted Mondo is equivalent to the ground truth OMIM
     (via skos:exactMatches in Mondo):
-    
+
     >>> score_grounded_result("MONDO:0007566", "OMIM:132800", get_adapter("sqlite:obo:mondo"))
     1.0
 
     The predicted Mondo is a disease entity that groups multiple
     OMIMs, one of which is the ground truth:
-    
+
     >>> score_grounded_result("MONDO:0008029", "OMIM:158810", get_adapter("sqlite:obo:mondo"))
     0.5
 
@@ -65,12 +63,11 @@ def score_grounded_result(prediction: str, ground_truth: str, mondo, cache=None)
     """
     if not isinstance(mondo, MappingProviderInterface):
         raise ValueError("Adapter is not an MappingProviderInterface")
-    
+
     if prediction == ground_truth:
         # predication is the correct OMIM
         return FULL_SCORE
 
-    
     ground_truths = get_ground_truth_from_cache_or_compute(prediction, mondo, cache)
     if ground_truth in ground_truths:
         # prediction is a MONDO that directly maps to a correct OMIM
@@ -84,14 +81,15 @@ def score_grounded_result(prediction: str, ground_truth: str, mondo, cache=None)
             return PARTIAL_SCORE
     return 0.0
 
+
 def get_ground_truth_from_cache_or_compute(
-    term, 
-    adapter, 
+    term,
+    adapter,
     cache,
 ):
     if cache is None:
         return omim_mappings(term, adapter)
-        
+
     k = hashkey(term)
     try:
         ground_truths = cache[k]
@@ -102,4 +100,3 @@ def get_ground_truth_from_cache_or_compute(
         cache[k] = ground_truths
         cache.misses += 1
     return ground_truths
-

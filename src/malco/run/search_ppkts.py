@@ -1,23 +1,23 @@
 import os
-import yaml
 import shutil
+
 from malco.post_process.post_process_results_format import read_raw_result_yaml
 
-    
+
 def search_ppkts(input_dir, prompt_dir, raw_results_dir, lang_or_model):
     """
     Check what ppkts have already been computed in current output dir, for current run parameters.
-    
-    ontogpt will run every .txt that is in inputdir, we need a tmp inputdir 
+
+    ontogpt will run every .txt that is in inputdir, we need a tmp inputdir
     excluding already run cases. Source of truth is the results.yaml output by ontogpt.
     Only extracted_object containing terms is considered successfully run.
 
-    Note that rerunning 
+    Note that rerunning
     """
-    
+
     # List of "labels" that are already present in results.yaml iff terms is not None
     files = []
-    
+
     yaml_file = f"{raw_results_dir}/{lang_or_model}/results.yaml"
     if os.path.isfile(yaml_file):
         # tmp inputdir contains prompts yet to be computed for a given model (pars set)
@@ -28,19 +28,18 @@ def search_ppkts(input_dir, prompt_dir, raw_results_dir, lang_or_model):
         for this_result in all_results:
             extracted_object = this_result.get("extracted_object")
             if extracted_object:
-                label = extracted_object.get('label')
-                terms = extracted_object.get('terms')
+                label = extracted_object.get("label")
+                terms = extracted_object.get("terms")
                 if terms:
                     # ONLY if terms is non-empty, it was successful
                     files.append(label)
     else:
         return prompt_dir
 
-    
     # prompts: ls prompt_dir
     promptfiles = []
-    for (dirpath, dirnames, filenames) in os.walk(prompt_dir):
-        promptfiles.extend(filenames) 
+    for _dirpath, _dirnames, filenames in os.walk(prompt_dir):
+        promptfiles.extend(filenames)
         break
 
     # foreach promptfile in original_inputdir

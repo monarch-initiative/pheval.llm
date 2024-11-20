@@ -1,7 +1,4 @@
-from pathlib import Path
-
 from malco.post_process.post_process_results_format import create_standardised_results
-import os
 
 
 def post_process(self) -> None:
@@ -25,12 +22,13 @@ def post_process(self) -> None:
             raw_results_lang.mkdir(exist_ok=True, parents=True)
             output_lang.mkdir(exist_ok=True, parents=True)
 
-            create_standardised_results(curategpt,
-                                        raw_results_dir=raw_results_lang,
-                                        output_dir=output_lang, 
-                                        output_file_name="results.tsv",
-                                        )
-            
+            create_standardised_results(
+                curategpt,
+                raw_results_dir=raw_results_lang,
+                output_dir=output_lang,
+                output_file_name="results.tsv",
+            )
+
     elif self.modality == "several_models":
         for model in models:
             raw_results_model = raw_results_dir / "multimodel" / model
@@ -38,8 +36,9 @@ def post_process(self) -> None:
             raw_results_model.mkdir(exist_ok=True, parents=True)
             output_model.mkdir(exist_ok=True, parents=True)
 
-            create_standardised_results(curategpt,
-                                        raw_results_dir=raw_results_model,
-                                        output_dir=output_model, 
-                                        output_file_name="results.tsv",
-                                        )
+            create_standardised_results(
+                curategpt,
+                raw_results_dir=raw_results_model,
+                output_dir=output_model,
+                output_file_name="results.tsv",
+            )

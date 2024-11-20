@@ -1,9 +1,9 @@
-from pathlib import Path
 import multiprocessing
-import subprocess
-import shutil
 import os
+import shutil
+import subprocess
 import typing
+from pathlib import Path
 
 from malco.run.search_ppkts import search_ppkts
 
@@ -13,7 +13,7 @@ def call_ontogpt(
     raw_results_dir: Path,
     input_dir: Path,
     model: str,
-    modality: typing.Literal['several_languages', 'several_models'],
+    modality: typing.Literal["several_languages", "several_models"],
 ) -> None:
     """
     Wrapper used for parallel execution of ontogpt.
@@ -28,15 +28,15 @@ def call_ontogpt(
     Returns:
         None
     """
-    prompt_dir = f'{input_dir}/prompts/'
-    if modality == 'several_languages':
+    prompt_dir = f"{input_dir}/prompts/"
+    if modality == "several_languages":
         lang_or_model_dir = lang
         prompt_dir += f"{lang_or_model_dir}/"
-    elif modality == 'several_models':
+    elif modality == "several_models":
         lang_or_model_dir = model
         prompt_dir += "en/"
     else:
-        raise ValueError('Not permitted run modality!\n')
+        raise ValueError("Not permitted run modality!\n")
 
     selected_indir = search_ppkts(input_dir, prompt_dir, raw_results_dir, lang_or_model_dir)
     yaml_file = f"{raw_results_dir}/{lang_or_model_dir}/results.yaml"
@@ -60,11 +60,12 @@ def call_ontogpt(
     process = subprocess.Popen(command, shell=True)
     process.communicate()
 
-    # Note: if file.txt.result is empty, what ends up in the yaml is still OK thanks to L39 in post_process_results_format.py
+    # Note: if file.txt.result is empty, what ends up in the yaml is still OK thanks
+    # to post_process_results_format.py
     print(f"Finished command for language {lang} and model {model}")
     try:
-        with open(yaml_file, 'r') as file2concat:
-            with open(old_yaml_file, 'a') as original_file:
+        with open(yaml_file, "r") as file2concat:
+            with open(old_yaml_file, "a") as original_file:
                 shutil.copyfileobj(file2concat, original_file)
         os.remove(yaml_file)
     except NameError:
@@ -73,8 +74,7 @@ def call_ontogpt(
         pass
 
 
-def run(self,
-        max_workers: int = None) -> None:
+def run(self, max_workers: int = None) -> None:
     """
     Run the tool to obtain the raw results.
 
@@ -85,7 +85,6 @@ def run(self,
         langs: Tuple of languages.
         max_workers: Maximum number of worker processes to use.
     """
-    testdata_dir = self.testdata_dir
     raw_results_dir = self.raw_results_dir
     input_dir = self.input_dir
     langs = self.languages
@@ -98,16 +97,26 @@ def run(self,
     if modality == "several_languages":
         with multiprocessing.Pool(processes=max_workers) as pool:
             try:
-                pool.starmap(call_ontogpt, [(lang, raw_results_dir / "multilingual",
-                             input_dir, "gpt-4o", modality) for lang in langs])
+                pool.starmap(
+                    call_ontogpt,
+                    [
+                        (lang, raw_results_dir / "multilingual", input_dir, "gpt-4o", modality)
+                        for lang in langs
+                    ],
+                )
             except FileExistsError as e:
-                raise ValueError('Did not clean up after last run, check tmp dir: \n' + e)
+                raise ValueError("Did not clean up after last run, check tmp dir: \n" + e)
 
     if modality == "several_models":
         # English only many models
         with multiprocessing.Pool(processes=max_workers) as pool:
             try:
-                pool.starmap(call_ontogpt, [("en", raw_results_dir / "multimodel",
-                             input_dir, model, modality) for model in models])
+                pool.starmap(
+                    call_ontogpt,
+                    [
+                        ("en", raw_results_dir / "multimodel", input_dir, model, modality)
+                        for model in models
+                    ],
+                )
             except FileExistsError as e:
-                raise ValueError('Did not clean up after last run, check tmp dir: \n' + e)
+                raise ValueError("Did not clean up after last run, check tmp dir: \n" + e)

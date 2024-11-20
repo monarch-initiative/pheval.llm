@@ -1,10 +1,8 @@
+from typing import List
+
+from cachetools.keys import hashkey
 from oaklib.datamodels.vocabulary import IS_A
 from oaklib.interfaces import MappingProviderInterface
-from pathlib import Path
-
-from typing import List
-from cachetools.keys import hashkey
-
 
 FULL_SCORE = 1.0
 PARTIAL_SCORE = 0.5

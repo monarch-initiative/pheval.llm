@@ -1,10 +1,11 @@
 import re
-import os
-from oaklib.interfaces.text_annotator_interface import TextAnnotationConfiguration
-from oaklib.interfaces.text_annotator_interface import TextAnnotatorInterface
-from curategpt.store import get_store
 from typing import List, Tuple
 
+from curategpt.store import get_store
+from oaklib.interfaces.text_annotator_interface import (
+    TextAnnotationConfiguration,
+    TextAnnotatorInterface,
+)
 
 # Compile a regex pattern to detect lines starting with "Differential Diagnosis:"
 dd_re = re.compile(r"^[^A-z]*Differential Diagnosis")
@@ -14,26 +15,28 @@ dd_re = re.compile(r"^[^A-z]*Differential Diagnosis")
 
 def clean_service_answer(answer: str) -> str:
     """Remove the 'Differential Diagnosis' header if present, and clean the first line."""
-    lines = answer.split('\n')
+    lines = answer.split("\n")
     # Filter out any line that starts with "Differential Diagnosis:"
     cleaned_lines = [line for line in lines if not dd_re.match(line)]
-    return '\n'.join(cleaned_lines)
+    return "\n".join(cleaned_lines)
+
 
 # Clean the diagnosis line by removing leading numbers, periods, asterisks, and spaces
 
 
 def clean_diagnosis_line(line: str) -> str:
     """Remove leading numbers, asterisks, and unnecessary punctuation/spaces from the diagnosis."""
-    line = re.sub(r'^\**\d+\.\s*', '', line)  # Remove leading numbers and periods
-    line = line.strip('*')  # Remove asterisks around the text
+    line = re.sub(r"^\**\d+\.\s*", "", line)  # Remove leading numbers and periods
+    line = line.strip("*")  # Remove asterisks around the text
     return line.strip()  # Strip any remaining spaces
+
 
 # Split a diagnosis into its main name and synonym if present
 
 
 def split_diagnosis_and_synonym(diagnosis: str) -> Tuple[str, str]:
     """Split the diagnosis into main name and synonym (if present in parentheses)."""
-    match = re.match(r'^(.*)\s*\((.*)\)\s*$', diagnosis)
+    match = re.match(r"^(.*)\s*\((.*)\)\s*$", diagnosis)
     if match:
         main_diagnosis, synonym = match.groups()
         return main_diagnosis.strip(), synonym.strip()
@@ -47,7 +50,7 @@ def perform_curategpt_grounding(
     database_type: str = "chromadb",
     limit: int = 1,
     relevance_factor: float = 0.23,
-    verbose: bool = False
+    verbose: bool = False,
 ) -> List[Tuple[str, str]]:
     """
     Use curategpt to perform grounding for a given diagnosis when initial attempts fail.
@@ -74,7 +77,11 @@ def perform_curategpt_grounding(
 
     # Filter results based on relevance factor (distance)
     if relevance_factor is not None:
-        results = [(obj, distance, _meta) for obj, distance, _meta in results if distance <= relevance_factor]
+        results = [
+            (obj, distance, _meta)
+            for obj, distance, _meta in results
+            if distance <= relevance_factor
+        ]
 
     # Limit the results to the specified number (limit)
     limited_results = results[:limit]
@@ -83,7 +90,7 @@ def perform_curategpt_grounding(
     pred_ids = []
     pred_labels = []
 
-    for obj, distance, _meta in limited_results:
+    for obj, _distance, _meta in limited_results:
         disease_mondo_id = obj.get("original_id")  # Use the 'original_id' field for Mondo ID
         disease_label = obj.get("label")
 
@@ -95,7 +102,7 @@ def perform_curategpt_grounding(
     if len(pred_ids) == 0:
         if verbose:
             print(f"No grounded IDs found for {diagnosis}")
-        return [('N/A', 'No grounding found')]
+        return [("N/A", "No grounding found")]
 
     return list(zip(pred_ids, pred_labels))
 
@@ -104,9 +111,9 @@ def perform_curategpt_grounding(
 def perform_oak_grounding(
     annotator: TextAnnotatorInterface,
     diagnosis: str,
-    exact_match: bool = True,
-    verbose: bool = False,
-    include_list: List[str] = ["MONDO:"],
+    exact_match: bool,
+    verbose: bool,
+    include_list: List[str],
 ) -> List[Tuple[str, str]]:
     """
     Perform grounding for a diagnosis. The 'exact_match' flag controls whether exact or inexact
@@ -133,7 +140,8 @@ def perform_oak_grounding(
         if verbose:
             print(f"No {match_type} grounded IDs found for: {diagnosis}")
             pass
-        return [('N/A', 'No grounding found')]
+        return [("N/A", "No grounding found")]
+
 
 # Now, integrate curategpt into your ground_diagnosis_text_to_mondo function
 
@@ -141,12 +149,12 @@ def perform_oak_grounding(
 def ground_diagnosis_text_to_mondo(
     annotator: TextAnnotatorInterface,
     differential_diagnosis: str,
-    verbose: bool = False,
-    include_list: List[str] = ["MONDO:"],
+    verbose: bool,
+    include_list: List[str],
     use_ontogpt_grounding: bool = True,
     curategpt_path: str = "../curategpt/stagedb/",
     curategpt_collection: str = "ont_mondo",
-    curategpt_database_type: str = "chromadb"
+    curategpt_database_type: str = "chromadb",
 ) -> List[Tuple[str, List[Tuple[str, str]]]]:
     results = []
 
@@ -159,21 +167,22 @@ def ground_diagnosis_text_to_mondo(
             continue
 
         # Try grounding the full line first (exact match)
-        grounded = perform_oak_grounding(annotator, clean_line, exact_match=True,
-                                         verbose=verbose, include_list=include_list)
+        grounded = perform_oak_grounding(
+            annotator, clean_line, exact_match=True, verbose=verbose, include_list=include_list
+        )
 
         # Try grounding with curategpt if no grounding is found
-        if use_ontogpt_grounding and grounded == [('N/A', 'No grounding found')]:
+        if use_ontogpt_grounding and grounded == [("N/A", "No grounding found")]:
             grounded = perform_curategpt_grounding(
                 diagnosis=clean_line,
                 path=curategpt_path,
                 collection=curategpt_collection,
                 database_type=curategpt_database_type,
-                verbose=verbose
+                verbose=verbose,
             )
 
         # If still no grounding is found, log the final failure
-        if grounded == [('N/A', 'No grounding found')]:
+        if grounded == [("N/A", "No grounding found")]:
             if verbose:
                 print(f"Final grounding failed for: {clean_line}")
 

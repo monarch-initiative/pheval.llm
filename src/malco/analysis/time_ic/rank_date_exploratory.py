@@ -14,10 +14,12 @@ which is needed for running
 """
 
 import pickle
-from pathlib import Path
-import pandas as pd
 import sys
+from pathlib import Path
+
 import numpy as np
+import pandas as pd
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Parse user input and set paths:
 model = str(sys.argv[1])
@@ -30,25 +32,36 @@ outdir = Path.cwd() / "src" / "malco" / "analysis" / "time_ic"
 # (1) HPOA for dates
 # HPOA import and setup
 hpoa_df = pd.read_csv(
-    hpoa_file_path, sep="\t", header=4, low_memory=False  # Necessary to suppress Warning we don't care about
+    hpoa_file_path,
+    sep="\t",
+    header=4,
+    low_memory=False,  # Necessary to suppress Warning we don't care about
 )
 
-labels_to_drop = ["disease_name", "qualifier", "hpo_id", "reference", "evidence",
-                  "onset", "frequency", "sex", "modifier", "aspect"]
+labels_to_drop = [
+    "disease_name",
+    "qualifier",
+    "hpo_id",
+    "reference",
+    "evidence",
+    "onset",
+    "frequency",
+    "sex",
+    "modifier",
+    "aspect",
+]
 hpoa_df = hpoa_df.drop(columns=labels_to_drop)
 
-hpoa_df['date'] = hpoa_df["biocuration"].str.extract(r'\[(.*?)\]')
-hpoa_df = hpoa_df.drop(columns='biocuration')
-hpoa_df = hpoa_df[hpoa_df['database_id'].str.startswith("OMIM")]
+hpoa_df["date"] = hpoa_df["biocuration"].str.extract(r"\[(.*?)\]")
+hpoa_df = hpoa_df.drop(columns="biocuration")
+hpoa_df = hpoa_df[hpoa_df["database_id"].str.startswith("OMIM")]
 
 hpoa_unique = hpoa_df.groupby("database_id").date.min()
 # Now length 8251, and e.g. hpoa_unique.loc["OMIM:620662"] -> '2024-04-15'
 
 
 # import df of LLM results
-rank_results_df = pd.read_csv(
-    ranking_results_filename, sep="\t"
-)
+rank_results_df = pd.read_csv(ranking_results_filename, sep="\t")
 
 
 # Go through results data and make set of found vs not found diseases.
@@ -58,15 +71,17 @@ rank_date_dict = {}
 ppkts = rank_results_df.groupby("label")[["term", "correct_term", "is_correct", "rank"]]
 for ppkt in ppkts:  # TODO 1st for ppkt in ppkts
     # ppkt is tuple ("filename", dataframe) --> ppkt[1] is a dataframe
-    disease = ppkt[1].iloc[0]['correct_term']
+    disease = ppkt[1].iloc[0]["correct_term"]
 
     if any(ppkt[1]["is_correct"]):
         found_diseases.append(disease)
         index_of_match = ppkt[1]["is_correct"].to_list().index(True)
         try:
             rank = ppkt[1].iloc[index_of_match]["rank"]  # inverse rank does not work well
-            rank_date_dict[ppkt[0]] = [rank.item(),
-                                       hpoa_unique.loc[ppkt[1].iloc[0]["correct_term"]]]
+            rank_date_dict[ppkt[0]] = [
+                rank.item(),
+                hpoa_unique.loc[ppkt[1].iloc[0]["correct_term"]],
+            ]
             # If ppkt[1].iloc[0]["correct_term"] is nan, then KeyError "e" is nan
         except (ValueError, KeyError) as e:
             print(f"Error {e} for {ppkt[0]}, disease {ppkt[1].iloc[0]['correct_term']}.")
@@ -74,8 +89,7 @@ for ppkt in ppkts:  # TODO 1st for ppkt in ppkts
     else:
         not_found_diseases.append(disease)
         try:
-            rank_date_dict[ppkt[0]] = [None,
-                                       hpoa_unique.loc[ppkt[1].iloc[0]["correct_term"]]]
+            rank_date_dict[ppkt[0]] = [None, hpoa_unique.loc[ppkt[1].iloc[0]["correct_term"]]]
         except (ValueError, KeyError) as e:
             # pass
             # TODO collect the below somewhere
@@ -86,7 +100,7 @@ for ppkt in ppkts:  # TODO 1st for ppkt in ppkts
 # len(rank_date_dict) --> 6625
 # len(ppkts) --> 6687
 
-with open(outdir / "rank_date_dict.pkl", 'wb') as f:
+with open(outdir / "rank_date_dict.pkl", "wb") as f:
     pickle.dump(rank_date_dict, f)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -120,19 +134,19 @@ never_found = notfound_set - found_set  # 213
 results_dict = {}  # turns out being 281 long
 
 # TODO get rid of next line, bzw hpoa_unique does not work for loop below
-hpoa_df.drop_duplicates(subset='database_id', inplace=True)
+hpoa_df.drop_duplicates(subset="database_id", inplace=True)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 for af in always_found:
     try:
-        results_dict[af] = [True, hpoa_df.loc[hpoa_df['database_id'] == af, 'date'].item()]
+        results_dict[af] = [True, hpoa_df.loc[hpoa_df["database_id"] == af, "date"].item()]
         # results_dict[af] = [True, hpoa_unique.loc[hpoa_unique['database_id'] == af, 'date'].item() ]
     except ValueError:
         print(f"No HPOA in always_found for {af}.")
 
 for nf in never_found:
     try:
-        results_dict[nf] = [False, hpoa_df.loc[hpoa_df['database_id'] == nf, 'date'].item()]
+        results_dict[nf] = [False, hpoa_df.loc[hpoa_df["database_id"] == nf, "date"].item()]
         # results_dict[nf] = [False, hpoa_unique.loc[hpoa_unique['database_id'] == nf, 'date'].item() ]
     except ValueError:
         print(f"No HPOA in never_found for {nf}.")
@@ -141,7 +155,7 @@ for nf in never_found:
 #    disease = ppkt[1].iloc[0]['correct_term']
 res_to_clean = pd.DataFrame.from_dict(results_dict).transpose()
 res_to_clean.columns = ["found", "date"]
-res_to_clean['date'] = pd.to_datetime(res_to_clean.date).values.astype(np.int64)
-final_avg = pd.DataFrame(pd.to_datetime(res_to_clean.groupby('found').mean()['date']))
+res_to_clean["date"] = pd.to_datetime(res_to_clean.date).values.astype(np.int64)
+final_avg = pd.DataFrame(pd.to_datetime(res_to_clean.groupby("found").mean()["date"]))
 print(final_avg)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

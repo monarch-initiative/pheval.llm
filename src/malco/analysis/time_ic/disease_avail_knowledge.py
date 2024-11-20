@@ -13,23 +13,23 @@ We use HPOA, we do not parse out disease genes discovered after 2008 though (fir
 
 `runoak -g hpoa_file -G hpoa -i hpo_file  information-content -p i --use-associations .all`
 """
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from scipy.stats import mannwhitneyu
-from scipy.stats import ttest_ind
-from scipy.stats import kstest
-from scipy.stats import chi2_contingency
-import sys
-import os
-import pandas as pd
-import numpy as np
+
 import datetime as dt
-from pathlib import Path
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-import seaborn as sns
 import json
-import re
+import os
 import pickle
+import re
+import sys
+from pathlib import Path
+
+import matplotlib.dates as mdates
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+from scipy.stats import chi2_contingency, kstest, mannwhitneyu, ttest_ind
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Parse input:
@@ -39,7 +39,7 @@ try:
     make_plots = str(sys.argv[2]) == "plot"
 except IndexError:
     make_plots = False
-    print("\nYou can pass \"plot\" as a second CLI argument and this will generate nice plots!\n")
+    print('\nYou can pass "plot" as a second CLI argument and this will generate nice plots!\n')
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # PATHS:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,12 +53,10 @@ ranking_results_filename = f"out_openAI_models/multimodel/{model}/full_df_result
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # IMPORT
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-with open(outdir / "rank_date_dict.pkl", 'rb') as f:
+with open(outdir / "rank_date_dict.pkl", "rb") as f:
     rank_date_dict = pickle.load(f)
 # import df of LLM results
-rank_results_df = pd.read_csv(
-    ranking_results_filename, sep="\t"
-)
+rank_results_df = pd.read_csv(ranking_results_filename, sep="\t")
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -71,7 +69,7 @@ ranks = []
 ranks_wo_none = []
 for key, data in rank_date_dict.items():
     r = data[0]
-    d = dt.datetime.strptime(data[1], '%Y-%m-%d').date()
+    d = dt.datetime.strptime(data[1], "%Y-%m-%d").date()
     dates.append(d)
     ranks.append(r)
     if r is not None:
@@ -115,9 +113,9 @@ for i, d in enumerate(years_only):
         else:
             cont_table[1][0] += 1
 
-df_contingency_table = pd.DataFrame(cont_table,
-                                    index=["found", "not_found"],
-                                    columns=["y<2010", "y>=2010"])
+df_contingency_table = pd.DataFrame(
+    cont_table, index=["found", "not_found"], columns=["y<2010", "y>=2010"]
+)
 print(df_contingency_table)
 print("H0: no correlation between column 1 and 2:")
 res = chi2_contingency(cont_table)
@@ -143,15 +141,15 @@ ppkts_with_missing_hpos = []
 for subdir, dirs, files in os.walk(original_ppkt_dir):
     # For each ppkt
     for filename in files:
-        if filename.endswith('.json'):
+        if filename.endswith(".json"):
             file_path = os.path.join(subdir, filename)
             with open(file_path, mode="r", encoding="utf-8") as read_file:
                 ppkt = json.load(read_file)
-            ppkt_id = re.sub('[^\\w]', '_', ppkt['id'])
+            ppkt_id = re.sub("[^\\w]", "_", ppkt["id"])
             ic = 0
             num_hpos = 0
             # For each HPO
-            for i in ppkt['phenotypicFeatures']:
+            for i in ppkt["phenotypicFeatures"]:
                 try:
                     if i["excluded"]:  # skip excluded
                         continue
@@ -178,33 +176,35 @@ for subdir, dirs, files in os.walk(original_ppkt_dir):
 missing_in_ic_dict_unique = set(missing_in_ic_dict)
 ppkts_with_missing_hpos = set(ppkts_with_missing_hpos)
 print(f"\nNumber of (unique) HPOs without IC-value is {len(missing_in_ic_dict_unique)}.")  # 65
-print(f"Number of ppkts with zero observed HPOs is {len(ppkts_with_zero_hpos)}. These are left out.")  # 141
+print(
+    f"Number of ppkts with zero observed HPOs is {len(ppkts_with_zero_hpos)}. These are left out."
+)  # 141
 # TODO check 141
 # 172
 print(
-    f"Number of ppkts where at least one HPO is missing its IC value is {len(ppkts_with_missing_hpos)}. These are left out from the average.\n")
+    f"Number of ppkts where at least one HPO is missing its IC value is {len(ppkts_with_missing_hpos)}. These are left out from the average.\n"
+)
 
-ppkt_ic_df = pd.DataFrame.from_dict(ppkt_ic, orient='index', columns=['avg(IC)'])
-ppkt_ic_df['Diagnosed'] = 0
+ppkt_ic_df = pd.DataFrame.from_dict(ppkt_ic, orient="index", columns=["avg(IC)"])
+ppkt_ic_df["Diagnosed"] = 0
 
 for ppkt in ppkts:
     if any(ppkt[1]["is_correct"]):
-        ppkt_label = ppkt[0].replace('_en-prompt.txt', '')
+        ppkt_label = ppkt[0].replace("_en-prompt.txt", "")
         if ppkt_label in ppkts_with_zero_hpos:
             continue
-        ppkt_ic_df.loc[ppkt_label, 'Diagnosed'] = 1
+        ppkt_ic_df.loc[ppkt_label, "Diagnosed"] = 1
 
 # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # See https://github.com/monarch-initiative/phenopacket-store/issues/157
-label_manual_removal = ["PMID_27764983_Family_1_individual__J",
-                        "PMID_35991565_Family_I__3"]
+label_manual_removal = ["PMID_27764983_Family_1_individual__J", "PMID_35991565_Family_I__3"]
 ppkt_ic_df = ppkt_ic_df.drop(label_manual_removal)
 # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # ppkt_ic_df['Diagnosed'].value_counts()
 # Diagnosed
 # 0.0    4182   64%
 # 1.0    2347   36%
-ppkt_ic_df.to_csv(outdir / "ppkt_ic.tsv", sep='\t', index=True)
+ppkt_ic_df.to_csv(outdir / "ppkt_ic.tsv", sep="\t", index=True)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # T-test: unlikely that the two samples are such due to sample bias.
@@ -212,7 +212,7 @@ ppkt_ic_df.to_csv(outdir / "ppkt_ic.tsv", sep='\t', index=True)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # One-sample Kolmogorov-Smirnov test: compares the underlying distribution F(x) of a sample
 # against a given distribution G(x), here the normal distribution
-kolsmirnov_result = kstest(ppkt_ic_df['avg(IC)'], 'norm')
+kolsmirnov_result = kstest(ppkt_ic_df["avg(IC)"], "norm")
 print(kolsmirnov_result, "\n")
 # When interpreting be careful, and I quote one answer from:
 # https://stats.stackexchange.com/questions/2492/is-normality-testing-essentially-useless
@@ -222,8 +222,8 @@ print(kolsmirnov_result, "\n")
 
 # --------------- t-test ---------------
 # TODO: regardless of above, our distributions are not normal. Discard t and add non-parametric U-test (Mann-Whitney)
-found_ic = list(ppkt_ic_df.loc[ppkt_ic_df['Diagnosed'] > 0, 'avg(IC)'])
-not_found_ic = list(ppkt_ic_df.loc[ppkt_ic_df['Diagnosed'] < 1, 'avg(IC)'])
+found_ic = list(ppkt_ic_df.loc[ppkt_ic_df["Diagnosed"] > 0, "avg(IC)"])
+not_found_ic = list(ppkt_ic_df.loc[ppkt_ic_df["Diagnosed"] < 1, "avg(IC)"])
 tresult = ttest_ind(found_ic, not_found_ic, equal_var=False)
 print("T-test result:\n", tresult, "\n")
 
@@ -234,11 +234,11 @@ print(f"U-test, u_value={u_value} and its associated p_val={p_of_u}", "\n")
 
 # --------------- plot ---------------
 if make_plots:
-    plt.hist(found_ic, bins=25, color='c', edgecolor='k', alpha=0.5, density=True)
-    plt.hist(not_found_ic, bins=25, color='r', edgecolor='k', alpha=0.5, density=True)
+    plt.hist(found_ic, bins=25, color="c", edgecolor="k", alpha=0.5, density=True)
+    plt.hist(not_found_ic, bins=25, color="r", edgecolor="k", alpha=0.5, density=True)
     plt.xlabel("Average Information Content")
     plt.ylabel("Counts")
-    plt.legend(['Successful Diagnosis', 'Unsuccessful Diagnosis'])
+    plt.legend(["Successful Diagnosis", "Unsuccessful Diagnosis"])
     plt.savefig(outdir / "inf_content_histograms.png")
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

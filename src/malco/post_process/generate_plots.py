@@ -1,8 +1,8 @@
-import seaborn as sns
+import csv
+
 import matplotlib.pyplot as plt
 import pandas as pd
-import os
-import csv
+import seaborn as sns
 
 # Make a nice plot, use it as function or as script
 
@@ -19,8 +19,8 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     else:
         name_string = str(len(languages))
 
-    with mrr_file.open('r', newline='') as f:
-        lines = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC, delimiter='\t', lineterminator='\n')
+    with mrr_file.open("r", newline="") as f:
+        lines = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC, delimiter="\t", lineterminator="\n")
         results_files = next(lines)
         mrr_scores = next(lines)
 
@@ -37,7 +37,7 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     plt.close()
 
     # Plotting bar-plots with top<n> ranks
-    df_aggr = pd.read_csv(topn_aggr_file, delimiter='\t')
+    df_aggr = pd.read_csv(topn_aggr_file, delimiter="\t")
 
     sns.barplot(x="Rank_in", y="percentage", data=df_aggr, hue=comparing)
 
@@ -46,6 +46,8 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     plt.ylim([0.0, 1.0])
     plt.title("Rank Comparison for Differential Diagnosis")
     plt.legend(title=comparing)
-    plot_path = plot_dir / ("barplot_" + name_string + "_" + comparing + "_" + str(num_ppkt) + "ppkt.png")
+    plot_path = plot_dir / (
+        "barplot_" + name_string + "_" + comparing + "_" + str(num_ppkt) + "ppkt.png"
+    )
     plt.savefig(plot_path)
     plt.close()

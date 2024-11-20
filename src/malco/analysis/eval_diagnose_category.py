@@ -1,16 +1,15 @@
-import pandas as pd
-import numpy as np
 import sys
 
-from oaklib.datamodels.vocabulary import IS_A, PART_OF
-from oaklib.interfaces import MappingProviderInterface
-from oaklib.interfaces import OboGraphInterface
-from oaklib.interfaces.obograph_interface import GraphTraversalMethod
-from oaklib import get_adapter
-
-from cachetools import cached, LRUCache
+import numpy as np
+import pandas as pd
+from cachetools import LRUCache, cached
 from cachetools.keys import hashkey
+from oaklib import get_adapter
+from oaklib.datamodels.vocabulary import IS_A, PART_OF
+from oaklib.interfaces import MappingProviderInterface, OboGraphInterface
+from oaklib.interfaces.obograph_interface import GraphTraversalMethod
 from shelved_cache import PersistentCache
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -31,6 +30,7 @@ def mondo_adapter() -> OboGraphInterface:
     """
     return get_adapter("sqlite:obo:mondo")
 
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -40,6 +40,7 @@ def mondo_mapping(term, adapter):
         if m.predicate_id == "skos:exactMatch":
             mondos.append(m.subject_id)
     return mondos
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -54,9 +55,11 @@ def find_category(omim_term, disease_categories, mondo):
         print(omim_term)
         return None
 
-    ancestor_list = mondo.ancestors(mondo_term,  # only IS_A->same result
-                                    # , reflexive=True) # method=GraphTraversalMethod.ENTAILMENT
-                                    predicates=[IS_A, PART_OF])
+    ancestor_list = mondo.ancestors(
+        mondo_term,  # only IS_A->same result
+        # , reflexive=True) # method=GraphTraversalMethod.ENTAILMENT
+        predicates=[IS_A, PART_OF],
+    )
 
     for mondo_ancestor in ancestor_list:
         if mondo_ancestor in disease_categories:
@@ -76,8 +79,9 @@ model = str(sys.argv[1])
 
 mondo = mondo_adapter()
 
-disease_categories = mondo.relationships(objects=["MONDO:0003847"],  # hereditary diseases
-                                         predicates=[IS_A, PART_OF])   # only IS_A->same result
+disease_categories = mondo.relationships(
+    objects=["MONDO:0003847"], predicates=[IS_A, PART_OF]  # hereditary diseases
+)  # only IS_A->same result
 # disease_categories = mondo.relationships(objects = ["MONDO:0700096"], # only IS_A->same result
 #                                         predicates=[IS_A, PART_OF])
 
@@ -92,9 +96,7 @@ filename = f"out_openAI_models/multimodel/{model}/full_df_results.tsv"
 # label   term    score   rank    correct_term    is_correct      reciprocal_rank
 # PMID_35962790_Family_B_Individual_3__II_6__en-prompt.txt        MONDO:0008675   1.0     1.0     OMIM:620545     False        0.0
 
-df = pd.read_csv(
-    filename, sep="\t"
-)
+df = pd.read_csv(filename, sep="\t")
 
 ppkts = df.groupby("label")[["term", "correct_term", "is_correct"]]
 count_fails = 0
@@ -126,7 +128,9 @@ for ppkt in ppkts:
             continue
 
 print("\n\n", "===" * 15, "\n")
-print(f"For whatever reason find_category() returned None in {count_fails} cases, wich follow:\n")  # print to file!
+print(
+    f"For whatever reason find_category() returned None in {count_fails} cases, wich follow:\n"
+)  # print to file!
 # print(contingency_table)
 print("\n\nOf which the following are unique OMIMs:\n", set(list(omim_wo_match.values())))
 # print(omim_wo_match, "\n\nOf which the following are unique OMIMs:\n", set(list(omim_wo_match.values())))

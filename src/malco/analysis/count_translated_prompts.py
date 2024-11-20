@@ -1,20 +1,22 @@
 import os
 import re
+
 fp = "/Users/leonardo/IdeaProjects/phenopacket2prompt/prompts/"
 
-langs = ["en",
-         "es",
-         "de",
-         "it",
-         "nl",
-         "tr",
-         "zh",
-         ]
+langs = [
+    "en",
+    "es",
+    "de",
+    "it",
+    "nl",
+    "tr",
+    "zh",
+]
 
 promptfiles = {}
 for lang in langs:
     promptfiles[lang] = []
-    for (dirpath, dirnames, filenames) in os.walk(fp + lang):
+    for dirpath, dirnames, filenames in os.walk(fp + lang):
         for fn in filenames:
             fn = fn[0:-14]  # TODO may be problematic if there are 2 "_" before "{langcode}-"
             # Maybe something along the lines of other script disease_avail_knowledge.py
@@ -24,13 +26,13 @@ for lang in langs:
 
 intersection = set()
 
-enset = set(promptfiles['en'])
-esset = set(promptfiles['es'])
-deset = set(promptfiles['de'])
-itset = set(promptfiles['it'])
-nlset = set(promptfiles['nl'])
-zhset = set(promptfiles['zh'])
-trset = set(promptfiles['tr'])
+enset = set(promptfiles["en"])
+esset = set(promptfiles["es"])
+deset = set(promptfiles["de"])
+itset = set(promptfiles["it"])
+nlset = set(promptfiles["nl"])
+zhset = set(promptfiles["zh"])
+trset = set(promptfiles["tr"])
 
 intersection = enset & esset & deset & itset & nlset & zhset & trset
 

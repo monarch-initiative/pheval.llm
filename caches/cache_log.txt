@@ -164,3 +164,17 @@ CacheInfo: hits=176206, misses=6703, maxsize=524288, currsize=29413
 omim_mappings cache info:
 CacheInfo: hits=80073, misses=2993, maxsize=524288, currsize=23613
 
+Timestamp: 20241120-174511
+
+gpt-4o/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=45, misses=30, maxsize=524288        , currsize=29443
+omim_mappings cache info:
+CacheInfo: hits=615, misses=5, maxsize=524288        , currsize=23618
+
+gpt-4o-mini/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=98, misses=70, maxsize=524288        , currsize=29483
+omim_mappings cache info:
+CacheInfo: hits=1153, misses=14, maxsize=524288        , currsize=23627
+

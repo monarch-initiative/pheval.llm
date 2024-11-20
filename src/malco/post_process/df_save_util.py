@@ -1,6 +1,5 @@
-import shutil
 import os
-import pandas as pd
+import shutil
 
 
 def safe_save_tsv(path, filename, df):
@@ -13,4 +12,4 @@ def safe_save_tsv(path, filename, df):
             os.remove(old_full_path)
         shutil.copy(full_path, old_full_path)
         os.remove(full_path)
-    df.to_csv(full_path, sep='\t', index=False)
+    df.to_csv(full_path, sep="\t", index=False)

@@ -7,13 +7,14 @@ import typing
 
 from malco.run.search_ppkts import search_ppkts
 
+
 def call_ontogpt(
-    lang: str, 
-    raw_results_dir: Path, 
-    input_dir: Path, 
-    model: str, 
+    lang: str,
+    raw_results_dir: Path,
+    input_dir: Path,
+    model: str,
     modality: typing.Literal['several_languages', 'several_models'],
-)-> None:
+) -> None:
     """
     Wrapper used for parallel execution of ontogpt.
 
@@ -37,9 +38,9 @@ def call_ontogpt(
     else:
         raise ValueError('Not permitted run modality!\n')
 
-    selected_indir  = search_ppkts(input_dir, prompt_dir, raw_results_dir, lang_or_model_dir)
+    selected_indir = search_ppkts(input_dir, prompt_dir, raw_results_dir, lang_or_model_dir)
     yaml_file = f"{raw_results_dir}/{lang_or_model_dir}/results.yaml"
-    
+
     if os.path.isfile(yaml_file):
         old_yaml_file = yaml_file
         yaml_file = f"{raw_results_dir}/{lang_or_model_dir}/new_results.yaml"
@@ -97,15 +98,16 @@ def run(self,
     if modality == "several_languages":
         with multiprocessing.Pool(processes=max_workers) as pool:
             try:
-                pool.starmap(call_ontogpt, [(lang, raw_results_dir / "multilingual", input_dir, "gpt-4o", modality) for lang in langs])
+                pool.starmap(call_ontogpt, [(lang, raw_results_dir / "multilingual",
+                             input_dir, "gpt-4o", modality) for lang in langs])
             except FileExistsError as e:
                 raise ValueError('Did not clean up after last run, check tmp dir: \n' + e)
-
 
     if modality == "several_models":
         # English only many models
         with multiprocessing.Pool(processes=max_workers) as pool:
             try:
-                pool.starmap(call_ontogpt, [("en", raw_results_dir / "multimodel", input_dir, model, modality) for model in models])
+                pool.starmap(call_ontogpt, [("en", raw_results_dir / "multimodel",
+                             input_dir, model, modality) for model in models])
             except FileExistsError as e:
                 raise ValueError('Did not clean up after last run, check tmp dir: \n' + e)

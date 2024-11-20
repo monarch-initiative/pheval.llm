@@ -2,6 +2,7 @@
 import csv
 import sys
 
+
 def import_inputdata(self) -> None:
     """
     Example input file is located in ``self.input_dir`` and named run_parameters.csv
@@ -23,7 +24,7 @@ def import_inputdata(self) -> None:
     Meaning run multilingual prompts with those 5 aforementioned languages, and only execute the function postprocess, not run.
     """
     with open(self.input_dir / "run_parameters.csv", 'r') as pars:
-        lines = csv.reader(pars, quoting = csv.QUOTE_NONNUMERIC, delimiter = ',', lineterminator='\n')
+        lines = csv.reader(pars, quoting=csv.QUOTE_NONNUMERIC, delimiter=',', lineterminator='\n')
         in_langs = next(lines)
         in_models = next(lines)
         in_what_to_run = next(lines)
@@ -33,17 +34,17 @@ def import_inputdata(self) -> None:
     if (l > 1 and m > 1):
         sys.exit("Error, either run multiple languages or models, not both, exiting...")
     elif l == 1 and m >= 1:
-        if in_langs[0]=="en":
-            self.modality = "several_models" # English and more than 1 model defaults to multiple models
+        if in_langs[0] == "en":
+            self.modality = "several_models"  # English and more than 1 model defaults to multiple models
         else:
             if m > 1:
                 sys.exit("Error, only English and multiple models supported, exiting...")
-            else: # m==1
-                self.modality = "several_languages" # non English defaults to multiple languages
-    elif l > 1: 
+            else:  # m==1
+                self.modality = "several_languages"  # non English defaults to multiple languages
+    elif l > 1:
         self.modality = "several_languages"
 
     self.languages = tuple(in_langs)
-    self.models =  tuple(in_models)
+    self.models = tuple(in_models)
     self.do_run_step = in_what_to_run[0]          # only run the run part of the code
     self.do_postprocess_step = in_what_to_run[1]  # only run the postprocess part of the code

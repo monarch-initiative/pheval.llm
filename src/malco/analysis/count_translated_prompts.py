@@ -14,9 +14,9 @@ langs = ["en",
 promptfiles = {}
 for lang in langs:
     promptfiles[lang] = []
-    for (dirpath, dirnames, filenames) in os.walk(fp+lang):
+    for (dirpath, dirnames, filenames) in os.walk(fp + lang):
         for fn in filenames:
-            fn = fn[0:-14] # TODO may be problematic if there are 2 "_" before "{langcode}-"
+            fn = fn[0:-14]  # TODO may be problematic if there are 2 "_" before "{langcode}-"
             # Maybe something along the lines of other script disease_avail_knowledge.py
             # ppkt_label = ppkt[0].replace('_en-prompt.txt','')
             promptfiles[lang].append(fn)

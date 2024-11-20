@@ -1,11 +1,12 @@
-import pandas as pd 
+import pandas as pd
 from typing import List
 
 import pandas as pd
 import yaml
-#from malco.post_process.post_process_results_format import read_raw_result_yaml
+# from malco.post_process.post_process_results_format import read_raw_result_yaml
 from pathlib import Path
 import sys
+
 
 def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
     """
@@ -18,16 +19,17 @@ def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
         dict: Contents of the raw result file.
     """
     with open(raw_result_path, 'r') as raw_result:
-        return list(yaml.safe_load_all(raw_result.read().replace(u'\x04','')))  # Load and convert to list
+        return list(yaml.safe_load_all(raw_result.read().replace(u'\x04', '')))  # Load and convert to list
+
 
 unique_ppkts = {}
-#model=str(sys.argv[1])
+# model=str(sys.argv[1])
 models = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4", "gpt-4o"]
 for model in models:
-    print("==="*10, "\nEvaluating now: ", model, "\n"+"==="*10)
-   
+    print("===" * 10, "\nEvaluating now: ", model, "\n" + "===" * 10)
+
     yamlfile = f"out_openAI_models/raw_results/multimodel/{model}/results.yaml"
-    all_results=read_raw_result_yaml(yamlfile)
+    all_results = read_raw_result_yaml(yamlfile)
 
     counter = 0
     labelvec = []

@@ -27,10 +27,10 @@ def post_process(self) -> None:
 
             create_standardised_results(curategpt,
                                         raw_results_dir=raw_results_lang,
-                                        output_dir=output_lang, 
+                                        output_dir=output_lang,
                                         output_file_name="results.tsv",
                                         )
-            
+
     elif self.modality == "several_models":
         for model in models:
             raw_results_model = raw_results_dir / "multimodel" / model
@@ -40,6 +40,6 @@ def post_process(self) -> None:
 
             create_standardised_results(curategpt,
                                         raw_results_dir=raw_results_model,
-                                        output_dir=output_model, 
+                                        output_dir=output_model,
                                         output_file_name="results.tsv",
                                         )

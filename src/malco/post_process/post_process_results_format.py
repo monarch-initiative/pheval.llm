@@ -11,7 +11,6 @@ from pheval.utils.phenopacket_utils import GeneIdentifierUpdater, create_hgnc_di
 from malco.post_process.df_save_util import safe_save_tsv
 from malco.post_process.extended_scoring import clean_service_answer, ground_diagnosis_text_to_mondo
 from oaklib import get_adapter
- 
 
 
 def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
@@ -25,15 +24,15 @@ def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
         dict: Contents of the raw result file.
     """
     with open(raw_result_path, 'r') as raw_result:
-        return list(yaml.safe_load_all(raw_result.read().replace(u'\x04','')))  # Load and convert to list
+        return list(yaml.safe_load_all(raw_result.read().replace(u'\x04', '')))  # Load and convert to list
 
 
 def create_standardised_results(curategpt: bool,
-                                raw_results_dir: Path, 
+                                raw_results_dir: Path,
                                 output_dir: Path,
                                 output_file_name: str
                                 ) -> pd.DataFrame:
-    
+
     data = []
     if curategpt:
         annotator = get_adapter("sqlite:obo:mondo")
@@ -48,20 +47,20 @@ def create_standardised_results(curategpt: bool,
                 if extracted_object:
                     label = extracted_object.get('label')
                     terms = extracted_object.get('terms')
-                    if curategpt and terms: 
+                    if curategpt and terms:
                         ontogpt_text = this_result.get("input_text")
                         # its a single string, should be parseable through curategpt
                         cleaned_text = clean_service_answer(ontogpt_text)
                         assert cleaned_text != "", "Cleaning failed: the cleaned text is empty."
                         result = ground_diagnosis_text_to_mondo(annotator, cleaned_text, verbose=False)
                         # terms will now ONLY contain MONDO IDs OR 'N/A'. The latter should be dealt with downstream
-                        terms = [i[1][0][0] for i in result] # MONDO_ID                 
+                        terms = [i[1][0][0] for i in result]  # MONDO_ID
                     if terms:
-                    # Note, the if allows for rerunning ppkts that failed due to connection issues
-                    # We can have multiple identical ppkts/prompts in results.yaml as long as only one has a terms field
+                        # Note, the if allows for rerunning ppkts that failed due to connection issues
+                        # We can have multiple identical ppkts/prompts in results.yaml as long as only one has a terms field
                         num_terms = len(terms)
                         score = [1 / (i + 1) for i in range(num_terms)]  # score is reciprocal rank
-                        rank_list = [ i+1 for i in range(num_terms)]
+                        rank_list = [i + 1 for i in range(num_terms)]
                         for term, scr, rank in zip(terms, score, rank_list):
                             data.append({'label': label, 'term': term, 'score': scr, 'rank': rank})
 
@@ -163,6 +162,7 @@ class ConvertToPhEvalResult:
                 )
             )
         return pheval_result
+
 
 '''
 def create_standardised_results(raw_results_dir: Path, output_dir: Path) -> None:

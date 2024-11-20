@@ -4,8 +4,8 @@ import pandas as pd
 mfile = "../outputdir_all_2024_07_04/en/results.tsv"
 
 df = pd.read_csv(
-        mfile, sep="\t" #, header=None, names=["description", "term", "label"]
-    )
+    mfile, sep="\t"  # , header=None, names=["description", "term", "label"]
+)
 
 terms = df["term"]
 counter = 0

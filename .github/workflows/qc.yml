@@ -50,6 +50,8 @@ jobs:
         with:
           virtualenvs-create: true
           virtualenvs-in-project: true
+      - name: Install tox
+        run: pip install tox tox-gh-actions
       - name: Run Doctests
         run: poetry run tox -e doctest
       - name: Generate coverage results

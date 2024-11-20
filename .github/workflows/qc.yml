@@ -50,8 +50,6 @@ jobs:
         with:
           virtualenvs-create: true
           virtualenvs-in-project: true
-      - name: Install dependencies
-        run: poetry install --no-interaction
       - name: Run Doctests
         run: poetry run tox -e doctest
       - name: Generate coverage results

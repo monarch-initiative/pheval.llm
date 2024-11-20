@@ -56,7 +56,7 @@ jobs:
         run: poetry run tox -e doctest
       - name: Generate coverage results
         run: |
-          poetry run pip install -U pytest
+          poetry run pip install -U pytest coverage
           poetry run coverage run -p -m pytest tests/
           poetry run coverage combine
           poetry run coverage xml

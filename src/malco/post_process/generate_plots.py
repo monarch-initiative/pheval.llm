@@ -10,6 +10,9 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     plot_dir = data_dir.parents[0] / "plots"
     plot_dir.mkdir(exist_ok=True)
 
+    # For plot filenam labeling use lowest number of ppkt available for all models/languages etc.
+    num_ppkt = min(num_ppkt.values())
+
     if comparing=="model":
         name_string = str(len(models))
     else:
@@ -39,6 +42,7 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
 
     plt.xlabel("Number of Ranks in")
     plt.ylabel("Percentage of Cases")
+    plt.ylim([0.0, 1.0])
     plt.title("Rank Comparison for Differential Diagnosis")
     plt.legend(title=comparing)
     plot_path = plot_dir /  ("barplot_" + name_string + "_" + comparing + "_" + str(num_ppkt) + "ppkt.png")

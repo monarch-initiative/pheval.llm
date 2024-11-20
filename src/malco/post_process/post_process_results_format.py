@@ -9,7 +9,9 @@ from pheval.post_processing.post_processing import PhEvalGeneResult, generate_ph
 from pheval.utils.file_utils import all_files
 from pheval.utils.phenopacket_utils import GeneIdentifierUpdater, create_hgnc_dict
 from malco.post_process.df_save_util import safe_save_tsv
-
+from malco.post_process.extended_scoring import clean_service_answer, ground_diagnosis_text_to_mondo
+from oaklib import get_adapter
+ 
 
 
 def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
@@ -26,9 +28,16 @@ def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
         return list(yaml.safe_load_all(raw_result.read().replace(u'\x04','')))  # Load and convert to list
 
 
-def create_standardised_results(raw_results_dir: Path, output_dir: Path,
-                                output_file_name: str) -> pd.DataFrame:
+def create_standardised_results(curategpt: bool,
+                                raw_results_dir: Path, 
+                                output_dir: Path,
+                                output_file_name: str
+                                ) -> pd.DataFrame:
+    
     data = []
+    if curategpt:
+        annotator = get_adapter("sqlite:obo:mondo")
+
     for raw_result_path in raw_results_dir.iterdir():
         if raw_result_path.is_file():
             # Cannot have further files in raw_result_path!
@@ -39,6 +48,14 @@ def create_standardised_results(raw_results_dir: Path, output_dir: Path,
                 if extracted_object:
                     label = extracted_object.get('label')
                     terms = extracted_object.get('terms')
+                    if curategpt and terms: 
+                        ontogpt_text = this_result.get("input_text")
+                        # its a single string, should be parseable through curategpt
+                        cleaned_text = clean_service_answer(ontogpt_text)
+                        assert cleaned_text != "", "Cleaning failed: the cleaned text is empty."
+                        result = ground_diagnosis_text_to_mondo(annotator, cleaned_text, verbose=False)
+                        # terms will now ONLY contain MONDO IDs OR 'N/A'. The latter should be dealt with downstream
+                        terms = [i[1][0][0] for i in result] # MONDO_ID                 
                     if terms:
                     # Note, the if allows for rerunning ppkts that failed due to connection issues
                     # We can have multiple identical ppkts/prompts in results.yaml as long as only one has a terms field

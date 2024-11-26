@@ -10,6 +10,7 @@ from cachetools.keys import hashkey
 from oaklib import get_adapter
 from oaklib.interfaces import OboGraphInterface
 from shelved_cache import PersistentCache
+from typing import Tuple
 
 from malco.post_process.df_save_util import safe_save_tsv
 from malco.post_process.mondo_score_utils import score_grounded_result
@@ -39,7 +40,12 @@ def compute_mrr_and_ranks(
     out_subdir: str,
     prompt_dir: str,
     correct_answer_file: str,
-) -> Path:
+) -> Tuple[Path, Path, dict, Path]:
+    """
+    Go from the slightly preprocessed data to a dataframe with ranks, correct results, and most importantly, score the results.
+
+    The scoring happens in score_grounded_result().
+    """
 
     # Read in results TSVs from self.output_dir that match glob results*tsv
     out_caches = Path("caches")
@@ -108,11 +114,11 @@ def compute_mrr_and_ranks(
             df["rank"] = df.groupby("label")["score"].rank(ascending=False, method="first")
             label_4_non_eng = df["label"].str.replace(
                 "_[a-z][a-z]-prompt", "_en-prompt", regex=True
-            )  # TODO is bug here?
+            )  
 
             # df['correct_term'] is an OMIM
             # df['term'] is Mondo or OMIM ID, or even disease label
-            df["correct_term"] = label_4_non_eng.map(label_to_correct_term)
+            df["correct_term"] = label_4_non_eng.map(label_to_correct_term, na_action='ignore')
 
             # Make sure caching is used in the following by unwrapping explicitly
             results = []
@@ -136,6 +142,7 @@ def compute_mrr_and_ranks(
                 lambda row: 1 / row["rank"] if row["is_correct"] else 0, axis=1
             )
 
+            df.dropna(subset=["correct_term"])
             # Save full data frame
             full_df_path = output_dir / results_files[i].split("/")[0]
             full_df_filename = "full_df_results.tsv"

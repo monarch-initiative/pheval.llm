@@ -98,6 +98,7 @@ def compute_mrr_and_ranks(
         "n10p",
         "nf",
         "num_cases",
+        "grounding_failed", # and no correct reply elsewhere in the differential
     ]
     rank_df = pd.DataFrame(0, index=np.arange(len(results_files)), columns=header)
 
@@ -143,6 +144,7 @@ def compute_mrr_and_ranks(
             )
 
             df.dropna(subset=["correct_term"])
+
             # Save full data frame
             full_df_path = output_dir / results_files[i].split("/")[0]
             full_df_filename = "full_df_results.tsv"
@@ -155,14 +157,17 @@ def compute_mrr_and_ranks(
             # Calculate top<n> of each rank
             rank_df.loc[i, comparing] = results_files[i].split("/")[0]
 
-            ppkts = df.groupby("label")[["rank", "is_correct"]]
+            ppkts = df.groupby("label")[["term", "rank", "is_correct"]]
 
             # for each group
             for ppkt in ppkts:
                 # is there a true? ppkt is tuple ("filename", dataframe) --> ppkt[1] is a dataframe
                 if not any(ppkt[1]["is_correct"]):
-                    # no  --> increase nf = "not found"
-                    rank_df.loc[i, "nf"] += 1
+                    if all(ppkt[1]["term"].str.startswith("MONDO")):
+                        # no  --> increase nf = "not found"
+                        rank_df.loc[i, "nf"] += 1
+                    else:
+                        rank_df.loc[i, "grounding_failed"] += 1
                 else:
                     # yes --> what's it rank? It's <j>
                     jind = ppkt[1].index[ppkt[1]["is_correct"]]
@@ -204,10 +209,12 @@ def compute_mrr_and_ranks(
         writer.writerow(results_files)
         writer.writerow(mrr_scores)
 
+    # TODO this could be moved in an anaysis script with the plotting...
     df = pd.read_csv(topn_file, delimiter="\t")
-    df["top1"] = (df["n1"]) / df["num_cases"]
-    df["top3"] = (df["n1"] + df["n2"] + df["n3"]) / df["num_cases"]
-    df["top5"] = (df["n1"] + df["n2"] + df["n3"] + df["n4"] + df["n5"]) / df["num_cases"]
+    valid_cases = df["num_cases"] - df["grounding_failed"]
+    df["top1"] = (df["n1"]) / valid_cases
+    df["top3"] = (df["n1"] + df["n2"] + df["n3"]) / valid_cases
+    df["top5"] = (df["n1"] + df["n2"] + df["n3"] + df["n4"] + df["n5"]) / valid_cases
     df["top10"] = (
         df["n1"]
         + df["n2"]
@@ -219,8 +226,8 @@ def compute_mrr_and_ranks(
         + df["n8"]
         + df["n9"]
         + df["n10"]
-    ) / df["num_cases"]
-    df["not_found"] = (df["nf"]) / df["num_cases"]
+    ) / valid_cases
+    df["not_found"] = (df["nf"]) / valid_cases
 
     df_aggr = pd.DataFrame()
     df_aggr = pd.melt(

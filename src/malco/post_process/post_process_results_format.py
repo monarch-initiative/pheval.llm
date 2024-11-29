@@ -56,7 +56,14 @@ def create_standardised_results(
                         )
                         # terms will now ONLY contain MONDO IDs OR 'N/A'.
                         # The latter should be dealt with downstream
-                        terms = [i[1][0][0] for i in result]  # MONDO_ID
+                        new_terms = []
+                        for i in result:
+                            if i[1] == [("N/A", "No grounding found")]:
+                                new_terms.append(i[0])
+                            else:
+                                new_terms.append(i[1][0][0])
+                        terms = new_terms
+                        #terms = [i[1][0][0] for i in result]  # MONDO_ID
                     if terms:
                         # Note, the if allows for rerunning ppkts that failed due to connection issues
                         # We can have multiple identical ppkts/prompts in results.yaml

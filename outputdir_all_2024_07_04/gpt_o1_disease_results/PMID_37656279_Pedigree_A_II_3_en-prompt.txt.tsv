@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital ichthyosiform erythroderma	MONDO:0019306	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Lamellar ichthyosis	MONDO:0019306	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Lamellar ichthyosis	MONDO:0017778	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+3	Harlequin ichthyosis	MONDO:0009443	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+4	Sjögren-Larsson syndrome	MONDO:0010031	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Netherton syndrome	MONDO:0009735	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False

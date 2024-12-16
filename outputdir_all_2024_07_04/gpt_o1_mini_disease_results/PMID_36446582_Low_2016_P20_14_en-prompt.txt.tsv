@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Treacher Collins syndrome	MONDO:0007944	('OMIM:148050', 'KBG syndrome')	0.0	False
+1	Treacher Collins syndrome	MONDO:0002457	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Ectodermal dysplasia	MONDO:0019287	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Ectodermal dysplasia	MONDO:0009773	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Down syndrome	MONDO:0008608	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Amelogenesis imperfecta	MONDO:0019507	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	CHARGE syndrome	MONDO:0008965	('OMIM:148050', 'KBG syndrome')	0.0	False

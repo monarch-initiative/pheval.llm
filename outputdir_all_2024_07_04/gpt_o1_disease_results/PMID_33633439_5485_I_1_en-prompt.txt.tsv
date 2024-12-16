@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MFRP-related nanophthalmos	MONDO:0012299	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	Posterior microphthalmos	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	PAX6-related ocular anomaly	MONDO:0800183	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Septo-optic dysplasia	MONDO:0008428	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	PAX2-related papillorenal syndrome	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

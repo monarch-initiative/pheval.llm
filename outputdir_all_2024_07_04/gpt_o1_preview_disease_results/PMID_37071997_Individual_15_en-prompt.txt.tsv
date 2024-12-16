@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Partial androgen insensitivity syndrome	MONDO:0010720	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Marfan syndrome	MONDO:0007947	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

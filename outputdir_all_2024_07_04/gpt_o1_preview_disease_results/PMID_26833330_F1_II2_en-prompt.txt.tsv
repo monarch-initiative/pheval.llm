@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson disease	MONDO:0010200	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+2	Cholesterol ester storage disease (lysosomal acid lipase deficiency)	MONDO:0019149	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+3	Congenital disorder of glycosylation type II	MONDO:0005501	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.5	True
+3	Congenital disorder of glycosylation type II	MONDO:0011933	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+4	Sitosterolemia	MONDO:0008863	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+5	Alagille syndrome	MONDO:0007318	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False

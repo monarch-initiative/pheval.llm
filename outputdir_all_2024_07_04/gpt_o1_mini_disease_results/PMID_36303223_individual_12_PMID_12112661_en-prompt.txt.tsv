@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Epilepsy	MONDO:0005027	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Stroke	MONDO:0005098	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Stroke	MONDO:0011057	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Brain Tumor	MONDO:0021211	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Febrile Seizures	HP:0002373	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Metabolic Disorders (e.g., Hypoglycemia)	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+6	Traumatic Brain Injury	MONDO:0858950	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+7	Infections (e.g., Encephalitis, Meningitis)	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+8	Substance Abuse or Withdrawal	MONDO:0005567	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+9	Autoimmune Encephalitis	MONDO:0020640	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+10	Genetic Epilepsy Syndromes (e.g., Dravet Syndrome)	MONDO:0100135	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar Ataxia	MONDO:0000437	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+1	Spinocerebellar Ataxia	MONDO:0020380	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+2	Ataxia with Oculomotor Apraxia Type 2	MONDO:0018996	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+3	Wilson Disease	MONDO:0010200	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+4	Neurodegeneration with Brain Iron Accumulation	MONDO:0018307	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+5	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+6	Friedreich's Ataxia	MONDO:0100339	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Sotos syndrome	MONDO:0019349	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	CHD8-related disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Bannayan-Riley-Ruvalcaba syndrome	MONDO:0007924	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Mucopolysaccharidosis type III (Sanfilippo syndrome)	MONDO:0018937	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD)	MONDO:0020726	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+2	Familial Juvenile Hyperuricemic Nephropathy (FJHN)	MONDO:0013128	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+3	Medullary Cystic Kidney Disease (MCKD)	MONDO:0015988	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+4	Polycystic Kidney Disease (PKD)	MONDO:0020642	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+5	Tophaceous Gout	MONDO:0005393	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False

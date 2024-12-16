@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Russell-Silver syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Sotos syndrome	MONDO:0019349	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Prader-Willi syndrome	MONDO:0008300	('OMIM:148050', 'KBG syndrome')	0.0	False

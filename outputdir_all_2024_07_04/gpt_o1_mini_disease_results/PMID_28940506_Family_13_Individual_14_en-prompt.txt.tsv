@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Propionic Acidemia	MONDO:0011628	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	Ornithine Transcarbamylase Deficiency	MONDO:0010703	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Methylmalonic Acidemia	MONDO:0002012	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	Carbamoyl Phosphate Synthetase I Deficiency	MONDO:0009376	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	N-Acetylglutamate Synthase Deficiency	MONDO:0009377	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Medium-chain acyl-CoA dehydrogenase deficiency (MCADD)	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Methylmalonic acidemia	MONDO:0002012	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Propionic acidemia	MONDO:0011628	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Fructose-1,6-bisphosphatase deficiency	MONDO:0009251	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+5	Glycogen storage disease type I (Von Gierke disease)	MONDO:0002413	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+6	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+7	Ketotic hypoglycemia of childhood	N/A	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

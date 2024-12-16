@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Paramyotonia congenita	MONDO:0008195	('OMIM:614321', 'Myopathy, distal, Tateyama type')	0.0	False
+2	Brody disease	MONDO:0010977	('OMIM:614321', 'Myopathy, distal, Tateyama type')	0.0	False
+3	Late-onset Pompe disease	N/A	('OMIM:614321', 'Myopathy, distal, Tateyama type')	0.0	False
+4	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:614321', 'Myopathy, distal, Tateyama type')	0.0	False
+5	McArdle disease (Glycogen storage disease type V)	MONDO:0009293	('OMIM:614321', 'Myopathy, distal, Tateyama type')	0.0	False

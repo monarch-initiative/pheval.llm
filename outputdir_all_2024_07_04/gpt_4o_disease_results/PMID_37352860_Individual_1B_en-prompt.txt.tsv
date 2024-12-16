@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Larsen syndrome	MONDO:0007875	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+2	Acrodysostosis	MONDO:0019797	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+3	Stickler syndrome	MONDO:0019354	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+4	Multiple epiphyseal dysplasia	MONDO:0016648	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+5	Robinow syndrome	MONDO:0019978	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Gordon syndrome	MONDO:0007252	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+1	Gordon syndrome	MONDO:0019162	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+2	Freeman-Sheldon syndrome	MONDO:0008675	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+3	Nager syndrome	MONDO:0007943	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+4	Branchiooculofacial syndrome	MONDO:0007235	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+5	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False

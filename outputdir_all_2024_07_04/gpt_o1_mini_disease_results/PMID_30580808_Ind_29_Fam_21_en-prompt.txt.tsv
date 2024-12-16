@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sotos Syndrome	MONDO:0019349	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Fragile X Syndrome	MONDO:0010383	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+6	Noonan Syndrome	MONDO:0018997	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+6	Noonan Syndrome	MONDO:0008104	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+7	Angelman Syndrome	MONDO:0007113	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+8	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+8	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+8	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+9	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+10	Weaver Syndrome	MONDO:0010193	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fabry disease	MONDO:0010526	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Hereditary transthyretin amyloidosis	MONDO:0018634	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	LMNA-related dilated cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Autosomal dominant polycystic kidney disease	MONDO:0004691	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

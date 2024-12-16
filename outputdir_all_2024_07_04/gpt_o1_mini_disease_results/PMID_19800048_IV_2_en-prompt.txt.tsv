@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+1	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	McKusick-Kaufman syndrome	MONDO:0009367	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	Trisomy 13	MONDO:0018068	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+6	Mucopolysaccharidosis VII (Sly syndrome)	MONDO:0009662	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+7	Greig cephalopolysyndactyly syndrome	MONDO:0008287	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	2q37 deletion syndrome	MONDO:0010886	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	X-linked non-syndromic intellectual disability	MONDO:0019181	('OMIM:612313', 'Glass syndrome')	0.0	False

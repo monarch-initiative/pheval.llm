@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cohen syndrome	MONDO:0008999	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Marshall-Smith syndrome	MONDO:0011244	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Cockayne syndrome	MONDO:0016006	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Floating-Harbor syndrome	MONDO:0007621	('OMIM:600373', 'CODAS syndrome')	0.0	False

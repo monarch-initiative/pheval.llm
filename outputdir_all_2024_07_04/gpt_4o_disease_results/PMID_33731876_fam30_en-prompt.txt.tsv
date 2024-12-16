@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alternating Hemiplegia of Childhood (AHC)	MONDO:0016241	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Dravet Syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Dravet Syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	SCN2A-related disorders	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	PCDH19-related epilepsy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Aicardi-Goutieres Syndrome	MONDO:0018866	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.5	True
+2	Leigh syndrome	MONDO:0009723	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Pyruvate dehydrogenase complex deficiency	MONDO:0019169	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Pyruvate dehydrogenase complex deficiency	MONDO:0010717	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	POLG-related mitochondrial disorder	MONDO:0012415	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	Combined oxidative phosphorylation deficiency	MONDO:0000732	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

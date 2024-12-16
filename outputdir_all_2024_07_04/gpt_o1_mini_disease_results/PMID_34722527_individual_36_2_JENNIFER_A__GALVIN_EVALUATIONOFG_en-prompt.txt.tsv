@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	High Hypermetropia with Amblyopia	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Aniridia	MONDO:0019172	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Aniridia	MONDO:0024507	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Leber Congenital Amaurosis	MONDO:0018998	('OMIM:613826', 'Leber congenital amaurosis 6')	0.5	True
+4	Stickler Syndrome	MONDO:0019354	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Strabismic Amblyopia	MONDO:0001019	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Retinitis Pigmentosa	MONDO:0008377	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Retinitis Pigmentosa	MONDO:0019200	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+7	Cataracts	HP:0000518	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Achromatopsia	MONDO:0018852	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+9	Nystagmus	MONDO:0005712	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+10	Macular Degeneration	MONDO:0003004	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+10	Macular Degeneration	MONDO:0011935	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

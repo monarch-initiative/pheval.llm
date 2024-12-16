@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert syndrome	MONDO:0018772	('OMIM:300804', 'Joubert syndrome 10')	0.5	True
+1	Joubert syndrome	MONDO:0008944	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Meckel-Gruber syndrome	MONDO:0009571	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Meckel-Gruber syndrome	MONDO:0018921	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

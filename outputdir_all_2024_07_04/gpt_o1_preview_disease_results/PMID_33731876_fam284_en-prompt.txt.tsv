@@ -1,0 +1,15 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet Syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+1	Dravet Syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	SCN1A-Related Epilepsy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Angelman Syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	GLUT1 Deficiency Syndrome	MONDO:0000188	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	GLUT1 Deficiency Syndrome	MONDO:0011724	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Rett Syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Lafora Disease	MONDO:0009697	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	MELAS Syndrome (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes)	MONDO:0010789	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Autosomal Dominant Nocturnal Frontal Lobe Epilepsy	MONDO:0020300	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

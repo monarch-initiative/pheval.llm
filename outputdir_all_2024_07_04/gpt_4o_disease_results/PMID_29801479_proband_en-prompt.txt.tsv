@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.5	True
+2	Hypophosphatasia	MONDO:0018570	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False
+2	Hypophosphatasia	MONDO:0009948	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False
+3	Juvenile Osteoporosis	MONDO:0019409	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False
+4	Rickets (consider genetic causes such as X-linked hypophosphatemic rickets)	HP:0002748	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False
+5	Osteopetrosis	MONDO:0017198	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False

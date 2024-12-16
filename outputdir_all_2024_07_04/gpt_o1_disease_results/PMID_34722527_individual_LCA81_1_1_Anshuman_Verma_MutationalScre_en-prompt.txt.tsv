@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leber congenital amaurosis	MONDO:0018998	('OMIM:613826', 'Leber congenital amaurosis 6')	0.5	True
+2	Congenital achromatopsia	MONDO:0018852	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Early-onset cone-rod dystrophy	MONDO:0013786	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

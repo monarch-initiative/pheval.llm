@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ferguson-Smith syndrome (Multiple self-healing squamous epithelioma)	MONDO:0007566	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	1.0	True
+2	Basal cell carcinoma syndrome (Gorlin syndrome)	N/A	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+3	Mutation in TP53 gene (Li-Fraumeni syndrome)	N/A	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False

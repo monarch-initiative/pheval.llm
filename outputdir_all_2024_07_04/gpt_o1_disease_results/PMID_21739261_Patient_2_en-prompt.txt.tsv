@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oculocutaneous albinism type 3	MONDO:0008747	('OMIM:203290', 'Albinism, oculocutaneous, type III')	1.0	True
+2	Phenylketonuria	MONDO:0009861	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.0	False
+3	MC1R-related red hair variant	N/A	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.0	False
+4	Oculocutaneous albinism type 1B	MONDO:0011749	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.0	False

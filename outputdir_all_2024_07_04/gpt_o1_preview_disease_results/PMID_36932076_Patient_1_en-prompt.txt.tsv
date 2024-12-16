@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Deficiency of Adenosine Deaminase 2 (DADA2)	MONDO:0100317	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+2	Wiskott-Aldrich Syndrome	MONDO:0010518	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+3	Autoimmune Lymphoproliferative Syndrome (ALPS)	MONDO:0017979	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Systemic Lupus Erythematosus (SLE)	HP:0002725	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+5	Hemophagocytic Lymphohistiocytosis (HLH)	MONDO:0009974	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+6	Selective IgM Deficiency	MONDO:0018039	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False

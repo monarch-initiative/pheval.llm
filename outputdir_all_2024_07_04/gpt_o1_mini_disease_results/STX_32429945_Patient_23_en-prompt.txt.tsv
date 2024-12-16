@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet Syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+1	Dravet Syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	West Syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Rett Syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Tuberous Sclerosis	MONDO:0001734	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Angelman Syndrome	MONDO:0007113	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Landau-Kleffner Syndrome	MONDO:0009509	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Ohtahara Syndrome	MONDO:0100062	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.5	True
+10	PCDH19-Related Epilepsy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

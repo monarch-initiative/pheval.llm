@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sturge-Weber Syndrome	MONDO:0008501	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+2	PHACE Syndrome	MONDO:0011676	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+3	Neurofibromatosis Type I	MONDO:0018975	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+4	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+5	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+5	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+6	VACTERL Association	MONDO:0008642	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+7	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False

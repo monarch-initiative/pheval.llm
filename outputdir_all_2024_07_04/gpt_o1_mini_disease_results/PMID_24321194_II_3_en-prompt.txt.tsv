@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Hypomagnesemia with Normocalciuria and Chronic Kidney Disease (FHHNC)	MONDO:0017624	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+2	Gitelman Syndrome	MONDO:0009904	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Bartter Syndrome	MONDO:0015231	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Medullary Cystic Kidney Disease	MONDO:0008264	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+6	Juvenile Nephronophthisis	MONDO:0009728	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+7	Mitochondrial Tubulopathies	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+8	Inherited Tubulointerstitial Nephritis	MONDO:0019005	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.5	True
+2	Noonan syndrome	MONDO:0008104	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Cleidocranial dysplasia	MONDO:0007340	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+4	Ehlers-Danlos syndrome, classical type	MONDO:0007522	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+5	Frontometaphyseal dysplasia	MONDO:0015942	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

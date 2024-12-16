@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Med23-related intellectual disability syndrome	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	SATB2-associated syndrome	MONDO:0012864	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	SATB2-associated syndrome	MONDO:0100147	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Smith-Magenis syndrome	MONDO:0008434	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Potocki-Lupski syndrome	MONDO:0012574	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Angelman syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

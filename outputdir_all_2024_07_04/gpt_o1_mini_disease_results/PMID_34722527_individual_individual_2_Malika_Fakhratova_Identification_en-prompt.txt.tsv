@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stargardt disease	MONDO:0019353	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0015993	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0007362	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0011458	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0100438	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Best disease	MONDO:0007931	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Achromatopsia	MONDO:0018852	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Retinitis pigmentosa	MONDO:0008377	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Retinitis pigmentosa	MONDO:0019200	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Foveal hypoplasia	MONDO:0044203	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+7	Congenital stationary night blindness	MONDO:0016293	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

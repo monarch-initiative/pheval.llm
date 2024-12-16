@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Progressive Myoclonus Epilepsy (PME)	MONDO:0020074	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.5	True
+2	Lafora Disease	MONDO:0009697	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.5	True
+3	Unverricht-Lundborg Disease	MONDO:0009698	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+4	Neuronal Ceroid Lipofuscinosis	MONDO:0016295	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+5	Sialidosis	MONDO:0009738	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+5	Sialidosis	MONDO:0017734	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+6	Myoclonic Epilepsy with Ragged Red Fibers (MERRF)	MONDO:0010790	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False

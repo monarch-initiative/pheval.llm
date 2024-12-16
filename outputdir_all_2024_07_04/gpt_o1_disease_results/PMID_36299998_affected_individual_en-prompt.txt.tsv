@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rhizomelic chondrodysplasia punctata	MONDO:0015776	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+2	Zellweger syndrome	MONDO:0019609	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+3	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+4	Leigh syndrome	MONDO:0009723	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False

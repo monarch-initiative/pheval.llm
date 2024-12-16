@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alpers-Huttenlocher syndrome	MONDO:0008758	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	MELAS syndrome (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes)	MONDO:0010789	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	POLG-related disorders (e.g., POLG1 mutations)	N/A	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	Mitochondrial DNA depletion syndrome (e.g., TK2 or RRM2B mutations)	MONDO:0012792	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

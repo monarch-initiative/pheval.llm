@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Birt-Hogg-Dubé syndrome	MONDO:0007607	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+2	Von Hippel-Lindau disease	MONDO:0008667	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+3	Li-Fraumeni syndrome	MONDO:0018875	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False

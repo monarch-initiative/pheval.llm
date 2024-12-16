@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple Self-Healing Squamous Epithelioma (Ferguson-Smith disease)	MONDO:0007566	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	1.0	True
+2	Gorlin Syndrome (Nevoid Basal Cell Carcinoma Syndrome)	N/A	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+3	Epidermodysplasia Verruciformis	MONDO:0009176	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+4	Xeroderma Pigmentosum	MONDO:0019600	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+5	Bazex-Dupré-Christol Syndrome	MONDO:0010535	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+6	Familial p53 Tumor Predisposition Syndrome	MONDO:0018875	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False

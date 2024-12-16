@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteoporosis-pseudoglioma syndrome	MONDO:0009820	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Oculodentodigital dysplasia	MONDO:0008111	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Mucopolysaccharidosis type III (Sanfilippo syndrome)	MONDO:0018937	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Sotos syndrome	MONDO:0019349	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Global developmental delay with hypotonia and ophthalmological abnormalities syndrome	MONDO:0018822	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Hypophosphatasia	MONDO:0018570	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Hypophosphatasia	MONDO:0009948	('OMIM:612313', 'Glass syndrome')	0.0	False

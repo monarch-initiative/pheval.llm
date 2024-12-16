@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett Syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Fragile X Syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Angelman Syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Autism Spectrum Disorder	MONDO:0005260	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Autism Spectrum Disorder	MONDO:0005258	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	CDKL5-Related Disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Cerebral Palsy	MONDO:0006497	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Aicardi Syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Zika Virus Infection	MONDO:0018661	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

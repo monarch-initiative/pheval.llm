@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	McArdle disease (Glycogen storage disease type V)	MONDO:0009293	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+2	Carnitine palmitoyltransferase II deficiency	MONDO:0015515	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+3	Tarui disease (Glycogen storage disease type VII)	MONDO:0009295	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False

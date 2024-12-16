@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson's disease	MONDO:0010200	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+2	Familial hypercholesterolemia	MONDO:0005439	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+3	Non-alcoholic fatty liver disease (NAFLD)	MONDO:0013209	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+4	Primary biliary cholangitis (PBC)	MONDO:0005388	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+5	Alpha-1 antitrypsin deficiency	MONDO:0013282	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+6	Hemochromatosis	MONDO:0006507	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+6	Hemochromatosis	MONDO:0021001	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False

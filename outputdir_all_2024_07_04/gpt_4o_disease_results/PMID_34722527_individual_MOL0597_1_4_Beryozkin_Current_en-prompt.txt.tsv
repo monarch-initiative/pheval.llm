@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	Alport syndrome	MONDO:0018965	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Familial exudative vitreoretinopathy (FEVR)	MONDO:0019516	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+6	Wagner syndrome	MONDO:0007740	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+7	Retinitis pigmentosa	MONDO:0019200	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+7	Retinitis pigmentosa	MONDO:0008377	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

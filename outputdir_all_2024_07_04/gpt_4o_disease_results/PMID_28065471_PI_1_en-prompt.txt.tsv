@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Arterial Tortuosity Syndrome	MONDO:0008818	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+2	Cutis Laxa Syndrome Type 1B	MONDO:0009052	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+3	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	Williams-Beuren Syndrome	MONDO:0008678	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+5	Ehlers-Danlos Syndrome (specific subtypes with possible facial and vascular features)	MONDO:0017314	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+6	Marfan Syndrome (less likely due to absence of kyphoscoliosis and tall stature)	N/A	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False

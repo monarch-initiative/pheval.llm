@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal renal tubular acidosis (Type 1)	MONDO:0015827	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.5	True
+2	Proximal renal tubular acidosis (Type 2)	MONDO:0008369	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+3	Carbonic anhydrase II deficiency syndrome	N/A	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+4	Dent disease	MONDO:0015612	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial myopathy	MONDO:0009637	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.5	True
+2	Kearns-Sayre syndrome	MONDO:0010787	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+3	MELAS syndrome (Mitochondrial Encephalopathy, Lactic Acidosis, and Stroke-like episodes)	MONDO:0010789	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+4	Progressive External Ophthalmoplegia (PEO)	MONDO:0005181	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.5	True
+5	Myasthenia Gravis	MONDO:0009688	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+6	Mitochondrial DNA Depletion Syndromes	MONDO:0012301	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False

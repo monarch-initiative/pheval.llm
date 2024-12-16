@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+1	Kabuki syndrome	MONDO:0007843	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+2	Bamforth-Lazarus syndrome	MONDO:0009437	('OMIM:241850', 'Bamforth-Lazarus syndrome')	1.0	True
+3	Congenital hypothyroidism due to PAX8 mutations	MONDO:0024264	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+4	DiGeorge syndrome (22q11.2 deletion syndrome)	MONDO:0012020	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+5	CHARGE syndrome	MONDO:0008965	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False

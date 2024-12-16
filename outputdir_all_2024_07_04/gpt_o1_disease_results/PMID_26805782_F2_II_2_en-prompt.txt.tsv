@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Very long-chain acyl-CoA dehydrogenase deficiency	MONDO:0008723	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+2	Long-chain 3-hydroxyacyl-CoA dehydrogenase deficiency	MONDO:0012173	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+3	Mitochondrial trifunctional protein deficiency	MONDO:0012172	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+4	Carnitine palmitoyltransferase II deficiency	MONDO:0015515	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False

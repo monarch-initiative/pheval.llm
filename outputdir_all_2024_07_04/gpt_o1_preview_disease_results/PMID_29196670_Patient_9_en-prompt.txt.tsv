@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tuberous Sclerosis Complex (TSC)	MONDO:0013199	('OMIM:613254', 'Tuberous sclerosis-2')	1.0	True
+2	Smith-Kingsmore Syndrome	MONDO:0014716	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+3	MTOR-related Overgrowth Syndrome	MONDO:0100283	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+4	Focal Cortical Dysplasia Type IIb	MONDO:0017102	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+5	Neurofibromatosis Type 1 (less likely)	N/A	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False

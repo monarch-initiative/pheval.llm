@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Progressive Familial Heart Block Type I	MONDO:0007240	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Myotonic Dystrophy	MONDO:0016107	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Myotonic Dystrophy	MONDO:0008056	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Sarcoidosis	MONDO:0008399	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Sarcoidosis	MONDO:0019338	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Fabry Disease	MONDO:0010526	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Amyloidosis	MONDO:0019065	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

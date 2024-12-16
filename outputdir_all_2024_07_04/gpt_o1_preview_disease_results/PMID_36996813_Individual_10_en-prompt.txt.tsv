@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0008104	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+1	Noonan syndrome	MONDO:0018997	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+2	L1 syndrome (X-linked hydrocephalus due to L1CAM mutations)	MONDO:0017140	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+3	Lethal multiple pterygium syndrome	MONDO:0009668	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+4	Hennekam lymphangiectasia-lymphedema syndrome	MONDO:0009337	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+4	Hennekam lymphangiectasia-lymphedema syndrome	MONDO:0016256	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+5	Generalized lymphatic dysplasia	N/A	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+6	Fryns syndrome	MONDO:0009253	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False

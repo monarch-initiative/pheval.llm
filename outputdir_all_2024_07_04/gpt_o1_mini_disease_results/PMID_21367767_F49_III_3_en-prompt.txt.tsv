@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple System Atrophy, cerebellar type (MSA-C)	MONDO:0016418	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+2	Spinocerebellar Ataxia type 3 (SCA3)	MONDO:0013241	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+3	Spinocerebellar Ataxia type 2 (SCA2)	MONDO:0008457	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+4	Idiopathic Late-Onset Cerebellar Ataxia	MONDO:0016591	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+5	Paraneoplastic Cerebellar Degeneration	MONDO:0044877	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+5	Paraneoplastic Cerebellar Degeneration	MONDO:0018215	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+6	Progressive Supranuclear Palsy (PSP)	MONDO:0009839	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+7	Essential Tremor	MONDO:0003233	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False

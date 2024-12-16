@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chronic mucocutaneous candidiasis	MONDO:0015279	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+2	Autoimmune polyendocrine syndrome type 1 (APECED)	MONDO:0009411	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+3	STAT1 gain-of-function mutation	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+4	CARD9 deficiency	MONDO:0008905	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	1.0	True
+5	Hyper-IgM syndrome	MONDO:0003947	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+5	Hyper-IgM syndrome	MONDO:0010626	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+6	HIV infection	MONDO:0005109	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False

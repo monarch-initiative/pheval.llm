@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	POLG-related disorders (e.g., Alpers-Huttenlocher syndrome)	N/A	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	TWNK-related mitochondrial DNA depletion syndrome	MONDO:0012301	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	SUCLA2-related mitochondrial depletion syndrome	N/A	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	TK2-related mitochondrial DNA depletion syndrome	MONDO:0012301	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	MPV17-related hepatocerebral mitochondrial DNA depletion syndrome	MONDO:0009747	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

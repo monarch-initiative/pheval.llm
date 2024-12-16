@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2-related neonatal epileptic encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	SCN2A-related early infantile epileptic encephalopathy	MONDO:0013388	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	1.0	True
+3	STXBP1 encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

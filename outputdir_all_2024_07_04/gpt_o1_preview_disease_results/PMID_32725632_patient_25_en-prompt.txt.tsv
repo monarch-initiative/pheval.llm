@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital hypothyroidism	MONDO:0018612	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+2	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+3	Mucopolysaccharidosis type I (Hurler syndrome)	MONDO:0001586	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+4	Mucopolysaccharidosis type II (Hunter syndrome)	MONDO:0001586	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+5	Down syndrome	MONDO:0008608	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False

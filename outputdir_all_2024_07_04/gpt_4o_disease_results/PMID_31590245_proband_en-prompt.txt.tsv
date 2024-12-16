@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Brugada syndrome	MONDO:0015263	('OMIM:601144', 'Brugada syndrome 1')	0.5	True
+2	Long QT syndrome	MONDO:0019171	('OMIM:601144', 'Brugada syndrome 1')	0.0	False
+2	Long QT syndrome	MONDO:0002442	('OMIM:601144', 'Brugada syndrome 1')	0.0	False
+3	Catecholaminergic polymorphic ventricular tachycardia (CPVT)	MONDO:0017990	('OMIM:601144', 'Brugada syndrome 1')	0.0	False
+4	Arrhythmogenic right ventricular cardiomyopathy (ARVC)	MONDO:0016587	('OMIM:601144', 'Brugada syndrome 1')	0.0	False
+5	Wolff-Parkinson-White syndrome	MONDO:0008685	('OMIM:601144', 'Brugada syndrome 1')	0.0	False

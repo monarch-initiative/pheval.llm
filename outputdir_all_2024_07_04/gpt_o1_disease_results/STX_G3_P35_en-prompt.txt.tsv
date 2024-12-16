@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	West syndrome	MONDO:0018097	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Tuberous sclerosis complex	MONDO:0008612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Tuberous sclerosis complex	MONDO:0001734	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	ARX-related infantile spasm syndrome	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	STXBP1 encephalopathy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related dilated cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Desmin-related myopathy	MONDO:0011076	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Danon disease	MONDO:0010281	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	MYH7-related dilated cardiomyopathy	MONDO:0013262	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	ARVC (Arrhythmogenic right ventricular cardiomyopathy)	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	TNNI3-related cardiomyopathy	MONDO:0007270	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

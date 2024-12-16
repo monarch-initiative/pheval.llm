@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia type 17 (SCA17)	MONDO:0014410	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+2	Dentatorubral-pallidoluysian atrophy (DRPLA)	N/A	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+3	Spinocerebellar ataxia type 3 (Machado-Joseph disease)	MONDO:0007182	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+4	Huntington's disease	MONDO:0007739	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+5	Spinocerebellar ataxia type 2 (SCA2)	MONDO:0008457	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+6	Wilson's disease	MONDO:0010200	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False

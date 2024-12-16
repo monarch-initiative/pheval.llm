@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Coffin-Lowry Syndrome	MONDO:0010561	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Mucopolysaccharidosis	MONDO:0019249	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:612313', 'Glass syndrome')	0.0	False
+8	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:612313', 'Glass syndrome')	0.0	False
+9	Ectodermal Dysplasia	MONDO:0019287	('OMIM:612313', 'Glass syndrome')	0.0	False
+9	Ectodermal Dysplasia	MONDO:0009773	('OMIM:612313', 'Glass syndrome')	0.0	False
+10	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:612313', 'Glass syndrome')	0.0	False

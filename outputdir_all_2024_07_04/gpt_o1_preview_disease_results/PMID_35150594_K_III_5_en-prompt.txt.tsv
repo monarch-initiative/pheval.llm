@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia type 3A (SPG3A)	MONDO:0013962	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+2	Hereditary spastic paraplegia type 4 (SPG4)	MONDO:0008438	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+3	Hereditary spastic paraplegia type 10 (SPG10)	MONDO:0011408	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+4	Hereditary spastic paraplegia type 31 (SPG31)	MONDO:0012643	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False

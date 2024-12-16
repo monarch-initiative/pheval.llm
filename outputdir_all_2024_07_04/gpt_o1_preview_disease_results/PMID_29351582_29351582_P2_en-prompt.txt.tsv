@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease (CMT)	MONDO:0019011	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Friedreich's ataxia	MONDO:0100339	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Hereditary motor and sensory neuropathy type III (Dejerine-Sottas disease)	MONDO:0010877	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Refsum disease	MONDO:0009958	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Chronic inflammatory demyelinating polyneuropathy (CIDP)	MONDO:0002335	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Hereditary sensory and autonomic neuropathy (HSAN)	MONDO:0019941	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+7	Spinal muscular atrophy (SMA)	MONDO:0001516	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hallermann-Streiff syndrome	MONDO:0009318	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+2	Russell-Silver syndrome	MONDO:0008394	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+3	Bloom syndrome	MONDO:0008876	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+4	Seckel syndrome	MONDO:0019342	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+5	Mulibrey nanism	MONDO:0009664	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False

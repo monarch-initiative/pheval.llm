@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert syndrome	MONDO:0018772	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+1	Joubert syndrome	MONDO:0008944	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Leigh syndrome	MONDO:0009723	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Ataxia-telangiectasia	MONDO:0008840	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Fragile X-associated tremor/ataxia syndrome (FXTAS)	MONDO:0010382	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

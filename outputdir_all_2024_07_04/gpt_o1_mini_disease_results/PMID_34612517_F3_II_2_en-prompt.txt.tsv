@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+2	Down Syndrome (Trisomy 21)	MONDO:0700126	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+3	Edwards Syndrome (Trisomy 18)	N/A	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+5	CHARGE Syndrome	MONDO:0008965	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+6	Familial Truncus Arteriosus	N/A	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False

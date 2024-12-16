@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Transcobalamin II deficiency	MONDO:0010149	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+2	Purine nucleoside phosphorylase (PNP) deficiency	MONDO:0013171	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+3	Cartilage-hair hypoplasia	MONDO:0009595	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+4	Immunodeficiency, Centromeric instability, and Facial anomalies (ICF) syndrome	MONDO:0000133	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+5	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary Distal Renal Tubular Acidosis (SLC4A1 Mutation)	MONDO:0012700	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	1.0	True
+2	Sjögren's Syndrome	MONDO:0010030	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+3	Cystic Fibrosis	MONDO:0009061	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+4	Dent Disease	MONDO:0015612	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+5	Wilson Disease	MONDO:0010200	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+6	Carbonic Anhydrase II Deficiency	MONDO:0009818	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+7	Type I Distal Renal Tubular Acidosis (Other Genetic Causes)	MONDO:0001909	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False

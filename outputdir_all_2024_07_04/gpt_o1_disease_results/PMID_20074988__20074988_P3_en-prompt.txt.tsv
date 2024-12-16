@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tyrosinemia type I	MONDO:0010161	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Zellweger syndrome	MONDO:0019609	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Niemann-Pick disease type A	MONDO:0009756	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Gaucher disease type II	MONDO:0009266	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Krabbe disease	MONDO:0009499	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

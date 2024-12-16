@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Occipital Horn Syndrome	MONDO:0010572	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+2	Cutis Laxa	MONDO:0016175	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.5	True
+3	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+4	Alpha-1 Antitrypsin Deficiency	MONDO:0013282	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False

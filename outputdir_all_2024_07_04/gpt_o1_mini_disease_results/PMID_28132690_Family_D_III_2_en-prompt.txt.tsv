@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple epiphyseal dysplasia	MONDO:0016648	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+2	Spondyloepiphyseal dysplasia tarda	MONDO:0019667	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+3	Pseudoachondroplasia	MONDO:0008322	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+4	Spondylometaphyseal dysplasia	MONDO:0008476	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+4	Spondylometaphyseal dysplasia	MONDO:0016763	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+5	Hypophosphatasia	MONDO:0018570	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+5	Hypophosphatasia	MONDO:0009948	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+6	Achondroplasia	MONDO:0007037	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False

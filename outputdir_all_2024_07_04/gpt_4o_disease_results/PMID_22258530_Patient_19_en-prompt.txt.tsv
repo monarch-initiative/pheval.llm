@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	West syndrome (Infantile spasms)	MONDO:0018097	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.5	True
+3	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	Rett syndrome	MONDO:0010726	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	PCDH19-related epilepsy	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

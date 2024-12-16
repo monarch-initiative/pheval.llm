@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Griscelli syndrome type 2	MONDO:0011872	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+2	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+3	Hemophagocytic lymphohistiocytosis (HLH)	MONDO:0009974	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+4	Gaucher disease	MONDO:0018150	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+5	Niemann-Pick disease type B	MONDO:0011871	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False

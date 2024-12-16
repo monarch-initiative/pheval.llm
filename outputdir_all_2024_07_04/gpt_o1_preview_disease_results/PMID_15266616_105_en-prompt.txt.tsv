@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Jacobsen syndrome	MONDO:0007838	('OMIM:147791', 'Jacobsen syndrome')	1.0	True
+2	Noonan syndrome	MONDO:0008104	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Opitz C syndrome	N/A	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Saethre-Chotzen syndrome	MONDO:0007042	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+6	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+7	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+8	Trigonocephaly syndrome	MONDO:0008893	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz syndrome type 3 (SMAD3 mutation)	MONDO:0012212	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Vascular Ehlers-Danlos syndrome (EDS type IV)	MONDO:0017314	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Arterial Tortuosity Syndrome	MONDO:0008818	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

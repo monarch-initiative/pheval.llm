@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ferguson-Smith syndrome (Multiple Self-healing Squamous Epithelioma)	MONDO:0007566	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	1.0	True
+2	MutYH-associated polyposis (MAP)	MONDO:0012041	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+3	Basal cell nevus syndrome (Gorlin-Goltz syndrome)	N/A	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+4	Xeroderma pigmentosum	MONDO:0019600	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+5	Epidermodysplasia verruciformis	MONDO:0009176	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False

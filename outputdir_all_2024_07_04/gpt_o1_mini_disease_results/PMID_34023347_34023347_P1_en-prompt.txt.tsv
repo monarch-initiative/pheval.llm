@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson disease	MONDO:0010200	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Alpha-1 antitrypsin deficiency	MONDO:0013282	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Niemann-Pick disease type A	MONDO:0009756	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Ornithine transcarbamylase deficiency	MONDO:0010703	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Maple syrup urine disease	MONDO:0009563	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+6	Mitochondrial disorders	MONDO:0004069	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.5	True
+7	Glycogen storage diseases	MONDO:0013291	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

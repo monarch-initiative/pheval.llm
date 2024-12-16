@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Craniometaphyseal dysplasia	MONDO:0015465	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.5	True
+2	Crouzon syndrome	MONDO:0007405	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+3	Treacher Collins syndrome	MONDO:0007944	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+3	Treacher Collins syndrome	MONDO:0002457	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+4	Pfeiffer syndrome	MONDO:0007043	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+5	Apert syndrome	MONDO:0007041	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False

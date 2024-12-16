@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	Cohen syndrome	MONDO:0008999	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson disease	MONDO:0010200	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+2	Congenital disorder of glycosylation type II	MONDO:0005501	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.5	True
+2	Congenital disorder of glycosylation type II	MONDO:0011933	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False

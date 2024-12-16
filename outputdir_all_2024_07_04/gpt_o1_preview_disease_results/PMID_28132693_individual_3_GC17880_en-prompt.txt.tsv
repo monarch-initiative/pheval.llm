@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Retinitis pigmentosa	MONDO:0008377	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+1	Retinitis pigmentosa	MONDO:0019200	('OMIM:617433', 'Retinitis pigmentosa 78')	0.5	True
+2	Acute zonal occult outer retinopathy	MONDO:0017298	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+3	Enhanced S-cone syndrome	MONDO:0100288	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+4	Autoimmune retinopathy	MONDO:0100014	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+5	Bietti crystalline dystrophy	MONDO:0008865	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False

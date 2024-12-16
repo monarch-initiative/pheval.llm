@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Sotos syndrome	MONDO:0019349	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Fragile X syndrome	MONDO:0010383	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Cleidocranial dysplasia	MONDO:0007340	('OMIM:148050', 'KBG syndrome')	0.0	False

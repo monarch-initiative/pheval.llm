@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+1	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	Adrenoleukodystrophy	MONDO:0018544	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	Adrenoleukodystrophy	MONDO:0010247	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+3	Canavan disease	MONDO:0010079	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+4	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+5	Vanishing white matter disease	MONDO:0800448	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+6	Alexander disease	MONDO:0008752	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False

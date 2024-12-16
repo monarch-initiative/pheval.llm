@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mucopolysaccharidosis type II (Hunter syndrome)	MONDO:0001586	('OMIM:256540', 'Galactosialidosis')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:256540', 'Galactosialidosis')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:256540', 'Galactosialidosis')	0.0	False
+3	Mucopolysaccharidosis type VI (Maroteaux-Lamy syndrome)	MONDO:0009661	('OMIM:256540', 'Galactosialidosis')	0.0	False
+4	Mucopolysaccharidosis type VII (Sly syndrome)	MONDO:0009662	('OMIM:256540', 'Galactosialidosis')	0.0	False
+5	Spondyloepiphyseal dysplasia	MONDO:0007738	('OMIM:256540', 'Galactosialidosis')	0.0	False
+5	Spondyloepiphyseal dysplasia	MONDO:0016761	('OMIM:256540', 'Galactosialidosis')	0.0	False
+6	Osteogenesis imperfecta	MONDO:0019019	('OMIM:256540', 'Galactosialidosis')	0.0	False

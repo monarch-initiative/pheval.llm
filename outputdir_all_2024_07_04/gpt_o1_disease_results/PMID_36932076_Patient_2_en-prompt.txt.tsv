@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tumor necrosis factor receptor–associated periodic syndrome (TRAPS)	MONDO:0007727	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+2	Familial Mediterranean fever	MONDO:0009572	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+2	Familial Mediterranean fever	MONDO:0018088	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+3	Hyper IgD syndrome (Mevalonate kinase deficiency)	N/A	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Neonatal-onset multisystem inflammatory disease	MONDO:0011776	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False

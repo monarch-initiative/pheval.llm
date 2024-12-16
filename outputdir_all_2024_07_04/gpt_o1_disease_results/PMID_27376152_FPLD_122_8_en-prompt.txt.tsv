@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial partial lipodystrophy type 2 (Dunnigan syndrome)	MONDO:0007906	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+2	Congenital generalized lipodystrophy	MONDO:0018883	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+2	Congenital generalized lipodystrophy	MONDO:0006536	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+3	Cushing syndrome	MONDO:0018912	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+4	Familial partial lipodystrophy type 3	MONDO:0011448	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False

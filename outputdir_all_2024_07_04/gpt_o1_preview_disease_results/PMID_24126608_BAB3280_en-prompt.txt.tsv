@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KIF1A-associated neurological disorder	MONDO:0700055	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+2	Congenital disorder of glycosylation (CDG)	MONDO:0015286	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+3	Giant axonal neuropathy	MONDO:0000128	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+4	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+5	Hereditary motor and sensory neuropathy type 2	MONDO:0018993	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False

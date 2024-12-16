@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wolfram syndrome	MONDO:0018105	('OMIM:222300', 'Wolfram syndrome 1')	0.5	True
+2	Mitochondrial disorder (e.g., MELAS)	MONDO:0010789	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+3	Autoimmune polyendocrine syndrome type II	MONDO:0010012	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+4	Neurofibromatosis type 2	MONDO:0021061	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+4	Neurofibromatosis type 2	MONDO:0007039	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False

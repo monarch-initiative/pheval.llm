@@ -1,0 +1,16 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+2	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+3	Down Syndrome	MONDO:0008608	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+4	Rett Syndrome	MONDO:0010726	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+5	CHARGE Syndrome	MONDO:0008965	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+6	Coffin-Siris Syndrome	MONDO:0015452	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+6	Coffin-Siris Syndrome	MONDO:0007617	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+7	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+7	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+7	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+8	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+9	Treacher Collins Syndrome	MONDO:0007944	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+9	Treacher Collins Syndrome	MONDO:0002457	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+10	Kallmann Syndrome	MONDO:0018800	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False

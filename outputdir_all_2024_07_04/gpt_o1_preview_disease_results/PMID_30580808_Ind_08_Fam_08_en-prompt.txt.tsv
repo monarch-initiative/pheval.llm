@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+1	Kabuki syndrome	MONDO:0007843	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	Sotos syndrome	MONDO:0019349	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Weaver syndrome	MONDO:0010193	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

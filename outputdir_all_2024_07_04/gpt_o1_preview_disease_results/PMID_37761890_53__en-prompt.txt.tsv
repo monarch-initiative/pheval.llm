@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	L1 syndrome (L1CAM-related disorder)	MONDO:0017140	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	FG syndrome (Opitz-Kaveggia syndrome)	N/A	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Andermann syndrome	MONDO:0000902	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0001734	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0008612	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+6	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

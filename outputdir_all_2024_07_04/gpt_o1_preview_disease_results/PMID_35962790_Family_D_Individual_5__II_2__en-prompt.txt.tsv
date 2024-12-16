@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal Arthrogryposis Type 5 (DA5)	MONDO:0014028	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+2	Freeman-Sheldon syndrome	MONDO:0008675	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+3	Beals syndrome (Congenital contractural arachnodactyly)	MONDO:0007363	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+4	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+5	Bethlem myopathy	MONDO:0024530	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+5	Bethlem myopathy	MONDO:0008029	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+6	Ullrich congenital muscular dystrophy	MONDO:0000355	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+6	Ullrich congenital muscular dystrophy	MONDO:0009681	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+7	Congenital myasthenic syndrome	MONDO:0018940	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+8	Congenital fiber-type disproportion myopathy	MONDO:0009711	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False

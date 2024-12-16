@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Klippel-Feil syndrome	MONDO:0007306	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+1	Klippel-Feil syndrome	MONDO:0001029	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+2	Spondylocostal dysostosis	MONDO:0000359	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.5	True
+3	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+4	Morquio syndrome (Mucopolysaccharidosis type IV)	N/A	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+5	Achondroplasia	MONDO:0007037	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False

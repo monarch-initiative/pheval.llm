@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kohlschuetter-Tonz syndrome	N/A	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Hypophosphatasia	MONDO:0018570	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Hypophosphatasia	MONDO:0009948	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Incontinentia pigmenti	MONDO:0010631	('OMIM:612313', 'Glass syndrome')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Branchiootorenal (BOR) Syndrome	N/A	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+2	Down Syndrome (Trisomy 21)	MONDO:0700126	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+3	Alagille Syndrome	MONDO:0007318	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	CHARGE Syndrome	MONDO:0008965	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+6	Townes-Brocks Syndrome	MONDO:0007142	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+7	VACTERL Association	MONDO:0008642	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False

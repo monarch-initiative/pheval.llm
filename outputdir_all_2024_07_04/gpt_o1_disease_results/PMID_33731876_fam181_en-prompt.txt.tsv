@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alexander disease	MONDO:0008752	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Krabbe disease	MONDO:0009499	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	KCNQ2-related epileptic encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

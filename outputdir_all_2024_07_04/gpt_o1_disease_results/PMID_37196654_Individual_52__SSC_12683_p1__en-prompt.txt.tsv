@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked neuroligin 4 deficiency	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+2	CNTNAP2-related autism spectrum disorder	MONDO:0012400	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+3	SHANK2-related autism spectrum disorder	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+4	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False

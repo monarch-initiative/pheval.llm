@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tyrosinemia Type I	MONDO:0010161	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Alagille Syndrome	MONDO:0007318	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Glycogen Storage Disease Type IV (Andersen Disease)	MONDO:0009292	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Niemann-Pick Disease Type C	MONDO:0018982	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Wilson Disease	MONDO:0010200	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+6	Alpha-1 Antitrypsin Deficiency	MONDO:0013282	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

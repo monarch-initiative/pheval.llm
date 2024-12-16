@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Li-Fraumeni syndrome	MONDO:0018875	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+2	Constitutional mismatch repair deficiency syndrome	MONDO:0010159	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+3	Neurofibromatosis type 2	MONDO:0007039	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+3	Neurofibromatosis type 2	MONDO:0021061	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cystic fibrosis	MONDO:0009061	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Phenylketonuria	MONDO:0009861	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Down syndrome	MONDO:0008608	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Congenital hypothyroidism	MONDO:0018612	('OMIM:612313', 'Glass syndrome')	0.0	False

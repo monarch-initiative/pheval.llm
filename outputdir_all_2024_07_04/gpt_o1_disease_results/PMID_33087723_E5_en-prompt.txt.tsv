@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Deficiency of interleukin-36 receptor antagonist (DITRA)	N/A	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	CARD14-associated papulosquamous eruption	N/A	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

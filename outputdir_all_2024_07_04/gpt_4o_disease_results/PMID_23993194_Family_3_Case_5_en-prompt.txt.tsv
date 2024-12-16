@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alpers-Huttenlocher syndrome	MONDO:0008758	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	Mitochondrial DNA depletion syndrome 4A (Alpers type)	MONDO:0008758	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+6	Rett syndrome	MONDO:0010726	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+7	Mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes (MELAS)	MONDO:0010789	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+8	Progressive external ophthalmoplegia	MONDO:0005181	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+9	Kearns-Sayre syndrome	MONDO:0010787	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

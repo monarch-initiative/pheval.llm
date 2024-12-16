@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sotos syndrome	MONDO:0019349	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+2	Weaver syndrome	MONDO:0010193	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+3	PTEN hamartoma tumor syndromes	MONDO:0017623	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+4	Bannayan-Riley-Ruvalcaba syndrome	MONDO:0007924	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False

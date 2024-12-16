@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Hypomagnesemia with Hypercalciuria and Nephrocalcinosis (FHHNC)	MONDO:0017624	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+2	Enamel-Renal Syndrome	MONDO:0008771	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Fanconi Syndrome	MONDO:0001083	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Primary Hyperoxaluria Type I	MONDO:0009823	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+6	Nephronophthisis	MONDO:0019005	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+7	Medullary Cystic Kidney Disease	MONDO:0008264	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

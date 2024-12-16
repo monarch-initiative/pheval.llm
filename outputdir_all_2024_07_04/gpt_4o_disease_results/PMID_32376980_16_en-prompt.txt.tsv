@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Say-Barber-Biesecker-Young-Simpson syndrome (also known as Genitopatellar syndrome)	N/A	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+3	Kabuki syndrome	MONDO:0016512	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+3	Kabuki syndrome	MONDO:0007843	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	Coffin-Siris syndrome	MONDO:0015452	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	Coffin-Siris syndrome	MONDO:0007617	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+6	Robinow syndrome	MONDO:0019978	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+7	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+8	Oculo-dento-digital dysplasia	MONDO:0008111	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False

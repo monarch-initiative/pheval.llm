@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Acute Lymphoblastic Leukemia	MONDO:0004967	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+2	Hemophagocytic Lymphohistiocytosis	MONDO:0015540	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+3	Acute Myeloid Leukemia	MONDO:0018874	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+3	Acute Myeloid Leukemia	MONDO:0015667	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+4	Severe Combined Immunodeficiency	MONDO:0015974	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+5	Idiopathic Cytopenia of Childhood	MONDO:0044874	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+6	Lymphoma	MONDO:0003660	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+6	Lymphoma	MONDO:0003659	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+6	Lymphoma	MONDO:0005062	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+7	Chronic Granulomatous Disease	MONDO:0018305	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False

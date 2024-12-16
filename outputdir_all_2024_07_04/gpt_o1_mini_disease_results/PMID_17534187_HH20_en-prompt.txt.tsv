@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Holt-Oram syndrome	MONDO:0007732	('OMIM:142900', 'Holt-Oram syndrome')	1.0	True
+2	Thrombocytopenia-absent radius (TAR) syndrome	MONDO:0010121	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	Fanconi anemia	MONDO:0009215	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	Fanconi anemia	MONDO:0019391	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+4	Roberts syndrome	MONDO:0100253	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+6	VACTERL association	MONDO:0008642	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+7	Syngnathia-oligodontia syndrome	N/A	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+8	De Barsy syndrome	MONDO:0017569	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+9	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+10	Holt-Oram-like syndromes	N/A	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

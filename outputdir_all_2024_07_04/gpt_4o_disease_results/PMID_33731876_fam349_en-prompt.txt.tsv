@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2-related epileptic encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	SCN2A-related epileptic encephalopathy	MONDO:0013388	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	1.0	True
+3	Ohtahara syndrome	MONDO:0100062	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.5	True
+4	CDKL5-related epileptic encephalopathy	MONDO:0010396	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	West syndrome	MONDO:0018097	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Early myoclonic encephalopathy	MONDO:0016022	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alpers-Huttenlocher syndrome	MONDO:0008758	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.5	True
+3	Leigh syndrome	MONDO:0009723	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Zellweger spectrum disorder	MONDO:0019234	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Pyruvate carboxylase deficiency	MONDO:0009949	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+6	Krabbe disease	MONDO:0009499	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

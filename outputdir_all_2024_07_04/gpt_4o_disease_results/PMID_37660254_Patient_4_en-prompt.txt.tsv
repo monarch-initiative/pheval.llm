@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beta-propeller protein-associated neurodegeneration (BPAN)	MONDO:0010476	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+2	NBIA (Neurodegeneration with Brain Iron Accumulation) disorders including PLAN (PLA2G6-associated neurodegeneration)	MONDO:0017998	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+3	Cockayne Syndrome	MONDO:0016006	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+4	Rett Syndrome	MONDO:0010726	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+5	Pelizaeus-Merzbacher Disease	MONDO:0010714	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+6	MECP2-related disorders	N/A	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+7	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+8	GM1 Gangliosidosis	MONDO:0018149	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+9	Krabbe Disease	MONDO:0009499	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False

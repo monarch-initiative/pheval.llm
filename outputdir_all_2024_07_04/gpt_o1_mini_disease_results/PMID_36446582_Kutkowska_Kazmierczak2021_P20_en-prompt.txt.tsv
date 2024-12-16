@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Growth hormone deficiency	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Turner syndrome	MONDO:0019499	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Constitutional growth delay	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Hypothyroidism	MONDO:0005420	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Chronic kidney disease	MONDO:0005300	('OMIM:148050', 'KBG syndrome')	0.0	False

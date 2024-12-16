@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ataxia with Oculomotor Apraxia Type 1 (AOA1)	MONDO:0014557	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+2	Niemann-Pick Disease Type C	MONDO:0018982	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+3	Ataxia with Oculomotor Apraxia Type 2 (AOA2)	MONDO:0014557	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+4	Friedreich's Ataxia	MONDO:0100339	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+5	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+6	POLG-related Mitochondrial Disorders	N/A	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False

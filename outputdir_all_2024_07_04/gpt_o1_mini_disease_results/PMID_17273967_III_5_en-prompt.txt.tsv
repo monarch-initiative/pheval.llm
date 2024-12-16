@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Trichothiodystrophy	MONDO:0018053	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+1	Trichothiodystrophy	MONDO:0002470	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+2	Netherton Syndrome	MONDO:0009735	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+3	Sjogren-Larsson Syndrome	MONDO:0010031	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+4	Keratitis-Ichthyosis-Deafness (KID) Syndrome	MONDO:0018781	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+5	X-linked Ichthyosis	MONDO:0010622	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+6	Harlequin Ichthyosis	MONDO:0009443	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False

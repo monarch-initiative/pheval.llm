@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinal Muscular Atrophy (SMA) with Respiratory Distress (SMARD)	MONDO:0018450	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Charcot-Marie-Tooth Disease (CMT)	MONDO:0019011	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Congenital Myasthenic Syndrome (CMS)	MONDO:0018940	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Kennedy's Disease (Spinal and Bulbar Muscular Atrophy)	MONDO:0010735	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Myotonic Dystrophy	MONDO:0008056	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Myotonic Dystrophy	MONDO:0016107	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Duchenne Muscular Dystrophy (DMD)	MONDO:0010679	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-syndromic sensorineural hearing loss due to GJB2 mutations	MONDO:0009076	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+2	Non-syndromic sensorineural hearing loss due to GJB6 mutations	MONDO:0012977	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+3	Mitochondrial non-syndromic hearing loss (MT-RNR1 mutations)	MONDO:0012670	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+4	Auditory neuropathy spectrum disorder	MONDO:0021944	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+5	Autosomal dominant non-syndromic hearing loss due to KCNQ4 mutations	MONDO:0010817	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+6	Waardenburg syndrome	MONDO:0018094	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False

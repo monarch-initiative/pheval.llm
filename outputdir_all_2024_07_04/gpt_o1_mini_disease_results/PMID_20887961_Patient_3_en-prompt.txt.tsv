@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beals Syndrome (Congenital Contractures Syndrome)	N/A	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+2	Larsen Syndrome	MONDO:0007875	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+3	Freeman-Sheldon Syndrome	MONDO:0008675	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+4	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+5	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+6	Carpenter Syndrome	MONDO:0019012	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+6	Carpenter Syndrome	MONDO:0008710	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+7	Spondylocostal Dysostosis	MONDO:0000359	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+8	Cantu Syndrome	MONDO:0009406	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KBG syndrome	MONDO:0007846	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	SATB2-associated syndrome	MONDO:0012864	('OMIM:612313', 'Glass syndrome')	1.0	True
+2	SATB2-associated syndrome	MONDO:0100147	('OMIM:612313', 'Glass syndrome')	0.5	True
+3	Sotos syndrome	MONDO:0019349	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0016512	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0007843	('OMIM:612313', 'Glass syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DOCK8 Deficiency	MONDO:0009478	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	1.0	True
+2	Hyper-IgE Syndrome (Job's Syndrome)	MONDO:0018037	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.5	True
+3	Chronic Granulomatous Disease	MONDO:0018305	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+4	Wiskott-Aldrich Syndrome	MONDO:0010518	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+5	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+6	Ectodermal Dysplasia with Immunodeficiency	MONDO:0010295	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False

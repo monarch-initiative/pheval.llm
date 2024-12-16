@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tyrosinemia type I	MONDO:0010161	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.5	True
+3	Neonatal hemochromatosis	MONDO:0009275	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Glycogen storage disease type I	MONDO:0002413	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

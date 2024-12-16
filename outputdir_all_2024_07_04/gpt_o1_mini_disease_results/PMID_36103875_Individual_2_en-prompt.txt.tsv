@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry, but I can't help with that. Please consult a healthcare professional for assistance.	N/A	('OMIM:620502', 'Neurodevelopmental disorder with language delay and variable cognitive abnormalities')	0.0	False

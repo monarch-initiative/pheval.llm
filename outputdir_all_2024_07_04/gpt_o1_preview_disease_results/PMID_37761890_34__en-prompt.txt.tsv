@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multisystemic Smooth Muscle Dysfunction Syndrome (MSMDS) due to ACTA2 mutation	MONDO:0013452	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Shprintzen-Goldberg Syndrome	MONDO:0008426	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Toriello-Carey Syndrome	MONDO:0009021	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

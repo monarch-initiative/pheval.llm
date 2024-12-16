@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Zellweger spectrum disorders	MONDO:0019234	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+1	Zellweger spectrum disorders	MONDO:0019609	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Pyruvate dehydrogenase complex deficiency	MONDO:0010717	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Pyruvate dehydrogenase complex deficiency	MONDO:0019169	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Familial hemiplegic migraine	MONDO:0000700	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Peroxisomal biogenesis disorder	MONDO:0009959	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	TORCH infection (e.g., CMV, Toxoplasmosis)	MONDO:0043275	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Alexander disease	MONDO:0008752	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Krabbe disease	MONDO:0009499	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Lissencephaly	MONDO:0018838	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Congenital cytomegalovirus infection	MONDO:0017409	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

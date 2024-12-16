@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GM1 gangliosidosis type II (juvenile form)	MONDO:0009261	('OMIM:230650', 'GM1-gangliosidosis, type III')	0.0	False
+2	Mucopolysaccharidosis type IVB (Morquio B disease)	MONDO:0009660	('OMIM:230650', 'GM1-gangliosidosis, type III')	0.0	False
+3	Galactosialidosis	MONDO:0009737	('OMIM:230650', 'GM1-gangliosidosis, type III')	0.0	False
+4	Krabbe disease	MONDO:0009499	('OMIM:230650', 'GM1-gangliosidosis, type III')	0.0	False

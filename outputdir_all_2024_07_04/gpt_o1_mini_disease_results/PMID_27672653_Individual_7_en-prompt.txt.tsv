@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Glutaric acidemia type I	MONDO:0009281	('OMIM:231670', 'Glutaricaciduria, type I')	1.0	True
+2	3-Hydroxyglutaric aciduria	MONDO:0016001	('OMIM:231670', 'Glutaricaciduria, type I')	0.0	False
+3	Multiple acyl-CoA dehydrogenase deficiency	MONDO:0009282	('OMIM:231670', 'Glutaricaciduria, type I')	0.0	False
+4	Molybdenum cofactor deficiency	MONDO:0020480	('OMIM:231670', 'Glutaricaciduria, type I')	0.0	False
+4	Molybdenum cofactor deficiency	MONDO:0000063	('OMIM:231670', 'Glutaricaciduria, type I')	0.0	False
+5	Isovaleric acidemia	MONDO:0009475	('OMIM:231670', 'Glutaricaciduria, type I')	0.0	False

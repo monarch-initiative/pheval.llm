@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2 encephalopathy	MONDO:0013387	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+2	SCN2A-related epileptic encephalopathy	MONDO:0013388	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+3	STXBP1-related epileptic encephalopathy	N/A	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+4	SCN8A-related epileptic encephalopathy	MONDO:0013801	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+5	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+6	Pyridoxine-dependent epilepsy (ALDH7A1 deficiency)	MONDO:0020741	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+7	Malignant migrating partial seizures of infancy (MMPSI)	MONDO:0017385	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+8	POLG-related disorders	N/A	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+9	Mitochondrial encephalopathy	MONDO:0004675	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+10	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+10	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Magenis syndrome	MONDO:0008434	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+2	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+3	Noonan syndrome	MONDO:0008104	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+3	Noonan syndrome	MONDO:0018997	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+4	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+5	Williams syndrome	MONDO:0008678	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+6	Kabuki syndrome	MONDO:0016512	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+6	Kabuki syndrome	MONDO:0007843	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False

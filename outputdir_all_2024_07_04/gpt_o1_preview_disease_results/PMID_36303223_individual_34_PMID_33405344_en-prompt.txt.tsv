@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Neonatal Seizures (BFNS)	MONDO:0002016	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	KCNQ2-Related Neonatal Epileptic Encephalopathy	MONDO:0013387	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	SCN2A-Related Early-Onset Epileptic Encephalopathy	MONDO:0013388	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Early Infantile Epileptic Encephalopathy (EIEE) due to other genetic mutations	MONDO:0012812	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

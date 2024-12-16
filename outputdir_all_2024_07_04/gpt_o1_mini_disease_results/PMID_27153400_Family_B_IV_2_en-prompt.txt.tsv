@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+2	Hereditary spastic paraplegia	MONDO:0019064	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.5	True
+3	Amyotrophic lateral sclerosis	MONDO:0004976	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+4	Spinocerebellar ataxia	MONDO:0000437	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+4	Spinocerebellar ataxia	MONDO:0020380	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+5	Multiple sclerosis	MONDO:0005301	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+6	Friedreich's ataxia	MONDO:0100339	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False

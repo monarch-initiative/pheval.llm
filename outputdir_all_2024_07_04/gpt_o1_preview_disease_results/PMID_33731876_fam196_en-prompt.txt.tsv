@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CHD8-related Autism Spectrum Disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	NRXN1 mutation-associated Autism Spectrum Disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	CNTNAP2 mutation-associated Autism Spectrum Disorder	MONDO:0012400	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Classic Autism (Kanner's Autism)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

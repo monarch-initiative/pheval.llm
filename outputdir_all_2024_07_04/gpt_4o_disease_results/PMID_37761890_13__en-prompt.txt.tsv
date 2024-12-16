@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sotos syndrome	MONDO:0019349	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Andermann syndrome	MONDO:0000902	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Kleefstra syndrome	MONDO:0012455	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Kleefstra syndrome	MONDO:0027407	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

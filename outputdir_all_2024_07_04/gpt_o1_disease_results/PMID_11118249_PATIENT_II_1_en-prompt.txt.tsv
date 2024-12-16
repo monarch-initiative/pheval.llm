@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson disease	MONDO:0010200	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+2	Huntington disease	MONDO:0007739	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+3	McLeod syndrome	MONDO:0018945	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+4	Chorea-acanthocytosis	MONDO:0008695	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Gaucher disease type 3	MONDO:0009267	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+6	Niemann-Pick disease type C	MONDO:0018982	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False

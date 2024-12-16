@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Neonatal Seizures	MONDO:0016027	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Benign Neonatal Convulsions	MONDO:0016027	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Nonketotic Hyperglycinemia	MONDO:0011612	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Hypocalcemia-Induced Neonatal Seizures	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

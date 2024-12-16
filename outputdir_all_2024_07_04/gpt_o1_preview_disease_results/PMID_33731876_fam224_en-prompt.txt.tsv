@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Aicardi syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	L1 syndrome (X-linked hydrocephalus)	MONDO:0017140	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Zellweger spectrum disorder	MONDO:0019234	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

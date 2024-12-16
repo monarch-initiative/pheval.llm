@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Trichorhinophalangeal syndrome type 1 (TRPS1)	MONDO:0008596	('OMIM:139210', 'Myhre syndrome')	0.0	False
+2	Acromegaloid facial appearance (AFA) syndrome	MONDO:0007051	('OMIM:139210', 'Myhre syndrome')	0.0	False
+3	Pseudoachondroplasia	MONDO:0008322	('OMIM:139210', 'Myhre syndrome')	0.0	False
+4	Mucopolysaccharidosis type IV (Morquio syndrome)	MONDO:0018938	('OMIM:139210', 'Myhre syndrome')	0.0	False
+5	Sotos syndrome	MONDO:0019349	('OMIM:139210', 'Myhre syndrome')	0.0	False
+6	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:139210', 'Myhre syndrome')	0.0	False
+7	Russell-Silver syndrome	MONDO:0008394	('OMIM:139210', 'Myhre syndrome')	0.0	False
+8	Dubowitz syndrome	MONDO:0009124	('OMIM:139210', 'Myhre syndrome')	0.0	False

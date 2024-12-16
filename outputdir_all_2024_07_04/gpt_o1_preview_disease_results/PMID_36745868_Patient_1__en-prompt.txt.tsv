@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+2	Omenn syndrome	MONDO:0011338	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+3	Hyper IgE syndrome (Job's syndrome)	MONDO:0018037	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+4	Transcobalamin II deficiency	MONDO:0010149	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+5	Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+6	IPEX syndrome	MONDO:0010580	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False

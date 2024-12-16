@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down Syndrome (Trisomy 21)	MONDO:0700126	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+2	Noonan Syndrome	MONDO:0018997	('OMIM:163950', 'Noonan syndrome 1')	0.5	True
+2	Noonan Syndrome	MONDO:0008104	('OMIM:163950', 'Noonan syndrome 1')	1.0	True
+3	DiGeorge Syndrome (22q11.2 deletion)	MONDO:0012020	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+4	Williams Syndrome	MONDO:0008678	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+5	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+6	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:163950', 'Noonan syndrome 1')	0.0	False

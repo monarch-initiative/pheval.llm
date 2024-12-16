@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Acute Myeloid Leukemia	MONDO:0018874	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+1	Acute Myeloid Leukemia	MONDO:0015667	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+2	Aplastic Anemia	MONDO:0013879	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+2	Aplastic Anemia	MONDO:0012197	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+2	Aplastic Anemia	MONDO:0015909	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+3	Myelodysplastic Syndrome	MONDO:0044873	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+3	Myelodysplastic Syndrome	MONDO:0018881	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+4	Shwachman-Diamond Syndrome	MONDO:0044204	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+4	Shwachman-Diamond Syndrome	MONDO:0009833	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+5	Fanconi Anemia	MONDO:0009215	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+5	Fanconi Anemia	MONDO:0019391	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+6	Autoimmune Neutropenia	N/A	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+7	Paroxysmal Nocturnal Hemoglobinuria	MONDO:0100244	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False

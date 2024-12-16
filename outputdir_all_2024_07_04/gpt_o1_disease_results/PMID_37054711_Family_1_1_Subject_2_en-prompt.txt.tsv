@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Microcephaly with pontine and cerebellar hypoplasia (CASK-related)	MONDO:0013990	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+2	Pontocerebellar hypoplasia type 2	MONDO:0016759	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+3	Warburg Micro syndrome	MONDO:0016649	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+4	Leigh syndrome	MONDO:0009723	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+5	PEHO syndrome	MONDO:0009841	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False

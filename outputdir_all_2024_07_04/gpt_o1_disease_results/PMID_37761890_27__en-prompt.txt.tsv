@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	L1 syndrome (X-linked hydrocephalus)	MONDO:0017140	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Alexander disease	MONDO:0008752	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Megalencephaly-polymicrogyria-polydactyly-hydrocephalus (MPPH) syndrome	MONDO:0019375	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

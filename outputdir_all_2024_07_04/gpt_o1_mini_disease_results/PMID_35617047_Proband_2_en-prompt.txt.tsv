@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chronic Progressive External Ophthalmoplegia (CPEO)	N/A	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+2	Myasthenia Gravis	MONDO:0009688	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+3	Oculopharyngeal Muscular Dystrophy	MONDO:0008116	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+4	Mitochondrial Myopathy with Multiple Deletions	MONDO:0012301	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+5	Kearns-Sayre Syndrome	MONDO:0010787	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False

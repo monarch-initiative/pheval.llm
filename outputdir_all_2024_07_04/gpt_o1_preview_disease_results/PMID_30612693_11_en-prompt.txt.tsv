@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive spastic paraplegia type 11 (SPG11)	MONDO:0011445	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Autosomal recessive spastic paraplegia type 15 (SPG15)	MONDO:0011992	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	1q43q44 deletion syndrome	MONDO:0012927	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+4	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+5	L1 syndrome (L1CAM-related disorders)	MONDO:0017140	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False

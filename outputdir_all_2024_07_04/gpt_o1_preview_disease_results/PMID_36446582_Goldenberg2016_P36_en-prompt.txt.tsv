@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Roberts syndrome	MONDO:0100253	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Fanconi anemia	MONDO:0009215	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Fanconi anemia	MONDO:0019391	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Nager syndrome	MONDO:0007943	('OMIM:148050', 'KBG syndrome')	0.0	False

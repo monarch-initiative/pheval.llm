@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Freeman-Sheldon Syndrome	MONDO:0008675	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+2	Sheldon-Hall Syndrome	MONDO:0011128	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Arthrogryposis Multiplex Congenita	MONDO:0007157	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Arthrogryposis Multiplex Congenita	MONDO:0015168	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Multiple Pterygium Syndrome	MONDO:0009926	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Multiple Pterygium Syndrome	MONDO:0017415	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+5	Larsen Syndrome	MONDO:0007875	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+6	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+7	Distal Arthrogryposis	MONDO:0019942	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.5	True
+8	Bruck Syndrome	MONDO:0017195	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False

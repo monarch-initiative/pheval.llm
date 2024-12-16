@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Creutzfeldt-Jakob disease	MONDO:0007403	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+2	Gerstmann-Sträussler-Scheinker syndrome	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+3	CADASIL (Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy)	MONDO:0000914	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+4	Adult-onset neuronal ceroid lipofuscinosis	MONDO:0019260	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+5	Mitochondrial encephalopathy with lactic acidosis and stroke-like episodes (MELAS)	MONDO:0010789	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+6	Autosomal dominant nocturnal frontal lobe epilepsy	MONDO:0020300	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+7	Lafora disease	MONDO:0009697	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False

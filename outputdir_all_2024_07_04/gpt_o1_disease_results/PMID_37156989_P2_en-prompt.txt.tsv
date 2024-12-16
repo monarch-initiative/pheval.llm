@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Eosinophilic granulomatosis with polyangiitis (Churg-Strauss)	MONDO:0015943	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	Granulomatosis with polyangiitis (Wegener’s)	MONDO:0012105	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Behçet’s disease	MONDO:0007191	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Systemic lupus erythematosus	MONDO:0007915	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

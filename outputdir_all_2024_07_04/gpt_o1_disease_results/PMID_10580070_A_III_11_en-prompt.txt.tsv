@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Emery-Dreifuss muscular dystrophy (LMNA-related)	MONDO:0014676	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Limb-girdle muscular dystrophy type 1B (LMNA-related)	MONDO:0021018	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Myotonic dystrophy type 2	MONDO:0011266	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Desmin-related myofibrillar myopathy	MONDO:0011076	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

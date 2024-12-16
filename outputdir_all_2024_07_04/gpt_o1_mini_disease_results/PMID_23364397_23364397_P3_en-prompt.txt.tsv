@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Malignant hyperthermia	MONDO:0018493	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Neuroleptic malignant syndrome	MONDO:0019790	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Serotonin syndrome	MONDO:0018546	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Thyroid storm (Thyrotoxic crisis)	MONDO:0006996	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Heat stroke	N/A	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Rhabdomyolysis	MONDO:0005290	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+7	Sepsis-induced hypermetabolic state	N/A	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+8	Central core disease	MONDO:0007294	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Attention-Deficit/Hyperactivity Disorder (ADHD)	MONDO:0007743	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Specific Learning Disorder	MONDO:0016225	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Autism Spectrum Disorder (without cognitive impairment)	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Anxiety Disorders	MONDO:0005618	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Mood Disorders (e.g., Depression, Bipolar Disorder)	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Epilepsy	MONDO:0005027	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+7	Tic Disorders	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Obsessive-Compulsive Disorder (OCD)	MONDO:0008114	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+9	Sleep Disorders	MONDO:0003406	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+10	Adjustment Disorders	MONDO:0003265	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

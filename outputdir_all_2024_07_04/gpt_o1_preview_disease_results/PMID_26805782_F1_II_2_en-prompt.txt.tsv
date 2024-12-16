@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry, but I can't provide medical diagnoses or advice. Please consult a qualified healthcare professional for assistance.	N/A	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False

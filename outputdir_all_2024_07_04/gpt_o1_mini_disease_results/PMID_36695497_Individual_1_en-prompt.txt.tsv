@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CHARGE Syndrome	MONDO:0008965	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	Microphthalmia with Coloboma	MONDO:0000170	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.5	True
+3	Cat Eye Syndrome	MONDO:0007276	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Branchio-Oto-Ocular Syndrome	MONDO:0007029	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	SOX2-Related Anophthalmia/Microphthalmia	MONDO:0008800	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+6	Isolated Ocular Coloboma	MONDO:0020354	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

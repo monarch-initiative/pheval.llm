@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Keratoderma climactericum	N/A	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+2	Acrokeratoelastoidosis	MONDO:0007047	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+3	Idiopathic punctate palmoplantar hyperkeratosis	MONDO:0019332	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.5	True
+4	Punctate palmoplantar keratoderma type V	MONDO:0008292	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+5	Focal palmoplantar keratoderma	MONDO:0017672	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False

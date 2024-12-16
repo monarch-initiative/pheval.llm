@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Optic nerve hypoplasia	MONDO:0008136	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	Congenital high myopia	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	Isolated microphthalmia	MONDO:0000062	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.5	True
+4	Congenital cataract	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	Retinal dystrophy	MONDO:0019118	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

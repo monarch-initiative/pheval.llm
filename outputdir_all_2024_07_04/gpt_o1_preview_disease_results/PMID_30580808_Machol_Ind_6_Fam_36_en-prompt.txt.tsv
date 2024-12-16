@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	1p36 Deletion syndrome	MONDO:0011929	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Seckel syndrome	MONDO:0019342	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

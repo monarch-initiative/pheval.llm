@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.5	True
+2	Alagille syndrome	MONDO:0007318	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Glycogen storage disease type I	MONDO:0002413	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Zellweger spectrum disorder	MONDO:0019234	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes (MELAS)	MONDO:0010789	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+6	Progressive familial intrahepatic cholestasis (PFIC)	MONDO:0015762	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+7	Joubert syndrome	MONDO:0018772	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+7	Joubert syndrome	MONDO:0008944	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+8	Maple syrup urine disease (MSUD)	MONDO:0017051	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

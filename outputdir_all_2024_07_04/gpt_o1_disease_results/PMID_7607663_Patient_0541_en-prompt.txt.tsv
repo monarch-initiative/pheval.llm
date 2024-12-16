@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurofibromatosis type 1	MONDO:0018975	('OMIM:162200', 'Neurofibromatosis, type 1')	1.0	True
+2	Legius syndrome	MONDO:0012669	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False

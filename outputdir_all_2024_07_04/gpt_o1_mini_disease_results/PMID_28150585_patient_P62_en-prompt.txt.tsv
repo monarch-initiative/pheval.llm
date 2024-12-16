@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:611431', 'Legius syndrome')	0.0	False
+2	Legius Syndrome	MONDO:0012669	('OMIM:611431', 'Legius syndrome')	1.0	True
+3	McCune-Albright Syndrome	MONDO:0018919	('OMIM:611431', 'Legius syndrome')	0.0	False
+4	Fanconi Anemia	MONDO:0009215	('OMIM:611431', 'Legius syndrome')	0.0	False
+4	Fanconi Anemia	MONDO:0019391	('OMIM:611431', 'Legius syndrome')	0.0	False
+5	Multiple Endocrine Neoplasia Type 1	MONDO:0007540	('OMIM:611431', 'Legius syndrome')	0.0	False

@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cysteine Sulfinate Decarboxylase Deficiency	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Cystinuria	MONDO:0009067	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Cystinosis	MONDO:0016239	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Cysteine Dioxygenase Deficiency	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Homocystinuria	MONDO:0004737	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+6	Molybdenum Cofactor Deficiency	MONDO:0020480	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+6	Molybdenum Cofactor Deficiency	MONDO:0000063	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+7	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+8	Multiple Sulfatase Deficiency	MONDO:0010088	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+9	Neu-Laxova Syndrome	MONDO:0009736	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+9	Neu-Laxova Syndrome	MONDO:0000179	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+10	Salla Disease	MONDO:0011449	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

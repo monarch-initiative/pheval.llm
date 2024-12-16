@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Shwachman-Diamond syndrome	MONDO:0044204	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+1	Shwachman-Diamond syndrome	MONDO:0009833	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+2	Congenital amegakaryocytic thrombocytopenia	MONDO:0800451	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+3	Severe congenital neutropenia (Kostmann syndrome)	MONDO:0012548	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+4	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+5	MYH9-related disorder (May-Hegglin anomaly)	N/A	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+6	WHIM syndrome	MONDO:0023880	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+6	WHIM syndrome	MONDO:8000006	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia (HSP)	MONDO:0019064	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.5	True
+2	Charcot-Marie-Tooth disease (CMT)	MONDO:0019011	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+3	Familial spastic paraparesis (FSP)	N/A	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+4	Primary lateral sclerosis (PLS)	MONDO:0018155	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+5	Spinal muscular atrophy (SMA)	MONDO:0001516	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False

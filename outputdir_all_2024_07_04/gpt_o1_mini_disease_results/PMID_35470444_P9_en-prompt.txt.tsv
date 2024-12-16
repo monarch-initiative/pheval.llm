@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.5	True
+2	Noonan syndrome	MONDO:0018997	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+3	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+6	Williams syndrome	MONDO:0008678	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+7	Down syndrome	MONDO:0008608	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False

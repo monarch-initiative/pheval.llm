@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Maple Syrup Urine Disease (MSUD)	MONDO:0017051	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False
+2	Organic acidemia (such as Isovaleric acidemia)	MONDO:0009475	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False
+3	Urea cycle disorder (such as Citrullinemia)	MONDO:0015991	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False
+4	Glutaric acidemia type I	MONDO:0009281	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False
+5	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False

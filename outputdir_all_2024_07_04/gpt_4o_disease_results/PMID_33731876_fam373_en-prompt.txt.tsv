@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Benign familial neonatal convulsions (BFNC)	MONDO:0002016	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Tuberous sclerosis complex (without intellectual disability)	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	PCDH19-related epilepsy	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+6	Familial epilepsy with variable foci (FEVF)	MONDO:0020310	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

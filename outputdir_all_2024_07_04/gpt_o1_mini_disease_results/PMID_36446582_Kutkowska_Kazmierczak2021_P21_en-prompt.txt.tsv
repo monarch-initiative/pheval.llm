@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Russell-Silver Syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Down Syndrome	MONDO:0008608	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Beckwith-Wiedemann Syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:148050', 'KBG syndrome')	0.0	False

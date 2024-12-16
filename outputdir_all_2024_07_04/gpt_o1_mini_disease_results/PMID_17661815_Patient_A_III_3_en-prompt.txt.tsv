@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Norrie Disease	MONDO:0010691	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+2	Axenfeld-Rieger Syndrome	MONDO:0019187	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+3	Stickler Syndrome	MONDO:0019354	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+4	Joubert Syndrome	MONDO:0018772	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+4	Joubert Syndrome	MONDO:0008944	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+5	Waardenburg Syndrome	MONDO:0018094	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+6	Branchiootorenal Syndrome	MONDO:0007029	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+7	CHARGE Syndrome	MONDO:0008965	('OMIM:214800', 'CHARGE syndrome')	1.0	True

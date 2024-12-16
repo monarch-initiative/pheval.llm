@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	1.0	True
+2	Congenital Adrenal Hyperplasia (7-Dehydrocholesterol Reductase Deficiency)	MONDO:0008730	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False
+3	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False
+4	Desmosterolosis	MONDO:0011217	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False
+5	Opitz G/BBB Syndrome	MONDO:0017138	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False

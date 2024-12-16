@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cartilage-hair hypoplasia	MONDO:0009595	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+2	Schimke immuno-osseous dysplasia	MONDO:0009458	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+3	Adenosine deaminase deficiency SCID	MONDO:0007064	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+4	Achondroplasia	MONDO:0007037	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False

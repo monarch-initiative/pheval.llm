@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Coffin-Siris syndrome	MONDO:0007617	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Coffin-Siris syndrome	MONDO:0015452	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Joubert syndrome	MONDO:0018772	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Joubert syndrome	MONDO:0008944	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Aicardi syndrome	MONDO:0010568	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

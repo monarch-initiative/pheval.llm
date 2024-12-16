@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cockayne syndrome	MONDO:0016006	('OMIM:216400', 'Cockayne syndrome, type A')	0.5	True
+2	Seckel syndrome	MONDO:0019342	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+3	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+4	Wiedemann-Rautenstrauch syndrome (neonatal progeroid syndrome)	MONDO:0009910	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+5	Xeroderma pigmentosum	MONDO:0019600	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+6	Schimke immuno-osseous dysplasia	MONDO:0009458	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False

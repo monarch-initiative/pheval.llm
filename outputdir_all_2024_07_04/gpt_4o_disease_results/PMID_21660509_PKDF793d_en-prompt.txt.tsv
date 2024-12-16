@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DFNB1 (GJB2-related)	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+2	DFNA (Non-syndromic autosomal dominant hearing loss)	MONDO:0019587	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+3	OTOF-related hearing loss	MONDO:0010986	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+4	Usher syndrome type 1C (though typically involves visual impairment, reported atypical presentations could lack this feature)	MONDO:0016485	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+5	Waardenburg syndrome (type 2, as type 1 typically involves vestibular dysfunction)	MONDO:0019517	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+6	TECTA-related hearing loss	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+7	POU4F3-related hearing loss	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+8	MYO6-related hearing loss	MONDO:0011912	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PAPA Syndrome (Pyogenic Arthritis, Pyoderma Gangrenosum, Acne)	MONDO:0011462	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	Hyperimmunoglobulin D Syndrome	MONDO:0009849	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Chronic Granulomatous Disease	MONDO:0018305	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Behçet Disease	MONDO:0007191	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+5	SAPHO Syndrome (Synovitis, Acne, Pustulosis, Hyperostosis, Osteitis)	MONDO:0019266	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+6	Hyperimmunoglobulin E Syndrome (Job's Syndrome)	N/A	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

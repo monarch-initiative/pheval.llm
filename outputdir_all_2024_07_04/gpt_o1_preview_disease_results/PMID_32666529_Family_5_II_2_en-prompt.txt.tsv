@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dilated Cardiomyopathy with Ataxia Syndrome (DCMA syndrome)	N/A	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+2	Danon disease (LAMP2 deficiency)	MONDO:0010281	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+3	Pompe disease (Glycogen Storage Disease Type II)	MONDO:0002413	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+4	Primary Carnitine Deficiency	MONDO:0008919	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+5	Mitochondrial Cardiomyopathy	MONDO:0014175	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+6	Alström Syndrome	MONDO:0008763	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Retinitis pigmentosa	MONDO:0008377	('OMIM:601718', 'Retinitis pigmentosa 19')	0.0	False
+1	Retinitis pigmentosa	MONDO:0019200	('OMIM:601718', 'Retinitis pigmentosa 19')	0.5	True
+2	Choroideremia	MONDO:0010557	('OMIM:601718', 'Retinitis pigmentosa 19')	0.0	False
+3	Gyrate atrophy of the choroid and retina	N/A	('OMIM:601718', 'Retinitis pigmentosa 19')	0.0	False
+4	Cone-rod dystrophy	MONDO:0015993	('OMIM:601718', 'Retinitis pigmentosa 19')	0.0	False
+4	Cone-rod dystrophy	MONDO:0011458	('OMIM:601718', 'Retinitis pigmentosa 19')	0.0	False
+4	Cone-rod dystrophy	MONDO:0100438	('OMIM:601718', 'Retinitis pigmentosa 19')	0.0	False
+4	Cone-rod dystrophy	MONDO:0007362	('OMIM:601718', 'Retinitis pigmentosa 19')	0.0	False

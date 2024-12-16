@@ -1,0 +1,15 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+2	Rett Syndrome	MONDO:0010726	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+3	Arthrogryposis Multiplex Congenita	MONDO:0007157	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+3	Arthrogryposis Multiplex Congenita	MONDO:0015168	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+5	Coffin-Siris Syndrome	MONDO:0015452	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+5	Coffin-Siris Syndrome	MONDO:0007617	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+6	Marfan Syndrome	MONDO:0007947	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+7	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+8	Multiple Pterygium Syndrome	MONDO:0009926	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+8	Multiple Pterygium Syndrome	MONDO:0017415	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+9	Holt-Oram Syndrome	MONDO:0007732	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+10	Warburg Micro Syndrome	MONDO:0016649	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False

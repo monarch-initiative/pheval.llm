@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal dominant nocturnal frontal lobe epilepsy	MONDO:0020300	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+2	Autosomal dominant lateral temporal lobe epilepsy	MONDO:0010898	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+3	Generalized epilepsy with febrile seizures plus	MONDO:0018214	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False

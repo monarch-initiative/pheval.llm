@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Pulmonary Fibrosis due to TERT mutation	MONDO:0013878	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+2	Dyskeratosis Congenita	MONDO:0015780	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+3	Idiopathic Pulmonary Fibrosis	MONDO:0800029	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+4	Pulmonary Fibrosis due to TERC mutation	MONDO:0013878	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+5	Pulmonary Fibrosis due to RTEL1 mutation	MONDO:0014613	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False

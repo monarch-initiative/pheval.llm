@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cardiofaciocutaneous syndrome	MONDO:0015280	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+1	Cardiofaciocutaneous syndrome	MONDO:0007265	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+2	Costello syndrome	MONDO:0009026	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+3	Congenital disorder of glycosylation	MONDO:0015286	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+5	Ataxia-telangiectasia	MONDO:0008840	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False

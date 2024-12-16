@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh syndrome	MONDO:0009723	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	Mitochondrial DNA depletion syndrome (e.g., TK2 deficiency)	MONDO:0012301	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Alpers-Huttenlocher syndrome	MONDO:0008758	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	Pearson syndrome	MONDO:0010797	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	Mitochondrial neurogastrointestinal encephalomyopathy (MNGIE)	MONDO:0017575	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+6	SUCLA2 deficiency	N/A	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+7	Deoxyguanosine kinase (DGUOK) deficiency	MONDO:0014899	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Carpenter syndrome	MONDO:0019012	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+1	Carpenter syndrome	MONDO:0008710	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+2	Fuhrmann syndrome	MONDO:0009232	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+3	Haas type polysyndactyly	N/A	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+4	Laurin-Sandrow syndrome	MONDO:0007615	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False

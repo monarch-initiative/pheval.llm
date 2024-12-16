@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara syndrome	MONDO:0100062	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.5	True
+2	Early Infantile Epileptic Encephalopathy	MONDO:0100062	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.5	True
+3	Dravet syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Dravet syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Genetic Epilepsy with Febrile Seizures Plus (GEFS+)	MONDO:0018214	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Metabolic disorders (such as nonketotic hyperglycinemia)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Aicardi syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Sturge-Weber syndrome	MONDO:0008501	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Hemimegalencephaly	MONDO:0020492	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

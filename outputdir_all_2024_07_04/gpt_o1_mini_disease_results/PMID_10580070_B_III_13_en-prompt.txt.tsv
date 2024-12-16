@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Lamin A/C mutation-associated dilated cardiomyopathy	MONDO:0007269	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	1.0	True
+2	Familial dilated cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+2	Familial dilated cardiomyopathy	MONDO:0005021	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+3	Arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Myotonic dystrophy type 1	MONDO:0008056	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Left ventricular noncompaction cardiomyopathy	MONDO:0018901	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+7	Long QT syndrome	MONDO:0002442	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+7	Long QT syndrome	MONDO:0019171	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+8	Hypertrophic cardiomyopathy	MONDO:0005045	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

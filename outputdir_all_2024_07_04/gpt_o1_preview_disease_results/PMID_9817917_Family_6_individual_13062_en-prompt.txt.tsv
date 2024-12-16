@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wolfram syndrome	MONDO:0018105	('OMIM:222300', 'Wolfram syndrome 1')	0.5	True
+2	Alström syndrome	MONDO:0008763	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+3	Friedreich's ataxia	MONDO:0100339	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+4	Refsum disease	MONDO:0009958	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+5	Mitochondrial disorders	MONDO:0004069	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False

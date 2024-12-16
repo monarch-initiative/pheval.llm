@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sotos syndrome	MONDO:0019349	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+2	Weaver syndrome	MONDO:0010193	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+3	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+4	Simpson-Golabi-Behmel syndrome	MONDO:0010731	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False

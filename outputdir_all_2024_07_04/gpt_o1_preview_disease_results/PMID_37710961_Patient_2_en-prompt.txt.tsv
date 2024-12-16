@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Simpson-Golabi-Behmel syndrome	MONDO:0010731	('OMIM:620748', 'Megalencephaly-polydactyly syndrome')	0.0	False
+2	Megalencephaly-Polymicrogyria-Polydactyly-Hydrocephalus (MPPH) syndrome	MONDO:0019375	('OMIM:620748', 'Megalencephaly-polydactyly syndrome')	0.0	False
+3	Pallister-Hall syndrome	MONDO:0007804	('OMIM:620748', 'Megalencephaly-polydactyly syndrome')	0.0	False
+4	Greig cephalopolysyndactyly syndrome	MONDO:0008287	('OMIM:620748', 'Megalencephaly-polydactyly syndrome')	0.0	False
+5	Bannayan-Riley-Ruvalcaba syndrome	MONDO:0007924	('OMIM:620748', 'Megalencephaly-polydactyly syndrome')	0.0	False
+6	Weaver syndrome	MONDO:0010193	('OMIM:620748', 'Megalencephaly-polydactyly syndrome')	0.0	False

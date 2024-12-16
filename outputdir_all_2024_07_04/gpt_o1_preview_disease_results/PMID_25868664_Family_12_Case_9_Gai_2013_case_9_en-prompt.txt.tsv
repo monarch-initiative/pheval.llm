@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial DNA depletion syndrome 13 (FBXL4-related)	MONDO:0014198	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	1.0	True
+2	TMEM70-related mitochondrial ATP synthase deficiency	N/A	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	SUCLG1-related mitochondrial DNA depletion syndrome	MONDO:0014175	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	Leigh syndrome due to MT-ATP6 mutations	N/A	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	RRM2B-related mitochondrial DNA depletion syndrome	MONDO:0012792	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

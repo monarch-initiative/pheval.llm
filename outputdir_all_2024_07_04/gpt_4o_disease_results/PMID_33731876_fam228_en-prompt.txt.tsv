@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Phelan-McDermid syndrome (22q13 Deletion syndrome)	MONDO:0011652	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Rett syndrome (particularly atypical forms which predominantly affect males)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Angelman syndrome (though typically intellectual disability is present, there are mosaic or milder variants)	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	PTEN Hamartoma Tumor syndrome (includes conditions such as Cowden syndrome)	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	15q11-q13 duplications (Dup15q syndrome)	MONDO:0012081	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	SYNGAP1-related intellectual disability (though often includes intellectual disability, there can be milder cases)	MONDO:0012960	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	CHD8-related disorders	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	KIAA2022-related intellectual disability (though intellectual disability is common, some cases might present with autism without intellectual disability)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Please note that the exclusion of intellectual disability and seizures shall typically narrow the diagnosis to conditions primarily associated with autism alone, but milder and atypical presentations of other syndromes can still be considered.	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

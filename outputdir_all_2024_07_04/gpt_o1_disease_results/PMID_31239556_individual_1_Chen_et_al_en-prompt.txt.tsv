@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome (Trisomy 21)	MONDO:0700126	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+2	Edwards syndrome (Trisomy 18)	N/A	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+3	Cri-du-chat syndrome	MONDO:0007404	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+4	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False

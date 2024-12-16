@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2-related early infantile epileptic encephalopathy	MONDO:0013387	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	STXBP1-related early infantile epileptic encephalopathy	MONDO:0012812	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	1.0	True
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	ARX-related epileptic encephalopathy	MONDO:0015921	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Dravet syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Dravet syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Ohtahara syndrome	MONDO:0100062	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.5	True

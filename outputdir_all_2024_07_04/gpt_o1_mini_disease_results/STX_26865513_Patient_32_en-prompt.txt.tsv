@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CDKL5 Disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Rett Syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Dravet Syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Dravet Syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	STXBP1-Related Disorder	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	FOXG1 Syndrome	MONDO:0035383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

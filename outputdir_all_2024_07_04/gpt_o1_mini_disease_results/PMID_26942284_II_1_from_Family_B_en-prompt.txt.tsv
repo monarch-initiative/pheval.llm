@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PARK2 (PRKN) Mutation-Associated Parkinson’s Disease	N/A	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+2	Dopa-Responsive Dystonia	MONDO:0016812	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+3	PARK7 (DJ-1) Mutation-Associated Parkinson’s Disease	MONDO:0011658	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+4	PINK1 Mutation-Associated Parkinson’s Disease	MONDO:0011613	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+5	Progressive Supranuclear Palsy	MONDO:0019037	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+6	Multiple System Atrophy	MONDO:0007803	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+7	Huntington’s Disease	MONDO:0007739	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+8	Wilson’s Disease	MONDO:0010200	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False

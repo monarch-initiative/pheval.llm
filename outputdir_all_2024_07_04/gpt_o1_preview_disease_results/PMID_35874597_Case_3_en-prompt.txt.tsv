@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Infantile Seizures	MONDO:0017615	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+2	Benign Infantile Epilepsy	MONDO:0017615	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+3	SCN2A-related Epilepsy	MONDO:0011904	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+4	Self-Limited Epilepsy with Onset in Infancy	MONDO:0100023	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+5	Unspecified Focal Epilepsy	N/A	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False

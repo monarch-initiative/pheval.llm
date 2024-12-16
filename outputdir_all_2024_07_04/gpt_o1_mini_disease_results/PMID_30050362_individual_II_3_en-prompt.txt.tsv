@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Systemic Sclerosis (Systemic Scleroderma)	N/A	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+2	Juvenile Idiopathic Arthritis	MONDO:0011429	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+3	Mucopolysaccharidosis Type I (Hurler Syndrome)	MONDO:0011759	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+4	Langerhans Cell Histiocytosis	MONDO:0017029	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+4	Langerhans Cell Histiocytosis	MONDO:0018310	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+4	Langerhans Cell Histiocytosis	MONDO:0017025	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+5	Juvenile Systemic Lupus Erythematosus	HP:0002725	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+6	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+7	Hyperimmunoglobulin E Syndrome	MONDO:0018037	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+8	Scurvy (Vitamin C Deficiency)	MONDO:0009412	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+9	Juvenile Dermatomyositis	MONDO:0008054	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+10	Neonatal-Onset Multisystem Inflammatory Disease	MONDO:0011776	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Genetic Epilepsy with Febrile Seizures Plus (GEFS+)	MONDO:0018214	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Myoclonic Astatic Epilepsy (Doose Syndrome)	MONDO:0016025	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Benign Familial Infantile Epilepsy	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+4	Benign Myoclonic Epilepsy in Infancy	MONDO:0015639	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Dravet Syndrome	MONDO:0100135	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Dravet Syndrome	MONDO:0100079	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

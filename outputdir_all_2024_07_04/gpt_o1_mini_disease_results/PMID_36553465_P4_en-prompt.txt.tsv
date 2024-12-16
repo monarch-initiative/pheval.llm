@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oculocutaneous albinism type 1	MONDO:0018135	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+2	Oculocutaneous albinism type 2	MONDO:0008746	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+3	Hermansky-Pudlak syndrome	MONDO:0030903	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+3	Hermansky-Pudlak syndrome	MONDO:0019312	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+4	Piebaldism	MONDO:0008244	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+5	Waardenburg syndrome	MONDO:0018094	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+6	Vogt-Koyanagi-Harada disease	MONDO:0018092	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+7	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False

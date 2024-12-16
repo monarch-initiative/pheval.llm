@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Disorder of Glycosylation Type Ia (PMM2-CDG)	MONDO:0008907	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+2	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+3	Early Infantile Epileptic Encephalopathy due to ARX Mutation	MONDO:0010632	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+4	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+5	Leigh Syndrome	MONDO:0009723	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+6	Warburg Micro Syndrome	MONDO:0016649	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+7	Krabbe Disease	MONDO:0009499	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+8	MECP2 Duplication Syndrome	MONDO:0010283	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False

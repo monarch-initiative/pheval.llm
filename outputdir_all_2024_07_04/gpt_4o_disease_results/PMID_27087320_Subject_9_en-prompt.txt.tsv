@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PTEN Hamartoma Tumor Syndrome (including Bannayan-Riley-Ruvalcaba Syndrome and Cowden Syndrome)	MONDO:0017623	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+2	Sotos Syndrome	MONDO:0019349	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+3	Fragile X Syndrome	MONDO:0010383	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+4	Noonan Syndrome with Multiple Lentigines (formerly LEOPARD syndrome)	MONDO:0100082	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+5	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+5	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+6	Peutz-Jeghers Syndrome	MONDO:0008280	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False

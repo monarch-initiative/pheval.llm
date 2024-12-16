@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurofibromatosis type 2 (NF2)	MONDO:0007039	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+2	Muckle-Wells syndrome	MONDO:0008633	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+3	Sotos syndrome	MONDO:0019349	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+4	Cowden syndrome	MONDO:0016063	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+5	Toriello-Carey syndrome	MONDO:0009021	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False

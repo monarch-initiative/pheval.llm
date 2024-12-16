@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Duchenne muscular dystrophy (DMD)	MONDO:0010679	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+2	Spinal muscular atrophy (SMA)	MONDO:0001516	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+3	Congenital muscular dystrophy (CMD)	MONDO:0019950	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.5	True
+4	Becker muscular dystrophy (BMD)	MONDO:0010311	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+5	Myotonic dystrophy	MONDO:0008056	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+5	Myotonic dystrophy	MONDO:0016107	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+6	Limb-girdle muscular dystrophy (LGMD)	MONDO:0016971	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False

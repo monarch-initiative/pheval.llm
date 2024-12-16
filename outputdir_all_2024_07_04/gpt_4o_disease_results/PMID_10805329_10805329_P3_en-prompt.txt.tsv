@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pompe disease	MONDO:0009290	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Mitochondrial myopathy	MONDO:0009637	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.5	True
+3	Nemaline myopathy	MONDO:0018958	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Spinal muscular atrophy	MONDO:0001516	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Spinal muscular atrophy	MONDO:0019079	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

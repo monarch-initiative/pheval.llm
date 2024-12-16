@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Parkinson’s Disease	MONDO:0014231	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Wilson Disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Multiple System Atrophy	MONDO:0007803	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Progressive Supranuclear Palsy	MONDO:0019037	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Spinocerebellar Ataxia	MONDO:0000437	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Spinocerebellar Ataxia	MONDO:0020380	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Neurodegeneration with Brain Iron Accumulation	MONDO:0018307	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.5	True

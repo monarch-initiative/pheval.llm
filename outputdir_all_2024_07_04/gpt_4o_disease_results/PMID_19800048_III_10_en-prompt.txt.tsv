@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+1	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Usher syndrome	MONDO:0019501	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Primary ciliary dyskinesia	MONDO:0016575	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Common variable immunodeficiency (CVID)	MONDO:0015517	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	Alström syndrome	MONDO:0008763	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Maturity-onset diabetes of the young type 5 (HNF1B-related)	MONDO:0010894	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+2	Maturity-onset diabetes of the young type 3 (HNF1A-related)	MONDO:0010894	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+3	Maternally inherited diabetes and deafness (MIDD)	MONDO:0010785	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+4	Maturity-onset diabetes of the young type 2 (GCK-related)	MONDO:0007453	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False

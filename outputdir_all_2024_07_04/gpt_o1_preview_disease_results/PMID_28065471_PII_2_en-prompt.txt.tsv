@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive cutis laxa type IIA	MONDO:0018163	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+2	Congenital disorder of glycosylation type II	MONDO:0005501	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+2	Congenital disorder of glycosylation type II	MONDO:0011933	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+3	Geroderma osteodysplastica	MONDO:0009271	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	LTBP4-related cutis laxa (autosomal recessive cutis laxa type IC)	MONDO:0013170	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+5	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+6	Marfan syndrome	MONDO:0007947	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False

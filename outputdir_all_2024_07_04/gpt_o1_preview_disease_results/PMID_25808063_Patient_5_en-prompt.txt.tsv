@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Homocystinuria	MONDO:0004737	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Morquio syndrome (Mucopolysaccharidosis Type IV)	N/A	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Nance-Horan syndrome	MONDO:0010545	('OMIM:600373', 'CODAS syndrome')	0.0	False
+6	Larsen syndrome	MONDO:0007875	('OMIM:600373', 'CODAS syndrome')	0.0	False
+7	Pyle disease	MONDO:0009943	('OMIM:600373', 'CODAS syndrome')	0.0	False

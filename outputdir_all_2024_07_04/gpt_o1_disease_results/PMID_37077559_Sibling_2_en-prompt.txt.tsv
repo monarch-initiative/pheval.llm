@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Laing distal myopathy	MONDO:0008050	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False
+2	Distal hereditary motor neuropathy	MONDO:0018894	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.5	True
+3	Miyoshi myopathy	MONDO:0024545	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False
+3	Miyoshi myopathy	MONDO:0009685	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False
+4	Charcot-Marie-Tooth disease type 2	MONDO:0018993	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False

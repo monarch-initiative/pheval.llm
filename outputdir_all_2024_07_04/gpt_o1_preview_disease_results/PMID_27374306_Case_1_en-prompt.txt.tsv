@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Barth syndrome	MONDO:0010543	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+2	Mitochondrial cardiomyopathy	MONDO:0015283	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+3	LMNA-related cardiomyopathy	N/A	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+4	Danon disease	MONDO:0010281	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+5	Familial progressive cardiac conduction defect	MONDO:0019490	('OMIM:616249', 'Long QT syndrome 15')	0.0	False

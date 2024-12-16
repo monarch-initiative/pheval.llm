@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0008104	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+1	Noonan syndrome	MONDO:0018997	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+2	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+4	Holt-Oram syndrome	MONDO:0007732	('OMIM:142900', 'Holt-Oram syndrome')	1.0	True
+5	Treacher Collins syndrome	MONDO:0007944	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Treacher Collins syndrome	MONDO:0002457	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+6	Gorlin-Goltz syndrome (Nevoid Basal Cell Carcinoma syndrome)	N/A	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

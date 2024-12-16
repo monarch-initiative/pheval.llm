@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Kabuki syndrome	MONDO:0016512	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Kabuki syndrome	MONDO:0007843	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Williams syndrome	MONDO:0008678	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	Sotos syndrome	MONDO:0019349	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

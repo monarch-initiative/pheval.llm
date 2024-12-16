@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Genetic Epilepsy with Febrile Seizures Plus (GEFS+)	MONDO:0018214	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	SCN1A-related febrile seizures with developmental delay	MONDO:0100079	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	FOXP2-related speech and language disorder	N/A	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	16p11.2 microdeletion syndrome	MONDO:0016836	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

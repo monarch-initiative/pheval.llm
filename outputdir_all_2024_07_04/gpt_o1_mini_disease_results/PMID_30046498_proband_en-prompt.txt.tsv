@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alagille Syndrome	MONDO:0007318	('OMIM:118450', 'Alagille syndrome 1')	0.5	True
+2	Alpha-1 Antitrypsin Deficiency	MONDO:0013282	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+3	Progressive Familial Intrahepatic Cholestasis	MONDO:0015762	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+3	Progressive Familial Intrahepatic Cholestasis	MONDO:0008892	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+4	Niemann-Pick Disease	MONDO:0001982	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+5	Dubin-Johnson Syndrome	MONDO:0009380	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+6	Biliary Atresia	MONDO:0008867	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+7	Wilson Disease	MONDO:0010200	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+8	Zellweger Spectrum Disorders	MONDO:0019234	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+8	Zellweger Spectrum Disorders	MONDO:0019609	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+9	Trisomy 18	MONDO:0018071	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+10	Turner Syndrome	MONDO:0019499	('OMIM:118450', 'Alagille syndrome 1')	0.0	False

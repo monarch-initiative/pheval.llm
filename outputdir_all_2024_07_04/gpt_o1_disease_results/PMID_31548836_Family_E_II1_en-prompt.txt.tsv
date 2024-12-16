@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cleidocranial dysplasia	MONDO:0007340	('OMIM:119600', 'Cleidocranial dysplasia')	1.0	True
+2	Pyknodysostosis	MONDO:0009940	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+3	Apert syndrome	MONDO:0007041	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False

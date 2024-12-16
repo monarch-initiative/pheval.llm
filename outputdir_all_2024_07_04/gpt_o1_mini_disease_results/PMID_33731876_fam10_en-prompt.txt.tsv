@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara Syndrome (Early Infantile Epileptic Encephalopathy)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	STXBP1-Related Encephalopathy	MONDO:0012812	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	CDKL5-Related Disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Dravet Syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Dravet Syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	West Syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	FOXG1 Syndrome	MONDO:0035383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	ARX-Related Developmental and Epileptic Encephalopathy	MONDO:0010632	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Malignant Migrating Partial Seizures of Infancy	MONDO:0017385	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Glut1 Deficiency Syndrome	MONDO:0011724	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Glut1 Deficiency Syndrome	MONDO:0000188	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

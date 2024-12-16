@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DNAH1-related Multiple Morphological Abnormalities of the Sperm Flagella (MMAF)	N/A	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+2	CATSPER gene mutations causing asthenozoospermia	N/A	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+3	Dysplasia of the Fibrous Sheath (DFS)	N/A	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+4	Mitochondrial DNA Depletion Syndrome (MDDS)	MONDO:0018158	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+5	Primary Ciliary Dyskinesia (PCD)	MONDO:0016575	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spondyloocular syndrome	MONDO:0011604	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+2	Osteogenesis imperfecta	MONDO:0019019	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+3	Stickler syndrome	MONDO:0019354	('OMIM:604841', 'Stickler syndrome, type II')	0.5	True
+4	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False

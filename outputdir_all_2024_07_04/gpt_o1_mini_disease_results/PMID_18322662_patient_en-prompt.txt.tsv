@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Larsen Syndrome	MONDO:0007875	('OMIM:150250', 'Larsen syndrome')	1.0	True
+2	Multiple Pterygium Syndrome	MONDO:0009926	('OMIM:150250', 'Larsen syndrome')	0.0	False
+2	Multiple Pterygium Syndrome	MONDO:0017415	('OMIM:150250', 'Larsen syndrome')	0.0	False
+3	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:150250', 'Larsen syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:150250', 'Larsen syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:150250', 'Larsen syndrome')	0.0	False
+5	Arthrogryposis Multiplex Congenita	MONDO:0007157	('OMIM:150250', 'Larsen syndrome')	0.0	False
+5	Arthrogryposis Multiplex Congenita	MONDO:0015168	('OMIM:150250', 'Larsen syndrome')	0.0	False

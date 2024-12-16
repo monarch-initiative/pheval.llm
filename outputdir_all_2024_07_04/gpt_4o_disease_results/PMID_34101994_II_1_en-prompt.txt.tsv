@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rhabdoid Tumor Predisposition Syndrome (RTPS)	N/A	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+2	Li-Fraumeni Syndrome	MONDO:0018875	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+3	Neurofibromatosis Type 2 (NF2)	MONDO:0007039	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False

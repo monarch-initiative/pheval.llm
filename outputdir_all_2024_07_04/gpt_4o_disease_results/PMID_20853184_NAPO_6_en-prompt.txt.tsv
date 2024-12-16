@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Huntington's disease	MONDO:0007739	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Parkinson's disease (specifically, a form that may present without tremor)	N/A	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Progressive supranuclear palsy (PSP)	MONDO:0009839	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Multiple system atrophy (MSA)	MONDO:0007803	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Corticobasal degeneration (CBD)	MONDO:0022308	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+7	Neurodegeneration with brain iron accumulation (NBIA)	MONDO:0018307	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.5	True

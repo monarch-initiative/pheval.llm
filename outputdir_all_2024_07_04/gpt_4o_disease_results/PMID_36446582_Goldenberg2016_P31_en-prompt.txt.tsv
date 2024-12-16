@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubenstein-Taybi syndrome	MONDO:0019188	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Floating-Harbor syndrome	MONDO:0007621	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Cleidocranial dysplasia	MONDO:0007340	('OMIM:148050', 'KBG syndrome')	0.0	False
+7	Sotos syndrome	MONDO:0019349	('OMIM:148050', 'KBG syndrome')	0.0	False

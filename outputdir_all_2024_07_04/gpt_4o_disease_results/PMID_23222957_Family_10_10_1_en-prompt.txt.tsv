@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:242840', 'Vici syndrome')	0.0	False
+2	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:242840', 'Vici syndrome')	0.0	False
+3	Aicardi syndrome	MONDO:0010568	('OMIM:242840', 'Vici syndrome')	0.0	False
+4	Rett syndrome	MONDO:0010726	('OMIM:242840', 'Vici syndrome')	0.0	False
+5	Oculocerebral syndrome with hypopigmentation (Cross syndrome)	MONDO:0009767	('OMIM:242840', 'Vici syndrome')	0.0	False
+6	Congenital disorder of glycosylation	MONDO:0015286	('OMIM:242840', 'Vici syndrome')	0.0	False
+7	Joubert syndrome	MONDO:0018772	('OMIM:242840', 'Vici syndrome')	0.0	False
+7	Joubert syndrome	MONDO:0008944	('OMIM:242840', 'Vici syndrome')	0.0	False

@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cleidocranial dysplasia	MONDO:0007340	('OMIM:119600', 'Cleidocranial dysplasia')	1.0	True
+2	Osteogenesis imperfecta	MONDO:0019019	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+3	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+5	Crouzon syndrome	MONDO:0007405	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+6	Spondyloepiphyseal dysplasia	MONDO:0007738	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+6	Spondyloepiphyseal dysplasia	MONDO:0016761	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+7	Apert syndrome	MONDO:0007041	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+8	Sclerosteosis	MONDO:0017838	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+9	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False
+10	Marfan syndrome	MONDO:0007947	('OMIM:119600', 'Cleidocranial dysplasia')	0.0	False

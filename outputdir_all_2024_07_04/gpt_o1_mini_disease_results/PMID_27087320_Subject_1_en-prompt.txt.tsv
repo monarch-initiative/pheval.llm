@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Norrie Disease	MONDO:0010691	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+2	SOX2-Related Disorder	N/A	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+3	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+4	Joubert Syndrome	MONDO:0018772	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+4	Joubert Syndrome	MONDO:0008944	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+5	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+6	Opitz G/BBB Syndrome	MONDO:0017138	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+7	CHARGE-Like Syndrome	MONDO:0010554	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False

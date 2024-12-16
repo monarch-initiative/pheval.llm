@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert Syndrome	MONDO:0018772	('OMIM:300804', 'Joubert syndrome 10')	0.5	True
+1	Joubert Syndrome	MONDO:0008944	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Meckel-Gruber Syndrome	MONDO:0018921	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Meckel-Gruber Syndrome	MONDO:0009571	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Senior-Løken Syndrome	MONDO:0010031	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	Alström Syndrome	MONDO:0008763	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+6	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+7	Oral-Facial-Digital Syndrome	MONDO:0015375	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+8	Cohen Syndrome	MONDO:0008999	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+9	Senior Syndrome	MONDO:0007230	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+10	Nephronophthisis	MONDO:0019005	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

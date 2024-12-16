@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Aicardi syndrome	MONDO:0010568	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	West syndrome (Infantile spasms)	MONDO:0018097	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.5	True
+5	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	Early Infantile Epileptic Encephalopathy (EIEE)	MONDO:0012812	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+7	Microcephaly with pontine and cerebellar hypoplasia (MICPCH)	MONDO:0013990	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+8	Joubert syndrome	MONDO:0018772	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+8	Joubert syndrome	MONDO:0008944	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+9	Angelman syndrome	MONDO:0007113	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

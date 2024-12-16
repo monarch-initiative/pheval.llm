@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal Renal Tubular Acidosis (dRTA)	MONDO:0015827	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.5	True
+2	Sickle Cell Disease	MONDO:0011382	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+3	Hereditary Elliptocytosis	MONDO:0017319	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+4	Bartter Syndrome	MONDO:0015231	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+5	Gitelman Syndrome	MONDO:0009904	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False

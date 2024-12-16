@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Childhood Absence Epilepsy	MONDO:0010826	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Juvenile Myoclonic Epilepsy	MONDO:0009696	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Dravet Syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Dravet Syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Rett Syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Tuberous Sclerosis	MONDO:0001734	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Angelman Syndrome	MONDO:0007113	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Down Syndrome	MONDO:0008608	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Fragile X Syndrome	MONDO:0010383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Landau-Kleffner Syndrome	MONDO:0009509	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

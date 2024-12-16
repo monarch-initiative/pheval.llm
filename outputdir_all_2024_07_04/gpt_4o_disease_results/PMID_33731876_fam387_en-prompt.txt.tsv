@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Episodic ataxia type 1 (EA1)	MONDO:0008047	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Episodic ataxia type 2 (EA2)	MONDO:0007163	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Spinocerebellar ataxia (SCA)	MONDO:0008457	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Mitochondrial disorders (e.g., Mitochondrial encephalomyopathy)	MONDO:0004675	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Alternating hemiplegia of childhood (AHC)	MONDO:0016241	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

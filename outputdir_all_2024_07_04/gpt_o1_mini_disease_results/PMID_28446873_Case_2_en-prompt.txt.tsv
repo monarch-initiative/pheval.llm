@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chorea-acanthocytosis	MONDO:0008695	('OMIM:200150', 'Choreoacanthocytosis')	1.0	True
+2	Huntington's disease	MONDO:0007739	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+3	Wilson disease	MONDO:0010200	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+4	McLeod syndrome	MONDO:0018945	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+5	Lesch-Nyhan syndrome	MONDO:0010298	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+6	Pantothenate kinase-associated neurodegeneration	MONDO:0009319	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+7	Neuroferritinopathy	MONDO:0011638	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+8	Spinocerebellar ataxia	MONDO:0000437	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+8	Spinocerebellar ataxia	MONDO:0020380	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Miller-Dieker syndrome	MONDO:0009532	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Rett syndrome	MONDO:0010726	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+6	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

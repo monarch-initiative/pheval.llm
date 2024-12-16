@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	ARX-related syndrome (including Partington syndrome)	N/A	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+2	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+4	Joubert syndrome	MONDO:0018772	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+4	Joubert syndrome	MONDO:0008944	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+5	Rett syndrome	MONDO:0010726	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+6	Cohen syndrome	MONDO:0008999	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+7	Miller-Dieker syndrome	MONDO:0009532	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+8	Angelman syndrome	MONDO:0007113	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False

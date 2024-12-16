@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mandibuloacral dysplasia	MONDO:0016584	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+1	Mandibuloacral dysplasia	MONDO:0009557	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+2	Hutchinson-Gilford progeria syndrome	MONDO:0008310	('OMIM:176670', 'Hutchinson-Gilford progeria')	1.0	True
+3	Ectodermal dysplasia	MONDO:0019287	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+3	Ectodermal dysplasia	MONDO:0009773	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+4	Marfan syndrome	MONDO:0007947	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+5	Noonan syndrome	MONDO:0018997	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+5	Noonan syndrome	MONDO:0008104	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False

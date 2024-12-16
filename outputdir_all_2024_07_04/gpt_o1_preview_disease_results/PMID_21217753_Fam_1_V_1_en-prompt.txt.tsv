@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple Epiphyseal Dysplasia	MONDO:0016648	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Spondyloepiphyseal Dysplasia	MONDO:0007738	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Spondyloepiphyseal Dysplasia	MONDO:0016761	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Alkaptonuria	MONDO:0008753	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Early-onset osteoarthritis due to COL2A1 mutation	MONDO:0011496	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Hemochromatosis	MONDO:0006507	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Hemochromatosis	MONDO:0021001	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

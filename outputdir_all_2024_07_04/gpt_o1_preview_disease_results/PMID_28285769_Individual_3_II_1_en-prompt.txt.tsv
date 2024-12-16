@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-syndromic retinitis pigmentosa	N/A	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+2	Choroideremia	MONDO:0010557	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+3	Congenital stationary night blindness	MONDO:0016293	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+4	X-linked retinitis pigmentosa	MONDO:0010364	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+5	Fundus albipunctatus	MONDO:0100444	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+5	Fundus albipunctatus	MONDO:0007639	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+5	Fundus albipunctatus	MONDO:0100443	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False

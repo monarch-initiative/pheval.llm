@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	7q11.23 duplication syndrome	MONDO:0012342	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+2	Kabuki syndrome	MONDO:0016512	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+2	Kabuki syndrome	MONDO:0007843	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	22q11.2 deletion syndrome	MONDO:0008564	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	22q11.2 deletion syndrome	MONDO:0018923	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+5	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+6	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+7	1p36 deletion syndrome	MONDO:0011929	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False

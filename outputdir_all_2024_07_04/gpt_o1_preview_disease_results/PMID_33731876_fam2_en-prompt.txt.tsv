@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Neonatal Seizures (BFNS)	MONDO:0002016	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Benign Neonatal Convulsions (BNC)	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	KCNQ2-Related Benign Neonatal Epilepsy	MONDO:0007365	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	SCN2A-Related Benign Neonatal Epilepsy	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True

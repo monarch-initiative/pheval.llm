@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	MECP2 duplication syndrome	MONDO:0010283	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0001734	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0008612	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	SHANK3-related disorder (Phelan-McDermid syndrome)	N/A	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+6	16p11.2 microdeletion syndrome	MONDO:0016836	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

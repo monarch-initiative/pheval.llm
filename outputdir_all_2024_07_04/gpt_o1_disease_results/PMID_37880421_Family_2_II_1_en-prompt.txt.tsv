@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Differential diagnosis:	N/A	('OMIM:620653', 'Intellectual developmental disorder, autosomal recessive 80, with variant lissencephaly')	0.0	False
+2	Lissencephaly 1 (LIS1-related)	MONDO:0011830	('OMIM:620653', 'Intellectual developmental disorder, autosomal recessive 80, with variant lissencephaly')	0.0	False
+3	DCX-related lissencephaly	MONDO:0010239	('OMIM:620653', 'Intellectual developmental disorder, autosomal recessive 80, with variant lissencephaly')	0.0	False
+4	TUBA1A-related lissencephaly	MONDO:0012703	('OMIM:620653', 'Intellectual developmental disorder, autosomal recessive 80, with variant lissencephaly')	0.0	False
+5	TUBB2B-related lissencephaly	MONDO:0012703	('OMIM:620653', 'Intellectual developmental disorder, autosomal recessive 80, with variant lissencephaly')	0.0	False

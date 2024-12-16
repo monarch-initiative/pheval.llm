@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Aicardi syndrome	MONDO:0010568	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	PCDH19-related epilepsy	N/A	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0001734	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0008612	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

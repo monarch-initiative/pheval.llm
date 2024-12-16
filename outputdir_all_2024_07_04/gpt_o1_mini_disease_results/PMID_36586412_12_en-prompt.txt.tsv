@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Angelman syndrome	MONDO:0007113	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Down syndrome	MONDO:0008608	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Smith-Magenis syndrome	MONDO:0008434	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	Rett-like syndromes	MONDO:0010726	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+7	X-linked intellectual disability	MONDO:0100284	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.5	True

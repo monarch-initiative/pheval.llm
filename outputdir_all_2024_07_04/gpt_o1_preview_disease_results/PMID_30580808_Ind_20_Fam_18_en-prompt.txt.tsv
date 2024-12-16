@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	16p11.2 microdeletion syndrome	MONDO:0016836	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	Smith-Magenis syndrome	MONDO:0008434	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	15q11.2-13.1 duplication syndrome	MONDO:0012081	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	SHANK3-related disorder (Phelan-McDermid syndrome)	N/A	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+6	Fragile X syndrome	MONDO:0010383	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+7	Klinefelter syndrome	MONDO:0006823	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

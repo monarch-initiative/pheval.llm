@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Angelman syndrome	MONDO:0007113	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+2	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+3	Alexander disease	MONDO:0008752	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+4	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+5	Rett-like syndromes	MONDO:0010726	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+6	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+7	Fragile X syndrome	MONDO:0010383	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+8	Early-onset epileptic encephalopathy	MONDO:0100107	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+9	Aicardi syndrome	MONDO:0010568	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+10	Salla disease	MONDO:0011449	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False

@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Glycogen Storage Disease Type I (Von Gierke Disease)	MONDO:0002413	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Mitochondrial Disorder (e.g., Mitochondrial Myopathy)	MONDO:0004675	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Fatty Acid Oxidation Defect (e.g., Medium-Chain Acyl-CoA Dehydrogenase Deficiency)	MONDO:0008721	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Propionic Acidemia	MONDO:0011628	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+6	Congenital Disorders of Glycosylation	MONDO:0015286	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+7	Tyrosinemia	MONDO:0004741	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+8	Organic Acidemias (e.g., Methylmalonic Acidemia)	MONDO:0009615	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+9	Glycogen Storage Disease Type III (Cori Disease)	MONDO:0009291	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+10	Pyruvate Dehydrogenase Complex Deficiency	MONDO:0010717	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+10	Pyruvate Dehydrogenase Complex Deficiency	MONDO:0019169	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome (Trisomy 21)	MONDO:0700126	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+2	Apert syndrome	MONDO:0007041	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+3	Edwards syndrome (Trisomy 18)	N/A	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False

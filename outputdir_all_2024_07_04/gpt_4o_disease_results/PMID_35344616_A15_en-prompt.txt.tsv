@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Acrofrontofacionasal dysostosis (AFFND)	MONDO:0011359	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+2	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+4	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+5	Aarskog-Scott syndrome	MONDO:0007030	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+5	Aarskog-Scott syndrome	MONDO:0021005	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+5	Aarskog-Scott syndrome	MONDO:0010589	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False

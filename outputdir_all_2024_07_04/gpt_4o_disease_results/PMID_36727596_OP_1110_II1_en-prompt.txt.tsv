@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Heterotaxy syndrome	MONDO:0018677	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+2	Primary ciliary dyskinesia (Kartagener syndrome)	MONDO:0012087	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+3	Congenital heart disease with Pulmonary Arterial Hypertension	N/A	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False

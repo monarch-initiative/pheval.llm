@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Common Variable Immunodeficiency (CVID)	MONDO:0015517	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+2	Hyper IgM Syndrome	MONDO:0010626	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+3	Autoimmune Polyendocrine Syndrome Type 1 (APS-1)	MONDO:0010012	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+4	Immunodeficiency with Hyper IgE (Job's Syndrome)	N/A	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+5	Selective IgA Deficiency	MONDO:0001341	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False

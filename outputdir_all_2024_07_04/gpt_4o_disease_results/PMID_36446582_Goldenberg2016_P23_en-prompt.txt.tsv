@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Russell-Silver syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Williams syndrome	MONDO:0008678	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Noonan syndrome	MONDO:0008104	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Noonan syndrome	MONDO:0018997	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Bloom syndrome	MONDO:0008876	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Mulibrey nanism	MONDO:0009664	('OMIM:148050', 'KBG syndrome')	0.0	False

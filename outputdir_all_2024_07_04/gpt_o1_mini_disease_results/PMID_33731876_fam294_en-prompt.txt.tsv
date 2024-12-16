@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Psychogenic nonepileptic seizures	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Febrile seizures	HP:0002373	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Reflex seizures	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Benign childhood seizures	MONDO:0015639	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Transient epileptic phenomena	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

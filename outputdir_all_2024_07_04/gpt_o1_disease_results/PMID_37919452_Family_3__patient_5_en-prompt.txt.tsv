@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Berardinelli-Seip congenital lipodystrophy	MONDO:0018883	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Dunnigan familial partial lipodystrophy	MONDO:0007906	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+3	Alström syndrome	MONDO:0008763	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.5	True
+2	Adrenoleukodystrophy	MONDO:0018544	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+2	Adrenoleukodystrophy	MONDO:0010247	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+3	Spastic Cerebral Palsy	MONDO:0000396	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+4	Metachromatic Leukodystrophy	MONDO:0018868	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+4	Metachromatic Leukodystrophy	MONDO:0009591	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+5	X-Linked Spastic Paraplegia	MONDO:0017630	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False

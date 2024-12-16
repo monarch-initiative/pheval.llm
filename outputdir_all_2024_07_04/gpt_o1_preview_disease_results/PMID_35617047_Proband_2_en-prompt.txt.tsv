@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal dominant Progressive External Ophthalmoplegia (adPEO)	MONDO:0016810	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+2	POLG-related mitochondrial disorder	MONDO:0012415	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+3	TWNK (Twinkle)-related Progressive External Ophthalmoplegia	MONDO:0012241	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+4	SLC25A4-related Progressive External Ophthalmoplegia	MONDO:0012238	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+5	OPA1-related Progressive External Ophthalmoplegia	MONDO:0016810	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False

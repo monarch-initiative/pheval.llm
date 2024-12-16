@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked hypophosphatemic rickets	MONDO:0010619	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+1	X-linked hypophosphatemic rickets	MONDO:0020720	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Autosomal dominant hypophosphatemic rickets	MONDO:0008660	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Hereditary hypophosphatemic rickets with hypercalciuria	MONDO:0009431	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Spondyloepiphyseal dysplasia	MONDO:0007738	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Spondyloepiphyseal dysplasia	MONDO:0016761	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Osteoglophonic dysplasia	MONDO:0008150	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Hereditary vitamin D-resistant rickets	MONDO:0019642	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+7	Hypophosphatemic osteomalacia	MONDO:0600010	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+8	Denker syndrome	N/A	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+9	Tumor-induced osteomalacia	MONDO:0018124	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+10	HHRH (Hereditary Hypophosphatemic Rickets with Hypercalciuria)	MONDO:0009431	('OMIM:258480', 'Opsismodysplasia')	0.0	False

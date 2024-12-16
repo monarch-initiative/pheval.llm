@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Classical Ehlers-Danlos syndrome	MONDO:0007522	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Congenital Contractural Arachnodactyly (Beals syndrome)	MONDO:0007363	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Kyphoscoliotic Ehlers-Danlos syndrome	MONDO:0016002	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Stickler syndrome	MONDO:0019354	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

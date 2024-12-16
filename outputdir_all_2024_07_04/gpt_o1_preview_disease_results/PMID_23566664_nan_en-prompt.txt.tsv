@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hajdu-Cheney syndrome	MONDO:0007057	('OMIM:102500', 'Hajdu-Cheney syndrome')	1.0	True
+2	Multiple myeloma	MONDO:0009693	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+3	Hyperparathyroidism	MONDO:0001741	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+4	Paget's disease of bone	MONDO:0005382	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+5	Gorham-Stout disease	MONDO:0007414	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False

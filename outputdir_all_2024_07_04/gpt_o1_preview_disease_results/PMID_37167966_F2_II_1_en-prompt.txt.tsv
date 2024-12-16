@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple acyl-CoA dehydrogenase deficiency (MADD)	MONDO:0008721	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+2	Very long-chain acyl-CoA dehydrogenase deficiency (VLCAD deficiency)	MONDO:0008723	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+3	Carnitine palmitoyltransferase II deficiency	MONDO:0015515	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+4	Primary systemic carnitine deficiency	MONDO:0008919	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+5	Neutral lipid storage disease	MONDO:0015611	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SEPN1-related rigid spine muscular dystrophy	MONDO:0011271	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+2	LAMA2-related congenital muscular dystrophy	MONDO:0100228	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+3	Ullrich congenital muscular dystrophy	MONDO:0009681	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+3	Ullrich congenital muscular dystrophy	MONDO:0000355	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+4	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False

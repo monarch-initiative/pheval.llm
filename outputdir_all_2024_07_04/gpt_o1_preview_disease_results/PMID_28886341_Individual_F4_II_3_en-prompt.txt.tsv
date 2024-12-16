@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	1\. Kabuki syndrome	MONDO:0016512	('OMIM:617694', 'Al Kaissi syndrome')	0.0	False
+2	2\. 1p36 deletion syndrome	MONDO:0012916	('OMIM:617694', 'Al Kaissi syndrome')	0.0	False
+3	3\. Noonan syndrome	N/A	('OMIM:617694', 'Al Kaissi syndrome')	0.0	False
+4	4\. Bloom syndrome	N/A	('OMIM:617694', 'Al Kaissi syndrome')	0.0	False
+5	5\. Williams syndrome	N/A	('OMIM:617694', 'Al Kaissi syndrome')	0.0	False

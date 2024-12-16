@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:605275', 'Noonan syndrome 2')	0.5	True
+1	Noonan Syndrome	MONDO:0008104	('OMIM:605275', 'Noonan syndrome 2')	0.0	False
+2	Costello Syndrome	MONDO:0009026	('OMIM:605275', 'Noonan syndrome 2')	0.0	False
+3	Down Syndrome	MONDO:0008608	('OMIM:605275', 'Noonan syndrome 2')	0.0	False
+4	Cardio-Facio-Cutaneous Syndrome	MONDO:0015280	('OMIM:605275', 'Noonan syndrome 2')	0.0	False
+5	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:605275', 'Noonan syndrome 2')	0.0	False

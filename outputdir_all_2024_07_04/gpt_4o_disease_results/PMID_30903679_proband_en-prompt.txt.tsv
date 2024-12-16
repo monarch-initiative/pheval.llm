@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Magenis syndrome	MONDO:0008434	('OMIM:620719', 'Neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism')	0.0	False
+2	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:620719', 'Neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:620719', 'Neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism')	0.0	False
+4	Prader-Willi syndrome	MONDO:0008300	('OMIM:620719', 'Neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism')	0.0	False
+5	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620719', 'Neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism')	0.0	False

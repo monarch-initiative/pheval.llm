@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki Syndrome	MONDO:0007843	('OMIM:147920', 'Kabuki Syndrome 1')	1.0	True
+1	Kabuki Syndrome	MONDO:0016512	('OMIM:147920', 'Kabuki Syndrome 1')	0.5	True
+2	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+3	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	CHARGE Syndrome	MONDO:0008965	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+6	Holoprosencephaly-associated Disorders	MONDO:0009921	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+7	Down Syndrome	MONDO:0008608	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+8	Noonan Syndrome	MONDO:0018997	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+8	Noonan Syndrome	MONDO:0008104	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+9	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+10	Sotos Syndrome	MONDO:0019349	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False

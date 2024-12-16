@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry, but I cannot generate a differential diagnosis from the provided information	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

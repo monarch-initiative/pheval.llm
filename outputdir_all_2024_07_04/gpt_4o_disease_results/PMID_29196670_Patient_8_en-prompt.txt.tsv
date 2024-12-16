@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tuberous sclerosis complex (TSC)	MONDO:0013199	('OMIM:613254', 'Tuberous sclerosis-2')	1.0	True
+2	Neurofibromatosis type 1 (NF1)	MONDO:0018975	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+3	Sturge-Weber syndrome	MONDO:0008501	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+4	Hypomelanosis of Ito	MONDO:0010302	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+4	Hypomelanosis of Ito	MONDO:0016985	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+5	PTEN hamartoma tumor syndrome (PHTS)	MONDO:0017623	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False

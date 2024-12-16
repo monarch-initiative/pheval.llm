@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Diamond-Blackfan anemia	MONDO:0015253	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.5	True
+2	Fanconi anemia	MONDO:0019391	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False
+2	Fanconi anemia	MONDO:0009215	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False

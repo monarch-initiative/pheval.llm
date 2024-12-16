@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Epidermolytic palmoplantar keratoderma	MONDO:0007758	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	1.0	True
+2	Diffuse nonepidermolytic palmoplantar keratoderma	MONDO:0010962	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+3	Punctate palmoplantar keratoderma	MONDO:0017675	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+4	Epidermolytic ichthyosis	MONDO:0007239	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False

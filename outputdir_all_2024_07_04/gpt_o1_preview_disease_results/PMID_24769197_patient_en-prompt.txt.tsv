@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mucolipidosis III (Pseudo-Hurler Polydystrophy)	N/A	('OMIM:256540', 'Galactosialidosis')	0.0	False
+2	Mucopolysaccharidosis Type I H/S (Hurler-Scheie Syndrome)	MONDO:0011759	('OMIM:256540', 'Galactosialidosis')	0.0	False
+3	Mucopolysaccharidosis Type II (Hunter Syndrome)	MONDO:0001586	('OMIM:256540', 'Galactosialidosis')	0.0	False
+4	Mucopolysaccharidosis Type VI (Maroteaux-Lamy Syndrome)	MONDO:0009661	('OMIM:256540', 'Galactosialidosis')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:256540', 'Galactosialidosis')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:256540', 'Galactosialidosis')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:256540', 'Galactosialidosis')	0.0	False

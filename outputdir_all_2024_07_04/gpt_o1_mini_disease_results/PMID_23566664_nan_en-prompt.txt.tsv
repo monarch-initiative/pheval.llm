@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple myeloma	MONDO:0009693	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+2	Metastatic breast cancer	N/A	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+3	Paget's disease of bone	MONDO:0005382	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+4	Lymphoma involving bone	MONDO:0017814	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+5	Osteoporosis	MONDO:0005298	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+6	Acromegaly	MONDO:0019933	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+7	Primary hyperparathyroidism	MONDO:0010837	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False

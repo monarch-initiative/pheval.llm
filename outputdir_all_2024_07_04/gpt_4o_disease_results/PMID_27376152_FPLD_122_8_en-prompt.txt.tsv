@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy (FPLD)	MONDO:0020088	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.5	True
+2	Congenital Generalized Lipodystrophy (CGL)	MONDO:0006536	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+3	Dunnigan-type lipodystrophy (Dunnigan-Köbberling Syndrome)	MONDO:0007906	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+4	Acquired Partial Lipodystrophy (APL)	MONDO:0020088	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.5	True
+5	Type 2 Diabetes Mellitus (secondary to lipodystrophy)	N/A	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False

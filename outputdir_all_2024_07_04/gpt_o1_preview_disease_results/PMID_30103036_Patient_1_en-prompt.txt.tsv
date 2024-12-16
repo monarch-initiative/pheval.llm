@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Schwartz-Jampel syndrome	MONDO:0009717	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+2	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+4	Congenital myotonic dystrophy	MONDO:0023595	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+5	Rett syndrome	MONDO:0010726	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False

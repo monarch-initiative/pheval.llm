@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Epilepsy with continuous spike-and-wave during slow-wave sleep (CSWS)	MONDO:0019123	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	GRIN2A-related epilepsy-aphasia spectrum	MONDO:0017325	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

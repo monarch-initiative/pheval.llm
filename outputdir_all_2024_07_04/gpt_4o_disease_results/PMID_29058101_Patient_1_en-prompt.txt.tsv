@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	IPEX syndrome (Immune dysregulation, Polyendocrinopathy, Enteropathy, X-linked syndrome)	MONDO:0010580	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+2	Hyper IgE syndrome (Job syndrome)	MONDO:0018037	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.5	True
+3	Severe combined immunodeficiency (SCID)	MONDO:0015974	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+4	Chronic granulomatous disease (CGD)	MONDO:0018305	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+5	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False

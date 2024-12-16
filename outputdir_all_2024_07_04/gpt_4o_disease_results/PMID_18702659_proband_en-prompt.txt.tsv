@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ectodermal Dysplasia	MONDO:0019287	('OMIM:305100', 'Ectodermal dysplasia 1, hypohidrotic, X-linked')	0.5	True
+1	Ectodermal Dysplasia	MONDO:0009773	('OMIM:305100', 'Ectodermal dysplasia 1, hypohidrotic, X-linked')	0.0	False
+2	Branchio-oculo-facial Syndrome	MONDO:0007235	('OMIM:305100', 'Ectodermal dysplasia 1, hypohidrotic, X-linked')	0.0	False
+3	Rapp-Hodgkin Syndrome	MONDO:0007508	('OMIM:305100', 'Ectodermal dysplasia 1, hypohidrotic, X-linked')	0.0	False
+4	AEC Syndrome (Ankyloblepharon-Ectodermal Defects-Cleft Lip/Palate)	MONDO:0007124	('OMIM:305100', 'Ectodermal dysplasia 1, hypohidrotic, X-linked')	0.0	False
+5	Ellis-van Creveld Syndrome	MONDO:0009162	('OMIM:305100', 'Ectodermal dysplasia 1, hypohidrotic, X-linked')	0.0	False

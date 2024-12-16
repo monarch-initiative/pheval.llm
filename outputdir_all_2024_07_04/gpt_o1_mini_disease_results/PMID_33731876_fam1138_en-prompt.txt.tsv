@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign familial infantile seizures	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+2	SCN2A-related genetic focal epilepsy	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+3	KCNQ2-related epilepsy	MONDO:0013387	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Genetic focal epilepsy of unknown etiology	MONDO:0020310	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Ohtahara syndrome	MONDO:0100062	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

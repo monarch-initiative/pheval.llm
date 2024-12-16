@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fechtner syndrome	MONDO:0015912	('OMIM:620654', 'Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies')	0.0	False
+2	MYH9-related disorder	MONDO:0015912	('OMIM:620654', 'Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies')	0.0	False
+3	Fanconi anemia	MONDO:0009215	('OMIM:620654', 'Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies')	0.0	False
+3	Fanconi anemia	MONDO:0019391	('OMIM:620654', 'Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies')	0.0	False
+4	Branchio-Oto-Renal (BOR) syndrome	MONDO:0007029	('OMIM:620654', 'Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies')	0.0	False
+5	CHARGE syndrome	MONDO:0008965	('OMIM:620654', 'Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies')	0.0	False
+6	Townes-Brocks syndrome	MONDO:0007142	('OMIM:620654', 'Thrombocytopenia 11 with multiple congenital anomalies and dysmorphic facies')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	1p36 deletion syndrome	MONDO:0011929	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+3	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.5	True
+4	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+5	Smith-Magenis syndrome	MONDO:0008434	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False

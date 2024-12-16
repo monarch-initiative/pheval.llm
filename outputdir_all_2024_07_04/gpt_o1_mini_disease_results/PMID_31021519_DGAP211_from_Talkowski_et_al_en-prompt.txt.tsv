@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Menkes Disease	MONDO:0010651	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Hypophosphatemic Rickets	MONDO:0024300	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Mitochondrial Disorders	MONDO:0004069	('OMIM:612313', 'Glass syndrome')	0.0	False
+8	Rett Syndrome	MONDO:0010726	('OMIM:612313', 'Glass syndrome')	0.0	False

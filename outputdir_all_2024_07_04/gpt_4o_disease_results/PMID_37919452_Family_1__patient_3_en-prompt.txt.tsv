@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wiedemann-Rautenstrauch syndrome	MONDO:0009910	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Congenital generalized lipodystrophy	MONDO:0006536	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Congenital generalized lipodystrophy	MONDO:0018883	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+3	Cushing syndrome	MONDO:0018912	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	Polycystic ovary syndrome (PCOS)	MONDO:0008487	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+5	Alström syndrome	MONDO:0008763	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False

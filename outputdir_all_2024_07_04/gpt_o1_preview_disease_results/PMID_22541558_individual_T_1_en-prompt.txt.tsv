@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Otopalatodigital syndrome type I	MONDO:0010704	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+2	Nager syndrome	MONDO:0007943	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	1.0	True
+3	Melnick-Needles syndrome	MONDO:0010650	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+4	Frontometaphyseal dysplasia	MONDO:0015942	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+5	Antley-Bixler syndrome	MONDO:0008803	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+6	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False

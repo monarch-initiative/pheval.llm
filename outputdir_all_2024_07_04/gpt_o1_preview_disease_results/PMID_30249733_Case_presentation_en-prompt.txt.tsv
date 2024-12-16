@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0008104	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+1	Noonan syndrome	MONDO:0018997	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+3	Aarskog syndrome	MONDO:0021005	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+3	Aarskog syndrome	MONDO:0007030	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+3	Aarskog syndrome	MONDO:0010589	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+4	Larsen syndrome	MONDO:0007875	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+5	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.0	False
+6	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:601776', 'Ehlers-Danlos syndrome, musculocontractural type 1')	0.5	True

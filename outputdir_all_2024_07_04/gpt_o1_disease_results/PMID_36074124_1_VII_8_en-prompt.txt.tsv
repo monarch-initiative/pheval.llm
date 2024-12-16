@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kartagener syndrome (Primary ciliary dyskinesia)	MONDO:0016575	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.5	True

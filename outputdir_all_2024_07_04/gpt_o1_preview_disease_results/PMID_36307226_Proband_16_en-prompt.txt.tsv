@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+2	STXBP1 encephalopathy	N/A	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+3	KCNQ2-related epileptic encephalopathy	MONDO:0013387	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+4	Dravet syndrome (SCN1A mutation)	N/A	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+5	POLG-related mitochondrial disorder	MONDO:0012415	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+6	Early infantile epileptic encephalopathy (Ohtahara syndrome)	MONDO:0018614	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False

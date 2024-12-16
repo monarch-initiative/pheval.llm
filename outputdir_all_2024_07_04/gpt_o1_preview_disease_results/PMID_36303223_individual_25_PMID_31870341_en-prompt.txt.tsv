@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	S-Adenosylhomocysteine hydrolase deficiency	MONDO:0013404	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Tyrosine hydroxylase deficiency	MONDO:0100064	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Tyrosine hydroxylase deficiency	MONDO:0011551	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Serine biosynthesis defects	MONDO:0035004	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Mitochondrial disorder (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Leukodystrophy	MONDO:0019046	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

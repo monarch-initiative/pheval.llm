@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Episodic Ataxia Type 2 (CACNA1A mutation)	MONDO:0007163	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Benign Familial Neonatal Seizures	MONDO:0016027	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	KCNQ2-Related Epilepsy	MONDO:0013387	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	SCN8A-Related Epilepsy	MONDO:0014903	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	GLUT1 Deficiency Syndrome	MONDO:0011724	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	GLUT1 Deficiency Syndrome	MONDO:0000188	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

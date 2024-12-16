@@ -1,0 +1,15 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+1	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.5	True
+2	Carpenter syndrome	MONDO:0019012	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+2	Carpenter syndrome	MONDO:0008710	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+3	McKusick-Kaufman syndrome	MONDO:0009367	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+4	Alström syndrome	MONDO:0008763	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+5	Laurence-Moon syndrome	MONDO:0009514	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+6	Jeune asphyxiating thoracic dystrophy	MONDO:0018770	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+7	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+8	Sensenbrenner syndrome	MONDO:0021093	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+8	Sensenbrenner syndrome	MONDO:0009032	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+9	Greig cephalopolysyndactyly syndrome	MONDO:0008287	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+10	Fanconi anemia	MONDO:0009215	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+10	Fanconi anemia	MONDO:0019391	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False

@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+2	Spinal muscular atrophy	MONDO:0001516	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+2	Spinal muscular atrophy	MONDO:0019079	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+3	Congenital myopathy	MONDO:0019952	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+4	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+5	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+5	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+6	Sotos syndrome	MONDO:0019349	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+7	Rett syndrome	MONDO:0010726	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False

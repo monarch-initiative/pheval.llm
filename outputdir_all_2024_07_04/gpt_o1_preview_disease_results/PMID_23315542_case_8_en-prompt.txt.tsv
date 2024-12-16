@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Auriculo-condylar syndrome	MONDO:0000107	('OMIM:620458', 'Auriculocondylar syndrome 2B')	0.5	True
+2	Oculo-auriculo-vertebral spectrum (Goldenhar syndrome)	N/A	('OMIM:620458', 'Auriculocondylar syndrome 2B')	0.0	False
+3	Treacher Collins syndrome	MONDO:0002457	('OMIM:620458', 'Auriculocondylar syndrome 2B')	0.0	False
+3	Treacher Collins syndrome	MONDO:0007944	('OMIM:620458', 'Auriculocondylar syndrome 2B')	0.0	False
+4	Branchio-oto-renal (BOR) syndrome	MONDO:0007029	('OMIM:620458', 'Auriculocondylar syndrome 2B')	0.0	False
+5	Craniofacial microsomia	MONDO:0015397	('OMIM:620458', 'Auriculocondylar syndrome 2B')	0.0	False
+6	Nager syndrome	MONDO:0007943	('OMIM:620458', 'Auriculocondylar syndrome 2B')	0.0	False

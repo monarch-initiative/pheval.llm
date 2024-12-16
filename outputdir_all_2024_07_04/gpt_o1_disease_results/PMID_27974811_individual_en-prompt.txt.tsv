@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital fiber type disproportion	MONDO:0009711	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+2	Nemaline myopathy	MONDO:0018958	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+3	Ullrich congenital muscular dystrophy	MONDO:0009681	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+3	Ullrich congenital muscular dystrophy	MONDO:0000355	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+4	Bethlem myopathy	MONDO:0008029	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+4	Bethlem myopathy	MONDO:0024530	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+5	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Adenosine deaminase deficiency (ADA-SCID)	MONDO:0007064	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Purine nucleoside phosphorylase deficiency	MONDO:0013171	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Chédiak-Higashi syndrome	MONDO:0008963	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Alpha-mannosidosis	MONDO:0009561	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	X-linked severe combined immunodeficiency	MONDO:0010315	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

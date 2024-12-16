@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Branchiootorenal (BOR) Syndrome	N/A	('OMIM:154500', 'Treacher Collins syndrome 1')	0.0	False
+2	Treacher Collins Syndrome	MONDO:0007944	('OMIM:154500', 'Treacher Collins syndrome 1')	1.0	True
+2	Treacher Collins Syndrome	MONDO:0002457	('OMIM:154500', 'Treacher Collins syndrome 1')	0.5	True
+3	Goldenhar (Otofacial) Syndrome	N/A	('OMIM:154500', 'Treacher Collins syndrome 1')	0.0	False
+4	CHARGE Syndrome	MONDO:0008965	('OMIM:154500', 'Treacher Collins syndrome 1')	0.0	False
+5	DiGeorge Syndrome	MONDO:0008564	('OMIM:154500', 'Treacher Collins syndrome 1')	0.0	False
+5	DiGeorge Syndrome	MONDO:0018923	('OMIM:154500', 'Treacher Collins syndrome 1')	0.0	False
+6	Van der Woude Syndrome	MONDO:0019508	('OMIM:154500', 'Treacher Collins syndrome 1')	0.0	False

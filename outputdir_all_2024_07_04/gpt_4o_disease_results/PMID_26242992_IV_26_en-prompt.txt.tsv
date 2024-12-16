@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert syndrome	MONDO:0018772	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+1	Joubert syndrome	MONDO:0008944	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+2	Ataxia-telangiectasia	MONDO:0008840	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+3	Spinocerebellar ataxia	MONDO:0000437	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.5	True
+3	Spinocerebellar ataxia	MONDO:0020380	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+4	COACH syndrome (Cerebellar hypoplasia, Oligophrenia, Ataxia, Coloboma, and Hepatic fibrosis syndrome)	MONDO:0100349	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Congenital Disorders of Glycosylation (CDG syndromes)	MONDO:0015286	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+6	Moebius syndrome	MONDO:0008006	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False

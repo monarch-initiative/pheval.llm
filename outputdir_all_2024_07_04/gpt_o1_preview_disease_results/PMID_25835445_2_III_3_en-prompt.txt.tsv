@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta Type I	MONDO:0008146	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Brittle cornea syndrome	MONDO:0009242	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Frontometaphyseal dysplasia	MONDO:0015942	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+4	Melnick-Needles syndrome	MONDO:0010650	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

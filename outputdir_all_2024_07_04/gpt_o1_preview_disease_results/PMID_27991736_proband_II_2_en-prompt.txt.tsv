@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:147920', 'Kabuki Syndrome 1')	0.5	True
+1	Kabuki syndrome	MONDO:0007843	('OMIM:147920', 'Kabuki Syndrome 1')	1.0	True
+2	CHARGE syndrome	MONDO:0008965	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+3	Nager syndrome	MONDO:0007943	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	Treacher Collins syndrome	MONDO:0002457	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	Treacher Collins syndrome	MONDO:0007944	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	LADD syndrome	MONDO:0007872	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False

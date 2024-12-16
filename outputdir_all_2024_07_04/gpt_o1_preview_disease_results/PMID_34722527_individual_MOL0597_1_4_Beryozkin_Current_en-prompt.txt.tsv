@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aland Island Eye Disease	MONDO:0010371	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Foveal Hypoplasia	MONDO:0044203	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Ocular Albinism Type 1	MONDO:0021019	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	Autosomal Dominant Optic Atrophy	MONDO:0020250	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Familial Hyperopia	N/A	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

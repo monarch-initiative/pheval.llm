@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	For an accurate diagnosis and appropriate care, please consult a qualified healthcare professional.	N/A	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False

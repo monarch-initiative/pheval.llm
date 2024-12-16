@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia type 13	MONDO:0011529	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+3	Ataxia-telangiectasia	MONDO:0008840	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+4	Non-progressive congenital ataxia	MONDO:0010404	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+5	Mitochondrial encephalopathy	MONDO:0004675	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False
+6	Wilson disease	MONDO:0010200	('OMIM:620538', 'Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+2	Lujan-Fryns syndrome	MONDO:0010655	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+3	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+4	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+5	Noonan syndrome	MONDO:0008104	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False
+5	Noonan syndrome	MONDO:0018997	('OMIM:616975', 'Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart')	0.0	False

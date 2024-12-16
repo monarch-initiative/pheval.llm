@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Focal Epilepsy of Childhood	MONDO:0015639	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	Frontal Lobe Epilepsy	MONDO:0002612	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	Focal Cortical Dysplasia	MONDO:0019009	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	DEPDC5-Related Focal Epilepsy	MONDO:0024556	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+5	Genetic Focal Epilepsy Syndromes	MONDO:0020310	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+6	Structural Cortical Malformations	N/A	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

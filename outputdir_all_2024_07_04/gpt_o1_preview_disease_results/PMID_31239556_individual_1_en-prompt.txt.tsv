@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive primary microcephaly (MCPH)	MONDO:0016660	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+2	Non-syndromic intellectual disability with microcephaly	MONDO:0100200	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+3	Seckel syndrome	MONDO:0019342	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+4	Cri-du-chat syndrome (5p deletion syndrome)	MONDO:0007404	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+5	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+6	Angelman syndrome	MONDO:0007113	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Metachondromatosis	MONDO:0007979	('OMIM:156250', 'Metachondromatosis')	1.0	True
+2	Ollier disease (enchondromatosis)	N/A	('OMIM:156250', 'Metachondromatosis')	0.0	False
+3	Hereditary multiple exostoses	MONDO:0005508	('OMIM:156250', 'Metachondromatosis')	0.0	False
+4	Maffucci syndrome	MONDO:0013808	('OMIM:156250', 'Metachondromatosis')	0.0	False

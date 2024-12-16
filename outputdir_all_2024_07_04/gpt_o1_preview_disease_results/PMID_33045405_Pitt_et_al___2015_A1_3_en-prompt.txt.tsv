@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Multiple acyl-CoA dehydrogenase deficiency (MADD)	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Very-long-chain acyl-CoA dehydrogenase (VLCAD) deficiency	MONDO:0008723	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Glycogen storage disease type I (Von Gierke disease)	MONDO:0002413	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+5	Carnitine transporter deficiency	MONDO:0008919	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Weyers acrofacial dysostosis	MONDO:0008673	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+2	Ellis–van Creveld syndrome	MONDO:0009162	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+3	Fuhrmann syndrome	MONDO:0009232	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+4	Synpolydactyly (Syndactyly type II)	MONDO:0021651	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+5	Bardet–Biedl syndrome	MONDO:0014441	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False

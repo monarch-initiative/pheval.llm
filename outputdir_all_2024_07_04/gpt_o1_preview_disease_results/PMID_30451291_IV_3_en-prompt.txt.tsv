@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+2	Dravet syndrome	MONDO:0100135	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+2	Dravet syndrome	MONDO:0100079	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0001734	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0008612	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+4	PCDH19-related epilepsy	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+5	Rett syndrome	MONDO:0010726	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+6	Angelman syndrome	MONDO:0007113	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal Dominant Distal Renal Tubular Acidosis	MONDO:0008368	('OMIM:179800', 'Distal renal tubular acidosis 1')	1.0	True
+2	Dent Disease	MONDO:0015612	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+3	Sjögren's Syndrome	MONDO:0010030	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+4	Medullary Sponge Kidney	MONDO:0015268	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+5	Primary Hyperparathyroidism	MONDO:0010837	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+6	Wilson Disease	MONDO:0010200	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

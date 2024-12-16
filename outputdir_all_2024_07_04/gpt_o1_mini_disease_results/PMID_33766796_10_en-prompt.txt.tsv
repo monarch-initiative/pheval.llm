@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+2	Autism Spectrum Disorder	MONDO:0005260	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+2	Autism Spectrum Disorder	MONDO:0005258	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+3	Sotos Syndrome	MONDO:0019349	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+4	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+5	Williams-Beuren Syndrome	MONDO:0008678	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+6	Mucopolysaccharidosis	MONDO:0019249	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Larsen Syndrome	MONDO:0007875	('OMIM:150250', 'Larsen syndrome')	1.0	True
+2	Stickler Syndrome	MONDO:0019354	('OMIM:150250', 'Larsen syndrome')	0.0	False
+3	Diastrophic Dysplasia	MONDO:0009107	('OMIM:150250', 'Larsen syndrome')	0.0	False
+4	Klippel-Feil Syndrome	MONDO:0007306	('OMIM:150250', 'Larsen syndrome')	0.0	False
+4	Klippel-Feil Syndrome	MONDO:0001029	('OMIM:150250', 'Larsen syndrome')	0.0	False
+5	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:150250', 'Larsen syndrome')	0.0	False
+6	Down Syndrome	MONDO:0008608	('OMIM:150250', 'Larsen syndrome')	0.0	False

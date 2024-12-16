@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Otospondylomegaepiphyseal Dysplasia (OSMED)	MONDO:0008490	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+2	Spondyloepiphyseal Dysplasia Congenita (SEDC)	MONDO:0019667	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+3	Kniest Dysplasia	MONDO:0007987	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+4	Spondyloepimetaphyseal Dysplasia with Joint Laxity (SEMD-JL)	MONDO:0019675	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+5	Stickler Syndrome Type III	N/A	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False

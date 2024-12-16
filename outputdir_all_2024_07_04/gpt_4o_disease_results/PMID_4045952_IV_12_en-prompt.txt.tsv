@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sideroblastic anemia	MONDO:0015194	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.5	True
+2	Ataxia with oculomotor apraxia type 1 (AOA1)	MONDO:0014557	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+3	Friedreich's ataxia	MONDO:0100339	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+4	Pearson syndrome	MONDO:0010797	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Ataxia-telangiectasia	MONDO:0008840	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False

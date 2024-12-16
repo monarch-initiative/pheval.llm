@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Hereditary Hemorrhagic Telangiectasia	MONDO:0019180	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Klippel-Trenaunay Syndrome	MONDO:0007864	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	May-Thurner Syndrome	MONDO:0043361	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Primary Varicose Veins	N/A	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Smith-Magenis syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	MECP2 duplication syndrome	MONDO:0010283	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Phenylketonuria (PKU)	MONDO:0009861	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Sotos syndrome	MONDO:0019349	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Noonan syndrome	MONDO:0008104	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Noonan syndrome	MONDO:0018997	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Williams syndrome	MONDO:0008678	('OMIM:612313', 'Glass syndrome')	0.0	False

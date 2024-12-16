@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Turner syndrome	MONDO:0019499	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Spinal Muscular Atrophy Type 2	MONDO:0009673	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Phenylketonuria (PKU)	MONDO:0009861	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Congenital hypothyroidism	MONDO:0018612	('OMIM:612313', 'Glass syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beals Syndrome (Congenital Contractural Arachnodactyly)	MONDO:0007363	('OMIM:121050', 'Contractural arachnodactyly, congenital')	1.0	True
+2	Freeman-Sheldon Syndrome (Whistling Face Syndrome)	MONDO:0008675	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Escobar Syndrome (Multiple Pterygium Syndrome)	N/A	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Arthrogryposis Multiplex Congenita	MONDO:0015168	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Arthrogryposis Multiplex Congenita	MONDO:0007157	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+5	Larsen Syndrome	MONDO:0007875	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False

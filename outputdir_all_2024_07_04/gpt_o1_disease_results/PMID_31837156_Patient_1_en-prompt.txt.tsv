@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal hereditary motor neuropathy	MONDO:0018894	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.5	True
+2	Progressive muscular atrophy (ALS variant)	MONDO:0018687	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+3	Spinal and bulbar muscular atrophy (Kennedy disease)	MONDO:0010735	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+4	Welander distal myopathy	MONDO:0011466	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+5	Inclusion body myositis	MONDO:0007827	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False

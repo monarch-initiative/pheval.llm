@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome (Trisomy 21)	MONDO:0700126	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+3	Holt-Oram syndrome	MONDO:0007732	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	DiGeorge syndrome (22q11.2 deletion)	MONDO:0012020	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+5	Turner syndrome	MONDO:0019499	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+6	Williams syndrome	MONDO:0008678	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+7	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+8	Alagille syndrome	MONDO:0007318	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+9	Marfan syndrome	MONDO:0007947	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+10	CHARGE syndrome	MONDO:0008965	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False

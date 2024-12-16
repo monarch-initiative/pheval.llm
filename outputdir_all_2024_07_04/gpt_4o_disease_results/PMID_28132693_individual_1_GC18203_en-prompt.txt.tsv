@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Retinitis Pigmentosa	MONDO:0019200	('OMIM:617433', 'Retinitis pigmentosa 78')	0.5	True
+1	Retinitis Pigmentosa	MONDO:0008377	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+2	Stargardt Disease	MONDO:0019353	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+3	Leber Congenital Amaurosis	MONDO:0018998	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+4	Usher Syndrome	MONDO:0019501	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+5	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+5	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+6	Cone-Rod Dystrophy	MONDO:0100438	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+6	Cone-Rod Dystrophy	MONDO:0007362	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+6	Cone-Rod Dystrophy	MONDO:0015993	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+6	Cone-Rod Dystrophy	MONDO:0011458	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+7	Choroideremia	MONDO:0010557	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+8	X-Linked Retinoschisis	MONDO:0010725	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False

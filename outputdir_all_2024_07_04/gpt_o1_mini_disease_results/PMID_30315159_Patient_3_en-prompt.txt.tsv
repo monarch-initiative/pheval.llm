@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MYH9-Related Disorder	MONDO:0015912	('OMIM:620475', 'Thrombocytopenia 8, with dysmorphic features and developmental delay')	0.0	False
+2	Wiskott-Aldrich Syndrome	MONDO:0010518	('OMIM:620475', 'Thrombocytopenia 8, with dysmorphic features and developmental delay')	0.0	False
+3	Bernard-Soulier Syndrome	MONDO:0009276	('OMIM:620475', 'Thrombocytopenia 8, with dysmorphic features and developmental delay')	0.0	False
+4	Down Syndrome	MONDO:0008608	('OMIM:620475', 'Thrombocytopenia 8, with dysmorphic features and developmental delay')	0.0	False
+5	Fanconi Anemia	MONDO:0009215	('OMIM:620475', 'Thrombocytopenia 8, with dysmorphic features and developmental delay')	0.0	False
+5	Fanconi Anemia	MONDO:0019391	('OMIM:620475', 'Thrombocytopenia 8, with dysmorphic features and developmental delay')	0.0	False
+6	Gray Platelet Syndrome	MONDO:0007686	('OMIM:620475', 'Thrombocytopenia 8, with dysmorphic features and developmental delay')	0.0	False

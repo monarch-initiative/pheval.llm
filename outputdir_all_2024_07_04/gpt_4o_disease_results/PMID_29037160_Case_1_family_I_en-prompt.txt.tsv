@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Jervell and Lange-Nielsen syndrome	MONDO:0002441	('OMIM:220400', 'Jervell and Lange-Nielsen syndrome')	0.5	True
+1	Jervell and Lange-Nielsen syndrome	MONDO:0024540	('OMIM:220400', 'Jervell and Lange-Nielsen syndrome')	1.0	True
+2	Romano-Ward syndrome	MONDO:0019171	('OMIM:220400', 'Jervell and Lange-Nielsen syndrome')	0.5	True
+3	Timothy syndrome	MONDO:0010979	('OMIM:220400', 'Jervell and Lange-Nielsen syndrome')	0.0	False
+4	Long QT syndrome (without a specific subtype)	N/A	('OMIM:220400', 'Jervell and Lange-Nielsen syndrome')	0.0	False
+5	Dravet syndrome	MONDO:0100135	('OMIM:220400', 'Jervell and Lange-Nielsen syndrome')	0.0	False
+5	Dravet syndrome	MONDO:0100079	('OMIM:220400', 'Jervell and Lange-Nielsen syndrome')	0.0	False

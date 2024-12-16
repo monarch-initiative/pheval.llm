@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm not a medical professional, but based on the symptoms you've described, it would be best to consult a healthcare provider for an accurate diagnosis.	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

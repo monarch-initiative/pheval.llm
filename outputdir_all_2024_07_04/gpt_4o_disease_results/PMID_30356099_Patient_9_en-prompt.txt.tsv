@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi syndrome	MONDO:0010568	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Lissencephaly	MONDO:0018838	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	ARX-related disorders (e.g., Proud syndrome)	N/A	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	West syndrome (infantile spasms)	MONDO:0018097	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+6	STXBP1-related disorders	N/A	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+7	SLC2A1-related disorders (e.g., GLUT1 deficiency syndrome)	N/A	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+8	FOXG1 syndrome	MONDO:0035383	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+9	Rett syndrome (atypical forms)	MONDO:0017746	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+10	TUBB3-related disorders	N/A	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

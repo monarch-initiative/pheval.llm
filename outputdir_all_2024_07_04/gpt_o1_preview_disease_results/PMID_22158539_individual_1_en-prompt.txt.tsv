@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Schwartz-Jampel syndrome	MONDO:0009717	('OMIM:139210', 'Myhre syndrome')	0.0	False
+2	Myhre syndrome	MONDO:0007688	('OMIM:139210', 'Myhre syndrome')	1.0	True
+3	Mucopolysaccharidosis type I (Hurler syndrome)	MONDO:0001586	('OMIM:139210', 'Myhre syndrome')	0.0	False
+4	Frontometaphyseal dysplasia	MONDO:0015942	('OMIM:139210', 'Myhre syndrome')	0.0	False
+5	Otopalatodigital syndrome type II	MONDO:0010704	('OMIM:139210', 'Myhre syndrome')	0.0	False

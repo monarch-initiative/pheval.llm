@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Gordon Holmes syndrome	MONDO:0008935	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+2	Congenital hypogonadotropic hypogonadism with cerebellar ataxia	MONDO:0008935	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+3	Marinesco-Sjögren syndrome	MONDO:0009567	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+4	Spinocerebellar ataxia (specifically those subtypes associated with hypogonadotropic hypogonadism)	MONDO:0008458	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+5	Friedreich's ataxia (atypical presentation given the absence of spasticity and reflex hyperactivity)	MONDO:0100339	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+6	Autosomal recessive spastic ataxia of Charlevoix-Saguenay (ARSACS)	MONDO:0010041	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False

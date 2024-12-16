@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+2	DEND syndrome (developmental delay, epilepsy, neonatal diabetes)	MONDO:0019207	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+3	Wolcott-Rallison syndrome	MONDO:0009192	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+4	Serine biosynthesis disorders	MONDO:0018162	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+5	Mitochondrial disorders	MONDO:0004069	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.5	True
+6	Congenital disorders of glycosylation	MONDO:0015286	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False

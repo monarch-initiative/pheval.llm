@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Facioscapulohumeral Muscular Dystrophy (FSHD)	MONDO:0001347	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+2	Nemaline Myopathy	MONDO:0018958	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.5	True
+3	Congenital Myasthenic Syndromes (CMS)	MONDO:0018940	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+4	Congenital Myotonic Dystrophy	MONDO:0023595	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+5	Central Core Disease	MONDO:0007294	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+6	Spinal Muscular Atrophy (SMA) Type III	MONDO:0009672	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+7	Emery-Dreifuss Muscular Dystrophy	MONDO:0016830	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+8	Pompe Disease (Glycogen Storage Disease Type II)	MONDO:0002413	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+9	RYR1-Related Myopathy	MONDO:0100150	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False
+10	Congenital Muscular Dystrophy	MONDO:0019950	('OMIM:161800', 'Congenital myopathy 2A, typical, autosomal dominant')	0.0	False

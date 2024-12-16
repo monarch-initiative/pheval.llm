@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cutis laxa, autosomal recessive type II (ATP6V0A2-related cutis laxa)	MONDO:0018163	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False
+2	Gerodermia osteodysplastica	MONDO:0009271	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False
+3	De Barsy syndrome	MONDO:0017569	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False
+4	Ehlers-Danlos syndrome, kyphoscoliotic type	MONDO:0016002	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False
+5	LTBP4-related cutis laxa (autosomal recessive cutis laxa type IC)	MONDO:0013170	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False

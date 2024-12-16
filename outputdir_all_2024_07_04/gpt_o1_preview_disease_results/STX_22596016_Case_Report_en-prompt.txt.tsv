@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Early Infantile Epileptic Encephalopathy (EIEE)	MONDO:0012812	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	1.0	True
+2	Mitochondrial disorders (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Krabbe disease (Globoid cell leukodystrophy)	MONDO:0009499	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Glycine encephalopathy (Nonketotic hyperglycinemia)	MONDO:0011612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Zellweger spectrum disorder	MONDO:0019234	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Menkes disease	MONDO:0010651	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Lesch-Nyhan syndrome	MONDO:0010298	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Congenital hypothyroidism	MONDO:0018612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Maple Syrup Urine Disease (MSUD)	MONDO:0017051	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

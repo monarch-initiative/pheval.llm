@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara syndrome (Early Infantile Epileptic Encephalopathy)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Dravet syndrome (Severe Myoclonic Epilepsy of Infancy)	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	STXBP1-related epileptic encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Early Infantile Myoclonic Epilepsy	MONDO:0016026	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	West syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple Endocrine Neoplasia Type 1 (MEN1)	MONDO:0007540	('OMIM:131100', 'Multiple endocrine neoplasia 1')	1.0	True

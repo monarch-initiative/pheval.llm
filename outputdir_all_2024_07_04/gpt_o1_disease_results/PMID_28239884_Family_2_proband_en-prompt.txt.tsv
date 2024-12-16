@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Punctate palmoplantar keratoderma type I (Buschke-Fischer-Brauer)	MONDO:0019332	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.5	True
+2	Punctate palmoplantar keratoderma type II	MONDO:0008292	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+3	Punctate palmoplantar keratoderma type III	MONDO:0007047	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False

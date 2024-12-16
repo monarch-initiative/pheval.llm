@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+2	Marfan Syndrome	MONDO:0007947	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+3	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+5	Cystic Fibrosis	MONDO:0009061	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+6	Cutis Laxa	MONDO:0016175	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.5	True
+7	Alpha-1 Antitrypsin Deficiency	MONDO:0013282	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+8	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+9	Beckwith-Wiedemann Syndrome	MONDO:0007534	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+10	Turner Syndrome	MONDO:0019499	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False

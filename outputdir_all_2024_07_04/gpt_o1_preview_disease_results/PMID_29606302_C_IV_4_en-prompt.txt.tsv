@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome (classical type)	MONDO:0007522	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+2	Cutis laxa	MONDO:0016175	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+3	Pseudoxanthoma elasticum	MONDO:0024308	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+3	Pseudoxanthoma elasticum	MONDO:0009925	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+4	Marfan syndrome	MONDO:0007947	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+5	Osteogenesis imperfecta	MONDO:0019019	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False

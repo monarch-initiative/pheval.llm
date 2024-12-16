@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple acyl-CoA dehydrogenase deficiency (MADD)	MONDO:0008721	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+2	Very long-chain acyl-CoA dehydrogenase deficiency (VLCAD deficiency)	MONDO:0008723	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+3	Carnitine palmitoyltransferase II deficiency (CPT II deficiency)	MONDO:0015515	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+4	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+5	Pyruvate dehydrogenase complex deficiency	MONDO:0019169	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+5	Pyruvate dehydrogenase complex deficiency	MONDO:0010717	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+6	Pompe disease (Glycogen storage disease type II)	MONDO:0002413	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False

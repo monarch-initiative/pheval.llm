@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Limb-girdle muscular dystrophy	MONDO:0016971	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.5	True
+2	Becker muscular dystrophy	MONDO:0010311	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+3	McArdle disease (glycogen storage disease type V)	MONDO:0009293	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+4	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+5	Pompe disease (glycogen storage disease type II)	MONDO:0009865	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+6	Adult-onset nemaline myopathy	MONDO:0015739	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+7	Myofibrillar myopathy	MONDO:0018943	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False

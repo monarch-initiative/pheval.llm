@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Feingold syndrome	MONDO:0015267	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+1	Feingold syndrome	MONDO:0008115	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+2	Heterotaxy syndrome	MONDO:0018677	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	VACTERL association	MONDO:0008642	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+4	Klippel-Feil syndrome	MONDO:0007306	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+4	Klippel-Feil syndrome	MONDO:0001029	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Townes-Brocks syndrome	MONDO:0007142	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

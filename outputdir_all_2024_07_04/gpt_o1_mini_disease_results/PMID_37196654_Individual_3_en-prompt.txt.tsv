@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Disclaimer:** I'm not a medical professional, but based on the information provided, here is a differential diagnosis list:	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+2	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+3	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+4	Sotos Syndrome	MONDO:0019349	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+5	Fragile X Syndrome	MONDO:0010383	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+6	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+7	Noonan Syndrome	MONDO:0018997	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+7	Noonan Syndrome	MONDO:0008104	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+2	MELAS syndrome (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes)	MONDO:0010789	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+3	Mitochondrial complex I deficiency	MONDO:0100133	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+3	Mitochondrial complex I deficiency	MONDO:0100224	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+4	Leigh syndrome	MONDO:0009723	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+5	Alpers-Huttenlocher syndrome	MONDO:0008758	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked megalocornea	MONDO:0010649	('OMIM:309300', 'Megalocornea 1, X-linked')	1.0	True
+2	Keratoconus	MONDO:0015486	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+4	Congenital hereditary endothelial dystrophy	MONDO:0020365	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False

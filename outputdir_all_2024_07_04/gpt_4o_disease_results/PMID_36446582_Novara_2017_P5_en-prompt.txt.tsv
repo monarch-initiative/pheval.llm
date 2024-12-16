@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CHARGE syndrome	MONDO:0008965	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Prader-Willi syndrome	MONDO:0008300	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Smith-Magenis syndrome	MONDO:0008434	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Dubowitz syndrome	MONDO:0009124	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:148050', 'KBG syndrome')	0.0	False

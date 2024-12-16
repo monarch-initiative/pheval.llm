@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ataxia-telangiectasia	MONDO:0008840	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+2	Niemann-Pick disease type C	MONDO:0018982	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+3	Ataxia with oculomotor apraxia type 2	MONDO:0018996	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+4	Spinocerebellar ataxia type 2	MONDO:0008458	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+5	Infantile neuroaxonal dystrophy	MONDO:0024457	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False

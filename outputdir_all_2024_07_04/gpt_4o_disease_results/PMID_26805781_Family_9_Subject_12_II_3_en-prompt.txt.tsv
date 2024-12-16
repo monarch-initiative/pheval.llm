@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MELAS syndrome (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes)	MONDO:0010789	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+2	MERRF syndrome (Myoclonic Epilepsy with Ragged Red Fibers)	MONDO:0010790	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+4	Carnitine palmitoyltransferase II deficiency	MONDO:0015515	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+5	Pyruvate dehydrogenase complex deficiency	MONDO:0010717	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+5	Pyruvate dehydrogenase complex deficiency	MONDO:0019169	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False

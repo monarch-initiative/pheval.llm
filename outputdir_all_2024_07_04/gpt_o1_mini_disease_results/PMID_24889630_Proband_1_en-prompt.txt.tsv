@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Generalized Lipodystrophy (Berardinelli-Seip Syndrome)	MONDO:0018883	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False
+2	Familial Partial Lipodystrophy (Dunnigan Type)	MONDO:0007906	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False
+3	Acquired Generalized Lipodystrophy	MONDO:0019193	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False
+4	Mandibuloacral Dysplasia	MONDO:0016584	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False
+4	Mandibuloacral Dysplasia	MONDO:0009557	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False
+5	HIV-associated Lipodystrophy	N/A	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False
+6	Cushing's Syndrome	MONDO:0018912	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False
+7	Metabolic Syndrome	MONDO:0000816	('OMIM:620680', 'Lipodystrophy, congenital generalized, type 5')	0.0	False

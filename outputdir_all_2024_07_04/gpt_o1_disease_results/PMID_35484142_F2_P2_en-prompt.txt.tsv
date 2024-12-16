@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital myasthenic syndrome	MONDO:0018940	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+2	Chronic progressive external ophthalmoplegia	MONDO:0005181	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+3	Oculopharyngeal muscular dystrophy	MONDO:0008116	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.5	True
+4	Myotonic dystrophy type 1	MONDO:0008056	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False

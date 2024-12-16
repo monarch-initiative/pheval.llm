@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autoimmune Polyglandular Syndrome Type 1 (APECED)	MONDO:0009411	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	1.0	True
+2	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-linked (IPEX) Syndrome	MONDO:0010580	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+3	Autoimmune Polyglandular Syndrome Type 2	MONDO:0010012	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	DiGeorge Syndrome	MONDO:0008564	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	DiGeorge Syndrome	MONDO:0018923	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+5	Autoimmune Polyendocrine Syndrome Type 3	MONDO:0016422	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False

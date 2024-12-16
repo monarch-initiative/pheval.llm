@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cerebro-oculo-facio-skeletal (COFS) syndrome	MONDO:0008926	('OMIM:133540', 'Cockayne syndrome, type B')	0.0	False
+2	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:133540', 'Cockayne syndrome, type B')	0.0	False
+3	Warburg micro syndrome	MONDO:0016649	('OMIM:133540', 'Cockayne syndrome, type B')	0.0	False
+4	Pseudo-TORCH syndrome	MONDO:0009626	('OMIM:133540', 'Cockayne syndrome, type B')	0.0	False
+4	Pseudo-TORCH syndrome	MONDO:0020789	('OMIM:133540', 'Cockayne syndrome, type B')	0.0	False
+5	Cockayne syndrome type II	MONDO:0019570	('OMIM:133540', 'Cockayne syndrome, type B')	1.0	True

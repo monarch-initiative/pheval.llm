@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Limb-Girdle Muscular Dystrophy type 1B (LGMD1B)	MONDO:0021018	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Myotonic Dystrophy type 1 (DM1)	MONDO:0008056	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Cardiomyopathy associated with Lamin A/C gene mutations (LMNA-related Cardiomyopathy)	MONDO:0007269	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	1.0	True
+4	Hyperkalemic Periodic Paralysis	MONDO:0008224	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Leber's Hereditary Optic Neuropathy (LHON)	MONDO:0010788	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

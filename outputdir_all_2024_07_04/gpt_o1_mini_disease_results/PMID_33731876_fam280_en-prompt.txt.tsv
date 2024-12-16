@@ -1,0 +1,24 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Epilepsy	MONDO:0005027	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.5	True
+2	Dravet Syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Dravet Syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Temporal Lobe Epilepsy	MONDO:0005115	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Febrile Seizures	HP:0002373	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Stroke (Ischemic or Hemorrhagic)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Brain Tumors (e.g., Glioblastoma)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Meningitis	MONDO:0004796	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Meningitis	MONDO:0021108	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Encephalitis	MONDO:0019956	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Traumatic Brain Injury	MONDO:0858950	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+11	Hypoglycemia	MONDO:0004946	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+12	Hyponatremia	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+13	Alcohol Withdrawal Syndrome	MONDO:0005433	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+14	Substance Abuse (e.g., Cocaine-Induced Seizures)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+15	Autoimmune Encephalitis	MONDO:0020640	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+16	Neurodegenerative Diseases (e.g., Alzheimer's Disease)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+17	Metabolic Disorders (e.g., Mitochondrial Disorders)	MONDO:0004069	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+18	Genetic Epileptic Syndromes (e.g., Rett Syndrome)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+19	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+19	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+20	Multiple Sclerosis	MONDO:0005301	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

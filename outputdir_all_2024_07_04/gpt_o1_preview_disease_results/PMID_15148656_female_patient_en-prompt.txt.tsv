@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PMM2-CDG (Congenital Disorder of Glycosylation Type Ia)	MONDO:0008907	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+2	ALG6-CDG (Congenital Disorder of Glycosylation Type Ic)	MONDO:0011291	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+3	ALG1-CDG (Congenital Disorder of Glycosylation Type Ik)	MONDO:0011783	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+4	RFT1-CDG (Congenital Disorder of Glycosylation Type In)	MONDO:0012783	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False

@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tuberous sclerosis complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+1	Tuberous sclerosis complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Angelman syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Rett syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Dravet syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Dravet syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Landau-Kleffner syndrome	MONDO:0009509	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Neuronal ceroid lipofuscinosis	MONDO:0016295	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Mitochondrial disorders	MONDO:0004069	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

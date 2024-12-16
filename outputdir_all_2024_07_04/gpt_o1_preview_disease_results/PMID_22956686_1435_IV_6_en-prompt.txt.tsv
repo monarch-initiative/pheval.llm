@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SLC7A5 deficiency	N/A	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+2	SLC3A2 deficiency	N/A	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+3	Hartnup disease	MONDO:0009324	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+4	Lysinuric protein intolerance	MONDO:0009109	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+5	Phenylketonuria	MONDO:0009861	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+6	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False

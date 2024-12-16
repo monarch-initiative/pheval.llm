@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Turner syndrome	MONDO:0019499	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Williams syndrome	MONDO:0008678	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Alagille syndrome	MONDO:0007318	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	X-linked intellectual disability (various forms)	MONDO:0100284	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.5	True
+7	Stickler syndrome	MONDO:0019354	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+8	CHARGE syndrome	MONDO:0008965	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

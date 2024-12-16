@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	3-Phosphoglycerate dehydrogenase deficiency	MONDO:0018491	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Phosphoserine aminotransferase deficiency	MONDO:0012596	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Phosphoserine phosphatase deficiency	MONDO:0013531	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Adenosine kinase deficiency	MONDO:0100255	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Molybdenum cofactor deficiency	MONDO:0020480	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Molybdenum cofactor deficiency	MONDO:0000063	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+6	Glycine encephalopathy	MONDO:0011612	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

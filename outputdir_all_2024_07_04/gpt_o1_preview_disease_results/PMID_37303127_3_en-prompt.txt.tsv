@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy Type 2 (Dunnigan-type)	MONDO:0007906	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	1.0	True
+2	Familial Partial Lipodystrophy Type 3	MONDO:0011448	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+3	Acquired Generalized Lipodystrophy (Lawrence Syndrome)	MONDO:0019193	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Congenital Generalized Lipodystrophy (Berardinelli-Seip Syndrome)	MONDO:0018883	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Mandibuloacral Dysplasia	MONDO:0009557	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Mandibuloacral Dysplasia	MONDO:0016584	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+6	Acquired Partial Lipodystrophy (Barraquer-Simons Syndrome)	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+7	LMNA-Related Lipodystrophy	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+8	PPAR Gamma-Related Lipodystrophy	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+9	Progeroid Syndromes	MONDO:0015333	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+10	Seipinopathy	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

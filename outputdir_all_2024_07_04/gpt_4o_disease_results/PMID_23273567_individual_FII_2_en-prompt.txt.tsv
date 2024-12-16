@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypophosphatasia (HPP)	MONDO:0018570	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Schindler disease type 2 (Kanzaki disease)	N/A	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	X-linked Hypophosphatemic Rickets (XLH)	MONDO:0010619	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Osteogenesis Imperfecta type II (OI type II)	MONDO:0008147	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Autosomal Recessive Hypophosphatemic Rickets (ARHR)	MONDO:0017324	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Jansen Type Metaphyseal Chondrodysplasia	MONDO:0007982	('OMIM:258480', 'Opsismodysplasia')	0.0	False

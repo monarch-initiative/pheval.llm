@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	STAT1 Gain-of-Function Mutation	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+2	CARD9 Deficiency	MONDO:0008905	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	1.0	True
+3	IL17RA Deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+4	APECED (Autoimmune Polyendocrinopathy-Candidiasis-Ectodermal Dystrophy)	MONDO:0009411	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+5	Chronic Granulomatous Disease	MONDO:0018305	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False

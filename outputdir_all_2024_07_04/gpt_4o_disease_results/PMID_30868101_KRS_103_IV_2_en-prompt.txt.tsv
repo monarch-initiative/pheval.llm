@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Huntington's disease	MONDO:0007739	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Progressive Supranuclear Palsy (PSP)	MONDO:0009839	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Spinocerebellar Ataxia (SCA)	MONDO:0008457	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Multiple System Atrophy (MSA)	MONDO:0007803	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Corticobasal Degeneration	MONDO:0022308	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+7	Niemann-Pick disease type C	MONDO:0018982	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+8	Dentatorubral-pallidoluysian atrophy (DRPLA)	N/A	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+9	Juvenile Parkinsonism	MONDO:0010820	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

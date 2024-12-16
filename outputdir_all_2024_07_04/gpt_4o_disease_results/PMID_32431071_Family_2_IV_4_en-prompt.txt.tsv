@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Magenis syndrome	MONDO:0008434	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+2	Angelman syndrome	MONDO:0007113	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+3	Joubert syndrome	MONDO:0018772	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+3	Joubert syndrome	MONDO:0008944	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+4	Rett syndrome (in males, rare but possible due to mosaicism or Klinefelter's syndrome)	N/A	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+5	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+6	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+7	Aicardi syndrome (typically in females, but rare exceptions exist)	MONDO:0010568	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+8	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+9	1p36 Deletion syndrome	MONDO:0011929	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+10	Tuberous sclerosis complex	MONDO:0001734	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+10	Tuberous sclerosis complex	MONDO:0008612	('OMIM:620655', 'Alfadhel syndrome')	0.0	False
+11	Sotos syndrome	MONDO:0019349	('OMIM:620655', 'Alfadhel syndrome')	0.0	False

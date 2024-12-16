@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive cutis laxa type I	MONDO:0019572	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+2	Arterial Tortuosity Syndrome	MONDO:0008818	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+3	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	Ehlers-Danlos syndrome, vascular type	MONDO:0007524	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	Ehlers-Danlos syndrome, vascular type	MONDO:0017314	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+5	LTBP4-related cutis laxa (Autosomal recessive cutis laxa type IC)	MONDO:0013170	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False

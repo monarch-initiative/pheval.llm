@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Netherton Syndrome	MONDO:0009735	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Ankyloblepharon-Ectodermal Defects-Cleft Lip/Palate (AEC) Syndrome	MONDO:0007124	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+3	CEDNIK Syndrome	MONDO:0012290	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+4	CHILD Syndrome	MONDO:0010621	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+4	CHILD Syndrome	MONDO:0017014	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Sjogren-Larsson Syndrome	MONDO:0010031	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+6	Lamellar Ichthyosis	MONDO:0017778	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+6	Lamellar Ichthyosis	MONDO:0019306	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+7	Ichthyosis Vulgaris	MONDO:0024304	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+7	Ichthyosis Vulgaris	MONDO:0007810	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False

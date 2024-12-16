@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autoimmune Polyendocrine Syndrome Type 1 (APS-1) / APECED	MONDO:0009411	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	1.0	True
+2	STAT1 Gain-of-Function Mutation (Chronic Mucocutaneous Candidiasis)	N/A	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+3	DiGeorge Syndrome (22q11.2 Deletion Syndrome)	MONDO:0012020	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	Hypoparathyroidism-Deafness-Renal Dysplasia (HDR) Syndrome	MONDO:0007797	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False

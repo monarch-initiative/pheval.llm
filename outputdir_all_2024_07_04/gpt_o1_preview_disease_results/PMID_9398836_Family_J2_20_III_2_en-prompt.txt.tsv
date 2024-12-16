@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	HNF1A-Maturity-onset diabetes of the young (MODY3)	MONDO:0010894	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+2	HNF4A-Maturity-onset diabetes of the young (MODY1)	MONDO:0007452	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+3	HNF1B-Maturity-onset diabetes of the young (MODY5)	MONDO:0007452	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+4	Familial renal glycosuria	MONDO:0009297	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+5	Fanconi syndrome	MONDO:0001083	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False

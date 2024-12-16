@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Synpolydactyly type II (Haas type)	N/A	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+2	Carpenter syndrome	MONDO:0019012	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+2	Carpenter syndrome	MONDO:0008710	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+3	Cross polydactyly type II	N/A	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False

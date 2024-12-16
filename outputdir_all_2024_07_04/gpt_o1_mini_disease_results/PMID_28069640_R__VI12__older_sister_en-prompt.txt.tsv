@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+2	Mitochondrial Cardiomyopathy	MONDO:0014175	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+3	LMNA-related Dilated Cardiomyopathy	N/A	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+4	Idiopathic Dilated Cardiomyopathy	MONDO:0016333	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+5	Familial Dilated Cardiomyopathy	MONDO:0016333	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+5	Familial Dilated Cardiomyopathy	MONDO:0005021	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+6	Myocarditis-induced Dilated Cardiomyopathy	MONDO:0005200	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False

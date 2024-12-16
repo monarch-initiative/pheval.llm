@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DiGeorge syndrome	MONDO:0018923	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+1	DiGeorge syndrome	MONDO:0008564	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+3	Zellweger syndrome	MONDO:0019609	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+4	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0016512	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0007843	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+6	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+7	Hypophosphatasia	MONDO:0009948	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+7	Hypophosphatasia	MONDO:0018570	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+8	Osteogenesis imperfecta	MONDO:0019019	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False

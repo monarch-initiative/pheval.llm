@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked sideroblastic anemia with ataxia (XLSA/A)	MONDO:0010524	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	1.0	True
+2	Pearson syndrome	MONDO:0010797	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+3	Sideroblastic anemia with immunodeficiency and developmental delay (SIFD)	MONDO:0014487	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+4	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Alpha-aminolevulinic acid dehydratase deficiency porphyria	MONDO:0013000	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+6	Friedreich's ataxia	MONDO:0100339	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False

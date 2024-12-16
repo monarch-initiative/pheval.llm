@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Marfan syndrome	MONDO:0007947	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+2	Ehlers-Danlos syndrome (vascular type)	MONDO:0016469	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+3	Stickler syndrome	MONDO:0019354	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False

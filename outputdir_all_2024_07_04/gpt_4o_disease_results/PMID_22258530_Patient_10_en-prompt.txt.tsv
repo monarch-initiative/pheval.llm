@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	Rett syndrome	MONDO:0010726	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Krabbe disease	MONDO:0009499	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	Zellweger syndrome	MONDO:0019609	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	Rett syndrome	MONDO:0010726	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+7	Joubert syndrome	MONDO:0018772	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+7	Joubert syndrome	MONDO:0008944	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+8	H-ABC syndrome (Hypomyelination with atrophy of the basal ganglia and cerebellum)	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+9	Alexander disease	MONDO:0008752	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ullrich Congenital Muscular Dystrophy	MONDO:0000355	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.5	True
+1	Ullrich Congenital Muscular Dystrophy	MONDO:0009681	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+2	Bethlem Myopathy	MONDO:0024530	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+2	Bethlem Myopathy	MONDO:0008029	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+3	LAMA2-Related Congenital Muscular Dystrophy	MONDO:0100228	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+4	Emery-Dreifuss Muscular Dystrophy	MONDO:0016830	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+5	Collagen VI-Related Myopathies	MONDO:0100225	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False

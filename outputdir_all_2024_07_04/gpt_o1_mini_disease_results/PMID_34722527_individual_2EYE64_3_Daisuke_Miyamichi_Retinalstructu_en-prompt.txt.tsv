@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leber Congenital Amaurosis	MONDO:0018998	('OMIM:613826', 'Leber congenital amaurosis 6')	0.5	True
+2	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Joubert Syndrome	MONDO:0018772	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Joubert Syndrome	MONDO:0008944	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Usher Syndrome	MONDO:0019501	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Retinitis Pigmentosa	MONDO:0008377	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Retinitis Pigmentosa	MONDO:0019200	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Senior-Løken Syndrome	MONDO:0010031	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+7	Cerebrotendinous Xanthomatosis	MONDO:0008948	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

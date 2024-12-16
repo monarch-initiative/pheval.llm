@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aarskog-Scott syndrome	MONDO:0007030	('OMIM:148050', 'KBG syndrome')	0.0	False
+1	Aarskog-Scott syndrome	MONDO:0010589	('OMIM:148050', 'KBG syndrome')	0.0	False
+1	Aarskog-Scott syndrome	MONDO:0021005	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Russell-Silver syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Trichorhinophalangeal syndrome	MONDO:0017951	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Fragile X syndrome	MONDO:0010383	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False

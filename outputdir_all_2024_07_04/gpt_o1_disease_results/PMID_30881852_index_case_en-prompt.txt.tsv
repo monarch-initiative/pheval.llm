@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nail-patella syndrome	MONDO:0008061	('OMIM:161200', 'Nail-patella syndrome')	1.0	True
+2	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:161200', 'Nail-patella syndrome')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:161200', 'Nail-patella syndrome')	0.0	False

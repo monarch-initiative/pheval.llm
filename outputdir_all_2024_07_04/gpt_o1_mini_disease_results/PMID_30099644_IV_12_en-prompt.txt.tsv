@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked retinoschisis	MONDO:0010725	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+2	Best vitelliform macular dystrophy	MONDO:0007931	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+3	Enhanced S-cone syndrome	MONDO:0100288	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+4	Achromatopsia	MONDO:0018852	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+5	Sorsby's fundus dystrophy	MONDO:0007640	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+6	Drug-induced retinopathy	N/A	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+7	Congenital stationary cone dysfunction	N/A	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+8	Melanoma-associated retinopathy	MONDO:0023868	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+9	Pattern dystrophies	N/A	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+10	Oguchi disease	MONDO:0019152	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False

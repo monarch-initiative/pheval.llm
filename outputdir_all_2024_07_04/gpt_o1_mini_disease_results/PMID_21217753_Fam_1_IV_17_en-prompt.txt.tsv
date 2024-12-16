@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler Syndrome	MONDO:0019354	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Homocystinuria	MONDO:0004737	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Familial Thoracic Aortic Aneurysm and Dissection	MONDO:0019625	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.5	True

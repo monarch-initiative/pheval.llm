@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Miller-Dieker lissencephaly syndrome	MONDO:0009532	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+2	GM1 gangliosidosis	MONDO:0018149	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+3	I-cell disease (Mucolipidosis type II)	MONDO:0009650	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+4	Hurler syndrome (Mucopolysaccharidosis type I)	MONDO:0011758	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+5	Coffin-Siris syndrome	MONDO:0015452	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+5	Coffin-Siris syndrome	MONDO:0007617	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False

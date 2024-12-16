@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal dominant Hyper-IgE syndrome (Job’s syndrome)	MONDO:0800131	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+2	DOCK8 deficiency (autosomal recessive Hyper-IgE syndrome)	N/A	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False

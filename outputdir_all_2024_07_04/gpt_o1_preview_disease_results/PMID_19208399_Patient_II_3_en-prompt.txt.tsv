@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Inclusion body myopathy with Paget disease of bone and frontotemporal dementia (IBMPFD)	MONDO:0000507	('OMIM:167320', 'Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia 1')	0.5	True
+2	Inclusion body myositis	MONDO:0007827	('OMIM:167320', 'Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia 1')	0.0	False
+3	Limb-girdle muscular dystrophy	MONDO:0016971	('OMIM:167320', 'Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia 1')	0.0	False
+4	Facioscapulohumeral muscular dystrophy	MONDO:0001347	('OMIM:167320', 'Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia 1')	0.0	False
+4	Facioscapulohumeral muscular dystrophy	MONDO:0008030	('OMIM:167320', 'Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia 1')	0.0	False
+5	Mitochondrial myopathy	MONDO:0009637	('OMIM:167320', 'Inclusion body myopathy with early-onset Paget disease and frontotemporal dementia 1')	0.0	False

@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara Syndrome (Early Infantile Epileptic Encephalopathy)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	STXBP1-Related Encephalopathy	MONDO:0012812	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	ARX Mutation-Related Disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Rett Syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Angelman Syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Doose Syndrome (Myoclonic-Astatic Epilepsy)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Dravet Syndrome (SCN1A Mutation)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	PCDH19-Related Epileptic Encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

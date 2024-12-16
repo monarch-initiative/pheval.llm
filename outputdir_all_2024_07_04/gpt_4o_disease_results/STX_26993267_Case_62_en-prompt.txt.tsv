@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara syndrome (Early Infantile Epileptic Encephalopathy)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Early myoclonic encephalopathy (EME)	MONDO:0016022	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Pyridoxine-dependent epilepsy (PDE)	MONDO:0009945	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Non-ketotic hyperglycinemia (NKH)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Aicardi syndrome	MONDO:0010568	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

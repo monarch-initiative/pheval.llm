@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi syndrome	MONDO:0010568	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+3	West syndrome	MONDO:0018097	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	Congenital Zika syndrome	MONDO:0018661	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	Congenital Zika syndrome	MONDO:0000890	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0001734	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0008612	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False

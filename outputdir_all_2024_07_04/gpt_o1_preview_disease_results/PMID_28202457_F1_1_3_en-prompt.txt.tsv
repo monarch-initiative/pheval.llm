@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GATA2 deficiency	MONDO:0013607	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+1	GATA2 deficiency	MONDO:0042982	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+2	Dyskeratosis congenita	MONDO:0015780	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+3	SAMD9/SAMD9L-related ataxia-pancytopenia syndrome	N/A	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+4	Ataxia-telangiectasia variant	MONDO:0018266	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+5	Paraneoplastic cerebellar degeneration associated with myelodysplasia	MONDO:0044877	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+6	Spinocerebellar ataxia with bone marrow failure	N/A	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False

@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital nephrotic syndrome of the Finnish type	MONDO:0009732	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+2	NPHS2-related steroid-resistant nephrotic syndrome	MONDO:0019006	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+3	Denys-Drash syndrome	MONDO:0008682	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False

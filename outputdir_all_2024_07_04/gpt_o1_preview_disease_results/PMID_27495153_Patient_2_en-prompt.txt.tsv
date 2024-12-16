@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Krabbe disease	MONDO:0009499	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Canavan disease	MONDO:0010079	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Tay-Sachs disease	MONDO:0010100	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+6	Leigh syndrome	MONDO:0009723	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

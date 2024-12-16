@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KBG syndrome	MONDO:0007846	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.5	True

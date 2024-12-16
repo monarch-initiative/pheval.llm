@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Prader-Willi Syndrome	MONDO:0008300	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Williams Syndrome	MONDO:0008678	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Autism Spectrum Disorder (with no Global Delay)	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Rett Syndrome (male presentation)	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Angelman Syndrome (mosaic or atypical presentation)	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+7	Beckwith-Wiedemann Syndrome (rare presentation)	MONDO:0007534	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Noonan Syndrome	MONDO:0008104	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Noonan Syndrome	MONDO:0018997	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+1	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+2	Meckel-Gruber syndrome	MONDO:0009571	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+2	Meckel-Gruber syndrome	MONDO:0018921	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+3	Joubert syndrome	MONDO:0018772	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+3	Joubert syndrome	MONDO:0008944	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+4	Oculorenal syndrome (Lowe syndrome)	MONDO:0010645	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+5	Alagille syndrome	MONDO:0007318	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+6	Noonan syndrome	MONDO:0008104	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+6	Noonan syndrome	MONDO:0018997	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+7	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+7	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False

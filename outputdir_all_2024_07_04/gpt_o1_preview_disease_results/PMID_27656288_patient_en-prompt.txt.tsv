@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome, kyphoscoliotic type	MONDO:0016002	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+2	Ullrich congenital muscular dystrophy	MONDO:0000355	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+2	Ullrich congenital muscular dystrophy	MONDO:0009681	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+3	Ehlers-Danlos syndrome, vascular type	MONDO:0007524	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+3	Ehlers-Danlos syndrome, vascular type	MONDO:0017314	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+4	Cutis laxa	MONDO:0016175	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+5	Marfan syndrome	MONDO:0007947	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+6	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False
+7	Menkes disease	MONDO:0010651	('OMIM:130010', 'Ehlers-Danlos syndrome, classic type, 2')	0.0	False

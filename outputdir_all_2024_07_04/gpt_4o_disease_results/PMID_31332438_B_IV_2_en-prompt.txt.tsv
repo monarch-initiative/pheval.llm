@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth Disease (CMT)	MONDO:0019011	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+2	Hereditary Neuropathy with Liability to Pressure Palsies (HNPP)	MONDO:0008087	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+3	Friedreich Ataxia	MONDO:0100340	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+3	Friedreich Ataxia	MONDO:0100339	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+4	Hereditary Sensory and Autonomic Neuropathy (HSAN)	MONDO:0019941	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+5	Spinal Muscular Atrophy (SMA)	MONDO:0001516	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.5	True
+6	Distal Hereditary Motor Neuropathy (dHMN)	MONDO:0013947	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+7	Amyotrophic Lateral Sclerosis (ALS)	MONDO:0004976	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False

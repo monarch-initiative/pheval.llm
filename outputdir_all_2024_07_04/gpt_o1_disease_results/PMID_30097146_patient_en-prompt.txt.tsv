@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Boucher-Neuhauser syndrome	MONDO:0008980	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+2	Laurence-Moon syndrome	MONDO:0009514	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+3	Spinocerebellar ataxia type 7	MONDO:0016163	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+4	Refsum disease	MONDO:0009958	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+5	Friedreich's ataxia	MONDO:0100339	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False

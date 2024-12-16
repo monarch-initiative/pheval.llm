@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+2	Glycogen storage disease type I	MONDO:0002413	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+3	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+4	Medium-chain acyl-CoA dehydrogenase deficiency (MCAD)	MONDO:0008721	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False
+5	Urea cycle disorder (e.g., OTC deficiency)	MONDO:0004739	('OMIM:616878', 'Metabolic encephalomyopathic crises, recurrent, with rhabdomyolysis, cardiac arrhythmias, and neurodegeneration')	0.0	False

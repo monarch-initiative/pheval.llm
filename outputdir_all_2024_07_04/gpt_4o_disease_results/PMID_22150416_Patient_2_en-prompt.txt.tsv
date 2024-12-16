@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Craniometaphyseal Dysplasia (CMD)	MONDO:0015465	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.5	True
+2	Cherubism	MONDO:0007315	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+3	Osteopetrosis	MONDO:0017198	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+4	Cleidocranial Dysplasia	MONDO:0007340	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+5	Gorlin Syndrome (Nevoid Basal Cell Carcinoma Syndrome)	N/A	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False

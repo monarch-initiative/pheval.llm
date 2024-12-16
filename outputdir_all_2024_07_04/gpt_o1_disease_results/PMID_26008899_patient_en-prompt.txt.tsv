@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hyper IgM syndrome	MONDO:0010626	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+2	Common variable immunodeficiency	MONDO:0015517	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+3	WHIM syndrome	MONDO:8000006	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+3	WHIM syndrome	MONDO:0023880	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+4	Chronic granulomatous disease	MONDO:0018305	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+5	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False

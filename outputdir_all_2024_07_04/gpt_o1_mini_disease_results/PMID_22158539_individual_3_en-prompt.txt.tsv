@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0018997	('OMIM:139210', 'Myhre syndrome')	0.0	False
+1	Noonan syndrome	MONDO:0008104	('OMIM:139210', 'Myhre syndrome')	0.0	False
+2	Williams syndrome	MONDO:0008678	('OMIM:139210', 'Myhre syndrome')	0.0	False
+3	Kabuki syndrome	MONDO:0007843	('OMIM:139210', 'Myhre syndrome')	0.0	False
+3	Kabuki syndrome	MONDO:0016512	('OMIM:139210', 'Myhre syndrome')	0.0	False
+4	Turner syndrome	MONDO:0019499	('OMIM:139210', 'Myhre syndrome')	0.0	False
+5	Mucopolysaccharidosis	MONDO:0019249	('OMIM:139210', 'Myhre syndrome')	0.0	False

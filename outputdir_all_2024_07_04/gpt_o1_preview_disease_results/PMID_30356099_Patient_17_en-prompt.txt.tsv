@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2-related epileptic encephalopathy	MONDO:0013387	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	SCN2A-related epileptic encephalopathy	MONDO:0013388	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	STXBP1 encephalopathy	N/A	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Mitochondrial encephalopathy	MONDO:0004675	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

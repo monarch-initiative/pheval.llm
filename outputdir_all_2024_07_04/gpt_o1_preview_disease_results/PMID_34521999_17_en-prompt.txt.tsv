@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Seckel syndrome	MONDO:0019342	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Dubowitz syndrome	MONDO:0009124	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

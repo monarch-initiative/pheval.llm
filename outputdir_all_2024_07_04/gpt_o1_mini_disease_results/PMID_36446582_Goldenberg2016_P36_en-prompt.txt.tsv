@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	L1 Syndrome (L1CAM-related disorder)	MONDO:0017140	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Primary Microcephaly (MCPH)	MONDO:0016660	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Holt-Oram Syndrome	MONDO:0007732	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Seckel Syndrome	MONDO:0019342	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	ATRX-Related Intellectual Disability Syndrome	MONDO:0019430	('OMIM:148050', 'KBG syndrome')	0.0	False

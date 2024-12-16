@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Coffin-Lowry Syndrome	MONDO:0010561	('OMIM:620417', 'Spastic paraplegia 90B, autosomal recessive')	0.0	False
+2	Angelman Syndrome	MONDO:0007113	('OMIM:620417', 'Spastic paraplegia 90B, autosomal recessive')	0.0	False
+3	Rett Syndrome (males)	N/A	('OMIM:620417', 'Spastic paraplegia 90B, autosomal recessive')	0.0	False
+4	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:620417', 'Spastic paraplegia 90B, autosomal recessive')	0.0	False
+5	Dystonia Musculorum Deformans	MONDO:0044811	('OMIM:620417', 'Spastic paraplegia 90B, autosomal recessive')	0.0	False
+5	Dystonia Musculorum Deformans	MONDO:0000476	('OMIM:620417', 'Spastic paraplegia 90B, autosomal recessive')	0.0	False
+5	Dystonia Musculorum Deformans	MONDO:0007492	('OMIM:620417', 'Spastic paraplegia 90B, autosomal recessive')	0.0	False

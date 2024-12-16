@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteopetrosis	MONDO:0017198	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+2	CHARGE Syndrome	MONDO:0008965	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+3	Crouzon Syndrome	MONDO:0007405	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+4	Mucopolysaccharidosis Type I (Hurler Syndrome)	MONDO:0011759	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+5	Pyknodysostosis	MONDO:0009940	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+6	Sclerosteosis	MONDO:0017838	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+7	Cleidocranial Dysplasia	MONDO:0007340	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+8	Sotos Syndrome	MONDO:0019349	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False

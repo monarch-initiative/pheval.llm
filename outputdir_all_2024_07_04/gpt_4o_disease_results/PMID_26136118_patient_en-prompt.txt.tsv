@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bartter syndrome	MONDO:0015231	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Primary hyperparathyroidism	MONDO:0010837	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Familial hypocalciuric hypercalcemia (FHH)	MONDO:0018458	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Gitelman syndrome	MONDO:0009904	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Autosomal dominant hypocalcemia (ADH)	MONDO:0018543	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+6	Dent disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+7	Tumor-induced osteomalacia (TIO)	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+8	Medullary sponge kidney (MSK)	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+9	X-linked hypophosphatemia (XLH)	MONDO:0010619	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+10	Hyperparathyroidism-jaw tumor syndrome (HPT-JT)	MONDO:0007768	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

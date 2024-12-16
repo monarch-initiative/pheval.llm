@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:608909', 'Myopia 6')	0.0	False
+2	Wagner syndrome	MONDO:0007740	('OMIM:608909', 'Myopia 6')	0.0	False
+3	Knobloch syndrome	MONDO:0800166	('OMIM:608909', 'Myopia 6')	0.0	False
+4	Sorsby fundus dystrophy	MONDO:0007640	('OMIM:608909', 'Myopia 6')	0.0	False

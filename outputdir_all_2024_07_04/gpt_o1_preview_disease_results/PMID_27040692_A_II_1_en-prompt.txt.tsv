@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Costello syndrome	MONDO:0009026	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+2	GM1 gangliosidosis type II (juvenile form)	MONDO:0009261	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+3	Mucopolysaccharidosis type II (Hunter syndrome)	MONDO:0001586	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+4	Mucolipidosis type III (pseudo-Hurler polydystrophy)	MONDO:0018931	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+5	Pompe disease (glycogen storage disease type II)	MONDO:0009865	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False

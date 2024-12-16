@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Differential diagnosis:	N/A	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+2	Familial isolated hypoparathyroidism	MONDO:0016390	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+3	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	HDR syndrome (Barakat syndrome)	N/A	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+5	Kenny-Caffey syndrome	MONDO:0016516	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+6	Sanjad-Sakati syndrome	MONDO:0009426	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ectodermal Dysplasia	MONDO:0019287	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+1	Ectodermal Dysplasia	MONDO:0009773	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+2	CHARGE Syndrome	MONDO:0008965	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+3	Kabuki Syndrome	MONDO:0007843	('OMIM:147920', 'Kabuki Syndrome 1')	1.0	True
+3	Kabuki Syndrome	MONDO:0016512	('OMIM:147920', 'Kabuki Syndrome 1')	0.5	True
+4	Genitopatellar Syndrome	MONDO:0011640	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	Isolated Congenital Nipple Agenesis	N/A	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False

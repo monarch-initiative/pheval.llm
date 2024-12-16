@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Poikiloderma with Neutropenia (Clericuzio-type)	MONDO:0011405	('OMIM:604173', 'Poikiloderma with neutropenia')	1.0	True
+2	Dyskeratosis congenita	MONDO:0015780	('OMIM:604173', 'Poikiloderma with neutropenia')	0.0	False
+3	Rothmund-Thomson syndrome	MONDO:0010002	('OMIM:604173', 'Poikiloderma with neutropenia')	0.0	False
+4	Shwachman-Diamond syndrome	MONDO:0044204	('OMIM:604173', 'Poikiloderma with neutropenia')	0.0	False
+4	Shwachman-Diamond syndrome	MONDO:0009833	('OMIM:604173', 'Poikiloderma with neutropenia')	0.0	False
+5	Ataxia telangiectasia	MONDO:0008840	('OMIM:604173', 'Poikiloderma with neutropenia')	0.0	False
+6	Cartilage-hair hypoplasia	MONDO:0009595	('OMIM:604173', 'Poikiloderma with neutropenia')	0.0	False

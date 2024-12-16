@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal Dominant Nocturnal Frontal Lobe Epilepsy (ADNFLE)	MONDO:0020300	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	Focal Cortical Dysplasia	MONDO:0019009	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	Benign Epilepsy with Centrotemporal Spikes (BECTS)	N/A	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	Genetic Focal Epilepsy due to DEPDC5 Mutation	MONDO:0024556	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+5	Structural Frontal Lobe Lesion	N/A	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+6	Idiopathic Focal Epilepsy	MONDO:0020310	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

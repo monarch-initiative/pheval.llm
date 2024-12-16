@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurofibromatosis type 1 (NF1)	MONDO:0018975	('OMIM:162200', 'Neurofibromatosis, type 1')	1.0	True
+2	Legius syndrome	MONDO:0012669	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+3	McCune-Albright syndrome	MONDO:0018919	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+4	Neurofibromatosis type 2 (NF2)	MONDO:0007039	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+5	Noonan syndrome	MONDO:0018997	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+5	Noonan syndrome	MONDO:0008104	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+6	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+6	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False

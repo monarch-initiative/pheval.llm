@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Huntington disease	MONDO:0016621	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+2	Wilson disease	MONDO:0010200	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+3	PARK2-related juvenile Parkinson disease	MONDO:0010820	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+4	Pantothenate kinase-associated neurodegeneration	MONDO:0009319	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False

@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Immune Thrombocytopenic Purpura (ITP)	MONDO:0008558	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+2	Myelodysplastic Syndrome	MONDO:0044873	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+2	Myelodysplastic Syndrome	MONDO:0018881	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+3	Drug-Induced Thrombocytopenia	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+4	Viral-Induced Thrombocytopenia	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+5	Hypersplenism	MONDO:0006795	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+6	Heparin-Induced Thrombocytopenia (HIT)	MONDO:0018048	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+7	Thrombotic Thrombocytopenic Purpura (TTP)	MONDO:0018896	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+8	Bone Marrow Infiltration (e.g., Leukemia)	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+9	Alcohol-Related Thrombocytopenia	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+10	Nutritional Deficiencies (e.g., Vitamin B12 or Folate Deficiency)	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False

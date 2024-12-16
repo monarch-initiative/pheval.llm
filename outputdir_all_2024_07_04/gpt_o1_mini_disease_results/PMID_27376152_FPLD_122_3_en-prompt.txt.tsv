@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy, Dunnigan type (FPLD2)	MONDO:0007906	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+2	Familial Partial Lipodystrophy, Type 1	MONDO:0020088	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.5	True
+3	Type A Insulin Resistance Syndrome	MONDO:0012520	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+4	Acquired Partial Lipodystrophy (Barraquer-Simons Syndrome)	N/A	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+5	Congenital Generalized Lipodystrophy (Berardinelli-Seip Syndrome)	MONDO:0018883	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+6	Cushing's Syndrome	MONDO:0018912	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+7	HIV-Associated Lipodystrophy	N/A	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False
+8	Emery-Dreifuss Muscular Dystrophy	MONDO:0016830	('OMIM:620679', 'Lipodystrophy, familial partial, type 8')	0.0	False

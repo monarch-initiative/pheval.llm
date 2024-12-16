@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+2	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+3	Achondroplasia	MONDO:0007037	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+4	Larsen Syndrome	MONDO:0007875	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+5	Spondyloepiphyseal Dysplasia	MONDO:0007738	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+5	Spondyloepiphyseal Dysplasia	MONDO:0016761	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+6	Sotos Syndrome	MONDO:0019349	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+7	Cartilage-Hair Hypoplasia	MONDO:0009595	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+8	Short Stature Homeobox-containing Gene (SHOX) Deficiency	MONDO:0010367	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+9	Diastrophic Dysplasia	MONDO:0009107	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+10	Cleidocranial Dysplasia	MONDO:0007340	('OMIM:102370', 'Acromicric dysplasia')	0.0	False

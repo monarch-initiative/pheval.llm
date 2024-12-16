@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SCN1A-related Dravet syndrome	N/A	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+2	PCDH19-related epilepsy	N/A	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+3	KCNT1-related epileptic encephalopathy	MONDO:0013989	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+4	STXBP1 encephalopathy	N/A	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+5	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False

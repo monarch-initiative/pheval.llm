@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Toriello-Carey syndrome	MONDO:0009021	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Pallister-Hall syndrome	MONDO:0007804	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	CHARGE syndrome	MONDO:0008965	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

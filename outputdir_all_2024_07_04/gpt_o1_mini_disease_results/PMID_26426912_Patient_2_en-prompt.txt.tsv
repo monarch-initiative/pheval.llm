@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Enamel-Renal Syndrome	MONDO:0008771	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Idiopathic Primary Hypercalciuria	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Familial Hypomagnesemia with Hypercalciuria	MONDO:0017624	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+5	Fanconi Syndrome	MONDO:0001083	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

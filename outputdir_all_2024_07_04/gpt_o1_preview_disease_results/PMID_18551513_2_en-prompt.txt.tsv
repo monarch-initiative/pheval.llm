@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked Myotubular Myopathy	MONDO:0010683	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+2	Congenital Muscular Dystrophy	MONDO:0019950	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.5	True
+3	Nemaline Myopathy	MONDO:0018958	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+4	Spinal Muscular Atrophy Type 1	MONDO:0009669	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+5	Congenital Myotonic Dystrophy	MONDO:0023595	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+6	Pompe Disease (Glycogen Storage Disease Type II)	MONDO:0002413	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False

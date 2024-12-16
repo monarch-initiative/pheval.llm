@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sliding hiatal hernia	N/A	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Paraesophageal hiatal hernia	N/A	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Mixed hiatal hernia	N/A	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+4	Gastroesophageal reflux disease (GERD)	MONDO:0007186	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+5	Achalasia	MONDO:0008698	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

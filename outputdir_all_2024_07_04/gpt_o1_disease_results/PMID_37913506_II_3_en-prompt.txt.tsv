@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypertrophic cardiomyopathy	MONDO:0005045	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.5	True
+2	Familial restrictive cardiomyopathy	MONDO:0005201	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+2	Familial restrictive cardiomyopathy	MONDO:0016340	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+3	LMNA-related cardiomyopathy	N/A	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+4	SCN5A-related cardiac conduction disorder	N/A	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False

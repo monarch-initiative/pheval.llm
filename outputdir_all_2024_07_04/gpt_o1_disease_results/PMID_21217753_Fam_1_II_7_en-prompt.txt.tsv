@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome (hypermobile type)	MONDO:0007523	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Stickler syndrome	MONDO:0019354	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Alkaptonuria	MONDO:0008753	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Multiple epiphyseal dysplasia	MONDO:0016648	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Pseudoxanthoma elasticum	MONDO:0024308	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Pseudoxanthoma elasticum	MONDO:0009925	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

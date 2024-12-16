@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia	MONDO:0019064	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.5	True
+2	Spinocerebellar ataxia	MONDO:0000437	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+2	Spinocerebellar ataxia	MONDO:0020380	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+3	Multiple sclerosis	MONDO:0005301	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+4	Amyotrophic lateral sclerosis	MONDO:0004976	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+5	Progressive supranuclear palsy	MONDO:0019037	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+6	Friedreich ataxia	MONDO:0100340	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+6	Friedreich ataxia	MONDO:0100339	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False

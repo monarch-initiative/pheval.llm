@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:300707', 'STAR syndrome')	0.0	False
+2	Craniofrontonasal syndrome	MONDO:0010570	('OMIM:300707', 'STAR syndrome')	0.0	False
+3	Saethre-Chotzen syndrome	MONDO:0007042	('OMIM:300707', 'STAR syndrome')	0.0	False
+4	Apert syndrome	MONDO:0007041	('OMIM:300707', 'STAR syndrome')	0.0	False

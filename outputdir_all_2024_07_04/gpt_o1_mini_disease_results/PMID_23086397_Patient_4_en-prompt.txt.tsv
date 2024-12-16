@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara Syndrome	MONDO:0100062	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.5	True
+2	STXBP1-Related Epileptic Encephalopathy	N/A	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+3	SCN2A-Related Epileptic Encephalopathy	MONDO:0013388	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+4	Congenital Disorders of Glycosylation (CDG Type I)	MONDO:0012123	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+5	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False

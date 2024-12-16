@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fibrodysplasia Ossificans Progressiva (FOP)	MONDO:0007606	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	1.0	True
+2	Progressive Osseous Heteroplasia (POH)	MONDO:0008153	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	0.0	False
+3	Albright's Hereditary Osteodystrophy (AHO)	MONDO:0012912	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	0.0	False
+4	McCune-Albright syndrome	MONDO:0018919	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	0.0	False
+5	Hypophosphatasia	MONDO:0018570	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	0.0	False
+5	Hypophosphatasia	MONDO:0009948	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	0.0	False

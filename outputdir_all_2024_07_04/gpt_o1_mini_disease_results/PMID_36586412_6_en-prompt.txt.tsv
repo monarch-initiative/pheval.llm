@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert Syndrome	MONDO:0018772	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+1	Joubert Syndrome	MONDO:0008944	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Nephronophthisis	MONDO:0019005	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Fragile X Syndrome	MONDO:0010383	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	Angelman Syndrome	MONDO:0007113	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+7	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+8	Meckel-Gruber Syndrome	MONDO:0018921	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+8	Meckel-Gruber Syndrome	MONDO:0009571	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+9	Von Hippel-Lindau Disease	MONDO:0008667	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+10	Alport Syndrome	MONDO:0018965	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

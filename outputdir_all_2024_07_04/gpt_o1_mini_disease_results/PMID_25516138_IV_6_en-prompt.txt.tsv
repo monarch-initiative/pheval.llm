@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Immune Thrombocytopenic Purpura (ITP)	MONDO:0008558	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+2	Thrombotic Thrombocytopenic Purpura (TTP)	MONDO:0018896	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+3	Hemolytic Uremic Syndrome (HUS)	MONDO:0016244	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+4	Acute Leukemia	MONDO:0010643	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	Drug-Induced Thrombocytopenia	N/A	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+6	Infection-Associated Thrombocytopenia	N/A	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False

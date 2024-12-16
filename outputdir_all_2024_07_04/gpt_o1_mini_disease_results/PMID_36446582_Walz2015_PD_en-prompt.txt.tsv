@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cleidocranial dysplasia	MONDO:0007340	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Russell-Silver syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Schwartz-Jampel syndrome	MONDO:0009717	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Pituitary growth hormone deficiency	MONDO:0006909	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Amelogenesis imperfecta	MONDO:0019507	('OMIM:148050', 'KBG syndrome')	0.0	False

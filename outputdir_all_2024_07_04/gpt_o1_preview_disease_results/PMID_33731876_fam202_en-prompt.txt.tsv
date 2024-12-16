@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Phelan-McDermid Syndrome (SHANK3 Mutation)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	16p11.2 Microdeletion Syndrome	MONDO:0016836	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	CHD8 Mutation	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	SYNGAP1 Mutation	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	NRXN1 Deletion	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

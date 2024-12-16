@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Williams syndrome	MONDO:0008678	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Intellectual disability of unknown etiology	N/A	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Angelman syndrome (less likely due to absence of seizures)	N/A	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Rett syndrome (less likely due to absence of seizures and being 6 years old)	N/A	('OMIM:612313', 'Glass syndrome')	0.0	False

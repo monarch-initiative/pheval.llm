@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+2	Angelman syndrome	MONDO:0007113	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+3	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+4	Autism spectrum disorder with co-occurring epilepsy	N/A	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+5	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+6	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+7	Phenylketonuria (Variant forms with atypical amino acid profiles)	MONDO:0019259	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+8	Creatine transporter deficiency	MONDO:0010305	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False

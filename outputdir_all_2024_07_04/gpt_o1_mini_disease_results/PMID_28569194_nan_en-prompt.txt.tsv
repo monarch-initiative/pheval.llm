@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary hyperoxaluria type II	MONDO:0009824	('OMIM:260000', 'Hyperoxaluria, primary, type II')	1.0	True
+2	Primary hyperoxaluria type I	MONDO:0009823	('OMIM:260000', 'Hyperoxaluria, primary, type II')	0.0	False
+3	Primary hyperoxaluria type III	MONDO:0013327	('OMIM:260000', 'Hyperoxaluria, primary, type II')	0.0	False
+4	Secondary hyperoxaluria	MONDO:0009824	('OMIM:260000', 'Hyperoxaluria, primary, type II')	1.0	True

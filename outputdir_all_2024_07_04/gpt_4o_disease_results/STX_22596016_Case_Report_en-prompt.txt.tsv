@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Zellweger spectrum disorder	MONDO:0019234	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Dravet syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Dravet syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Mitochondrial disease	MONDO:0004069	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Mitochondrial disease	MONDO:0044970	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Congenital disorder of glycosylation (CDG)	MONDO:0015286	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Rett syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Early infantile epileptic encephalopathy	MONDO:0100062	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.5	True

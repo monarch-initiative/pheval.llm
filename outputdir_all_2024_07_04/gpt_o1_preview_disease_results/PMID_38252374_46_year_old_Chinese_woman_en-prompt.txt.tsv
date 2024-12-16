@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PLA2G6-associated neurodegeneration (PLAN)	MONDO:0017998	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+2	SPG11-related hereditary spastic paraplegia	MONDO:0011445	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+3	Kufor-Rakeb syndrome (PARK9-associated parkinsonism)	MONDO:0011706	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+4	Wilson's disease	MONDO:0010200	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+5	POLG-related mitochondrial disorder	MONDO:0012415	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False

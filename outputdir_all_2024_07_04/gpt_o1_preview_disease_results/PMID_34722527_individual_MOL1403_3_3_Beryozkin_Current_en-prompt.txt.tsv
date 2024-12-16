@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated Foveal Hypoplasia	MONDO:0034978	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Optic Nerve Hypoplasia	MONDO:0008136	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Nanophthalmos	MONDO:0021129	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	Achromatopsia	MONDO:0018852	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Aland Island Eye Disease	MONDO:0010371	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

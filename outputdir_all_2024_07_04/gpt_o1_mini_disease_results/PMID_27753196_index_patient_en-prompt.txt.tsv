@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PTEN Hamartoma Tumor Syndrome (Cowden Syndrome)	MONDO:0017623	('OMIM:616638', 'Smith-Kingsmore syndrome')	0.0	False
+2	Juvenile Polyposis Syndrome	MONDO:0017380	('OMIM:616638', 'Smith-Kingsmore syndrome')	0.0	False
+2	Juvenile Polyposis Syndrome	MONDO:0008276	('OMIM:616638', 'Smith-Kingsmore syndrome')	0.0	False
+3	Bannayan-Riley-Ruvalcaba Syndrome	MONDO:0007924	('OMIM:616638', 'Smith-Kingsmore syndrome')	0.0	False
+4	Beckwith-Wiedemann Syndrome	MONDO:0007534	('OMIM:616638', 'Smith-Kingsmore syndrome')	0.0	False
+5	Familial Adenomatous Polyposis	MONDO:0021055	('OMIM:616638', 'Smith-Kingsmore syndrome')	0.0	False

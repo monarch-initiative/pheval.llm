@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Williams Syndrome	MONDO:0008678	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Kabuki Syndrome	MONDO:0007843	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Kabuki Syndrome	MONDO:0016512	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:148050', 'KBG syndrome')	0.0	False

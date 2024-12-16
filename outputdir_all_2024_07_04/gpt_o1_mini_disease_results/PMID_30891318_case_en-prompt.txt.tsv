@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Werner syndrome	MONDO:0010196	('OMIM:277700', 'Werner syndrome')	1.0	True
+2	Cockayne syndrome	MONDO:0016006	('OMIM:277700', 'Werner syndrome')	0.0	False
+3	Bloom syndrome	MONDO:0008876	('OMIM:277700', 'Werner syndrome')	0.0	False
+4	Rothmund-Thomson syndrome	MONDO:0010002	('OMIM:277700', 'Werner syndrome')	0.0	False
+5	Hutchinson-Gilford progeria	MONDO:0008310	('OMIM:277700', 'Werner syndrome')	0.0	False
+6	Mandibular hypoplasia, deafness, progeroid features (MDP) syndrome	MONDO:0014157	('OMIM:277700', 'Werner syndrome')	0.0	False

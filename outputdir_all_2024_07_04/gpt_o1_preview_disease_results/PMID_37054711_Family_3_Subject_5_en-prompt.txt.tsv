@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Behr syndrome	MONDO:0008858	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+4	Krabbe disease	MONDO:0009499	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+5	Wolfram syndrome	MONDO:0018105	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+6	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+7	Infantile neuroaxonal dystrophy	MONDO:0024457	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False

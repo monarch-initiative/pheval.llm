@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Adrenoleukodystrophy	MONDO:0018544	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Adrenoleukodystrophy	MONDO:0010247	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	Metachromatic Leukodystrophy	MONDO:0018868	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	Metachromatic Leukodystrophy	MONDO:0009591	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+4	Pelizaeus-Merzbacher Disease	MONDO:0010714	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+5	Spastic Triplegia Cerebral Palsy	N/A	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+6	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False

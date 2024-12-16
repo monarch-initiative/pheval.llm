@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Progressive Supranuclear Palsy	MONDO:0019037	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+2	Multiple System Atrophy	MONDO:0007803	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+3	Parkinson’s Disease	MONDO:0005180	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.5	True
+4	Dementia with Lewy Bodies	MONDO:0007488	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+5	Corticobasal Degeneration	MONDO:0022308	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False

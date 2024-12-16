@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PMM2-CDG (Congenital Disorder of Glycosylation Type Ia)	MONDO:0008907	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Other Congenital Disorders of Glycosylation (CDG)	MONDO:0015286	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Zellweger Spectrum Disorders	MONDO:0019609	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Zellweger Spectrum Disorders	MONDO:0019234	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Leigh Syndrome	MONDO:0009723	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	MELAS (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes)	MONDO:0010789	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Neuronal Ceroid Lipofuscinoses (Batten Disease)	MONDO:0850001	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

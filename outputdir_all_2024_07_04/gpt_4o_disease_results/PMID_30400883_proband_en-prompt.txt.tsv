@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cerebral creatine deficiency syndrome	MONDO:0000456	('OMIM:300352', 'Cerebral creatine deficiency syndrome 1')	0.5	True
+2	Rett syndrome	MONDO:0010726	('OMIM:300352', 'Cerebral creatine deficiency syndrome 1')	0.0	False
+3	Fragile X syndrome	MONDO:0010383	('OMIM:300352', 'Cerebral creatine deficiency syndrome 1')	0.0	False
+4	Epileptic encephalopathy	MONDO:0014150	('OMIM:300352', 'Cerebral creatine deficiency syndrome 1')	0.0	False
+5	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:300352', 'Cerebral creatine deficiency syndrome 1')	0.0	False

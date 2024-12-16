@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh syndrome	MONDO:0009723	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Biotin-thiamine-responsive basal ganglia disease	MONDO:0011841	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	STXBP1-related epileptic encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	GNAO1 encephalopathy	MONDO:0014199	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	ARX-related infantile epileptic encephalopathy	MONDO:0015921	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

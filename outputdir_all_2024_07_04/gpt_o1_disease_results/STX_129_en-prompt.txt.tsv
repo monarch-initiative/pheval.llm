@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Generalized epilepsy with febrile seizures plus (GEFS+)	MONDO:0018214	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Dravet syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Dravet syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

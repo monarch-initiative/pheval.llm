@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Friedreich ataxia	MONDO:0100340	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+1	Friedreich ataxia	MONDO:0100339	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+2	Spinocerebellar ataxia	MONDO:0000437	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+2	Spinocerebellar ataxia	MONDO:0020380	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+3	Ataxia-telangiectasia	MONDO:0008840	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+4	Vitamin E deficiency ataxia	MONDO:0010188	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+5	Episodic ataxia	MONDO:0016227	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False

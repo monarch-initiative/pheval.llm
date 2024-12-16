@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Systemic sclerosis (Scleroderma)	MONDO:0005100	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+2	Acromegaly	MONDO:0019933	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+3	Myhre syndrome	MONDO:0007688	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+4	Scleromyxedema	MONDO:0015665	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+5	Stiff skin syndrome	MONDO:0008492	('OMIM:184900', 'Stiff skin syndrome')	1.0	True
+6	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+7	Amyloidosis	MONDO:0019065	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+8	Bethlem myopathy	MONDO:0024530	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+8	Bethlem myopathy	MONDO:0008029	('OMIM:184900', 'Stiff skin syndrome')	0.0	False

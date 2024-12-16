@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pontocerebellar Hypoplasia	MONDO:0020135	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+2	Spinal Muscular Atrophy	MONDO:0001516	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+2	Spinal Muscular Atrophy	MONDO:0019079	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+3	Congenital Disorders of Glycosylation	MONDO:0015286	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+4	Rett Syndrome	MONDO:0010726	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+5	Microcephaly with Simplified Gyral Pattern	MONDO:0011372	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+6	Hereditary Motor and Sensory Neuropathy	MONDO:0002316	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+6	Hereditary Motor and Sensory Neuropathy	MONDO:0015358	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+6	Hereditary Motor and Sensory Neuropathy	MONDO:0015626	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+7	Joubert Syndrome	MONDO:0018772	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+7	Joubert Syndrome	MONDO:0008944	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False

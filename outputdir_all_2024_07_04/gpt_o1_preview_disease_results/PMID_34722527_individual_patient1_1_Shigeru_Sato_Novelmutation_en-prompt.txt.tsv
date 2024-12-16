@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked juvenile retinoschisis	MONDO:0010725	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0100438	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0015993	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0007362	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cone-rod dystrophy	MONDO:0011458	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Best vitelliform macular dystrophy	MONDO:0007931	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Familial exudative vitreoretinopathy (FEVR)	MONDO:0019516	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Goldmann-Favre syndrome (enhanced S-cone syndrome)	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Leber congenital amaurosis	MONDO:0018998	('OMIM:613826', 'Leber congenital amaurosis 6')	0.5	True
+7	Sorsby fundus dystrophy	MONDO:0007640	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

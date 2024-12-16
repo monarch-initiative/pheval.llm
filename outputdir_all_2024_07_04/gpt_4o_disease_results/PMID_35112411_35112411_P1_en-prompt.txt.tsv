@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia (HSP)	MONDO:0019064	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Charcot-Marie-Tooth disease (CMT)	MONDO:0019011	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Friedreich's ataxia	MONDO:0100339	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Adrenoleukodystrophy	MONDO:0010247	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Adrenoleukodystrophy	MONDO:0018544	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Alexander disease	MONDO:0008752	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+7	Spinocerebellar ataxia (SCA)	MONDO:0008457	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+8	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

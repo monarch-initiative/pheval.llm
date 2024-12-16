@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.5	True
+2	Charcot-Marie-Tooth Disease	MONDO:0015626	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+3	Adrenomyeloneuropathy	MONDO:0010247	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+3	Adrenomyeloneuropathy	MONDO:0015339	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+4	Primary Lateral Sclerosis	MONDO:0018155	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+5	Spastic Paraplegia Type 4	MONDO:0008438	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+6	Hereditary Motor and Sensory Neuropathy	MONDO:0015626	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+6	Hereditary Motor and Sensory Neuropathy	MONDO:0015358	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+6	Hereditary Motor and Sensory Neuropathy	MONDO:0002316	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+7	Autosomal Dominant Spastic Paraplegia	MONDO:0011408	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	1.0	True
+8	Hereditary Neuropathy with Liability to Pressure Palsies	MONDO:0008087	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False

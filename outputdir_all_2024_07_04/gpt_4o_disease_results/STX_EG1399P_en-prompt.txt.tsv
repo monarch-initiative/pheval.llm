@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinal Muscular Atrophy	MONDO:0001516	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+1	Spinal Muscular Atrophy	MONDO:0019079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Duchenne Muscular Dystrophy	MONDO:0010679	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Congenital Myopathies (e.g., Nemaline Myopathy)	MONDO:0015735	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Prader-Willi Syndrome	MONDO:0008300	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Myotonic Dystrophy	MONDO:0008056	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Myotonic Dystrophy	MONDO:0016107	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Congenital Myasthenic Syndromes (CMS)	MONDO:0018940	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Rett Syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Metabolic Myopathies (e.g., Glycogen Storage Diseases)	MONDO:0009293	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Charcot-Marie-Tooth Disease	MONDO:0015626	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Fragile X Syndrome	MONDO:0010383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+2	Mucopolysaccharidosis type IV (Morquio syndrome)	MONDO:0018938	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+3	Spondyloepiphyseal dysplasia tarda	MONDO:0019667	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+4	Thanatophoric dysplasia	MONDO:0017042	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+4	Thanatophoric dysplasia	MONDO:0008546	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+5	Osteogenesis imperfecta	MONDO:0019019	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+6	Achondroplasia	MONDO:0007037	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False
+7	Larsen syndrome	MONDO:0007875	('OMIM:277300', 'Spondylocostal dysostosis 1, autosomal recessive')	0.0	False

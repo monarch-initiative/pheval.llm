@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Feingold syndrome	MONDO:0008115	('OMIM:148050', 'KBG syndrome')	0.0	False
+1	Feingold syndrome	MONDO:0015267	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Coffin-Siris syndrome	MONDO:0007617	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Coffin-Siris syndrome	MONDO:0015452	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Juberg-Hayward syndrome	MONDO:0008992	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	ATR-X syndrome	MONDO:0010519	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False

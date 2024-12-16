@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry to hear about these symptoms. Please consult a qualified healthcare professional for an accurate diagnosis and appropriate treatment.	N/A	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False

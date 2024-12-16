@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sturge-Weber Syndrome	MONDO:0008501	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+3	Klippel-Trenaunay Syndrome	MONDO:0007864	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	PHACE Syndrome	MONDO:0011676	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	Hypoxic-Ischemic Encephalopathy	MONDO:0006663	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+6	Congenital Cytomegalovirus Infection	MONDO:0017409	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+7	West Syndrome	MONDO:0018097	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False

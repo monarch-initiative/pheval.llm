@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cerebral palsy (spastic type)	MONDO:0016215	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+2	Hereditary spastic paraplegia	MONDO:0019064	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+3	Multiple sclerosis	MONDO:0005301	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+4	Wilson's disease	MONDO:0010200	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+5	Spastic diplegia	MONDO:0001167	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+6	Spinal muscular atrophy	MONDO:0001516	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+6	Spinal muscular atrophy	MONDO:0019079	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia	MONDO:0000437	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.5	True
+1	Spinocerebellar ataxia	MONDO:0020380	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.5	True
+2	Multiple system atrophy	MONDO:0007803	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+3	Friedreich's ataxia	MONDO:0100339	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+4	Ataxia-telangiectasia	MONDO:0008840	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+5	Cerebrotendinous xanthomatosis	MONDO:0008948	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+6	Fragile X-associated tremor/ataxia syndrome (FXTAS)	MONDO:0010382	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False

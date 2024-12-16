@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Systemic Lupus Erythematosus (SLE)	HP:0002725	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	Sjögren's Syndrome	MONDO:0010030	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Mixed Connective Tissue Disease (MCTD)	MONDO:0005854	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Granulomatosis with Polyangiitis (GPA)	MONDO:0015943	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+5	Primary Immunodeficiency (e.g., Common Variable Immunodeficiency, CVID)	MONDO:0015517	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+6	Bechet's Disease	N/A	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+7	Multiple Sclerosis (MS)	N/A	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+8	Systemic Sclerosis (Scleroderma)	MONDO:0005100	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+9	Celiac Disease	MONDO:0005130	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+10	Autoimmune Thyroiditis (Hashimoto's Thyroiditis)	MONDO:0007699	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+11	Primary Biliary Cholangitis (PBC)	MONDO:0005388	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

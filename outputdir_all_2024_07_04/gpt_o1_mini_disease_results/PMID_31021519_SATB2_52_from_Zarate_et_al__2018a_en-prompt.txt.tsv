@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Williams Syndrome	MONDO:0008678	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Ectodermal Dysplasia	MONDO:0019287	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Ectodermal Dysplasia	MONDO:0009773	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Down Syndrome	MONDO:0008608	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Dentinogenesis Imperfecta	MONDO:0018849	('OMIM:612313', 'Glass syndrome')	0.0	False

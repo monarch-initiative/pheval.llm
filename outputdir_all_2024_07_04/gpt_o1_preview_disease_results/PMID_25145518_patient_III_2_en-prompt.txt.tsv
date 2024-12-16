@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related cardiomyopathy (Lamin A/C gene mutation)	N/A	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+2	Familial left ventricular noncompaction cardiomyopathy	MONDO:0014163	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+3	Mitochondrial cardiomyopathy	MONDO:0015283	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+4	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+5	Myotonic dystrophy type 1	MONDO:0008056	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+6	Anderson-Fabry disease	MONDO:0010526	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False

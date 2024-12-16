@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Trichorhinophalangeal syndrome type I	MONDO:0008596	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	1.0	True
+2	Floating-Harbor syndrome	MONDO:0007621	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+3	Aarskog syndrome	MONDO:0021005	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+3	Aarskog syndrome	MONDO:0007030	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+3	Aarskog syndrome	MONDO:0010589	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False

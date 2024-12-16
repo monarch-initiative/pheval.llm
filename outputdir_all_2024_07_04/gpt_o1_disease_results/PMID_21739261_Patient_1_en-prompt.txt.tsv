@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oculocutaneous albinism	MONDO:0018910	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.5	True
+2	Hermansky-Pudlak syndrome	MONDO:0019312	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.0	False
+2	Hermansky-Pudlak syndrome	MONDO:0030903	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.0	False
+3	Chédiak-Higashi syndrome	MONDO:0008963	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.0	False
+4	Piebaldism	MONDO:0008244	('OMIM:203290', 'Albinism, oculocutaneous, type III')	0.0	False

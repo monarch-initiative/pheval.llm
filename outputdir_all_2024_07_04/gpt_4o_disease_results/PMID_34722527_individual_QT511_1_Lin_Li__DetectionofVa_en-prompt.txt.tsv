@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autism Spectrum Disorder	MONDO:0005258	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+1	Autism Spectrum Disorder	MONDO:0005260	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Specific Learning Disorder	MONDO:0016225	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Attention Deficit Hyperactivity Disorder (ADHD)	MONDO:0007743	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Fragile X Syndrome	MONDO:0010383	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Language Disorder	MONDO:0004750	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Intellectual Disability	MONDO:0001071	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

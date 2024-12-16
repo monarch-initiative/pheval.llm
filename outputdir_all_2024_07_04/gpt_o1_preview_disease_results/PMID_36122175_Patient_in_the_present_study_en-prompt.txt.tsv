@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+2	Deficiency of adenosine deaminase 2 (DADA2)	MONDO:0100317	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+3	Autoimmune lymphoproliferative syndrome (ALPS)	MONDO:0017979	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Ehlers-Danlos syndrome, vascular type	MONDO:0007524	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Ehlers-Danlos syndrome, vascular type	MONDO:0017314	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+5	Blau syndrome	MONDO:0008523	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+6	Marfan syndrome	MONDO:0007947	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False

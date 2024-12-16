@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bicuspid Aortic Valve	MONDO:0013902	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+1	Bicuspid Aortic Valve	MONDO:0024523	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+2	Familial Thoracic Aortic Aneurysm and Dissection	MONDO:0019625	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+3	Ehlers-Danlos Syndrome, Vascular Type	MONDO:0007524	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+3	Ehlers-Danlos Syndrome, Vascular Type	MONDO:0017314	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+5	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.5	True
+6	Idiopathic Aortic Aneurysm	N/A	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False

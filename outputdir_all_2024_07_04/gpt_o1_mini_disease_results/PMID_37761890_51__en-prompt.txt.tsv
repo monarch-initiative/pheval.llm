@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Down Syndrome	MONDO:0008608	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Prader-Willi Syndrome	MONDO:0008300	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Angelman Syndrome	MONDO:0007113	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Williams Syndrome	MONDO:0008678	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+6	Phenylketonuria	MONDO:0009861	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+7	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+8	Autism Spectrum Disorder	MONDO:0005260	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+8	Autism Spectrum Disorder	MONDO:0005258	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+9	Fetal Alcohol Spectrum Disorders	MONDO:0016011	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+9	Fetal Alcohol Spectrum Disorders	MONDO:0000408	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+10	Rett Syndrome	MONDO:0010726	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

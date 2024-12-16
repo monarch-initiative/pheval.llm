@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Progressive familial heart block type I	MONDO:0007240	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Lenègre disease (progressive cardiac conduction defect due to SCN5A mutations)	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Familial atrioventricular block due to TRPM4 gene mutations	MONDO:0011474	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Conduction system disease associated with HCN4 gene mutations	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

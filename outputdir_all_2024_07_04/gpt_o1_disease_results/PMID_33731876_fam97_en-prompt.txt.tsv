@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign familial infantile epilepsy	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+2	SCN2A-related neonatal/infantile seizures	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+3	Panayiotopoulos syndrome	MONDO:0020307	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

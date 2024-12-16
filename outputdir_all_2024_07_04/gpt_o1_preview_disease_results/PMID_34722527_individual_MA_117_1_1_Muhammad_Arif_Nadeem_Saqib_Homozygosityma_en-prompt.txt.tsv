@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Retinitis pigmentosa	MONDO:0008377	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+1	Retinitis pigmentosa	MONDO:0019200	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Cone-rod dystrophy	MONDO:0100438	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Cone-rod dystrophy	MONDO:0015993	('OMIM:608194', 'Cone-rod dystrophy 13')	0.5	True
+2	Cone-rod dystrophy	MONDO:0007362	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Cone-rod dystrophy	MONDO:0011458	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Stargardt disease	MONDO:0019353	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	X-linked juvenile retinoschisis	MONDO:0010725	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Choroideremia	MONDO:0010557	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

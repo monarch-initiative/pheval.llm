@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia	MONDO:0000437	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+1	Spinocerebellar ataxia	MONDO:0020380	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+2	Multiple system atrophy	MONDO:0007803	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+3	Multiple sclerosis	MONDO:0005301	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+4	Friedreich's ataxia	MONDO:0100339	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+5	Wilson disease	MONDO:0010200	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+6	Amyotrophic lateral sclerosis	MONDO:0004976	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+7	Paraneoplastic cerebellar degeneration	MONDO:0044877	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+7	Paraneoplastic cerebellar degeneration	MONDO:0018215	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+8	Vitamin B12 deficiency	MONDO:0020696	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False

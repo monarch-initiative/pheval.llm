@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+2	Hereditary Sensory and Autonomic Neuropathy (HSAN)	MONDO:0019941	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.5	True
+3	Friedreich’s Ataxia	MONDO:0100339	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+4	Spinal Muscular Atrophy	MONDO:0001516	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+4	Spinal Muscular Atrophy	MONDO:0019079	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+5	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False

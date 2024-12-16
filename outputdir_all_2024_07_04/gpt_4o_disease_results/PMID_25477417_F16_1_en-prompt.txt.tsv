@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bartter syndrome	MONDO:0015231	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Gitelman syndrome	MONDO:0009904	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Familial hypomagnesemia with hypercalciuria and nephrocalcinosis (FHHNC)	MONDO:0017624	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+4	Primary hyperparathyroidism	MONDO:0010837	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

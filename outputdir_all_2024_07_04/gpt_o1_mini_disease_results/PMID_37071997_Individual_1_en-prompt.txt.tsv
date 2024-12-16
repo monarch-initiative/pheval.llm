@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Russell-Silver syndrome	MONDO:0008394	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Prader-Willi syndrome	MONDO:0008300	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Noonan syndrome	MONDO:0018997	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Noonan syndrome	MONDO:0008104	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Down syndrome	MONDO:0008608	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+6	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+7	Angelman syndrome	MONDO:0007113	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+8	Kabuki syndrome	MONDO:0007843	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+8	Kabuki syndrome	MONDO:0016512	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+9	Costello syndrome	MONDO:0009026	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+10	Marfan syndrome	MONDO:0007947	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

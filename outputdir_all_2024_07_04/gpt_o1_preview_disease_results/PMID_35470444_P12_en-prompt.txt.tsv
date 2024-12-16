@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive primary microcephaly (MCPH)	MONDO:0016660	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.5	True
+3	Cri-du-chat syndrome	MONDO:0007404	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+4	Warburg Micro syndrome	MONDO:0016649	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+5	Lissencephaly	MONDO:0018838	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False

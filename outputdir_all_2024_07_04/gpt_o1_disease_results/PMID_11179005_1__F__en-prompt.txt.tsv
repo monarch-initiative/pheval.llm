@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ankyloblepharon-ectodermal defects-cleft lip/palate (AEC) syndrome	MONDO:0007124	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+2	Ectrodactyly–ectodermal dysplasia–cleft lip/palate (EEC) syndrome	MONDO:0007520	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+3	Rapp-Hodgkin syndrome	MONDO:0007508	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+4	Treacher Collins syndrome	MONDO:0002457	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+4	Treacher Collins syndrome	MONDO:0007944	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False

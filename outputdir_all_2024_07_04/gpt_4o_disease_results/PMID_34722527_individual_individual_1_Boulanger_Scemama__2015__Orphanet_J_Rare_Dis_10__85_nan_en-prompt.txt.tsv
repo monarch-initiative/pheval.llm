@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Angelman syndrome	MONDO:0007113	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Rett syndrome	MONDO:0010726	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	Prader-Willi syndrome	MONDO:0008300	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Neurofibromatosis type 1 (NF1)	MONDO:0018975	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+6	Williams syndrome	MONDO:0008678	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+7	Tuberous sclerosis complex (TSC)	MONDO:0013199	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+8	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+9	Phenylketonuria (PKU)	MONDO:0009861	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+10	Noonan syndrome	MONDO:0008104	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+10	Noonan syndrome	MONDO:0018997	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

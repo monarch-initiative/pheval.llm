@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Ectodermal Dysplasia	MONDO:0019287	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Ectodermal Dysplasia	MONDO:0009773	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Cleidocranial Dysostosis	MONDO:0007340	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Hypophosphatasia	MONDO:0018570	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Hypophosphatasia	MONDO:0009948	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Stickler Syndrome	MONDO:0019354	('OMIM:612313', 'Glass syndrome')	0.0	False
+8	Crouzon Syndrome	MONDO:0007405	('OMIM:612313', 'Glass syndrome')	0.0	False
+9	Treacher Collins Syndrome	MONDO:0007944	('OMIM:612313', 'Glass syndrome')	0.0	False
+9	Treacher Collins Syndrome	MONDO:0002457	('OMIM:612313', 'Glass syndrome')	0.0	False

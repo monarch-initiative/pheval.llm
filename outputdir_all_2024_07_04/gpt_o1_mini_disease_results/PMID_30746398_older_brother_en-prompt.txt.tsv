@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Progressive supranuclear palsy	MONDO:0019037	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Early-onset Parkinson's disease	MONDO:0017279	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.5	True
+3	PARK2-associated Parkinsonism	N/A	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Multiple system atrophy	MONDO:0007803	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Corticobasal degeneration	MONDO:0022308	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False
+1	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False
+1	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False
+2	Waardenburg Syndrome	MONDO:0018094	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.5	True
+3	Hermansky-Pudlak Syndrome	MONDO:0030903	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False
+3	Hermansky-Pudlak Syndrome	MONDO:0019312	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False
+4	Chediak-Higashi Syndrome	MONDO:0008963	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False
+5	Arthrogryposis Multiplex Congenita	MONDO:0007157	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False
+5	Arthrogryposis Multiplex Congenita	MONDO:0015168	('OMIM:148820', 'Waardenburg syndrome, type 3')	0.0	False

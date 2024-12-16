@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome with multiple lentigines (formerly LEOPARD syndrome)	MONDO:0100082	('OMIM:151100', 'LEOPARD syndrome 1')	1.0	True
+2	Neurofibromatosis type 1 (NF1)	MONDO:0018975	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+3	Watson syndrome	MONDO:0008672	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+4	Legius syndrome	MONDO:0012669	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KBG syndrome	MONDO:0007846	('OMIM:148050', 'KBG syndrome')	1.0	True
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	SATB2-associated syndrome	MONDO:0012864	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	SATB2-associated syndrome	MONDO:0100147	('OMIM:148050', 'KBG syndrome')	0.0	False

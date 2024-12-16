@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Saethre-Chotzen Syndrome	MONDO:0007042	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+2	Muenke Syndrome	MONDO:0011274	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	Aicardi Syndrome	MONDO:0010568	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Crouzon Syndrome	MONDO:0007405	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+5	Sotos Syndrome	MONDO:0019349	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+6	Apert Syndrome	MONDO:0007041	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+7	Pfeiffer Syndrome	MONDO:0007043	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+8	Rett Syndrome	MONDO:0010726	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False

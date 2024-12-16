@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Early Infantile Epileptic Encephalopathy (EIEE)	MONDO:0012812	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Rett Syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Dravet Syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Dravet Syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	West Syndrome	MONDO:0018097	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Aicardi Syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Angelman Syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	ARX-Related Disorders	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cardiac sarcoidosis	MONDO:0001707	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Lamin A/C mutation-associated cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Transthyretin amyloidosis	MONDO:0019441	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Idiopathic dilated cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+5	Myocarditis	MONDO:0004496	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Ischemic cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+7	Myotonic dystrophy	MONDO:0016107	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+7	Myotonic dystrophy	MONDO:0008056	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+8	Chagas disease	MONDO:0001444	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ataxic Cerebral Palsy	MONDO:0000397	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+1	Ataxic Cerebral Palsy	MONDO:0011548	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Developmental Coordination Disorder	MONDO:0004922	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Fragile X Syndrome	MONDO:0010383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Friedreich's Ataxia	MONDO:0100339	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Rett Syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Spinocerebellar Ataxia	MONDO:0000437	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Spinocerebellar Ataxia	MONDO:0020380	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Down Syndrome	MONDO:0008608	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

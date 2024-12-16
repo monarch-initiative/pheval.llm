@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Craniometaphyseal dysplasia	MONDO:0015465	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.5	True
+2	Albers-Schönberg disease (Osteopetrosis)	N/A	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+3	Crouzon syndrome	MONDO:0007405	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+4	Cleidocranial dysplasia	MONDO:0007340	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+5	Mucopolysaccharidosis (various types)	MONDO:0001586	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+6	Paget's disease	MONDO:0021165	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+6	Paget's disease	MONDO:0005382	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+7	Fibrous dysplasia	MONDO:0000845	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False

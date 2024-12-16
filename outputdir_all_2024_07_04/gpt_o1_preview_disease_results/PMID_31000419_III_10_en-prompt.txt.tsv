@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary ovarian insufficiency (POI)	MONDO:0021950	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+2	Fragile X-associated primary ovarian insufficiency (FXPOI)	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+3	Turner syndrome (45,X/46,XX mosaicism)	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+4	Autoimmune oophoritis	MONDO:0021950	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+5	Blepharophimosis ptosis epicanthus inversus syndrome type I (BPES type I)	MONDO:0007201	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False

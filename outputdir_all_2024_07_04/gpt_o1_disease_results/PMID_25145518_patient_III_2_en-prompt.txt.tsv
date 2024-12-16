@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Left ventricular noncompaction cardiomyopathy	MONDO:0018901	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False

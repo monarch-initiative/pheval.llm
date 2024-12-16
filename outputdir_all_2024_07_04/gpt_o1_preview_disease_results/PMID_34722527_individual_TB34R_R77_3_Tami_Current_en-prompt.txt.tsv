@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leber hereditary optic neuropathy	MONDO:0010788	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Optic nerve hypoplasia	MONDO:0008136	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Cone-rod dystrophy	MONDO:0100438	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Cone-rod dystrophy	MONDO:0015993	('OMIM:608194', 'Cone-rod dystrophy 13')	0.5	True
+3	Cone-rod dystrophy	MONDO:0007362	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Cone-rod dystrophy	MONDO:0011458	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	Stargardt disease	MONDO:0019353	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Albinism	MONDO:0043209	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+6	Cone dystrophy	MONDO:0000455	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+7	Juvenile macular degeneration	N/A	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

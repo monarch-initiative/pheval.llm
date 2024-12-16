@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Myotonic Dystrophy Type 2	MONDO:0011266	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Facioscapulohumeral Muscular Dystrophy	MONDO:0001347	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Facioscapulohumeral Muscular Dystrophy	MONDO:0008030	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Spinocerebellar Ataxia	MONDO:0000437	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Spinocerebellar Ataxia	MONDO:0020380	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Mitochondrial Myopathy	MONDO:0009637	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Charcot-Marie-Tooth Disease	MONDO:0015626	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

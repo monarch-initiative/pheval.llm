@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+2	Cerebral palsy (spastic diplegia)	MONDO:0001167	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+3	Hereditary spastic paraplegia	MONDO:0019064	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+4	Ataxia-telangiectasia	MONDO:0008840	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+5	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+6	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+6	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+7	Spinal muscular atrophy (less likely due to the spasticity and hyperreflexia)	N/A	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+8	Friedreich's ataxia	MONDO:0100339	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False

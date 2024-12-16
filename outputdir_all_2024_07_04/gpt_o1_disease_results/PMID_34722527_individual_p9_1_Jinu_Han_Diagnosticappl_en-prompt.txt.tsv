@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked juvenile retinoschisis	MONDO:0010725	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Achromatopsia	MONDO:0018852	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-rod dystrophy	MONDO:0015993	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-rod dystrophy	MONDO:0011458	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-rod dystrophy	MONDO:0100438	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-rod dystrophy	MONDO:0007362	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Enhanced S-cone syndrome	MONDO:0100288	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

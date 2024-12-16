@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	STAT3 gain-of-function mutation	N/A	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+2	LRBA deficiency	N/A	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+3	CTLA4 haploinsufficiency	MONDO:0014493	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+4	IPEX-like syndrome	MONDO:0010580	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+5	Common variable immunodeficiency	MONDO:0015517	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False

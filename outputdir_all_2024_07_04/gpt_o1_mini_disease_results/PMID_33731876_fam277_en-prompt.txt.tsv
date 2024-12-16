@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Rolandic Epilepsy (Benign Childhood Epilepsy with Centrotemporal Spikes)	MONDO:0015641	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Genetic Epilepsy with Febrile Seizures Plus (GEFS+)	MONDO:0018214	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Febrile Seizures Plus	MONDO:0018214	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Childhood Absence Epilepsy	MONDO:0010826	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Panayiotopoulos Syndrome	MONDO:0020307	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+6	Landau-Kleffner Syndrome	MONDO:0009509	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

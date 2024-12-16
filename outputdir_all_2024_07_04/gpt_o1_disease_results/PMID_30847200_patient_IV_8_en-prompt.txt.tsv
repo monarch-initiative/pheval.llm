@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	AP-4 deficiency syndrome (e.g. SPG50)	MONDO:0100176	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+2	KIF1A-related neurological disorder	MONDO:0700055	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+3	FOXG1 syndrome	MONDO:0035383	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+4	MECP2 duplication syndrome	MONDO:0010283	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+5	Warburg micro syndrome	MONDO:0016649	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+6	Angelman syndrome	MONDO:0007113	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False

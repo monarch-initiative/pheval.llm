@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nonketotic Hyperglycinemia (Glycine Encephalopathy)	MONDO:0017353	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+3	Molybdenum Cofactor Deficiency	MONDO:0020480	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+3	Molybdenum Cofactor Deficiency	MONDO:0000063	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+4	Serine Biosynthesis Disorders	MONDO:0018162	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+5	Early-Onset Mitochondrial Disorders	N/A	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+6	Glutaric Aciduria Type I	MONDO:0009281	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False

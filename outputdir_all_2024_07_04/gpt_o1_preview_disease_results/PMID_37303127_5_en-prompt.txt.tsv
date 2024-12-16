@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy type 2 (FPLD2)	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+2	Familial Partial Lipodystrophy type 3 (FPLD3)	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+3	Acquired Generalized Lipodystrophy (AGL)	MONDO:0019193	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Type B Insulin Resistance Syndrome	MONDO:0016464	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Mandibuloacral Dysplasia	MONDO:0009557	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Mandibuloacral Dysplasia	MONDO:0016584	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+6	Werner Syndrome	MONDO:0010196	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Infantile Systemic Hyalinosis	MONDO:0016331	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+2	Juvenile Hyaline Fibromatosis	MONDO:0016071	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+3	Mucopolysaccharidosis Type I (Hurler Syndrome)	MONDO:0011759	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+4	Farber Disease	MONDO:0009218	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+5	Stiff Skin Syndrome	MONDO:0008492	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False
+6	Systemic Sclerosis	MONDO:0005100	('OMIM:228600', 'Hyaline fibromatosis syndrome')	0.0	False

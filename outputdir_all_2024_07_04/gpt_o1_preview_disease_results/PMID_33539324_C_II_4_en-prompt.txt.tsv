@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Progressive Supranuclear Palsy	MONDO:0019037	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+2	Corticobasal Degeneration	MONDO:0022308	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+3	Creutzfeldt-Jakob Disease	MONDO:0005357	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+3	Creutzfeldt-Jakob Disease	MONDO:0007403	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+4	Frontotemporal Dementia	MONDO:0010857	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+4	Frontotemporal Dementia	MONDO:0017276	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+5	Amyotrophic Lateral Sclerosis with Cognitive Impairment	N/A	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False

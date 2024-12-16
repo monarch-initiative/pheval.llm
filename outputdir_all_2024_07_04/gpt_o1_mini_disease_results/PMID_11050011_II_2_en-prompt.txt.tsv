@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Sideroblastic Anemia	MONDO:0016828	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+2	Lead Poisoning	MONDO:0018019	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+3	Thalassemia Major (Cooley's Disease)	N/A	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+4	X-linked Sideroblastic Anemia	MONDO:0020721	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Erythropoietic Protoporphyria	MONDO:0001676	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Erythropoietic Protoporphyria	MONDO:0008319	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+6	Fanconi Anemia	MONDO:0009215	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+6	Fanconi Anemia	MONDO:0019391	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+7	Menkes Disease	MONDO:0010651	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False

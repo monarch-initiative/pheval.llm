@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hemophagocytic lymphohistiocytosis (HLH)	MONDO:0009974	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+2	Autoimmune lymphoproliferative syndrome (ALPS)	MONDO:0017979	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+3	Familial hemophagocytic lymphohistiocytosis	MONDO:0015540	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.5	True
+3	Familial hemophagocytic lymphohistiocytosis	MONDO:0009974	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+3	Familial hemophagocytic lymphohistiocytosis	MONDO:0015541	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.5	True
+4	Paraneoplastic syndrome associated with T-cell lymphoma	N/A	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False

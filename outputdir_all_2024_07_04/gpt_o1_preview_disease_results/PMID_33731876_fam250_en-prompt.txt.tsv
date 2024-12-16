@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2-related epileptic encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	STXBP1-related epileptic encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	SCN2A-related epileptic encephalopathy	MONDO:0013388	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	1.0	True
+4	SCN8A-related epileptic encephalopathy	MONDO:0013801	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	ARX-related epileptic encephalopathy	MONDO:0015921	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Pyridoxine-dependent epilepsy (ALDH7A1 deficiency)	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Glycine encephalopathy (nonketotic hyperglycinemia)	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Early myoclonic encephalopathy	MONDO:0016022	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	SLC25A22-related epileptic encephalopathy	MONDO:0012245	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

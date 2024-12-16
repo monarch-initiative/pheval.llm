@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital disorder of glycosylation type IIe (COG7 deficiency)	MONDO:0012118	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+2	Congenital disorder of glycosylation type IIa (MGAT2 deficiency)	MONDO:0005501	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.5	True
+3	Congenital disorder of glycosylation type IId (B4GALT1 deficiency)	MONDO:0011772	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+4	Ataxia with oculomotor apraxia	HP:0000657	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+5	Niemann-Pick disease type C	MONDO:0018982	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False

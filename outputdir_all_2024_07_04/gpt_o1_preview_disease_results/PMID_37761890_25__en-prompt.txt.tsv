@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi syndrome	MONDO:0010568	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Canavan disease	MONDO:0010079	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Alexander disease	MONDO:0008752	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Sotos syndrome	MONDO:0019349	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Zellweger syndrome	MONDO:0019609	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+6	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+7	Tuberous sclerosis complex	MONDO:0001734	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+7	Tuberous sclerosis complex	MONDO:0008612	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+8	Joubert syndrome	MONDO:0018772	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+8	Joubert syndrome	MONDO:0008944	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

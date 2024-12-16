@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autism Spectrum Disorder	MONDO:0005260	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+1	Autism Spectrum Disorder	MONDO:0005258	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Fragile X Syndrome	MONDO:0010383	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Prader-Willi Syndrome	MONDO:0008300	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Marinesco-Sjögren syndrome	MONDO:0009567	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Warburg Micro syndrome	MONDO:0016649	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Cerebro-oculo-facio-skeletal (COFS) syndrome	MONDO:0008926	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Rhizomelic chondrodysplasia punctata	MONDO:0015776	('OMIM:600373', 'CODAS syndrome')	0.0	False

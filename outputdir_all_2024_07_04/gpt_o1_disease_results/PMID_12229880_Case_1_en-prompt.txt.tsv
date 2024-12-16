@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hemophagocytic lymphohistiocytosis	MONDO:0015540	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.5	True
+2	X-linked lymphoproliferative syndrome	MONDO:0010627	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+3	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False

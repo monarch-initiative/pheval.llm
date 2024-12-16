@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Thoracic Aortic Aneurysm and Dissection (FTAAD)	MONDO:0019625	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.5	True
+4	Ehlers-Danlos syndrome, vascular type (Type IV)	MONDO:0017314	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+5	SMAD3-related aneurysm syndrome (Aneurysms-Osteoarthritis Syndrome)	N/A	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+6	Bicuspid Aortic Valve-associated Aortopathy	MONDO:0007194	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+7	Turner syndrome	MONDO:0019499	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

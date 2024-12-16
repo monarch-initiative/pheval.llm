@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal dominant distal renal tubular acidosis (SLC4A1)	MONDO:0008368	('OMIM:179800', 'Distal renal tubular acidosis 1')	1.0	True
+2	Autosomal recessive distal renal tubular acidosis (ATP6V1B1 or ATP6V0A4)	MONDO:0018440	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+3	Carbonic anhydrase II deficiency syndrome	N/A	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

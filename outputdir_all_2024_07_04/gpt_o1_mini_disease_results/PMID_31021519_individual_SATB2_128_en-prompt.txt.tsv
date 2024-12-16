@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Normal infant development	N/A	('OMIM:612313', 'Glass syndrome')	0.0	False

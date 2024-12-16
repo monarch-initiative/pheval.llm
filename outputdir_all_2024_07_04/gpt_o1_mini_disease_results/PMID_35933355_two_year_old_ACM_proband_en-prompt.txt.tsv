@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Idiopathic Dilated Cardiomyopathy	MONDO:0016333	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+2	Duchenne Muscular Dystrophy	MONDO:0010679	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+3	LMNA Mutation-Related Dilated Cardiomyopathy	N/A	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+4	Mitochondrial Cardiomyopathy	MONDO:0014175	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+5	Viral Myocarditis	MONDO:0023161	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False

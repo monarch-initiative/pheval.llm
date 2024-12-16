@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Trichorhinophalangeal syndrome	MONDO:0017951	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+2	Dysosteosclerosis	MONDO:0009138	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+3	Mucopolysaccharidosis	MONDO:0019249	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+4	Leri-Weill dyschondrosteosis	MONDO:0007481	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+5	Hypochondroplasia	MONDO:0007793	('OMIM:102370', 'Acromicric dysplasia')	0.0	False

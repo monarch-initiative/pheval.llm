@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Contractural Arachnodactyly (Beals Syndrome)	MONDO:0007363	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+2	Marfan Syndrome	MONDO:0007947	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+3	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+4	Costello Syndrome	MONDO:0009026	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False

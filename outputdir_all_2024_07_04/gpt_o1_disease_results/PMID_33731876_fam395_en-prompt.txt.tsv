@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	ARX-related X-linked infantile spasm syndrome	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Aicardi syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Krabbe disease	MONDO:0009499	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	CDKL5 deficiency syndrome	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

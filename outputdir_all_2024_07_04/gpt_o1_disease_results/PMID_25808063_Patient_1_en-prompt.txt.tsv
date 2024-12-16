@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Marinesco-Sjögren syndrome	MONDO:0009567	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Warburg micro syndrome	MONDO:0016649	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Congenital disorder of glycosylation	MONDO:0015286	('OMIM:600373', 'CODAS syndrome')	0.0	False

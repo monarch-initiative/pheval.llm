@@ -1,0 +1,15 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I’m not a doctor, but based on the provided symptoms, here is a differential diagnosis:	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+2	Pierre Robin Sequence	MONDO:0009869	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+3	Stickler Syndrome	MONDO:0019354	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+4	Treacher Collins Syndrome	MONDO:0007944	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+4	Treacher Collins Syndrome	MONDO:0002457	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+5	Velocardiofacial Syndrome (22q11.2 Deletion Syndrome)	MONDO:0008644	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+6	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+7	Down Syndrome	MONDO:0008608	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+8	Mucopolysaccharidosis	MONDO:0019249	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+9	Noonan Syndrome	MONDO:0018997	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+9	Noonan Syndrome	MONDO:0008104	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+10	Craniofacial Microsomia	MONDO:0015397	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+11	Autism Spectrum Disorder associated with Genetic Conditions	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+12	Please consult a healthcare professional for an accurate diagnosis.	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False

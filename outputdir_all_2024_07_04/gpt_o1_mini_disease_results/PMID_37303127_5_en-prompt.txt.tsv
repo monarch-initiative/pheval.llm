@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Metabolic syndrome (Type 2 diabetes mellitus)	MONDO:0005148	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+2	Familial partial lipodystrophy	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+3	Acquired partial lipodystrophy (Barraquer-Simons syndrome)	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	HIV-associated lipodystrophy	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Non-alcoholic fatty liver disease (NAFLD)	MONDO:0013209	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

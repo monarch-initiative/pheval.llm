@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Becker muscular dystrophy	MONDO:0010311	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Genetic dilated cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+3	Limb-girdle muscular dystrophy	MONDO:0016971	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Mitochondrial myopathy	MONDO:0009637	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

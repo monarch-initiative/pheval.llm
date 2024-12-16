@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypoxic-ischemic encephalopathy	MONDO:0006663	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Congenital cytomegalovirus infection	MONDO:0017409	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Mitochondrial disorder	MONDO:0016797	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Alexander disease	MONDO:0008752	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Periventricular leukomalacia-associated cerebral palsy	MONDO:0015742	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Inborn errors of metabolism	MONDO:0019052	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Neonatal epilepsy syndromes	MONDO:0100455	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

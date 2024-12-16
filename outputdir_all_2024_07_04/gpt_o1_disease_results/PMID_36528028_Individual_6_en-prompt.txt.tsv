@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tuberous sclerosis complex	MONDO:0008612	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+1	Tuberous sclerosis complex	MONDO:0001734	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+2	Neurofibromatosis type 1	MONDO:0018975	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+3	Sotos syndrome	MONDO:0019349	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+4	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+5	Dravet syndrome	MONDO:0100135	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+5	Dravet syndrome	MONDO:0100079	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False

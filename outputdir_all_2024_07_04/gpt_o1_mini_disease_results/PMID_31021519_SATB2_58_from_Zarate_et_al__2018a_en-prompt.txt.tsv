@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta	MONDO:0019019	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Rubinstein–Taybi syndrome	MONDO:0019188	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Down syndrome	MONDO:0008608	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Mucopolysaccharidosis	MONDO:0019249	('OMIM:612313', 'Glass syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi Syndrome	MONDO:0010568	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Gomez-Lopez-Hernandez Syndrome	MONDO:0011157	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Holoprosencephaly	MONDO:0016296	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Andermann Syndrome	MONDO:0000902	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+6	Walker-Warburg Syndrome	MONDO:0000171	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

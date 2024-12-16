@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+2	Creatine transporter deficiency (SLC6A8 deficiency)	MONDO:0010305	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+3	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+4	Congenital muscular dystrophy	MONDO:0019950	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+5	Congenital myopathy	MONDO:0019952	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+2	Kabuki syndrome	MONDO:0016512	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+2	Kabuki syndrome	MONDO:0007843	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+3	Townes-Brocks syndrome	MONDO:0007142	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+4	Hand-foot-genital syndrome	MONDO:0007698	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+5	Feingold syndrome	MONDO:0015267	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+5	Feingold syndrome	MONDO:0008115	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kallmann syndrome	MONDO:0018800	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Isolated hypogonadotropic hypogonadism	MONDO:0018555	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Leydig cell hypoplasia	MONDO:0019155	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Partial androgen insensitivity syndrome	MONDO:0010720	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	5-alpha reductase deficiency	MONDO:0009923	('OMIM:148050', 'KBG syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinal muscular atrophy	MONDO:0019079	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+1	Spinal muscular atrophy	MONDO:0001516	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Congenital myotonic dystrophy	MONDO:0023595	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Fragile X syndrome	MONDO:0010383	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Prader-Willi syndrome	MONDO:0008300	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	Congenital muscular dystrophy	MONDO:0019950	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

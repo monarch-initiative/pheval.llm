@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+1	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Angelman Syndrome	MONDO:0007113	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Fragile X Syndrome	MONDO:0010383	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

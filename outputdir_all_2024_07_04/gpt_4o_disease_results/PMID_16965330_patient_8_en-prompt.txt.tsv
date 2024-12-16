@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autoimmune Polyglandular Syndrome Type 1 (APS-1)	MONDO:0010012	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+2	APECED (Autoimmune Polyendocrinopathy-Candidiasis-Ectodermal Dystrophy)	MONDO:0009411	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	1.0	True
+3	Hypoparathyroidism-Retardation-Dysmorphism (HRD) Syndrome	N/A	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	Wolfram Syndrome (DIDMOAD)	MONDO:0018105	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+5	Addison Disease with Polyglandular Autoimmune Syndrome	MONDO:0010012	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False

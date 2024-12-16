@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Based on the provided information, there is insufficient data to generate a meaningful differential diagnosis. Please provide more clinical details about the proband.	N/A	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

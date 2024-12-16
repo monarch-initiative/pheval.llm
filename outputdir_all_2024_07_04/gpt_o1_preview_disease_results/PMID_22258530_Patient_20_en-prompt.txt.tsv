@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Disorder of Glycosylation Type Ia (PMM2-CDG)	MONDO:0008907	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	Pontocerebellar Hypoplasia	MONDO:0020135	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Pelizaeus-Merzbacher Disease	MONDO:0010714	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Joubert Syndrome	MONDO:0018772	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Joubert Syndrome	MONDO:0008944	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	Mitochondrial Encephalopathy	MONDO:0004675	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	Christianson Syndrome	MONDO:0010278	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

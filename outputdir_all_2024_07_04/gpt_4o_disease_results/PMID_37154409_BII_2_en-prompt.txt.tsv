@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia (SCA)	MONDO:0008457	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+2	Multiple system atrophy (MSA)	MONDO:0007803	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+3	Friedreich's ataxia	MONDO:0100339	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+4	Machado-Joseph disease (SCA3)	MONDO:0017176	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+5	Episodic ataxia	MONDO:0016227	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+6	Autosomal dominant cerebellar ataxia (ADCA)	MONDO:0019792	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.5	True
+7	Dentatorubral-pallidoluysian atrophy (DRPLA)	N/A	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False

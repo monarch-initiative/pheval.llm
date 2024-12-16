@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+1	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+3	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+4	Meckel-Gruber syndrome	MONDO:0009571	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+4	Meckel-Gruber syndrome	MONDO:0018921	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+5	Townes-Brocks syndrome	MONDO:0007142	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+6	Fraser syndrome	MONDO:0054737	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+6	Fraser syndrome	MONDO:0009046	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+7	CHARGE syndrome	MONDO:0008965	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False

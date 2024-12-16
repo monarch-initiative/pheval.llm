@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Netherton syndrome	MONDO:0009735	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+2	Lamellar ichthyosis	MONDO:0017778	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+2	Lamellar ichthyosis	MONDO:0019306	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+3	Trichothiodystrophy	MONDO:0018053	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+3	Trichothiodystrophy	MONDO:0002470	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+4	Ectodermal dysplasia, hypohidrotic type	MONDO:0011063	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False
+5	Sjögren-Larsson syndrome	MONDO:0010031	('OMIM:602400', 'Ichthyosis, congenital, autosomal recessive 11')	0.0	False

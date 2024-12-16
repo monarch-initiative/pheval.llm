@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson's Disease	MONDO:0010200	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+2	Multiple System Atrophy	MONDO:0007803	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+3	Progressive Supranuclear Palsy	MONDO:0019037	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+4	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.5	True
+5	Amyotrophic Lateral Sclerosis	MONDO:0004976	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+6	Corticobasal Degeneration	MONDO:0022308	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+7	Neurodegeneration with Brain Iron Accumulation	MONDO:0018307	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+8	Parkinson's Disease with Peripheral Neuropathy	N/A	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False

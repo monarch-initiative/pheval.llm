@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial partial lipodystrophy type 2 (Dunnigan-type)	MONDO:0007906	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	1.0	True
+2	Familial partial lipodystrophy type 3 (PPARG-related)	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+3	Werner syndrome	MONDO:0010196	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Alström syndrome	MONDO:0008763	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

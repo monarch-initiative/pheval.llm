@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Amelogenesis Imperfecta	MONDO:0019507	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.5	True
+2	Tricho-dento-osseous syndrome	MONDO:0008592	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+3	Hypomaturation amelogenesis imperfecta	MONDO:0015048	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+4	Dentinal dysplasia	MONDO:0015613	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+5	Junctional epidermolysis bullosa	MONDO:0017612	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Parkinson's Disease	MONDO:0005180	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+2	Cervical Dystonia (Adult-Onset)	N/A	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+3	Corticobasal Degeneration	MONDO:0022308	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+4	Multiple System Atrophy	MONDO:0007803	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+5	Wilson's Disease	MONDO:0010200	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+6	Progressive Supranuclear Palsy	MONDO:0019037	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+7	Huntington's Disease	MONDO:0007739	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False

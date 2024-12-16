@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Schizophrenia	MONDO:0005090	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Schizophreniform Disorder	MONDO:0001265	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Schizoaffective Disorder	MONDO:0005487	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Schizoaffective Disorder	MONDO:0005090	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Schizoaffective Disorder	MONDO:0014092	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Bipolar Disorder with Psychotic Features	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Brief Psychotic Disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Delusional Disorder	MONDO:0004359	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Psychotic Disorder due to a General Medical Condition	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Substance-Induced Psychotic Disorder	MONDO:0006730	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

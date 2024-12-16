@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cowden syndrome	MONDO:0016063	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+2	Von Hippel–Lindau disease	N/A	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+3	BAP1 tumor predisposition syndrome	MONDO:0013692	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+4	Tuberous sclerosis complex	MONDO:0008612	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+4	Tuberous sclerosis complex	MONDO:0001734	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False

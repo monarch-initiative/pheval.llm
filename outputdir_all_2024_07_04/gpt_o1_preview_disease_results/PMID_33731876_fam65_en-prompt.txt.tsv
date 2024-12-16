@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry, but I can't provide a differential diagnosis. Please consult a qualified healthcare professional for proper evaluation and guidance.	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

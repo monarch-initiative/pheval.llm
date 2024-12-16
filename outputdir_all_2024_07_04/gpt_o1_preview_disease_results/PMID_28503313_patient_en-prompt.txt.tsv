@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	1.0	True
+2	Antley-Bixler syndrome	MONDO:0008803	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False
+3	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False
+4	CHARGE syndrome	MONDO:0008965	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False
+5	Lipoid congenital adrenal hyperplasia	MONDO:0008725	('OMIM:270400', 'Smith-Lemli-Opitz syndrome')	0.0	False

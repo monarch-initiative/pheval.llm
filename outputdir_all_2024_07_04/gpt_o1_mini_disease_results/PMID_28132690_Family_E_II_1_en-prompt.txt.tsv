@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Langerhans Cell Histiocytosis	MONDO:0017029	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+1	Langerhans Cell Histiocytosis	MONDO:0018310	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+1	Langerhans Cell Histiocytosis	MONDO:0017025	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+2	Mucopolysaccharidosis Type I (Hurler Syndrome)	MONDO:0011759	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+3	Spondyloepiphyseal Dysplasia	MONDO:0007738	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+3	Spondyloepiphyseal Dysplasia	MONDO:0016761	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.5	True
+4	Hypophosphatasia	MONDO:0018570	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+4	Hypophosphatasia	MONDO:0009948	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+5	Hypereosinophilic Syndrome	MONDO:0015691	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False

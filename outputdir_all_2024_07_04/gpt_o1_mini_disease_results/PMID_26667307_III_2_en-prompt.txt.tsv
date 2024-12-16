@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Homocystinuria	MONDO:0004737	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.5	True
+2	Marfan Syndrome	MONDO:0007947	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+3	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+4	Stickler Syndrome	MONDO:0019354	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+5	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+6	Pseudoxanthoma Elasticum	MONDO:0024308	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+6	Pseudoxanthoma Elasticum	MONDO:0009925	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False

@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Glutaric acidemia type I	MONDO:0009281	('OMIM:231670', 'Glutaricaciduria, type I')	1.0	True

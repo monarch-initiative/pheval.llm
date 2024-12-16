@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Larsen Syndrome	MONDO:0007875	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+2	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+3	Beals Syndrome (Congenital Contractural Arachnodactyly)	MONDO:0007363	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+4	Stickler Syndrome	MONDO:0019354	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False
+5	Marfan Syndrome	MONDO:0007947	('OMIM:600920', 'Van den Ende-Gupta syndrome')	0.0	False

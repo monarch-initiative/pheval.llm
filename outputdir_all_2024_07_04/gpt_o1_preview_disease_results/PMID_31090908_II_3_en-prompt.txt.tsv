@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Amyotrophic Lateral Sclerosis	MONDO:0017593	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+2	Hereditary Spastic Paraplegia with Peripheral Neuropathy	MONDO:0009748	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+3	Hereditary Motor Neuropathy with Pyramidal Signs	N/A	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+4	Friedreich's Ataxia	MONDO:0100339	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+5	Adrenoleukodystrophy (X-linked)	MONDO:0010247	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False

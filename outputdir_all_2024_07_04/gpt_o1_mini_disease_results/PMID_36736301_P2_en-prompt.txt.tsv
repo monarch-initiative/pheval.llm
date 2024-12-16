@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Interferon-Gamma Receptor 1 (IFN-γR1) Deficiency	MONDO:0020530	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+2	Interleukin-12 Receptor Beta 1 (IL12RB1) Deficiency	N/A	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+3	Interferon-Gamma Receptor 2 (IFN-γR2) Deficiency	MONDO:0017900	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+4	Interleukin-12B (IL12B) Deficiency	N/A	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+5	Signal Transducer and Activator of Transcription 1 (STAT1) Gain-of-Function Mutation	N/A	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+6	Chronic Granulomatous Disease (CGD)	MONDO:0018305	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+7	Mendelian Susceptibility to Mycobacterial Disease (MSMD) – Other Genetic Variants	MONDO:0019146	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False

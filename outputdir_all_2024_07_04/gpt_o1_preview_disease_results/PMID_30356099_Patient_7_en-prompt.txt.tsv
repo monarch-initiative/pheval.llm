@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Aicardi syndrome	MONDO:0010568	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Rett syndrome	MONDO:0010726	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	SLC2A1 deficiency syndrome (Glucose transporter type 1 deficiency)	MONDO:0000188	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

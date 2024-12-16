@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+2	22q11.2 Deletion Syndrome	MONDO:0008564	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+2	22q11.2 Deletion Syndrome	MONDO:0018923	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+3	Williams Syndrome	MONDO:0008678	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+5	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+6	Fetal Alcohol Spectrum Disorder	MONDO:0000408	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+7	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+8	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False

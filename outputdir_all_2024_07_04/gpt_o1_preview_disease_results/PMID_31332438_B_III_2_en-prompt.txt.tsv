@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal hereditary motor neuropathy (dHMN)	MONDO:0013947	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+2	Congenital distal spinal muscular atrophy	MONDO:0010839	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+3	Congenital myopathy	MONDO:0019952	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+4	Congenital myasthenic syndrome	MONDO:0018940	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+5	Spinal muscular atrophy type III (Kugelberg-Welander disease)	MONDO:0010338	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False

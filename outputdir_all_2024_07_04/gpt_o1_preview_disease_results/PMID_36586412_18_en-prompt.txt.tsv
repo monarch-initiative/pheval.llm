@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Mitochondrial disorders	MONDO:0004069	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Fragile X syndrome	MONDO:0010383	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	22q11.2 deletion syndrome	MONDO:0018923	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	22q11.2 deletion syndrome	MONDO:0008564	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Peroxisomal disorders	MONDO:0019053	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypermobile Ehlers-Danlos syndrome	MONDO:0007523	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+3	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+5	Stickler syndrome	MONDO:0019354	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False

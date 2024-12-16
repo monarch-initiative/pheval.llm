@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SLC4A1-related distal renal tubular acidosis	MONDO:0012700	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	1.0	True
+2	ATP6V1B1-related distal renal tubular acidosis	MONDO:0012700	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	1.0	True
+3	ATP6V0A4-related distal renal tubular acidosis	MONDO:0012700	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	1.0	True

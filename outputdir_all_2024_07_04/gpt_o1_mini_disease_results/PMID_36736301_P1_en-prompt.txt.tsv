@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Interleukin-12 receptor beta 1 (IL12RB1) deficiency	N/A	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+2	Interferon-gamma receptor 1 (IFNGR1) deficiency	MONDO:0020530	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+3	Interferon-gamma receptor 2 (IFNGR2) deficiency	MONDO:0017902	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+4	Signal transducer and activator of transcription 1 (STAT1) deficiency	N/A	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+5	Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+6	Chronic Granulomatous Disease (CGD)	MONDO:0018305	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+7	Adenosine Deaminase (ADA) deficiency	MONDO:0100317	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+8	Hyper-IgM Syndrome	MONDO:0003947	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+8	Hyper-IgM Syndrome	MONDO:0010626	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False

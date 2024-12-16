@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fetal alcohol syndrome	MONDO:0000408	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+1	Fetal alcohol syndrome	MONDO:0016011	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+2	1p36 deletion syndrome	MONDO:0011929	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+3	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+4	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False

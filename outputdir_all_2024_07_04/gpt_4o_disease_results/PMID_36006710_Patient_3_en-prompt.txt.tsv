@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autoimmune Lymphoproliferative Syndrome (ALPS)	MONDO:0017979	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+2	Common Variable Immunodeficiency (CVID)	MONDO:0015517	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+3	X-linked Hyper-IgM Syndrome	MONDO:0010626	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+4	Primary Immunodeficiency with Elevated IL-10 and IL-6 (e.g., Hyper IgM Syndrome variants)	N/A	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+5	Combined Variable Immunodeficiency (CVID) Subtype	MONDO:0015517	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+6	Systemic Lupus Erythematosus (SLE) with Immunodeficiency Features	MONDO:0800130	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False

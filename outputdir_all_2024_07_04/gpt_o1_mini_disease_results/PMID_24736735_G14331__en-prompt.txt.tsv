@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+2	Greig cephalopolysyndactyly syndrome	MONDO:0008287	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	1.0	True
+3	Carpenter syndrome	MONDO:0019012	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+3	Carpenter syndrome	MONDO:0008710	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+4	Acrocephalopolysyndactyly type I (Apert syndrome)	MONDO:0007041	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+5	Pfeiffer syndrome	MONDO:0007043	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False

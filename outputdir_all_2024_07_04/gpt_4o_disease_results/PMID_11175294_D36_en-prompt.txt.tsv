@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Marfan syndrome	MONDO:0007947	('OMIM:154700', 'Marfan syndrome')	1.0	True
+2	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:154700', 'Marfan syndrome')	0.0	False
+3	Ehlers-Danlos syndrome (vascular type)	MONDO:0016469	('OMIM:154700', 'Marfan syndrome')	0.0	False
+4	Homocystinuria (CBS deficiency)	MONDO:0009352	('OMIM:154700', 'Marfan syndrome')	0.0	False
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:154700', 'Marfan syndrome')	0.0	False

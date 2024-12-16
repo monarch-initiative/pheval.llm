@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+1	Kabuki syndrome	MONDO:0007843	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+3	Fragile X syndrome	MONDO:0010383	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+5	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+6	Floating-Harbor syndrome	MONDO:0007621	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False

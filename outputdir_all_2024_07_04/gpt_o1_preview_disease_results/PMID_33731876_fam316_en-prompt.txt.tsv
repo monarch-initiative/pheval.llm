@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	KCNQ2-related epileptic encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	SCN8A-related epileptic encephalopathy	MONDO:0013801	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	PCDH19-related epilepsy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	POLG-related disorders (Alpers-Huttenlocher syndrome)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	STXBP1-related disorders	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	SLC2A1 mutations (GLUT1 deficiency syndrome)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

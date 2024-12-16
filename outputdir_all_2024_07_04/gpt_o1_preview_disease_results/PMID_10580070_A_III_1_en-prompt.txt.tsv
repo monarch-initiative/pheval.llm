@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related dilated cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Desmin-related cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	SCN5A-related cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	HFE hemochromatosis	MONDO:0011631	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Fabry disease	MONDO:0010526	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

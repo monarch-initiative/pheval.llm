@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MECP2 duplication syndrome	MONDO:0010283	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Alexander disease	MONDO:0008752	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Canavan disease	MONDO:0010079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Sotos syndrome	MONDO:0019349	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

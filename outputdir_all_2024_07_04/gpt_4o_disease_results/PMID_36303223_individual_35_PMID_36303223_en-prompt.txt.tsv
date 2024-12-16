@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Classical Homocystinuria (Cystathionine beta-synthase deficiency)	MONDO:0009352	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	MTHFR (Methylenetetrahydrofolate reductase) deficiency	MONDO:0009353	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Molybdenum cofactor deficiency	MONDO:0000063	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Molybdenum cofactor deficiency	MONDO:0020480	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Isolated Sulfite Oxidase Deficiency	MONDO:0010089	('OMIM:272300', 'Sulfite oxidase deficiency')	1.0	True

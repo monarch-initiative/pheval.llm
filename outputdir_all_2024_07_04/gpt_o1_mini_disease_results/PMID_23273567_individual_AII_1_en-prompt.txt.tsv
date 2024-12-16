@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked hypophosphatemic rickets (XLH)	MONDO:0010619	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Autosomal dominant hypophosphatemic rickets (ADHR)	MONDO:0008660	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Autosomal recessive hypophosphatemic rickets (ARHR)	MONDO:0017324	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Hereditary hypophosphatemic rickets with hypercalciuria (HHRH)	MONDO:0009431	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Tumor-induced osteomalacia	MONDO:0018124	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Vitamin D-dependent rickets type I	MONDO:0009924	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+7	Vitamin D-dependent rickets type II	MONDO:0019642	('OMIM:258480', 'Opsismodysplasia')	0.0	False

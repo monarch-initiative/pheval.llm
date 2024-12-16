@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary ciliary dyskinesia	MONDO:0016575	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+2	Kartagener syndrome	MONDO:0016575	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+2	Kartagener syndrome	MONDO:0009484	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+3	Young syndrome	MONDO:0010220	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+4	CatSper-related sperm motility disorder	N/A	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+5	Globozoospermia	MONDO:0015746	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+5	Globozoospermia	MONDO:0007060	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False

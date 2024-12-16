@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MECP2 duplication syndrome	MONDO:0010283	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+2	Megalencephaly-polymicrogyria-polydactyly-hydrocephalus (MPPH) syndrome	MONDO:0019375	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+3	Alexander disease	MONDO:0008752	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False

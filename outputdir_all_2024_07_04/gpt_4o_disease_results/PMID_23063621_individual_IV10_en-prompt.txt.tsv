@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Atrichia with papular lesions	MONDO:0008847	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+2	Hypohidrotic ectodermal dysplasia	MONDO:0016535	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+3	Clouston syndrome (Hidrotic ectodermal dysplasia)	MONDO:0007510	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+4	AEC syndrome (Ankyloblepharon-ectodermal defects-cleft lip or palate syndrome)	MONDO:0007124	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+5	SOX9-related disorders (e.g., Campomelic dysplasia)	N/A	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False

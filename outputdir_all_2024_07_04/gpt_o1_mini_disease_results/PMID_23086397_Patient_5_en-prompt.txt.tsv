@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet Syndrome	MONDO:0100135	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+1	Dravet Syndrome	MONDO:0100079	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+2	SCN1A-Related Epileptic Encephalopathy	MONDO:0100079	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+3	KCNQ2-Related Epileptic Encephalopathy	MONDO:0013387	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+4	STXBP1-Related Disorder	N/A	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+5	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False
+6	FOXG1 Syndrome	MONDO:0035383	('OMIM:614959', 'Developmental and epileptic encephalopathy 14')	0.0	False

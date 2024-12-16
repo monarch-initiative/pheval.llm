@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DiGeorge Syndrome (22q11.2 Deletion Syndrome)	MONDO:0012020	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+2	Turner Syndrome	MONDO:0019499	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	Holt-Oram Syndrome	MONDO:0007732	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+5	VACTERL Association	MONDO:0008642	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False

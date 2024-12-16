@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Kabuki syndrome	MONDO:0016512	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Kabuki syndrome	MONDO:0007843	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Soto syndrome	MONDO:0019349	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Van der Woude syndrome	MONDO:0019508	('OMIM:612313', 'Glass syndrome')	0.0	False

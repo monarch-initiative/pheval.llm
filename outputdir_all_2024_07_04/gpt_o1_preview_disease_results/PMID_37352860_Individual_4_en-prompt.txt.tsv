@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Carpenter syndrome	MONDO:0019012	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+1	Carpenter syndrome	MONDO:0008710	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+2	Otopalatodigital syndrome type II	MONDO:0010704	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+3	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+4	Apert syndrome	MONDO:0007041	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+5	Pfeiffer syndrome	MONDO:0007043	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+6	Noonan syndrome	MONDO:0008104	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False
+6	Noonan syndrome	MONDO:0018997	('OMIM:620663', 'Spondyloepimetaphyseal dysplasia, Guo-Campeau type')	0.0	False

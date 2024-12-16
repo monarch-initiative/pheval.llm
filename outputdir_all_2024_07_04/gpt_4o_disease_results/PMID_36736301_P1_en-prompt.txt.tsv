@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+2	Chronic Granulomatous Disease (CGD)	MONDO:0018305	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+3	Hyper IgM Syndrome	MONDO:0010626	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+4	Mendelian Susceptibility to Mycobacterial Diseases (MSMD)	MONDO:0019146	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False
+5	Common Variable Immunodeficiency (CVID)	MONDO:0015517	('OMIM:620668', 'Immunodeficiency 117, mycobacteriosis, autosomal recessive')	0.0	False

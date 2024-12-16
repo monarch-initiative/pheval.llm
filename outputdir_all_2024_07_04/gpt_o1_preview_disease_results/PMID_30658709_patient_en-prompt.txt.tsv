@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alagille syndrome	MONDO:0007318	('OMIM:615878', 'Cholestasis, progressive familial intrahepatic 4')	0.0	False
+2	Progressive familial intrahepatic cholestasis (PFIC)	MONDO:0015762	('OMIM:615878', 'Cholestasis, progressive familial intrahepatic 4')	0.5	True
+3	Alpha-1 antitrypsin deficiency	MONDO:0013282	('OMIM:615878', 'Cholestasis, progressive familial intrahepatic 4')	0.0	False
+4	Biliary atresia	MONDO:0008867	('OMIM:615878', 'Cholestasis, progressive familial intrahepatic 4')	0.0	False

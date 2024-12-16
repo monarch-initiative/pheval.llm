@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Angelman syndrome	MONDO:0007113	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	Tay-Sachs disease (GM2 gangliosidosis)	MONDO:0010100	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	PMM2 congenital disorder of glycosylation	MONDO:0008907	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

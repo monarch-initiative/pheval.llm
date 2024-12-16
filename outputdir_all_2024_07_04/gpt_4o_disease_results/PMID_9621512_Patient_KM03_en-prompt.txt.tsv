@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Maple Syrup Urine Disease (MSUD)	MONDO:0017051	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False
+2	Glycine Encephalopathy (Nonketotic Hyperglycinemia)	MONDO:0011612	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False
+3	Urea Cycle Disorder	MONDO:0004739	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False
+4	Mitochondrial Disorder	MONDO:0016797	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False
+5	Organic Aciduria	MONDO:0000688	('OMIM:620699', 'Maple syrup urine disease, type II')	0.5	True
+6	Neonatal Sepsis	MONDO:0700217	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False

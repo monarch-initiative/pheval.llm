@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Purine Nucleoside Phosphorylase (PNP) deficiency	MONDO:0013171	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+2	Dyskeratosis congenita	MONDO:0015780	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+3	GATA2 deficiency	MONDO:0013607	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+3	GATA2 deficiency	MONDO:0042982	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+4	Fanconi anemia	MONDO:0009215	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+4	Fanconi anemia	MONDO:0019391	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+5	WHIM syndrome	MONDO:0023880	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+5	WHIM syndrome	MONDO:8000006	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+6	Shwachman-Diamond syndrome	MONDO:0044204	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+6	Shwachman-Diamond syndrome	MONDO:0009833	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+7	Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False
+8	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:620674', 'Neutropenia, severe congenital, 11, autosomal dominant')	0.0	False

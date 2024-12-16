@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related cardiomyopathy (Lamin A/C gene mutation)	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Familial dilated cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+3	Familial dilated cardiomyopathy	MONDO:0005021	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+4	Myotonic dystrophy	MONDO:0016107	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Myotonic dystrophy	MONDO:0008056	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Long QT syndrome	MONDO:0002442	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Long QT syndrome	MONDO:0019171	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Brugada syndrome	MONDO:0015263	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

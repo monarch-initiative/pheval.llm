@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome, hypermobility type (hEDS)	MONDO:0007523	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Propionic acidemia	MONDO:0011628	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Methylmalonic acidemia	MONDO:0002012	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Barth syndrome	MONDO:0010543	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Pearson syndrome	MONDO:0010797	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Pompe disease (Glycogen storage disease type II)	MONDO:0002413	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

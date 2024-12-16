@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Disorder of Glycosylation Type II	MONDO:0005501	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.5	True
+1	Congenital Disorder of Glycosylation Type II	MONDO:0011933	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+2	Multiple Sulfatase Deficiency	MONDO:0010088	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+3	Sialic Acid Transport Disorders	N/A	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+4	Mitochondrial Myoclonic Epilepsy with Ragged Red Fibers (MERRF)	MONDO:0010790	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+5	Charcot-Marie-Tooth Disease	MONDO:0015626	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False

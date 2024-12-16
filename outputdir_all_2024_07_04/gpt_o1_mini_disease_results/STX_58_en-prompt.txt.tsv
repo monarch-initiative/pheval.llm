@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome	MONDO:0008608	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Smith-Magenis syndrome	MONDO:0008434	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Rett syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Crouzon syndrome	MONDO:0007405	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Prader-Willi syndrome	MONDO:0008300	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Osteogenesis imperfecta	MONDO:0019019	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Mucopolysaccharidosis Type I (Hurler syndrome)	MONDO:0011759	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

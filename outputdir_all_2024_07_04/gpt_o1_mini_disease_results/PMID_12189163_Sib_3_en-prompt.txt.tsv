@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Prune Belly syndrome	MONDO:0007032	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+2	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+3	Alpha-1 antitrypsin deficiency	MONDO:0013282	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+4	Down syndrome	MONDO:0008608	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+5	Marfan syndrome	MONDO:0007947	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+6	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False

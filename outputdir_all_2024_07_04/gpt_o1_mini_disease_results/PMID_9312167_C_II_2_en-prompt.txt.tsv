@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cystic Fibrosis	MONDO:0009061	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+2	Hereditary Distal Renal Tubular Acidosis	MONDO:0018440	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+3	Idiopathic Distal Renal Tubular Acidosis	MONDO:0015827	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.5	True
+4	Sjogren's Syndrome	MONDO:0010030	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+5	Medications-Induced Distal Renal Tubular Acidosis	MONDO:0100161	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

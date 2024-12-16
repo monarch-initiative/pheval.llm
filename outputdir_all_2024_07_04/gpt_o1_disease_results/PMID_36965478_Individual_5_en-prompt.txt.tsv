@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Troyer syndrome (Hereditary spastic paraplegia type 20)	MONDO:0010156	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+2	SPG52 (AP4S1-related hereditary spastic paraplegia)	MONDO:0013552	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+3	SPG47 (AP4B1-related hereditary spastic paraplegia)	MONDO:0013551	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+4	SPG11	MONDO:0011445	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False

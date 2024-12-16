@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Huntington's disease	MONDO:0007739	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Niemann-Pick disease type C	MONDO:0018982	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Fahr's disease	N/A	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Amyotrophic lateral sclerosis-parkinsonism-dementia complex	MONDO:0007104	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Creutzfeldt-Jakob disease	MONDO:0005357	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Creutzfeldt-Jakob disease	MONDO:0007403	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

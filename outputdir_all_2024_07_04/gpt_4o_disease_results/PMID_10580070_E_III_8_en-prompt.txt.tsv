@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial partial lipodystrophy type 2 (Dunnigan-Köbberling syndrome)	MONDO:0007906	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Limb-girdle muscular dystrophy type 1B	MONDO:0021569	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Myotonic dystrophy type 1	MONDO:0008056	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Facioscapulohumeral muscular dystrophy	MONDO:0001347	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Facioscapulohumeral muscular dystrophy	MONDO:0008030	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

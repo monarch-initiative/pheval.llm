@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Miller syndrome (postaxial acrofacial dysostosis)	N/A	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+2	Treacher Collins syndrome	MONDO:0002457	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+2	Treacher Collins syndrome	MONDO:0007944	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+3	Nager syndrome	MONDO:0007943	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	1.0	True

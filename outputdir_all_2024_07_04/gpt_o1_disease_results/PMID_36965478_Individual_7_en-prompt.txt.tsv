@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+2	Leigh syndrome	MONDO:0009723	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+3	Neuronal ceroid lipofuscinosis	MONDO:0016295	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+4	Krabbe disease	MONDO:0009499	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False

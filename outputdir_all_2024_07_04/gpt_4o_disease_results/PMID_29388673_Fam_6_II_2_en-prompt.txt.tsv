@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leukodystrophy with genetic mutations such as Alexander disease (GFAP mutations) or Pelizaeus-Merzbacher disease (PLP1 mutations)	MONDO:0012125	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+2	Vanishing White Matter disease (EIF2B-related disorder)	N/A	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+3	Cockayne syndrome	MONDO:0016006	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+4	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+6	Rett syndrome	MONDO:0010726	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+7	Mitochondrial disorders (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+8	MeCP2 duplication syndrome	MONDO:0010283	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteopetrosis	MONDO:0017198	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+2	Pycnodysostosis	MONDO:0009940	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+3	Craniometaphyseal dysplasia	MONDO:0015465	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+4	Craniodiaphyseal dysplasia	MONDO:0009031	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+5	Lenz-Majewski syndrome	MONDO:0007892	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+6	Sclerosteosis	MONDO:0017838	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False

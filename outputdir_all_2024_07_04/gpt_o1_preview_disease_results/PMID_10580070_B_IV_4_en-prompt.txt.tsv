@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial atrial fibrillation	MONDO:0018054	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Progressive cardiac conduction defect	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	PRKAG2 cardiac syndrome	MONDO:0800484	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	SCN5A-related cardiac conduction disease	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	NKX2-5-related congenital heart disease	MONDO:0800441	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

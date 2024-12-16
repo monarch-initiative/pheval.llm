@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Coffin-Siris syndrome	MONDO:0015452	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+1	Coffin-Siris syndrome	MONDO:0007617	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Floating-Harbor syndrome	MONDO:0007621	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Fragile X syndrome	MONDO:0010383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Williams syndrome	MONDO:0008678	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Sotos syndrome	MONDO:0019349	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Angelman syndrome	MONDO:0007113	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

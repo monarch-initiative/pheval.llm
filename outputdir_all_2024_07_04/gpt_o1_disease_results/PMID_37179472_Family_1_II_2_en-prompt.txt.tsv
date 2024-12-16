@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dubowitz syndrome	MONDO:0009124	('OMIM:620641', 'Tan-Almurshedi syndrome')	0.0	False
+2	Fetal alcohol syndrome	MONDO:0000408	('OMIM:620641', 'Tan-Almurshedi syndrome')	0.0	False
+2	Fetal alcohol syndrome	MONDO:0016011	('OMIM:620641', 'Tan-Almurshedi syndrome')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620641', 'Tan-Almurshedi syndrome')	0.0	False

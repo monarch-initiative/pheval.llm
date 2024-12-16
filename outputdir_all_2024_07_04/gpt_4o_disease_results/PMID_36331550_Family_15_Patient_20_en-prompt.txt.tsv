@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	Febrile Seizures Plus (FS+)	MONDO:0018214	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	Benign Rolandic Epilepsy (BRE)	MONDO:0007295	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	Landau-Kleffner syndrome	MONDO:0009509	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+5	Focal Epilepsy with speech disorders	MONDO:0015587	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+6	Rett syndrome (atypical variant, though less likely due to exclusion criteria)	MONDO:0017746	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

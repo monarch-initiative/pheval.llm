@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh Syndrome	MONDO:0009723	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Aicardi-Goutières Syndrome	MONDO:0018866	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	POLG-Related Mitochondrial Disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Neuronal Ceroid Lipofuscinosis	MONDO:0016295	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Tay-Sachs Disease	MONDO:0010100	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Canavan Disease	MONDO:0010079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Rett Syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Dravet Syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Dravet Syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	West Syndrome	MONDO:0018097	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

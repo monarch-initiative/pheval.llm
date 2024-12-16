@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara syndrome (Early Infantile Epileptic Encephalopathy)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Mitochondrial disorders causing epileptic encephalopathy	MONDO:0013056	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Malformations of cortical development (e.g., lissencephaly)	HP:0001339	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Krabbe disease (Infantile form)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Zellweger spectrum disorders	MONDO:0019609	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Zellweger spectrum disorders	MONDO:0019234	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Early-onset neuronal ceroid lipofuscinosis	MONDO:0019260	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Menkes disease	MONDO:0010651	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile absence epilepsy	MONDO:0800453	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Juvenile myoclonic epilepsy	MONDO:0009696	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Childhood absence epilepsy	MONDO:0010826	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Epilepsy with generalized tonic-clonic seizures alone	MONDO:0005754	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal arthrogryposis type 1 (DA1)	MONDO:0015240	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+2	Arthrogryposis multiplex congenita (amyoplasia type)	MONDO:0008823	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Bethlem myopathy	MONDO:0024530	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Bethlem myopathy	MONDO:0008029	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Congenital muscular dystrophy	MONDO:0019950	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False

@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:188400', 'DiGeorge syndrome')	0.5	True
+2	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:188400', 'DiGeorge syndrome')	0.0	False
+3	CHARGE syndrome	MONDO:0008965	('OMIM:188400', 'DiGeorge syndrome')	0.0	False

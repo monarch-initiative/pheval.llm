@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aqueductal stenosis	MONDO:0009361	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+2	Dandy-Walker malformation	MONDO:0009072	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+3	Chiari malformation	MONDO:0000115	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+4	Spina bifida	MONDO:0008449	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+4	Spina bifida	MONDO:0020705	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+5	Vein of Galen malformation	MONDO:0015196	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+6	Congenital toxoplasmosis	MONDO:0005715	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+7	Walker-Warburg syndrome	MONDO:0000171	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+8	Arnold-Chiari malformation	MONDO:0000115	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+8	Arnold-Chiari malformation	MONDO:0008816	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+9	Arachnoid cyst	MONDO:0008813	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+10	Choroid plexus papilloma	MONDO:0009837	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False

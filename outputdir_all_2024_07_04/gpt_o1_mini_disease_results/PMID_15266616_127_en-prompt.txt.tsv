@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Down Syndrome (Trisomy 21)	MONDO:0700126	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Kabuki Syndrome	MONDO:0007843	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Kabuki Syndrome	MONDO:0016512	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm not a doctor, but based on the information provided, I recommend consulting a healthcare professional for an accurate diagnosis.	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

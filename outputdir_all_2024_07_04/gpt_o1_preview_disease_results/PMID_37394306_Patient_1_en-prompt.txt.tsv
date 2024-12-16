@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Currarino syndrome	MONDO:0008305	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+2	Spina bifida (meningocele) with tethered cord syndrome	MONDO:0019773	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+3	Chiari II malformation	MONDO:0008816	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+4	Lipomyelomeningocele	MONDO:0012296	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False
+5	Tethered cord syndrome due to spinal dysraphism	MONDO:0006995	('OMIM:620511', 'Fliedner-Zweier syndrome')	0.0	False

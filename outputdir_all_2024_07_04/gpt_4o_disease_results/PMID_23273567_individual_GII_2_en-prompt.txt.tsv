@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Jeune syndrome (Asphyxiating thoracic dystrophy)	MONDO:0018770	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Majewski Osteodysplastic Primordial Dwarfism, Type II (MOPDII)	MONDO:0016994	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Neonatal Progeroid Syndrome (NPS)	N/A	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Robinow Syndrome	MONDO:0019978	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Atelosteogenesis, type II (AO2)	MONDO:0007167	('OMIM:258480', 'Opsismodysplasia')	0.0	False

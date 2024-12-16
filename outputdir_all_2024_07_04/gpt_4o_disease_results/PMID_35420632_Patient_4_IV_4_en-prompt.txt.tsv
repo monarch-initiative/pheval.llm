@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Idiopathic Pulmonary Fibrosis (IPF)	MONDO:0002771	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.5	True
+2	Dyskeratosis Congenita	MONDO:0015780	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+3	Hermansky-Pudlak Syndrome	MONDO:0030903	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+3	Hermansky-Pudlak Syndrome	MONDO:0019312	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+4	TEL-TRT Induced Pulmonary Disease	N/A	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+5	Pulmonary Alveolar Proteinosis	MONDO:0001437	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+5	Pulmonary Alveolar Proteinosis	MONDO:0012579	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False

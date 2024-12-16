@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sjögren syndrome	MONDO:0010030	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+2	Primary distal renal tubular acidosis (dRTA)	MONDO:0015827	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.5	True
+3	Medullary sponge kidney	MONDO:0015268	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+4	Autosomal dominant distal renal tubular acidosis	MONDO:0008368	('OMIM:179800', 'Distal renal tubular acidosis 1')	1.0	True
+5	Wilson disease	MONDO:0010200	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

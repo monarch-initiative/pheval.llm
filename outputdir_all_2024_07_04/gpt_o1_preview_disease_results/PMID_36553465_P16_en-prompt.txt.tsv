@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oculocutaneous Albinism (OCA)	MONDO:0008745	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+2	Hermansky-Pudlak Syndrome (HPS)	MONDO:0011997	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+3	Waardenburg Syndrome	MONDO:0018094	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+4	Piebaldism	MONDO:0008244	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+5	Chediak-Higashi Syndrome	MONDO:0008963	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+6	Vogt-Koyanagi-Harada Disease	MONDO:0018092	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False

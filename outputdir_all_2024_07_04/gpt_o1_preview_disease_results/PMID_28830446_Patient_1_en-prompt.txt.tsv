@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Deficiency of Adenosine Deaminase 2 (DADA2)	MONDO:0100317	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.5	True
+2	Pediatric Antiphospholipid Syndrome (APS)	MONDO:8000010	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+3	Systemic Lupus Erythematosus (SLE)	HP:0002725	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+4	Polyarteritis Nodosa (PAN)	MONDO:0019170	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+5	Systemic onset Juvenile Idiopathic Arthritis (sJIA)	MONDO:0019434	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+6	Behçet's Disease	MONDO:0007191	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+7	Moyamoya Disease	MONDO:0009649	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+7	Moyamoya Disease	MONDO:0016820	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+8	Takayasu Arteritis	MONDO:0017991	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False

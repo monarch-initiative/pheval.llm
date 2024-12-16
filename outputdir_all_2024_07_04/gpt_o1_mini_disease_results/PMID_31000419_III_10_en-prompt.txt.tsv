@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary Ovarian Insufficiency (Premature Ovarian Failure)	MONDO:0005387	('OMIM:620686', 'Premature ovarian failure 23')	0.5	True
+2	Fragile X Premutation	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+3	Autoimmune Oophoritis	MONDO:0021950	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+4	Gonadal Dysgenesis	MONDO:0001967	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+4	Gonadal Dysgenesis	MONDO:0019499	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+5	Turner Syndrome	MONDO:0019499	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+6	Enzymatic Defects Affecting Ovarian Function	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+7	Iatrogenic Ovarian Failure	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False

@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Crouzon syndrome	MONDO:0007405	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+2	Pfeiffer syndrome	MONDO:0007043	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+3	Apert syndrome	MONDO:0007041	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	Carpenter syndrome	MONDO:0019012	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	Carpenter syndrome	MONDO:0008710	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	Saethre-Chotzen syndrome	MONDO:0007042	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+6	Noonan syndrome	MONDO:0018997	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+6	Noonan syndrome	MONDO:0008104	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+7	Russell-Silver syndrome	MONDO:0008394	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+8	Down syndrome	MONDO:0008608	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+9	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+10	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False

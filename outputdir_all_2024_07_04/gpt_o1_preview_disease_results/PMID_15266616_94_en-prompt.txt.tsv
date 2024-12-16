@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Feingold syndrome	MONDO:0008115	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+1	Feingold syndrome	MONDO:0015267	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Jacobsen syndrome	MONDO:0007838	('OMIM:147791', 'Jacobsen syndrome')	1.0	True
+3	Opitz trigonocephaly syndrome	MONDO:0008893	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Carpenter syndrome	MONDO:0019012	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Carpenter syndrome	MONDO:0008710	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Baller-Gerold syndrome	MONDO:0009039	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

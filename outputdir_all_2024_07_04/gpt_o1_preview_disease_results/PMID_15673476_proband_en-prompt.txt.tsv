@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal dominant tubulointerstitial kidney disease due to UMOD mutation (ADTKD-UMOD)	MONDO:0008264	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.5	True
+2	Autosomal dominant tubulointerstitial kidney disease due to MUC1 mutation (ADTKD-MUC1)	MONDO:0020726	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+3	Nephronophthisis	MONDO:0019005	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+4	Autosomal dominant polycystic kidney disease (ADPKD)	MONDO:0004691	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+5	Fabry disease	MONDO:0010526	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+6	Medullary sponge kidney	MONDO:0015268	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False

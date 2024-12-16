@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Neonatal Seizures	MONDO:0016027	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Benign Familial Neonatal-Infantile Seizures	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+3	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Self-Limited Familial Infantile Epilepsy	MONDO:0100024	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	KCNQ2-Related Epilepsy	MONDO:0013387	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+6	SCN2A-Related Epilepsy	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True

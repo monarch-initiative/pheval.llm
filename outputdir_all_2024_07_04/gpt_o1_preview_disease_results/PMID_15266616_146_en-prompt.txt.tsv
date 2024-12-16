@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aarskog syndrome	MONDO:0021005	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+1	Aarskog syndrome	MONDO:0007030	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+1	Aarskog syndrome	MONDO:0010589	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Kabuki syndrome	MONDO:0016512	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Kabuki syndrome	MONDO:0007843	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	CHARGE syndrome	MONDO:0008965	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

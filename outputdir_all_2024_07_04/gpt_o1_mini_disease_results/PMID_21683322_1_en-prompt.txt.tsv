@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+2	Mucopolysaccharidosis Type IV (Morquio Syndrome)	MONDO:0018938	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+3	Down Syndrome	MONDO:0008608	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+4	Turner Syndrome	MONDO:0019499	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+5	Cardiofaciocutaneous Syndrome	MONDO:0007265	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+5	Cardiofaciocutaneous Syndrome	MONDO:0015280	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+7	Holt-Oram Syndrome	MONDO:0007732	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False

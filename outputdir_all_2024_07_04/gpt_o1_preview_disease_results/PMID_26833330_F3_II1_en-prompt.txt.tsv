@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Disorder of Glycosylation Type IIe (COG7-CDG)	MONDO:0012118	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+2	Congenital Disorder of Glycosylation Type IIh (TMEM199-CDG)	MONDO:0012123	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+3	Wilson disease	MONDO:0010200	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+4	Niemann-Pick disease type C	MONDO:0018982	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+5	Cerebrotendinous xanthomatosis	MONDO:0008948	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False

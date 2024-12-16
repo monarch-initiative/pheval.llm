@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Unverricht-Lundborg disease	MONDO:0009698	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+2	Lafora disease	MONDO:0009697	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.5	True
+3	Neuronal ceroid lipofuscinosis	MONDO:0016295	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+4	Myoclonic epilepsy with ragged red fibers	MONDO:0010790	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+5	Salla disease	MONDO:0011449	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False

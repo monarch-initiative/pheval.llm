@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PCDH19 Female-Limited Epilepsy	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+3	Fragile X Syndrome (Female)	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+4	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+5	SYNGAP1-Related Intellectual Disability	MONDO:0012960	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False

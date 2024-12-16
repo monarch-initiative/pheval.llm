@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh Syndrome (Subacute Necrotizing Encephalomyelopathy)	MONDO:0008069	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	Noonan Syndrome	MONDO:0018997	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+2	Noonan Syndrome	MONDO:0008104	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	MELAS Syndrome (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes)	MONDO:0010789	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	Pyruvate Dehydrogenase Deficiency	MONDO:0019169	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+6	Sengers Syndrome	MONDO:0008922	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+7	Mitochondrial DNA Depletion Syndromes	MONDO:0012301	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+8	Costeff Syndrome	MONDO:0009787	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+9	Alpers-Huttenlocher Syndrome	MONDO:0008758	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+10	Barth Syndrome	MONDO:0010543	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False

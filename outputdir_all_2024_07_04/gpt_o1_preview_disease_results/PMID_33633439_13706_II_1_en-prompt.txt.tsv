@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	FHONDA syndrome (Foveal Hypoplasia with Optic Nerve Decussation Defects and Anterior Nystagmus)	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	Isolated Foveal Hypoplasia (due to PAX6 mutations)	MONDO:0007628	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	Infantile Nystagmus Syndrome (FRMD7-related)	MONDO:0010693	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Ocular Albinism Type 1	MONDO:0021019	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	Achromatopsia	MONDO:0018852	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Floating-Harbor syndrome	MONDO:0007621	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Williams syndrome	MONDO:0008678	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Smith-Magenis syndrome	MONDO:0008434	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	RASopathies (e.g., Noonan syndrome with multiple lentigines, previously known as LEOPARD syndrome)	MONDO:0012691	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	3-M syndrome	MONDO:0007477	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+7	Silver-Russell syndrome	MONDO:0008394	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

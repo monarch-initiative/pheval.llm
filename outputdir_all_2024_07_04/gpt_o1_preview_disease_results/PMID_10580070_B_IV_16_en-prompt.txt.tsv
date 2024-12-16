@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Progressive Familial Heart Block Type I	MONDO:0007240	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	SCN5A-Related Cardiac Conduction Disease	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Familial Atrial Fibrillation	MONDO:0018054	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	NKX2-5 Mutation–Associated Atrioventricular Block	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Holt-Oram Syndrome	MONDO:0007732	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

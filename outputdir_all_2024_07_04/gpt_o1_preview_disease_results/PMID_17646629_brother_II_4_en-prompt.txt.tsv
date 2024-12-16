@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Niemann-Pick disease type C	MONDO:0018982	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+2	Spinocerebellar ataxia	MONDO:0000437	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+2	Spinocerebellar ataxia	MONDO:0020380	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+3	Friedreich ataxia	MONDO:0100340	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+3	Friedreich ataxia	MONDO:0100339	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+4	Wilson disease	MONDO:0010200	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+5	Juvenile Huntington disease	MONDO:0016621	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+6	Ataxia with oculomotor apraxia	HP:0000657	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+7	Ataxia-telangiectasia	MONDO:0008840	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+8	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False

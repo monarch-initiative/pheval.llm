@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi syndrome	MONDO:0010568	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	West syndrome	MONDO:0018097	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.5	True
+3	Rett syndrome	MONDO:0010726	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Zellweger spectrum disorder	MONDO:0019234	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	MECP2 duplication syndrome	MONDO:0010283	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

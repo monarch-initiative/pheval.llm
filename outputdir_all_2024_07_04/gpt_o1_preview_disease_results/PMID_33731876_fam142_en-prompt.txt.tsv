@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	1q21.1 Microdeletion Syndrome	MONDO:0012914	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	NRXN1 Gene Mutation	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	DISC1 Gene Mutation	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	16p11.2 Deletion Syndrome	MONDO:0012756	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive hyper-IgE syndrome (DOCK8 deficiency)	N/A	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+2	Autosomal dominant hyper-IgE syndrome (STAT3 deficiency)	MONDO:0007818	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+3	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+4	Chronic granulomatous disease	MONDO:0018305	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False

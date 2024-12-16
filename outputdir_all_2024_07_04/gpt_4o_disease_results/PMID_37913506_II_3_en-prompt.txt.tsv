@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypertensive heart disease	MONDO:0001302	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+2	Left atrial myxoma	N/A	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+3	Familial atrial fibrillation syndrome (despite the exclusion of atrial fibrillation, variants of this syndrome might present atypically)	N/A	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+4	Dilated cardiomyopathy (less likely due to the normal ejection fraction but could be atypical presentations)	HP:0001644	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+5	Hypertrophic cardiomyopathy (HCM)	MONDO:0005045	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.5	True
+6	Restrictive cardiomyopathy	MONDO:0005201	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+7	Cardiac amyloidosis	N/A	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False

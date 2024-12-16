@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MECP2 duplication syndrome	MONDO:0010283	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	ICF syndrome (Immunodeficiency, Centromeric instability, and Facial anomalies syndrome)	MONDO:0000133	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Purine nucleoside phosphorylase deficiency	MONDO:0013171	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	Lesch-Nyhan syndrome	MONDO:0010298	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated Megalocornea	MONDO:0010649	('OMIM:309300', 'Megalocornea 1, X-linked')	1.0	True
+2	Keratoconus	MONDO:0015486	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+3	Marfan Syndrome	MONDO:0007947	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+5	Aniridia	MONDO:0019172	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+5	Aniridia	MONDO:0024507	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+6	Axenfeld-Rieger Syndrome	MONDO:0019187	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False
+7	Meconial Corneal Dystrophy	MONDO:0007379	('OMIM:309300', 'Megalocornea 1, X-linked')	0.0	False

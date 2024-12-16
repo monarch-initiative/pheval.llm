@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome (hypermobile type)	MONDO:0007523	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Congenital contractural arachnodactyly	MONDO:0007363	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Stickler syndrome	MONDO:0019354	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

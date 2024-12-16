@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Patau syndrome (Trisomy 13)	N/A	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+2	Meckel-Gruber syndrome	MONDO:0018921	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+2	Meckel-Gruber syndrome	MONDO:0009571	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+3	Short rib polydactyly syndrome	MONDO:0015461	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+4	Carpenter syndrome	MONDO:0019012	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+4	Carpenter syndrome	MONDO:0008710	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.5	True
+2	Limb-girdle muscular dystrophy	MONDO:0016971	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.5	True
+3	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+4	Becker muscular dystrophy	MONDO:0010311	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+5	Facioscapulohumeral muscular dystrophy	MONDO:0001347	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+5	Facioscapulohumeral muscular dystrophy	MONDO:0008030	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+6	Congenital muscular dystrophy	MONDO:0019950	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False

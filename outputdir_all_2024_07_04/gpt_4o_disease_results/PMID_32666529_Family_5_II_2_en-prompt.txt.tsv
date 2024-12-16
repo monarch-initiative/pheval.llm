@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Barth syndrome	MONDO:0010543	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+2	Trichohepatoenteric syndrome (THES)	MONDO:0009105	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+3	Kearns-Sayre syndrome	MONDO:0010787	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+4	LAMP2-related Danon disease	N/A	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+5	Dilated cardiomyopathy with ataxia (DCMA) syndrome	N/A	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False

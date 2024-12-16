@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ocular Coloboma	MONDO:0001476	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.5	True
+2	CHARGE Syndrome	MONDO:0008965	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	Norrie Disease	MONDO:0010691	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Familial Exudative Vitreoretinopathy	MONDO:0019516	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	Cat Eye Syndrome	MONDO:0007276	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

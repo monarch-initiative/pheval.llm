@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Insufficient information is provided to generate a meaningful differential diagnosis. Please provide additional clinical details.	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False

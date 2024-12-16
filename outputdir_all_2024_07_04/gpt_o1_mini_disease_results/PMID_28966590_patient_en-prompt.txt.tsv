@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pachygyria (Lissencephaly)	HP:0001339	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+2	Dystroglycanopathy (e.g., Muscle-Eye-Brain Disease)	MONDO:0018939	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+3	Aicardi Syndrome	MONDO:0010568	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+4	Rett Syndrome	MONDO:0010726	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+5	Polymicrogyria	MONDO:0000087	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.5	True
+6	Tuberous Sclerosis	MONDO:0001734	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+7	Walker-Warburg Syndrome	MONDO:0000171	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+8	Periventricular Heterotopia	MONDO:0020341	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False

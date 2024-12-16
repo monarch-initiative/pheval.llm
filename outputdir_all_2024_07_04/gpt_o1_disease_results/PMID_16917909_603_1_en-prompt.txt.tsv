@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	NKX2-5-related congenital heart disease	MONDO:0800441	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+2	GATA4-related atrial septal defect	MONDO:0011938	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	Holt-Oram syndrome	MONDO:0007732	('OMIM:142900', 'Holt-Oram syndrome')	1.0	True

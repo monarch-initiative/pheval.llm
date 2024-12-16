@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Acquired generalized lipodystrophy	MONDO:0019193	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+2	Familial partial lipodystrophy	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+3	Type A insulin resistance syndrome	MONDO:0012520	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Congenital generalized lipodystrophy	MONDO:0006536	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Congenital generalized lipodystrophy	MONDO:0018883	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Werner syndrome	MONDO:0010196	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

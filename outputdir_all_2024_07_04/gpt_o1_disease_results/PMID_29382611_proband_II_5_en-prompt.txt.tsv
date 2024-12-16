@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta type IV	MONDO:0008148	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+2	Osteogenesis imperfecta type III	MONDO:0009804	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+3	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+4	Stickler syndrome	MONDO:0019354	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Epidermolytic Palmoplantar Keratoderma	MONDO:0007758	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	1.0	True
+2	Erythrokeratodermia Variabilis	MONDO:0017851	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+2	Erythrokeratodermia Variabilis	MONDO:0033010	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+3	Punctate Palmoplantar Keratoderma	MONDO:0017675	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+4	Acrokeratosis Verruciformis	MONDO:0007048	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+5	Diffuse Palmoplantar Keratoderma	MONDO:0017666	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.5	True

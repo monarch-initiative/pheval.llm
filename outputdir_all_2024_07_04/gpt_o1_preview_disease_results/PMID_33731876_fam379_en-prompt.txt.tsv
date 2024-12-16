@@ -1,0 +1,19 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2-related neonatal epilepsy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Pyridoxine-dependent epilepsy (ALDH7A1 deficiency)	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Early infantile epileptic encephalopathy (Ohtahara syndrome)	MONDO:0018614	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Benign familial neonatal seizures (KCNQ2/KCNQ3 mutations)	MONDO:0007366	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Molybdenum cofactor deficiency	MONDO:0020480	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Molybdenum cofactor deficiency	MONDO:0000063	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	SCN2A-related epileptic encephalopathy	MONDO:0013388	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	1.0	True
+8	Glucose transporter type 1 deficiency syndrome (GLUT1 deficiency)	MONDO:0000188	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	SCN8A-related epilepsies	MONDO:0014903	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+11	Dravet syndrome (SCN1A mutations)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+12	Zellweger spectrum disorder	MONDO:0019234	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+13	Maple syrup urine disease	MONDO:0009563	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+14	Krabbe disease	MONDO:0009499	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+15	Lissencephaly	MONDO:0018838	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+16	Mitochondrial disorders (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+17	Urea cycle disorders (e.g., ornithine transcarbamylase deficiency)	MONDO:0004739	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

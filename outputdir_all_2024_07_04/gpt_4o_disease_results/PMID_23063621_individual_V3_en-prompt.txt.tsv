@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	AEC syndrome (Ankyloblepharon-Ectodermal defects-Cleft lip/palate syndrome)	MONDO:0007124	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+2	Hidrotic ectodermal dysplasia (Clouston syndrome)	MONDO:0007510	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+3	Hypohidrotic ectodermal dysplasia	MONDO:0016535	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+4	DOORS syndrome (Deafness, Onychodystrophy, Osteodystrophy, Retardation of growth and mental development, and Seizures)	MONDO:0009079	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+5	Naegeli-Franceschetti-Jadassohn syndrome (NFJS)	MONDO:0008059	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False

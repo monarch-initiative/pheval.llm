@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	FOXG1 syndrome	MONDO:0035383	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+2	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+3	Bilateral frontoparietal polymicrogyria	MONDO:0011738	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False
+4	MICPCH syndrome	MONDO:0010417	('OMIM:614833', 'Microcephaly, short stature, and polymicrogyria with seizures')	0.0	False

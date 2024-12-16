@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Cri-du-chat syndrome	MONDO:0007404	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	MECP2 duplication syndrome	MONDO:0010283	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

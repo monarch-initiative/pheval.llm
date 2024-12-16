@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome, vascular type	MONDO:0007524	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+1	Ehlers-Danlos syndrome, vascular type	MONDO:0017314	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+2	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.5	True
+3	Cutis laxa	MONDO:0016175	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False

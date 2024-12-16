@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Catel-Manzke syndrome	MONDO:0014507	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Cohen syndrome	MONDO:0008999	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Cockayne syndrome	MONDO:0016006	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Saethre-Chotzen syndrome	MONDO:0007042	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Nance-Horan syndrome	MONDO:0010545	('OMIM:600373', 'CODAS syndrome')	0.0	False

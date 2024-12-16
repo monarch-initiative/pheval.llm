@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+1	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.5	True
+2	Kallmann Syndrome	MONDO:0018800	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+3	Senior-Løken Syndrome	MONDO:0010031	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+4	Nephronophthisis	MONDO:0019005	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+5	Laurence-Moon Syndrome	MONDO:0009514	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+6	Polycystic Kidney Disease	MONDO:0020642	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+7	Oral-Facial-Digital Syndrome	MONDO:0015375	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+8	Jeune Syndrome	MONDO:0008831	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False
+8	Jeune Syndrome	MONDO:0018770	('OMIM:615982', 'Bardet-Biedl syndrome 4')	0.0	False

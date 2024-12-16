@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nicolaides-Baraitser syndrome	MONDO:0011053	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+2	Rubenstein-Taybi syndrome	MONDO:0019188	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	Coffin-Siris syndrome	MONDO:0015452	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	Coffin-Siris syndrome	MONDO:0007617	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+5	Atrichia with papular lesions	MONDO:0008847	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+6	Say-Barber-Biesecker-Young-Simpson syndrome	MONDO:0011365	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+7	CHARGE syndrome	MONDO:0008965	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+8	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False

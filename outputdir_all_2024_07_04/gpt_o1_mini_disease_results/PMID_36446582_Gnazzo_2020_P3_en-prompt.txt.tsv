@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Noonan Syndrome	MONDO:0018997	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Noonan Syndrome	MONDO:0008104	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Williams Syndrome	MONDO:0008678	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Fragile X Syndrome	MONDO:0010383	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Fetal Alcohol Spectrum Disorder	MONDO:0000408	('OMIM:148050', 'KBG syndrome')	0.0	False

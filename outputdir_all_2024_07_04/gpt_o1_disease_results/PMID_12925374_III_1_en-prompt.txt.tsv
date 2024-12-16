@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CADASIL	MONDO:0000914	('OMIM:606889', 'Alzheimer disease-4')	0.0	False
+1	CADASIL	MONDO:0007432	('OMIM:606889', 'Alzheimer disease-4')	0.0	False
+2	Huntington disease	MONDO:0007739	('OMIM:606889', 'Alzheimer disease-4')	0.0	False
+3	Fragile X-associated tremor/ataxia syndrome	MONDO:0010382	('OMIM:606889', 'Alzheimer disease-4')	0.0	False
+4	LRRK2-associated Parkinson disease	MONDO:0011764	('OMIM:606889', 'Alzheimer disease-4')	0.0	False

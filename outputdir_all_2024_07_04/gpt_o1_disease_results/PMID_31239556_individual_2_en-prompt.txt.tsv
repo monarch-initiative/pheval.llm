@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GNAO1-related neurodevelopmental disorder	N/A	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+2	KMT2B-related early-onset dystonia	MONDO:0015004	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+3	Pantothenate kinase-associated neurodegeneration (PKAN)	MONDO:0009319	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+4	SLC6A3 deficiency syndrome	N/A	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+5	PDE2A deficiency	N/A	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False

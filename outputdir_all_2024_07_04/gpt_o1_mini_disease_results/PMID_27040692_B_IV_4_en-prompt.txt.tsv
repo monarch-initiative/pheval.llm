@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett Syndrome	MONDO:0010726	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+2	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+3	Mucopolysaccharidosis Type I (Hurler Syndrome)	MONDO:0011759	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+4	Mucopolysaccharidosis Type II (Hunter Syndrome)	MONDO:0001586	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+5	Williams Syndrome	MONDO:0008678	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+6	Menke's Disease	N/A	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+7	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False

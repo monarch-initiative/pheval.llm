@@ -1,0 +1,15 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+2	Silver-Russell Syndrome	MONDO:0008394	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	Treacher Collins Syndrome	MONDO:0007944	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	Treacher Collins Syndrome	MONDO:0002457	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Kabuki Syndrome	MONDO:0007843	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Kabuki Syndrome	MONDO:0016512	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+5	DiGeorge Syndrome	MONDO:0008564	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+5	DiGeorge Syndrome	MONDO:0018923	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+7	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+8	Stickler Syndrome	MONDO:0019354	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+9	Russell-Silver Syndrome	MONDO:0008394	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+10	CHARGE Syndrome	MONDO:0008965	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False

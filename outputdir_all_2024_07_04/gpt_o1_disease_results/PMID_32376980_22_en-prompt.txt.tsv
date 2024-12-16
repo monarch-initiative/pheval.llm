@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+1	Kabuki syndrome	MONDO:0007843	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+3	Sotos syndrome	MONDO:0019349	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	Costello syndrome	MONDO:0009026	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False

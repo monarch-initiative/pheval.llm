@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Allgrove syndrome (Triple-A syndrome)	MONDO:0009279	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Familial dysautonomia (Riley-Day syndrome)	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Prader-Willi syndrome	MONDO:0008300	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Congenital myasthenic syndromes	MONDO:0018940	('OMIM:148050', 'KBG syndrome')	0.0	False

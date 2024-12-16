@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile myoclonic epilepsy (JME)	MONDO:0009696	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+2	Epilepsy with myoclonic absences (EMA)	MONDO:0016025	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+3	Lafora disease	MONDO:0009697	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.5	True
+4	Unverricht-Lundborg disease (EPM1)	N/A	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+5	Progressive myoclonic epilepsy type 2 (EPM2)	MONDO:0012721	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+6	MERRF syndrome (Myoclonic Epilepsy with Ragged-Red Fibers)	MONDO:0010790	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False

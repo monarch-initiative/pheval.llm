@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+2	Treacher Collins syndrome	MONDO:0007944	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+2	Treacher Collins syndrome	MONDO:0002457	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+3	Russell-Silver syndrome	MONDO:0008394	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+5	Prader-Willi syndrome	MONDO:0008300	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False
+6	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:616900', 'Hypotonia, infantile, with psychomotor retardation and characteristic facies 3')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Centronuclear myopathy	MONDO:0018947	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+1	Centronuclear myopathy	MONDO:0002921	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+2	Becker muscular dystrophy	MONDO:0010311	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+3	Myotonic dystrophy	MONDO:0008056	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+3	Myotonic dystrophy	MONDO:0016107	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+4	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False

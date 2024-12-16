@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oculocutaneous albinism	MONDO:0018910	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.5	True
+2	Ocular albinism type 1	MONDO:0021019	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+3	Hermansky-Pudlak syndrome	MONDO:0030903	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+3	Hermansky-Pudlak syndrome	MONDO:0019312	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+4	Waardenburg syndrome	MONDO:0018094	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False

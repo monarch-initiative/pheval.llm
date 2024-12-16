@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	POLG-related disorders (e.g., Alpers-Huttenlocher syndrome)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes (MELAS)	MONDO:0010789	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Rett syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Glutaric acidemia type I	MONDO:0009281	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Juvenile Huntington's disease	MONDO:0016621	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

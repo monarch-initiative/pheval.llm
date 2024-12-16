@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Angelman syndrome	MONDO:0007113	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Rett syndrome (particularly the variant that can affect males)	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Smith-Magenis syndrome	MONDO:0008434	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Sotos syndrome	MONDO:0019349	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:148050', 'KBG syndrome')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Heterotaxy syndrome	MONDO:0018677	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.5	True
+2	Congenital heart defect (CHD)	MONDO:0005453	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False
+3	Right atrial isomerism	MONDO:0008832	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False
+4	VACTERL association	MONDO:0008642	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False
+5	Alagille syndrome	MONDO:0007318	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False

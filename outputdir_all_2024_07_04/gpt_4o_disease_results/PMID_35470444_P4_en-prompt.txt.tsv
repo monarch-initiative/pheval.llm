@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.5	True
+2	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+3	Cri-du-chat syndrome	MONDO:0007404	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+4	Miller-Dieker syndrome	MONDO:0009532	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+5	Pallister-Killian syndrome	MONDO:0011146	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False

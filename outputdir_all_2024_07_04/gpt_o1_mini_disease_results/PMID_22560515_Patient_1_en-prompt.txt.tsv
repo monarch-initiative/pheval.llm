@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Centronuclear myopathy	MONDO:0002921	('OMIM:610687', 'Nemaline myopathy 7, autosomal recessive')	0.5	True
+1	Centronuclear myopathy	MONDO:0018947	('OMIM:610687', 'Nemaline myopathy 7, autosomal recessive')	0.0	False
+2	Limb-girdle muscular dystrophy	MONDO:0016971	('OMIM:610687', 'Nemaline myopathy 7, autosomal recessive')	0.0	False
+3	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:610687', 'Nemaline myopathy 7, autosomal recessive')	0.0	False
+4	Mitochondrial myopathy	MONDO:0009637	('OMIM:610687', 'Nemaline myopathy 7, autosomal recessive')	0.0	False
+5	Congenital myopathy	MONDO:0019952	('OMIM:610687', 'Nemaline myopathy 7, autosomal recessive')	0.5	True
+6	Myofibrillar myopathy	MONDO:0018943	('OMIM:610687', 'Nemaline myopathy 7, autosomal recessive')	0.0	False

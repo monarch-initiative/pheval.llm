@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	18q- deletion syndrome	MONDO:0011147	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	HNRNPH2-related neurodevelopmental disorder	N/A	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+3	TUBB4A-related leukodystrophy	N/A	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+4	Vanishing white matter disease	MONDO:0800448	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+5	CASK-related disorder	N/A	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False

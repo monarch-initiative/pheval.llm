@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy (Dunnigan type)	MONDO:0007906	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Familial Partial Lipodystrophy type 3	MONDO:0011448	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+3	LMNA-associated peripheral neuropathy	N/A	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	Congenital Generalized Lipodystrophy	MONDO:0006536	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	Congenital Generalized Lipodystrophy	MONDO:0018883	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+5	Acromegaly	MONDO:0019933	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+6	Cushing's Syndrome	MONDO:0018912	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bilateral frontoparietal polymicrogyria (GPR56-related)	MONDO:0011738	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+2	TUBB2B-associated polymicrogyria	MONDO:0700044	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+3	TUBA1A-related cortical dysgenesis	MONDO:0014337	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+4	Megalencephaly-Polymicrogyria-Polydactyly-Hydrocephalus (MPPH) syndrome	MONDO:0019375	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+5	Zellweger spectrum disorders	MONDO:0019609	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+5	Zellweger spectrum disorders	MONDO:0019234	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False

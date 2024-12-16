@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Langer-Giedion syndrome	MONDO:0007874	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+2	Robinow syndrome	MONDO:0019978	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.5	True
+3	Brachydactyly-Mesomelia syndrome	MONDO:0015259	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+4	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+5	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False

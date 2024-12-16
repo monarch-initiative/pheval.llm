@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SCN1A-related Dravet syndrome	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	SCN2A-related epilepsy	MONDO:0011904	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	PCDH19-related epilepsy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	DEPDC5-associated familial focal epilepsy	MONDO:0024556	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	KCNQ2 encephalopathy	MONDO:0013387	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

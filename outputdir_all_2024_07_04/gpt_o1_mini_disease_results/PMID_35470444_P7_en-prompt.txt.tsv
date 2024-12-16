@@ -1,0 +1,16 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki Syndrome	MONDO:0007843	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+1	Kabuki Syndrome	MONDO:0016512	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+3	Coffin-Siris Syndrome	MONDO:0015452	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+3	Coffin-Siris Syndrome	MONDO:0007617	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+4	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.5	True
+5	Noonan Syndrome	MONDO:0018997	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+6	Trichorhinophalangeal Syndrome	MONDO:0017951	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+7	Kleefstra Syndrome	MONDO:0027407	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+7	Kleefstra Syndrome	MONDO:0012455	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+8	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+9	Fragile X Syndrome	MONDO:0010383	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False

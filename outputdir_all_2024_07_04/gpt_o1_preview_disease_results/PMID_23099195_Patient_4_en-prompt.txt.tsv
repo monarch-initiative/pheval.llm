@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Citrullinemia type I (Argininosuccinate synthetase deficiency)	MONDO:0008988	('OMIM:215700', 'Citrullinemia')	1.0	True
+2	Argininosuccinic aciduria (Argininosuccinate lyase deficiency)	MONDO:0008815	('OMIM:215700', 'Citrullinemia')	0.0	False
+3	Citrullinemia type II (Citrin deficiency)	MONDO:0016603	('OMIM:215700', 'Citrullinemia')	0.0	False
+4	Hyperornithinemia-hyperammonemia-homocitrullinuria (HHH) syndrome	MONDO:0009393	('OMIM:215700', 'Citrullinemia')	0.0	False

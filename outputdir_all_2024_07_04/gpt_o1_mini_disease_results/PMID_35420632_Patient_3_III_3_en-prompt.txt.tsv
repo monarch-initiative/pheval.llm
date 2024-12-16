@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Idiopathic Pulmonary Fibrosis	MONDO:0800029	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+2	Myelodysplastic Syndrome	MONDO:0044873	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+2	Myelodysplastic Syndrome	MONDO:0018881	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+3	Telomere-Related Pulmonary Fibrosis	MONDO:0013878	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+4	Combined Pulmonary Fibrosis and Emphysema	N/A	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+5	Connective Tissue Disease-Associated Interstitial Lung Disease	MONDO:0014629	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+6	Drug-Induced Interstitial Lung Disease	N/A	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+7	Chronic Hypersensitivity Pneumonitis	MONDO:0017853	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+8	Sarcoidosis	MONDO:0008399	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+8	Sarcoidosis	MONDO:0019338	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False
+9	Hematopoietic Stem Cell Disorder	N/A	('OMIM:620367', 'Pulmonary fibrosis and/or bone marrow failure syndrome, telomere-related, 8')	0.0	False

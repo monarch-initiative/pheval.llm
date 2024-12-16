@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Apert syndrome	MONDO:0007041	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Mucopolysaccharidosis type I	MONDO:0001586	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Trisomy 21	MONDO:0008608	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Trisomy 21	MONDO:0700126	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Diamond-Blackfan anemia	MONDO:0015253	('OMIM:148050', 'KBG syndrome')	0.0	False
+7	Noonan syndrome	MONDO:0018997	('OMIM:148050', 'KBG syndrome')	0.0	False
+7	Noonan syndrome	MONDO:0008104	('OMIM:148050', 'KBG syndrome')	0.0	False
+8	Larsen syndrome	MONDO:0007875	('OMIM:148050', 'KBG syndrome')	0.0	False
+9	Saethre-Chotzen syndrome	MONDO:0007042	('OMIM:148050', 'KBG syndrome')	0.0	False
+10	CHARGE syndrome	MONDO:0008965	('OMIM:148050', 'KBG syndrome')	0.0	False

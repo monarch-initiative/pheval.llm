@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SAMD9/SAMD9L-Related Syndrome	N/A	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+2	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+3	Friedrich's Ataxia	MONDO:0100339	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+4	Wilson Disease	MONDO:0010200	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False
+5	Spinocerebellar Ataxia	MONDO:0000437	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.5	True
+5	Spinocerebellar Ataxia	MONDO:0020380	('OMIM:159550', 'Ataxia-pancytopenia syndrome')	0.0	False

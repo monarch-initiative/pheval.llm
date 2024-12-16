@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Long QT Syndrome Type 3 (LQT3)	MONDO:0012314	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+2	Long QT Syndrome Type 1 (LQT1)	MONDO:0002442	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+3	Long QT Syndrome Type 2 (LQT2)	MONDO:0002442	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+4	Brugada Syndrome	MONDO:0015263	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+5	Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)	MONDO:0017990	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+6	Familial Sinus Node Dysfunction	MONDO:0012061	('OMIM:163800', 'Sick sinus syndrome 2')	0.5	True
+7	Kearns-Sayre Syndrome	MONDO:0010787	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Atrial Fibrillation	MONDO:0018054	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+2	Hypertrophic Cardiomyopathy	MONDO:0005045	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.5	True
+3	Dilated Cardiomyopathy	MONDO:0005021	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+4	Arrhythmogenic Right Ventricular Cardiomyopathy	MONDO:0016587	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+5	Left Atrial Myopathy	N/A	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False

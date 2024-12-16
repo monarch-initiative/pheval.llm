@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Infantile Seizures	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+2	Structural Cortical Dysplasia	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Genetic Epilepsy with Focal Seizures	MONDO:0020310	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Metabolic Epilepsy (e.g., GLUT1 Deficiency)	MONDO:0000188	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Febrile Seizures	HP:0002373	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+6	Neonatal Epilepsy of Benign Etiology	MONDO:0002016	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+7	Rasmussen’s Encephalitis	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+8	Landau-Kleffner Syndrome	MONDO:0009509	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

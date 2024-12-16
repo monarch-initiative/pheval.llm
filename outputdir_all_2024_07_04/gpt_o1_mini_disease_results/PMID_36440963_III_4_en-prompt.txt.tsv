@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cowden Syndrome (PTEN Hamartoma Tumor Syndrome)	MONDO:0016063	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+2	Hereditary Leiomyomatosis and Renal Cell Cancer (HLRCC)	MONDO:0007888	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+3	Multiple Endocrine Neoplasia Type 1	MONDO:0007540	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+4	Multiple Endocrine Neoplasia Type 2	MONDO:0019003	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False
+5	Familial Multiple Lipomatosis	MONDO:0007909	('OMIM:620459', 'Birt-Hogg-Dube syndrome 2')	0.0	False

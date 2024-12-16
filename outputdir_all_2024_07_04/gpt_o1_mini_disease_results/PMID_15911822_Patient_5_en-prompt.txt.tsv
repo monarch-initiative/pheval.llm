@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pantothenate Kinase-Associated Neurodegeneration (PKAN)	MONDO:0009319	('OMIM:234200', 'Neurodegeneration with brain iron accumulation 1')	1.0	True
+2	Chorea-Acanthocytosis	MONDO:0008695	('OMIM:234200', 'Neurodegeneration with brain iron accumulation 1')	0.0	False
+3	Huntington Disease	MONDO:0007739	('OMIM:234200', 'Neurodegeneration with brain iron accumulation 1')	0.0	False
+4	Wilson Disease	MONDO:0010200	('OMIM:234200', 'Neurodegeneration with brain iron accumulation 1')	0.0	False
+5	Aceruloplasminemia	MONDO:0011426	('OMIM:234200', 'Neurodegeneration with brain iron accumulation 1')	0.0	False
+6	Neuroferritinopathy	MONDO:0011638	('OMIM:234200', 'Neurodegeneration with brain iron accumulation 1')	0.0	False
+7	Neuroacanthocytosis Syndromes	MONDO:0016987	('OMIM:234200', 'Neurodegeneration with brain iron accumulation 1')	0.5	True

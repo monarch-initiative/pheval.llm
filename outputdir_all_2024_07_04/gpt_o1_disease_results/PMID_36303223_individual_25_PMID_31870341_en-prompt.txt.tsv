@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	S-adenosylhomocysteine hydrolase deficiency	MONDO:0013404	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

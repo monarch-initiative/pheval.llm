@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-McCort dysplasia	MONDO:0015799	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+1	Smith-McCort dysplasia	MONDO:0011814	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+2	Achondroplasia	MONDO:0007037	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+3	Schimke immuno-osseous dysplasia	MONDO:0009458	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+4	Morquio syndrome (Mucopolysaccharidosis IV)	N/A	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+5	Cartilage-hair hypoplasia	MONDO:0009595	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+6	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+7	Seckel syndrome	MONDO:0019342	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+8	Kabuki syndrome	MONDO:0016512	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+8	Kabuki syndrome	MONDO:0007843	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+9	DiGeorge syndrome (22q11.2 deletion syndrome)	MONDO:0012020	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False

@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Rett syndrome (in a male, although rare)	N/A	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Dup15q syndrome (Chromosome 15q duplication syndrome)	MONDO:0016965	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	Prader-Willi syndrome	MONDO:0008300	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+7	Tuberous Sclerosis Complex (TSC)	MONDO:0013199	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+8	Williams syndrome	MONDO:0008678	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+9	Sanfilippo syndrome (MPS III)	N/A	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+10	Noonan syndrome	MONDO:0008104	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+10	Noonan syndrome	MONDO:0018997	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

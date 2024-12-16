@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive cutis laxa	MONDO:0018163	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False
+2	Ehlers-Danlos syndrome, vascular type	MONDO:0017314	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False
+2	Ehlers-Danlos syndrome, vascular type	MONDO:0007524	('OMIM:620780', 'Cutis laxa, autosomal recessive, type ID')	0.0	False

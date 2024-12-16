@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Multiple Self-healing Squamous Epithelioma (FMSSE)	MONDO:0007566	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	1.0	True
+2	Muir-Torre Syndrome	MONDO:0008018	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+3	Brooke-Spiegler Syndrome	MONDO:0011512	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+4	Epidermodysplasia Verruciformis	MONDO:0009176	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+5	Basal Cell Nevus Syndrome (Gorlin Syndrome)	N/A	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+6	Xeroderma Pigmentosum	MONDO:0019600	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+7	Epidermolysis Bullosa	MONDO:0006541	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False

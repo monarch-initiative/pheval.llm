@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert Syndrome	MONDO:0018772	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+1	Joubert Syndrome	MONDO:0008944	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+2	Spinocerebellar Ataxia Type 6	MONDO:0008457	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+3	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+4	Friedreich's Ataxia	MONDO:0100339	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+5	Niemann-Pick Disease Type C	MONDO:0018982	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+6	Pontocerebellar Hypoplasia	MONDO:0020135	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+7	Glut1 Deficiency Syndrome	MONDO:0011724	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+7	Glut1 Deficiency Syndrome	MONDO:0000188	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+8	Cerebellar Variant of Rett-like Syndrome	MONDO:0016392	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+9	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+9	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False
+10	Neurodegeneration with Brain Iron Accumulation	MONDO:0018307	('OMIM:614322', 'Spinocerebellar ataxia, autosomal recessive 12')	0.0	False

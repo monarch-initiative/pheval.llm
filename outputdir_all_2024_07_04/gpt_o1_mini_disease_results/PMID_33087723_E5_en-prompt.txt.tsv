@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	IgG4-related disease	MONDO:0017287	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	Autoimmune hepatitis	MONDO:0016264	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Primary biliary cholangitis	MONDO:0005388	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Primary sclerosing cholangitis	MONDO:0013433	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Primary sclerosing cholangitis	MONDO:0018646	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+5	Sjogren's syndrome	MONDO:0010030	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+6	Systemic lupus erythematosus	MONDO:0007915	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+7	Sarcoidosis	MONDO:0008399	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+7	Sarcoidosis	MONDO:0019338	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

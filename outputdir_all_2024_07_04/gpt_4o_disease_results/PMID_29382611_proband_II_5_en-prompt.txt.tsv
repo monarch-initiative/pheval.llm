@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta	MONDO:0019019	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.5	True
+2	Stickler syndrome	MONDO:0019354	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+3	Kniest dysplasia	MONDO:0007987	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+4	Camurati-Engelmann disease	MONDO:0007542	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+5	Langer-Giedion syndrome	MONDO:0007874	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+6	Schmid metaphyseal chondrodysplasia	MONDO:0007983	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+7	Multiple epiphyseal dysplasia (Fairbank disease)	MONDO:0012254	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False
+8	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:613849', 'Osteogenesis imperfecta, type XII')	0.0	False

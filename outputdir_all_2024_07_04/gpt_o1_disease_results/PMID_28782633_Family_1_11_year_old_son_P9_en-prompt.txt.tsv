@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked agammaglobulinemia (Bruton's agammaglobulinemia)	MONDO:0010421	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+2	Common variable immunodeficiency	MONDO:0015517	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.5	True
+3	Severe combined immunodeficiency	MONDO:0015974	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+4	Autosomal recessive agammaglobulinemia	MONDO:0030519	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False

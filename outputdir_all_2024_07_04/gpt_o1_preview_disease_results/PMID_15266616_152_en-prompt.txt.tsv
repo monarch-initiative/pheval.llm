@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aarskog syndrome	MONDO:0021005	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+1	Aarskog syndrome	MONDO:0007030	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+1	Aarskog syndrome	MONDO:0010589	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Trisomy 9p syndrome	MONDO:0016526	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Branchio-oculo-facial syndrome	MONDO:0007235	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Townes-Brocks syndrome	MONDO:0007142	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Noonan syndrome	MONDO:0008104	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Noonan syndrome	MONDO:0018997	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+6	CHARGE syndrome	MONDO:0008965	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+7	Opitz GBBB syndrome	MONDO:0017138	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+8	Brachio-oto-renal syndrome	MONDO:0007029	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+9	Otopalatodigital syndrome	MONDO:0019027	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

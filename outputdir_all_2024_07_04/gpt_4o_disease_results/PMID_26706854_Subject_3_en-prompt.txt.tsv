@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Frontonasal dysplasia	MONDO:0007636	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+1	Frontonasal dysplasia	MONDO:0016643	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.5	True
+2	Axenfeld-Rieger syndrome	MONDO:0019187	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+3	Noonan syndrome	MONDO:0008104	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+3	Noonan syndrome	MONDO:0018997	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+4	Oculo-facio-cardio-dental syndrome	N/A	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+5	Craniofrontonasal syndrome	MONDO:0010570	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Smith-Magenis syndrome	MONDO:0008434	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	3M syndrome	MONDO:0007477	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	3M syndrome	MONDO:0010117	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+7	Borjeson-Forssman-Lehmann syndrome	MONDO:0010537	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

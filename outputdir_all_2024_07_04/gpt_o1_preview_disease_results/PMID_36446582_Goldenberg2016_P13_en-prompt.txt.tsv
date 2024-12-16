@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Léri-Weill dyschondrosteosis	MONDO:0007481	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Turner syndrome	MONDO:0019499	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Russell-Silver syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Fanconi anemia	MONDO:0009215	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Fanconi anemia	MONDO:0019391	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Holt-Oram syndrome	MONDO:0007732	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Trichorhinophalangeal syndrome	MONDO:0017951	('OMIM:148050', 'KBG syndrome')	0.0	False

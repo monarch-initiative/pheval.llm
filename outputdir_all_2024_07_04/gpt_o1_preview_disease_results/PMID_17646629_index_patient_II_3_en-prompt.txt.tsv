@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia type 11 (SPG11)	MONDO:0011445	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+2	Niemann-Pick disease type C	MONDO:0018982	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+3	Spinocerebellar ataxia type 2 (SCA2)	MONDO:0008457	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+4	Hereditary spastic paraplegia type 15 (SPG15)	MONDO:0011992	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+5	Wilson disease	MONDO:0010200	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False

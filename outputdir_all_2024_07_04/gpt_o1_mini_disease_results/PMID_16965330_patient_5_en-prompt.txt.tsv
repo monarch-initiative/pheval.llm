@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autoimmune polyendocrine syndrome type 1 (APECED)	MONDO:0009411	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	1.0	True
+2	Autoimmune polyendocrine syndrome type 2 (APS-2)	MONDO:0010012	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+3	Chronic mucocutaneous candidiasis	MONDO:0015279	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	DiGeorge syndrome	MONDO:0008564	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	DiGeorge syndrome	MONDO:0018923	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+5	Chronic granulomatous disease	MONDO:0018305	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Sotos Syndrome	MONDO:0019349	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	McCune-Albright Syndrome	MONDO:0018919	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Megalencephaly Capillary Malformation Syndrome	MONDO:0011240	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

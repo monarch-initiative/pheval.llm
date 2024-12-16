@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.5	True
+2	Multiple Sclerosis	MONDO:0005301	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+3	Primary Lateral Sclerosis	MONDO:0018155	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+4	HTLV-1 Associated Myelopathy (Tropical Spastic Paraparesis)	MONDO:0008039	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+5	Cervical Spondylotic Myelopathy	N/A	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+6	Neurosarcoidosis	MONDO:0045047	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False
+7	Paraproteinemic Myelopathy	N/A	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.0	False

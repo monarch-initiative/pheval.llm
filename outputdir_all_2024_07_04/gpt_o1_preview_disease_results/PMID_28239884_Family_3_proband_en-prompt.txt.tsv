@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Punctate palmoplantar keratoderma type I	MONDO:0019332	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.5	True
+2	Porokeratosis punctata palmaris et plantaris	MONDO:0008292	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+3	Howel-Evans syndrome (tylosis with esophageal cancer)	N/A	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+4	Mal de Meleda	MONDO:0009552	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+5	Vohwinkel syndrome	MONDO:0007422	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False

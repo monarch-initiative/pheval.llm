@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Based on the provided information, the differential diagnosis includes:	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Cystic Fibrosis	MONDO:0009061	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Marfan Syndrome	MONDO:0007947	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Hereditary Hemochromatosis	MONDO:0006507	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Achondroplasia	MONDO:0007037	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

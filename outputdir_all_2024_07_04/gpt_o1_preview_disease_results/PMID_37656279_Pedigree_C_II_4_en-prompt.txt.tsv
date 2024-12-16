@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sjögren-Larsson syndrome	MONDO:0010031	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Multiple sulfatase deficiency	MONDO:0010088	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+3	Gaucher disease type 2	MONDO:0009266	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+4	Zellweger syndrome	MONDO:0019609	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Trichothiodystrophy	MONDO:0002470	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Trichothiodystrophy	MONDO:0018053	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert syndrome	MONDO:0018772	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+1	Joubert syndrome	MONDO:0008944	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+2	Cohen syndrome	MONDO:0008999	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+3	Neuronal ceroid lipofuscinosis	MONDO:0016295	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+4	Congenital disorder of glycosylation (PMM2-CDG)	MONDO:0008907	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+5	Mitochondrial disorder (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+6	Zellweger spectrum disorder	MONDO:0019234	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False

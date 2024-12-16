@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CHARGE syndrome	MONDO:0008965	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	SOX2 anophthalmia syndrome	MONDO:0008799	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	Coloboma, ocular, autosomal recessive (COAR)	MONDO:0020354	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Lenz microphthalmia syndrome	MONDO:0018924	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Lenz microphthalmia syndrome	MONDO:0010671	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	Microphthalmia with linear skin defects syndrome (MLS)	MONDO:0010672	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

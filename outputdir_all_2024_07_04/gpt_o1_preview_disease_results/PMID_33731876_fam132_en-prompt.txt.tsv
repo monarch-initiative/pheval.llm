@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Infantile Seizures (BFIS)	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+2	Benign Infantile Epilepsy	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+3	Benign Occipital Epilepsy of Infancy	MONDO:0007558	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Benign Familial Neonatal-Infantile Seizures (BFNIS)	MONDO:0002016	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

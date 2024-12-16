@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-ketotic hyperglycinemia (NKH)	N/A	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+2	Urea cycle disorder	MONDO:0004739	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+3	Maple syrup urine disease (MSUD)	MONDO:0017051	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+4	Mitochondrial disease	MONDO:0004069	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.5	True
+4	Mitochondrial disease	MONDO:0044970	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.5	True
+5	Glutaric acidemia type 1	MONDO:0009281	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False

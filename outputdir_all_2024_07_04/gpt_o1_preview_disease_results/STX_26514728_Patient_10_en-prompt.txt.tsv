@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Early Infantile Epileptic Encephalopathy (Ohtahara Syndrome)	MONDO:0018614	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	STXBP1-Related Encephalopathy	MONDO:0012812	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	1.0	True
+4	Nonketotic Hyperglycinemia (Glycine Encephalopathy)	MONDO:0017353	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	ARX-Related Epileptic Encephalopathy	MONDO:0015921	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Krabbe Disease (Infantile Onset)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

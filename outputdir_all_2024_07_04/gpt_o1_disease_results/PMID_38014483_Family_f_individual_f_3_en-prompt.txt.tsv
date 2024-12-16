@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive spastic ataxia of Charlevoix-Saguenay (ARSACS)	MONDO:0010041	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+3	SPG7 hereditary spastic paraplegia	MONDO:0011803	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+4	Spinocerebellar ataxia type 13	MONDO:0011529	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spastic Paraplegia Type 11 (SPG11)	MONDO:0011445	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Spastic Paraplegia Type 15 (SPG15)	MONDO:0011992	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	KBG Syndrome	MONDO:0007846	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+4	L1 Syndrome (L1CAM-related disorder)	MONDO:0017140	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+5	Pitt-Hopkins Syndrome	MONDO:0012589	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False

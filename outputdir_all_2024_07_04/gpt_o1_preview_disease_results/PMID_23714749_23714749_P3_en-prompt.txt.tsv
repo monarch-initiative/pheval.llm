@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tyrosinemia Type I (Hepatorenal Tyrosinemia)	MONDO:0010161	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Fructose-1,6-bisphosphatase Deficiency	MONDO:0009251	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Pyruvate Carboxylase Deficiency	MONDO:0009949	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Mitochondrial DNA Depletion Syndrome	MONDO:0018158	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.5	True
+5	Zellweger Syndrome (Peroxisome Biogenesis Disorder)	MONDO:0019234	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

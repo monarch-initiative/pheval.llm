@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pontocerebellar hypoplasia type 6	MONDO:0012683	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	CASK-related microcephaly with pontine and cerebellar hypoplasia	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Aicardi syndrome	MONDO:0010568	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	ARX-related infantile spasms	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

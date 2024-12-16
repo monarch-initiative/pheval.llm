@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+2	COL4A1-related disorder	MONDO:0800461	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+3	L1CAM-related disorder (e.g., X-linked hydrocephalus)	MONDO:0010611	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+4	TUBA1A-related tubulinopathy	MONDO:0700044	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+5	Zellweger spectrum disorder	MONDO:0019234	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+6	Cree leukoencephalopathy	MONDO:0020507	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+6	Cree leukoencephalopathy	MONDO:0800448	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+7	Perlman syndrome	MONDO:0009965	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+8	Walker-Warburg syndrome	MONDO:0000171	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False

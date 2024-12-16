@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Weill-Marchesani syndrome	MONDO:0018096	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+2	Acrodysostosis	MONDO:0019797	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+3	Albright hereditary osteodystrophy	MONDO:0007078	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+4	Trichorhinophalangeal syndrome	MONDO:0017951	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+5	Multiple epiphyseal dysplasia	MONDO:0016648	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+6	Mucopolysaccharidosis type VI (Maroteaux-Lamy syndrome)	MONDO:0009661	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+7	Léri-Weill dyschondrosteosis	MONDO:0007481	('OMIM:102370', 'Acromicric dysplasia')	0.0	False

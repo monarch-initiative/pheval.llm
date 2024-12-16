@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hemophagocytic Lymphohistiocytosis (HLH)	MONDO:0009974	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+2	Epstein-Barr virus (EBV) associated Hemophagocytic Lymphohistiocytosis (EBV-HLH)	MONDO:0006188	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+3	Familial Hemophagocytic Lymphohistiocytosis (FHL)	MONDO:0009974	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+4	Lymphoma-associated Hemophagocytic Lymphohistiocytosis (Lymphoma-HLH)	MONDO:0009974	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+5	Adult-onset Still's Disease (AOSD)	MONDO:0019355	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+6	Systemic Lupus Erythematosus (SLE)-associated Hemophagocytic Syndrome	N/A	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+7	Acquired Immunodeficiency Syndrome (AIDS)-associated Hemophagocytic Syndrome	N/A	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False

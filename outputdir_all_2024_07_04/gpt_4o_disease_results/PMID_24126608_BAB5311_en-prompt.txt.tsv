@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinal muscular atrophy (SMA)	MONDO:0001516	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+2	Charcot-Marie-Tooth disease (CMT)	MONDO:0019011	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+3	Congenital muscular dystrophy (CMD)	MONDO:0019950	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+4	Hereditary motor and sensory neuropathy (HMSN)	MONDO:0015358	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+5	5q-associated spinal muscular atrophy (SMA)	MONDO:0010056	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False

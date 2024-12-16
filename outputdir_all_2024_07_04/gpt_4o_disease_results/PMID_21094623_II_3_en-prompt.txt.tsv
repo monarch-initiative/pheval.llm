@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Parkinsonism	MONDO:0010820	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Huntington’s disease (juvenile onset)	MONDO:0016621	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Neurodegeneration with brain iron accumulation (NBIA)	MONDO:0018307	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.5	True
+5	Dentatorubral-pallidoluysian atrophy (DRPLA)	N/A	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

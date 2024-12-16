@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Enamel-Renal Syndrome	MONDO:0008771	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Bartter Syndrome	MONDO:0015231	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Gitelman Syndrome	MONDO:0009904	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Medullary Sponge Kidney	MONDO:0015268	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

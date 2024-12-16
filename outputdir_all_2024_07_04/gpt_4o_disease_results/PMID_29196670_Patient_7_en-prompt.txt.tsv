@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tuberous Sclerosis Complex (TSC)	MONDO:0013199	('OMIM:191100', 'Tuberous sclerosis-1')	0.0	False
+2	Epilepsy with Neurodevelopmental Disorders	MONDO:0100455	('OMIM:191100', 'Tuberous sclerosis-1')	0.0	False
+3	Genetic Epilepsy with Febrile Seizures Plus (GEFS+)	MONDO:0018214	('OMIM:191100', 'Tuberous sclerosis-1')	0.0	False
+4	Dravet Syndrome	MONDO:0100135	('OMIM:191100', 'Tuberous sclerosis-1')	0.0	False
+4	Dravet Syndrome	MONDO:0100079	('OMIM:191100', 'Tuberous sclerosis-1')	0.0	False
+5	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:191100', 'Tuberous sclerosis-1')	0.0	False

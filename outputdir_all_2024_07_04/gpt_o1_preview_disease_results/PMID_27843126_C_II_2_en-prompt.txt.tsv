@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease Type 4C	MONDO:0011113	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+2	Distal Spinal Muscular Atrophy	MONDO:0018894	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+3	Marden-Walker syndrome	MONDO:0009564	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+4	Congenital Hypomyelinating Neuropathy	MONDO:0017049	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+5	Arthrogryposis Multiplex Congenita	MONDO:0007157	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+5	Arthrogryposis Multiplex Congenita	MONDO:0015168	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+6	Congenital Muscular Dystrophy	MONDO:0019950	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Floating-Harbor syndrome	MONDO:0007621	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+2	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+3	Gorlin-Chaudhry-Moss syndrome	MONDO:0012853	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+4	Wiedemann-Steiner syndrome	MONDO:0011518	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False
+5	Saul-Wilson syndrome	MONDO:0019407	('OMIM:190350', 'Trichorhinophalangeal syndrome, type I')	0.0	False

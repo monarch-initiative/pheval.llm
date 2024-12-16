@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nager syndrome	MONDO:0007943	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	1.0	True
+2	Miller syndrome	MONDO:0009903	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+3	Treacher Collins syndrome	MONDO:0002457	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+3	Treacher Collins syndrome	MONDO:0007944	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+4	Multiple synostoses syndrome	MONDO:0017923	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+5	Feingold syndrome	MONDO:0008115	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+5	Feingold syndrome	MONDO:0015267	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False

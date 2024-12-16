@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+2	GM1 gangliosidosis	MONDO:0018149	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+3	Krabbe disease	MONDO:0009499	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+4	Hereditary hyperekplexia	MONDO:0021022	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+5	Sandhoff disease	MONDO:0010006	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False

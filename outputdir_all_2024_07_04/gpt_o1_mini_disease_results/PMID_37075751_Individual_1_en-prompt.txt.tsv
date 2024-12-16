@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-syndromic Metopic Craniosynostosis with Cleft Lip and Palate	MONDO:0009547	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+2	Crouzon Syndrome	MONDO:0007405	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+3	Apert Syndrome	MONDO:0007041	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	Pfeiffer Syndrome	MONDO:0007043	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+5	Saethre-Chotzen Syndrome	MONDO:0007042	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+6	Carpenter Syndrome	MONDO:0019012	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+6	Carpenter Syndrome	MONDO:0008710	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+7	Frontonasal Dysplasia	MONDO:0016643	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+7	Frontonasal Dysplasia	MONDO:0007636	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False

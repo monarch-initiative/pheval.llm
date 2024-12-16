@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GNAO1-related neurodevelopmental disorder	N/A	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+2	ADCY5-related dyskinesia	MONDO:0800028	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+2	ADCY5-related dyskinesia	MONDO:0031115	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+3	Juvenile Huntington disease	MONDO:0016621	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+4	NKX2-1-related benign hereditary chorea	MONDO:0100520	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+5	Neuronal ceroid lipofuscinosis	MONDO:0016295	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+6	Wilson disease	MONDO:0010200	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False

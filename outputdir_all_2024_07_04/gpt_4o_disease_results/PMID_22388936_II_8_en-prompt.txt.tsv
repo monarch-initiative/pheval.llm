@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Huntington's disease	MONDO:0007739	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Juvenile Parkinson's disease	MONDO:0014231	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Lysosomal storage disorders (e.g., Gaucher's disease type 3)	MONDO:0018150	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Pantothenate kinase-associated neurodegeneration (PKAN)	MONDO:0009319	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Multiple system atrophy (MSA with predominant parkinsonism, or MSA-P)	MONDO:0020352	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+7	Alzheimer's disease (early-onset form)	MONDO:0011743	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+8	Nigrostriatal degeneration with brain iron accumulation (NBIA)	MONDO:0018307	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.5	True
+9	Adult-onset Leukoencephalopathy with Axonal Spheroids and Pigmented Glia (ALSP)	N/A	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+10	Spinocerebellar ataxia types (specific subtypes with parkinsonism features)	MONDO:0011781	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

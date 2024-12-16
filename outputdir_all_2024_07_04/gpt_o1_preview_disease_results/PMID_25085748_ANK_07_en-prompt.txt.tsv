@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive juvenile Parkinsonism (PARK2 gene mutations)	MONDO:0010820	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+2	Wilson's disease	MONDO:0010200	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+3	PINK1-associated early-onset Parkinsonism (PARK6)	MONDO:0011613	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+4	Kufor-Rakeb syndrome (ATP13A2 mutations)	N/A	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+5	Pantothenate kinase-associated neurodegeneration (PKAN)	MONDO:0009319	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+6	Niemann-Pick disease type C	MONDO:0018982	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False

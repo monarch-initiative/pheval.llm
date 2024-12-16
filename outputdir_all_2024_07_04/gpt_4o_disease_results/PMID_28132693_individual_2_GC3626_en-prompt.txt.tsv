@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Retinitis pigmentosa (RP)	MONDO:0019200	('OMIM:617433', 'Retinitis pigmentosa 78')	0.5	True
+2	Leber congenital amaurosis (LCA)	MONDO:0018998	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+3	Cone-rod dystrophy (CRD)	MONDO:0007362	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+4	Stargardt disease (fundus flavimaculatus)	MONDO:0019353	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+5	Choroideremia	MONDO:0010557	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+6	Usher syndrome	MONDO:0019501	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False

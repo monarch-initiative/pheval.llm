@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Marfan syndrome	MONDO:0007947	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+2	Homocystinuria	MONDO:0004737	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False

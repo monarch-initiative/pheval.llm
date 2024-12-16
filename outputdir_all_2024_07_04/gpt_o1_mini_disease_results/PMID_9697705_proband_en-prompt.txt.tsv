@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CHARGE Syndrome	MONDO:0008965	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+2	Pallister-Hall Syndrome	MONDO:0007804	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+3	Fraser Syndrome	MONDO:0054737	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+3	Fraser Syndrome	MONDO:0009046	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+4	VACTERL Association	MONDO:0008642	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+5	22q11.2 Deletion Syndrome	MONDO:0008564	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+5	22q11.2 Deletion Syndrome	MONDO:0018923	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+6	NKX2-1 Related Thyroid Dysgenesis	MONDO:0100520	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False

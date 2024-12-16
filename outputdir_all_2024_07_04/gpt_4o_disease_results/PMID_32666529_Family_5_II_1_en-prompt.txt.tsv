@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Barth syndrome	MONDO:0010543	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+2	Carvajal syndrome	MONDO:0011581	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+3	Emery-Dreifuss muscular dystrophy (X-linked)	MONDO:0021569	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+4	Alström syndrome	MONDO:0008763	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+5	Danon disease	MONDO:0010281	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+6	Dilated Cardiomyopathy 1A (DCM1A)	MONDO:0011567	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False

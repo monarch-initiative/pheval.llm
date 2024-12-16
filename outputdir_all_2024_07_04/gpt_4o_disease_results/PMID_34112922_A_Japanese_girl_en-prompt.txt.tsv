@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome	MONDO:0008608	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+2	Smith-Magenis syndrome	MONDO:0008434	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Sotos syndrome	MONDO:0019349	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+6	Rett syndrome	MONDO:0010726	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False

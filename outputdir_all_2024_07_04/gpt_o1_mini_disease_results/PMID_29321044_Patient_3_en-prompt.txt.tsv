@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Disorder of Glycosylation type II	MONDO:0005501	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.5	True
+1	Congenital Disorder of Glycosylation type II	MONDO:0011933	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+2	Wilson disease	MONDO:0010200	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+3	Menkes disease	MONDO:0010651	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False
+4	Aceruloplasminemia	MONDO:0011426	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False

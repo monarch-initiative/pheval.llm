@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh syndrome	MONDO:0009723	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Alpers-Huttenlocher syndrome	MONDO:0008758	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	ARX-related infantile epilepsy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Glutaric acidemia type 1	MONDO:0009281	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

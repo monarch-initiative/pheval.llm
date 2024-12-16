@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Senior-Løken syndrome	MONDO:0010031	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+2	Alström syndrome	MONDO:0008763	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+3	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+3	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+4	Nephronophthisis	MONDO:0019005	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cockayne Syndrome	MONDO:0016006	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Joubert Syndrome	MONDO:0018772	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Joubert Syndrome	MONDO:0008944	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Mucopolysaccharidosis Type IV (Morquio Syndrome)	MONDO:0018938	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:600373', 'CODAS syndrome')	0.0	False
+6	Down Syndrome	MONDO:0008608	('OMIM:600373', 'CODAS syndrome')	0.0	False

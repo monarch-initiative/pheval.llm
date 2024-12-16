@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple Sclerosis	MONDO:0005301	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+2	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+3	Amyotrophic Lateral Sclerosis	MONDO:0004976	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+4	Adult-Onset Adrenoleukodystrophy	MONDO:0008215	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+5	Huntington’s Disease	MONDO:0007739	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False

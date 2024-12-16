@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Enhanced S-Cone Syndrome	MONDO:0100288	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+2	Goldmann-Favre Syndrome	MONDO:0100289	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0100438	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0015993	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0007362	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0011458	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+4	Sorsby Fundus Dystrophy	MONDO:0007640	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False
+5	Retinitis Pigmentosa sine pigmento	N/A	('OMIM:617433', 'Retinitis pigmentosa 78')	0.0	False

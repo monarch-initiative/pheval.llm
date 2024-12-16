@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Punctate Palmoplantar Keratoderma type 1 (PPKP1)	MONDO:0019332	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.5	True
+2	Punctate Palmoplantar Keratoderma type 2 (PPKP2)	MONDO:0019332	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.5	True
+3	Diffuse Punctate Palmoplantar Keratoderma	MONDO:0010962	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False
+4	Focal Punctate Palmoplantar Keratoderma	MONDO:0007860	('OMIM:148600', 'Keratoderma, palmoplantar, punctate type IA')	0.0	False

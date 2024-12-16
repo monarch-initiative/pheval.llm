@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Disorders of Glycosylation (CDG) Type I	MONDO:0012123	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+2	De Barsy Syndrome	MONDO:0017569	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+3	Gerodermia Osteodysplastica	MONDO:0009271	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	Cutis Laxa Syndrome	MONDO:0014706	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+5	Marfan Syndrome	MONDO:0007947	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KBG syndrome	MONDO:0007846	('OMIM:148050', 'KBG syndrome')	1.0	True
+2	Trichorhinophalangeal syndrome type I	MONDO:0008596	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Acrodysostosis	MONDO:0019797	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Langer-Giedion syndrome (Trichorhinophalangeal syndrome type II)	MONDO:0007874	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Brachydactyly-short stature syndrome	MONDO:0015259	('OMIM:148050', 'KBG syndrome')	0.0	False

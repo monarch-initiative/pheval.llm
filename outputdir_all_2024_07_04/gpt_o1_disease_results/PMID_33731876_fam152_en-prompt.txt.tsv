@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign familial infantile epilepsy	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+2	Benign familial neonatal-infantile seizures	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+3	SCN2A-related neonatal-infantile seizures	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+4	Dravet syndrome	MONDO:0100135	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Dravet syndrome	MONDO:0100079	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	KCNQ2 benign neonatal seizures	MONDO:0007365	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

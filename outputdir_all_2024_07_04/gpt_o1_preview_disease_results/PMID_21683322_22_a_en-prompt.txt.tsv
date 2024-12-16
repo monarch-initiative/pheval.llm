@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Trichorhinophalangeal syndrome	MONDO:0017951	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+2	Robinow syndrome	MONDO:0019978	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+3	Schwartz-Jampel syndrome	MONDO:0009717	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+4	Spondyloepiphyseal dysplasia	MONDO:0007738	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+4	Spondyloepiphyseal dysplasia	MONDO:0016761	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+5	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+6	Hurler syndrome (Mucopolysaccharidosis type I)	MONDO:0011758	('OMIM:102370', 'Acromicric dysplasia')	0.0	False

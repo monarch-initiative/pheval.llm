@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cardiac Sarcoidosis	MONDO:0001707	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Progressive Familial Heart Block	MONDO:0019490	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Idiopathic Progressive Cardiac Conduction Disease	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Lamin A/C Mutation-Related Conduction Disease	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Arrhythmogenic Right Ventricular Cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Myotonic Dystrophy	MONDO:0016107	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Myotonic Dystrophy	MONDO:0008056	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

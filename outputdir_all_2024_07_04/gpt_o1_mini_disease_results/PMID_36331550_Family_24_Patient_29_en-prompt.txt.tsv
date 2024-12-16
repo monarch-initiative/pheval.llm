@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spastic Cerebral Palsy	MONDO:0000396	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	Rett Syndrome	MONDO:0010726	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Genetic Microcephaly Disorders (e.g., MCPH)	MONDO:0016660	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Metachromatic Leukodystrophy	MONDO:0018868	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	Metachromatic Leukodystrophy	MONDO:0009591	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	Neurodegeneration with Brain Iron Accumulation	MONDO:0018307	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

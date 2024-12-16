@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cockayne Syndrome	MONDO:0016006	('OMIM:216400', 'Cockayne syndrome, type A')	0.5	True
+2	Xeroderma Pigmentosum	MONDO:0019600	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+3	Trichothiodystrophy	MONDO:0018053	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+3	Trichothiodystrophy	MONDO:0002470	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+4	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+5	Seckel Syndrome	MONDO:0019342	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+6	Rothmund-Thomson Syndrome	MONDO:0010002	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+7	Progeroid Syndromes	MONDO:0015333	('OMIM:216400', 'Cockayne syndrome, type A')	0.5	True
+8	Neurofibromatosis Type I	MONDO:0018975	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+9	Rett Syndrome	MONDO:0010726	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+10	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wolfram syndrome	MONDO:0018105	('OMIM:620651', 'Diabetes, deafness, developmental delay, and short stature syndrome')	0.0	False
+2	Alström syndrome	MONDO:0008763	('OMIM:620651', 'Diabetes, deafness, developmental delay, and short stature syndrome')	0.0	False
+3	Maternally Inherited Diabetes and Deafness (MIDD)	MONDO:0010785	('OMIM:620651', 'Diabetes, deafness, developmental delay, and short stature syndrome')	0.0	False
+4	Mitochondrial disorders	MONDO:0004069	('OMIM:620651', 'Diabetes, deafness, developmental delay, and short stature syndrome')	0.0	False
+5	Perrault syndrome	MONDO:0017312	('OMIM:620651', 'Diabetes, deafness, developmental delay, and short stature syndrome')	0.0	False

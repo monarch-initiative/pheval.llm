@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Seckel Syndrome	MONDO:0019342	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+2	Congenital Zika Syndrome	MONDO:0018661	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+2	Congenital Zika Syndrome	MONDO:0000890	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+3	Cockayne Syndrome	MONDO:0016006	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+4	Joubert Syndrome	MONDO:0018772	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+4	Joubert Syndrome	MONDO:0008944	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+5	Lissencephaly	MONDO:0018838	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+6	Pontocerebellar Hypoplasia	MONDO:0020135	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+7	Autosomal Recessive Primary Microcephaly	MONDO:0016660	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+8	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+9	Neurodegeneration with Microcephaly	MONDO:0859241	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False
+10	Congenital Cytomegalovirus Infection	MONDO:0017409	('OMIM:620688', 'Intellectual developmental disorder, autosomal dominant 74')	0.0	False

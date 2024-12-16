@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oral-Facial-Digital Syndrome Type II (Mohr Syndrome)	MONDO:0015375	('OMIM:174300', 'Orofaciodigital syndrome V')	0.5	True
+2	Carpenter Syndrome	MONDO:0019012	('OMIM:174300', 'Orofaciodigital syndrome V')	0.0	False
+2	Carpenter Syndrome	MONDO:0008710	('OMIM:174300', 'Orofaciodigital syndrome V')	0.0	False
+3	Greig Cephalopolysyndactyly Syndrome	MONDO:0008287	('OMIM:174300', 'Orofaciodigital syndrome V')	0.0	False
+4	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:174300', 'Orofaciodigital syndrome V')	0.0	False
+4	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:174300', 'Orofaciodigital syndrome V')	0.0	False
+5	Ellis-van Creveld Syndrome	MONDO:0009162	('OMIM:174300', 'Orofaciodigital syndrome V')	0.0	False
+6	Trisomy 13 (Patau Syndrome)	MONDO:0018068	('OMIM:174300', 'Orofaciodigital syndrome V')	0.0	False

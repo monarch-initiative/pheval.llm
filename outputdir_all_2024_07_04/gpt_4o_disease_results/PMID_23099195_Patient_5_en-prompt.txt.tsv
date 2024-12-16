@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ornithine Transcarbamylase Deficiency (OTC deficiency)	MONDO:0010703	('OMIM:215700', 'Citrullinemia')	0.0	False
+2	Citrullinemia type I	MONDO:0008988	('OMIM:215700', 'Citrullinemia')	1.0	True
+3	Argininosuccinate Synthetase Deficiency (Citrullinemia type II)	N/A	('OMIM:215700', 'Citrullinemia')	0.0	False
+4	Carbamoyl-Phosphate Synthase 1 Deficiency	MONDO:0009376	('OMIM:215700', 'Citrullinemia')	0.0	False
+5	Argininemia	MONDO:0008814	('OMIM:215700', 'Citrullinemia')	0.0	False

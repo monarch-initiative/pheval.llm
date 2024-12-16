@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KCNQ2-Related Neonatal Epilepsy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	SCN2A-Related Epilepsy	MONDO:0011904	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Early Infantile Epileptic Encephalopathy (Ohtahara Syndrome)	MONDO:0018614	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	SCN1A-Related Epilepsy (Dravet Syndrome)	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

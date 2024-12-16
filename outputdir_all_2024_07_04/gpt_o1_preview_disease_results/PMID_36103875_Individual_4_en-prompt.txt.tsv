@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ectodermal Dysplasia (e.g., Clouston syndrome)	MONDO:0019287	('OMIM:620502', 'Neurodevelopmental disorder with language delay and variable cognitive abnormalities')	0.0	False
+2	Nail-Patella Syndrome	MONDO:0008061	('OMIM:620502', 'Neurodevelopmental disorder with language delay and variable cognitive abnormalities')	0.0	False
+3	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:620502', 'Neurodevelopmental disorder with language delay and variable cognitive abnormalities')	0.0	False
+3	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:620502', 'Neurodevelopmental disorder with language delay and variable cognitive abnormalities')	0.0	False
+4	Pitt-Hopkins Syndrome	MONDO:0012589	('OMIM:620502', 'Neurodevelopmental disorder with language delay and variable cognitive abnormalities')	0.0	False

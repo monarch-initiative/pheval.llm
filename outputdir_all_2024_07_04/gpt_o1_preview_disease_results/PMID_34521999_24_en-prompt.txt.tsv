@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	FG syndrome (Opitz-Kaveggia syndrome)	N/A	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	L1CAM-associated X-linked hydrocephalus	MONDO:0010611	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	17q12 microdeletion syndrome	MONDO:0013797	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	Phelan-McDermid syndrome (22q13 deletion syndrome)	MONDO:0011652	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Kabuki syndrome	MONDO:0016512	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Kabuki syndrome	MONDO:0007843	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

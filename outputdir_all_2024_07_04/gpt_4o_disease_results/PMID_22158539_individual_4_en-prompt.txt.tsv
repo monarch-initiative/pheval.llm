@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Keutel syndrome	MONDO:0009495	('OMIM:139210', 'Myhre syndrome')	0.0	False
+2	Tricho-rhino-phalangeal syndrome type I	MONDO:0019176	('OMIM:139210', 'Myhre syndrome')	0.0	False
+3	Marshall-Smith syndrome	MONDO:0011244	('OMIM:139210', 'Myhre syndrome')	0.0	False
+4	Acromicric dysplasia	MONDO:0007055	('OMIM:139210', 'Myhre syndrome')	0.0	False
+5	Pseudohypoparathyroidism type 1a	MONDO:0007078	('OMIM:139210', 'Myhre syndrome')	0.0	False
+6	Floating-Harbor syndrome	MONDO:0007621	('OMIM:139210', 'Myhre syndrome')	0.0	False
+7	Antley-Bixler syndrome	MONDO:0008803	('OMIM:139210', 'Myhre syndrome')	0.0	False

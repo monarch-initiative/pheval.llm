@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fibular Hemimelia	MONDO:0019672	('OMIM:602875', 'Acromesomelic dysplasia 1, Maroteaux type')	0.0	False
+2	Fuhrmann Syndrome	MONDO:0009232	('OMIM:602875', 'Acromesomelic dysplasia 1, Maroteaux type')	0.0	False
+3	Brachydactyly Type E	MONDO:0019677	('OMIM:602875', 'Acromesomelic dysplasia 1, Maroteaux type')	0.0	False
+4	Ellis-van Creveld Syndrome	MONDO:0009162	('OMIM:602875', 'Acromesomelic dysplasia 1, Maroteaux type')	0.0	False
+5	Leri-Weill Dyschondrosteosis	MONDO:0007481	('OMIM:602875', 'Acromesomelic dysplasia 1, Maroteaux type')	0.0	False
+6	Jeune Asphyxiating Thoracic Dystrophy	MONDO:0018770	('OMIM:602875', 'Acromesomelic dysplasia 1, Maroteaux type')	0.0	False
+7	Mesomelic Dysplasia	MONDO:0023599	('OMIM:602875', 'Acromesomelic dysplasia 1, Maroteaux type')	0.0	False

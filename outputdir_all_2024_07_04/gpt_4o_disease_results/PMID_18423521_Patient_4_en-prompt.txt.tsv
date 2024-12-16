@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Branchiooculofacial syndrome	MONDO:0007235	('OMIM:113620', 'Branchiooculofacial syndrome')	1.0	True
+2	CHARGE syndrome	MONDO:0008965	('OMIM:113620', 'Branchiooculofacial syndrome')	0.0	False
+3	Treacher Collins syndrome	MONDO:0007944	('OMIM:113620', 'Branchiooculofacial syndrome')	0.0	False
+3	Treacher Collins syndrome	MONDO:0002457	('OMIM:113620', 'Branchiooculofacial syndrome')	0.0	False
+4	Goldenhar syndrome	MONDO:0015397	('OMIM:113620', 'Branchiooculofacial syndrome')	0.0	False
+5	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:113620', 'Branchiooculofacial syndrome')	0.0	False

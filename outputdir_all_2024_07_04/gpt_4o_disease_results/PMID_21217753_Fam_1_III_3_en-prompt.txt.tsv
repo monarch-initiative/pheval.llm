@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Marfan syndrome	MONDO:0007947	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.5	True
+3	Ehlers-Danlos syndrome, vascular type	MONDO:0017314	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Ehlers-Danlos syndrome, vascular type	MONDO:0007524	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Familial thoracic aortic aneurysm and dissection (FTAAD)	MONDO:0019625	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Turner syndrome	MONDO:0019499	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

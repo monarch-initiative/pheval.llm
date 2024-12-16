@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Vascular Ehlers-Danlos Syndrome (EDS Type IV)	MONDO:0017314	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.5	True
+2	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False
+3	Familial Thoracic Aortic Aneurysm and Dissection (TAAD)	MONDO:0019625	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False
+4	Marfan Syndrome	MONDO:0007947	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False

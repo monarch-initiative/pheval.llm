@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0008104	('OMIM:609942', 'Noonan syndrome 3')	0.0	False
+1	Noonan syndrome	MONDO:0018997	('OMIM:609942', 'Noonan syndrome 3')	0.5	True
+2	Costello syndrome	MONDO:0009026	('OMIM:609942', 'Noonan syndrome 3')	0.0	False
+3	CFC (Cardiofaciocutaneous) syndrome	MONDO:0015280	('OMIM:609942', 'Noonan syndrome 3')	0.0	False
+4	Turner syndrome (though the patient is male, mosaic Turner syndrome could be considered in rare cases)	N/A	('OMIM:609942', 'Noonan syndrome 3')	0.0	False
+5	Williams syndrome	MONDO:0008678	('OMIM:609942', 'Noonan syndrome 3')	0.0	False

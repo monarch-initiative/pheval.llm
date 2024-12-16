@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Craniometaphyseal dysplasia	MONDO:0015465	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+2	Spondyloepimetaphyseal dysplasia	MONDO:0100510	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+3	Pyknodysostosis	MONDO:0009940	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+4	Hyperostosis corticalis generalisata (van Buchem disease)	MONDO:0009395	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+5	Frontometaphyseal dysplasia	MONDO:0015942	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+6	Camurati-Engelmann disease	MONDO:0007542	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False

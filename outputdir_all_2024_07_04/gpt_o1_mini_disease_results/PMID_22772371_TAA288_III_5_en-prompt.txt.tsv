@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+3	Familial inguinal hernia	N/A	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+4	Neurofibromatosis type 1	MONDO:0018975	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+5	Becker muscular dystrophy	MONDO:0010311	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False

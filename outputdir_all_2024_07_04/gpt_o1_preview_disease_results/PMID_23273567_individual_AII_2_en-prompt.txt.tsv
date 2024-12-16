@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypophosphatasia	MONDO:0009948	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+1	Hypophosphatasia	MONDO:0018570	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Pycnodysostosis	MONDO:0009940	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Mucopolysaccharidosis Type IV (Morquio Syndrome)	MONDO:0018938	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Metaphyseal Chondrodysplasia	MONDO:0000138	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Achondroplasia	MONDO:0007037	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Cartilage-Hair Hypoplasia	MONDO:0009595	('OMIM:258480', 'Opsismodysplasia')	0.0	False

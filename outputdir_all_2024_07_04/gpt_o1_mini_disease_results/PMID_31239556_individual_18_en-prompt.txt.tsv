@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+2	Down Syndrome	MONDO:0008608	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+3	Autism Spectrum Disorder	MONDO:0005260	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+3	Autism Spectrum Disorder	MONDO:0005258	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+5	Williams Syndrome	MONDO:0008678	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+6	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+7	Kabuki Syndrome	MONDO:0007843	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+7	Kabuki Syndrome	MONDO:0016512	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False
+8	Angelman Syndrome	MONDO:0007113	('OMIM:615502', 'Intellectual developmental disorder, autosomal dominant 21')	0.0	False

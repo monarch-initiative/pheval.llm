@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Glycogen Storage Disease Type I (von Gierke Disease)	MONDO:0002413	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Niemann-Pick Disease Type A	MONDO:0009756	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Zellweger Spectrum Disorders	MONDO:0019234	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	Zellweger Spectrum Disorders	MONDO:0019609	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+4	Mitochondrial Disorders (e.g., Leigh Syndrome)	MONDO:0016814	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Gaucher Disease Type 2	MONDO:0009266	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+6	GM1 Gangliosidosis	MONDO:0018149	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+7	Mucopolysaccharidosis Type I	MONDO:0001586	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+8	Peroxisomal Biogenesis Disorders	MONDO:0019234	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

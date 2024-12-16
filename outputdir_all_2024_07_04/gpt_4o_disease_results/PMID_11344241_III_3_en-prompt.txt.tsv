@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+2	Congenital Generalized Lipodystrophy	MONDO:0006536	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+2	Congenital Generalized Lipodystrophy	MONDO:0018883	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+3	Dunnigan-type Familial Partial Lipodystrophy	MONDO:0007906	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	1.0	True
+4	Berardinelli-Seip Congenital Lipodystrophy	MONDO:0018883	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Pseudoxanthoma Elasticum	MONDO:0009925	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Pseudoxanthoma Elasticum	MONDO:0024308	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+6	Tangier Disease	MONDO:0008783	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+7	Type 2 Diabetes Mellitus	MONDO:0005148	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+8	Metabolic Syndrome	MONDO:0000816	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

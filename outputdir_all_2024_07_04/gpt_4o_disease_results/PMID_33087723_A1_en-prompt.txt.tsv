@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autoimmune Lymphoproliferative Syndrome (ALPS)	MONDO:0017979	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	Common Variable Immunodeficiency (CVID)	MONDO:0015517	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Evans Syndrome	MONDO:0016030	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Autoimmune Polyglandular Syndrome Type 1 (APS-1)	MONDO:0010012	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+5	Autoimmune Polyglandular Syndrome Type 2 (APS-2)	MONDO:0010012	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+6	Wiskott-Aldrich Syndrome	MONDO:0010518	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypophosphatasia	MONDO:0009948	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+1	Hypophosphatasia	MONDO:0018570	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Jeune syndrome (Asphyxiating Thoracic Dystrophy)	MONDO:0018770	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Metaphyseal chondrodysplasia	MONDO:0000138	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Achondrogenesis	MONDO:0019648	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Chondrodysplasia punctata	MONDO:0019701	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Campomelic dysplasia	MONDO:0007251	('OMIM:258480', 'Opsismodysplasia')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Autism spectrum disorder due to CHD8 mutation	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Fragile X syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	SHANK3-related disorder (Phelan-McDermid syndrome)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	16p11.2 microdeletion syndrome	MONDO:0016836	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

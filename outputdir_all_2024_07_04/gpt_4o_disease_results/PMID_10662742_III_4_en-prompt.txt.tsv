@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Rigid spine syndrome (SEPN1-related myopathy)	MONDO:0011271	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Myofibrillar myopathy	MONDO:0018943	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Dilated cardiomyopathy type 1E	MONDO:0011003	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Facioscapulohumeral muscular dystrophy (FSHD)	MONDO:0001347	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Bethlem myopathy	MONDO:0024530	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Bethlem myopathy	MONDO:0008029	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

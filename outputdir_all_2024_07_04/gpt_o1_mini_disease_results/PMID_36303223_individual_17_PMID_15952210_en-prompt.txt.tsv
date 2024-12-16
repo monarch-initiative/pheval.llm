@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Molybdenum Cofactor Deficiency	MONDO:0020480	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+1	Molybdenum Cofactor Deficiency	MONDO:0000063	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Sulfite Oxidase Deficiency	MONDO:0010089	('OMIM:272300', 'Sulfite oxidase deficiency')	1.0	True
+3	Xanthinuria Type I	MONDO:0010209	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Adenylosuccinate Lyase Deficiency	MONDO:0007068	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Hypoxanthine-Guanine Phosphoribosyltransferase (HPRT) Deficiency	MONDO:0016088	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:609260', 'Charcot-Marie-Tooth disease, axonal, type 2A2A')	0.5	True
+2	Friedreich’s ataxia	MONDO:0100339	('OMIM:609260', 'Charcot-Marie-Tooth disease, axonal, type 2A2A')	0.0	False
+3	Hereditary motor and sensory neuropathy	MONDO:0015626	('OMIM:609260', 'Charcot-Marie-Tooth disease, axonal, type 2A2A')	0.5	True
+3	Hereditary motor and sensory neuropathy	MONDO:0015358	('OMIM:609260', 'Charcot-Marie-Tooth disease, axonal, type 2A2A')	0.0	False
+3	Hereditary motor and sensory neuropathy	MONDO:0002316	('OMIM:609260', 'Charcot-Marie-Tooth disease, axonal, type 2A2A')	0.0	False
+4	Chronic Inflammatory Demyelinating Polyneuropathy	MONDO:0006702	('OMIM:609260', 'Charcot-Marie-Tooth disease, axonal, type 2A2A')	0.0	False
+5	Guillain-Barre Syndrome	MONDO:0016218	('OMIM:609260', 'Charcot-Marie-Tooth disease, axonal, type 2A2A')	0.0	False

@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal dominant nocturnal frontal lobe epilepsy	MONDO:0020300	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Autosomal dominant lateral temporal lobe epilepsy	MONDO:0010898	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Benign Rolandic epilepsy	MONDO:0007295	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Gordon Holmes syndrome	MONDO:0008935	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+2	Boucher-Neuhäuser syndrome	MONDO:0008980	('OMIM:215470', 'Boucher-Neuhauser syndrome')	1.0	True
+3	Spinocerebellar ataxia type 7 (SCA7)	MONDO:0014410	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+4	Ataxia with vitamin E deficiency	MONDO:0010188	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False
+5	Refsum disease	MONDO:0009958	('OMIM:215470', 'Boucher-Neuhauser syndrome')	0.0	False

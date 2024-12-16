@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Emery-Dreifuss Muscular Dystrophy	MONDO:0016830	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.5	True
+2	LMNA-related Congenital Muscular Dystrophy	MONDO:0013178	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+3	Rigid Spine Muscular Dystrophy (SEPN1-related Myopathy)	MONDO:0011271	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+4	Ullrich Congenital Muscular Dystrophy	MONDO:0000355	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+4	Ullrich Congenital Muscular Dystrophy	MONDO:0009681	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+5	Bethlem Myopathy	MONDO:0024530	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+5	Bethlem Myopathy	MONDO:0008029	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+6	Dystrophinopathies (e.g., Duchenne Muscular Dystrophy)	N/A	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hyper-IgE Syndrome (Job Syndrome)	MONDO:0018037	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.5	True
+2	Common Variable Immunodeficiency (CVID)	MONDO:0015517	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+3	Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+4	Chronic Granulomatous Disease (CGD)	MONDO:0018305	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+5	X-Linked Agammaglobulinemia (Bruton’s Agammaglobulinemia)	MONDO:0010421	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+6	DOCK8 Deficiency	MONDO:0009478	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	1.0	True
+7	WHIM Syndrome (Warts, Hypogammaglobulinemia, Infections, and Myelokathexis)	MONDO:8000006	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+8	IPEX Syndrome (Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-linked)	MONDO:0010580	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Molybdenum cofactor deficiency (MOCOD)	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Pyridoxine-dependent epilepsy (PDE)	MONDO:0009945	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Adenosine deaminase (ADA) deficiency	MONDO:0100317	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Glycine encephalopathy (Non-ketotic hyperglycinemia)	MONDO:0011612	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

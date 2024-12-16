@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara syndrome	MONDO:0100062	('OMIM:615473', 'Developmental and epileptic encephalopathy 17 ')	0.5	True
+2	West syndrome	MONDO:0018097	('OMIM:615473', 'Developmental and epileptic encephalopathy 17 ')	0.0	False
+3	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:615473', 'Developmental and epileptic encephalopathy 17 ')	0.0	False
+4	Dravet syndrome	MONDO:0100135	('OMIM:615473', 'Developmental and epileptic encephalopathy 17 ')	0.0	False
+4	Dravet syndrome	MONDO:0100079	('OMIM:615473', 'Developmental and epileptic encephalopathy 17 ')	0.0	False

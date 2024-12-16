@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Klinefelter Syndrome	MONDO:0006823	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Beckwith-Wiedemann Syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False

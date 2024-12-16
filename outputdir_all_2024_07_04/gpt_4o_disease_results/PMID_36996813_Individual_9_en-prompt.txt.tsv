@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+2	Zellweger syndrome	MONDO:0019609	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+3	Miller-Dieker syndrome	MONDO:0009532	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+4	Cockayne syndrome	MONDO:0016006	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+5	Warburg Micro syndrome	MONDO:0016649	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+6	Walker-Warburg syndrome	MONDO:0000171	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+7	L1 syndrome (L1CAM-related disorder)	MONDO:0017140	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False

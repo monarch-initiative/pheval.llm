@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Multiple epiphyseal dysplasia	MONDO:0016648	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Alkaptonuria	MONDO:0008753	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Marshall syndrome	MONDO:0007949	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Marshall syndrome	MONDO:0018540	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

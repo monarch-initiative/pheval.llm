@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GNAO1-related neurodevelopmental disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Alternating hemiplegia of childhood (ATP1A3-related disorder)	MONDO:0013900	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Hyperekplexia (GLRA1 or other related gene mutations)	MONDO:0007868	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	EIEE7 (CDKL5 disorder)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Rett syndrome (MECP2-related disorder)	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

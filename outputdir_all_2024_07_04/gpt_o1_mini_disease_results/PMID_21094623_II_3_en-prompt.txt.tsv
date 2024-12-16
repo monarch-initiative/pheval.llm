@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Huntington Disease	MONDO:0016621	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Wilson Disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Neuroacanthocytosis Syndrome	MONDO:0016987	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Juvenile Parkinson Disease	MONDO:0014231	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Pantothenate Kinase-Associated Neurodegeneration (PKAN)	MONDO:0009319	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+6	Dopa-Responsive Dystonia	MONDO:0016812	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+7	Multiple System Atrophy	MONDO:0007803	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+8	PLA2G6-Associated Neurodegeneration	MONDO:0017998	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

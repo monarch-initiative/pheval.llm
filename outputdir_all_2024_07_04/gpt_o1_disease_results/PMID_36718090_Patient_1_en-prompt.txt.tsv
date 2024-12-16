@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Megalencephaly-capillary malformation-polymicrogyria (MCAP) syndrome	MONDO:0011240	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+2	Sturge-Weber syndrome	MONDO:0008501	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False
+3	Macrocephaly-cutis marmorata telangiectatica congenita syndrome	MONDO:0011240	('OMIM:620416', 'Spastic paraplegia 90A, autosomal dominant')	0.0	False

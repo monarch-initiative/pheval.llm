@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Myoclonic Epilepsy (JME)	MONDO:0009696	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+2	Lafora Disease	MONDO:0009697	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.5	True
+3	Progressive Myoclonus Epilepsy (PME)	MONDO:0020074	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.5	True
+4	Unverricht-Lundborg Disease (EPM1)	N/A	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+5	Neuronal Ceroid Lipofuscinosis (NCL)	MONDO:0850001	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False

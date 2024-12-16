@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Glycogen storage disease type I (von Gierke disease)	MONDO:0002413	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Congenital hyperinsulinism	MONDO:0017182	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Congenital hyperinsulinism	MONDO:0019010	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Mitochondrial disorders (e.g., mitochondrial DNA depletion syndromes)	MONDO:0018158	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Disorders of fatty acid oxidation (e.g., Medium-chain acyl-CoA dehydrogenase deficiency, MCAD)	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+5	Maple syrup urine disease (branched-chain ketoaciduria)	MONDO:0009563	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+6	Organic acidemias (e.g., methylmalonic acidemia, propionic acidemia)	MONDO:0011628	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+7	Urea cycle disorders (e.g., ornithine transcarbamylase deficiency)	MONDO:0004739	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+8	Hereditary fructose intolerance	MONDO:0009249	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

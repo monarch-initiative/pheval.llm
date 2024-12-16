@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary ciliary dyskinesia (Kartagener syndrome)	MONDO:0012087	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False
+2	Heterotaxy syndrome (without the specified excluded abnormalities)	MONDO:0015296	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False
+3	Congenital ciliary dysfunction (rare variant without lower respiratory tract infections)	N/A	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False

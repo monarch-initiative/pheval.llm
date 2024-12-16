@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry to hear about the challenges this child is facing. It's important to consult a qualified healthcare professional for an accurate diagnosis and appropriate support.	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

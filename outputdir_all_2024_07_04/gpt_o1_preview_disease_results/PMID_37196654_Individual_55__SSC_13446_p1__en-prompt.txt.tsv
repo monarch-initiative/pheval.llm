@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autism Spectrum Disorder (without intellectual disability)	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+2	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+3	CHD8-Related Autism Spectrum Disorder	N/A	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+4	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+5	Fragile X Syndrome	MONDO:0010383	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False
+6	Timothy Syndrome	MONDO:0010979	('OMIM:618505', 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities')	0.0	False

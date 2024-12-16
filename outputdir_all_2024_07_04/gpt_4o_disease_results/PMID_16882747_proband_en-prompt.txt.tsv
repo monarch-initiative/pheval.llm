@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital hypothyroidism	MONDO:0018612	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+2	Bamforth-Lazarus syndrome	MONDO:0009437	('OMIM:241850', 'Bamforth-Lazarus syndrome')	1.0	True
+3	DiGeorge syndrome	MONDO:0008564	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+3	DiGeorge syndrome	MONDO:0018923	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+4	Pendred syndrome	MONDO:0010134	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False
+5	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:241850', 'Bamforth-Lazarus syndrome')	0.0	False

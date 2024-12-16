@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated hypoparathyroidism	N/A	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+2	Autosomal Dominant Hypocalcemia (ADH)	MONDO:0018543	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+3	Hypoparathyroidism-Retardation-Dysmorphism (HRD) Syndrome	N/A	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	Hypoparathyroidism, Sensorineural Deafness, and Renal Dysplasia (HDR) Syndrome	MONDO:0007797	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+5	Pseudohypoparathyroidism	MONDO:0019992	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+6	DiGeorge Syndrome (22q11.2 Deletion Syndrome)	MONDO:0012020	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Niemann-Pick disease type C	MONDO:0018982	('OMIM:257220', 'Niemann-Pick disease, type C1')	0.5	True
+2	Tay-Sachs disease	MONDO:0010100	('OMIM:257220', 'Niemann-Pick disease, type C1')	0.0	False
+3	Gaucher disease	MONDO:0018150	('OMIM:257220', 'Niemann-Pick disease, type C1')	0.0	False
+4	Fabry disease	MONDO:0010526	('OMIM:257220', 'Niemann-Pick disease, type C1')	0.0	False
+5	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:257220', 'Niemann-Pick disease, type C1')	0.0	False
+5	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:257220', 'Niemann-Pick disease, type C1')	0.0	False

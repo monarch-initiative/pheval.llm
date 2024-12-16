@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GM1 gangliosidosis type I	MONDO:0009260	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+2	Krabbe disease	MONDO:0009499	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+3	Sandhoff disease	MONDO:0010006	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+4	Tay-Sachs disease	MONDO:0010100	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+5	Mucopolysaccharidosis type II (Hunter syndrome)	MONDO:0001586	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+6	Multiple sulfatase deficiency	MONDO:0010088	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+7	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False
+8	Spastic paraplegia type 11 (SPG11)	MONDO:0011445	('OMIM:617527', 'Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies')	0.0	False

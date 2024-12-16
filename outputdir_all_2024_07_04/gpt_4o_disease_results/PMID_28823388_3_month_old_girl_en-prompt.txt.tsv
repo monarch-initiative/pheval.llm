@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.5	True
+2	DiGeorge Syndrome (22q11.2 Deletion Syndrome)	MONDO:0012020	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+3	Purine Nucleoside Phosphorylase (PNP) Deficiency	MONDO:0013171	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+4	Adenosine Deaminase (ADA) Deficiency-associated SCID	MONDO:0007064	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	1.0	True
+5	Omenn Syndrome	MONDO:0011338	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	3-Hydroxy-3-methylglutaryl-CoA lyase deficiency	MONDO:0009520	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Mitochondrial HMG-CoA synthase deficiency	MONDO:0011614	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	1.0	True
+3	Carnitine palmitoyltransferase I deficiency	MONDO:0009705	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Medium-chain acyl-CoA dehydrogenase deficiency	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

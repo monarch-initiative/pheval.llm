@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteopetrosis	MONDO:0017198	('OMIM:139210', 'Myhre syndrome')	0.0	False
+2	Spondyloepiphyseal Dysplasia Congenita	MONDO:0008471	('OMIM:139210', 'Myhre syndrome')	0.0	False
+3	Mucopolysaccharidosis (MPS) Type II (Hunter Syndrome)	MONDO:0016315	('OMIM:139210', 'Myhre syndrome')	0.0	False
+4	Larsen Syndrome	MONDO:0007875	('OMIM:139210', 'Myhre syndrome')	0.0	False
+5	Stickler Syndrome	MONDO:0019354	('OMIM:139210', 'Myhre syndrome')	0.0	False

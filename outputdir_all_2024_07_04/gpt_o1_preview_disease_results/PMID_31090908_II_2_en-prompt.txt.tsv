@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile-onset Amyotrophic Lateral Sclerosis (ALS)	MONDO:0017593	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+2	Hereditary Spastic Paraplegia (HSP)	MONDO:0019064	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+3	Distal Hereditary Motor Neuropathy	MONDO:0018894	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.5	True

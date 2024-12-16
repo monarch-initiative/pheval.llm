@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chondrodysplasia punctata type II (Conradi-Hünermann syndrome)	MONDO:0020603	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Larsen syndrome	MONDO:0007875	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Stickler syndrome	MONDO:0019354	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Down syndrome (Trisomy 21)	MONDO:0700126	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Nance-Horan syndrome	MONDO:0010545	('OMIM:600373', 'CODAS syndrome')	0.0	False

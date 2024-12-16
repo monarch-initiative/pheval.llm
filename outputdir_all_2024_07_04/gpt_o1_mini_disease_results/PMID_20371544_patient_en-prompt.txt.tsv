@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Myasthenic Syndrome	MONDO:0018940	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.5	True
+2	Spinal Muscular Atrophy	MONDO:0001516	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+2	Spinal Muscular Atrophy	MONDO:0019079	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+3	Duchenne Muscular Dystrophy	MONDO:0010679	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+4	Nemaline Myopathy	MONDO:0018958	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+5	Mitochondrial Myopathy	MONDO:0009637	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+6	Limb-Girdle Muscular Dystrophy	MONDO:0016971	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+7	Congenital Muscular Dystrophy	MONDO:0019950	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+8	Becker Muscular Dystrophy	MONDO:0010311	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+9	Myotonic Dystrophy	MONDO:0016107	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+9	Myotonic Dystrophy	MONDO:0008056	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+10	Lambert-Eaton Myasthenic Syndrome	MONDO:0018556	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False

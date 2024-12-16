@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial DNA Depletion Syndrome 13 (encephalomyopathic type) due to FBXL4 mutations	MONDO:0014198	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	1.0	True
+2	Mitochondrial DNA Depletion Syndrome 9 (encephalomyopathic type) due to SUCLG1 mutations	MONDO:0014175	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+3	Mitochondrial DNA Depletion Syndrome 2 (hepatocerebral type) due to MPV17 mutations	MONDO:0009747	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+4	Mitochondrial Complex I Deficiency due to NDUFAF5 mutations	MONDO:0032620	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	0.0	False
+5	Mitochondrial DNA Depletion Syndrome 4B (encephalomyopathic type) due to TK2 mutations	MONDO:0014198	('OMIM:615471', 'Mitochondrial DNA depletion syndrome 13 (encephalomyopathic type)')	1.0	True

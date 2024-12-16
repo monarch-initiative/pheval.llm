@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PASH syndrome (Pyoderma Gangrenosum, Acne, Suppurative Hidradenitis)	MONDO:0011462	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	PAPASH syndrome (Pyogenic Arthritis, Pyoderma Gangrenosum, Acne, Suppurative Hidradenitis)	MONDO:0011462	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Crohn's disease with extraintestinal manifestations	N/A	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Behçet's disease	MONDO:0007191	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+5	Hyper-IgE syndrome (Job's syndrome)	MONDO:0018037	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+6	Common Variable Immunodeficiency	MONDO:0015517	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+7	SAPHO syndrome (Synovitis, Acne, Pustulosis, Hyperostosis, Osteitis)	MONDO:0019266	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+8	Chronic Granulomatous Disease	MONDO:0018305	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

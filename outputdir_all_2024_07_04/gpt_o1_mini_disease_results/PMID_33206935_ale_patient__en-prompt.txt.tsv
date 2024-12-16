@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+2	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+3	Marfan Syndrome	MONDO:0007947	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+4	Friedrich's Ataxia	MONDO:0100339	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+5	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SATB2-associated syndrome	MONDO:0012864	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+1	SATB2-associated syndrome	MONDO:0100147	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	1p36 deletion syndrome	MONDO:0011929	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+2	Patau Syndrome (Trisomy 13)	N/A	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+3	Congenital Alpha Thalassemia Major (Hydrops Fetalis)	N/A	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+4	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False
+5	Congenital Lymphatic Dysplasia	MONDO:0009933	('OMIM:620371', 'Neurodevelopmental disorder with intracranial hemorrhage, seizures, and spasticity')	0.0	False

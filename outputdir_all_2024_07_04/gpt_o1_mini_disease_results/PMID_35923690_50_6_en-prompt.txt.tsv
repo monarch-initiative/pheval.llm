@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Adenosine Deaminase Deficiency	MONDO:0007064	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False
+2	Myelodysplastic Syndrome	MONDO:0044873	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False
+2	Myelodysplastic Syndrome	MONDO:0018881	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False
+3	Paroxysmal Nocturnal Hemoglobinuria	MONDO:0100244	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False
+4	Vitamin B12 Deficiency	MONDO:0020696	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False
+5	Hemolytic Anemia Associated with Colon Cancer	N/A	('OMIM:105650', 'Diamond-Blackfan anemia 1')	0.0	False

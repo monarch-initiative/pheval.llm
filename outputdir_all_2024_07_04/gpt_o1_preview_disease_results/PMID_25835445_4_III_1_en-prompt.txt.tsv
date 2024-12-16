@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beals syndrome (Congenital Contractural Arachnodactyly)	MONDO:0007363	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Stickler syndrome	MONDO:0019354	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+4	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.5	True
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

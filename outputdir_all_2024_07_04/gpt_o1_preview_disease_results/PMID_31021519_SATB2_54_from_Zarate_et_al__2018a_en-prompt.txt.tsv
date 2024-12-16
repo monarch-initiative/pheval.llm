@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Velocardiofacial syndrome (22q11.2 deletion syndrome)	MONDO:0008644	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Kabuki syndrome	MONDO:0016512	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Kabuki syndrome	MONDO:0007843	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Oral-facial-digital syndrome	MONDO:0015375	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Stickler syndrome	MONDO:0019354	('OMIM:612313', 'Glass syndrome')	0.0	False
+8	Nager syndrome	MONDO:0007943	('OMIM:612313', 'Glass syndrome')	0.0	False
+9	Treacher Collins syndrome	MONDO:0002457	('OMIM:612313', 'Glass syndrome')	0.0	False
+9	Treacher Collins syndrome	MONDO:0007944	('OMIM:612313', 'Glass syndrome')	0.0	False
+10	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False

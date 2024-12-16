@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Myasthenia Gravis	MONDO:0018325	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+2	Congenital Myasthenic Syndromes	MONDO:0018940	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+3	Mitochondrial Myopathy	MONDO:0009637	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+4	Spinal Muscular Atrophy	MONDO:0001516	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+4	Spinal Muscular Atrophy	MONDO:0019079	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+5	Chronic Progressive External Ophthalmoplegia	MONDO:0005181	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False

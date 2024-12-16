@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rhabdoid tumor predisposition syndrome	MONDO:0020560	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+1	Rhabdoid tumor predisposition syndrome	MONDO:0016473	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.5	True
+2	Li-Fraumeni syndrome	MONDO:0018875	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+3	SMARCA4-related rhabdoid tumor predisposition syndrome	MONDO:0013224	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False

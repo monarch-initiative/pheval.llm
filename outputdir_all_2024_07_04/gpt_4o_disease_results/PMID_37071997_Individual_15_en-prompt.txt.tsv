@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	ATR-X syndrome (Alpha-thalassemia/mental retardation syndrome, X-linked)	MONDO:0010519	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Sotos syndrome	MONDO:0019349	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+6	Klinefelter syndrome	MONDO:0006823	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+7	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+8	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

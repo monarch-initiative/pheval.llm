@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Retinitis Pigmentosa	MONDO:0008377	('OMIM:601414', 'Retinitis pigmentosa 18')	0.0	False
+1	Retinitis Pigmentosa	MONDO:0019200	('OMIM:601414', 'Retinitis pigmentosa 18')	0.5	True
+2	Usher Syndrome	MONDO:0019501	('OMIM:601414', 'Retinitis pigmentosa 18')	0.0	False
+3	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:601414', 'Retinitis pigmentosa 18')	0.0	False
+3	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:601414', 'Retinitis pigmentosa 18')	0.0	False
+4	Choroideremia	MONDO:0010557	('OMIM:601414', 'Retinitis pigmentosa 18')	0.0	False
+5	Gyrate Atrophy of the Choroid and Retina	N/A	('OMIM:601414', 'Retinitis pigmentosa 18')	0.0	False

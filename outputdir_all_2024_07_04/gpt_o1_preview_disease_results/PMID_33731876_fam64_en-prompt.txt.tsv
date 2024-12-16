@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SLC6A1-related neurodevelopmental disorder	MONDO:0859761	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	SCN2A-related neurodevelopmental disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	STXBP1 encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Fragile X syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	CHD2-related epileptic encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	SYNGAP1-related intellectual disability	MONDO:0012960	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	KIAA2022-related intellectual disability	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	GRIN2B-related neurodevelopmental disorder	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

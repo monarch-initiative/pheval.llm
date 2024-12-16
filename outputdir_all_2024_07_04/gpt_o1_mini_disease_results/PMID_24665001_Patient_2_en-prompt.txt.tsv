@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:616914', 'Marfan lipodystrophy syndrome')	0.0	False
+2	Hutchinson-Gilford Progeria Syndrome	MONDO:0008310	('OMIM:616914', 'Marfan lipodystrophy syndrome')	0.0	False
+3	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:616914', 'Marfan lipodystrophy syndrome')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:616914', 'Marfan lipodystrophy syndrome')	0.0	False
+5	Shprintzen-Goldberg Syndrome	MONDO:0008426	('OMIM:616914', 'Marfan lipodystrophy syndrome')	0.0	False
+6	Berardinelli-Seip Congenital Lipodystrophy	MONDO:0018883	('OMIM:616914', 'Marfan lipodystrophy syndrome')	0.0	False

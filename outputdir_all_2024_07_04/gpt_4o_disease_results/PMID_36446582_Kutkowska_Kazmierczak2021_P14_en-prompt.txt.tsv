@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sotos syndrome	MONDO:0019349	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Kleefstra syndrome	MONDO:0012455	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Kleefstra syndrome	MONDO:0027407	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	22q13.3 deletion syndrome (Phelan-McDermid syndrome)	MONDO:0011652	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:148050', 'KBG syndrome')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital disorder of glycosylation type IIa (MGAT2 deficiency)	MONDO:0005501	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.5	True
+2	Congenital disorder of glycosylation type IIb	MONDO:0011629	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+3	POMT1-related congenital muscular dystrophy	MONDO:0700075	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+4	Congenital disorder of glycosylation type IIc	MONDO:0009953	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False

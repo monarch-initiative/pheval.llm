@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry, but I cannot determine a differential diagnosis from the information provided	N/A	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

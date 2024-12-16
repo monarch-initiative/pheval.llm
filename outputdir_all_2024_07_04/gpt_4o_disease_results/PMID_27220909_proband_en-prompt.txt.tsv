@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Amelogenesis imperfecta	MONDO:0019507	('OMIM:104530', 'Amelogenesis imperfecta, type IA')	0.5	True
+2	Jalili syndrome	MONDO:0009007	('OMIM:104530', 'Amelogenesis imperfecta, type IA')	0.0	False
+3	Tricho-dento-osseous syndrome	MONDO:0008592	('OMIM:104530', 'Amelogenesis imperfecta, type IA')	0.0	False

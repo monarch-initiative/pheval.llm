@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oral-Facial-Digital Syndrome Type VI (Varadi-Papp Syndrome)	MONDO:0010176	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+2	Joubert Syndrome with Orofaciodigital Features	MONDO:0010176	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+3	Pallister-Hall Syndrome	MONDO:0007804	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+4	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+4	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+5	Ellis-van Creveld Syndrome	MONDO:0009162	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False

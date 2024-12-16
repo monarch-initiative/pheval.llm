@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Griscelli syndrome type 1	MONDO:0008962	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	Tietz syndrome	MONDO:0007077	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Chédiak-Higashi syndrome	MONDO:0008963	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	Waardenburg syndrome type IV (PCWH syndrome)	MONDO:0012198	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Hermansky-Pudlak syndrome	MONDO:0019312	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Hermansky-Pudlak syndrome	MONDO:0030903	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

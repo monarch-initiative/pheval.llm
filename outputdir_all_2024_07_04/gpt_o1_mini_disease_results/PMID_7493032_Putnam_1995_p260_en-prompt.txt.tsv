@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Larsen syndrome	MONDO:0007875	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+2	Freeman-Sheldon syndrome	MONDO:0008675	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Multiple pterygium syndrome	MONDO:0009926	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Multiple pterygium syndrome	MONDO:0017415	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Escobar variant of arthrogryposis multiplex congenita	N/A	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+5	Brachmann-de Lange syndrome	MONDO:0007387	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+5	Brachmann-de Lange syndrome	MONDO:0016033	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False

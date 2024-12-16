@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Limb-Girdle Muscular Dystrophy type 2I (LGMDR9) due to FKRP mutations	MONDO:0011787	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+2	Limb-Girdle Muscular Dystrophy due to POMT1 mutations (MDDGC1)	MONDO:0014489	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+3	Limb-Girdle Muscular Dystrophy due to POMT2 mutations (MDDGC2)	MONDO:0014489	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+4	Limb-Girdle Muscular Dystrophy due to POMGNT1 mutations (MDDGC3)	MONDO:0014489	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+5	DNM2-related Centronuclear Myopathy	MONDO:0008048	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+6	Becker Muscular Dystrophy	MONDO:0010311	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False

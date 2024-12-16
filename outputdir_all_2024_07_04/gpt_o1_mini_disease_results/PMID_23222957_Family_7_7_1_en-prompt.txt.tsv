@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chediak-Higashi Syndrome	MONDO:0008963	('OMIM:242840', 'Vici syndrome')	0.0	False
+2	Hermansky-Pudlak Syndrome	MONDO:0030903	('OMIM:242840', 'Vici syndrome')	0.0	False
+2	Hermansky-Pudlak Syndrome	MONDO:0019312	('OMIM:242840', 'Vici syndrome')	0.0	False
+3	Griscelli Syndrome	MONDO:0018306	('OMIM:242840', 'Vici syndrome')	0.0	False
+4	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:242840', 'Vici syndrome')	0.0	False
+5	Marinesco-Sjögren Syndrome	MONDO:0009567	('OMIM:242840', 'Vici syndrome')	0.0	False
+6	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:242840', 'Vici syndrome')	0.0	False
+7	Leigh Syndrome	MONDO:0009723	('OMIM:242840', 'Vici syndrome')	0.0	False
+8	Perrault Syndrome	MONDO:0017312	('OMIM:242840', 'Vici syndrome')	0.0	False

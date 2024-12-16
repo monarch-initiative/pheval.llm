@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Dilated Cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+1	Familial Dilated Cardiomyopathy	MONDO:0005021	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+2	Lamin A/C (LMNA) mutation-associated cardiomyopathy	MONDO:0007269	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	1.0	True
+3	Desmoplakin-related cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	MYH7-related cardiomyopathy	MONDO:0008647	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

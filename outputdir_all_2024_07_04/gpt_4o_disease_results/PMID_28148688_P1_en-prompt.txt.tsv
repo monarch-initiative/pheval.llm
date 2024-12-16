@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Achondroplasia	MONDO:0007037	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+2	Thanatophoric Dysplasia	MONDO:0017042	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+2	Thanatophoric Dysplasia	MONDO:0008546	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+3	Hypochondroplasia	MONDO:0007793	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+4	Mucopolysaccharidosis Type IV (Morquio Syndrome)	MONDO:0018938	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+5	Spondyloepiphyseal Dysplasia Congenita	MONDO:0008471	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+6	Schimke Immuno-osseous Dysplasia	MONDO:0009458	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False

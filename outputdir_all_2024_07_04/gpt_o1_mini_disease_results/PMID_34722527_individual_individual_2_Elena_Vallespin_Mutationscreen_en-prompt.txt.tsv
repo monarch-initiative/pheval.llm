@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cystic Fibrosis	MONDO:0009061	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Sickle Cell Disease	MONDO:0011382	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Hemophilia A	MONDO:0010602	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	Hemophilia B	MONDO:0010604	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Marfan Syndrome	MONDO:0007947	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+6	Familial Hypercholesterolemia	MONDO:0005439	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal Arthrogryposis	MONDO:0019942	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.5	True
+2	Larsen Syndrome	MONDO:0007875	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+3	Freeman-Sheldon Syndrome	MONDO:0008675	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+4	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+5	Multiple Pterygium Syndrome	MONDO:0009926	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+5	Multiple Pterygium Syndrome	MONDO:0017415	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+6	Holt-Oram Syndrome	MONDO:0007732	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+7	Roberts Syndrome	MONDO:0100253	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False

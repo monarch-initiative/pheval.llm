@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Arthrogryposis multiplex congenita	MONDO:0015168	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+1	Arthrogryposis multiplex congenita	MONDO:0007157	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+2	Spinal muscular atrophy	MONDO:0001516	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+2	Spinal muscular atrophy	MONDO:0019079	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+3	Congenital myopathy	MONDO:0019952	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+4	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+5	Congenital myasthenic syndrome	MONDO:0018940	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False

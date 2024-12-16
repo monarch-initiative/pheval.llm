@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Campomelic Dysplasia	MONDO:0007251	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Larsen Syndrome	MONDO:0007875	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Ellis-van Creveld Syndrome	MONDO:0009162	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Bohring-Opitz Syndrome	MONDO:0011510	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Multiple Epiphyseal Dysplasia (MED)	MONDO:0016648	('OMIM:600373', 'CODAS syndrome')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Hypomagnesemia with Hypercalciuria and Nephrocalcinosis (FHHNC)	MONDO:0017624	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+2	Medullary Sponge Kidney	MONDO:0015268	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Cystinuria	MONDO:0009067	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Type 1 (Distal) Renal Tubular Acidosis, Inherited Form	MONDO:0012700	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+6	Bartter Syndrome	MONDO:0015231	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+7	Sjogren's Syndrome	MONDO:0010030	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

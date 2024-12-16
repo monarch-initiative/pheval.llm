@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated Brachydactyly	MONDO:0017424	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+2	Brachydactyly Type A1	MONDO:0007215	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+3	Brachydactyly Type E	MONDO:0019677	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+4	Acrodysostosis	MONDO:0019797	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+5	Synpolydactyly	MONDO:0021651	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+5	Synpolydactyly	MONDO:0000722	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False

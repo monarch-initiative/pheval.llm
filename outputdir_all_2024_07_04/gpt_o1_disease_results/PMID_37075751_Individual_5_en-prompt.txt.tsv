@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0008104	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+1	Noonan syndrome	MONDO:0018997	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+2	Congenital myotonic dystrophy	MONDO:0023595	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+3	Congenital myasthenic syndrome	MONDO:0018940	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	TUBB3-related congenital fibrosis of the extraocular muscles	MONDO:0010912	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+5	Costello syndrome	MONDO:0009026	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False

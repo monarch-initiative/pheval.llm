@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital generalized lipodystrophy type 4	MONDO:0013225	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+2	LMNA-related muscular dystrophy with lipodystrophy	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+3	Congenital generalized lipodystrophy type 2	MONDO:0010020	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

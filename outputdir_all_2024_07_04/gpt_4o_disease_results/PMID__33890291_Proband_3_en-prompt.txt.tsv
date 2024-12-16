@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome	MONDO:0008608	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+2	Turner syndrome	MONDO:0019499	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+3	Trisomy 18 (Edwards syndrome)	N/A	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+5	Patau syndrome (Trisomy 13)	N/A	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+6	Zellweger syndrome	MONDO:0019609	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+7	Congenital hypothyroidism	MONDO:0018612	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+8	DiGeorge syndrome (22q11.2 deletion syndrome)	MONDO:0012020	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False

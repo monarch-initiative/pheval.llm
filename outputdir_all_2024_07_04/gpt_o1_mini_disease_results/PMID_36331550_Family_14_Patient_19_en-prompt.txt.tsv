@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autism Spectrum Disorder	MONDO:0005260	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+1	Autism Spectrum Disorder	MONDO:0005258	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	Fragile X Syndrome	MONDO:0010383	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	Rett Syndrome	MONDO:0010726	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	Williams Syndrome	MONDO:0008678	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+5	Developmental Coordination Disorder	MONDO:0004922	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+6	Specific Language Impairment	MONDO:0010821	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+6	Specific Language Impairment	MONDO:0000724	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

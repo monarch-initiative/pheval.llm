@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	IL-12 receptor beta-1 deficiency	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+2	Interferon gamma receptor 1 deficiency	MONDO:0020530	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+3	Chronic granulomatous disease	MONDO:0018305	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+4	IL-12 p40 deficiency	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Friedreich ataxia	MONDO:0100340	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+1	Friedreich ataxia	MONDO:0100339	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	Early-onset spinocerebellar ataxia	MONDO:0060758	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	Ataxia with oculomotor apraxia type 2	MONDO:0018996	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	Mitochondrial encephalopathy (e.g., mitochondrial DNA depletion syndrome)	MONDO:0016796	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+5	Niemann-Pick disease type C	MONDO:0018982	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

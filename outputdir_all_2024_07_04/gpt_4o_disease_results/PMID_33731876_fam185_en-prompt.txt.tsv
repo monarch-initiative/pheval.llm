@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Glucose transporter type 1 deficiency syndrome (GLUT1-DS)	MONDO:0000188	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Early infantile epileptic encephalopathy (EIEE)	MONDO:0012812	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	KCNQ2 encephalopathy	MONDO:0013387	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	PCDH19-related epilepsy	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	FG Syndrome (Opitz–Kaveggia Syndrome)	N/A	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Megalencephaly-Capillary Malformation Syndrome (MCAP)	MONDO:0011240	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Walker-Warburg Syndrome	MONDO:0000171	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Joubert Syndrome	MONDO:0018772	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Joubert Syndrome	MONDO:0008944	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+6	Pontocerebellar Hypoplasia	MONDO:0020135	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pontocerebellar hypoplasia type 6	MONDO:0012683	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+2	Zellweger spectrum disorders	MONDO:0019609	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+2	Zellweger spectrum disorders	MONDO:0019234	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+4	Joubert syndrome	MONDO:0018772	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+4	Joubert syndrome	MONDO:0008944	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False
+5	MECP2 duplication syndrome	MONDO:0010283	('OMIM:620455', 'Neurodevelopmental disorder with hypotonia and speech delay, with or without seizures')	0.0	False

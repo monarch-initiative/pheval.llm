@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Genetic epilepsy with febrile seizures plus (GEFS+)	MONDO:0018214	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Benign familial infantile epilepsy (BFIE)	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+3	Autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE)	MONDO:0020300	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Benign partial epilepsy with frontal spikes	MONDO:0015641	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

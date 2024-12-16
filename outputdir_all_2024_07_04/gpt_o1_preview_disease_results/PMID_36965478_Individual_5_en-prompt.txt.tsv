@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia type 47 (SPG47)	MONDO:0013342	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+2	Hereditary spastic paraplegia type 50 (SPG50)	MONDO:0011992	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+3	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+4	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+4	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+5	Krabbe disease	MONDO:0009499	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+6	Glucose transporter type 1 deficiency syndrome	MONDO:0011724	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False

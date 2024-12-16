@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SLC6A1-related disorder	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	TUBA1A-related disorder	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	STXBP1 encephalopathy	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	ARX-related disorders	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	SPTAN1-related disorder	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+7	SCN2A-related disorder	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

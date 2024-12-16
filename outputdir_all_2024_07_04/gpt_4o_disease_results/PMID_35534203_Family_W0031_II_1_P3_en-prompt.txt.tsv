@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary ciliary dyskinesia (Kartagener syndrome)	MONDO:0012087	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+2	Cystic fibrosis	MONDO:0009061	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+3	Young syndrome	MONDO:0010220	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+4	Congenital bilateral absence of the vas deferens (CBAVD)	MONDO:0018801	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False
+5	Idiopathic asthenozoospermia	N/A	('OMIM:620744', 'Spermatogenic failure 90')	0.0	False

@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-ketotic hyperglycinemia (Glycine encephalopathy)	MONDO:0017353	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Aromatic L-amino acid decarboxylase (AADC) deficiency	MONDO:0012084	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Krabbe disease (Globoid cell leukodystrophy)	MONDO:0009499	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Tyrosine hydroxylase deficiency	MONDO:0100064	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Tyrosine hydroxylase deficiency	MONDO:0011551	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	GABA-transaminase deficiency	MONDO:0013166	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Leigh syndrome (subacute necrotizing encephalomyelopathy)	MONDO:0008069	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Menkes disease	MONDO:0010651	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Zellweger spectrum disorder	MONDO:0019234	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	GABA transporter type 1 deficiency	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Maple syrup urine disease	MONDO:0009563	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

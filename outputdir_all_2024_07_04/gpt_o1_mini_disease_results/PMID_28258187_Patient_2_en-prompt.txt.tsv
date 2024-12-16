@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dandy-Walker malformation	MONDO:0009072	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+3	Polymicrogyria-associated disorders	N/A	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+4	Walker-Warburg syndrome	MONDO:0000171	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+5	Alexander disease	MONDO:0008752	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+6	Tuberous sclerosis complex	MONDO:0008612	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+6	Tuberous sclerosis complex	MONDO:0001734	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+7	Congenital Zika syndrome	MONDO:0018661	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+7	Congenital Zika syndrome	MONDO:0000890	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+8	Aicardi syndrome	MONDO:0010568	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+9	Megalencephalic leukoencephalopathy	MONDO:0011391	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+10	Lissencephaly	MONDO:0018838	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False

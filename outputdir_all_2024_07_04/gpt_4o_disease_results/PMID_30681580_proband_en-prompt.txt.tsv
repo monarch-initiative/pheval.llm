@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pseudoachondroplasia	MONDO:0008322	('OMIM:146000', 'Hypochondroplasia')	0.0	False
+2	Hypochondroplasia	MONDO:0007793	('OMIM:146000', 'Hypochondroplasia')	1.0	True
+3	Metaphyseal chondrodysplasia, Schmid type	MONDO:0007983	('OMIM:146000', 'Hypochondroplasia')	0.0	False
+4	Multiple epiphyseal dysplasia	MONDO:0016648	('OMIM:146000', 'Hypochondroplasia')	0.0	False
+5	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:146000', 'Hypochondroplasia')	0.0	False

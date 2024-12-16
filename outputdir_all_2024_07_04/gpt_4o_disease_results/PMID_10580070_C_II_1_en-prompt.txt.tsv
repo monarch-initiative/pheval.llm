@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Lamin A/C-related dilated cardiomyopathy (LMNA-associated DCM)	MONDO:0007269	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	1.0	True
+2	Familial dilated cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+2	Familial dilated cardiomyopathy	MONDO:0005021	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+3	Desminopathy (DES gene-related myopathy)	MONDO:0011076	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Myosin-binding protein C3-associated cardiomyopathy (MYBPC3-associated DCM)	MONDO:0800368	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Titin-associated dilated cardiomyopathy (TTN-associated DCM)	MONDO:0011400	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

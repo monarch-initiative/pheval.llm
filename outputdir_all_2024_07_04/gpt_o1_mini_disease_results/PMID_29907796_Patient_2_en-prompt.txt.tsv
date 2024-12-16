@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert Syndrome	MONDO:0018772	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+1	Joubert Syndrome	MONDO:0008944	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+2	Alport Syndrome	MONDO:0018965	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+3	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+3	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+4	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+5	Nephronophthisis	MONDO:0019005	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False
+6	Lowe Syndrome	MONDO:0010645	('OMIM:614608', 'Coffin-Siris syndrome 3')	0.0	False

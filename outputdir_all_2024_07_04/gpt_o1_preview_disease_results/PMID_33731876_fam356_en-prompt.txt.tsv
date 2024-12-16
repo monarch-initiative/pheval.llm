@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Smith-Magenis syndrome	MONDO:0008434	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	SHANK3-related disorders	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

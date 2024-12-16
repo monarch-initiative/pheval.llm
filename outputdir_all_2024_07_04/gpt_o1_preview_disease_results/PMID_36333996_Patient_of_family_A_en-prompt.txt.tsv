@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pantothenate kinase-associated neurodegeneration (PKAN)	MONDO:0009319	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+2	Leigh syndrome	MONDO:0009723	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+3	Krabbe disease	MONDO:0009499	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+4	Glutaric acidemia type I	MONDO:0009281	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False
+5	Infantile neuroaxonal dystrophy (INAD)	N/A	('OMIM:620427', 'Dystonia 37, early-onset, with striatal lesions')	0.0	False

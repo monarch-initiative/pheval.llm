@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Neonatal Seizures	MONDO:0016027	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Benign Familial Infantile Seizures	MONDO:0017615	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.5	True
+3	Self-Limited Focal Epilepsy of Infancy	MONDO:0100023	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Focal Cortical Dysplasia	MONDO:0019009	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Perinatal Arterial Ischemic Stroke	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+6	Hypocalcemia-Induced Seizures	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+7	Structural Brain Lesions without Neurodevelopmental Impact	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

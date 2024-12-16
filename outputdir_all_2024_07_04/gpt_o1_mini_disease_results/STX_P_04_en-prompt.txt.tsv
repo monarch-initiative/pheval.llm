@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara Syndrome (Early Infantile Epileptic Encephalopathy)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	West Syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	STXBP1 Encephalopathy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	CDKL5 Disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Rett Syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Dravet Syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Dravet Syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Severe Myoclonic Epilepsy of Infancy (SMEI)	MONDO:0016022	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Neurodegeneration with Brain Iron Accumulation	MONDO:0018307	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

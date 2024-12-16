@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Maturity-onset diabetes of the young (MODY)	MONDO:0018911	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.5	True
+2	Fanconi-Bickel syndrome	MONDO:0009216	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+3	Renal glycosuria	MONDO:0009297	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+4	Type 1 diabetes mellitus	MONDO:0005147	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+4	Type 1 diabetes mellitus	MONDO:0009100	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+5	Type 2 diabetes mellitus	MONDO:0005148	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False

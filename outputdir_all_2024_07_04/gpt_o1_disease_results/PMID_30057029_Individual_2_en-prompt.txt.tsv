@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+2	Chromosome 15q duplication syndrome	MONDO:0016965	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+4	SYNGAP1-related intellectual disability	MONDO:0012960	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False
+5	SCN2A-related neurodevelopmental disorder	N/A	('OMIM:618089', 'Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities')	0.0	False

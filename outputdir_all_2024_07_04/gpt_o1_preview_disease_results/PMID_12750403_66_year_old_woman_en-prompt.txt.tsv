@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Sick Sinus Syndrome	MONDO:0012061	('OMIM:163800', 'Sick sinus syndrome 2')	0.5	True
+2	Lamin A/C Cardiomyopathy (LMNA mutation)	MONDO:0007269	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+3	Familial Progressive Cardiac Conduction Defect (Lenègre-Lev Disease)	N/A	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+4	SCN5A Mutation-Related Cardiac Conduction Disease	N/A	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False
+5	Kearns-Sayre Syndrome	MONDO:0010787	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False

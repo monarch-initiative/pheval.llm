@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Systemic sclerosis (scleroderma)	MONDO:0005100	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+2	Diabetic cheiroarthropathy	N/A	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+3	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+4	Dupuytren's disease	MONDO:0007476	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+5	Limited cutaneous systemic sclerosis	MONDO:0016358	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+5	Limited cutaneous systemic sclerosis	MONDO:0019563	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+6	Mixed connective tissue disease	MONDO:0005854	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+7	Scleromyxedema	MONDO:0015665	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+8	Stiff person syndrome	MONDO:0008491	('OMIM:184900', 'Stiff skin syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	FLNA-related periventricular nodular heterotopia	N/A	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+3	Marden-Walker syndrome	MONDO:0009564	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	Cutis marmorata telangiectatica congenita	MONDO:0009055	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	Walker-Warburg syndrome	MONDO:0000171	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+6	Lissencephaly	MONDO:0018838	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False

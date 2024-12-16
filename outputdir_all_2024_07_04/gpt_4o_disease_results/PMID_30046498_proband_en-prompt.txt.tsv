@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alagille syndrome	MONDO:0007318	('OMIM:118450', 'Alagille syndrome 1')	0.5	True
+2	Progressive familial intrahepatic cholestasis (PFIC)	MONDO:0015762	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+3	Biliary atresia	MONDO:0008867	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+4	Dubin-Johnson syndrome	MONDO:0009380	('OMIM:118450', 'Alagille syndrome 1')	0.0	False
+5	Rotor syndrome	MONDO:0009379	('OMIM:118450', 'Alagille syndrome 1')	0.0	False

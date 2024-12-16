@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive primary microcephaly (MCPH)	MONDO:0016660	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+2	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+3	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+4	Alexander disease	MONDO:0008752	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+5	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+6	Schinzel-Giedion syndrome	MONDO:0010010	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False
+7	Hypomyelination with atrophy of the basal ganglia and cerebellum (H-ABC)	MONDO:0012905	('OMIM:620504', 'Developmental and epileptic encephalopathy 111')	0.0	False

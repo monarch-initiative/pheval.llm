@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spastic Cerebral Palsy	MONDO:0000396	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+2	Pelizaeus-Merzbacher Disease	MONDO:0010714	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+3	Metachromatic Leukodystrophy	MONDO:0018868	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+3	Metachromatic Leukodystrophy	MONDO:0009591	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+4	Spinal Muscular Atrophy Type I	MONDO:0009669	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+5	GM1 Gangliosidosis	MONDO:0018149	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+6	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+7	Adrenoleukodystrophy	MONDO:0018544	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+7	Adrenoleukodystrophy	MONDO:0010247	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+8	Hypomyelination with Atrophy of the Basal Ganglia and Cerebellum (H-ABC)	N/A	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+9	Alexander Disease	MONDO:0008752	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False
+10	Canavan Disease	MONDO:0010079	('OMIM:617560', 'Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy')	0.0	False

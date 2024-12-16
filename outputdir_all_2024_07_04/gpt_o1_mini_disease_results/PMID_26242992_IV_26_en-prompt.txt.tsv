@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert Syndrome	MONDO:0018772	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+1	Joubert Syndrome	MONDO:0008944	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+2	Ataxic Cerebral Palsy	MONDO:0000397	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+2	Ataxic Cerebral Palsy	MONDO:0011548	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+3	Dandy-Walker Malformation	MONDO:0009072	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+4	Marinesco-Sjögren Syndrome	MONDO:0009567	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Rhombencephalosynapsis	MONDO:0018946	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+6	Congenital Cerebellar Hypoplasia	MONDO:0008939	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+7	Walker-Warburg Syndrome	MONDO:0000171	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+8	Mitochondrial Disorders (e.g., POLG-related)	N/A	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+9	Cerebellar Agenesis	MONDO:0022685	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+9	Cerebellar Agenesis	MONDO:0008939	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+10	Salla Disease	MONDO:0011449	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Huntington's disease	MONDO:0007739	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Niemann-Pick disease type C	MONDO:0018982	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Spinocerebellar ataxia	MONDO:0000437	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Spinocerebellar ataxia	MONDO:0020380	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Frontotemporal dementia with parkinsonism linked to chromosome 17 (FTDP-17)	N/A	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

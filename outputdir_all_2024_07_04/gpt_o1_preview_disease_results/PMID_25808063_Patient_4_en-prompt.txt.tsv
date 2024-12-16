@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Homocystinuria	MONDO:0004737	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Marfan syndrome	MONDO:0007947	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Hypophosphatasia	MONDO:0009948	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Hypophosphatasia	MONDO:0018570	('OMIM:600373', 'CODAS syndrome')	0.0	False

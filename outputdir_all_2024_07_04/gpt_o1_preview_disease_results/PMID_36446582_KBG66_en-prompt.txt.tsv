@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MED13L-related intellectual disability syndrome	MONDO:0100000	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Kleefstra syndrome	MONDO:0012455	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Kleefstra syndrome	MONDO:0027407	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	KAT6A syndrome	MONDO:0014558	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0016512	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0007843	('OMIM:148050', 'KBG syndrome')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurofibromatosis Type 1 (NF1)	MONDO:0018975	('OMIM:162200', 'Neurofibromatosis, type 1')	1.0	True
+2	Legius Syndrome	MONDO:0012669	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+3	Noonan Syndrome	MONDO:0008104	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+3	Noonan Syndrome	MONDO:0018997	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False
+4	McCune-Albright Syndrome	MONDO:0018919	('OMIM:162200', 'Neurofibromatosis, type 1')	0.0	False

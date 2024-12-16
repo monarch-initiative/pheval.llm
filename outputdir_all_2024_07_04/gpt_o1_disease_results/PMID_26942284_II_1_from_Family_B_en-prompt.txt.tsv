@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Parkinson disease type 1 (SNCA mutation)	MONDO:0011562	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+2	Parkinson disease type 2 (Parkin)	N/A	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+3	LRRK2-associated Parkinson disease	MONDO:0011764	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False
+4	PINK1-related Parkinson disease	MONDO:0011613	('OMIM:616840', 'Parkinson disease 23, autosomal recessive, early onset')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Griscelli syndrome type 1	MONDO:0008962	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	Chédiak-Higashi syndrome	MONDO:0008963	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Oculo-cerebral hypopigmentation syndrome type 1	MONDO:0009767	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	Menkes disease	MONDO:0010651	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

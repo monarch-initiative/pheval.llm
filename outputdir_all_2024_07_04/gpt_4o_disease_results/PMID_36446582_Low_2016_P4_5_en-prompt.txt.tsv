@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubenstein-Taybi syndrome	MONDO:0019188	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Brachydactyly-intellectual disability syndrome	MONDO:0010886	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Acrodontia, scapuloiliac dysostosis, and mental retardation syndrome	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Silver-Russell syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Pseudohypoparathyroidism type 1a	MONDO:0007078	('OMIM:148050', 'KBG syndrome')	0.0	False

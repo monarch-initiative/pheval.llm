@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Meckel-Gruber Syndrome	MONDO:0018921	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+1	Meckel-Gruber Syndrome	MONDO:0009571	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+2	Trisomy 13 (Patau Syndrome)	MONDO:0018068	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+3	Carpenter Syndrome	MONDO:0019012	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+3	Carpenter Syndrome	MONDO:0008710	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+4	Greig Cephalopolysyndactyly Syndrome	MONDO:0008287	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+5	Apert Syndrome	MONDO:0007041	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+6	Pfeiffer Syndrome	MONDO:0007043	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False

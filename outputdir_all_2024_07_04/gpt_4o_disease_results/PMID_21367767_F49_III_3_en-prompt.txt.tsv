@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia	MONDO:0000437	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.5	True
+1	Spinocerebellar ataxia	MONDO:0020380	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.5	True
+2	Multiple system atrophy	MONDO:0007803	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+3	Fragile X-associated tremor/ataxia syndrome (FXTAS)	MONDO:0010382	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+4	Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)	N/A	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False
+5	Idiopathic late-onset cerebellar ataxia	MONDO:0016591	('OMIM:606658', 'Spinocerebellar ataxia 15')	0.0	False

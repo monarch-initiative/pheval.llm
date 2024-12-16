@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	PTEN Hamartoma Tumor Syndrome	MONDO:0017623	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	15q Duplication Syndrome	MONDO:0012081	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

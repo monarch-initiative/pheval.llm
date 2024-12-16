@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	VACTERL Association	MONDO:0008642	('OMIM:300707', 'STAR syndrome')	0.0	False
+2	MURCS Association	MONDO:0010989	('OMIM:300707', 'STAR syndrome')	0.0	False
+3	Apert Syndrome	MONDO:0007041	('OMIM:300707', 'STAR syndrome')	0.0	False
+4	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:300707', 'STAR syndrome')	0.0	False
+5	Townes-Brocks Syndrome	MONDO:0007142	('OMIM:300707', 'STAR syndrome')	0.0	False
+6	CHARGE Syndrome	MONDO:0008965	('OMIM:300707', 'STAR syndrome')	0.0	False
+7	Fraser Syndrome	MONDO:0054737	('OMIM:300707', 'STAR syndrome')	0.0	False
+7	Fraser Syndrome	MONDO:0009046	('OMIM:300707', 'STAR syndrome')	0.0	False

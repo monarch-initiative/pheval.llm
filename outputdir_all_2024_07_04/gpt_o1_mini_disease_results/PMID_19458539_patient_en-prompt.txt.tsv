@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sporadic inclusion body myositis	MONDO:0007827	('OMIM:609200', 'Myopathy, myofibrillar, 3')	0.0	False
+2	Limb-girdle muscular dystrophy	MONDO:0016971	('OMIM:609200', 'Myopathy, myofibrillar, 3')	0.5	True
+3	Polymyositis	MONDO:0019127	('OMIM:609200', 'Myopathy, myofibrillar, 3')	0.0	False
+4	Myofibrillar myopathy	MONDO:0018943	('OMIM:609200', 'Myopathy, myofibrillar, 3')	0.5	True
+5	GNE myopathy	MONDO:0011603	('OMIM:609200', 'Myopathy, myofibrillar, 3')	0.0	False

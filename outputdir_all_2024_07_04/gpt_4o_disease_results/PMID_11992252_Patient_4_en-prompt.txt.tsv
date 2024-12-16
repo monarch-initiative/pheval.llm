@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Collagen VI-related myopathy (Bethlem myopathy)	MONDO:0100225	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+2	LAMA2-related congenital muscular dystrophy (Merosin-deficient congenital muscular dystrophy)	MONDO:0100228	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+3	FKRP-related muscular dystrophy (Limb-girdle muscular dystrophy type 2I)	MONDO:0011787	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+4	SEPN1-related myopathy (Rigid spine muscular dystrophy)	MONDO:0011271	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+5	Collagen VI-related myopathy (Ullrich congenital muscular dystrophy)	MONDO:0100225	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False
+6	Dystroglycanopathy (e.g., Fukuyama congenital muscular dystrophy, Walker-Warburg syndrome, Muscle-eye-brain disease)	MONDO:0009678	('OMIM:620728', 'Ullrich congenital muscular dystrophy 1C')	0.0	False

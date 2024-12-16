@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beals syndrome (Congenital contractural arachnodactyly)	MONDO:0007363	('OMIM:121050', 'Contractural arachnodactyly, congenital')	1.0	True
+2	Distal arthrogryposis type 1	MONDO:0015240	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+3	Distal arthrogryposis type 2 (Freeman-Sheldon syndrome)	MONDO:0008675	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Multiple pterygium syndrome	MONDO:0017415	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+4	Multiple pterygium syndrome	MONDO:0009926	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False
+5	Larsen syndrome	MONDO:0007875	('OMIM:121050', 'Contractural arachnodactyly, congenital')	0.0	False

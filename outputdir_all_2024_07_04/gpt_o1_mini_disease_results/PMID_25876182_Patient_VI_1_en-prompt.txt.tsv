@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wiskott-Aldrich Syndrome	MONDO:0010518	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+2	Immune Thrombocytopenic Purpura (ITP)	MONDO:0008558	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+3	Congenital Amegakaryocytic Thrombocytopenia	MONDO:0800451	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+4	MYH9-Related Disease	MONDO:0015912	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	von Willebrand Disease	MONDO:0024574	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	von Willebrand Disease	MONDO:0019565	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+6	Aplastic Anemia	MONDO:0013879	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+6	Aplastic Anemia	MONDO:0012197	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+6	Aplastic Anemia	MONDO:0015909	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False

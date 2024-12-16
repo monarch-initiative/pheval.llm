@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Otopalatodigital syndrome type II	MONDO:0010704	('OMIM:617180', 'Chitayat syndrome')	0.0	False
+2	Melnick-Needles syndrome	MONDO:0010650	('OMIM:617180', 'Chitayat syndrome')	0.0	False
+3	Frontometaphyseal dysplasia	MONDO:0015942	('OMIM:617180', 'Chitayat syndrome')	0.0	False
+4	Donnai-Barrow syndrome	MONDO:0009104	('OMIM:617180', 'Chitayat syndrome')	0.0	False
+5	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:617180', 'Chitayat syndrome')	0.0	False

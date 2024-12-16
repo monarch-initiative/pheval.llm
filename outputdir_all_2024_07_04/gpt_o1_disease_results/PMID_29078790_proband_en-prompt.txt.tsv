@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:162500', 'Neuropathy, recurrent, with pressure palsies')	0.0	False
+2	Hereditary neuropathy with liability to pressure palsies	MONDO:0008087	('OMIM:162500', 'Neuropathy, recurrent, with pressure palsies')	1.0	True
+3	Dejerine-Sottas neuropathy	MONDO:0007790	('OMIM:162500', 'Neuropathy, recurrent, with pressure palsies')	0.0	False

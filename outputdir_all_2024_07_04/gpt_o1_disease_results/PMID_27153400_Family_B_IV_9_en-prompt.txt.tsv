@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia	MONDO:0019064	('OMIM:616907', 'Spastic paraplegia 76, autosomal recessive')	0.5	True

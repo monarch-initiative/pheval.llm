@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PMM2-CDG (CDG Type Ia)	N/A	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	Angelman syndrome	MONDO:0007113	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	Mitochondrial disease (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+5	Ataxia-telangiectasia	MONDO:0008840	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

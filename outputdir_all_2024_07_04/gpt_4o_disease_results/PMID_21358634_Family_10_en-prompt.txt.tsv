@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Basal Cell Nevus Syndrome (Gorlin Syndrome)	N/A	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+2	Ferguson-Smith Syndrome (Multiple Self-Healing Squamous Epithelioma)	MONDO:0007566	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	1.0	True
+3	Muir-Torre Syndrome	MONDO:0008018	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+4	Xeroderma Pigmentosum	MONDO:0019600	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False

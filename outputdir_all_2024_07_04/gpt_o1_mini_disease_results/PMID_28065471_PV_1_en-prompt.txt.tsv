@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal Recessive Cutis Laxa Type II (ARCL2)	MONDO:0019572	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+2	De Barsy Syndrome	MONDO:0017569	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+3	Ehlers-Danlos Syndrome Type VII	MONDO:0016469	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+4	Williams Syndrome	MONDO:0008678	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+5	Cutis Laxa Type I	N/A	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+6	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+7	Marfan Syndrome	MONDO:0007947	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False

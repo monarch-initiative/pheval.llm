@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Treacher Collins Syndrome	MONDO:0007944	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+1	Treacher Collins Syndrome	MONDO:0002457	('OMIM:613717', 'Treacher Collins syndrome 2')	0.5	True
+2	Mandibulofacial Dysostosis	MONDO:0007944	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+2	Mandibulofacial Dysostosis	MONDO:0015483	('OMIM:613717', 'Treacher Collins syndrome 2')	0.5	True
+3	Nager Syndrome	MONDO:0007943	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+4	Goldenhar Syndrome	MONDO:0015397	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False

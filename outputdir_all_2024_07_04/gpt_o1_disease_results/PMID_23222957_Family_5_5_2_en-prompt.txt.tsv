@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:242840', 'Vici syndrome')	0.0	False
+2	Griscelli syndrome type 2	MONDO:0011872	('OMIM:242840', 'Vici syndrome')	0.0	False
+3	Hermansky-Pudlak syndrome type 2	MONDO:0011997	('OMIM:242840', 'Vici syndrome')	0.0	False

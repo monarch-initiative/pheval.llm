@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Carpenter syndrome	MONDO:0019012	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Carpenter syndrome	MONDO:0008710	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Trisomy 13 (Patau syndrome)	MONDO:0018068	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	Zellweger spectrum disorder	MONDO:0019234	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+6	McKusick-Kaufman syndrome	MONDO:0009367	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

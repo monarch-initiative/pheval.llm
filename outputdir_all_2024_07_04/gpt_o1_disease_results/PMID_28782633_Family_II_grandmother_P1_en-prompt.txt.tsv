@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Specific antibody deficiency with normal immunoglobulins	MONDO:0019093	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+2	IgG2 subclass deficiency	MONDO:0001901	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinal muscular atrophy	MONDO:0019079	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+1	Spinal muscular atrophy	MONDO:0001516	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+2	Ullrich congenital muscular dystrophy	MONDO:0009681	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+2	Ullrich congenital muscular dystrophy	MONDO:0000355	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+3	X-linked myotubular myopathy	MONDO:0010683	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+4	Nemaline myopathy	MONDO:0018958	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False

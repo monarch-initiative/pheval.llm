@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome, classical type	MONDO:0007522	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+2	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+3	Homocystinuria	MONDO:0004737	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+4	Cutis laxa	MONDO:0016175	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False
+5	Marfan syndrome	MONDO:0007947	('OMIM:618000', 'Ehlers-Danlos syndrome, classic-like, 2')	0.0	False

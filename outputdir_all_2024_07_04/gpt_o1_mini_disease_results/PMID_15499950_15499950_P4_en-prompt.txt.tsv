@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh syndrome	MONDO:0009723	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Spinal Muscular Atrophy type 1	MONDO:0009669	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	GM1 gangliosidosis	MONDO:0018149	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Krabbe disease	MONDO:0009499	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Canavan disease	MONDO:0010079	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

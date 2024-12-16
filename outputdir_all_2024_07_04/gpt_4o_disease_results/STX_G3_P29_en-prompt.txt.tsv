@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Early Infantile Epileptic Encephalopathy (EIEE)	MONDO:0012812	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	1.0	True
+2	Ohtahara Syndrome	MONDO:0100062	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.5	True
+3	West Syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Aicardi Syndrome	MONDO:0010568	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	STXBP1 Encephalopathy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

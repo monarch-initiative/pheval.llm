@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+2	Spinocerebellar Ataxia	MONDO:0000437	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+2	Spinocerebellar Ataxia	MONDO:0020380	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+3	Friedrich's Ataxia	MONDO:0100339	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+4	Autosomal Recessive Spastic Ataxia of Charlevoix-Saguenay (ARSACS)	MONDO:0010041	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False
+5	Cockayne Syndrome	MONDO:0016006	('OMIM:620515', 'Neurodevelopmental disorder with motor regression, progressive spastic paraplegia, and oromotor dysfunction')	0.0	False

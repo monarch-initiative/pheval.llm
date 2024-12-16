@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Desmoplakin-related dilated cardiomyopathy with ectodermal features	MONDO:0011581	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+2	Lamin A/C-related dilated cardiomyopathy with ectodermal dysplasia	N/A	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+3	Arrhythmogenic cardiomyopathy due to desmosomal mutations (e.g., DSG2 or JUP mutations)	MONDO:0012434	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+4	Ectodermal dysplasia with cardiomyopathy	N/A	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+5	Naxos disease	MONDO:0011017	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False
+6	Carvajal syndrome	MONDO:0011581	('OMIM:620519', 'Arrhythmogenic cardiomyopathy with variable ectodermal abnormalities')	0.0	False

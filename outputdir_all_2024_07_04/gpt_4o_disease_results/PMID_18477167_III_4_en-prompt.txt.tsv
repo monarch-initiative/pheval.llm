@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Vohwinkel syndrome	MONDO:0007422	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+2	Palmoplantar keratoderma	MONDO:0006590	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.5	True
+3	Pachyonychia congenita (Type II)	MONDO:0016471	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+4	Epidermolytic palmoplantar keratoderma	MONDO:0007758	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	1.0	True
+5	Mal de Meleda	MONDO:0009552	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False
+6	Papillon-Lefèvre syndrome	MONDO:0009490	('OMIM:144200', 'Palmoplantar keratoderma, epidermolytic, 1')	0.0	False

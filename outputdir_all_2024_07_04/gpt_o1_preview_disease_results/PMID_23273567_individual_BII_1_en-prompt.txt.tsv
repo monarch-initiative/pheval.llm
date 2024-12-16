@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteoglophonic dysplasia	MONDO:0008150	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Achondroplasia	MONDO:0007037	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Hypochondroplasia	MONDO:0007793	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Metaphyseal chondrodysplasia (Schmid type)	MONDO:0007983	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Chondrodysplasia punctata (rhizomelic type)	MONDO:0015776	('OMIM:258480', 'Opsismodysplasia')	0.0	False

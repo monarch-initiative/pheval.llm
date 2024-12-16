@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Robinow syndrome	MONDO:0019978	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.5	True
+2	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+3	Apert syndrome	MONDO:0007041	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+4	Oral-facial-digital syndrome	MONDO:0015375	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False

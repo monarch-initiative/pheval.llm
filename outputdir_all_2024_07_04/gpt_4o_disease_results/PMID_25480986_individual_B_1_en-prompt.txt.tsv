@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SOLOMON Syndrome	MONDO:0008097	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+2	Perrault Syndrome	MONDO:0017312	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+3	Growth Hormone Deficiency - Genetic Forms (e.g., GHRHR mutations)	MONDO:0013006	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+4	Septo-Optic Dysplasia	MONDO:0008428	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+5	Kallmann Syndrome	MONDO:0018800	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary distal renal tubular acidosis	MONDO:0012700	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	1.0	True
+2	Sjögren's syndrome	MONDO:0010030	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+3	Systemic lupus erythematosus	MONDO:0007915	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+4	Celiac disease	MONDO:0005130	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+5	Medication-induced distal renal tubular acidosis	MONDO:0100161	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False

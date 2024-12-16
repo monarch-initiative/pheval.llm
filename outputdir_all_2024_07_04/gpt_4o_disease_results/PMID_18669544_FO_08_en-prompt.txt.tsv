@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.5	True
+1	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+2	Alström syndrome	MONDO:0008763	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+3	Laurence-Moon syndrome	MONDO:0009514	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False
+4	Cohen syndrome	MONDO:0008999	('OMIM:209900', 'Bardet-Biedl syndrome 1')	0.0	False

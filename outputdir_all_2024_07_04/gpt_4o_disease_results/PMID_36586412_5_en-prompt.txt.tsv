@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	Rett syndrome (primarily affects females, but there are cases in males)	N/A	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Smith-Magenis syndrome	MONDO:0008434	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	Prader-Willi syndrome	MONDO:0008300	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+7	MECP2 duplication syndrome	MONDO:0010283	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+8	Autism spectrum disorder associated with a known genetic mutation (such as SHANK3)	N/A	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+9	Neurofibromatosis type 1 (NF1)	MONDO:0018975	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+10	Tuberous sclerosis complex	MONDO:0001734	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+10	Tuberous sclerosis complex	MONDO:0008612	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

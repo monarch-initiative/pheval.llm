@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sotos syndrome	MONDO:0019349	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+2	Weaver syndrome	MONDO:0010193	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+3	Smith-Magenis syndrome	MONDO:0008434	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False
+4	Sanfilippo syndrome	MONDO:0018937	('OMIM:616831', 'Luscan-Lumish syndrome')	0.0	False

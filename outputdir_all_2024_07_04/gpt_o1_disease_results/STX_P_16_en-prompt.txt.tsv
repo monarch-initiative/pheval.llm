@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	STXBP1 encephalopathy (Early infantile epileptic encephalopathy type 4)	MONDO:0012812	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	1.0	True
+2	KCNQ2-related neonatal epileptic encephalopathy	MONDO:0013387	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	SCN2A-related epileptic encephalopathy	MONDO:0013388	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	ARX-related X-linked infantile spasms	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

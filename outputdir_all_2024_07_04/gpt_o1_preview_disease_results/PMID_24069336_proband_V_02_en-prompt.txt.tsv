@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MYH9-related thrombocytopenia	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+2	ACTN1-related thrombocytopenia	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+3	ANKRD26-related thrombocytopenia	N/A	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+4	GATA1-related thrombocytopenia	MONDO:0100089	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False
+5	Bernard-Soulier syndrome	MONDO:0009276	('OMIM:615193', 'Bleeding disorder, platelet-type, 15')	0.0	False

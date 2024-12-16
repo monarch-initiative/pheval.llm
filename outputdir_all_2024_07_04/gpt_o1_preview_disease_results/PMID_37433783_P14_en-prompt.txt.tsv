@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypophosphatemic rickets	MONDO:0024300	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	Hypophosphatasia	MONDO:0009948	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	Hypophosphatasia	MONDO:0018570	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+3	Down syndrome	MONDO:0008608	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+6	Tuberous sclerosis complex	MONDO:0001734	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+6	Tuberous sclerosis complex	MONDO:0008612	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False

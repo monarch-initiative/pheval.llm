@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Merosin-deficient congenital muscular dystrophy (MDC1A)	MONDO:0011925	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+2	Late-onset Pompe disease (Glycogen storage disease type II)	MONDO:0018485	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+3	Bethlem myopathy (Collagen VI-related muscular dystrophy)	MONDO:0008029	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+4	Nemaline myopathy	MONDO:0018958	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+5	Central core disease	MONDO:0007294	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False

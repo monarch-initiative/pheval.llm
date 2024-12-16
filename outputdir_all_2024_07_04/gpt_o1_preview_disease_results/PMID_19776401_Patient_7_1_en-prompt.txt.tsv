@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DOCK8 deficiency	MONDO:0009478	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	1.0	True
+2	STAT3 deficiency (Autosomal Dominant Hyper IgE Syndrome)	MONDO:0007818	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+3	APECED (Autoimmune Polyendocrinopathy-Candidiasis-Ectodermal Dystrophy)	MONDO:0009411	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+4	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False
+5	Dyskeratosis congenita	MONDO:0015780	('OMIM:243700', 'Hyper-IgE syndrome 2, autosomal recessive, with recurrent infections')	0.0	False

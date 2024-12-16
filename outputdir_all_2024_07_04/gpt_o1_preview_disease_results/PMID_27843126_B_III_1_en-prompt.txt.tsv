@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ullrich congenital muscular dystrophy	MONDO:0000355	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+1	Ullrich congenital muscular dystrophy	MONDO:0009681	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+2	Congenital contractural arachnodactyly (Beals syndrome)	MONDO:0007363	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+3	Bethlem myopathy	MONDO:0024530	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+3	Bethlem myopathy	MONDO:0008029	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+4	Spinal muscular atrophy type I	MONDO:0009669	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False
+5	Congenital myasthenic syndromes	MONDO:0018940	('OMIM:617146', 'Arthrogryposis, distal, with impaired proprioception and touch')	0.0	False

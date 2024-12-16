@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated Micrognathia	N/A	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+2	Stickler Syndrome	MONDO:0019354	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+3	Nager Syndrome	MONDO:0007943	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+4	Miller Syndrome	MONDO:0009903	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+5	Silver-Russell Syndrome	MONDO:0008394	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+6	Beckwith-Wiedemann Syndrome	MONDO:0007534	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+7	Pierre Robin Sequence	MONDO:0009869	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+8	Treacher Collins Syndrome	MONDO:0007944	('OMIM:613717', 'Treacher Collins syndrome 2')	0.0	False
+8	Treacher Collins Syndrome	MONDO:0002457	('OMIM:613717', 'Treacher Collins syndrome 2')	0.5	True

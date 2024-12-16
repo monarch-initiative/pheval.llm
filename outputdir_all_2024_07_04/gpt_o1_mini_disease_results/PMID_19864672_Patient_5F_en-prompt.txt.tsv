@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chronic Granulomatous Disease	MONDO:0018305	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+2	CARD9 Deficiency	MONDO:0008905	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	1.0	True
+3	STAT1 Gain-of-Function Mutation	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+4	Dectin-1 Deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+5	Leukocyte Adhesion Deficiency	MONDO:0007293	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+5	Leukocyte Adhesion Deficiency	MONDO:0017570	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False

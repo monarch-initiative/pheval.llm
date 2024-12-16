@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	X-linked adrenoleukodystrophy	MONDO:0018544	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Hereditary spastic paraplegia	MONDO:0019064	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

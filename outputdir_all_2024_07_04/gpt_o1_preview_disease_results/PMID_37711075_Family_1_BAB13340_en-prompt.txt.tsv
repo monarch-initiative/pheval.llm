@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PMM2-CDG (Congenital Disorder of Glycosylation Type Ia)	MONDO:0008907	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+2	Other Congenital Disorders of Glycosylation (CDG)	MONDO:0015286	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.5	True
+3	PIGA deficiency	N/A	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+4	Mitochondrial disorder	MONDO:0016797	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+6	Peroxisomal biogenesis disorders (e.g., Zellweger syndrome)	MONDO:0019234	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False

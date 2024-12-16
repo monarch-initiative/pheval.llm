@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Schwartz-Jampel syndrome	MONDO:0009717	('OMIM:139210', 'Myhre syndrome')	0.0	False
+2	Mucopolysaccharidosis type II (Hunter syndrome)	MONDO:0001586	('OMIM:139210', 'Myhre syndrome')	0.0	False
+3	Otopalatodigital syndrome	MONDO:0019027	('OMIM:139210', 'Myhre syndrome')	0.0	False
+4	Mucopolysaccharidosis type I (Hurler syndrome)	MONDO:0001586	('OMIM:139210', 'Myhre syndrome')	0.0	False
+5	Lenz-Majewski hyperostotic dwarfism	MONDO:0007892	('OMIM:139210', 'Myhre syndrome')	0.0	False
+6	Desbuquois dysplasia	MONDO:0015426	('OMIM:139210', 'Myhre syndrome')	0.0	False
+7	Noonan syndrome	MONDO:0008104	('OMIM:139210', 'Myhre syndrome')	0.0	False
+7	Noonan syndrome	MONDO:0018997	('OMIM:139210', 'Myhre syndrome')	0.0	False
+8	Homocystinuria	MONDO:0004737	('OMIM:139210', 'Myhre syndrome')	0.0	False
+9	Maroteaux-Lamy syndrome (Mucopolysaccharidosis type VI)	N/A	('OMIM:139210', 'Myhre syndrome')	0.0	False
+10	Acromesomelic dysplasia	MONDO:0019696	('OMIM:139210', 'Myhre syndrome')	0.0	False

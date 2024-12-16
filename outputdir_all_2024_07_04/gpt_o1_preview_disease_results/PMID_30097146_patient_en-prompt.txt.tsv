@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Boucher-Neuhäuser syndrome	MONDO:0008980	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+2	Oliver-McFarlane syndrome	MONDO:0010152	('OMIM:275400', 'Oliver-McFarlane syndrome')	1.0	True
+3	Gordon Holmes syndrome	MONDO:0008935	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+4	Refsum disease	MONDO:0009958	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+5	Friedreich ataxia	MONDO:0100340	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+5	Friedreich ataxia	MONDO:0100339	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+6	Spinocerebellar ataxia type 1	MONDO:0008119	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False

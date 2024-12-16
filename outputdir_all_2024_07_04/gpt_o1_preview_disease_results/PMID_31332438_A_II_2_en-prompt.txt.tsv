@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease type 2 (CMT2)	MONDO:0011570	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+2	Distal hereditary motor neuropathy (dHMN)	MONDO:0013947	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False
+3	Chronic idiopathic axonal neuropathy	N/A	('OMIM:620528', 'Neuronopathy, distal hereditary motor, autosomal dominant 11')	0.0	False

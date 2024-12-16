@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autoimmune polyendocrine syndrome type 1 (APS-1)	MONDO:0010012	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+2	X-Linked hypogammaglobulinemia with growth hormone deficiency (XLA-GHD)	MONDO:0018967	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+3	Hyper-IgE Syndrome (Job's Syndrome)	MONDO:0018037	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+4	MHC Class II Deficiency (Bare Lymphocyte Syndrome)	MONDO:0008855	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False
+5	Cartilage-Hair Hypoplasia	MONDO:0009595	('OMIM:240300', 'Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia')	0.0	False

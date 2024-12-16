@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Medulloblastoma	MONDO:0002794	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+1	Medulloblastoma	MONDO:0002797	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+1	Medulloblastoma	MONDO:0007959	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+2	Primitive Neuroectodermal Tumor (PNET)	MONDO:0005462	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+3	Pineoblastoma	MONDO:0016722	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+3	Pineoblastoma	MONDO:0003957	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+4	Choroid Plexus Carcinoma	MONDO:0009837	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+4	Choroid Plexus Carcinoma	MONDO:0016718	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+5	Embryonal Tumor with Multilayered Rosettes (ETMR)	MONDO:0850388	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+6	Glioblastoma Multiforme	MONDO:0024498	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+6	Glioblastoma Multiforme	MONDO:0018177	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+7	Pilocytic Astrocytoma	MONDO:0004000	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False
+7	Pilocytic Astrocytoma	MONDO:0016691	('OMIM:609322', 'Rhabdoid tumor predisposition syndrome 1')	0.0	False

@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary sensory and autonomic neuropathy type I	MONDO:0018213	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+2	Charcot–Marie–Tooth disease type 2B	MONDO:0011570	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+3	Congenital insensitivity to pain with anhidrosis	MONDO:0009746	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False

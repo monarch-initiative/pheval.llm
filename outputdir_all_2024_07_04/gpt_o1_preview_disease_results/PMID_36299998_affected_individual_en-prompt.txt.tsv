@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Peroxisome biogenesis disorder (Zellweger spectrum disorder)	MONDO:0019234	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+2	Congenital disorder of glycosylation (CDG)	MONDO:0015286	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+3	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+4	Long-chain 3-hydroxyacyl-CoA dehydrogenase deficiency (LCHAD deficiency)	MONDO:0012173	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+5	Dyggve-Melchior-Clausen syndrome	MONDO:0009130	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Adult-onset Metachromatic Leukodystrophy	MONDO:0008215	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+2	Adult-onset Krabbe disease	MONDO:0016091	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+3	Spinocerebellar Ataxia Type 3 (Machado-Joseph disease)	MONDO:0007182	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+4	Adrenoleukodystrophy (adult-onset)	MONDO:0008215	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+5	Mitochondrial Encephalopathy	MONDO:0004675	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+6	Multiple Sclerosis	MONDO:0005301	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False

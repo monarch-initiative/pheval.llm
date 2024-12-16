@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Nance-Horan syndrome	MONDO:0010545	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Down syndrome	MONDO:0008608	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Stickler syndrome	MONDO:0019354	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False

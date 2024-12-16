@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Methylmalonic acidemia	MONDO:0002012	('OMIM:215700', 'Citrullinemia')	0.0	False
+2	Propionic acidemia	MONDO:0011628	('OMIM:215700', 'Citrullinemia')	0.0	False
+3	Citrullinemia type I	MONDO:0008988	('OMIM:215700', 'Citrullinemia')	1.0	True
+4	Hyperornithinemia-Hyperammonemia-Homocitrullinuria (HHH) syndrome	MONDO:0009393	('OMIM:215700', 'Citrullinemia')	0.0	False
+5	N-acetylglutamate synthase deficiency	MONDO:0009377	('OMIM:215700', 'Citrullinemia')	0.0	False

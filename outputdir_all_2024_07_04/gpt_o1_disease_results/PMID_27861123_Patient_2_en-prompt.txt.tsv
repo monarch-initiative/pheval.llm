@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Long QT syndrome	MONDO:0019171	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+2	Catecholaminergic polymorphic ventricular tachycardia	MONDO:0017990	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.5	True
+3	Brugada syndrome	MONDO:0015263	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+4	Timothy syndrome	MONDO:0010979	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False

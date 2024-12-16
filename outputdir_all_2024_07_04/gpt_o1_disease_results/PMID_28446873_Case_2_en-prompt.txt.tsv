@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Chorea-acanthocytosis	MONDO:0008695	('OMIM:200150', 'Choreoacanthocytosis')	1.0	True
+2	McLeod syndrome	MONDO:0018945	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False
+3	Huntington disease	MONDO:0007739	('OMIM:200150', 'Choreoacanthocytosis')	0.0	False

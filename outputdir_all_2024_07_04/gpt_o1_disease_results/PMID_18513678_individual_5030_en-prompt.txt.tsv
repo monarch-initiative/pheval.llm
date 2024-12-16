@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia	MONDO:0019064	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+2	Spastic diplegic cerebral palsy	MONDO:0001167	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False

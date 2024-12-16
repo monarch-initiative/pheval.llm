@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beta-propeller protein-associated neurodegeneration	MONDO:0010476	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+2	PLA2G6-associated neurodegeneration	MONDO:0017998	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+3	Mitochondrial membrane protein-associated neurodegeneration	MONDO:0013674	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+4	Aceruloplasminemia	MONDO:0011426	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+5	Atransferrinemia	MONDO:0008846	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False

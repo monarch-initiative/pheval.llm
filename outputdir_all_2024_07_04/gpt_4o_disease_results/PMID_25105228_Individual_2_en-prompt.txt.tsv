@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Frontonasal Dysplasia 3 (FND3)	MONDO:0011359	('OMIM:603671', 'Acromelic frontonasal dysostosis')	1.0	True
+2	Opitz G/BBB Syndrome	MONDO:0017138	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+3	Holoprosencephaly	MONDO:0016296	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+4	Aicardi Syndrome	MONDO:0010568	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+5	CHARGE Syndrome	MONDO:0008965	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False

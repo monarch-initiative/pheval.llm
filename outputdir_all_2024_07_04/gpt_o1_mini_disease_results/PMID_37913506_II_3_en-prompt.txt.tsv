@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypertensive Heart Disease	MONDO:0001302	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+2	Atrial Myopathy (Atrial Fibrosis)	N/A	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+3	Mitral Valve Disease	MONDO:0003767	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+4	Coronary Artery Disease	MONDO:0005010	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+5	Idiopathic Atrial Flutter	MONDO:0018684	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False
+6	Hyperthyroidism	MONDO:0004425	('OMIM:620734', 'Cardiomyopathy, familial hypertrophic, 30, atrial')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Kabuki Syndrome	MONDO:0016512	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Kabuki Syndrome	MONDO:0007843	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	CHARGE Syndrome	MONDO:0008965	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	KBG Syndrome	MONDO:0007846	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Ritscher-Schinzel Syndrome (3C Syndrome)	MONDO:0019078	('OMIM:612313', 'Glass syndrome')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-syndromic Sensorineural Hearing Loss	MONDO:0016297	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+2	GJB2 Gene Mutation-Related Hearing Loss (DFNB1)	MONDO:0012976	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+3	Mitochondrial A1555G Mutation-Associated Hearing Loss	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+4	Otoferlin-Related Hearing Loss (DFNB9)	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+5	Pendred Syndrome	MONDO:0010134	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+6	PCDH15 Gene Mutation-Related Hearing Loss (DFNB23)	MONDO:0012293	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+7	Alport Syndrome	MONDO:0018965	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False

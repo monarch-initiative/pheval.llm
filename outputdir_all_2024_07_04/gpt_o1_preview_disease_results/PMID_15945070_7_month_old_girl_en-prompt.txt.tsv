@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	PMM2-CDG (Congenital Disorder of Glycosylation type Ia)	MONDO:0008907	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+2	Other Type I Congenital Disorders of Glycosylation	MONDO:0005500	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.5	True
+3	Zellweger spectrum disorder	MONDO:0019234	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+4	Mitochondrial disorder affecting cerebral and cerebellar development	N/A	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False

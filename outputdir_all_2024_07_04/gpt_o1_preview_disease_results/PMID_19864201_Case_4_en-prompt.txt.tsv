@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Carney complex	MONDO:0015285	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+2	Peutz-Jeghers syndrome	MONDO:0008280	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+3	LEOPARD syndrome (Noonan syndrome with multiple lentigines)	MONDO:0100082	('OMIM:151100', 'LEOPARD syndrome 1')	1.0	True

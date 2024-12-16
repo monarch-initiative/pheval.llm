@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+2	Pallister-Hall syndrome	MONDO:0007804	('OMIM:146510', 'Pallister-Hall syndrome')	1.0	True
+3	Oral-facial-digital syndrome type II	MONDO:0009642	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+4	Brachydactyly type B	MONDO:0019676	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fuchs endothelial corneal dystrophy	MONDO:0005321	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.5	True
+2	Keratoconus	MONDO:0015486	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False
+3	Macular corneal dystrophy	MONDO:0009020	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False
+4	Lattice corneal dystrophy	MONDO:0004686	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False
+5	Congenital hereditary endothelial dystrophy	MONDO:0020365	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False

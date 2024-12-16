@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+2	Ataxia-telangiectasia	MONDO:0008840	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+3	Purine nucleoside phosphorylase deficiency	MONDO:0013171	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+4	Griscelli syndrome type 2	MONDO:0011872	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+5	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+6	Deficiency of Adenosine Deaminase 2 (DADA2)	MONDO:0100317	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+7	Mitochondrial disorders	MONDO:0004069	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False
+8	Leukodystrophies (e.g., POLR3-related disorders)	MONDO:0014666	('OMIM:620603', 'Immunodeficiency 114, folate-responsive')	0.0	False

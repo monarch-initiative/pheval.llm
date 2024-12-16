@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Retinitis Pigmentosa	MONDO:0008377	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+1	Retinitis Pigmentosa	MONDO:0019200	('OMIM:600138', 'Retinitis pigmentosa 11')	0.5	True
+2	Choroideremia	MONDO:0010557	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+3	Enhanced S-Cone Syndrome	MONDO:0100288	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+4	Usher Syndrome	MONDO:0019501	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+5	Leber Congenital Amaurosis	MONDO:0018998	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False

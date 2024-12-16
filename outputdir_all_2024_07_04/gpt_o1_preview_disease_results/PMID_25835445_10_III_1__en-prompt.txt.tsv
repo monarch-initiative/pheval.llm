@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital contractural arachnodactyly	MONDO:0007363	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Homocystinuria	MONDO:0004737	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+4	Klinefelter syndrome	MONDO:0006823	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+5	Multiple endocrine neoplasia type 2B	MONDO:0008082	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

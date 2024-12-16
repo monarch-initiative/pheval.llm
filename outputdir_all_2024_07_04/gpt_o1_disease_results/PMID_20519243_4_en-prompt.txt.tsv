@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome (Trisomy 21)	MONDO:0700126	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+2	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

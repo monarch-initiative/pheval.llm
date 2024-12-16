@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.5	True
+3	L1CAM-related disorder (X-linked hydrocephalus)	MONDO:0010611	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+4	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+5	FG syndrome	MONDO:0002010	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+5	FG syndrome	MONDO:0010590	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+6	Seckel syndrome	MONDO:0019342	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False
+7	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:620568', 'Cornelia de Lange syndrome 6')	0.0	False

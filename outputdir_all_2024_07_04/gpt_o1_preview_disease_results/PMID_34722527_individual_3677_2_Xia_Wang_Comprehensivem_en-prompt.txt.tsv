@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Without additional clinical information or specific symptoms, and only knowing that the individual does not have global developmental delay, it is not possible to provide a meaningful differential diagnosis.	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

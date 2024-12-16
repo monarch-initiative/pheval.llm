@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Adult-onset neuronal ceroid lipofuscinosis (Kufs disease)	MONDO:0019260	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Niemann-Pick disease type C	MONDO:0018982	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Lafora disease	MONDO:0009697	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Wilson's disease	MONDO:0010200	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Juvenile Huntington's disease	MONDO:0016621	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	MELAS syndrome	MONDO:0010789	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Unverricht-Lundborg disease	MONDO:0009698	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Krabbe disease	MONDO:0009499	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Adult-onset Tay-Sachs disease	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Subacute sclerosing panencephalitis	MONDO:0009835	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal Renal Tubular Acidosis (Type 1 RTA)	MONDO:0015827	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.5	True
+2	Dent Disease	MONDO:0015612	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+3	Primary Hyperoxaluria	MONDO:0002474	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+4	Autosomal Dominant Hypocalcemia (ADH)	MONDO:0018543	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+5	Bartter syndrome	MONDO:0015231	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+6	Gitelman syndrome	MONDO:0009904	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital contractural arachnodactyly (Beals syndrome)	MONDO:0007363	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+2	Distal arthrogryposis type 2B (Sheldon-Hall syndrome)	MONDO:0032750	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+3	Freeman-Sheldon syndrome	MONDO:0008675	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+4	Ehlers-Danlos syndrome, kyphoscoliosis type (Type VI)	MONDO:0016002	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+5	Marfan syndrome	MONDO:0007947	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+6	Schwartz-Jampel syndrome	MONDO:0009717	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+7	Bethlem myopathy	MONDO:0024530	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False
+7	Bethlem myopathy	MONDO:0008029	('OMIM:620545', 'Arthrogryposis, distal, type 12')	0.0	False

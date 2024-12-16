@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nonketotic Hyperglycinemia (Glycine Encephalopathy)	MONDO:0017353	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False
+2	Maple Syrup Urine Disease	MONDO:0009563	('OMIM:620699', 'Maple syrup urine disease, type II')	0.5	True
+3	Ornithine Transcarbamylase Deficiency	MONDO:0010703	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False
+4	Hyperekplexia (Startle Disease)	MONDO:0021022	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False
+5	Menkes Disease	MONDO:0010651	('OMIM:620699', 'Maple syrup urine disease, type II')	0.0	False

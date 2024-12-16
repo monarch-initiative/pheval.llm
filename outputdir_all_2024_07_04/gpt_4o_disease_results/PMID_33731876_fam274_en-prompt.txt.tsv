@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara syndrome (Early Infantile Epileptic Encephalopathy)	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Zellweger syndrome	MONDO:0019609	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Aicardi syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Rett syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Lissencephaly	MONDO:0018838	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Molybdenum cofactor deficiency	MONDO:0000063	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Molybdenum cofactor deficiency	MONDO:0020480	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Pyridoxine-dependent epilepsy (ALDH7A1 deficiency)	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	West syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

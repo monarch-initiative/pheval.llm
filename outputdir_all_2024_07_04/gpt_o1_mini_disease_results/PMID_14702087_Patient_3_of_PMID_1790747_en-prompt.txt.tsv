@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Stationary Night Blindness	MONDO:0016293	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+2	Achromatopsia	MONDO:0018852	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0015993	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0007362	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0011458	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0100438	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+4	Leber's Congenital Amaurosis	MONDO:0018998	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+5	Retinitis Pigmentosa	MONDO:0008377	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+5	Retinitis Pigmentosa	MONDO:0019200	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False

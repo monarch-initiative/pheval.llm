@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Homocystinuria	MONDO:0004737	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+2	Weil-Marchesani syndrome	MONDO:0018096	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+3	ADAMTSL4-related eye disorders	N/A	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+4	Ehlers-Danlos syndrome (vascular type)	MONDO:0016469	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False
+5	Sulfite oxidase deficiency	MONDO:0010089	('OMIM:129600', 'Ectopia lentis, familial')	0.0	False

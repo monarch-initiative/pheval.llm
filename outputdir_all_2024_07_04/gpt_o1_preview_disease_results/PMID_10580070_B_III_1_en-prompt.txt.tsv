@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related dilated cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Familial dilated cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+2	Familial dilated cardiomyopathy	MONDO:0005021	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+3	Danon disease	MONDO:0010281	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Barth syndrome	MONDO:0010543	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

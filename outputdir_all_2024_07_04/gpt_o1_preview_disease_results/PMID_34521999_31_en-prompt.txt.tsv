@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	MECP2 Duplication Syndrome	MONDO:0010283	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	16p11.2 Microdeletion Syndrome	MONDO:0016836	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Sotos Syndrome	MONDO:0019349	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

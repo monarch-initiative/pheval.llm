@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Essential thrombocythemia	MONDO:0005029	('OMIM:601977', 'Thrombocythemia 2')	0.0	False
+2	Chronic myeloid leukemia	MONDO:0011996	('OMIM:601977', 'Thrombocythemia 2')	0.0	False
+3	Polycythemia vera	MONDO:0009891	('OMIM:601977', 'Thrombocythemia 2')	0.0	False
+4	Primary myelofibrosis	MONDO:0009692	('OMIM:601977', 'Thrombocythemia 2')	0.0	False
+5	Myelodysplastic syndrome with thrombocytosis	MONDO:0005029	('OMIM:601977', 'Thrombocythemia 2')	0.0	False

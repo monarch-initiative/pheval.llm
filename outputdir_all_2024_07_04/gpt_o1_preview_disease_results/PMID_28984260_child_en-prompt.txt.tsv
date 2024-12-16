@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Lysosomal acid lipase deficiency (cholesteryl ester storage disease)	MONDO:0010204	('OMIM:232700', 'Glycogen storage disease VI')	0.0	False
+2	Progressive familial intrahepatic cholestasis (PFIC)	MONDO:0015762	('OMIM:232700', 'Glycogen storage disease VI')	0.0	False
+3	Niemann-Pick disease type C	MONDO:0018982	('OMIM:232700', 'Glycogen storage disease VI')	0.0	False
+4	Glycogen storage disease type IV (Andersen disease)	MONDO:0009292	('OMIM:232700', 'Glycogen storage disease VI')	0.0	False
+5	Alagille syndrome	MONDO:0007318	('OMIM:232700', 'Glycogen storage disease VI')	0.0	False

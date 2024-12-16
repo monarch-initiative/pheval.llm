@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia type 3 (Machado-Joseph disease)	MONDO:0007182	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+2	Fragile X-associated tremor/ataxia syndrome (FXTAS)	MONDO:0010382	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+3	Spinocerebellar ataxia type 1 (SCA1)	MONDO:0008119	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+4	Dentatorubral-pallidoluysian atrophy (DRPLA)	N/A	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+5	Adult-onset Niemann-Pick disease type C	MONDO:0016310	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+6	Wilson's disease	MONDO:0010200	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+7	Adult-onset Krabbe disease	MONDO:0016091	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False
+8	Multiple system atrophy, cerebellar type (MSA-C)	MONDO:0016418	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False

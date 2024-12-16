@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.5	True
+2	Hypermobile Ehlers-Danlos Syndrome	MONDO:0007523	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False
+3	Marfan Syndrome	MONDO:0007947	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False
+4	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False
+5	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False
+6	Benign Joint Hypermobility Syndrome	MONDO:1040027	('OMIM:130050', 'Ehlers-Danlos syndrome, vascular type')	0.0	False

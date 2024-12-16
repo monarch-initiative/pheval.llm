@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nonketotic Hyperglycinemia (Glycine Encephalopathy)	MONDO:0017353	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+2	Propionic Acidemia	MONDO:0011628	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+3	Pyruvate Dehydrogenase Deficiency	MONDO:0019169	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+4	Mitochondrial Disorder (e.g., MELAS)	MONDO:0010789	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False
+5	Methylmalonic Acidemia	MONDO:0002012	('OMIM:620423', 'Multiple mitochondrial dysfunctions syndrome 7')	0.0	False

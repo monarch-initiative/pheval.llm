@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Homocystinuria	MONDO:0004737	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.5	True
+2	Marfan Syndrome	MONDO:0007947	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+3	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+4	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+5	Stickler Syndrome	MONDO:0019354	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+6	Osteogenesis Imperfecta	MONDO:0019019	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+7	Scurvy (ascorbic acid deficiency)	MONDO:0009412	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+8	Lysyl Hydroxylase Deficiency	N/A	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+9	Pseudoxanthoma Elasticum	MONDO:0024308	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+9	Pseudoxanthoma Elasticum	MONDO:0009925	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+10	Batten Disease	MONDO:0008767	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False
+10	Batten Disease	MONDO:0019262	('OMIM:236200', 'Homocystinuria, B6-responsive and nonresponsive types')	0.0	False

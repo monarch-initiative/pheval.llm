@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spastic paraplegia 11 (SPG11)	MONDO:0011445	('OMIM:613162', 'Spastic paraplegia 45, autosomal recessive')	0.0	False
+2	L1 syndrome (SPG1)	MONDO:0017140	('OMIM:613162', 'Spastic paraplegia 45, autosomal recessive')	0.0	False
+3	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:613162', 'Spastic paraplegia 45, autosomal recessive')	0.0	False
+4	Spastic paraplegia 15 (SPG15)	MONDO:0011992	('OMIM:613162', 'Spastic paraplegia 45, autosomal recessive')	0.0	False

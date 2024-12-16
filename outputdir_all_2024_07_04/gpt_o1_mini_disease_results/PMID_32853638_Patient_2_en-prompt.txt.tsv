@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Evans syndrome	MONDO:0016030	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+2	Systemic lupus erythematosus	MONDO:0007915	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Autoimmune lymphoproliferative syndrome	MONDO:0011158	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+3	Autoimmune lymphoproliferative syndrome	MONDO:0017979	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+4	Common variable immunodeficiency	MONDO:0015517	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+5	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False
+6	Immune dysregulation, polyendocrinopathy, enteropathy, X-linked (IPEX) syndrome	MONDO:0010580	('OMIM:619375', 'Autoinflammatory syndrome, familial, with or without immunodeficiency')	0.0	False

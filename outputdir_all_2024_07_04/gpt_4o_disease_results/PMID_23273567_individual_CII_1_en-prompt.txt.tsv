@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Raine syndrome	MONDO:0009821	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Hypophosphatemic rickets	MONDO:0024300	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Schimke immuno-osseous dysplasia	MONDO:0009458	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Robinow syndrome	MONDO:0019978	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Keutel syndrome	MONDO:0009495	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Langer-Giedion syndrome	MONDO:0007874	('OMIM:258480', 'Opsismodysplasia')	0.0	False

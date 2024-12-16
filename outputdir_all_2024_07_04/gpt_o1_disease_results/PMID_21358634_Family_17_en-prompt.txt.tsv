@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple self-healing squamous epithelioma (Ferguson-Smith syndrome)	MONDO:0007566	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	1.0	True
+2	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False

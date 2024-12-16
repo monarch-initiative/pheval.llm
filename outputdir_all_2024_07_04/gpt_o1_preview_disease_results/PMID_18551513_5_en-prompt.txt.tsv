@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related congenital muscular dystrophy	MONDO:0013178	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	1.0	True
+2	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+3	Limb-girdle muscular dystrophy type 1B	MONDO:0021569	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+4	Ullrich congenital muscular dystrophy	MONDO:0000355	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+4	Ullrich congenital muscular dystrophy	MONDO:0009681	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+5	SEPN1-related myopathy	MONDO:0011271	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+5	SEPN1-related myopathy	MONDO:0100100	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False

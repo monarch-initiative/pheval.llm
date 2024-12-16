@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Becker muscular dystrophy	MONDO:0010311	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+2	Limb-girdle muscular dystrophy	MONDO:0016971	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.5	True
+3	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False

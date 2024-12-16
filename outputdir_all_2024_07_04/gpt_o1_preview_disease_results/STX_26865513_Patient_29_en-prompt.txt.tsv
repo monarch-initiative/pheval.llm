@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+1	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Krabbe disease	MONDO:0009499	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Glutaric aciduria type 1	MONDO:0009281	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Niemann-Pick disease type C	MONDO:0018982	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Leigh disease (mitochondrial disorder)	MONDO:0016814	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

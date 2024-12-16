@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Congenital Hypotonia	N/A	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Congenital Myopathy	MONDO:0019952	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Spinal Muscular Atrophy Type III (Kugelberg-Welander Disease)	MONDO:0010338	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Congenital Muscular Dystrophy	MONDO:0019950	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	Congenital Hypothyroidism	MONDO:0018612	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

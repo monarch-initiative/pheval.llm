@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wilson's disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Pantothenate kinase-associated neurodegeneration (PKAN)	MONDO:0009319	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Juvenile-onset Huntington's disease (Westphal variant)	MONDO:0016621	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Dopamine transporter deficiency syndrome	MONDO:0700117	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Dopamine transporter deficiency syndrome	MONDO:0054835	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Dopamine transporter deficiency syndrome	MONDO:0013150	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Other forms of neurodegeneration with brain iron accumulation (NBIA)	MONDO:0018307	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.5	True

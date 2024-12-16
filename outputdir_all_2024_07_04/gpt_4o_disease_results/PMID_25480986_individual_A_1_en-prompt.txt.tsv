@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	3-M syndrome	MONDO:0007477	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+2	Kallmann syndrome	MONDO:0018800	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+3	Congenital hypothyroidism	MONDO:0018612	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+5	Silver-Russell syndrome	MONDO:0008394	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+6	Turner syndrome	MONDO:0019499	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False

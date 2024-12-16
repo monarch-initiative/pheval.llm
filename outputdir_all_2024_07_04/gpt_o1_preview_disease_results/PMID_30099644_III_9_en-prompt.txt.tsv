@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Choroideremia	MONDO:0010557	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+2	Retinitis Pigmentosa	MONDO:0008377	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+2	Retinitis Pigmentosa	MONDO:0019200	('OMIM:600138', 'Retinitis pigmentosa 11')	0.5	True
+3	Gyrate Atrophy	MONDO:0009796	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+4	Bietti Crystalline Dystrophy	MONDO:0008865	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+5	Refsum Disease	MONDO:0009958	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False

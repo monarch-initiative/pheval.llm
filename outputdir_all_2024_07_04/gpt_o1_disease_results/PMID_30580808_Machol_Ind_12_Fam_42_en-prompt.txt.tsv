@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Magenis syndrome	MONDO:0008434	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	Sotos syndrome	MONDO:0019349	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	PTEN hamartoma tumor syndrome	MONDO:0017623	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	Fetal alcohol syndrome	MONDO:0000408	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	Fetal alcohol syndrome	MONDO:0016011	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

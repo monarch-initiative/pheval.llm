@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+2	Phenylketonuria	MONDO:0009861	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+3	Rett syndrome	MONDO:0010726	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+4	Angelman syndrome	MONDO:0007113	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+5	Maple Syrup Urine Disease	MONDO:0009563	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+6	Fragile X syndrome	MONDO:0010383	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False
+7	Prader-Willi syndrome	MONDO:0008300	('OMIM:614923', 'Branched-chain keto acid dehydrogenase kinase deficiency')	0.0	False

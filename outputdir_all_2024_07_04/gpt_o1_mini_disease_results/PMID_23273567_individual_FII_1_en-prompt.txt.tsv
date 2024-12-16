@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked hypophosphatemic rickets	MONDO:0010619	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+1	X-linked hypophosphatemic rickets	MONDO:0020720	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Achondroplasia	MONDO:0007037	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Autosomal dominant hypophosphatemic rickets	MONDO:0008660	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Autosomal recessive hypophosphatemic rickets	MONDO:0017324	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Hypophosphatasia	MONDO:0018570	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Hypophosphatasia	MONDO:0009948	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+6	Osteogenesis imperfecta	MONDO:0019019	('OMIM:258480', 'Opsismodysplasia')	0.0	False

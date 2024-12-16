@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial DNA depletion syndrome, hepatocerebral form (DGUOK deficiency)	MONDO:0009636	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+2	Alpers-Huttenlocher syndrome (POLG-related disorder)	N/A	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+3	MPV17-related hepatocerebral mitochondrial DNA depletion syndrome	MONDO:0009747	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	1.0	True
+4	Tyrosinemia type I (hepatorenal tyrosinemia)	MONDO:0010161	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+5	Zellweger spectrum disorder (peroxisome biogenesis disorder)	MONDO:0019609	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+6	TRMU deficiency (tRNA 5-methylaminomethyl-2-thiouridylate methyltransferase deficiency)	N/A	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+7	Citrullinemia type II (citrin deficiency)	MONDO:0016603	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+8	Glycogen storage disease type IV (Andersen disease)	MONDO:0009292	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+9	Hereditary fructose intolerance	MONDO:0009249	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False
+10	Long-chain 3-hydroxyacyl-CoA dehydrogenase (LCHAD) deficiency	MONDO:0012173	('OMIM:256810', 'Mitochondrial DNA depletion syndrome 6 (hepatocerebral type)')	0.0	False

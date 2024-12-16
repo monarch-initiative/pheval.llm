@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Southeast Asian ovalocytosis (also known as distal renal tubular acidosis combined with hereditary spherocytosis)	N/A	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+2	Hereditary spherocytosis	MONDO:0019350	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+3	Gitelman syndrome	MONDO:0009904	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False
+4	Distal renal tubular acidosis (dRTA) without associated hematologic disorder	MONDO:0012700	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	1.0	True
+5	Bartter syndrome	MONDO:0015231	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False

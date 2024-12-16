@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert syndrome	MONDO:0018772	('OMIM:612313', 'Glass syndrome')	0.0	False
+1	Joubert syndrome	MONDO:0008944	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Oculodentodigital dysplasia	MONDO:0008111	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Muenke syndrome	MONDO:0011274	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Mitochondrial disorder	MONDO:0016797	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Lissencephaly	MONDO:0018838	('OMIM:612313', 'Glass syndrome')	0.0	False
+8	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:612313', 'Glass syndrome')	0.0	False

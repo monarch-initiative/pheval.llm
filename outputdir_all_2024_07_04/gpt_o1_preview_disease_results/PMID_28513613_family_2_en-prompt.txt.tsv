@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypoplastic amelogenesis imperfecta	MONDO:0015047	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.5	True
+2	Enamel-Renal Syndrome	MONDO:0008771	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+3	Trichodentoosseous Syndrome	MONDO:0008592	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+4	Jalili Syndrome	MONDO:0009007	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+5	Kohlschütter-Tönz Syndrome	N/A	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False

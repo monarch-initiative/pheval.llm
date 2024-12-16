@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sclerosteosis	MONDO:0017838	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+2	Van Buchem disease	MONDO:0009395	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False
+3	Craniometaphyseal dysplasia	MONDO:0015465	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.5	True
+4	Craniodiaphyseal dysplasia	MONDO:0009031	('OMIM:123000', 'Craniometaphyseal dysplasia')	0.0	False

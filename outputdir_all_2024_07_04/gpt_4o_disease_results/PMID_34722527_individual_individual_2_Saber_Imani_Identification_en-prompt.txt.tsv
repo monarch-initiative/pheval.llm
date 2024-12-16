@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Congenital stationary night blindness	MONDO:0016293	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Leber congenital amaurosis	MONDO:0018998	('OMIM:613826', 'Leber congenital amaurosis 6')	0.5	True
+6	Knobloch syndrome	MONDO:0800166	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

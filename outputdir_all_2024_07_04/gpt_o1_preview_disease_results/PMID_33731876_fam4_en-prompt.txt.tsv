@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign familial neonatal epilepsy	MONDO:0016027	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Benign familial neonatal-infantile seizures	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+3	PRRT2-related infantile convulsions	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	Epilepsy with continuous spike and wave during slow sleep	MONDO:0019123	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Autosomal dominant nocturnal frontal lobe epilepsy	MONDO:0020300	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

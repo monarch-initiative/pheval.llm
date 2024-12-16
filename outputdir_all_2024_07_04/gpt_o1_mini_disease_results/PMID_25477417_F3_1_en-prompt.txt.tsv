@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bartter Syndrome	MONDO:0015231	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Nephronophthisis	MONDO:0019005	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Juvenile Primary Hyperparathyroidism	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Familial Hypomagnesemia with Hypercalciuria and Nephrocalcinosis	MONDO:0017624	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+6	Nephrogenic Hyperparathyroidism Secondary to Chronic Kidney Disease	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+7	Familial Hypercalciuric Hypercalcemia	MONDO:0018458	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+8	Primary Hyperparathyroidism	MONDO:0010837	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

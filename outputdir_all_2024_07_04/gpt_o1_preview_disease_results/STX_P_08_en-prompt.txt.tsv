@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Epilepsy with continuous spike-waves during slow sleep (CSWS)	MONDO:0019123	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	GRIN2A-related epilepsy-aphasia spectrum disorder	MONDO:0017325	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	DEPDC5-related focal cortical dysplasia and epilepsy	MONDO:0024556	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	MTOR-related focal cortical dysplasia	MONDO:0019009	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	SCN2A-related epilepsy syndrome	MONDO:0011904	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Tuberous sclerosis complex (TSC)	MONDO:0013199	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

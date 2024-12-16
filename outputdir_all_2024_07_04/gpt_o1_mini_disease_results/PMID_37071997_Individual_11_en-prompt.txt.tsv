@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki Syndrome	MONDO:0007843	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+1	Kabuki Syndrome	MONDO:0016512	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Coffin-Lowry Syndrome	MONDO:0010561	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

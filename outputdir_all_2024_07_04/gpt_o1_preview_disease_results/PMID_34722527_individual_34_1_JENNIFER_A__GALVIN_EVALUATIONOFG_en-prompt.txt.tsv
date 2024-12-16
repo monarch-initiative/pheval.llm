@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nanophthalmos-retinal fold syndrome (MCOP6)	MONDO:0009978	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Foveal hypoplasia due to PAX6 mutation	MONDO:0007628	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Familial hyperopia with amblyopia	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Ocular albinism	MONDO:0017304	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

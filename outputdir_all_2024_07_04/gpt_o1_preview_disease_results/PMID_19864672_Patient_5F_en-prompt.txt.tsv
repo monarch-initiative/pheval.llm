@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive CARD9 deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+2	Chronic Granulomatous Disease (CGD)	MONDO:0018305	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+3	Dectin-1 deficiency (CLEC7A deficiency)	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+4	Severe T-cell immunodeficiency	MONDO:0044200	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+5	IL-17 receptor deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False

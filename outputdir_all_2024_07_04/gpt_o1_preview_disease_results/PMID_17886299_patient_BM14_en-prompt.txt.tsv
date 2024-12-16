@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bethlem myopathy	MONDO:0024530	('OMIM:158810', 'Bethlem myopathy 1A')	1.0	True
+1	Bethlem myopathy	MONDO:0008029	('OMIM:158810', 'Bethlem myopathy 1A')	0.5	True
+2	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:158810', 'Bethlem myopathy 1A')	0.0	False
+3	Distal arthrogryposis	MONDO:0019942	('OMIM:158810', 'Bethlem myopathy 1A')	0.0	False
+4	Congenital fiber-type disproportion myopathy	MONDO:0009711	('OMIM:158810', 'Bethlem myopathy 1A')	0.0	False

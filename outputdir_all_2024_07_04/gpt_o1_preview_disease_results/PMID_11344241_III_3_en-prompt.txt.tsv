@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy (Dunnigan type)	MONDO:0007906	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	1.0	True
+2	Familial Partial Lipodystrophy due to PPARG mutations	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+3	Acquired Partial Lipodystrophy (Barraquer-Simons syndrome)	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Severe Insulin Resistance Syndromes	MONDO:0012520	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Cushing's Syndrome	MONDO:0018912	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+6	Madelung's Disease	MONDO:0006574	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+6	Madelung's Disease	MONDO:0007908	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Berardinelli-Seip Congenital Lipodystrophy (Type 2)	MONDO:0018883	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Dunnigan-Type Familial Partial Lipodystrophy	MONDO:0007906	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+3	BSCL2-Related Hereditary Neuropathy with Predisposition to Lipodystrophy	MONDO:0018883	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	LMNA-Related Muscular Dystrophy with Lipodystrophy	N/A	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+5	CAV1-Associated Congenital Generalized Lipodystrophy	MONDO:0012923	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False

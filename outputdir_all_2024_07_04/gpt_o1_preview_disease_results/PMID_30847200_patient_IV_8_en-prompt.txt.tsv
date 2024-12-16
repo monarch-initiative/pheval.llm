@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Angelman syndrome	MONDO:0007113	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+2	Krabbe disease	MONDO:0009499	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+3	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+4	Phenylketonuria (PKU)	MONDO:0009861	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+5	Lesch-Nyhan syndrome	MONDO:0010298	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+6	Spastic paraplegia (hereditary spastic paraplegia)	MONDO:0019064	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+7	Mitochondrial disorders	MONDO:0004069	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+8	Lissencephaly	MONDO:0018838	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+9	Rett syndrome (in males)	N/A	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False

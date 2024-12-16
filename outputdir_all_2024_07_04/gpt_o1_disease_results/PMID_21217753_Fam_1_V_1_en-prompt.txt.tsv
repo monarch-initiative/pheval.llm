@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alkaptonuria	MONDO:0008753	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	COL2A1-related early-onset osteoarthritis	MONDO:0011496	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Aggrecan deficiency	N/A	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Spondyloepiphyseal dysplasia	MONDO:0016761	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Spondyloepiphyseal dysplasia	MONDO:0007738	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

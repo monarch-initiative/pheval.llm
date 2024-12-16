@@ -1,0 +1,16 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kleefstra syndrome	MONDO:0012455	('OMIM:148050', 'KBG syndrome')	0.0	False
+1	Kleefstra syndrome	MONDO:0027407	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Kabuki syndrome	MONDO:0016512	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Kabuki syndrome	MONDO:0007843	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Williams syndrome	MONDO:0008678	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Rett syndrome	MONDO:0010726	('OMIM:148050', 'KBG syndrome')	0.0	False
+7	Tuberous sclerosis complex	MONDO:0001734	('OMIM:148050', 'KBG syndrome')	0.0	False
+7	Tuberous sclerosis complex	MONDO:0008612	('OMIM:148050', 'KBG syndrome')	0.0	False
+8	Dravet syndrome	MONDO:0100135	('OMIM:148050', 'KBG syndrome')	0.0	False
+8	Dravet syndrome	MONDO:0100079	('OMIM:148050', 'KBG syndrome')	0.0	False
+9	CHARGE syndrome	MONDO:0008965	('OMIM:148050', 'KBG syndrome')	0.0	False
+10	Noonan syndrome	MONDO:0008104	('OMIM:148050', 'KBG syndrome')	0.0	False
+10	Noonan syndrome	MONDO:0018997	('OMIM:148050', 'KBG syndrome')	0.0	False

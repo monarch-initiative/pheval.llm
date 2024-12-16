@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Lamin A/C (LMNA) - related Cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Desmin (DES) - related Cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Myosin-binding protein C (MYBPC3) - related Cardiomyopathy	MONDO:0007268	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Phospholamban (PLN) - related Cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Titin (TTN) - related Cardiomyopathy	MONDO:0100175	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

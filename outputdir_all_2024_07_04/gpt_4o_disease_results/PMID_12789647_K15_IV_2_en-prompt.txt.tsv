@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Holt-Oram syndrome	MONDO:0007732	('OMIM:142900', 'Holt-Oram syndrome')	1.0	True
+2	Townes-Brocks syndrome	MONDO:0007142	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	Heart-hand syndrome, type 1 (Brachydactyly type D with congenital heart defect)	MONDO:0015284	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+4	Ulnar-Mammary syndrome	MONDO:0008411	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Fanconi anemia	MONDO:0019391	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Fanconi anemia	MONDO:0009215	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

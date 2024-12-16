@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rabson-Mendenhall syndrome	MONDO:0009874	('OMIM:246200', 'Donohue syndrome')	0.0	False
+2	Donohue syndrome	MONDO:0009517	('OMIM:246200', 'Donohue syndrome')	1.0	True
+3	Costello syndrome	MONDO:0009026	('OMIM:246200', 'Donohue syndrome')	0.0	False
+4	Congenital generalized lipodystrophy	MONDO:0006536	('OMIM:246200', 'Donohue syndrome')	0.0	False
+4	Congenital generalized lipodystrophy	MONDO:0018883	('OMIM:246200', 'Donohue syndrome')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Infantile Pompe Disease (Glycogen Storage Disease Type II)	MONDO:0009288	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Spinal Muscular Atrophy Type I	MONDO:0009669	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Mitochondrial Disorder (e.g., Leigh Syndrome)	MONDO:0016814	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Congenital Central Hypoventilation Syndrome	MONDO:0800026	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Hypoxic-Ischemic Encephalopathy	MONDO:0006663	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Congenital Myopathy	MONDO:0019952	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.5	True
+7	Prader-Willi Syndrome	MONDO:0008300	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

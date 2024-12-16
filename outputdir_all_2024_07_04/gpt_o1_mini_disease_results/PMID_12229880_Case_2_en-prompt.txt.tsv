@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hemophagocytic lymphohistiocytosis (HLH)	MONDO:0009974	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+2	T-cell lymphoma-associated hemophagocytic syndrome	MONDO:0015542	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+3	Acute T-cell leukemia	MONDO:0004963	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+4	Non-Hodgkin T-cell lymphoma	MONDO:0015760	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+5	Aplastic anemia	MONDO:0013879	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+5	Aplastic anemia	MONDO:0012197	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+5	Aplastic anemia	MONDO:0015909	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+6	Myelofibrosis	MONDO:0044903	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+6	Myelofibrosis	MONDO:0009692	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False
+7	Systemic lupus erythematosus	MONDO:0007915	('OMIM:603553', 'Hemophagocytic lymphohistiocytosis, familial, 2')	0.0	False

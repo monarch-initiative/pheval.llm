@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh Syndrome	MONDO:0009723	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Pompe Disease (Glycogen Storage Disease Type II)	MONDO:0002413	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Pyruvate Dehydrogenase Deficiency	MONDO:0019169	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Zellweger Spectrum Disorder	MONDO:0019234	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Mitochondrial DNA Depletion Syndrome	MONDO:0018158	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Niemann-Pick Disease Type A	MONDO:0009756	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+7	Urea Cycle Disorder	MONDO:0004739	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

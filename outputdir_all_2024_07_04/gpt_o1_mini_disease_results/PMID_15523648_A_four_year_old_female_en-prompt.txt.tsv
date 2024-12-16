@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Marinesco-Sjögren syndrome	MONDO:0009567	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+2	Rett syndrome	MONDO:0010726	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+3	Mucopolysaccharidosis type I	MONDO:0001586	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+4	Cockayne syndrome	MONDO:0016006	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+5	Cystinosis	MONDO:0016239	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+6	Wilson disease	MONDO:0010200	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+7	Ataxia-telangiectasia	MONDO:0008840	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+8	Neuronal Ceroid Lipofuscinoses	MONDO:0014147	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+9	Zellweger spectrum disorders	MONDO:0019234	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+9	Zellweger spectrum disorders	MONDO:0019609	('OMIM:252650', 'Mucolipidosis IV')	0.0	False
+10	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:252650', 'Mucolipidosis IV')	0.0	False

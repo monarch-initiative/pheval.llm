@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurofibromatosis type 1	MONDO:0018975	('OMIM:613224', 'Noonan syndrome 6')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:613224', 'Noonan syndrome 6')	0.5	True
+2	Noonan syndrome	MONDO:0008104	('OMIM:613224', 'Noonan syndrome 6')	0.0	False
+3	CBL syndrome	MONDO:0013308	('OMIM:613224', 'Noonan syndrome 6')	0.0	False
+4	Legius syndrome	MONDO:0012669	('OMIM:613224', 'Noonan syndrome 6')	0.0	False
+5	Costello syndrome	MONDO:0009026	('OMIM:613224', 'Noonan syndrome 6')	0.0	False

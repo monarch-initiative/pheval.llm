@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Genetic Epilepsy with Febrile Seizures Plus (GEFS+)	MONDO:0018214	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0001734	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0008612	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	SCN1A-related epileptic disorders	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+6	KCNQ2-related epileptic encephalopathy	MONDO:0013387	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+7	POLG-related disorders	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+8	Angelman syndrome	MONDO:0007113	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+9	Rett syndrome	MONDO:0010726	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+10	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+10	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hajdu-Cheney syndrome	MONDO:0007057	('OMIM:102500', 'Hajdu-Cheney syndrome')	1.0	True
+2	Osteogenesis imperfecta	MONDO:0019019	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+3	Torg-Winchester syndrome	MONDO:0009809	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+4	Pycnodysostosis	MONDO:0009940	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False
+5	Langer-Giedion syndrome	MONDO:0007874	('OMIM:102500', 'Hajdu-Cheney syndrome')	0.0	False

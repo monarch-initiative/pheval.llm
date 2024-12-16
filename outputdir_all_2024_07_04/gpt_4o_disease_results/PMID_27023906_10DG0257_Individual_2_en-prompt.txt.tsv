@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	De Barsy syndrome	MONDO:0017569	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+2	Cutis laxa	MONDO:0016175	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.5	True
+3	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	Kabuki syndrome	MONDO:0016512	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	Kabuki syndrome	MONDO:0007843	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+5	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+6	Noonan syndrome	MONDO:0008104	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+6	Noonan syndrome	MONDO:0018997	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+7	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False

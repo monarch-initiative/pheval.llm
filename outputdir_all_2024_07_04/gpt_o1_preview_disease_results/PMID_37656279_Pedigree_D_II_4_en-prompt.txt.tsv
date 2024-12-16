@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Trichothiodystrophy (TTD)	MONDO:0018053	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Conradi-Hünermann-Happle syndrome (CDPX2)	N/A	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+3	Ichthyosis Follicularis with Alopecia and Photophobia (IFAP) syndrome	MONDO:0100213	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+4	Keratitis-Ichthyosis-Deafness (KID) syndrome	MONDO:0018781	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Sjögren-Larsson syndrome	MONDO:0010031	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+6	Lamellar ichthyosis	MONDO:0019306	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+6	Lamellar ichthyosis	MONDO:0017778	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False

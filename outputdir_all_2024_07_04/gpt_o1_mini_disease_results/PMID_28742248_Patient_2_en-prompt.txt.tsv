@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	TUBA1A-Related Tubulinopathy	MONDO:0700044	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+2	Aicardi Syndrome	MONDO:0010568	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+3	Walker-Warburg Syndrome	MONDO:0000171	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+4	FOXG1 Syndrome	MONDO:0035383	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+5	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+6	TUBB2B-Related Polymicrogyria	N/A	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+7	Sturge-Weber Syndrome	MONDO:0008501	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+8	Tuberous Sclerosis	MONDO:0001734	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False

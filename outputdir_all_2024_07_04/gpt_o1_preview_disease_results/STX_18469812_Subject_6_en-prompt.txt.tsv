@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Early Infantile Epileptic Encephalopathy (Ohtahara Syndrome)	MONDO:0018614	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Nonketotic Hyperglycinemia	MONDO:0011612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Early Myoclonic Encephalopathy	MONDO:0016022	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Zellweger Syndrome	MONDO:0019609	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	KCNQ2-Related Epileptic Encephalopathy	MONDO:0013387	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Mitochondrial Disorders (e.g., Leigh Syndrome)	MONDO:0016814	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

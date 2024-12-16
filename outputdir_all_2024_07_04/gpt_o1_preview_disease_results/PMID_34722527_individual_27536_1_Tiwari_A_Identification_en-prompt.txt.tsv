@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Wagner syndrome	MONDO:0007740	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Knobloch syndrome	MONDO:0800166	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Familial high myopia (MYP1)	MONDO:0014982	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

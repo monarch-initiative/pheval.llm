@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stargardt disease	MONDO:0019353	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+2	Cone dystrophy	MONDO:0000455	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+3	Best vitelliform macular dystrophy	MONDO:0007931	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+4	Pattern dystrophy of the retinal pigment epithelium	MONDO:0009979	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False

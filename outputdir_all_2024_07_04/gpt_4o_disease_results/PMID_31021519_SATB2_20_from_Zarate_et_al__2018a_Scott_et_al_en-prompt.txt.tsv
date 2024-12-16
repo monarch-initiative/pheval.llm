@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Velo-cardio-facial syndrome (22q11.2 deletion syndrome)	MONDO:0008644	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Pierre Robin sequence	MONDO:0009869	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Williams syndrome	MONDO:0008678	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Saethre-Chotzen syndrome	MONDO:0007042	('OMIM:612313', 'Glass syndrome')	0.0	False

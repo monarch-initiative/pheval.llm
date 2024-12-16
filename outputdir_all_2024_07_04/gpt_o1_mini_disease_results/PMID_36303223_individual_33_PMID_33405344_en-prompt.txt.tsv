@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Molybdenum Cofactor Deficiency	MONDO:0020480	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+1	Molybdenum Cofactor Deficiency	MONDO:0000063	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Biotinidase Deficiency	MONDO:0009665	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Methionine Synthase Deficiency	MONDO:0021915	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Methionine Synthase Deficiency	MONDO:0009609	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Cystathionine Beta-Synthase Deficiency	MONDO:0009352	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+6	S-Adenosylhomocysteine Hydrolase Deficiency	MONDO:0013404	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

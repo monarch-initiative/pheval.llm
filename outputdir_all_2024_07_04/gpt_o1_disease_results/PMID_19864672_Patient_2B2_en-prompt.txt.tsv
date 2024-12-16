@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	STAT1 gain-of-function associated chronic mucocutaneous candidiasis	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+2	IL-17 receptor alpha deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+3	Autoimmune polyendocrine syndrome type 1 (AIRE deficiency)	MONDO:0009411	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+4	CARD9 deficiency	MONDO:0008905	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	1.0	True
+5	IL17F deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False

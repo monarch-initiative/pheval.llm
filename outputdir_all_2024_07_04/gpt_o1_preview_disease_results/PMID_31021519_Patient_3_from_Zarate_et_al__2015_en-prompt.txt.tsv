@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:612313', 'Glass syndrome')	0.0	False
+1	Kabuki syndrome	MONDO:0007843	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	KBG syndrome	MONDO:0007846	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Hypophosphatasia	MONDO:0009948	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Hypophosphatasia	MONDO:0018570	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Osteogenesis imperfecta	MONDO:0019019	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Hypophosphatemic rickets	MONDO:0024300	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Oculodentodigital dysplasia	MONDO:0008111	('OMIM:612313', 'Glass syndrome')	0.0	False

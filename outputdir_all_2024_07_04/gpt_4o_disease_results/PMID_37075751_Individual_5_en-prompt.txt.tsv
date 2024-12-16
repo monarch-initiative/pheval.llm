@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Myasthenia gravis	MONDO:0009688	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+2	Congenital myasthenic syndrome	MONDO:0018940	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+3	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+5	Nemaline myopathy	MONDO:0018958	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+6	Mitochondrial myopathy	MONDO:0009637	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+7	Congenital muscular dystrophy	MONDO:0019950	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+8	Barth syndrome	MONDO:0010543	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False

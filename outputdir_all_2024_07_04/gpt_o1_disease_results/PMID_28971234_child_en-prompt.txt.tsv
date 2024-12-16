@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler syndrome	MONDO:0019354	('OMIM:604841', 'Stickler syndrome, type II')	0.5	True
+2	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+3	Osteogenesis imperfecta	MONDO:0019019	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+4	Ehlers-Danlos syndrome (ocular type)	MONDO:0016002	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False

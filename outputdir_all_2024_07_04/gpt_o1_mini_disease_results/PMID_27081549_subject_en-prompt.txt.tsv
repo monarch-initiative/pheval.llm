@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stickler Syndrome	MONDO:0019354	('OMIM:604841', 'Stickler syndrome, type II')	0.5	True
+2	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+3	Mucopolysaccharidosis Type I (Hurler Syndrome)	MONDO:0011759	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+4	Pierre Robin Sequence	MONDO:0009869	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+5	Treacher Collins Syndrome	MONDO:0007944	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+5	Treacher Collins Syndrome	MONDO:0002457	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False
+6	Marfan Syndrome	MONDO:0007947	('OMIM:604841', 'Stickler syndrome, type II')	0.0	False

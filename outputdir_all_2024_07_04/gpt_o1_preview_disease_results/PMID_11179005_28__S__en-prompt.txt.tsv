@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	AEC syndrome (Ankyloblepharon-Ectodermal Dysplasia–Clefting Syndrome)	MONDO:0010004	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+2	Rapp-Hodgkin syndrome	MONDO:0007508	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+3	Hypohidrotic ectodermal dysplasia	MONDO:0016535	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+4	Trichorhinophalangeal syndrome	MONDO:0017951	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+5	Oculodentodigital dysplasia	MONDO:0008111	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+6	Lacrimo-Auriculo-Dento-Digital (LADD) syndrome	MONDO:0007872	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False

@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Neonatal Seizures (BFNS)	MONDO:0002016	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	GEFS+ (Generalized Epilepsy with Febrile Seizures Plus)	MONDO:0018214	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Dravet syndrome	MONDO:0100135	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Dravet syndrome	MONDO:0100079	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+6	Epilepsy, idiopathic generalized	MONDO:0005579	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Medullary Cystic Kidney Disease	MONDO:0008264	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.5	True
+2	Autosomal Dominant Polycystic Kidney Disease	MONDO:0004691	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+3	Familial Juvenile Hyperuricemic Nephropathy	MONDO:0000608	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.5	True
+4	Uric Acid Transport Defects	N/A	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False
+5	Tophaceous Gout with Secondary Kidney Disease	N/A	('OMIM:162000', 'Tubulointerstitial kidney disease, autosomal dominant, 1')	0.0	False

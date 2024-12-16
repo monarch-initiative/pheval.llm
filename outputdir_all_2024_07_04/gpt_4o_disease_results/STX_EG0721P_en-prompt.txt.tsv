@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Aicardi syndrome	MONDO:0010568	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Zellweger spectrum disorder	MONDO:0019234	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Infantile neuroaxonal dystrophy	MONDO:0024457	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Pyruvate dehydrogenase complex deficiency	MONDO:0010717	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Pyruvate dehydrogenase complex deficiency	MONDO:0019169	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Aromatic L-amino acid decarboxylase (AADC) deficiency	MONDO:0012084	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Severe Mitochondrial encephalomyopathy	MONDO:0010437	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

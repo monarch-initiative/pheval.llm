@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aarskog-Scott syndrome	MONDO:0007030	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+1	Aarskog-Scott syndrome	MONDO:0010589	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+1	Aarskog-Scott syndrome	MONDO:0021005	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+3	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+4	Down syndrome	MONDO:0008608	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+5	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+6	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+7	Pfeiffer syndrome	MONDO:0007043	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+8	Crouzon syndrome	MONDO:0007405	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+9	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False
+10	Stickler syndrome	MONDO:0019354	('OMIM:268310', 'Robinow syndrome, autosomal recessive')	0.0	False

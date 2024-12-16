@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Please note that this is not a medical diagnosis. For an accurate assessment, please consult a qualified healthcare professional.	N/A	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+2	Branchio-oculo-facial syndrome	MONDO:0007235	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+3	Oculo-auriculo-vertebral spectrum (Goldenhar syndrome)	N/A	('OMIM:214800', 'CHARGE syndrome')	0.0	False
+4	CHARGE syndrome	MONDO:0008965	('OMIM:214800', 'CHARGE syndrome')	1.0	True
+5	Axenfeld-Rieger syndrome	MONDO:0019187	('OMIM:214800', 'CHARGE syndrome')	0.0	False

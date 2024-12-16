@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+2	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+3	Silver-Russell syndrome	MONDO:0008394	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+5	Floating-Harbor syndrome	MONDO:0007621	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False
+6	Hunter-McAlpine syndrome	MONDO:0011065	('OMIM:620535', 'Developmental delay, dysmorphic facies, and brain anomalies')	0.0	False

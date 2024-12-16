@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oliver–McFarlane syndrome	N/A	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+2	Laurence–Moon syndrome	MONDO:0009514	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+3	Bardet–Biedl syndrome	MONDO:0014441	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False
+4	Cohen syndrome	MONDO:0008999	('OMIM:275400', 'Oliver-McFarlane syndrome')	0.0	False

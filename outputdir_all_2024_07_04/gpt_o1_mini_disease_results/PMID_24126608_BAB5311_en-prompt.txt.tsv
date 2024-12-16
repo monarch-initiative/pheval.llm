@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinal Muscular Atrophy type I (Werdnig-Hoffmann disease)	MONDO:0009669	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+2	Hereditary Motor and Sensory Neuropathy (Charcot-Marie-Tooth disease)	MONDO:0008960	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+3	Spinal Muscular Atrophy type II	MONDO:0009673	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+4	Congenital Muscular Dystrophy	MONDO:0019950	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+5	Congenital Myopathy (e.g., Central Core Disease)	MONDO:0013890	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+6	Spinal Muscular Atrophy type III	MONDO:0009672	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+7	Prader-Willi Syndrome	MONDO:0008300	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False
+8	Congenital Hypomyelinating Neuropathy	MONDO:0017049	('OMIM:620542', 'Neuronopathy, distal hereditary motor, autosomal recessive 10')	0.0	False

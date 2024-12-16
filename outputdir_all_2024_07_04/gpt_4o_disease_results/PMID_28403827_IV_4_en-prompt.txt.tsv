@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	AEC syndrome (Ankyloblepharon-Ectodermal defects-Cleft lip/palate)	MONDO:0007124	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+2	Clouston syndrome (Hidrotic Ectodermal Dysplasia)	MONDO:0007510	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+3	Hypohidrotic Ectodermal Dysplasia	MONDO:0016535	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+4	Pachyonychia Congenita	MONDO:0016471	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+5	Hay-Wells syndrome (also known as AEC syndrome)	N/A	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+6	Schöpf-Schulz-Passarge syndrome	MONDO:0009145	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False

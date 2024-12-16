@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KBG syndrome	MONDO:0007846	('OMIM:148050', 'KBG syndrome')	1.0	True
+2	Russell-Silver syndrome	MONDO:0008394	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	3M syndrome	MONDO:0010117	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	3M syndrome	MONDO:0007477	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Floating-Harbor syndrome	MONDO:0007621	('OMIM:148050', 'KBG syndrome')	0.0	False

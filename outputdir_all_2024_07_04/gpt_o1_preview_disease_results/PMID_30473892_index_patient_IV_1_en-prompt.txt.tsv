@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Disorders of Glycosylation (CDG) syndrome	MONDO:0015286	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+3	Ataxia-telangiectasia	MONDO:0008840	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+4	Noonan syndrome	MONDO:0008104	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+4	Noonan syndrome	MONDO:0018997	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+5	Costello syndrome	MONDO:0009026	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+6	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False

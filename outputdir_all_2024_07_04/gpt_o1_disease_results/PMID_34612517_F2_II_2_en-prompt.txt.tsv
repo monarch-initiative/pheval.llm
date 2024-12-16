@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+2	CHARGE syndrome	MONDO:0008965	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+3	Holt-Oram syndrome	MONDO:0007732	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False
+4	Williams syndrome	MONDO:0008678	('OMIM:617478', 'Structural heart defects and renal anomalies syndrome')	0.0	False

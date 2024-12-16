@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Angelman syndrome	MONDO:0007113	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Rett syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Dravet syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Dravet syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Ataxia-telangiectasia	MONDO:0008840	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Unverricht-Lundborg disease	MONDO:0009698	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Spinocerebellar ataxia	MONDO:0000437	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Spinocerebellar ataxia	MONDO:0020380	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Mitochondrial encephalopathy (e.g., MELAS)	MONDO:0010789	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

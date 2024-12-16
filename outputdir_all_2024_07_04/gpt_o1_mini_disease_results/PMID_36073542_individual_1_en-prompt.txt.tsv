@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett Syndrome	MONDO:0010726	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+2	Angelman Syndrome	MONDO:0007113	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+3	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+4	FOXG1-Related Disorder	MONDO:0100040	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+5	Mitochondrial Disorder (e.g., Leigh Syndrome)	MONDO:0016814	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+6	Joubert Syndrome	MONDO:0018772	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+6	Joubert Syndrome	MONDO:0008944	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+7	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+8	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+9	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+9	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False
+10	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:620774', 'Developmental and epileptic encephalopathy 114')	0.0	False

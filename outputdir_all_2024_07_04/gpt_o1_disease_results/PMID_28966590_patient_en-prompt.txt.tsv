@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	TUBA1A-related lissencephaly	MONDO:0012703	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+2	RELN-related lissencephaly	N/A	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+3	LIS1-related lissencephaly	MONDO:0011830	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+4	Fukuyama congenital muscular dystrophy	MONDO:0009678	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+5	Doublecortin-related lissencephaly	MONDO:0010239	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False

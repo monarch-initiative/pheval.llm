@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dent disease	MONDO:0015612	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+2	Distal renal tubular acidosis (dRTA), secondary to a systemic condition	MONDO:0015827	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.5	True
+3	Autosomal dominant hypocalcemia (ADH)	MONDO:0018543	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+4	Primary hyperparathyroidism	MONDO:0010837	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+5	Sjögren's syndrome	MONDO:0010030	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+1	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+2	Canavan disease	MONDO:0010079	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+3	Alexander disease	MONDO:0008752	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+4	Vanishing white matter disease	MONDO:0800448	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+5	Pelizaeus–Merzbacher disease	MONDO:0017224	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+6	Neurofibromatosis type 1	MONDO:0018975	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False

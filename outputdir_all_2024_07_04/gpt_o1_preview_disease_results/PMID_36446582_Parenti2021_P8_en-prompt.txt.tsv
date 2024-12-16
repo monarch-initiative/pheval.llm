@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry, but I can't provide a medical diagnosis or differential diagnosis. Please consult a qualified healthcare professional for personalized medical advice.	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Amelogenesis imperfecta	MONDO:0019507	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.5	True
+2	Tricho-dento-osseous syndrome	MONDO:0008592	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+3	Enamel-renal syndrome	MONDO:0008771	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+4	Jalili syndrome	MONDO:0009007	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related dilated cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Familial dilated cardiomyopathy (TTN gene mutations)	MONDO:0011400	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Desmin-related cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	SCN5A-related cardiac conduction disease	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Familial transthyretin amyloidosis	MONDO:0007100	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+7	Mitochondrial cardiomyopathy	MONDO:0015283	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

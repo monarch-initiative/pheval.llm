@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Townes-Brocks Syndrome	MONDO:0007142	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+2	VACTERL Association	MONDO:0008642	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+3	Holt-Oram Syndrome	MONDO:0007732	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+4	Leri-Weill Dyschondrosteosis	MONDO:0007481	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+5	Monosomy 5p (Cri-du-Chat Syndrome)	MONDO:0007404	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+6	Greig Cephalopolysyndactyly Syndrome	MONDO:0008287	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False
+7	Ectrodactyly-Renal Dysplasia Syndrome	MONDO:0013311	('OMIM:620662', 'Hoxha-Aliu syndrome')	0.0	False

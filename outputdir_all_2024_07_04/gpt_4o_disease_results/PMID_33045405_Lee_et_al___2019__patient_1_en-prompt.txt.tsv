@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Medium-chain acyl-CoA dehydrogenase deficiency (MCADD)	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Mitochondrial trifunctional protein deficiency (MTP deficiency)	MONDO:0012172	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Multiple acyl-CoA dehydrogenase deficiency (MADD)	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Carnitine palmitoyltransferase II deficiency (CPT II deficiency)	MONDO:0015515	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+5	Long-chain 3-hydroxyacyl-CoA dehydrogenase deficiency (LCHADD)	MONDO:0012173	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+6	Carnitine-acylcarnitine translocase deficiency (CACT deficiency)	MONDO:0008918	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

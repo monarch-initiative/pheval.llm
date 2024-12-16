@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beta-propeller Protein-Associated Neurodegeneration (BPAN)	MONDO:0010476	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+2	Pantothenate Kinase-Associated Neurodegeneration (PKAN)	MONDO:0009319	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+3	Infantile Neuroaxonal Dystrophy (INAD)	N/A	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+4	Woodhouse-Sakati Syndrome	MONDO:0009419	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+5	Neurodegeneration with Brain Iron Accumulation (NBIA)	MONDO:0018307	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.5	True
+6	POLR3-Related Leukodystrophy (4H Syndrome)	MONDO:0014666	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+7	Hypomyelination and Atrophy of the Basal Ganglia and Cerebellum (H-ABC)	N/A	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False

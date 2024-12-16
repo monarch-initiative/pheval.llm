@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Maroteaux-Lamy syndrome (Mucopolysaccharidosis type VI)	N/A	('OMIM:139210', 'Myhre syndrome')	0.0	False
+2	Morquio syndrome (Mucopolysaccharidosis type IV)	N/A	('OMIM:139210', 'Myhre syndrome')	0.0	False
+3	Sclerosteosis	MONDO:0017838	('OMIM:139210', 'Myhre syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neurodegeneration with Brain Iron Accumulation (NBIA)	MONDO:0018307	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.5	True
+2	Pantothenate Kinase-Associated Neurodegeneration (PKAN)	MONDO:0009319	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+3	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+4	Hypomyelination and Congenital Cataract (HCC)	MONDO:0012514	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+5	Cerebrotendinous Xanthomatosis (CTX)	MONDO:0008948	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False
+6	PLA2G6-Associated Neurodegeneration (PLAN)	MONDO:0017998	('OMIM:620669', 'Neurodegeneration with brain iron accumulation 9')	0.0	False

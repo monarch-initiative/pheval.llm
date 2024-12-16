@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Saethre-Chotzen syndrome	MONDO:0007042	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+3	Carpenter syndrome	MONDO:0019012	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+3	Carpenter syndrome	MONDO:0008710	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+4	DiGeorge syndrome (22q11.2 deletion syndrome)	MONDO:0012020	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+5	Holt-Oram syndrome	MONDO:0007732	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+6	Down syndrome	MONDO:0008608	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False
+7	Apert syndrome	MONDO:0007041	('OMIM:250410', 'Retinitis pigmentosa with or without skeletal anomalies')	0.0	False

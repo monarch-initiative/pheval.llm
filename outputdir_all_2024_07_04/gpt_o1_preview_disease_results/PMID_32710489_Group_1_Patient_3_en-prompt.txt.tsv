@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+2	Aarskog-Scott syndrome	MONDO:0021005	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+2	Aarskog-Scott syndrome	MONDO:0007030	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+2	Aarskog-Scott syndrome	MONDO:0010589	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+3	Edwards syndrome (Trisomy 18)	N/A	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+4	CHARGE syndrome	MONDO:0008965	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False
+5	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:620155', 'Rabin-Pappas syndrome')	0.0	False

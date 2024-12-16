@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Greig cephalopolysyndactyly syndrome (GCPS)	MONDO:0008287	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	1.0	True
+2	Pallister-Hall syndrome	MONDO:0007804	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+3	Syndactyly type IV (Zwilling syndrome)	MONDO:0008515	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+4	Acrocallosal syndrome	MONDO:0008708	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False

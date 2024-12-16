@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ulnar-Mammary Syndrome	MONDO:0008411	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0021005	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0007030	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	Aarskog-Scott Syndrome	MONDO:0010589	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Kabuki Syndrome	MONDO:0016512	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Kabuki Syndrome	MONDO:0007843	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Coffin-Siris Syndrome	MONDO:0007617	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Coffin-Siris Syndrome	MONDO:0015452	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

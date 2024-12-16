@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pyruvate Dehydrogenase Complex Deficiency	MONDO:0010717	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+1	Pyruvate Dehydrogenase Complex Deficiency	MONDO:0019169	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+2	Leigh Syndrome	MONDO:0009723	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+3	Mitochondrial Complex I Deficiency	MONDO:0100224	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+3	Mitochondrial Complex I Deficiency	MONDO:0100133	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+4	MELAS Syndrome	MONDO:0010789	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+5	Pearson Syndrome	MONDO:0010797	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+6	Mitochondrial DNA Depletion Syndrome	MONDO:0018158	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+7	Mitochondrial Pyruvate Carrier Deficiency	MONDO:0013877	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False

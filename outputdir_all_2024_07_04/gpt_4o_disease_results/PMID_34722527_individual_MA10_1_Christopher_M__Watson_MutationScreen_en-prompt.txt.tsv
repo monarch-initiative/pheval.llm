@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett Syndrome	MONDO:0010726	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+2	Fragile X Syndrome	MONDO:0010383	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+3	Angelman Syndrome	MONDO:0007113	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+4	Prader-Willi Syndrome	MONDO:0008300	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False
+5	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:608194', 'Cone-rod dystrophy 13')	0.0	False

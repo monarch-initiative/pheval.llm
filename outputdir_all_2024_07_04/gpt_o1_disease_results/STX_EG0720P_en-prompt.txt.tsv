@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neuronal ceroid lipofuscinosis type 2 (CLN2 disease)	MONDO:0008768	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Rett syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Niemann-Pick disease type C	MONDO:0018982	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Alpers syndrome	MONDO:0008758	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Lissencephaly with cerebellar hypoplasia	MONDO:0019450	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+2	TUBB2B-related pachygyria	MONDO:0700044	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+3	Walker-Warburg syndrome	MONDO:0000171	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+4	Mitochondrial encephalopathy	MONDO:0004675	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False
+5	Congenital disorders of glycosylation	MONDO:0015286	('OMIM:610031', 'Cortical dysplasia, complex, with other brain malformations 7')	0.0	False

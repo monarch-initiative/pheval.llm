@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pseudohypoparathyroidism type 1a	MONDO:0007078	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+2	Werner Syndrome	MONDO:0010196	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+3	Multiple Epiphyseal Dysplasia	MONDO:0016648	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+4	Osteoarthritis	MONDO:0005178	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+5	Osteopetrosis	MONDO:0017198	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+6	Albright Hereditary Osteodystrophy	MONDO:0007078	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+7	Hypothyroidism	MONDO:0005420	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+8	Fibrodysplasia Ossificans Progressiva	MONDO:0007606	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+8	Fibrodysplasia Ossificans Progressiva	MONDO:0003964	('OMIM:102370', 'Acromicric dysplasia')	0.0	False

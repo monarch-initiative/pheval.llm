@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Coffin-Siris syndrome	MONDO:0015452	('OMIM:612313', 'Glass syndrome')	0.0	False
+1	Coffin-Siris syndrome	MONDO:0007617	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	SATB2-associated syndrome	MONDO:0012864	('OMIM:612313', 'Glass syndrome')	1.0	True
+3	SATB2-associated syndrome	MONDO:0100147	('OMIM:612313', 'Glass syndrome')	0.5	True
+4	Kleefstra syndrome	MONDO:0012455	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Kleefstra syndrome	MONDO:0027407	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False

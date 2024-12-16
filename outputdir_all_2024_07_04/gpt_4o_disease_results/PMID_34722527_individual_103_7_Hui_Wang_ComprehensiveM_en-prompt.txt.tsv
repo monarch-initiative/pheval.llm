@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cystic fibrosis	MONDO:0009061	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Marfan syndrome	MONDO:0007947	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Turner syndrome	MONDO:0019499	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome (Hypermobility type)	MONDO:0007523	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Arthrochalasia type Ehlers-Danlos syndrome	MONDO:0007525	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Congenital Contractural Arachnodactyly (Beals syndrome)	MONDO:0007363	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+4	Kyphoscoliotic Ehlers-Danlos syndrome (kEDS)	MONDO:0016002	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+5	Stickler syndrome	MONDO:0019354	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+6	Marfan syndrome	MONDO:0007947	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

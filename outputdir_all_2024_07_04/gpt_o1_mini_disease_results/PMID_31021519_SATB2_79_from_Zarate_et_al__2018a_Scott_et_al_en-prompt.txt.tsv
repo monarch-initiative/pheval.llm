@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Smith-Magenis syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Russell-Silver syndrome	MONDO:0008394	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Down syndrome	MONDO:0008608	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Ectodermal dysplasia	MONDO:0019287	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Ectodermal dysplasia	MONDO:0009773	('OMIM:612313', 'Glass syndrome')	0.0	False

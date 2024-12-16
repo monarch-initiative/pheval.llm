@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mendelian Susceptibility to Mycobacterial Disease (MSMD)	MONDO:0019146	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+2	Interferon-Gamma Receptor 1 (IFNGR1) Deficiency	MONDO:0020530	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+3	Interleukin-12 Receptor Beta 1 (IL12RB1) Deficiency	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+4	Signal Transducer and Activator of Transcription 1 (STAT1) Deficiency	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+5	Interleukin-12 p40 Subunit (IL12B) Deficiency	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+6	Tyrosine Kinase 2 (TYK2) Deficiency	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+7	ISG15 Deficiency	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Catecholaminergic polymorphic ventricular tachycardia (CPVT)	MONDO:0017990	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Long QT Syndrome (LQTS)	MONDO:0002442	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Brugada Syndrome	MONDO:0015263	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Short QT Syndrome	MONDO:0000453	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Hypertrophic Cardiomyopathy (HCM)	MONDO:0005045	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

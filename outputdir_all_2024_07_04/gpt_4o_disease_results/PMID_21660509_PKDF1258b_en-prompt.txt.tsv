@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GJB2-related nonsyndromic hearing loss	MONDO:0009076	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+2	Autosomal Recessive Deafness 1A	MONDO:0009076	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+3	Usher Syndrome (excluding types with vestibular or severe visual involvement)	MONDO:0016484	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+4	Waardenburg Syndrome (types II and IV)	MONDO:0019517	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+5	Alport Syndrome	MONDO:0018965	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+6	Perrault Syndrome (if female, due to potential ovarian failure consideration)	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+7	Pendred Syndrome (with less common non-vestibular involvement)	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+8	Wolfram Syndrome (with minimal visual impairment)	MONDO:0013673	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+9	Norrie Disease (atypical presentation without severe visual impairment)	MONDO:0010691	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+10	Stickler Syndrome (atypical presentation without visual impairment)	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False

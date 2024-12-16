@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar Ataxia (SCA)	MONDO:0008457	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+2	Huntington's Disease	MONDO:0007739	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+3	Mitochondrial Neurogastrointestinal Encephalomyopathy (MNGIE)	MONDO:0017575	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+4	Multiple System Atrophy (MSA)	MONDO:0007803	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+5	Neurodegeneration with Brain Iron Accumulation (NBIA)	MONDO:0018307	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+6	Dentatorubral-pallidoluysian Atrophy (DRPLA)	N/A	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False

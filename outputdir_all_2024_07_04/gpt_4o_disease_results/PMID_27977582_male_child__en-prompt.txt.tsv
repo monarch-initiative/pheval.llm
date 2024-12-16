@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Larsen syndrome	MONDO:0007875	('OMIM:150250', 'Larsen syndrome')	1.0	True
+2	Distal arthrogryposis	MONDO:0019942	('OMIM:150250', 'Larsen syndrome')	0.0	False
+3	Diastrophic dysplasia	MONDO:0009107	('OMIM:150250', 'Larsen syndrome')	0.0	False
+4	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:150250', 'Larsen syndrome')	0.0	False
+5	Freeman-Sheldon syndrome	MONDO:0008675	('OMIM:150250', 'Larsen syndrome')	0.0	False

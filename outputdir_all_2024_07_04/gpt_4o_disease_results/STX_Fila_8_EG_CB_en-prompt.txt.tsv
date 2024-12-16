@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Lennox-Gastaut syndrome	MONDO:0016532	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Jeavons syndrome (Eyelid myoclonia with absences)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Epilepsy with myoclonic-atonic seizures (Doose syndrome)	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Progressive myoclonus epilepsy (PME)	MONDO:0020074	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

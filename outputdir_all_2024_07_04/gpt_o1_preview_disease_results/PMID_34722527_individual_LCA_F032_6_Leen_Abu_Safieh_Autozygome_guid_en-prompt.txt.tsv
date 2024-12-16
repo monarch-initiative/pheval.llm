@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Hypercholesterolemia	MONDO:0005439	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Polycystic Kidney Disease	MONDO:0020642	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Hereditary Hemochromatosis	MONDO:0006507	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Sickle Cell Disease	MONDO:0011382	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Marfan Syndrome	MONDO:0007947	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Alpha-1 Antitrypsin Deficiency	MONDO:0013282	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+7	Cystic Fibrosis	MONDO:0009061	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Hemophilia A	MONDO:0010602	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+9	Thalassemia	MONDO:0000984	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+10	Huntington's Disease	MONDO:0007739	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

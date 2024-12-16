@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Joubert syndrome	MONDO:0018772	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+1	Joubert syndrome	MONDO:0008944	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+2	Ponto cerebellar hypoplasia	MONDO:0020135	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+3	Walker-Warburg syndrome	MONDO:0000171	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+4	GARDOS channelopathy	N/A	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+5	Cohen syndrome	MONDO:0008999	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+6	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+7	Angelman syndrome	MONDO:0007113	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False
+8	Rett syndrome	MONDO:0010726	('OMIM:620428', 'Neurodevelopmental disorder with motor and language delay, ocular defects, and brain abnormalities')	0.0	False

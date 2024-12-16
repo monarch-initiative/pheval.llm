@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+2	LEOPARD Syndrome	MONDO:0007893	('OMIM:151100', 'LEOPARD syndrome 1')	0.5	True
+3	Neurofibromatosis Type 1	MONDO:0018975	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+4	Carney Complex	MONDO:0015285	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False
+5	Legius Syndrome	MONDO:0012669	('OMIM:151100', 'LEOPARD syndrome 1')	0.0	False

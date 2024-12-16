@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Homocystinuria	MONDO:0004737	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Aicardi syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	ARX-related disorders (e.g., X-linked lissencephaly with abnormal genitalia)	MONDO:0010268	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Marden-Walker syndrome	MONDO:0009564	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Lujan-Fryns syndrome	MONDO:0010655	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

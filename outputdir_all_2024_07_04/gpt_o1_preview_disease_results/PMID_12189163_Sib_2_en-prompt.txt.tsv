@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Geroderma osteodysplastica	MONDO:0009271	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+2	Autosomal recessive cutis laxa type I	MONDO:0019572	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.5	True
+3	LTBP4-related cutis laxa	N/A	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+4	Costello syndrome	MONDO:0009026	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+5	Alpha-1 antitrypsin deficiency	MONDO:0013282	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False

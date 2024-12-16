@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypermobile Ehlers-Danlos syndrome	MONDO:0007523	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Multiple epiphyseal dysplasia	MONDO:0016648	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Stickler syndrome	MONDO:0019354	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

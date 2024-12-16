@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+3	22q11.2 deletion syndrome	MONDO:0008564	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+3	22q11.2 deletion syndrome	MONDO:0018923	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+4	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False
+5	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:614249', 'Intellectual developmental disorder, autosomal recessive 18, with or without epilepsy')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cat Eye Syndrome	MONDO:0007276	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	PAX6 Mutation-Related Disorders	MONDO:0800183	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	MAF Mutation-Associated Cataract-Coloboma Syndrome	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Isolated Coloboma with Cataract	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Aicardi Syndrome	MONDO:0010568	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	Andermann Syndrome	MONDO:0000902	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+4	Walker-Warburg Syndrome	MONDO:0000171	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+5	Joubert Syndrome	MONDO:0018772	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+5	Joubert Syndrome	MONDO:0008944	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+6	Pelizaeus-Merzbacher Disease	MONDO:0010714	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False

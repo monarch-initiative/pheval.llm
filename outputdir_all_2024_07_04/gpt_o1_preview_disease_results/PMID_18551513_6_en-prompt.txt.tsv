@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinal Muscular Atrophy (SMA) Type II	MONDO:0009673	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+2	Congenital Muscular Dystrophy (CMD)	MONDO:0019950	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.5	True
+3	Nemaline Myopathy	MONDO:0018958	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+4	Congenital Myasthenic Syndrome	MONDO:0018940	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+5	Central Core Disease	MONDO:0007294	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+6	Mitochondrial Myopathy	MONDO:0009637	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False

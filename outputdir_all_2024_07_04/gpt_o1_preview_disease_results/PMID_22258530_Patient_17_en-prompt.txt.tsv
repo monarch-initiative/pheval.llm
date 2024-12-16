@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pontocerebellar hypoplasia	MONDO:0020135	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Krabbe disease	MONDO:0009499	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	Leigh syndrome	MONDO:0009723	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	Early infantile epileptic encephalopathy	MONDO:0100062	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.5	True
+7	POLG-related mitochondrial disorder	MONDO:0012415	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+8	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+9	FOXG1 syndrome	MONDO:0035383	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

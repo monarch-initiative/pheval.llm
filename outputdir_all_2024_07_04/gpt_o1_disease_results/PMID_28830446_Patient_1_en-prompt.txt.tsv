@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Deficiency of adenosine deaminase 2 (DADA2)	MONDO:0100317	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.5	True
+2	Behçet disease	MONDO:0007191	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+3	Pediatric antiphospholipid syndrome	MONDO:8000010	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False
+4	Systemic lupus erythematosus	MONDO:0007915	('OMIM:615688', 'Vasculitis, autoinflammation, immunodeficiency, and hematologic defects syndrome')	0.0	False

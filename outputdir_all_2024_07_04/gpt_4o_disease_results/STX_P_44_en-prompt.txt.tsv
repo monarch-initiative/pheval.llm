@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	STXBP1-related disorder	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Rett syndrome	MONDO:0010726	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	SCN2A-related encephalopathy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	ARX-related disorder	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Dravet syndrome (especially related to SCN1A mutations)	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	FOXG1 syndrome	MONDO:0035383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

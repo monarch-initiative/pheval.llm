@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Oral-Facial-Digital syndrome type 1 (OFD1)	MONDO:0009642	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+2	Pallister-Hall syndrome	MONDO:0007804	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+3	Joubert syndrome	MONDO:0018772	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+3	Joubert syndrome	MONDO:0008944	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+4	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+5	Meckel-Gruber syndrome	MONDO:0009571	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+5	Meckel-Gruber syndrome	MONDO:0018921	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False

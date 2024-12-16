@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Adenosine Deaminase (ADA) Deficiency	MONDO:0100317	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+2	Purine Nucleoside Phosphorylase (PNP) Deficiency	MONDO:0013171	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+3	DiGeorge Syndrome (22q11.2 Deletion Syndrome)	MONDO:0012020	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+4	Omenn Syndrome	MONDO:0011338	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+5	Reticular Dysgenesis	MONDO:0009973	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False

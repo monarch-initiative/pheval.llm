@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Barth syndrome	MONDO:0010543	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+2	LAMP2 cardiomyopathy (Danon disease)	MONDO:0010281	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+3	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+4	LVNC (Left ventricular noncompaction) with associated genetic mutation (e.g., mutations in genes like MYH7, TTN, or TAZ)	MONDO:0014163	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+5	Familial dilated cardiomyopathy with conduction defects	MONDO:0007269	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+6	Jervell and Lange-Nielsen syndrome	MONDO:0002441	('OMIM:616249', 'Long QT syndrome 15')	0.0	False
+6	Jervell and Lange-Nielsen syndrome	MONDO:0024540	('OMIM:616249', 'Long QT syndrome 15')	0.0	False

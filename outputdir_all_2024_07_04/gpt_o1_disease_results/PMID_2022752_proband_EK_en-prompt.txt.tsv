@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Maple syrup urine disease	MONDO:0009563	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.5	True
+2	Isovaleric acidemia	MONDO:0009475	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False
+3	Propionic acidemia	MONDO:0011628	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False
+4	Methylmalonic acidemia	MONDO:0002012	('OMIM:620698', 'Maple syrup urine disease, type Ib')	0.0	False

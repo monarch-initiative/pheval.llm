@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Genetic generalized epilepsy with febrile seizures plus (GEFS+)	MONDO:0018214	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+2	PCDH19-related female-limited epilepsy	MONDO:0010246	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+3	SCN2A-related epilepsy	MONDO:0011904	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False
+4	SLC2A1 deficiency syndrome	N/A	('OMIM:620537', 'Developmental and epileptic encephalopathy 112')	0.0	False

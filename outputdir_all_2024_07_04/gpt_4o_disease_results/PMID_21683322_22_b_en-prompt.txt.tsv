@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Geleophysic dysplasia	MONDO:0000127	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+2	Laron syndrome	MONDO:0009877	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+3	Acromicric dysplasia	MONDO:0007055	('OMIM:102370', 'Acromicric dysplasia')	1.0	True
+4	Williams syndrome	MONDO:0008678	('OMIM:102370', 'Acromicric dysplasia')	0.0	False
+5	Conradi–Hünermann syndrome	N/A	('OMIM:102370', 'Acromicric dysplasia')	0.0	False

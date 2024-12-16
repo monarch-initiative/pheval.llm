@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Atrial Septal Defect (GATA4 mutation)	MONDO:0013747	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+2	NKX2-5 Associated Congenital Heart Disease	MONDO:0800441	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	Noonan Syndrome	MONDO:0008104	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	Noonan Syndrome	MONDO:0018997	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

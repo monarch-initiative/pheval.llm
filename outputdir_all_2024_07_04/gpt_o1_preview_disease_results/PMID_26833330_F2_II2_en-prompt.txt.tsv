@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Based on the symptoms described, it's important for the individual to consult a healthcare professional for a comprehensive evaluation and accurate diagnosis.	N/A	('OMIM:616829', 'Congenital disorder of glycosylation, type Iip')	0.0	False

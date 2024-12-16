@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Short QT syndrome	MONDO:0000453	('OMIM:609622', 'Short QT syndrome 3')	0.5	True

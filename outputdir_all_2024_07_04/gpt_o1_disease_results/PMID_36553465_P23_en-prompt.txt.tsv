@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Differential diagnosis:	N/A	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+2	Oculocutaneous albinism	MONDO:0018910	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.5	True
+3	Ocular albinism	MONDO:0017304	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+4	Waardenburg syndrome	MONDO:0018094	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False
+5	Piebaldism	MONDO:0008244	('OMIM:606574', 'Albinism, oculocutaneous, type IV')	0.0	False

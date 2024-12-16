@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fetal Alcohol Spectrum Disorder (Fetal Alcohol Syndrome)	MONDO:0016011	('OMIM:148050', 'KBG syndrome')	0.0	False
+2	Williams Syndrome	MONDO:0008678	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Beckwith-Wiedemann Syndrome	MONDO:0007534	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Noonan Syndrome	MONDO:0008104	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:148050', 'KBG syndrome')	0.0	False
+6	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:148050', 'KBG syndrome')	0.0	False
+7	Van der Woude Syndrome	MONDO:0019508	('OMIM:148050', 'KBG syndrome')	0.0	False

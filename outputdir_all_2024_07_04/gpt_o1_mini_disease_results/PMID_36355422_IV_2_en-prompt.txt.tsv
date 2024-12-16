@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-syndromic sensorineural hearing loss	MONDO:0019497	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.5	True
+2	Pendred Syndrome	MONDO:0010134	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+3	Waardenburg Syndrome	MONDO:0018094	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+4	Alport Syndrome	MONDO:0018965	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+5	Mitochondrial hearing loss	MONDO:0015283	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False
+6	Autosomal Dominant Non-Syndromic Hearing Loss	MONDO:0019587	('OMIM:620745', 'Deafness, autosomal recessive 123')	0.0	False

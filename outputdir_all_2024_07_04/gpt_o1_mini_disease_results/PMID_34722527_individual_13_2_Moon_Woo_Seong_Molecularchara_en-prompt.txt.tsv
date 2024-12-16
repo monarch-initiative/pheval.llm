@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Insufficient information provided to generate a differential diagnosis. Additional clinical details are required.	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

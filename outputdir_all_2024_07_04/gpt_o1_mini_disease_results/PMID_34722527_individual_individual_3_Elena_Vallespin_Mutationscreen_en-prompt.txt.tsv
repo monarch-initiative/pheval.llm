@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Based on the provided information, it is challenging to generate a differential diagnosis. Additional clinical features and patient history are necessary to provide a meaningful list of potential diagnoses.	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

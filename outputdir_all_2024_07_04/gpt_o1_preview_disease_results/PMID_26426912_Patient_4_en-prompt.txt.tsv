@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Enamel-Renal Syndrome (ERS)	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Familial Hypomagnesemia with Hypercalciuria and Nephrocalcinosis (FHHNC)	MONDO:0017624	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+3	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

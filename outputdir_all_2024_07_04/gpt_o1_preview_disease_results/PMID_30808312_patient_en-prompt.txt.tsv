@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ullrich Congenital Muscular Dystrophy	MONDO:0000355	('OMIM:158810', 'Bethlem myopathy 1A')	0.0	False
+1	Ullrich Congenital Muscular Dystrophy	MONDO:0009681	('OMIM:158810', 'Bethlem myopathy 1A')	0.0	False
+2	Bethlem Myopathy	MONDO:0024530	('OMIM:158810', 'Bethlem myopathy 1A')	1.0	True
+2	Bethlem Myopathy	MONDO:0008029	('OMIM:158810', 'Bethlem myopathy 1A')	0.5	True
+3	Laminin Alpha-2 Deficient Congenital Muscular Dystrophy	MONDO:0013177	('OMIM:158810', 'Bethlem myopathy 1A')	0.0	False
+4	Collagen VI-Related Myopathies	MONDO:0100225	('OMIM:158810', 'Bethlem myopathy 1A')	0.5	True
+5	Dystroglycanopathy	MONDO:0018282	('OMIM:158810', 'Bethlem myopathy 1A')	0.0	False

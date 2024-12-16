@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Rett syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Phelan-McDermid syndrome (22q13 deletion syndrome)	MONDO:0011652	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Tuberous sclerosis complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Tuberous sclerosis complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Smith-Magenis syndrome	MONDO:0008434	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	PTEN hamartoma tumor syndrome (including Cowden syndrome and Bannayan-Riley-Ruvalcaba syndrome)	MONDO:0017623	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Methyl-CpG-binding protein 2 (MECP2) duplication syndrome	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	CHARGE syndrome	MONDO:0008965	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+10	Kanner's syndrome	MONDO:0005260	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

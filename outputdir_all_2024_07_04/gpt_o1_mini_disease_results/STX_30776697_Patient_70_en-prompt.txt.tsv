@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Epilepsy with Centrotemporal Spikes (Rolandic Epilepsy)	MONDO:0015641	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Febrile Seizures	HP:0002373	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	West Syndrome	MONDO:0018097	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Dravet Syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Dravet Syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Metabolic Disorders (e.g., Phenylketonuria)	MONDO:0009861	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Mitochondrial Disorders (e.g., MELAS)	MONDO:0010789	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Central Nervous System Infections (e.g., Meningitis, Encephalitis)	MONDO:0024619	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Traumatic Brain Injury	MONDO:0858950	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

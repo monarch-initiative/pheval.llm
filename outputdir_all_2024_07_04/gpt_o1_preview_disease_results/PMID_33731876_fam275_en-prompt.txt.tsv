@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-ketotic hyperglycinemia	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	KCNQ2-related neonatal epileptic encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	SCN2A-related epileptic encephalopathy	MONDO:0013388	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	1.0	True
+5	Urea cycle disorders	MONDO:0004739	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Mitochondrial disorders (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

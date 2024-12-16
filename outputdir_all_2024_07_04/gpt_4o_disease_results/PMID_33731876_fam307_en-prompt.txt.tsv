@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Early Infantile Epileptic Encephalopathy (EIEE)	MONDO:0012812	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Miller-Dieker Syndrome	MONDO:0009532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	KCNQ2-related Encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Aicardi Syndrome	MONDO:0010568	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

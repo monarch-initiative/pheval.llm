@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Patau syndrome (Trisomy 13)	N/A	('OMIM:620712', 'Polydactyly-macrocephaly syndrome')	0.0	False
+2	Short-rib polydactyly syndrome	MONDO:0015461	('OMIM:620712', 'Polydactyly-macrocephaly syndrome')	0.0	False
+3	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:620712', 'Polydactyly-macrocephaly syndrome')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:620712', 'Polydactyly-macrocephaly syndrome')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:620712', 'Polydactyly-macrocephaly syndrome')	0.0	False

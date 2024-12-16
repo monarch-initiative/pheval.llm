@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hyper IgD Syndrome (HIDS) / Mevalonate Kinase Deficiency (MKD)	MONDO:0009849	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+2	Familial Mediterranean Fever (FMF)	MONDO:0018088	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+3	TRAPS (Tumor Necrosis Factor Receptor-Associated Periodic Syndrome)	MONDO:0007727	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Blau Syndrome	MONDO:0008523	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+5	Cryopyrin-Associated Periodic Syndromes (CAPS)	MONDO:0016168	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False

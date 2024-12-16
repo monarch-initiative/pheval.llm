@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+2	X-linked thrombocytopenia	MONDO:0010743	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+3	Congenital amegakaryocytic thrombocytopenia	MONDO:0800451	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+4	Von Willebrand disease type 2B	MONDO:0015629	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	Glanzmann thrombasthenia	MONDO:0100326	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	Glanzmann thrombasthenia	MONDO:0031332	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False

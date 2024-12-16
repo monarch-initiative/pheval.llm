@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm not a medical professional, but based on the information you've provided, it would be best to consult with a healthcare specialist for an accurate diagnosis and appropriate guidance.	N/A	('OMIM:617694', 'Al Kaissi syndrome')	0.0	False

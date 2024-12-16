@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cutis Laxa	MONDO:0016175	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.5	True
+2	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+3	Alpha-1 Antitrypsin Deficiency	MONDO:0013282	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+4	Marfan Syndrome	MONDO:0007947	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+5	Williams Syndrome	MONDO:0008678	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+6	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+7	Noonan Syndrome	MONDO:0018997	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+7	Noonan Syndrome	MONDO:0008104	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+8	Pseudoxanthoma Elasticum	MONDO:0024308	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+8	Pseudoxanthoma Elasticum	MONDO:0009925	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+9	Maroteaux-Lamy Syndrome	MONDO:0009661	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+10	Pediatric Pulmonary Hypertension due to Genetic Causes	N/A	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False

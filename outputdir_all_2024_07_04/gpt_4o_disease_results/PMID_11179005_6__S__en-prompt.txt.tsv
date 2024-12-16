@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	AEC syndrome (Ankyloblepharon-Ectodermal defects-Cleft lip/palate syndrome)	MONDO:0007124	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+2	Van der Woude syndrome	MONDO:0019508	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+3	Ectrodactyly-Ectodermal Dysplasia-Clefting (EEC) syndrome	MONDO:0010004	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+4	Hay-Wells syndrome (also known as Ankyloblepharon-Ectodermal Dysplasia-Clefting syndrome)	N/A	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+5	Split-hand/foot malformation with or without orofacial cleft 1 (SHFM1)	MONDO:0016576	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False
+6	These are the candidate diagnoses based on the presented case.	N/A	('OMIM:311200', 'Orofaciodigital syndrome I')	0.0	False

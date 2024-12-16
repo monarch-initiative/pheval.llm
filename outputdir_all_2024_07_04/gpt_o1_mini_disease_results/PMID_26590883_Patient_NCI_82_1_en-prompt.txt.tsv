@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fanconi anemia	MONDO:0009215	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False
+1	Fanconi anemia	MONDO:0019391	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.5	True
+2	Shwachman-Diamond syndrome	MONDO:0044204	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False
+2	Shwachman-Diamond syndrome	MONDO:0009833	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False
+3	Dyskeratosis congenita	MONDO:0015780	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False
+4	Diamond-Blackfan anemia	MONDO:0015253	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False
+5	Bloom syndrome	MONDO:0008876	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False
+6	Nijmegen breakage syndrome	MONDO:0009623	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False
+7	Ataxia-telangiectasia	MONDO:0008840	('OMIM:609053', 'Fanconi anemia, complementation group I')	0.0	False

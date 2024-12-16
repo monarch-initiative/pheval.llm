@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Stargardt disease	MONDO:0019353	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+2	Best disease (Best vitelliform macular dystrophy)	MONDO:0007931	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+3	Cone-rod dystrophy	MONDO:0100438	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+3	Cone-rod dystrophy	MONDO:0007362	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+3	Cone-rod dystrophy	MONDO:0015993	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+3	Cone-rod dystrophy	MONDO:0011458	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False
+4	Adult-onset vitelliform macular dystrophy	MONDO:0011979	('OMIM:600138', 'Retinitis pigmentosa 11')	0.0	False

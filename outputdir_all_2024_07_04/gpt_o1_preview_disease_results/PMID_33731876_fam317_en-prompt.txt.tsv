@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neonatal arterial ischemic stroke	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Intracranial hemorrhage	MONDO:0013792	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Cortical malformations (e.g., focal cortical dysplasia)	MONDO:0019009	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Early infantile epileptic encephalopathy (Ohtahara syndrome)	MONDO:0018614	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Benign familial neonatal seizures	MONDO:0016027	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Rett Syndrome	MONDO:0010726	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Angelman Syndrome	MONDO:0007113	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Fragile X Syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Coffin-Lowry Syndrome	MONDO:0010561	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:612313', 'Glass syndrome')	0.0	False

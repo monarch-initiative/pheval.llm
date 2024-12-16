@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated congenital perimembranous ventricular septal defect	N/A	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+2	Heritable primary pulmonary arterial hypertension (BMPR2-related)	MONDO:0024533	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+4	GATA4-related congenital heart defect	MONDO:0100009	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Noonan syndrome	MONDO:0008104	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Noonan syndrome	MONDO:0018997	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

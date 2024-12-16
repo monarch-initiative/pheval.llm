@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Atrichia with Papular Lesions	MONDO:0008847	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+2	Clouston Syndrome (Hidrotic Ectodermal Dysplasia)	MONDO:0007510	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+3	Ectodermal Dysplasia, Anhidrotic Type	MONDO:0011063	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+4	Pachyonychia Congenita	MONDO:0016471	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+5	Nail-Patella Syndrome	MONDO:0008061	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+6	Marie-Unna Hereditary Hypotrichosis	MONDO:0018631	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False
+7	Monilethrix	MONDO:0008009	('OMIM:614931', 'Ectodermal dysplasia 9, hair/nail type')	0.0	False

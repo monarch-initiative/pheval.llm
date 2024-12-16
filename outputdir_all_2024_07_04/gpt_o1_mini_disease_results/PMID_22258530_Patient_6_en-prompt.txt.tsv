@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	ARX Mutation-Associated West Syndrome	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	STXBP1-Related Encephalopathy	MONDO:0012812	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+5	Rett Syndrome	MONDO:0010726	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+6	FOXG1 Syndrome	MONDO:0035383	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

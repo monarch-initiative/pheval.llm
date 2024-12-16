@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta	MONDO:0019019	('OMIM:615066', 'Osteogenesis imperfecta, type XIV')	0.5	True
+2	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:615066', 'Osteogenesis imperfecta, type XIV')	0.0	False
+3	Bruck syndrome	MONDO:0017195	('OMIM:615066', 'Osteogenesis imperfecta, type XIV')	0.0	False

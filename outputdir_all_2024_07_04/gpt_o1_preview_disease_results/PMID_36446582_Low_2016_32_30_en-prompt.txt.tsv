@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KBG syndrome	MONDO:0007846	('OMIM:148050', 'KBG syndrome')	1.0	True
+2	Otodental syndrome	MONDO:0008161	('OMIM:148050', 'KBG syndrome')	0.0	False
+3	Pituitary gigantism	MONDO:0020479	('OMIM:148050', 'KBG syndrome')	0.0	False
+4	Hemifacial hyperplasia	MONDO:0007590	('OMIM:148050', 'KBG syndrome')	0.0	False
+5	Isolated macrodontia	N/A	('OMIM:148050', 'KBG syndrome')	0.0	False

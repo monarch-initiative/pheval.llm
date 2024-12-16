@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DiGeorge syndrome (22q11.2 deletion syndrome)	MONDO:0012020	('OMIM:188400', 'DiGeorge syndrome')	0.0	False
+2	Congenital hypoparathyroidism with dysmorphism	N/A	('OMIM:188400', 'DiGeorge syndrome')	0.0	False
+3	CHARGE syndrome	MONDO:0008965	('OMIM:188400', 'DiGeorge syndrome')	0.0	False
+4	Kabuki syndrome	MONDO:0016512	('OMIM:188400', 'DiGeorge syndrome')	0.0	False
+4	Kabuki syndrome	MONDO:0007843	('OMIM:188400', 'DiGeorge syndrome')	0.0	False
+5	Alagille syndrome	MONDO:0007318	('OMIM:188400', 'DiGeorge syndrome')	0.0	False

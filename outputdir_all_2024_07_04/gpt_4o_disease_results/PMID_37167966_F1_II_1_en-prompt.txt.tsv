@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Duchenne Muscular Dystrophy	MONDO:0010679	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+2	Becker Muscular Dystrophy	MONDO:0010311	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+3	Limb-Girdle Muscular Dystrophy	MONDO:0016971	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.5	True
+4	Myotonic Dystrophy	MONDO:0008056	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+4	Myotonic Dystrophy	MONDO:0016107	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+5	Facioscapulohumeral Muscular Dystrophy	MONDO:0001347	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+5	Facioscapulohumeral Muscular Dystrophy	MONDO:0008030	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False
+6	Pompe Disease	MONDO:0009290	('OMIM:620375', 'Muscular dystrophy, limb-girdle, autosomal recessive 28')	0.0	False

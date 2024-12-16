@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cutis laxa, autosomal recessive type	MONDO:0009052	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+2	Ehlers-Danlos Syndrome, Type De Barsy	MONDO:0007522	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+3	Menkes Disease	MONDO:0010651	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+4	Marfan Syndrome	MONDO:0007947	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False

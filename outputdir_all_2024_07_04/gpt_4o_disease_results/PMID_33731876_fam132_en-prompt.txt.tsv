@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet syndrome	MONDO:0100135	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+1	Dravet syndrome	MONDO:0100079	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	PCDH19-clustering epilepsy	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	SCN8A-related epilepsy	MONDO:0014903	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	SCN2A-related epilepsy	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+5	KCNQ2-associated epilepsy	MONDO:0013387	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

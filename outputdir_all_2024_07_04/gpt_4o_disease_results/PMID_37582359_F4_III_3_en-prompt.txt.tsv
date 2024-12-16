@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Craniometaphyseal Dysplasia	MONDO:0015465	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+2	Spondyloepiphyseal Dysplasia Congenita	MONDO:0008471	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+3	Osteopetrosis	MONDO:0017198	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+4	Achondroplasia	MONDO:0007037	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+5	Mucopolysaccharidosis IV (Morquio Syndrome)	MONDO:0018938	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False
+6	Schimke Immuno-Osseous Dysplasia	MONDO:0009458	('OMIM:620558', 'Craniometadiaphyseal osteosclerosis with hip dysplasia')	0.0	False

@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SLC4A1-related hereditary spherocytosis with distal renal tubular acidosis	MONDO:0012700	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	1.0	True
+2	Carbonic anhydrase II deficiency syndrome	N/A	('OMIM:611590', 'Distal renal tubular acidosis 4 with hemolytic anemia')	0.0	False

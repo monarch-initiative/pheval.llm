@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Tuberous Sclerosis	MONDO:0001734	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	22q11.2 Deletion Syndrome	MONDO:0008564	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	22q11.2 Deletion Syndrome	MONDO:0018923	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+4	Perisylvian Polymicrogyria due to GPR56 mutations	N/A	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+5	Congenital Disorder of Glycosylation	MONDO:0015286	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+6	Down Syndrome	MONDO:0008608	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+7	Schizencephaly	MONDO:0010011	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+8	Polymicrogyria associated with CDK5RAP2 mutations	N/A	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+9	Aicardi Syndrome	MONDO:0010568	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+10	Rett Syndrome	MONDO:0010726	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False

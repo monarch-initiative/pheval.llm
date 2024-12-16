@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary spastic paraplegia (pure form), SPG3A	MONDO:0014568	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+2	Hereditary spastic paraplegia, SPG4	MONDO:0008438	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False
+3	Other pure hereditary spastic paraplegia forms	MONDO:0015090	('OMIM:604187', 'Spastic paraplegia 10, autosomal dominant')	0.0	False

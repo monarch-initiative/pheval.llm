@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Joubert syndrome	MONDO:0018772	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+2	Joubert syndrome	MONDO:0008944	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+3	Congenital disorders of glycosylation	MONDO:0015286	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+4	Congenital muscular dystrophy	MONDO:0019950	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False
+5	PMD-like hypomyelination disorder	N/A	('OMIM:618443', 'Neurodevelopmental disorder with or without variable brain abnormalities')	0.0	False

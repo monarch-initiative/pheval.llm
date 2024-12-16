@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Generalized Lipodystrophy Type 2	MONDO:0010020	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Congenital Generalized Lipodystrophy Type 1	MONDO:0012071	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+3	Mandibuloacral Dysplasia Type B	N/A	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	Familial Partial Lipodystrophy Type 2	MONDO:0007906	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+5	Rabson-Mendenhall Syndrome	MONDO:0009874	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+6	Silver Syndrome	MONDO:0010043	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+7	Alström Syndrome	MONDO:0008763	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+8	Charcot-Marie-Tooth Disease	MONDO:0015626	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False

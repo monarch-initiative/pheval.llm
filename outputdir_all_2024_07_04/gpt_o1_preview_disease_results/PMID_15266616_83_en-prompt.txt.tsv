@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Jacobsen syndrome	MONDO:0007838	('OMIM:147791', 'Jacobsen syndrome')	1.0	True
+2	Opitz C syndrome	N/A	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Say-Barber-Biesecker-Young-Simpson syndrome	MONDO:0011365	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Kabuki syndrome	MONDO:0016512	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+4	Kabuki syndrome	MONDO:0007843	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

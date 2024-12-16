@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile myasthenia gravis	MONDO:0018325	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+2	Congenital myasthenic syndrome	MONDO:0018940	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.5	True
+3	Chronic progressive external ophthalmoplegia	MONDO:0005181	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+4	Myotonic dystrophy type 1	MONDO:0008056	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False
+5	Oculopharyngeal muscular dystrophy	MONDO:0008116	('OMIM:616325', 'Myasthenic syndrome, congenital, 9, associated with acetylcholine receptor deficiency')	0.0	False

@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neuronal ceroid lipofuscinosis type 2 (CLN2 disease)	MONDO:0008768	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+2	CHD2-related epileptic encephalopathy	N/A	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False
+4	SLC2A1 deficiency syndrome	N/A	('OMIM:620540', 'Developmental delay with or without epilepsy')	0.0	False

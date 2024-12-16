@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hereditary Sensory and Autonomic Neuropathy Type II (HSAN II)	MONDO:0019941	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.5	True
+2	Hereditary Spastic Paraplegia with Peripheral Neuropathy	MONDO:0009748	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+3	Charcot-Marie-Tooth Disease Type 2	MONDO:0018993	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+4	Friedreich Ataxia	MONDO:0100340	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+4	Friedreich Ataxia	MONDO:0100339	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False
+5	Juvenile-Onset Amyotrophic Lateral Sclerosis (ALS)	MONDO:0017593	('OMIM:613115', 'Neuropathy, hereditary sensory and autonomic, type IIB')	0.0	False

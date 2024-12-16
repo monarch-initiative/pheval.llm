@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Citrullinemia Type I	MONDO:0008988	('OMIM:215700', 'Citrullinemia')	1.0	True
+2	Ornithine Transcarbamylase (OTC) Deficiency	MONDO:0010703	('OMIM:215700', 'Citrullinemia')	0.0	False
+3	Argininosuccinic Aciduria	MONDO:0008815	('OMIM:215700', 'Citrullinemia')	0.0	False
+4	Carbamoyl Phosphate Synthetase I (CPS1) Deficiency	MONDO:0009376	('OMIM:215700', 'Citrullinemia')	0.0	False
+5	N-Acetylglutamate Synthase (NAGS) Deficiency	MONDO:0009377	('OMIM:215700', 'Citrullinemia')	0.0	False

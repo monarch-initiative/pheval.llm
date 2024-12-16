@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fibrodysplasia ossificans progressiva	MONDO:0003964	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	0.0	False
+1	Fibrodysplasia ossificans progressiva	MONDO:0007606	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	1.0	True
+2	Progressive osseous heteroplasia	MONDO:0008153	('OMIM:135100', 'Fibrodysplasia ossificans progressiva')	0.0	False

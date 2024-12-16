@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Berardinelli-Seip Congenital Lipodystrophy	MONDO:0018883	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+2	Type III Hyperlipoproteinemia (Dysbetalipoproteinemia)	MONDO:0018473	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+3	Familial Partial Lipodystrophy	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+4	Familial Combined Hyperlipidemia	MONDO:0007759	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	Type A Insulin Resistance Syndrome	MONDO:0012520	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+6	Metabolic Syndrome	MONDO:0000816	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+7	Niemann-Pick Disease	MONDO:0001982	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Common Variable Immunodeficiency (CVID)	MONDO:0015517	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.5	True
+2	CTLA4 Haploinsufficiency	MONDO:0014493	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+3	LRBA Deficiency	N/A	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+4	NFKB1 Deficiency	MONDO:0014697	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+5	Autoimmune Lymphoproliferative Syndrome (ALPS)	MONDO:0017979	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+6	Good Syndrome	MONDO:0015696	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False

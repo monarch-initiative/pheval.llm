@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Early Infantile Epileptic Encephalopathy (Ohtahara syndrome)	MONDO:0018614	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Early Myoclonic Encephalopathy	MONDO:0016022	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	KCNQ2-related Neonatal Epileptic Encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Pyridoxine-dependent Epilepsy	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Pyridoxine-dependent Epilepsy	MONDO:0009945	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Nonketotic Hyperglycinemia	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	SCN2A-related Epileptic Encephalopathy	MONDO:0013388	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	1.0	True
+7	CDKL5 Deficiency Disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	GLUT1 Deficiency Syndrome	MONDO:0000188	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	GLUT1 Deficiency Syndrome	MONDO:0011724	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Mitochondrial Encephalopathy	MONDO:0004675	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

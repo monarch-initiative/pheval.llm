@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cutis laxa	MONDO:0016175	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.5	True
+2	Williams syndrome	MONDO:0008678	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+4	Alpha-1 antitrypsin deficiency	MONDO:0013282	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+5	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+6	Noonan syndrome	MONDO:0008104	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False
+6	Noonan syndrome	MONDO:0018997	('OMIM:219100', 'Cutis laxa, autosomal recessive, type IA')	0.0	False

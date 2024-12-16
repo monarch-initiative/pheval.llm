@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Magenis syndrome	MONDO:0008434	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Angelman syndrome	MONDO:0007113	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Phelan-McDermid syndrome	MONDO:0011652	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

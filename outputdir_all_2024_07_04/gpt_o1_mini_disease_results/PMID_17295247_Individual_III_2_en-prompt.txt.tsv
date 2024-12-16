@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Polysplenia syndrome (a subtype of Heterotaxy syndrome)	N/A	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False
+2	Congenital single ventricle physiology	N/A	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False
+3	Dextrotransposition of the great arteries with pulmonary valve atresia	HP:0001669	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False
+4	Left atrial isomerism	N/A	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False
+5	Complex congenital heart disease associated with situs ambiguus	N/A	('OMIM:306955', 'Heterotaxy, visceral, 1, X-linked')	0.0	False

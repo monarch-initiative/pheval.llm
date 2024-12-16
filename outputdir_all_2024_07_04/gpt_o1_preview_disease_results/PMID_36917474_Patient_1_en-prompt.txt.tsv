@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+2	Hypomyelination with congenital cataract and neurological deficits (HCC)	MONDO:0012514	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+3	Metachromatic leukodystrophy	MONDO:0018868	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+3	Metachromatic leukodystrophy	MONDO:0009591	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+4	Krabbe disease	MONDO:0009499	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+5	Cockayne syndrome	MONDO:0016006	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+6	Alexander disease	MONDO:0008752	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+7	Vanishing White Matter Disease	MONDO:0800448	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+8	Neuronal ceroid lipofuscinoses (Batten disease)	MONDO:0008767	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False

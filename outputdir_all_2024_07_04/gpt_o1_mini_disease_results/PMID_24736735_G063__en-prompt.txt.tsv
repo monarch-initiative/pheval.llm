@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Patau Syndrome (Trisomy 13)	N/A	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+2	Opitz G/BBB Syndrome	MONDO:0017138	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+3	Pallister-Killian Syndrome	MONDO:0011146	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+4	Carpenter Syndrome	MONDO:0019012	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+4	Carpenter Syndrome	MONDO:0008710	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+5	Meckel-Gruber Syndrome	MONDO:0018921	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+5	Meckel-Gruber Syndrome	MONDO:0009571	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False

@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dravet Syndrome	MONDO:0100135	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+1	Dravet Syndrome	MONDO:0100079	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Febrile Infection-Related Epilepsy Syndrome (FIRES)	MONDO:0015584	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Rasmussen's Encephalitis	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	West Syndrome	MONDO:0018097	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Temporal Lobe Epilepsy	MONDO:0005115	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+8	Genetic Epilepsy with Febrile Seizures Plus (GEFS+)	MONDO:0018214	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+9	Sturge-Weber Syndrome	MONDO:0008501	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

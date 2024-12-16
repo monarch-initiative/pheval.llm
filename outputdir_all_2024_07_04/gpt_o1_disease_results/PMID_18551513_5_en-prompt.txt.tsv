@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Emery-Dreifuss muscular dystrophy	MONDO:0016830	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False
+2	LMNA-related congenital muscular dystrophy	MONDO:0013178	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	1.0	True
+3	Duchenne muscular dystrophy	MONDO:0010679	('OMIM:613205', 'LMNA-related congenital muscular dystrophy')	0.0	False

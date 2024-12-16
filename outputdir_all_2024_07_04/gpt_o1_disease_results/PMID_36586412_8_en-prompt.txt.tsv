@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	ATR-X syndrome	MONDO:0010519	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Aarskog-Scott syndrome	MONDO:0010589	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Aarskog-Scott syndrome	MONDO:0007030	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Aarskog-Scott syndrome	MONDO:0021005	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

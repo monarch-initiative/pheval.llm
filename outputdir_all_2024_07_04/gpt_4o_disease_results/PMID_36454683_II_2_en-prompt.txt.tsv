@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Charcot-Marie-Tooth disease	MONDO:0015626	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False
+2	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False
+3	Spinal Muscular Atrophy	MONDO:0001516	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False
+3	Spinal Muscular Atrophy	MONDO:0019079	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False
+4	Distal Hereditary Motor Neuropathy	MONDO:0018894	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.5	True
+5	Amyotrophic Lateral Sclerosis	MONDO:0004976	('OMIM:620402', 'Neuronopathy, distal hereditary motor, autosomal recessive 9')	0.0	False

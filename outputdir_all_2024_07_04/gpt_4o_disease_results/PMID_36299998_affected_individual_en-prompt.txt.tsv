@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cole-Carpenter syndrome	MONDO:0016085	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+2	Pycnodysostosis	MONDO:0009940	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+3	Trichorhinophalangeal syndrome I (TRPS I)	MONDO:0019176	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+4	Hajdu-Cheney syndrome	MONDO:0007057	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+5	Pyle disease (metaphyseal dysplasia)	MONDO:0009943	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+6	Rickets (specifically syndromic rickets)	N/A	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+7	Hypochondrogenesis	MONDO:0019669	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+7	Hypochondrogenesis	MONDO:0008702	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+7	Hypochondrogenesis	MONDO:0008703	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False
+8	spondyloepiphyseal dysplasia (SED)	MONDO:0008472	('OMIM:620601', 'Garg-Mishra progeroid syndrome')	0.0	False

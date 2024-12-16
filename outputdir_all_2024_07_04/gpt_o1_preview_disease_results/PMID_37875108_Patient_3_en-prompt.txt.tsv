@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	IL12Rβ1 deficiency (Interleukin-12 receptor beta 1 deficiency)	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+2	IFN-γR1 deficiency (Interferon-gamma receptor 1 deficiency)	MONDO:0020530	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+3	IL12p40 deficiency (Interleukin-12 p40 deficiency)	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+4	STAT1 deficiency (Signal Transducer and Activator of Transcription 1 deficiency)	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+5	Chronic Granulomatous Disease (CGD)	MONDO:0018305	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+6	Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+7	GATA2 deficiency	MONDO:0013607	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+7	GATA2 deficiency	MONDO:0042982	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False

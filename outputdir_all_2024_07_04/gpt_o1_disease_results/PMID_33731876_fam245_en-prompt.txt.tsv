@@ -1,0 +1,3 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Crisponi syndrome (Cold-induced sweating syndrome type 1)	MONDO:0010091	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Cold-induced sweating syndrome type 2	MONDO:0012467	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

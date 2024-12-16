@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cerebral Palsy	MONDO:0006497	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+2	Mitochondrial Disorders (e.g., Pearson Syndrome)	N/A	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+3	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+4	Niemann-Pick Disease	MONDO:0001982	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+5	Wilson Disease	MONDO:0010200	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+6	Friedreich's Ataxia	MONDO:0100339	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+7	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+8	Congenital Cerebellar Ataxias	MONDO:0008943	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+9	Wilson-Turner Syndrome	MONDO:0010665	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False
+10	Essential Tremor	MONDO:0003233	('OMIM:301310', 'Anemia, sideroblastic, and spinocerebellar ataxia')	0.0	False

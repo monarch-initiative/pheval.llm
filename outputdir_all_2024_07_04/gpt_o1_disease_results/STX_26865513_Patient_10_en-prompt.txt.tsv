@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Differential diagnosis:	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Neuronal ceroid lipofuscinosis (Batten disease)	MONDO:0008767	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Dravet syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Dravet syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Alpers-Huttenlocher syndrome	MONDO:0008758	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Leigh syndrome	MONDO:0009723	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Congenital disorder of glycosylation	MONDO:0015286	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

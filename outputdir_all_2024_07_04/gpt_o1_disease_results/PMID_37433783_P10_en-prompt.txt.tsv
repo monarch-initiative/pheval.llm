@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+3	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+4	1p36 deletion syndrome	MONDO:0011929	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+5	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False

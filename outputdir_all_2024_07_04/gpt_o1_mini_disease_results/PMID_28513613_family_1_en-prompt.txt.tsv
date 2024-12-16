@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Amelogenesis imperfecta	MONDO:0019507	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.5	True
+2	Ectodermal dysplasia	MONDO:0019287	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+2	Ectodermal dysplasia	MONDO:0009773	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+3	Tricho-dento-osseous syndrome	MONDO:0008592	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+4	Papillon-Lefèvre syndrome	MONDO:0009490	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+5	Hypophosphatasia	MONDO:0018570	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False
+5	Hypophosphatasia	MONDO:0009948	('OMIM:617297', 'Amelogenesis imperfecta, type IJ')	0.0	False

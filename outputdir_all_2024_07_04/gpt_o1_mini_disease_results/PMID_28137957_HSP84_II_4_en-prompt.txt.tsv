@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar Ataxia Type 2 (SCA2)	MONDO:0008457	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+2	Spinocerebellar Ataxia Type 3 (SCA3)	MONDO:0013241	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+3	Charcot-Marie-Tooth Disease Type 2	MONDO:0018993	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+4	Spinocerebellar Ataxia Type 1 (SCA1)	MONDO:0008119	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+5	Ataxia with Neuropathy, Vestibular Areflexia Syndrome (CANVAS)	N/A	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+6	Multiple System Atrophy, Cerebellar Subtype (MSA-C)	MONDO:0016418	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+7	Friedrich's Ataxia	MONDO:0100339	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+8	Wilson's Disease	MONDO:0010200	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False

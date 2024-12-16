@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh syndrome (Subacute necrotizing encephalomyopathy)	MONDO:0009723	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+2	Infantile Pompe disease (Glycogen storage disease type II)	N/A	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Pyruvate dehydrogenase complex deficiency	MONDO:0010717	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+3	Pyruvate dehydrogenase complex deficiency	MONDO:0019169	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+4	Mitochondrial myopathy with lactic acidosis	MONDO:0016825	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+5	Spinal muscular atrophy type I	MONDO:0009669	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+6	Congenital myasthenic syndromes	MONDO:0018940	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+7	Congenital muscular dystrophy	MONDO:0019950	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+8	Barth syndrome	MONDO:0010543	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+9	Mitochondrial complex I deficiency	MONDO:0100224	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+9	Mitochondrial complex I deficiency	MONDO:0100133	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False
+10	Congenital central hypoventilation syndrome	MONDO:0800026	('OMIM:604377', 'Mitochondrial complex IV deficiency, nuclear type 2')	0.0	False

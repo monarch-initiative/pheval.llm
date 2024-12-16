@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LIG4 deficiency syndrome	MONDO:0011686	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+2	ICF syndrome (Immunodeficiency, Centromeric instability, and Facial anomalies)	MONDO:0000133	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+3	Schimke immuno-osseous dysplasia	MONDO:0009458	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+4	Nijmegen breakage syndrome	MONDO:0009623	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+5	Cartilage-hair hypoplasia	MONDO:0009595	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+6	Adenosine deaminase deficiency	MONDO:0007064	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+7	Kabuki syndrome	MONDO:0016512	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False
+7	Kabuki syndrome	MONDO:0007843	('OMIM:617425', 'Immunoskeletal dysplasia with neurodevelopmental abnormalitie')	0.0	False

@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GLUT1 deficiency syndrome	MONDO:0000188	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+1	GLUT1 deficiency syndrome	MONDO:0011724	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+2	Episodic ataxia type 1	MONDO:0008047	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+3	KCNQ2-related neonatal epileptic encephalopathy	MONDO:0013387	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+4	SLC13A5 deficiency disorder	N/A	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+5	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+6	SCN2A-related epilepsy	MONDO:0011904	('OMIM:607745', 'Seizures, benign familial infantile, 3')	1.0	True
+7	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False
+7	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:607745', 'Seizures, benign familial infantile, 3')	0.0	False

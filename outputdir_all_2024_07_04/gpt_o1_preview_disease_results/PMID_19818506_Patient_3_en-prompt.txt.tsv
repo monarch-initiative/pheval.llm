@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bradyopsia (RGS9 or R9AP deficiency)	N/A	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+2	Oguchi disease	MONDO:0019152	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+3	Cone dystrophy	MONDO:0000455	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+4	Cone-rod dystrophy	MONDO:0100438	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+4	Cone-rod dystrophy	MONDO:0015993	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+4	Cone-rod dystrophy	MONDO:0007362	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+4	Cone-rod dystrophy	MONDO:0011458	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False
+5	Achromatopsia	MONDO:0018852	('OMIM:608415', 'Prolonged electroretinal response suppression 1')	0.0	False

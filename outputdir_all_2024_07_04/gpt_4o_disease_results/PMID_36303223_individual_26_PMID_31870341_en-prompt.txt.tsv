@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Glutaric aciduria type I	MONDO:0009281	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	Methylenetetrahydrofolate reductase (MTHFR) deficiency	MONDO:0009353	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Biopterin defect (e.g., GTP cyclohydrolase I deficiency)	MONDO:0100184	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Pyruvate dehydrogenase complex deficiency	MONDO:0010717	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Pyruvate dehydrogenase complex deficiency	MONDO:0019169	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

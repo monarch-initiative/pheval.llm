@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Alström syndrome	MONDO:0008763	('OMIM:615983', 'Bardet-Biedl syndrome 5')	0.0	False
+2	Wolfram syndrome	MONDO:0018105	('OMIM:615983', 'Bardet-Biedl syndrome 5')	0.0	False
+3	Non-syndromic retinitis pigmentosa	N/A	('OMIM:615983', 'Bardet-Biedl syndrome 5')	0.0	False
+4	Laurence-Moon syndrome	MONDO:0009514	('OMIM:615983', 'Bardet-Biedl syndrome 5')	0.0	False
+5	Kearns-Sayre syndrome	MONDO:0010787	('OMIM:615983', 'Bardet-Biedl syndrome 5')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Lymphedema-Distichiasis syndrome	MONDO:0007922	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+2	Klippel-Trenaunay syndrome	MONDO:0007864	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+3	Venous malformation syndrome	MONDO:0012016	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+4	Ehlers-Danlos syndrome (classical or hypermobility types)	MONDO:0007523	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False
+5	Hereditary hemorrhagic telangiectasia	MONDO:0019180	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

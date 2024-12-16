@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Metachondromatosis	MONDO:0007979	('OMIM:156250', 'Metachondromatosis')	1.0	True
+2	Maffucci syndrome	MONDO:0013808	('OMIM:156250', 'Metachondromatosis')	0.0	False
+3	Langer-Giedion syndrome (Trichorhinophalangeal syndrome type II)	MONDO:0007874	('OMIM:156250', 'Metachondromatosis')	0.0	False
+4	Ollier disease	MONDO:0008145	('OMIM:156250', 'Metachondromatosis')	0.0	False
+5	Multiple Osteochondromas (Hereditary Multiple Exostoses)	MONDO:0005508	('OMIM:156250', 'Metachondromatosis')	0.0	False

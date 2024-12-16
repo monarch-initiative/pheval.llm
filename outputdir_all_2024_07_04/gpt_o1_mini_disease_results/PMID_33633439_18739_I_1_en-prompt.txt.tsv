@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated Optic Disc Hypoplasia	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	Septo-Optic Dysplasia (de Morsier Syndrome)	MONDO:0008428	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	Leber's Hereditary Optic Neuropathy	MONDO:0010788	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Non-Syndromic High Hypermetropia with Optic Nerve Anomaly	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	Ocular Posterior Segment Dysgenesis	HP:0007700	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

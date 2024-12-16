@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Phosphomannomutase 2 Deficiency (CDG-Ia)	N/A	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+2	ALG1-CDG	MONDO:0005500	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+2	ALG1-CDG	MONDO:0012052	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+3	ALG6-CDG	MONDO:0005500	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+3	ALG6-CDG	MONDO:0011291	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+4	SRD5A3-CDG	MONDO:0012885	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+4	SRD5A3-CDG	MONDO:0005500	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False
+5	SLC35A2-CDG	MONDO:0010478	('OMIM:620546', 'Congenital disorder of glycosylation, type IIbb')	0.0	False

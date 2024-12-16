@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated Optic Nerve Hypoplasia	MONDO:0008136	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	Nanophthalmos	MONDO:0021129	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.5	True
+3	Posterior Microphthalmia	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	Familial High Hypermetropia (Hyperopia 1)	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

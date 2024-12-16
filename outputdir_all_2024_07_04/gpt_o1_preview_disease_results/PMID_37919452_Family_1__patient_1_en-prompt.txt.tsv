@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy Type 2 (Dunnigan Variety)	MONDO:0007906	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Mandibuloacral Dysplasia	MONDO:0009557	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+2	Mandibuloacral Dysplasia	MONDO:0016584	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+3	Acromegaly	MONDO:0019933	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+4	Type A Insulin Resistance Syndrome	MONDO:0012520	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False
+5	LMNA-Related Neuromuscular Disease	N/A	('OMIM:620683', 'Lipodystrophy, familial partial, type 9')	0.0	False

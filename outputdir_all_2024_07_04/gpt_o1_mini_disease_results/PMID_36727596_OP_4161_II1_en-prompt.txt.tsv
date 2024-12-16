@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ivemark Syndrome (Asplenia/Cardiac Syndrome)	N/A	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+2	Heterotaxy Syndrome	MONDO:0018677	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+3	Dandy-Walker Malformation	MONDO:0009072	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+4	Joubert Syndrome	MONDO:0018772	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+4	Joubert Syndrome	MONDO:0008944	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:620642', 'Ciliary dyskinesia, primary, 53')	0.0	False

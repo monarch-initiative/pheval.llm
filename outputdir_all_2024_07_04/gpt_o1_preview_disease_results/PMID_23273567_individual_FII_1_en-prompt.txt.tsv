@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteoglophonic dysplasia	MONDO:0008150	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+2	Hypophosphatemic rickets	MONDO:0024300	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+3	Spondyloepiphyseal dysplasia congenita	MONDO:0008471	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Hypophosphatasia	MONDO:0009948	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+4	Hypophosphatasia	MONDO:0018570	('OMIM:258480', 'Opsismodysplasia')	0.0	False
+5	Frontometaphyseal dysplasia	MONDO:0015942	('OMIM:258480', 'Opsismodysplasia')	0.0	False

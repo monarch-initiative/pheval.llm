@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan Syndrome	MONDO:0018997	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+1	Noonan Syndrome	MONDO:0008104	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+2	Marfan Syndrome	MONDO:0007947	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+3	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+4	Rett Syndrome	MONDO:0010726	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+5	Fragile X Syndrome	MONDO:0010383	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+6	Klinefelter Syndrome	MONDO:0006823	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+7	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+8	Prader-Willi Syndrome	MONDO:0008300	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+9	Angelman Syndrome	MONDO:0007113	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False
+10	Williams Syndrome	MONDO:0008678	('OMIM:175700', 'Greig cephalopolysyndactyly syndrome')	0.0	False

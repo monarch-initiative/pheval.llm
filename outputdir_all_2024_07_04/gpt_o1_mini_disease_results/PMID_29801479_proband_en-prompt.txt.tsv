@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta	MONDO:0019019	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.5	True
+2	Brittle bone disease	MONDO:0019019	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.5	True
+3	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False
+4	Rickets	MONDO:0005520	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False
+5	Vitamin D deficiency	MONDO:0100471	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False
+6	Child abuse (non-accidental trauma)	N/A	('OMIM:610968', 'Osteogenesis imperfecta, type XI')	0.0	False

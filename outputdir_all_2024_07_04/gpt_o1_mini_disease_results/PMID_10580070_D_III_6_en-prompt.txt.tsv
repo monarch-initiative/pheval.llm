@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA gene mutation-associated dilated cardiomyopathy and conduction defects	MONDO:0007269	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	1.0	True
+2	Cardiac sarcoidosis	MONDO:0001707	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Mitochondrial cardiomyopathy (e.g., MELAS)	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Fabry disease	MONDO:0010526	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Arrhythmogenic right ventricular cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

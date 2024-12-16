@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Neuronal ceroid lipofuscinosis	MONDO:0016295	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Spinocerebellar ataxia	MONDO:0000437	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+2	Spinocerebellar ataxia	MONDO:0020380	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+3	Huntington's disease	MONDO:0007739	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+4	Progressive supranuclear palsy	MONDO:0019037	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False
+5	Wilson’s disease	MONDO:0010200	('OMIM:606693', 'Kufor-Rakeb syndrome')	0.0	False

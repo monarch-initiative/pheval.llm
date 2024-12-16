@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm not a medical professional, but it's important to consult a healthcare provider for an accurate diagnosis and appropriate care.	N/A	('OMIM:117360', 'Spinocerebellar ataxia 29, congenital nonprogressive')	0.0	False

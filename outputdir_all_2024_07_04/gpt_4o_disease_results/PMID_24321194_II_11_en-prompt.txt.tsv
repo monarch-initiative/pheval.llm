@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary Hyperoxaluria	MONDO:0002474	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Barter Syndrome	N/A	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Renal Tubular Acidosis (Type 1)	MONDO:0001909	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Dent Disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Idiopathic Infantile Hypercalcemia	MONDO:0000212	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:147920', 'Kabuki Syndrome 1')	0.5	True
+1	Kabuki syndrome	MONDO:0007843	('OMIM:147920', 'Kabuki Syndrome 1')	1.0	True
+2	Treacher Collins syndrome	MONDO:0007944	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+2	Treacher Collins syndrome	MONDO:0002457	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+3	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	Perrault syndrome	MONDO:0017312	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	FG syndrome	MONDO:0002010	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+1	FG syndrome	MONDO:0010590	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	L1 syndrome	MONDO:0017140	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Fragile X syndrome	MONDO:0010383	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

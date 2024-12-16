@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Microcephalic osteodysplastic primordial dwarfism (MOPD)	MONDO:0016994	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Floating-Harbor syndrome	MONDO:0007621	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Chromosome 17p13.3 microdeletion syndrome (Miller-Dieker syndrome)	MONDO:0017867	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Wiedemann-Steiner syndrome	MONDO:0011518	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+7	Sotos syndrome	MONDO:0019349	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

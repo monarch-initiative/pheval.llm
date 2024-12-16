@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Williams Syndrome	MONDO:0008678	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	Noonan Syndrome	MONDO:0018997	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+2	Noonan Syndrome	MONDO:0008104	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+3	Cri-du-chat Syndrome	MONDO:0007404	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+4	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+5	Down Syndrome	MONDO:0008608	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+6	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False
+7	Pitt-Hopkins Syndrome	MONDO:0012589	('OMIM:601674', 'EZH1-related neurodevelopmental disorder')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related Dilated Cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	TTN-related Dilated Cardiomyopathy	MONDO:0011400	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	BAG3-related Dilated Cardiomyopathy	MONDO:0030680	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	DSP-related Cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	FLNC-related Cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

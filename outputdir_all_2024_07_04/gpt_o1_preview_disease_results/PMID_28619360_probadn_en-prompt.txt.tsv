@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GMPPB-related congenital disorder of glycosylation (CDG)	MONDO:0012211	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+2	PMM2-CDG (CDG-Ia)	MONDO:0008907	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+3	POMT1-related muscular dystrophy-dystroglycanopathy	MONDO:0013160	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+4	DOLK-CDG	MONDO:0005500	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False
+5	NGLY1 deficiency	MONDO:0800044	('OMIM:611182', 'Congenital disorder of glycosylation, type IIh')	0.0	False

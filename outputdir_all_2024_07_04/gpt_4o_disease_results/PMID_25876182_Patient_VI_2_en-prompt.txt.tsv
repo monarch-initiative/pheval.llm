@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bernard-Soulier syndrome	MONDO:0009276	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+2	Platelet function disorder	MONDO:0002245	('OMIM:273900', 'Thrombocytopenia 3')	0.5	True
+3	MYH9-related disorder	MONDO:0015912	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+4	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	Glanzmann thrombasthenia	MONDO:0031332	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	Glanzmann thrombasthenia	MONDO:0100326	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False

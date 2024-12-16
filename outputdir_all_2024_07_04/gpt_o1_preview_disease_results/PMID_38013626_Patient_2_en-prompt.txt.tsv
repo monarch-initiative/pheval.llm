@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Neuronal Ceroid Lipofuscinosis (Batten Disease)	MONDO:0019262	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+2	Hereditary Spastic Paraplegia (Complicated Form)	MONDO:0014303	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+3	Wilson's Disease	MONDO:0010200	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+4	Mitochondrial Encephalopathy with Lactic Acidosis and Stroke-like Episodes (MELAS)	MONDO:0010789	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+5	Niemann-Pick Disease Type C	MONDO:0018982	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False
+6	Multiple Sclerosis	MONDO:0005301	('OMIM:620666', 'Spastic ataxia 10, autosomal recessive')	0.0	False

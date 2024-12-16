@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+2	Hypomyelination with atrophy of the basal ganglia and cerebellum (TUBB4A-related)	MONDO:0700044	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+3	Vanishing white matter disease	MONDO:0800448	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+4	Salla disease	MONDO:0011449	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False
+5	Alexander disease	MONDO:0008752	('OMIM:620675', 'Leukodystrophy, hypomyelinating, 27')	0.0	False

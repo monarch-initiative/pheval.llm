@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome (Trisomy 21)	MONDO:0700126	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+3	Edwards syndrome (Trisomy 18)	N/A	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+4	Patau syndrome (Trisomy 13)	N/A	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+5	Congenital muscular dystrophy	MONDO:0019950	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+6	Congenital hypothyroidism	MONDO:0018612	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False
+7	Prader-Willi syndrome	MONDO:0008300	('OMIM:618164', 'Cardiac, facial, and digital anomalies with developmental delay')	0.0	False

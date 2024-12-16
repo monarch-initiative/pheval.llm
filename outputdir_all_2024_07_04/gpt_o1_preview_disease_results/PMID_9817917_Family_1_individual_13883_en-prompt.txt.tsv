@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Renal Cysts and Diabetes Syndrome (HNF1B-related disease)	MONDO:0007669	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+2	Fanconi-Bickel Syndrome	MONDO:0009216	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+3	Medullary Cystic Kidney Disease	MONDO:0008264	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+4	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False
+5	Alström Syndrome	MONDO:0008763	('OMIM:222300', 'Wolfram syndrome 1')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0008104	('OMIM:163950', 'Noonan syndrome 1')	1.0	True
+1	Noonan syndrome	MONDO:0018997	('OMIM:163950', 'Noonan syndrome 1')	0.5	True
+2	LEOPARD syndrome	MONDO:0007893	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+3	Alagille syndrome	MONDO:0007318	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+4	Turner syndrome	MONDO:0019499	('OMIM:163950', 'Noonan syndrome 1')	0.0	False

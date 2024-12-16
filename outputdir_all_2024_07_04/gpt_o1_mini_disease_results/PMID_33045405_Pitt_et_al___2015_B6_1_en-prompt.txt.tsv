@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Please note that I am an AI language model and not a medical professional. The following differential diagnoses are for informational purposes only:	N/A	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Medium-chain acyl-CoA dehydrogenase deficiency (MCADD)	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Galactosemia	MONDO:0018116	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Galactosemia	MONDO:0009258	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+5	Propionic acidemia	MONDO:0011628	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+6	Methylmalonic acidemia	MONDO:0002012	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+7	Fatty acid oxidation disorders	MONDO:0037858	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.5	True
+8	Hyperinsulinism	MONDO:0002177	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+9	Ketotic hypoglycemia	N/A	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

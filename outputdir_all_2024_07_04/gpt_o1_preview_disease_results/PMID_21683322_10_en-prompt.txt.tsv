@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Myhre syndrome	MONDO:0007688	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+3	Acrodysostosis	MONDO:0019797	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+4	Mucopolysaccharidosis type I (Hurler syndrome)	MONDO:0001586	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+5	Robinow syndrome	MONDO:0019978	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+6	Fetal Alcohol Syndrome	MONDO:0016011	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False
+6	Fetal Alcohol Syndrome	MONDO:0000408	('OMIM:614185', 'Geleophysic dysplasia 2')	0.0	False

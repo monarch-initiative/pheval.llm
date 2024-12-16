@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cenani-Lenz Syndrome	MONDO:0008931	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+2	Treacher Collins Syndrome	MONDO:0007944	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+2	Treacher Collins Syndrome	MONDO:0002457	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+3	Holt-Oram Syndrome	MONDO:0007732	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+4	Townes-Brocks Syndrome	MONDO:0007142	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+5	Fanconi Anemia	MONDO:0009215	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False
+5	Fanconi Anemia	MONDO:0019391	('OMIM:154400', 'Acrofacial dysostosis 1, Nager type')	0.0	False

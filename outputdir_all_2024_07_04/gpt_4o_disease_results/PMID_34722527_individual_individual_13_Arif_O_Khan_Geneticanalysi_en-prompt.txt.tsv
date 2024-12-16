@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Norrie disease	MONDO:0010691	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Leber congenital amaurosis	MONDO:0018998	('OMIM:613826', 'Leber congenital amaurosis 6')	0.5	True
+3	Retinitis pigmentosa	MONDO:0019200	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Retinitis pigmentosa	MONDO:0008377	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Lhon-related optic neuropathy	MONDO:0010788	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

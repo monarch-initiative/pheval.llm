@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal recessive cutis laxa type II	MONDO:0018163	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+2	Arterial tortuosity syndrome	MONDO:0008818	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+3	De Barsy syndrome	MONDO:0017569	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+4	Menkes disease	MONDO:0010651	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False
+5	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:617403', 'Cutis laxa, autosomal recessive, type IID')	0.0	False

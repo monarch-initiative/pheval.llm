@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Idiopathic Dilated Cardiomyopathy	MONDO:0016333	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.5	True
+2	Sarcoidosis	MONDO:0008399	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Sarcoidosis	MONDO:0019338	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	LMNA Mutation-Associated Dilated Cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Myocarditis	MONDO:0004496	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Arrhythmogenic Right Ventricular Cardiomyopathy	MONDO:0016587	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Alcoholic Cardiomyopathy	MONDO:0006643	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+7	Giant Cell Myocarditis	MONDO:0023232	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+8	Mitochondrial Myopathy	MONDO:0009637	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

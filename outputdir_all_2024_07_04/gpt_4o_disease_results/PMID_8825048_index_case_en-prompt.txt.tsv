@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Tuberous Sclerosis Complex (TSC)	MONDO:0013199	('OMIM:613254', 'Tuberous sclerosis-2')	1.0	True
+2	Neurofibromatosis type 1 (NF1)	MONDO:0018975	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+3	Noonan Syndrome	MONDO:0008104	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+3	Noonan Syndrome	MONDO:0018997	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+4	LEOPARD Syndrome (Lentigines, Electrocardiographic conduction abnormalities, Ocular hypertelorism, Pulmonary stenosis, Abnormal genitalia, Retarded growth, and Sensorineural deafness)	N/A	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False
+5	Costello Syndrome	MONDO:0009026	('OMIM:613254', 'Tuberous sclerosis-2')	0.0	False

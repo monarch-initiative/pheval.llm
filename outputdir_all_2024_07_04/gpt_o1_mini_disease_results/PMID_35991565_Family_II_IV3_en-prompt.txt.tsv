@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary ovarian insufficiency (Premature ovarian failure)	MONDO:0005387	('OMIM:620686', 'Premature ovarian failure 23')	0.5	True
+2	Diminished ovarian reserve due to genetic factors (e.g., Fragile X-associated primary ovarian insufficiency)	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+3	Autoimmune ovarian disease	MONDO:0021950	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+4	Gonadotoxic exposure-induced ovarian insufficiency	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+5	Hypothalamic-pituitary axis dysfunction	MONDO:0043101	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False

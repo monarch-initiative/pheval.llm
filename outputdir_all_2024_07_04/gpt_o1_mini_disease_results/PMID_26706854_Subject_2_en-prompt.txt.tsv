@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Frontonasal Dysplasia	MONDO:0016643	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.5	True
+1	Frontonasal Dysplasia	MONDO:0007636	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+2	Holoprosencephaly	MONDO:0016296	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+3	Patau Syndrome (Trisomy 13)	N/A	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False
+4	Median Cleft Face Syndrome	MONDO:0016643	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.5	True
+5	Midline Facial Cleft Syndrome	N/A	('OMIM:603671', 'Acromelic frontonasal dysostosis')	0.0	False

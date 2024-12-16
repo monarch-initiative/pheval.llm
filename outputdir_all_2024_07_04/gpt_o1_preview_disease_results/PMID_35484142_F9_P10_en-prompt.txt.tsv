@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital Myasthenic Syndrome	MONDO:0018940	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+2	Mitochondrial Myopathy	MONDO:0009637	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+3	Nemaline Myopathy	MONDO:0018958	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+4	Centronuclear Myopathy	MONDO:0002921	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+4	Centronuclear Myopathy	MONDO:0018947	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+5	Emery-Dreifuss Muscular Dystrophy	MONDO:0016830	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False
+6	Congenital Muscular Dystrophy	MONDO:0019950	('OMIM:620460', 'Oculopharyngeal muscular dystrophy 2')	0.0	False

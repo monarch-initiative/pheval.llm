@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cutis Laxa Syndrome	MONDO:0014706	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+2	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+3	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+4	Williams Syndrome	MONDO:0008678	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+5	Emery-Dreifuss Muscular Dystrophy	MONDO:0016830	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+6	Noonan Syndrome	MONDO:0018997	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+6	Noonan Syndrome	MONDO:0008104	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+7	Marfan Syndrome	MONDO:0007947	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+8	Geroderma Osteodysplastica	MONDO:0009271	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+9	Beckwith-Wiedemann Syndrome	MONDO:0007534	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False
+10	Antley-Bixler Syndrome	MONDO:0008803	('OMIM:617402', 'Cutis laxa, autosomal recessive, type IIC')	0.0	False

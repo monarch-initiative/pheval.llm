@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Primary Lateral Sclerosis	MONDO:0018155	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+2	Hereditary Spastic Paraplegia	MONDO:0019064	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.5	True
+3	Amyotrophic Lateral Sclerosis (Variant)	MONDO:0004976	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+4	Spinocerebellar Ataxia (Non-Cerebellar Types)	MONDO:0008457	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+5	Motor Variant Frontotemporal Dementia	N/A	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False

@@ -1,0 +1,14 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ellis-van Creveld Syndrome	MONDO:0009162	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+2	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Carpenter Syndrome	MONDO:0019012	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+3	Carpenter Syndrome	MONDO:0008710	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Bardet-Biedl Syndrome	MONDO:0014432	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+4	Bardet-Biedl Syndrome	MONDO:0015229	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+5	Jeune Asphyxiating Thoracic Dystrophy	MONDO:0018770	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+6	Fanconi Anemia	MONDO:0009215	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+6	Fanconi Anemia	MONDO:0019391	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+7	McKusick-Kaufman Syndrome	MONDO:0009367	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+8	Cystic Fibrosis	MONDO:0009061	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+9	Down Syndrome	MONDO:0008608	('OMIM:300804', 'Joubert syndrome 10')	0.0	False
+10	Chediak-Higashi Syndrome	MONDO:0008963	('OMIM:300804', 'Joubert syndrome 10')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mitochondrial Neurogastrointestinal Encephalomyopathy (MNGIE)	MONDO:0017575	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+2	Progressive External Ophthalmoplegia (PEO)	MONDO:0005181	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.5	True
+3	POLG-Related Disorder	N/A	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+4	Kearns-Sayre Syndrome	MONDO:0010787	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+5	Sensory Ataxic Neuropathy, Dysarthria, and Ophthalmoplegia (SANDO)	MONDO:0011835	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False
+6	Multiple Mitochondrial DNA Deletion Syndromes	MONDO:0016797	('OMIM:620647', 'Progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 6')	0.0	False

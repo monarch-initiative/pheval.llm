@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Sjögren's syndrome	MONDO:0010030	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+2	Type 1 distal renal tubular acidosis (Hereditary)	MONDO:0012700	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+3	Chronic lithium therapy-induced distal renal tubular acidosis	N/A	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+4	Systemic lupus erythematosus	MONDO:0007915	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+5	Medications-induced distal renal tubular acidosis (non-lithium)	N/A	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+6	Idiopathic distal renal tubular acidosis	MONDO:0015827	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.5	True

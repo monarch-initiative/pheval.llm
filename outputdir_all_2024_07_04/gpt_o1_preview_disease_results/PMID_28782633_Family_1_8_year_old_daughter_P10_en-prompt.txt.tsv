@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Selective IgG subclass deficiency	MONDO:0013576	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+1	Selective IgG subclass deficiency	MONDO:0001901	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+2	Common Variable Immunodeficiency (CVID)	MONDO:0015517	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.5	True
+3	Cystic Fibrosis	MONDO:0009061	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False
+4	Primary Ciliary Dyskinesia	MONDO:0016575	('OMIM:620670', 'Immunodeficiency, common variable, 15')	0.0	False

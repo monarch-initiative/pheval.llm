@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aicardi-Goutières syndrome	MONDO:0018866	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Pelizaeus-Merzbacher disease	MONDO:0010714	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Rett syndrome (male variant/MECP2-related encephalopathy)	MONDO:0010726	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Mitochondrial encephalomyopathy (e.g., Leigh syndrome)	MONDO:0016814	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	X-linked adrenoleukodystrophy	MONDO:0018544	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+6	Autosomal recessive spastic ataxia of Charlevoix-Saguenay (ARSACS)	MONDO:0010041	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+7	Krabbe disease	MONDO:0009499	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+8	Alexander disease	MONDO:0008752	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

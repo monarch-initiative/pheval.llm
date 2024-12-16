@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cerebrovascular disease (Stroke)	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+2	Brain tumor	MONDO:0021211	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+3	New-onset epilepsy	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+4	Metabolic disturbances (e.g., hyponatremia)	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+5	Neurodegenerative disease (e.g., Alzheimer's disease)	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+6	Medication-induced seizures	N/A	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False
+7	Infectious encephalitis	MONDO:0020067	('OMIM:300088', 'Developmental and epileptic encephalopathy 9')	0.0	False

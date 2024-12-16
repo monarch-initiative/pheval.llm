@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related dilated cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	TTN-related dilated cardiomyopathy	MONDO:0011400	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	SCN5A-related cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	DES-related cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	PLN-related cardiomyopathy	MONDO:0012362	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	BAG3-related dilated cardiomyopathy	MONDO:0013479	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

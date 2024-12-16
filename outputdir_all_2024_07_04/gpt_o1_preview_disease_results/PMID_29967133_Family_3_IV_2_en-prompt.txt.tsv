@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Teebi hypertelorism syndrome	MONDO:0030639	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+1	Teebi hypertelorism syndrome	MONDO:0800025	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+2	Frontonasal dysplasia	MONDO:0007636	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+2	Frontonasal dysplasia	MONDO:0016643	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+3	Opitz G/BBB syndrome	MONDO:0017138	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+4	Craniofrontonasal dysplasia	MONDO:0010570	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+5	Greig cephalopolysyndactyly syndrome	MONDO:0008287	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False
+6	Waardenburg syndrome	MONDO:0018094	('OMIM:619656', 'Loeys-Dietz syndrome 6')	0.0	False

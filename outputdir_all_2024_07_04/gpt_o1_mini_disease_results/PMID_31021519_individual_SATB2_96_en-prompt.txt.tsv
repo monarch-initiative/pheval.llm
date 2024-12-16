@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta	MONDO:0019019	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Hypophosphatasia	MONDO:0018570	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Hypophosphatasia	MONDO:0009948	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Fragile X syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Smith-Magenis syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Ehlers-Danlos syndrome	MONDO:0020066	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Neurofibromatosis type I	MONDO:0018975	('OMIM:612313', 'Glass syndrome')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Acromegaly	MONDO:0019933	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+2	Werner Syndrome	MONDO:0010196	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+3	Turner Syndrome	MONDO:0019499	('OMIM:163950', 'Noonan syndrome 1')	0.0	False
+4	Noonan Syndrome	MONDO:0018997	('OMIM:163950', 'Noonan syndrome 1')	0.5	True
+4	Noonan Syndrome	MONDO:0008104	('OMIM:163950', 'Noonan syndrome 1')	1.0	True
+5	Hypothyroidism	MONDO:0005420	('OMIM:163950', 'Noonan syndrome 1')	0.0	False

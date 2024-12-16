@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Microcephaly with Pontine and Cerebellar Hypoplasia (MICPCH)	MONDO:0013990	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+2	Pontocerebellar Hypoplasia (PCH)	MONDO:0020135	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+3	Hypomyelination with Brainstem and Spinal Cord Involvement (HBSL)	N/A	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+4	Krabbe Disease	MONDO:0009499	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Joubert Syndrome	MONDO:0018772	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False
+5	Joubert Syndrome	MONDO:0008944	('OMIM:616211', 'Developmental and epileptic encephalopathy 28')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cockayne syndrome	MONDO:0016006	('OMIM:216400', 'Cockayne syndrome, type A')	0.5	True
+2	Rothmund-Thomson syndrome	MONDO:0010002	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+3	Bloom syndrome	MONDO:0008876	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+4	Seckel syndrome	MONDO:0019342	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+5	Xeroderma pigmentosum	MONDO:0019600	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fanconi anemia	MONDO:0009215	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.0	False
+1	Fanconi anemia	MONDO:0019391	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.5	True
+2	Shwachman-Diamond syndrome	MONDO:0044204	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.0	False
+2	Shwachman-Diamond syndrome	MONDO:0009833	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.0	False
+3	Diamond-Blackfan anemia	MONDO:0015253	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.0	False
+4	Nijmegen breakage syndrome	MONDO:0009623	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.0	False
+5	VACTERL association	MONDO:0008642	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.0	False
+6	Bloom syndrome	MONDO:0008876	('OMIM:227645', 'Fanconi anemia, complementation group C')	0.0	False

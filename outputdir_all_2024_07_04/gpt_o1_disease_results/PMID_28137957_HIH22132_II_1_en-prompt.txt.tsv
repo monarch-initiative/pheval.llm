@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Spinocerebellar ataxia type 3 (Machado-Joseph disease)	MONDO:0007182	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+2	Niemann-Pick disease type C	MONDO:0018982	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+3	Huntington disease	MONDO:0007739	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+4	Wilson disease	MONDO:0010200	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False
+5	Spinocerebellar ataxia type 17	MONDO:0011781	('OMIM:617225', 'Spastic paraplegia 78, autosomal recessive')	0.0	False

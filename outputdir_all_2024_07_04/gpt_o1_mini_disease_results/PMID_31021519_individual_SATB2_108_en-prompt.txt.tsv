@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ectodermal Dysplasia	MONDO:0019287	('OMIM:612313', 'Glass syndrome')	0.0	False
+1	Ectodermal Dysplasia	MONDO:0009773	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	Russell-Silver Syndrome	MONDO:0008394	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Down Syndrome	MONDO:0008608	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Fragile X Syndrome	MONDO:0010383	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Noonan Syndrome	MONDO:0018997	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Noonan Syndrome	MONDO:0008104	('OMIM:612313', 'Glass syndrome')	0.0	False
+6	Williams Syndrome	MONDO:0008678	('OMIM:612313', 'Glass syndrome')	0.0	False
+7	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:612313', 'Glass syndrome')	0.0	False
+8	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:612313', 'Glass syndrome')	0.0	False
+9	Prader-Willi Syndrome	MONDO:0008300	('OMIM:612313', 'Glass syndrome')	0.0	False
+10	Intellectual Developmental Disorder, Syndromic	MONDO:0000508	('OMIM:612313', 'Glass syndrome')	0.5	True

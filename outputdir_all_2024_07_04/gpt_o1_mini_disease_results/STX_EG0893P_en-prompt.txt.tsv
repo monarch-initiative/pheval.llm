@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Attention-Deficit/Hyperactivity Disorder (ADHD)	MONDO:0007743	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Autism Spectrum Disorder (ASD)	MONDO:0005258	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Fragile X Syndrome	MONDO:0010383	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Sleep-Related Breathing Disorders	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Intellectual Disability	MONDO:0001071	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Oppositional Defiant Disorder (ODD)	MONDO:0000495	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+7	Specific Learning Disorder	MONDO:0016225	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+8	Developmental Coordination Disorder	MONDO:0004922	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+9	Anxiety Disorders	MONDO:0005618	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+10	Mood Disorders	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

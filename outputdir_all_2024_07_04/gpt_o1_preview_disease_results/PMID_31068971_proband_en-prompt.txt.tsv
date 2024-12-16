@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Infantile acute leukemia	N/A	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+2	Langerhans cell histiocytosis	MONDO:0018310	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+2	Langerhans cell histiocytosis	MONDO:0017025	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+2	Langerhans cell histiocytosis	MONDO:0017029	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+3	Hemophagocytic lymphohistiocytosis	MONDO:0015540	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+4	Chronic granulomatous disease	MONDO:0018305	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+5	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False
+6	Griscelli syndrome	MONDO:0018306	('OMIM:612840', 'Leukocyte adhesion deficiency, type III')	0.0	False

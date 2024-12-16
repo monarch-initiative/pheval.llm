@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Greig cephalopolysyndactyly syndrome	MONDO:0008287	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Sotos syndrome	MONDO:0019349	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Mowat-Wilson syndrome	MONDO:0009341	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Pitt-Hopkins syndrome	MONDO:0012589	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Angelman syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Tuberous sclerosis complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Tuberous sclerosis complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Beckwith-Wiedemann syndrome	MONDO:0007534	('OMIM:246200', 'Donohue syndrome')	0.0	False
+2	Wiedemann-Steiner syndrome	MONDO:0011518	('OMIM:246200', 'Donohue syndrome')	0.0	False
+3	Russell-Silver syndrome	MONDO:0008394	('OMIM:246200', 'Donohue syndrome')	0.0	False
+4	Sotos syndrome	MONDO:0019349	('OMIM:246200', 'Donohue syndrome')	0.0	False
+5	Costello syndrome	MONDO:0009026	('OMIM:246200', 'Donohue syndrome')	0.0	False
+6	Prader-Willi syndrome	MONDO:0008300	('OMIM:246200', 'Donohue syndrome')	0.0	False
+7	Congenital hyperinsulinism	MONDO:0017182	('OMIM:246200', 'Donohue syndrome')	0.0	False
+7	Congenital hyperinsulinism	MONDO:0019010	('OMIM:246200', 'Donohue syndrome')	0.0	False
+8	Alagille syndrome	MONDO:0007318	('OMIM:246200', 'Donohue syndrome')	0.0	False

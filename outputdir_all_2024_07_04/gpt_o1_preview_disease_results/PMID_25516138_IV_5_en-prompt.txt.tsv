@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Type 2B von Willebrand disease	MONDO:0015629	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+2	Platelet-type von Willebrand disease	MONDO:0008332	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+3	Thrombocytopenia with absent radius (TAR) syndrome	MONDO:0010121	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+4	GATA1-related thrombocytopenia	MONDO:0100089	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False
+5	Familial platelet disorder with predisposition to acute myeloid leukemia (RUNX1 mutation)	MONDO:0100083	('OMIM:273900', 'Thrombocytopenia 3')	0.0	False

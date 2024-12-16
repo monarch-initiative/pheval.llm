@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Long QT Syndrome	MONDO:0002442	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+1	Long QT Syndrome	MONDO:0019171	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+2	Brugada Syndrome	MONDO:0015263	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+3	Catecholaminergic Polymorphic Ventricular Tachycardia	MONDO:0017990	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.5	True
+4	Arrhythmogenic Right Ventricular Cardiomyopathy	MONDO:0016587	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+5	Short QT Syndrome	MONDO:0000453	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+6	Andersen-Tawil Syndrome	MONDO:0008222	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+7	Hypertrophic Cardiomyopathy	MONDO:0005045	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False
+8	Arrhythmogenic Right Ventricular Dysplasia	MONDO:0016587	('OMIM:614021', 'Ventricular tachycardia, catecholaminergic polymorphic, 3')	0.0	False

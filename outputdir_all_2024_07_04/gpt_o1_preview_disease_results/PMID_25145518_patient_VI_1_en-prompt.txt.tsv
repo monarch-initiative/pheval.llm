@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	I'm sorry, but I can't provide a differential diagnosis or medical advice. Please consult a qualified healthcare professional for assistance.	N/A	('OMIM:163800', 'Sick sinus syndrome 2')	0.0	False

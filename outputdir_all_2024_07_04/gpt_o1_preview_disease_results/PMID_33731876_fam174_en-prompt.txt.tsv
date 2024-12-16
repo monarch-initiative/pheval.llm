@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	STXBP1 encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	KCNQ2 encephalopathy	MONDO:0013387	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	ARX-related epileptic encephalopathy	MONDO:0015921	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Angelman syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Miller-Dieker syndrome	MONDO:0009532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

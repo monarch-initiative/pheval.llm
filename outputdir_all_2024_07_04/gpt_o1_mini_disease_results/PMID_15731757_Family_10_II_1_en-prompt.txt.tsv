@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz Syndrome	MONDO:0018954	('OMIM:609192', 'Loeys-Dietz syndrome 1')	0.5	True
+2	Marfan Syndrome	MONDO:0007947	('OMIM:609192', 'Loeys-Dietz syndrome 1')	0.0	False
+3	Vascular Ehlers-Danlos Syndrome	MONDO:0017314	('OMIM:609192', 'Loeys-Dietz syndrome 1')	0.0	False
+4	Homocystinuria	MONDO:0004737	('OMIM:609192', 'Loeys-Dietz syndrome 1')	0.0	False
+5	Shprintzen-Goldberg Syndrome	MONDO:0008426	('OMIM:609192', 'Loeys-Dietz syndrome 1')	0.0	False
+6	Familial Thoracic Aortic Aneurysm and Dissection	MONDO:0019625	('OMIM:609192', 'Loeys-Dietz syndrome 1')	0.0	False

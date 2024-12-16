@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down Syndrome (Trisomy 21)	MONDO:0700126	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+2	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+3	Noonan Syndrome	MONDO:0018997	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+3	Noonan Syndrome	MONDO:0008104	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+4	Coffin-Lowry Syndrome	MONDO:0010561	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+5	Fragile X Syndrome	MONDO:0010383	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+6	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False
+7	Rubinstein-Taybi Syndrome	MONDO:0019188	('OMIM:266265', 'Congenital disorder of glycosylation, type IIc')	0.0	False

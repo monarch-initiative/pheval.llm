@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Distal Renal Tubular Acidosis Type 1	MONDO:0015827	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.5	True
+2	Primary Hypokalemic Periodic Paralysis	MONDO:0008223	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+3	Bartter Syndrome	MONDO:0015231	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+4	Gitelman Syndrome	MONDO:0009904	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+5	Dent Disease	MONDO:0015612	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False
+6	Cystinosis	MONDO:0016239	('OMIM:179800', 'Distal renal tubular acidosis 1')	0.0	False

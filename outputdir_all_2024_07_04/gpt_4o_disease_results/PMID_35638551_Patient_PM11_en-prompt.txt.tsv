@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hemophilia A	MONDO:0010602	('OMIM:620715', 'Bleeding disorder, vascular-type')	0.0	False
+2	Hemophilia B	MONDO:0010604	('OMIM:620715', 'Bleeding disorder, vascular-type')	0.0	False
+3	Von Willebrand disease	MONDO:0019565	('OMIM:620715', 'Bleeding disorder, vascular-type')	0.0	False
+3	Von Willebrand disease	MONDO:0024574	('OMIM:620715', 'Bleeding disorder, vascular-type')	0.0	False
+4	Factor XI deficiency	MONDO:0020587	('OMIM:620715', 'Bleeding disorder, vascular-type')	0.0	False
+4	Factor XI deficiency	MONDO:0012897	('OMIM:620715', 'Bleeding disorder, vascular-type')	0.0	False
+5	Glanzmann's thrombasthenia	MONDO:0031332	('OMIM:620715', 'Bleeding disorder, vascular-type')	0.0	False

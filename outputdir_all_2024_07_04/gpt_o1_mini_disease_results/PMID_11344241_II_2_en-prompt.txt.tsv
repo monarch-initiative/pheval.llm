@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy	MONDO:0020088	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.5	True
+2	Acquired Partial Lipodystrophy	MONDO:0012104	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+3	Cushing's Disease	MONDO:0009050	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Metabolic Syndrome	MONDO:0000816	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	HIV-associated Lipodystrophy	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+6	Insulin Receptoropathy	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

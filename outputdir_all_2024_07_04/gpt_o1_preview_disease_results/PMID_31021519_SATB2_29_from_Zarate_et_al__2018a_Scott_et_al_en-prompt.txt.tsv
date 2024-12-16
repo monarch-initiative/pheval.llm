@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypohidrotic ectodermal dysplasia	MONDO:0016535	('OMIM:612313', 'Glass syndrome')	0.0	False
+2	KBG syndrome	MONDO:0007846	('OMIM:612313', 'Glass syndrome')	0.0	False
+3	Congenital hypothyroidism	MONDO:0018612	('OMIM:612313', 'Glass syndrome')	0.0	False
+4	Coffin-Lowry syndrome	MONDO:0010561	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0016512	('OMIM:612313', 'Glass syndrome')	0.0	False
+5	Kabuki syndrome	MONDO:0007843	('OMIM:612313', 'Glass syndrome')	0.0	False

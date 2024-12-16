@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Systemic Sclerosis (Scleroderma)	MONDO:0005100	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+2	Parkinson’s Disease	MONDO:0005180	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+3	Rheumatoid Arthritis	MONDO:0008383	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+4	Amyloidosis	MONDO:0019065	('OMIM:184900', 'Stiff skin syndrome')	0.0	False
+5	Dupuytren’s Contracture	MONDO:0007476	('OMIM:184900', 'Stiff skin syndrome')	0.0	False

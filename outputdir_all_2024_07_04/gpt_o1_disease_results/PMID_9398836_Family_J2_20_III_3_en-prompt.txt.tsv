@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	HNF1A-MODY (MODY3)	N/A	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+2	GCK-MODY (MODY2)	N/A	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+3	HNF4A-MODY (MODY1)	N/A	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False
+4	HNF1B-MODY (MODY5)	N/A	('OMIM:137920', 'Renal cysts and diabetes syndrome')	0.0	False

@@ -1,0 +1,13 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital cataract	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Glaucoma	MONDO:0005041	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Albinism	MONDO:0043209	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Retinitis pigmentosa	MONDO:0008377	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Retinitis pigmentosa	MONDO:0019200	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Optic nerve hypoplasia	MONDO:0008136	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Leber congenital amaurosis	MONDO:0018998	('OMIM:613826', 'Leber congenital amaurosis 6')	0.5	True
+7	Severe myopia	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Aniridia	MONDO:0019172	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Aniridia	MONDO:0024507	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+9	Optic neuritis	MONDO:0005885	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+10	Stargardt disease	MONDO:0019353	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

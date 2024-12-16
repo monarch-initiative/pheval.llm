@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Foveal hypoplasia with nystagmus (SLC38A8-related)	MONDO:0034978	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+2	X-linked infantile nystagmus syndrome (FRMD7-related)	MONDO:0010693	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+3	Ocular albinism type 1	MONDO:0021019	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+4	PAX6-associated aniridia	N/A	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False
+5	Achromatopsia	MONDO:0018852	('OMIM:620731', 'Microphthalmia/coloboma 11')	0.0	False

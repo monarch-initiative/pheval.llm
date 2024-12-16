@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Heterotaxy syndrome	MONDO:0018677	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False
+2	ZIC3-related heterotaxy (X-linked heterotaxy)	MONDO:0010607	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False
+3	Ivemark syndrome	MONDO:0008832	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False
+4	Left atrial isomerism (Polysplenia syndrome)	N/A	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False
+5	Right atrial isomerism (Asplenia syndrome)	MONDO:0008832	('OMIM:620570', 'Ciliary dyskinesia, primary, 52')	0.0	False

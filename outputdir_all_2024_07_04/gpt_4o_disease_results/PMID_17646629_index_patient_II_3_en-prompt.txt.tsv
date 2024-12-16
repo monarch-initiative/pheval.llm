@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal Recessive Spastic Ataxia of Charlevoix-Saguenay (ARSACS)	MONDO:0010041	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+2	Hereditary Spastic Paraplegia (HSP)	MONDO:0019064	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.5	True
+3	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+4	Spinocerebellar Ataxia (SCA)	MONDO:0008457	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False
+5	Niemann-Pick disease type C (NPC)	MONDO:0009757	('OMIM:607259', 'Spastic paraplegia 7, autosomal recessive')	0.0	False

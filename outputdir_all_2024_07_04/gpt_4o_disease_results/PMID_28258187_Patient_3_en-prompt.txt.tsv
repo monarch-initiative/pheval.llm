@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ehlers-Danlos syndrome, vascular type (EDS type IV)	MONDO:0017314	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+2	Cutis laxa	MONDO:0016175	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+3	Beta-propeller protein-associated neurodegeneration (BPAN)	MONDO:0010476	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+4	Adams-Oliver syndrome	MONDO:0007034	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+5	PTEN hamartoma tumor syndrome (PHTS)	MONDO:0017623	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False
+6	Gorham-Stout disease	MONDO:0007414	('OMIM:618343', 'Polymicrogyria with or without vascular-type EDS')	0.0	False

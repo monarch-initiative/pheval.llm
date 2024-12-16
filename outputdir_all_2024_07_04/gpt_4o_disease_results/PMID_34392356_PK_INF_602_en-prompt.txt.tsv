@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Polycystic Ovary Syndrome (PCOS)	MONDO:0008487	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+2	Endometriosis	MONDO:0005133	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+3	Turner Syndrome	MONDO:0019499	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+4	Premature Ovarian Insufficiency (POI)	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+5	Thyroid Disorders (e.g., Hypothyroidism)	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+6	Hyperprolactinemia	MONDO:0024305	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+6	Hyperprolactinemia	MONDO:0014250	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+6	Hyperprolactinemia	MONDO:0005804	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+7	Androgen Insensitivity Syndrome (AIS)	MONDO:0019154	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+8	Fragile X-associated Primary Ovarian Insufficiency (FXPOI)	N/A	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False
+9	Mullerian Agenesis (Mayer-Rokitansky-Küster-Hauser Syndrome)	MONDO:0017771	('OMIM:620686', 'Premature ovarian failure 23')	0.0	False

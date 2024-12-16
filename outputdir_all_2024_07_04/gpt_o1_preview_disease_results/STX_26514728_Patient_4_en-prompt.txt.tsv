@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-ketotic hyperglycinemia	MONDO:0011612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Lissencephaly	MONDO:0018838	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	STXBP1 encephalopathy	N/A	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Krabbe disease	MONDO:0009499	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0001734	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	Tuberous sclerosis complex	MONDO:0008612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Dravet syndrome	MONDO:0100135	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+6	Dravet syndrome	MONDO:0100079	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

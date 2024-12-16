@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hemophagocytic lymphohistiocytosis (HLH)	MONDO:0009974	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+2	Wiskott-Aldrich syndrome	MONDO:0010518	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+3	Autoimmune lymphoproliferative syndrome (ALPS)	MONDO:0017979	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Shwachman-Diamond syndrome	MONDO:0044204	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Shwachman-Diamond syndrome	MONDO:0009833	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+5	Hyper-IgM syndrome	MONDO:0003947	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+5	Hyper-IgM syndrome	MONDO:0010626	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+6	Fanconi anemia	MONDO:0009215	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+6	Fanconi anemia	MONDO:0019391	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+7	Chronic granulomatous disease	MONDO:0018305	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+8	Neonatal-onset multisystem inflammatory disease (NOMID)	MONDO:0850065	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False

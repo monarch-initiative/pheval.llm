@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Osteogenesis imperfecta type III	MONDO:0009804	('OMIM:615220', 'Osteogenesis imperfecta, type XV')	0.0	False
+2	Osteogenesis imperfecta type IV	MONDO:0008148	('OMIM:615220', 'Osteogenesis imperfecta, type XV')	0.0	False
+3	Bruck syndrome	MONDO:0017195	('OMIM:615220', 'Osteogenesis imperfecta, type XV')	0.0	False
+4	Hypophosphatasia	MONDO:0018570	('OMIM:615220', 'Osteogenesis imperfecta, type XV')	0.0	False
+4	Hypophosphatasia	MONDO:0009948	('OMIM:615220', 'Osteogenesis imperfecta, type XV')	0.0	False

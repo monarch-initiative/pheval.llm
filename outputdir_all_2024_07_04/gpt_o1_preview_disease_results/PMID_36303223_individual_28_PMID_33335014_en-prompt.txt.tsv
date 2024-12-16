@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Isolated sulfite oxidase deficiency	MONDO:0010089	('OMIM:272300', 'Sulfite oxidase deficiency')	1.0	True
+2	Homocystinuria (cystathionine beta-synthase deficiency)	MONDO:0009352	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Pyridoxine-dependent epilepsy (ALDH7A1 deficiency)	MONDO:0020741	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

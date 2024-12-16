@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Benign Familial Neonatal Seizures	MONDO:0016027	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+2	KCNQ2-Related Benign Neonatal Epilepsy	MONDO:0007365	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Pyridoxine-Dependent Epilepsy	MONDO:0009945	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+3	Pyridoxine-Dependent Epilepsy	MONDO:0020741	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	GLUT1 Deficiency Syndrome	MONDO:0011724	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+4	GLUT1 Deficiency Syndrome	MONDO:0000188	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+5	Epilepsy of Infancy with Migrating Focal Seizures (EIMFS)	MONDO:0100025	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+6	SCN2A-Related Epilepsy	MONDO:0011904	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False
+7	Voltage-Gated Sodium Channel Disorders	N/A	('OMIM:272300', 'Sulfite oxidase deficiency')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 deletion syndrome (DiGeorge syndrome)	MONDO:0018923	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Wilson's disease	MONDO:0010200	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Huntington's disease	MONDO:0007739	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Niemann-Pick disease type C	MONDO:0018982	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Mitochondrial disorders (such as MELAS or MERRF)	MONDO:0010790	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	X-linked adrenoleukodystrophy	MONDO:0018544	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

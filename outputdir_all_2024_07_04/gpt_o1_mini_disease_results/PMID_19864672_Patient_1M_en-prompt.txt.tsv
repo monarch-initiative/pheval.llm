@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CARD9 Deficiency	MONDO:0008905	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	1.0	True
+2	IL17RA Deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+3	IL17F Deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+4	STAT1 Gain-of-Function Mutation	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+5	Dectin-1 Deficiency	N/A	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+6	Hyper-IgE Syndrome (STAT3 Mutations)	MONDO:0007818	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+7	APECED (Autoimmune Polyendocrine Syndrome Type I)	MONDO:0009411	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False
+8	Chronic Mucocutaneous Candidiasis due to Other IL-17 Pathway Defects	MONDO:0014642	('OMIM:212050', 'Immunodeficiency 103, susceptibility to fungal infection')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Mandibuloacral Dysplasia Type B	N/A	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+2	Hutchinson-Gilford Progeria Syndrome	MONDO:0008310	('OMIM:176670', 'Hutchinson-Gilford progeria')	1.0	True
+3	Hajdu-Cheney Syndrome	MONDO:0007057	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+4	Geroderma Osteodysplasticum	MONDO:0009271	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False
+5	Werner Syndrome	MONDO:0010196	('OMIM:176670', 'Hutchinson-Gilford progeria')	0.0	False

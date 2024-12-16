@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fuchs Endothelial Corneal Dystrophy	MONDO:0005321	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.5	True
+2	Pseudophakic Bullous Keratopathy	MONDO:0001180	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False
+3	Posterior Polymorphous Corneal Dystrophy	MONDO:0007378	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False
+3	Posterior Polymorphous Corneal Dystrophy	MONDO:0020364	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False
+4	Congenital Hereditary Endothelial Dystrophy	MONDO:0020365	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False
+5	Macular Corneal Dystrophy	MONDO:0009020	('OMIM:613268', 'Corneal dystrophy, Fuchs endothelial, 4')	0.0	False

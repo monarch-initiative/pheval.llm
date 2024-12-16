@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	MASS phenotype	MONDO:0011431	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+2	Ehlers-Danlos syndrome, hypermobile type	MONDO:0007523	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+3	Familial thoracic aortic aneurysm	MONDO:0019625	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+4	Beals syndrome (Congenital Contractural Arachnodactyly)	MONDO:0007363	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+5	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.5	True

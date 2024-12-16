@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Ohtahara syndrome	MONDO:0100062	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.5	True
+2	Early myoclonic encephalopathy	MONDO:0016022	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Neonatal epileptic encephalopathy	MONDO:0100107	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	Malignant migrating partial seizures of infancy	MONDO:0017385	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

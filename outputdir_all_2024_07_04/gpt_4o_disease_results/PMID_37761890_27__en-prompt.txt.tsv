@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Megalencephaly-Polymicrogyria-Polydactyly-Hydrocephalus (MPPH) Syndrome	MONDO:0019375	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	PTEN Hamartoma Tumor Syndrome (including Bannayan-Riley-Ruvalcaba Syndrome)	MONDO:0017623	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Tuberous Sclerosis Complex (TSC)	MONDO:0013199	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Walker-Warburg Syndrome	MONDO:0000171	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Joubert Syndrome	MONDO:0018772	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Joubert Syndrome	MONDO:0008944	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

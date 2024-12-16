@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Medium-Chain Acyl-CoA Dehydrogenase (MCAD) Deficiency	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Very-Long-Chain Acyl-CoA Dehydrogenase (VLCAD) Deficiency	MONDO:0008723	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Carnitine Palmitoyltransferase II (CPT-II) Deficiency	MONDO:0015515	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Glutaric Aciduria Type II	MONDO:0009282	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+5	Glycogen Storage Disease Type I (GSD I)	MONDO:0002413	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

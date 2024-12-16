@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Townes-Brocks syndrome	MONDO:0007142	('OMIM:300707', 'STAR syndrome')	0.0	False
+2	VACTERL association	MONDO:0008642	('OMIM:300707', 'STAR syndrome')	0.0	False
+3	Williams-Beuren syndrome	MONDO:0008678	('OMIM:300707', 'STAR syndrome')	0.0	False
+4	Alagille syndrome	MONDO:0007318	('OMIM:300707', 'STAR syndrome')	0.0	False
+5	CHARGE syndrome	MONDO:0008965	('OMIM:300707', 'STAR syndrome')	0.0	False
+6	Fraser syndrome	MONDO:0054737	('OMIM:300707', 'STAR syndrome')	0.0	False
+6	Fraser syndrome	MONDO:0009046	('OMIM:300707', 'STAR syndrome')	0.0	False

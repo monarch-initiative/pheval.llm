@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial hemophagocytic lymphohistiocytosis	MONDO:0015541	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+1	Familial hemophagocytic lymphohistiocytosis	MONDO:0015540	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+1	Familial hemophagocytic lymphohistiocytosis	MONDO:0009974	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+2	Systemic juvenile idiopathic arthritis	MONDO:0019434	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+3	X-linked lymphoproliferative syndrome	MONDO:0010627	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False
+4	IPEX syndrome	MONDO:0010580	('OMIM:620430', 'Autoimmune disease, multisystem, infantile-onset, 3')	0.0	False

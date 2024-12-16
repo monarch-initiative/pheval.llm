@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Glucose transporter type 1 deficiency syndrome (GLUT1 deficiency)	MONDO:0000188	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Pyridoxine-dependent epilepsy	MONDO:0020741	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+2	Pyridoxine-dependent epilepsy	MONDO:0009945	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+3	Non-ketotic hyperglycinemia	MONDO:0011612	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+4	Creatine transporter deficiency (SLC6A8 deficiency)	MONDO:0010305	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False
+5	KCNQ2-related neonatal epileptic encephalopathy	MONDO:0013387	('OMIM:612164', 'Developmental and epileptic encephalopathy 4')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Non-syndromic sensorineural hearing loss	MONDO:0019497	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.5	True
+2	Auditory neuropathy spectrum disorder	MONDO:0021944	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+3	Mitochondrial hereditary deafness	MONDO:0015283	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+4	Ototoxic drug-induced hearing loss	MONDO:0800178	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+5	Presbycusis	MONDO:0043765	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False

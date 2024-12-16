@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autosomal Recessive Primary Microcephaly	MONDO:0016660	('OMIM:608393', 'Microcephaly 6, primary, autosomal recessive')	0.5	True
+2	Seckel Syndrome	MONDO:0019342	('OMIM:608393', 'Microcephaly 6, primary, autosomal recessive')	0.0	False
+3	Cornelia de Lange Syndrome	MONDO:0016033	('OMIM:608393', 'Microcephaly 6, primary, autosomal recessive')	0.0	False
+4	Smith-Lemli-Opitz Syndrome	MONDO:0010035	('OMIM:608393', 'Microcephaly 6, primary, autosomal recessive')	0.0	False
+5	Wolf-Hirschhorn Syndrome	MONDO:0008684	('OMIM:608393', 'Microcephaly 6, primary, autosomal recessive')	0.0	False
+6	Cri du Chat Syndrome	MONDO:0007404	('OMIM:608393', 'Microcephaly 6, primary, autosomal recessive')	0.0	False
+7	Lissencephaly	MONDO:0018838	('OMIM:608393', 'Microcephaly 6, primary, autosomal recessive')	0.0	False

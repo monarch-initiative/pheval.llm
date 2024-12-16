@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Noonan syndrome	MONDO:0008104	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+1	Noonan syndrome	MONDO:0018997	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+2	Cardio-facio-cutaneous syndrome	MONDO:0015280	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+3	Mucopolysaccharidosis type VII	MONDO:0009662	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+4	Gaucher disease type 2	MONDO:0009266	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False
+5	Pompe disease	MONDO:0009290	('OMIM:608776', 'Congenital disorder of glycosylation, type Il')	0.0	False

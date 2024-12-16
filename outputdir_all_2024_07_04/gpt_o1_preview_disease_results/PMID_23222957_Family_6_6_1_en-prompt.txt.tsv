@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Griscelli syndrome type II	MONDO:0011872	('OMIM:242840', 'Vici syndrome')	0.0	False
+2	Chediak-Higashi syndrome	MONDO:0008963	('OMIM:242840', 'Vici syndrome')	0.0	False
+3	Sengers syndrome	MONDO:0008922	('OMIM:242840', 'Vici syndrome')	0.0	False
+4	Barth syndrome	MONDO:0010543	('OMIM:242840', 'Vici syndrome')	0.0	False
+5	Mitochondrial DNA depletion syndrome	MONDO:0018158	('OMIM:242840', 'Vici syndrome')	0.0	False
+6	Congenital disorder of glycosylation (CDG)	MONDO:0015286	('OMIM:242840', 'Vici syndrome')	0.0	False

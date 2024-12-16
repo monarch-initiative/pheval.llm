@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Gitelman syndrome	MONDO:0009904	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Familial hypomagnesemia	MONDO:0018100	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.5	True
+3	Fanconi syndrome	MONDO:0001083	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Cystinosis	MONDO:0016239	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Medullary cystic kidney disease	MONDO:0008264	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

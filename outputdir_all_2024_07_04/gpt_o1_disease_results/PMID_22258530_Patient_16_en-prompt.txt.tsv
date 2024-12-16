@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked infantile spasm syndrome (ARX-related)	N/A	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+2	1p36 deletion syndrome	MONDO:0011929	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+3	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False
+4	L1CAM-related hydrocephalus syndrome	MONDO:0010611	('OMIM:613477', 'Developmental and epileptic encephalopathy 5')	0.0	False

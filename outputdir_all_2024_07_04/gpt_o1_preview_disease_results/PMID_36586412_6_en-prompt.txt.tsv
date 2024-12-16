@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	17q12 microdeletion syndrome	MONDO:0013797	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+2	HNF1B-associated disease (MODY5)	N/A	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0001734	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+3	Tuberous sclerosis complex	MONDO:0008612	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0015229	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+4	Bardet-Biedl syndrome	MONDO:0014432	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Joubert syndrome	MONDO:0018772	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+5	Joubert syndrome	MONDO:0008944	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	Zellweger spectrum disorders	MONDO:0019609	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False
+6	Zellweger spectrum disorders	MONDO:0019234	('OMIM:301111', 'Intellectual developmental disorder, X-linked 112')	0.0	False

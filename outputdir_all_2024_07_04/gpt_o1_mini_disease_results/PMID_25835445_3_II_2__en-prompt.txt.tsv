@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Degenerative Aortic Root Aneurysm	N/A	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Bicuspid Aortic Valve	MONDO:0013902	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+2	Bicuspid Aortic Valve	MONDO:0024523	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+3	Familial Thoracic Aortic Aneurysm	MONDO:0019625	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+4	Syphilitic Aortitis	MONDO:0006992	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False
+5	Inflammatory Aortic Aneurysm	N/A	('OMIM:615582', 'Loeys-Dietz syndrome 5')	0.0	False

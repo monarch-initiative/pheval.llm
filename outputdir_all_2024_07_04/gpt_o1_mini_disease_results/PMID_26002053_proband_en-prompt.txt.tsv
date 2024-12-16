@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leigh Syndrome (Subacute Necrotizing Encephalopathy)	MONDO:0009723	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+2	Rett Syndrome	MONDO:0010726	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+3	Mitochondrial DNA Depletion Syndrome	MONDO:0018158	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+4	Aicardi-Goutières Syndrome	MONDO:0018866	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+5	Dravet Syndrome	MONDO:0100135	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+5	Dravet Syndrome	MONDO:0100079	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+6	West Syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+7	Canavan Disease	MONDO:0010079	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+8	Neuronal Ceroid Lipofuscinosis	MONDO:0016295	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+9	Pyruvate Dehydrogenase Deficiency	MONDO:0019169	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False
+10	Periventricular Leukomalacia	MONDO:0015742	('OMIM:620772', 'Developmental and epileptic encephalopathy 113')	0.0	False

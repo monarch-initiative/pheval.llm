@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Hypoplastic Amelogenesis Imperfecta	MONDO:0015047	('OMIM:104530', 'Amelogenesis imperfecta, type IA')	0.5	True
+2	Tricho-dento-osseous Syndrome	MONDO:0008592	('OMIM:104530', 'Amelogenesis imperfecta, type IA')	0.0	False
+3	Enamel Renal Syndrome	MONDO:0008771	('OMIM:104530', 'Amelogenesis imperfecta, type IA')	0.0	False
+4	Oculodentodigital Dysplasia	MONDO:0008111	('OMIM:104530', 'Amelogenesis imperfecta, type IA')	0.0	False

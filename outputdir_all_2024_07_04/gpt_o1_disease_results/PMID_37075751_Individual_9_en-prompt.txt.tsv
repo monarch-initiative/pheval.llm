@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+1	Kabuki syndrome	MONDO:0007843	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+2	CHARGE syndrome	MONDO:0008965	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+3	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False
+4	Neuronal ceroid lipofuscinosis type 2	MONDO:0008769	('OMIM:616462', 'Acrofacial dysostosis, Cincinnati type')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Kabuki syndrome	MONDO:0016512	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+1	Kabuki syndrome	MONDO:0007843	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+2	9p deletion syndrome (Alfi's syndrome)	N/A	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+3	Jacobsen syndrome	MONDO:0007838	('OMIM:147791', 'Jacobsen syndrome')	1.0	True
+4	Opitz C trigonocephaly syndrome	N/A	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+5	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+6	Cornelia de Lange syndrome	MONDO:0016033	('OMIM:147791', 'Jacobsen syndrome')	0.0	False
+7	Greig cephalopolysyndactyly syndrome	MONDO:0008287	('OMIM:147791', 'Jacobsen syndrome')	0.0	False

@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Multiple Sulfatase Deficiency	MONDO:0010088	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+2	Mucopolysaccharidosis Type I (Hurler Syndrome)	MONDO:0011759	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+3	Congenital Disorder of Glycosylation	MONDO:0015286	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+4	Marinesco-Sjögren Syndrome	MONDO:0009567	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+5	Dyggve-Melchior-Clausen Syndrome	MONDO:0009130	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+6	Ataxia-Telangiectasia	MONDO:0008840	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+7	Krabbe Disease	MONDO:0009499	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False
+8	Angelman Syndrome	MONDO:0007113	('OMIM:616354', 'Spinocerebellar ataxia, autosomal recessive 20')	0.0	False

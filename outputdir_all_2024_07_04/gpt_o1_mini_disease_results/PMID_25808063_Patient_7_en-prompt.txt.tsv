@@ -1,0 +1,15 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Klippel-Feil syndrome	MONDO:0007306	('OMIM:600373', 'CODAS syndrome')	0.0	False
+1	Klippel-Feil syndrome	MONDO:0001029	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Coffin-Siris syndrome	MONDO:0015452	('OMIM:600373', 'CODAS syndrome')	0.0	False
+2	Coffin-Siris syndrome	MONDO:0007617	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Carpenter syndrome	MONDO:0019012	('OMIM:600373', 'CODAS syndrome')	0.0	False
+3	Carpenter syndrome	MONDO:0008710	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Kabuki syndrome	MONDO:0007843	('OMIM:600373', 'CODAS syndrome')	0.0	False
+4	Kabuki syndrome	MONDO:0016512	('OMIM:600373', 'CODAS syndrome')	0.0	False
+5	Stickler syndrome	MONDO:0019354	('OMIM:600373', 'CODAS syndrome')	0.0	False
+6	Muenke syndrome	MONDO:0011274	('OMIM:600373', 'CODAS syndrome')	0.0	False
+7	Rubinstein-Taybi syndrome	MONDO:0019188	('OMIM:600373', 'CODAS syndrome')	0.0	False
+8	Nance-Horan syndrome	MONDO:0010545	('OMIM:600373', 'CODAS syndrome')	0.0	False
+9	Smith-Lemli-Opitz syndrome	MONDO:0010035	('OMIM:600373', 'CODAS syndrome')	0.0	False
+10	Spondylocostal dysostosis	MONDO:0000359	('OMIM:600373', 'CODAS syndrome')	0.0	False

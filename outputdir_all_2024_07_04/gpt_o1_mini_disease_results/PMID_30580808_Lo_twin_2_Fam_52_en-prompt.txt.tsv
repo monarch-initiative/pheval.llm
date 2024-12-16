@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Autism Spectrum Disorder, idiopathic	N/A	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	SYNGAP1-Related Intellectual Disability	MONDO:0012960	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	CHD8-Related Autism	N/A	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

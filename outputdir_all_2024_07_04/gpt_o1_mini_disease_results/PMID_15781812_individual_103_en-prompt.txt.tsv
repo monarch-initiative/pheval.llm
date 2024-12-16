@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile myoclonic epilepsy	MONDO:0009696	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+2	Kufs disease (neuronal ceroid lipofuscinosis)	MONDO:0008083	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+3	Myoclonic epilepsy with ragged-red fibers (MERRF)	MONDO:0010790	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+4	Lafora disease	MONDO:0009697	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.5	True
+5	Unverricht-Lundborg disease	MONDO:0009698	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+6	Sialidosis	MONDO:0017734	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False
+6	Sialidosis	MONDO:0009738	('OMIM:620681', 'Myoclonic epilepsy of Lafora 2')	0.0	False

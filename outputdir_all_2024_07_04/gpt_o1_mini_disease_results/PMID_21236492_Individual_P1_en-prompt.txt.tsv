@@ -1,0 +1,10 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Senior–Løken syndrome	N/A	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+2	Lowe syndrome (Oculocerebrorenal syndrome)	MONDO:0010645	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+3	Norrie disease	MONDO:0010691	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+4	Bardet–Biedl syndrome	MONDO:0014441	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+5	Joubert syndrome	MONDO:0018772	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+5	Joubert syndrome	MONDO:0008944	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+6	Branchio-oto-renal (BOR) syndrome	MONDO:0007029	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+7	Alport syndrome	MONDO:0018965	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False
+8	PAX2-related disorder	N/A	('OMIM:614199', 'Nephrotic syndrome, type 5, with or without ocular abnormalities')	0.0	False

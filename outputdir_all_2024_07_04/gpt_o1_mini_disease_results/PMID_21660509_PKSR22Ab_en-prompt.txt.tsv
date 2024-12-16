@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	GJB2-related non-syndromic sensorineural hearing loss	MONDO:0009076	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+2	Otoferlinopathy (DFNB9)	N/A	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+3	Alport Syndrome	MONDO:0018965	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+4	Waardenburg Syndrome	MONDO:0018094	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+5	Presbycusis (Age-related Hearing Loss)	MONDO:0043765	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+6	Noise-induced Hearing Loss	MONDO:0013098	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False

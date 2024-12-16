@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Miller-Dieker lissencephaly syndrome	MONDO:0009532	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	LIS1-related lissencephaly	MONDO:0011830	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Zellweger syndrome	MONDO:0019609	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Wolf-Hirschhorn syndrome	MONDO:0008684	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

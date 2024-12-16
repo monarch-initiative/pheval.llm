@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Weyers acrofacial dysostosis	MONDO:0008673	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+2	Haas type polysyndactyly	N/A	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+3	Cenani-Lenz syndactylism	MONDO:0008931	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+4	Ellis-van Creveld syndrome	MONDO:0009162	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False
+5	DOOR syndrome	MONDO:0009079	('OMIM:146510', 'Pallister-Hall syndrome')	0.0	False

@@ -1,0 +1,2 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	No definitive differential diagnosis can be provided from the given information	N/A	('OMIM:613795', 'Loeys-Dietz syndrome 3')	0.0	False

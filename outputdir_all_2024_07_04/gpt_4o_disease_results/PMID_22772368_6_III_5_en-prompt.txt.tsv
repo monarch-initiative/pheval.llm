@@ -1,0 +1,4 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.5	True
+2	Turner syndrome	MONDO:0019499	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:614816', 'Loeys-Dietz syndrome 4')	0.0	False

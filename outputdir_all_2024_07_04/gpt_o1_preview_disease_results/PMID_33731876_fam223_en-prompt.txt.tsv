@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	CDKL5 deficiency disorder	MONDO:0100039	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Tuberous sclerosis complex	MONDO:0001734	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Tuberous sclerosis complex	MONDO:0008612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	STXBP1 encephalopathy	N/A	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	ARX-related epileptic encephalopathy	MONDO:0015921	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	POLG-related mitochondrial disorder	MONDO:0012415	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	Nonketotic hyperglycinemia	MONDO:0011612	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	SLC6A1 epileptic encephalopathy	MONDO:0014718	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

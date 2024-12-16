@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	West syndrome (Infantile Spasms)	MONDO:0018097	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0008612	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+2	Tuberous Sclerosis Complex	MONDO:0001734	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+3	Dravet Syndrome	MONDO:0100135	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+3	Dravet Syndrome	MONDO:0100079	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+4	Rett Syndrome	MONDO:0010726	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False
+5	Lennox-Gastaut Syndrome	MONDO:0016532	('OMIM:620465', 'Epilepsy, early-onset, 3, with or without developmental delay')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Aortic Stenosis	MONDO:0042981	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+2	Pulmonary Stenosis	MONDO:0009938	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+3	Coarctation of the Aorta	MONDO:0007345	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+4	Ebstein's Anomaly	MONDO:0009144	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False
+5	Tricuspid Valve Dysplasia	N/A	('OMIM:142900', 'Holt-Oram syndrome')	0.0	False

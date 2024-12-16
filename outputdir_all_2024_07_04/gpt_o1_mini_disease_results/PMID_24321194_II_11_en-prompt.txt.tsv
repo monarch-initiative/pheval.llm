@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Nephronophthisis	MONDO:0019005	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Medullary Sponge Kidney	MONDO:0015268	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Primary Hyperoxaluria	MONDO:0002474	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Cystinosis	MONDO:0016239	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Autosomal Recessive Polycystic Kidney Disease	MONDO:0009889	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

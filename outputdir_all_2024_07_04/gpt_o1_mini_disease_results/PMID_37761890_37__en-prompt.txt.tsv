@@ -1,0 +1,11 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Fragile X Syndrome	MONDO:0010383	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+2	Down Syndrome	MONDO:0008608	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Autism Spectrum Disorder	MONDO:0005260	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+3	Autism Spectrum Disorder	MONDO:0005258	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+4	Angelman Syndrome	MONDO:0007113	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+5	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+6	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+7	Periventricular Leukomalacia	MONDO:0015742	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+8	Hypoplasia of the Corpus Callosum	HP:0007370	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False
+9	Joint Hypermobility Syndrome	MONDO:1040027	('OMIM:616362', 'Houge-Janssen syndrome 2')	0.0	False

@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Loeys-Dietz syndrome	MONDO:0018954	('OMIM:610168', 'Loeys-Dietz syndrome 2')	0.5	True
+2	Ehlers-Danlos syndrome, vascular type	MONDO:0007524	('OMIM:610168', 'Loeys-Dietz syndrome 2')	0.0	False
+2	Ehlers-Danlos syndrome, vascular type	MONDO:0017314	('OMIM:610168', 'Loeys-Dietz syndrome 2')	0.0	False
+3	Marfan syndrome	MONDO:0007947	('OMIM:610168', 'Loeys-Dietz syndrome 2')	0.0	False
+4	Arterial Tortuosity Syndrome	MONDO:0008818	('OMIM:610168', 'Loeys-Dietz syndrome 2')	0.0	False
+5	Shprintzen-Goldberg syndrome	MONDO:0008426	('OMIM:610168', 'Loeys-Dietz syndrome 2')	0.0	False
+6	Homocystinuria	MONDO:0004737	('OMIM:610168', 'Loeys-Dietz syndrome 2')	0.0	False

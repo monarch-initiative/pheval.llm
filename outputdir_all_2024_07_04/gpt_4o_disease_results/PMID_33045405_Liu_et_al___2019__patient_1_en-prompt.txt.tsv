@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+2	Glutaric acidemia type II	MONDO:0009282	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+3	Mitochondrial trifunctional protein deficiency	MONDO:0012172	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+4	Propionic acidemia	MONDO:0011628	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+5	Isovaleric acidemia	MONDO:0009475	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+6	Multiple acyl-CoA dehydrogenase deficiency (MADD)	MONDO:0008721	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+7	Carnitine uptake deficiency	MONDO:0008919	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False
+8	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:605911', 'HMG-CoA synthase-2 deficiency')	0.0	False

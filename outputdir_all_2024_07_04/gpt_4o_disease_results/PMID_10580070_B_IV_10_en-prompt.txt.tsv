@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Dilated cardiomyopathy 1A (CMD1A)	MONDO:0011094	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	Familial Dilated Cardiomyopathy (FDC)	MONDO:0015470	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	Lamin A/C related cardiomyopathy (LMNA-related)	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	MYH7-related dilated cardiomyopathy	MONDO:0013262	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	Tafazzin-related dilated cardiomyopathy (Barth Syndrome - less likely in a female but possible due to X-linked inheritance with skewing)	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+6	Titin-related dilated cardiomyopathy (TTN-related)	MONDO:0011400	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

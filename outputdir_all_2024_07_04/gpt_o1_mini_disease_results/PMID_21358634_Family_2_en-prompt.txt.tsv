@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Self-healing squamous epithelioma of Ferguson-Smith	MONDO:0007566	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	1.0	True
+2	Epidermal nevus syndrome	MONDO:0018115	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+2	Epidermal nevus syndrome	MONDO:0008097	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+3	Gorlin syndrome	MONDO:0007187	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+4	Darier disease	MONDO:0007417	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+5	Langerhans cell histiocytosis	MONDO:0017029	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+5	Langerhans cell histiocytosis	MONDO:0018310	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False
+5	Langerhans cell histiocytosis	MONDO:0017025	('OMIM:132800', 'Multiple self-healing squamous epithelioma, susceptibility to')	0.0	False

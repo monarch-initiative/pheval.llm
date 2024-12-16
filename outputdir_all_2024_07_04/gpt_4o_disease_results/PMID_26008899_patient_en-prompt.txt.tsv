@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	IPEX syndrome (Immune dysregulation, Polyendocrinopathy, Enteropathy, X-linked syndrome)	MONDO:0010580	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+2	CDG syndrome type Iib (Congenital Disorder of Glycosylation type Iib)	MONDO:0012123	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+3	WHIM syndrome (Warts, Hypogammaglobulinemia, Infections, and Myelokathexis syndrome)	MONDO:8000006	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+4	SIRP-alpha deficiency (Signal-regulatory protein alpha deficiency)	N/A	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False
+5	Chronic Granulomatous Disease (CGD)	MONDO:0018305	('OMIM:620632', 'Immunodeficiency 115 with autoinflammation')	0.0	False

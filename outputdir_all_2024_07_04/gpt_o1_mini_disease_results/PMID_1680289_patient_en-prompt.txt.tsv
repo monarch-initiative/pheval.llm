@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	X-linked Severe Combined Immunodeficiency (SCID)	MONDO:0015974	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.5	True
+2	Adenosine Deaminase (ADA) Deficiency SCID	MONDO:0007064	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	1.0	True
+3	RAG1/RAG2 Deficiency SCID	MONDO:0000573	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+4	Janus Kinase 3 (Jak3) Deficiency SCID	MONDO:0010938	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False
+5	Interleukin-7 Receptor (IL7R) Deficiency SCID	MONDO:0015701	('OMIM:102700', 'Severe combined immunodeficiency due to ADA deficiency')	0.0	False

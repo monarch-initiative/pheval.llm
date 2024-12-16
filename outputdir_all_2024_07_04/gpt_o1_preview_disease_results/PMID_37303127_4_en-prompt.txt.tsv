@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Partial Lipodystrophy Type 2 (Dunnigan Variety)	MONDO:0007906	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	1.0	True
+2	Familial Partial Lipodystrophy Type 3 (PPARG Mutation)	N/A	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+3	Familial Partial Lipodystrophy Type 1 (Köbberling Type)	MONDO:0012072	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Mandibuloacral Dysplasia	MONDO:0009557	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+4	Mandibuloacral Dysplasia	MONDO:0016584	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False
+5	SHORT Syndrome	MONDO:0010026	('OMIM:151660', 'Lipodystrophy, familial partial, type 2')	0.0	False

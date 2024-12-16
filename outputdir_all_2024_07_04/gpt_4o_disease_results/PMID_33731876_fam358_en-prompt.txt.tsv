@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Magenis syndrome	MONDO:0008434	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+2	Angelman syndrome	MONDO:0007113	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+3	Rett syndrome	MONDO:0010726	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+4	Fragile X syndrome	MONDO:0010383	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+5	22q13.3 deletion syndrome (Phelan-McDermid syndrome)	MONDO:0011652	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+6	MECP2 duplication syndrome	MONDO:0010283	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False
+7	Sotos syndrome	MONDO:0019349	('OMIM:613721', 'Developmental and epileptic encephalopathy 11')	0.0	False

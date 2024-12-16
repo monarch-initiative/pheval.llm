@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Behr syndrome	MONDO:0008858	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+2	OPA1-related Dominant Optic Atrophy Plus syndrome	MONDO:0008134	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+3	Leigh syndrome	MONDO:0009723	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+4	POLG-related mitochondrial disorder	MONDO:0012415	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+5	Pyruvate dehydrogenase deficiency	MONDO:0019169	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False
+6	Marinesco-Sjögren syndrome	MONDO:0009567	('OMIM:620451', 'Combined oxidative phosphorylation deficiency 58')	0.0	False

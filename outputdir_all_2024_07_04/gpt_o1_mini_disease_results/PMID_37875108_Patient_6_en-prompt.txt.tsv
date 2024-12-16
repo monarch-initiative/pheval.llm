@@ -1,0 +1,12 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Familial Mediterranean Fever	MONDO:0009572	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+1	Familial Mediterranean Fever	MONDO:0018088	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+2	Hemophagocytic Lymphohistiocytosis	MONDO:0015540	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+3	Acute Lymphoblastic Leukemia	MONDO:0004967	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+4	Systemic Juvenile Idiopathic Arthritis	MONDO:0019434	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+5	Epstein-Barr Virus Infection	MONDO:0005111	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+6	Gaucher Disease	MONDO:0018150	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+7	Periodic Fever, Aphthous Stomatitis, Pharyngitis, Adenitis (PFAPA) Syndrome	MONDO:0018540	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+8	Chronic Granulomatous Disease	MONDO:0018305	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+9	Storage Diseases (e.g., Niemann-Pick Disease)	N/A	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False
+10	Infectious Mononucleosis	MONDO:0005810	('OMIM:301115', 'Immunodeficiency 118, mycobacteriosis')	0.0	False

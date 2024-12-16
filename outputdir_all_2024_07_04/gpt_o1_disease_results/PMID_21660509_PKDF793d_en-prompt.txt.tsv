@@ -1,0 +1,5 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	DFNB1 nonsyndromic hearing loss (GJB2-related)	MONDO:0012976	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+2	DFNA2 nonsyndromic hearing loss	MONDO:0013305	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+3	DFNB9 (OTOF-related) nonsyndromic hearing loss	MONDO:0010986	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False
+4	Waardenburg syndrome	MONDO:0018094	('OMIM:601869', 'Deafness, autosomal recessive 15')	0.0	False

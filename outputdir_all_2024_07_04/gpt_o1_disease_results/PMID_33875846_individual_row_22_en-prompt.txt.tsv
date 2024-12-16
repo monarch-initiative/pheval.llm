@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Down syndrome (Trisomy 21)	MONDO:0700126	('OMIM:620450', 'Intellectual developmental disorder, autosomal dominant 73')	0.0	False
+2	Noonan syndrome	MONDO:0008104	('OMIM:620450', 'Intellectual developmental disorder, autosomal dominant 73')	0.0	False
+2	Noonan syndrome	MONDO:0018997	('OMIM:620450', 'Intellectual developmental disorder, autosomal dominant 73')	0.0	False
+3	Edwards syndrome (Trisomy 18)	N/A	('OMIM:620450', 'Intellectual developmental disorder, autosomal dominant 73')	0.0	False
+4	Patau syndrome (Trisomy 13)	N/A	('OMIM:620450', 'Intellectual developmental disorder, autosomal dominant 73')	0.0	False

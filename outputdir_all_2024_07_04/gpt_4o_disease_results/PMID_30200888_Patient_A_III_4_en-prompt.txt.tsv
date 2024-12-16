@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Cockayne Syndrome	MONDO:0016006	('OMIM:216400', 'Cockayne syndrome, type A')	0.5	True
+2	Hutchinson-Gilford Progeria Syndrome	MONDO:0008310	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+3	Seckel Syndrome	MONDO:0019342	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+4	Bloom Syndrome	MONDO:0008876	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False
+5	Rothmund-Thomson Syndrome	MONDO:0010002	('OMIM:216400', 'Cockayne syndrome, type A')	0.0	False

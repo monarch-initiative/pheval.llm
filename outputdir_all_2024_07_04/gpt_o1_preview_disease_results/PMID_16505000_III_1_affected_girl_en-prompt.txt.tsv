@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Congenital ichthyosiform erythroderma	MONDO:0019306	('OMIM:620707', 'Epidermolytic hyperkeratosis 2B, autosomal recessive')	0.0	False
+2	Lamellar ichthyosis	MONDO:0019306	('OMIM:620707', 'Epidermolytic hyperkeratosis 2B, autosomal recessive')	0.0	False
+2	Lamellar ichthyosis	MONDO:0017778	('OMIM:620707', 'Epidermolytic hyperkeratosis 2B, autosomal recessive')	0.0	False
+3	Erythrokeratodermia variabilis	MONDO:0033010	('OMIM:620707', 'Epidermolytic hyperkeratosis 2B, autosomal recessive')	0.0	False
+3	Erythrokeratodermia variabilis	MONDO:0017851	('OMIM:620707', 'Epidermolytic hyperkeratosis 2B, autosomal recessive')	0.0	False
+4	Netherton syndrome	MONDO:0009735	('OMIM:620707', 'Epidermolytic hyperkeratosis 2B, autosomal recessive')	0.0	False

@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	SELENON-related myopathy (SEPN1-related myopathy)	MONDO:0100100	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+2	Emery-Dreifuss muscular dystrophy (EDMD)	MONDO:0016830	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.5	True
+3	Collagen VI-related myopathies (e.g., Bethlem myopathy, Ullrich congenital muscular dystrophy)	MONDO:0100225	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+4	Lamin A/C-related muscular dystrophy (LMNA-related muscular dystrophy)	N/A	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False
+5	FKRP-related congenital muscular dystrophy	MONDO:0011688	('OMIM:181350', 'Emery-Dreifuss muscular dystrophy 2, autosomal dominant')	0.0	False

@@ -1,0 +1,7 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	KID syndrome (Keratitis-Ichthyosis-Deafness syndrome)	MONDO:0018781	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+2	Congenital Ichthyosis	MONDO:0015947	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+3	Netherton syndrome	MONDO:0009735	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+4	Gaucher disease type 2	MONDO:0009266	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+5	Sjögren-Larsson syndrome	MONDO:0010031	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False
+6	CDG syndrome (Congenital Disorders of Glycosylation syndrome)	MONDO:0012123	('OMIM:620510', 'Xerosis and growth failure with immune and pulmonary dysfunction syndrome')	0.0	False

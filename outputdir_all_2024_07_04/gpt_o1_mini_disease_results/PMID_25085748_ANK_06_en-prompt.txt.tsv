@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Juvenile Parkinson's Disease (Early-Onset Parkinson's Disease)	MONDO:0017279	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+2	Wilson Disease	MONDO:0010200	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+3	Neurodegeneration with Brain Iron Accumulation (NBIA)	MONDO:0018307	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+4	Dopa-Responsive Dystonia	MONDO:0016812	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+5	Neuroacanthocytosis	MONDO:0008695	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+5	Neuroacanthocytosis	MONDO:0016987	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False
+6	Multiple System Atrophy	MONDO:0007803	('OMIM:260300', 'Parkinson disease 15, autosomal recessive')	0.0	False

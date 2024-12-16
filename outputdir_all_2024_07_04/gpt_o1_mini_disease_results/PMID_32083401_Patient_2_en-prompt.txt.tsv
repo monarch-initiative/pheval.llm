@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	22q11.2 Deletion Syndrome (DiGeorge Syndrome)	MONDO:0018923	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+2	CHARGE Syndrome	MONDO:0008965	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+3	Branchiootorenal Syndrome	MONDO:0007029	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+4	Kabuki Syndrome	MONDO:0007843	('OMIM:147920', 'Kabuki Syndrome 1')	1.0	True
+4	Kabuki Syndrome	MONDO:0016512	('OMIM:147920', 'Kabuki Syndrome 1')	0.5	True
+5	Treacher Collins Syndrome	MONDO:0007944	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False
+5	Treacher Collins Syndrome	MONDO:0002457	('OMIM:147920', 'Kabuki Syndrome 1')	0.0	False

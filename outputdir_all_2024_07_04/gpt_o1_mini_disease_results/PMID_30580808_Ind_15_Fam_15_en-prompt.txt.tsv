@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Smith-Magenis Syndrome	MONDO:0008434	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+2	Ehlers-Danlos Syndrome	MONDO:0020066	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Noonan Syndrome	MONDO:0018997	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+3	Noonan Syndrome	MONDO:0008104	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+4	Phelan-McDermid Syndrome	MONDO:0011652	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Kabuki Syndrome	MONDO:0007843	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False
+5	Kabuki Syndrome	MONDO:0016512	('OMIM:618362', 'Coffin-Siris syndrome 8')	0.0	False

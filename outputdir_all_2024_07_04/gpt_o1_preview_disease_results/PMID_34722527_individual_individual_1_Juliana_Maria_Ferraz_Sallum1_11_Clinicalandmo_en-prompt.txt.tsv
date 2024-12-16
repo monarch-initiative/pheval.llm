@@ -1,0 +1,15 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Leber Hereditary Optic Neuropathy	MONDO:0010788	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+2	Stargardt Disease	MONDO:0019353	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0100438	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0015993	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0007362	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+3	Cone-Rod Dystrophy	MONDO:0011458	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+4	Optic Atrophy Type 1	MONDO:0008134	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Retinitis Pigmentosa	MONDO:0008377	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+5	Retinitis Pigmentosa	MONDO:0019200	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+6	Achromatopsia	MONDO:0018852	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+7	Optic Nerve Hypoplasia	MONDO:0008136	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+8	Dominant Optic Atrophy	MONDO:0020250	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+9	Juvenile Macular Degeneration	N/A	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False
+10	Best Disease (Vitelliform Macular Dystrophy)	MONDO:0000390	('OMIM:613826', 'Leber congenital amaurosis 6')	0.0	False

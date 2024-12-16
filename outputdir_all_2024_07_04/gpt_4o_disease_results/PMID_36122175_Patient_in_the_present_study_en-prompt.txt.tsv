@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Systemic Juvenile Idiopathic Arthritis (sJIA)	MONDO:0019434	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+2	Hyper-IgD Syndrome (HIDS)	MONDO:0009849	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+3	Blau Syndrome (Early-onset Sarcoidosis)	MONDO:0008523	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+4	Neonatal-Onset Multisystem Inflammatory Disease (NOMID)/Chronic Infantile Neurologic Cutaneous Articular (CINCA) Syndrome	MONDO:0011776	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False
+5	Autoimmune Lymphoproliferative Syndrome (ALPS)	MONDO:0017979	('OMIM:620376', 'Autoinflammatory disease, systemic, with vasculitis')	0.0	False

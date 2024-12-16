@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	LMNA-related cardiomyopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+2	MYH7-related cardiomyopathy	MONDO:0008647	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+3	SCN5A-related disorder	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+4	Desmin-related myofibrillar myopathy	MONDO:0011076	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False
+5	KCNQ1-related channelopathy	N/A	('OMIM:115200', 'Cardiomyopathy, dilated, 1A')	0.0	False

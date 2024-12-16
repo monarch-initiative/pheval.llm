@@ -1,0 +1,8 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Polymicrogyria	MONDO:0000087	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+2	Focal Cortical Dysplasia	MONDO:0019009	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+3	Schizencephaly	MONDO:0010011	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+4	Periventricular Nodular Heterotopia	MONDO:0020341	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+5	FOXG1 Syndrome	MONDO:0035383	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+6	Mowat-Wilson Syndrome	MONDO:0009341	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False
+7	Tuberous Sclerosis	MONDO:0001734	('OMIM:617140', 'ZTTK SYNDROME')	0.0	False

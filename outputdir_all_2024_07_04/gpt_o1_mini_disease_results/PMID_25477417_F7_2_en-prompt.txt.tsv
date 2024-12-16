@@ -1,0 +1,6 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Bartter syndrome	MONDO:0015231	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+2	Dent disease	MONDO:0015612	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+3	Cystinuria	MONDO:0009067	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+4	Primary hyperparathyroidism	MONDO:0010837	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False
+5	Renal tubular acidosis	MONDO:0001909	('OMIM:248250', 'Hypomagnesemia 3, renal')	0.0	False

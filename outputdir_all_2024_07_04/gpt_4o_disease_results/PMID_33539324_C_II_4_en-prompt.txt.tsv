@@ -1,0 +1,9 @@
+rank	disease_name	disease_identifier	correct_ID	grounded_score	is_correct
+1	Huntington's disease	MONDO:0007739	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+2	Wilson's disease	MONDO:0010200	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+3	Multiple system atrophy	MONDO:0007803	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+4	Progressive supranuclear palsy	MONDO:0019037	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+5	Creutzfeldt-Jakob disease	MONDO:0007403	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+5	Creutzfeldt-Jakob disease	MONDO:0005357	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+6	Frontotemporal dementia	MONDO:0017276	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False
+6	Frontotemporal dementia	MONDO:0010857	('OMIM:620456', 'Dystonia 22, adult-onset')	0.0	False

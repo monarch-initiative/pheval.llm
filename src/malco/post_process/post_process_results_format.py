@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from typing import List
-
+import os
 import pandas as pd
 import yaml
 from oaklib import get_adapter
@@ -35,18 +35,22 @@ def create_standardised_results(
     data = []
     if curategpt:
         annotator = get_adapter("sqlite:obo:mondo")
-
+        if os.path.isfile(output_dir / output_file_name):
+            return 
+            # TODO for the curategpt option add check if already exists
+            # This could be, if the file already exists, open it, don't recompute what has already been done
+            # and then append *new* results 
     for raw_result_path in raw_results_dir.iterdir():
         if raw_result_path.is_file():
             # Cannot have further files in raw_result_path!
             all_results = read_raw_result_yaml(raw_result_path)
-
+            # TODO Change to do use curategpt directly on other file paths
             for this_result in all_results:
                 extracted_object = this_result.get("extracted_object")
                 if extracted_object:
                     label = extracted_object.get("label")
                     terms = extracted_object.get("terms")
-                    if curategpt and terms:
+                    if curategpt and terms:                         
                         ontogpt_text = this_result.get("input_text")
                         # its a single string, should be parseable through curategpt
                         cleaned_text = clean_service_answer(ontogpt_text)

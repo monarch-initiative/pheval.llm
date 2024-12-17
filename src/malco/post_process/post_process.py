@@ -13,6 +13,9 @@ def post_process(self) -> None:
     output_dir = self.output_dir
     langs = self.languages
     models = self.models
+    # Note, grounding with ontoGPT was already performed. Setting curategpt to True generates
+    # an additional grounding via lexical matching and curategpt, which will end up in results.tsv
+    # Ontogpt's grounding output in results.yaml remains.
     curategpt = True
 
     if self.modality == "several_languages":

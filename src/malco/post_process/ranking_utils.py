@@ -143,7 +143,9 @@ def compute_mrr_and_ranks(
                 lambda row: 1 / row["rank"] if row["is_correct"] else 0, axis=1
             )
 
-            df.dropna(subset=["correct_term"])
+            # This should not be necessary any more (this gets rid of cases where there is a bug in the phenopacket).
+            # Necessary for data of previous runs, before the aforementioned bugs were removed. 
+            df.dropna(subset=["correct_term"]) # this should not be necessary
 
             # Save full data frame
             full_df_path = output_dir / results_files[i].split("/")[0]
@@ -192,7 +194,7 @@ def compute_mrr_and_ranks(
     pc2.close()
 
     for modelname in num_ppkt.keys():
-        rank_df.loc[rank_df["model"] == modelname, "num_cases"] = num_ppkt[modelname]
+        rank_df.loc[rank_df[comparing] == modelname, "num_cases"] = num_ppkt[modelname]
     data_dir = output_dir / "rank_data"
     data_dir.mkdir(exist_ok=True)
     topn_file_name = "topn_result.tsv"
@@ -209,7 +211,6 @@ def compute_mrr_and_ranks(
         writer.writerow(results_files)
         writer.writerow(mrr_scores)
 
-    # TODO this could be moved in an anaysis script with the plotting...
     df = pd.read_csv(topn_file, delimiter="\t")
     valid_cases = df["num_cases"] - df["grounding_failed"]
     df["top1"] = (df["n1"]) / valid_cases

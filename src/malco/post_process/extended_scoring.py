@@ -158,12 +158,27 @@ def ground_diagnosis_text_to_mondo(
 ) -> List[Tuple[str, List[Tuple[str, str]]]]:
     results = []
 
+    headers_to_avoid = ["differential diagnosis",
+                        "here is the list", 
+                        "here is a list",
+                        "here are the"
+                        "based on the clinical features", "based on the symptoms",
+                        "based on the given case", "based on the limited information", 
+                        "based on the clinical presentation",
+                        "based on the case",
+                        "based on the provided case study",
+                        "here are the candidate diagnoses",
+                        "listed by probability",
+                        "candidate diagnoses",
+                        "potential diagnoses",
+                        "ranked by likelihood"
+                        ]
     # Split the input into lines and process each one
     for line in differential_diagnosis.splitlines():
         clean_line = clean_diagnosis_line(line)
 
         # Skip header lines like "**Differential diagnosis:**"
-        if not clean_line or "Differential diagnosis" in clean_line.lower():
+        if not clean_line or any(x in clean_line.lower() for x in headers_to_avoid):
             continue
 
         # Try grounding the full line first (exact match)

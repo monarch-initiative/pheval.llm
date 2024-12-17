@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "malco", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 pheval = "^0.3.2"
 setuptools = "^69.5.1"
 shelved-cache = "^0.3.1"

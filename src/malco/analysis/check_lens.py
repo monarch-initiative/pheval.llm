@@ -26,11 +26,15 @@ def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
 
 unique_ppkts = {}
 # model=str(sys.argv[1])
-models = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4", "gpt-4o"]
+#models = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4", "gpt-4o"]
+models = ["en", "cs", "nl", "zh", "it", "es", "de", "tr"]
+with_post = False # if also post_process had been run, this can be True
+
 for model in models:
     print("===" * 10, "\nEvaluating now: ", model, "\n" + "===" * 10)
 
-    yamlfile = f"out_openAI_models/raw_results/multimodel/{model}/results.yaml"
+    #yamlfile = f"out_openAI_models/raw_results/multimodel/{model}/results.yaml"
+    yamlfile = f"out_multlingual_nov24/raw_results/multilingual/{model}/results.yaml"
     all_results = read_raw_result_yaml(yamlfile)
 
     counter = 0
@@ -46,33 +50,38 @@ for model in models:
             if terms:
                 counter += 1
 
-    full_df_file = f"out_openAI_models/multimodel/{model}/results.tsv"
-    df = pd.read_csv(full_df_file, sep="\t")
-    num_ppkts = df["label"].nunique()
-    unique_ppkts[model] = df["label"].unique()
+    
     # The first should be equivalent to grepping "raw_" in some results.yaml
     print("The number of prompts that have something in results.yaml are: ", len(labelvec))
     print(
         "The number of prompts that have a non-empty differential (i.e. term is not None) is:",
         counter,
     )
-    print(
-        "The number of unique prompts/ppkts with a non-empty differential in results.tsv are:",
-        num_ppkts,
-        "\n",
-    )
+    # related to post_process
+    if with_post:
+        full_df_file = f"out_openAI_models/multimodel/{model}/results.tsv"
+        df = pd.read_csv(full_df_file, sep="\t")
+        num_ppkts = df["label"].nunique()
+        unique_ppkts[model] = df["label"].unique()
+        print(
+            "The number of unique prompts/ppkts with a non-empty differential in results.tsv are:",
+            num_ppkts,
+            "\n",
+        )
 
-# This we know a posteriori, gpt-4o and gpt-4-turbo both have 5213 phenopackets
-# Thus, let's print out what is missing in the others
-for i in unique_ppkts["gpt-4-turbo"]:
-    if i in unique_ppkts["gpt-4"]:
-        continue
-    else:
-        print(f"Missing ppkt in gpt-4 is:\t", i)
-print("\n")
+# ====================================================
+if with_post:
+    # This we know a posteriori, gpt-4o and gpt-4-turbo both have 5213 phenopackets
+    # Thus, let's print out what is missing in the others
+    for i in unique_ppkts["gpt-4-turbo"]:
+        if i in unique_ppkts["gpt-4"]:
+            continue
+        else:
+            print(f"Missing ppkt in gpt-4 is:\t", i)
+    print("\n")
 
-for i in unique_ppkts["gpt-4-turbo"]:
-    if i in unique_ppkts["gpt-3.5-turbo"]:
-        continue
-    else:
-        print(f"Missing ppkt in gpt-3.5-turbo is:\t", i)
+    for i in unique_ppkts["gpt-4-turbo"]:
+        if i in unique_ppkts["gpt-3.5-turbo"]:
+            continue
+        else:
+            print(f"Missing ppkt in gpt-3.5-turbo is:\t", i)

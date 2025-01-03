@@ -35,8 +35,8 @@ def create_standardised_results(
     data = []
     if curategpt:
         annotator = get_adapter("sqlite:obo:mondo")
-        if os.path.isfile(output_dir / output_file_name):
-            return 
+        #if os.path.isfile(output_dir / output_file_name):
+        #    return 
             # TODO for the curategpt option add check if already exists
             # This could be, if the file already exists, open it, don't recompute what has already been done
             # and then append *new* results 

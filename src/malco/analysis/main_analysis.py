@@ -15,6 +15,7 @@ topn_file = data_dir / topn_file_name
 mrr_file = data_dir / "mrr_result.tsv"
 
 df = pd.read_csv(topn_file, delimiter="\t")
+#TODO add strict scoring here
 #valid_cases = df["num_cases"] - df["grounding_failed"]
 valid_cases = df["num_cases"]
 df["top1"] = (df["n1"]) / valid_cases

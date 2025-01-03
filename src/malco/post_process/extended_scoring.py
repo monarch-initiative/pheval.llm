@@ -166,12 +166,24 @@ def ground_diagnosis_text_to_mondo(
                         "based on the given case", "based on the limited information", 
                         "based on the clinical presentation",
                         "based on the case",
-                        "based on the provided case study",
+                        #"based on the provided case study",
+                        "based on the provided",
                         "here are the candidate diagnoses",
                         "listed by probability",
                         "candidate diagnoses",
                         "potential diagnoses",
-                        "ranked by likelihood"
+                        "ranked by likelihood",
+                        "these conditions are",
+                        "note: ",
+                        "i'm sorry",
+                        #"please note",
+                        "please",
+                        "given the complexity",
+                        "these diseases are",
+                        "if you have",
+                        "if further details",
+                        "the list above",
+                        "these disorders are",
                         ]
     # Split the input into lines and process each one
     for line in differential_diagnosis.splitlines():

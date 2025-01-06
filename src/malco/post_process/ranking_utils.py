@@ -2,6 +2,7 @@ import csv
 import os
 from datetime import datetime
 from pathlib import Path
+from typing import Tuple
 
 import numpy as np
 import pandas as pd
@@ -10,7 +11,6 @@ from cachetools.keys import hashkey
 from oaklib import get_adapter
 from oaklib.interfaces import OboGraphInterface
 from shelved_cache import PersistentCache
-from typing import Tuple
 
 from malco.post_process.df_save_util import safe_save_tsv
 from malco.post_process.mondo_score_utils import score_grounded_result
@@ -98,7 +98,7 @@ def compute_mrr_and_ranks(
         "n10p",
         "nf",
         "num_cases",
-        "grounding_failed", # and no correct reply elsewhere in the differential
+        "grounding_failed",  # and no correct reply elsewhere in the differential
     ]
     rank_df = pd.DataFrame(0, index=np.arange(len(results_files)), columns=header)
 
@@ -115,11 +115,11 @@ def compute_mrr_and_ranks(
             df["rank"] = df.groupby("label")["score"].rank(ascending=False, method="first")
             label_4_non_eng = df["label"].str.replace(
                 "_[a-z][a-z]-prompt", "_en-prompt", regex=True
-            )  
+            )
 
             # df['correct_term'] is an OMIM
             # df['term'] is Mondo or OMIM ID, or even disease label
-            df["correct_term"] = label_4_non_eng.map(label_to_correct_term, na_action='ignore')
+            df["correct_term"] = label_4_non_eng.map(label_to_correct_term, na_action="ignore")
 
             # Make sure caching is used in the following by unwrapping explicitly
             results = []
@@ -144,8 +144,8 @@ def compute_mrr_and_ranks(
             )
 
             # This should not be necessary any more (this gets rid of cases where there is a bug in the phenopacket).
-            # Necessary for data of previous runs, before the aforementioned bugs were removed. 
-            df.dropna(subset=["correct_term"]) # this should not be necessary
+            # Necessary for data of previous runs, before the aforementioned bugs were removed.
+            df.dropna(subset=["correct_term"])  # this should not be necessary
 
             # Save full data frame
             full_df_path = output_dir / results_files[i].split("/")[0]

@@ -26,14 +26,14 @@ def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
 
 unique_ppkts = {}
 # model=str(sys.argv[1])
-#models = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4", "gpt-4o"]
+# models = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4", "gpt-4o"]
 models = ["en", "cs", "nl", "zh", "it", "es", "de", "tr"]
-with_post = False # if also post_process had been run, this can be True
+with_post = False  # if also post_process had been run, this can be True
 
 for model in models:
     print("===" * 10, "\nEvaluating now: ", model, "\n" + "===" * 10)
 
-    #yamlfile = f"out_openAI_models/raw_results/multimodel/{model}/results.yaml"
+    # yamlfile = f"out_openAI_models/raw_results/multimodel/{model}/results.yaml"
     yamlfile = f"out_multlingual_nov24/raw_results/multilingual/{model}/results.yaml"
     all_results = read_raw_result_yaml(yamlfile)
 
@@ -50,7 +50,6 @@ for model in models:
             if terms:
                 counter += 1
 
-    
     # The first should be equivalent to grepping "raw_" in some results.yaml
     print("The number of prompts that have something in results.yaml are: ", len(labelvec))
     print(

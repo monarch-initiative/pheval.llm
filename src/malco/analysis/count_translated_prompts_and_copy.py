@@ -1,6 +1,6 @@
-import shutil
 import os
 import re
+import shutil
 
 fp = "/Users/leonardo/IdeaProjects/phenopacket2prompt/prompts/"
 
@@ -20,7 +20,7 @@ for lang in langs:
     promptfiles[lang] = []
     for dirpath, dirnames, filenames in os.walk(fp + lang):
         for fn in filenames:
-            fn = fn.replace('_' + lang +'-prompt.txt','')
+            fn = fn.replace("_" + lang + "-prompt.txt", "")
             promptfiles[lang].append(fn)
         break
 
@@ -44,4 +44,4 @@ print("Common ppkts are: ", len(intersection))
 dst_dir = "/Users/leonardo/git/malco/in_multlingual_nov24/prompts/"
 for id in intersection:
     for lang in langs:
-        shutil.copy(fp + lang + "/" + id + '_' + lang +'-prompt.txt', dst_dir + lang) 
+        shutil.copy(fp + lang + "/" + id + "_" + lang + "-prompt.txt", dst_dir + lang)

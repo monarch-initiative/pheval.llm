@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from typing import List
-import os
+
 import pandas as pd
 import yaml
 from oaklib import get_adapter
@@ -35,11 +35,11 @@ def create_standardised_results(
     data = []
     if curategpt:
         annotator = get_adapter("sqlite:obo:mondo")
-        #if os.path.isfile(output_dir / output_file_name):
-        #    return 
-            # TODO for the curategpt option add check if already exists
-            # This could be, if the file already exists, open it, don't recompute what has already been done
-            # and then append *new* results 
+        # if os.path.isfile(output_dir / output_file_name):
+        #    return
+        # TODO for the curategpt option add check if already exists
+        # This could be, if the file already exists, open it, don't recompute what has already been done
+        # and then append *new* results
     for raw_result_path in raw_results_dir.iterdir():
         if raw_result_path.is_file():
             # Cannot have further files in raw_result_path!
@@ -50,7 +50,7 @@ def create_standardised_results(
                 if extracted_object:
                     label = extracted_object.get("label")
                     terms = extracted_object.get("terms")
-                    if curategpt and terms:                         
+                    if curategpt and terms:
                         ontogpt_text = this_result.get("input_text")
                         # its a single string, should be parseable through curategpt
                         cleaned_text = clean_service_answer(ontogpt_text)
@@ -67,7 +67,7 @@ def create_standardised_results(
                             else:
                                 new_terms.append(i[1][0][0])
                         terms = new_terms
-                        #terms = [i[1][0][0] for i in result]  # MONDO_ID
+                        # terms = [i[1][0][0] for i in result]  # MONDO_ID
                     if terms:
                         # Note, the if allows for rerunning ppkts that failed due to connection issues
                         # We can have multiple identical ppkts/prompts in results.yaml

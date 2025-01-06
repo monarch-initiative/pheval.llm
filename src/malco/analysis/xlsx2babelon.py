@@ -3,33 +3,48 @@ Create babelon complying tables from .xlsx that was sent to us
 """
 
 import pandas as pd
-#tr_lang_code = "es"
-#tr_lang_code = "nl"
-#tr_lang_code = "de"
+
+# tr_lang_code = "es"
+# tr_lang_code = "nl"
+# tr_lang_code = "de"
 tr_lang_code = "tr"
-#tr_lang = "spanish-1"
-#tr_lang = "dutch"
-#tr_lang = "german"
+# tr_lang = "spanish-1"
+# tr_lang = "dutch"
+# tr_lang = "german"
 tr_lang = "turkish-1"
 
 
 data_path = "/Users/leonardo/data/translate_missing/"
 data_file = data_path + "missing_hp_" + tr_lang + ".xlsx"
 
-langs = ["it", "de", "es", "cs", "tr", ] # "zh" has a different structure, it's already been done
+langs = [
+    "it",
+    "de",
+    "es",
+    "cs",
+    "tr",
+]  # "zh" has a different structure, it's already been done
 # German, manually edit based on excel as well
 
-babelon_names = ["source_language", "source_value", "subject_id", "predicate_id", 
-                 "translation_language", "translation_value", "translation_status",
-                 "translator", "translator_expertise", "translation_date",
-                 ]
+babelon_names = [
+    "source_language",
+    "source_value",
+    "subject_id",
+    "predicate_id",
+    "translation_language",
+    "translation_value",
+    "translation_status",
+    "translator",
+    "translator_expertise",
+    "translation_date",
+]
 
 
 df = pd.DataFrame(columns=babelon_names)
 df[["source_value", "translation_value"]] = pd.read_excel(data_file, header=None, usecols="A:B")
-df[["source_value", "subject_id"]] = df["source_value"].str.split('(', n=1, expand=True)
-df['subject_id'] = df['subject_id'].str.replace(')','')
-df['translation_value'] = df['translation_value'].str.replace(r'\(.*\)', '', regex=True)
+df[["source_value", "subject_id"]] = df["source_value"].str.split("(", n=1, expand=True)
+df["subject_id"] = df["subject_id"].str.replace(")", "")
+df["translation_value"] = df["translation_value"].str.replace(r"\(.*\)", "", regex=True)
 df["source_language"] = "en"
 df["predicate_id"] = "rdfs:label"
 df["translation_language"] = tr_lang_code

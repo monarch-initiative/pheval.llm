@@ -1,6 +1,7 @@
 import csv
 
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 import pandas as pd
 import seaborn as sns
 
@@ -39,13 +40,18 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     # Plotting bar-plots with top<n> ranks
     df_aggr = pd.read_csv(topn_aggr_file, delimiter="\t")
 
-    sns.barplot(x="Rank_in", y="percentage", data=df_aggr, hue=comparing)
+    plt.figure(figsize=(12, 6))
+    plt.style.use("default")  # Set style to default
 
-    plt.xlabel("Number of Ranks in")
-    plt.ylabel("Percentage of Cases")
-    plt.ylim([0.0, 1.0])
-    plt.title("Rank Comparison for Differential Diagnosis")
-    plt.legend(title=comparing)
+    ax = sns.barplot(x="Rank_in", y="percentage", data=df_aggr, hue=comparing)
+    ax.yaxis.set_major_formatter(mtick.PercentFormatter())
+    plt.xlabel("")
+    plt.ylabel("")
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=12)
+    plt.ylim([0.0, 100])
+    leg = plt.legend(title=comparing, fontsize=12, title_fontsize="large")
+    leg.set_title("Language")
     plot_path = plot_dir / (
         "barplot_" + name_string + "_" + comparing + "_" + str(num_ppkt) + "ppkt.png"
     )

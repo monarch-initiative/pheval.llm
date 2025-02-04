@@ -95,12 +95,12 @@ def run(self, max_workers: int = None) -> None:
         max_workers = multiprocessing.cpu_count()
 
     if modality == "several_languages":
-        with multiprocessing.Pool(processes=max_workers) as pool:
+        with multiprocessing.get_context("spawn").Pool(processes=max_workers) as pool:
             try:
                 pool.starmap(
                     call_ontogpt,
                     [
-                        (lang, raw_results_dir / "multilingual", input_dir, "gpt-4o", modality)
+                        (lang, raw_results_dir / "multilingual", input_dir, models[0], modality)
                         for lang in langs
                     ],
                 )
@@ -109,7 +109,7 @@ def run(self, max_workers: int = None) -> None:
 
     if modality == "several_models":
         # English only many models
-        with multiprocessing.Pool(processes=max_workers) as pool:
+        with multiprocessing.get_context("spawn").Pool(processes=max_workers) as pool:
             try:
                 pool.starmap(
                     call_ontogpt,

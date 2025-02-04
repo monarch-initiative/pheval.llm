@@ -4,6 +4,7 @@ from typing import List
 
 import pandas as pd
 import yaml
+import os
 from oaklib import get_adapter
 from pheval.post_processing.post_processing import PhEvalGeneResult
 from pheval.utils.phenopacket_utils import GeneIdentifierUpdater
@@ -34,12 +35,12 @@ def create_standardised_results(
 
     data = []
     if curategpt:
+        outfile = output_dir / output_file_name
         annotator = get_adapter("sqlite:obo:mondo")
-        # if os.path.isfile(output_dir / output_file_name):
-        #    return
-        # TODO for the curategpt option add check if already exists
-        # This could be, if the file already exists, open it, don't recompute what has already been done
-        # and then append *new* results
+        if os.path.isfile(outfile):
+            already_computed_df = pd.read_csv(outfile, sep="\t")
+        else:
+            already_computed_df = pd.DataFrame()
     for raw_result_path in raw_results_dir.iterdir():
         if raw_result_path.is_file():
             # Cannot have further files in raw_result_path!
@@ -49,6 +50,11 @@ def create_standardised_results(
                 extracted_object = this_result.get("extracted_object")
                 if extracted_object:
                     label = extracted_object.get("label")
+                    
+                    # Adds possibility of continuation runs for curategpt, use with care
+                    if curategpt and not already_computed_df.empty:
+                        if any(already_computed_df['label'].str.contains(label)):
+                            continue
                     terms = extracted_object.get("terms")
                     if curategpt and terms:
                         ontogpt_text = this_result.get("input_text")
@@ -79,7 +85,8 @@ def create_standardised_results(
                             data.append({"label": label, "term": term, "score": scr, "rank": rank})
 
     # Create DataFrame
-    df = pd.DataFrame(data)
+    df_new = pd.DataFrame(data)
+    df = pd.concat([already_computed_df, df_new], axis=0, ignore_index=True)
 
     # Save DataFrame to TSV
     # output_path = output_dir / output_file_name

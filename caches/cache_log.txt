@@ -430,3 +430,115 @@ CacheInfo: hits=124311, misses=124, maxsize=524288        , currsize=37483
 omim_mappings cache info:
 CacheInfo: hits=739, misses=18, maxsize=524288        , currsize=27148
 
+Timestamp: 20250115-175450
+
+ja/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=17265, misses=1536, maxsize=524288        , currsize=39019
+omim_mappings cache info:
+CacheInfo: hits=9946, misses=567, maxsize=524288        , currsize=27715
+
+it/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=40420, misses=2162, maxsize=524288        , currsize=39645
+omim_mappings cache info:
+CacheInfo: hits=13744, misses=723, maxsize=524288        , currsize=27871
+
+cs/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=64639, misses=2874, maxsize=524288        , currsize=40357
+omim_mappings cache info:
+CacheInfo: hits=18474, misses=1001, maxsize=524288        , currsize=28149
+
+zh/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=82922, misses=3202, maxsize=524288        , currsize=40685
+omim_mappings cache info:
+CacheInfo: hits=20288, misses=1073, maxsize=524288        , currsize=28221
+
+nl/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=105820, misses=3580, maxsize=524288        , currsize=41063
+omim_mappings cache info:
+CacheInfo: hits=21871, misses=1155, maxsize=524288        , currsize=28303
+
+de/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=128212, misses=3959, maxsize=524288        , currsize=41442
+omim_mappings cache info:
+CacheInfo: hits=24003, misses=1263, maxsize=524288        , currsize=28411
+
+es/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=153456, misses=4389, maxsize=524288        , currsize=41872
+omim_mappings cache info:
+CacheInfo: hits=27498, misses=1372, maxsize=524288        , currsize=28520
+
+en/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=181848, misses=4769, maxsize=524288        , currsize=42252
+omim_mappings cache info:
+CacheInfo: hits=29526, misses=1499, maxsize=524288        , currsize=28647
+
+tr/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=203872, misses=5198, maxsize=524288        , currsize=42681
+omim_mappings cache info:
+CacheInfo: hits=31352, misses=1652, maxsize=524288        , currsize=28800
+
+Timestamp: 20250121-115529
+
+ja/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=19940, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+it/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=43721, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+cs/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=68652, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+zh/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=87263, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+nl/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=110539, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+de/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=133310, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+es/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=158984, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+en/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=187756, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+
+tr/results.tsv
+score_grounded_result cache info:
+CacheInfo: hits=210209, misses=78, maxsize=524288        , currsize=42759
+omim_mappings cache info:
+CacheInfo: hits=166, misses=49, maxsize=524288        , currsize=28849
+

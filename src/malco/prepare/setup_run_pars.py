@@ -44,7 +44,7 @@ def import_inputdata(self) -> None:
             if m > 1:
                 sys.exit("Error, only English and multiple models supported, exiting...")
             else:  # m==1
-                self.modality = "several_languages"  # non English defaults to multiple languages
+                self.modality = "several_languages"  # non English defaults to "multiple" languages mode
     elif ll > 1:
         self.modality = "several_languages"
 

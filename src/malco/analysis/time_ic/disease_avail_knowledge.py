@@ -45,10 +45,12 @@ except IndexError:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 data_dir = Path.home() / "data"
 hpoa_file_path = data_dir / "phenotype.hpoa"
-ic_file = data_dir / "ic_hpoa.txt"
+ic_file = Path.cwd() / "data" / "ic_hpoa.txt"
 original_ppkt_dir = data_dir / "ppkt-store-0.1.19"
+original_ppkt_dir = data_dir / "phenopacket-store"
 outdir = Path.cwd() / "src" / "malco" / "analysis" / "time_ic"
-ranking_results_filename = f"out_openAI_models/multimodel/{model}/full_df_results.tsv"
+#ranking_results_filename = f"out_openAI_models/multimodel/{model}/full_df_results.tsv"
+ranking_results_filename = f"out_multlingual_nov24/multilingual/{model}/full_df_results.tsv"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # IMPORT
@@ -167,7 +169,7 @@ for subdir, dirs, files in os.walk(original_ppkt_dir):
 
             # For now we are fine with average IC
             try:
-                ppkt_ic[ppkt_id] = ic / num_hpos
+                ppkt_ic[ppkt_id] = [ic / num_hpos, num_hpos]
                 # TODO max ic instead try
             except ZeroDivisionError as e:
                 ppkts_with_zero_hpos.append(ppkt_id)
@@ -185,20 +187,34 @@ print(
     f"Number of ppkts where at least one HPO is missing its IC value is {len(ppkts_with_missing_hpos)}. These are left out from the average.\n"
 )
 
-ppkt_ic_df = pd.DataFrame.from_dict(ppkt_ic, orient="index", columns=["avg(IC)"])
-ppkt_ic_df["Diagnosed"] = 0
+# THIS IS IC FOR ALL PHENOPACKETS IN THE STORE, NOT JUST THE ONES IN THE RANKING
+ppkt_ic_df = pd.DataFrame(columns=["avg(IC)", "observed_HPOs", "Diagnosed"])
 
+label_in_store_missing_ic = []
 for ppkt in ppkts:
+    ppkt_label = ppkt[0].replace("_en-prompt.txt", "")
+    if ppkt_label in ppkts_with_zero_hpos:
+        continue
     if any(ppkt[1]["is_correct"]):
-        ppkt_label = ppkt[0].replace("_en-prompt.txt", "")
-        if ppkt_label in ppkts_with_zero_hpos:
-            continue
-        ppkt_ic_df.loc[ppkt_label, "Diagnosed"] = 1
+        try:
+            ppkt_ic_df.loc[ppkt_label] = ppkt_ic[ppkt_label]+[1]
+        except KeyError:
+            label_in_store_missing_ic.append(ppkt_label)
+    else:
+        try:
+            ppkt_ic_df.loc[ppkt_label] = ppkt_ic[ppkt_label]+[0]
+        except KeyError:
+            label_in_store_missing_ic.append(ppkt_label)
+#        ppkt_ic_df.loc[ppkt_label, "avg(IC)", "observed_HPOs"] = ppkt_ic[ppkt_label]
+ #       ppkt_ic_df.loc[ppkt_label, "Diagnosed"] = 0
 
 # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # See https://github.com/monarch-initiative/phenopacket-store/issues/157
 label_manual_removal = ["PMID_27764983_Family_1_individual__J", "PMID_35991565_Family_I__3"]
-ppkt_ic_df = ppkt_ic_df.drop(label_manual_removal)
+try:
+    ppkt_ic_df = ppkt_ic_df.drop(label_manual_removal)
+except KeyError:
+    pass
 # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # ppkt_ic_df['Diagnosed'].value_counts()
 # Diagnosed

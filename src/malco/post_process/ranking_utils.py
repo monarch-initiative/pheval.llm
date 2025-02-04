@@ -146,7 +146,7 @@ def compute_mrr_and_ranks(
             # This should not be necessary any more (this gets rid of cases where there is a bug in the phenopacket).
             # Necessary for data of previous runs, before the aforementioned bugs were removed.
             df.dropna(subset=["correct_term"])  # this should not be necessary
-
+            
             # Save full data frame
             full_df_path = output_dir / results_files[i].split("/")[0]
             full_df_filename = "full_df_results.tsv"
@@ -212,7 +212,8 @@ def compute_mrr_and_ranks(
         writer.writerow(mrr_scores)
 
     df = pd.read_csv(topn_file, delimiter="\t")
-    valid_cases = df["num_cases"] - df["grounding_failed"]
+    #valid_cases = df["num_cases"] - df["grounding_failed"]
+    valid_cases = df["num_cases"]
     df["top1"] = (df["n1"]) / valid_cases
     df["top3"] = (df["n1"] + df["n2"] + df["n3"]) / valid_cases
     df["top5"] = (df["n1"] + df["n2"] + df["n3"] + df["n4"] + df["n5"]) / valid_cases
@@ -228,7 +229,7 @@ def compute_mrr_and_ranks(
         + df["n9"]
         + df["n10"]
     ) / valid_cases
-    df["not_found"] = (df["nf"]) / valid_cases
+    df["not_found"] = (df["nf"]+df['grounding_failed']) / valid_cases
 
     df_aggr = pd.DataFrame()
     df_aggr = pd.melt(

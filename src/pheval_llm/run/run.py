@@ -5,7 +5,7 @@ import subprocess
 import typing
 from pathlib import Path
 
-from malco.run.search_ppkts import search_ppkts
+from pheval_llm.run.search_ppkts import search_ppkts
 
 
 def call_ontogpt(

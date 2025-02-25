@@ -9,8 +9,8 @@ from oaklib import get_adapter
 from pheval.post_processing.post_processing import PhEvalGeneResult
 from pheval.utils.phenopacket_utils import GeneIdentifierUpdater
 
-from malco.post_process.df_save_util import safe_save_tsv
-from malco.post_process.extended_scoring import clean_service_answer, ground_diagnosis_text_to_mondo
+from pheval_llm.post_process.df_save_util import safe_save_tsv
+from pheval_llm.post_process.extended_scoring import clean_service_answer, ground_diagnosis_text_to_mondo
 
 
 def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:

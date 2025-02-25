@@ -4,7 +4,7 @@ from typing import List
 import yaml
 from oaklib import get_adapter
 
-from malco.post_process.extended_scoring import clean_service_answer, ground_diagnosis_text_to_mondo
+from pheval_llm.post_process.extended_scoring import clean_service_answer, ground_diagnosis_text_to_mondo
 
 
 def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:

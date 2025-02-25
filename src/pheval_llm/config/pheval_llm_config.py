@@ -10,17 +10,17 @@ class PhevalLLMConfig():
         """
         with open(config_path, "r") as file:
             content = yaml.safe_load(file)
-            self.input_dir = content.get("input_dir", None)
-            self.testdata_dir = content.get("testdata_dir", None)
-            self.tmp_dir = content.get("tmp_dir", {})
-            self.output_dir = content.get("output_dir", {})
+            self.tmp_dir = content.get("tmp_dir", None)
+            self.output_dir = content.get("output_dir", None)
             self.version =content.get("version", None)
             self.gold_file = content.get("gold_file", None)
-            self.visualize = content.get("visualize", {})
+            self.visualize = content.get("visualize", False)
+            self.languages = content.get("languages", [])
+            self.models = content.get("model", [])
             # TODO: Enforce required fields
     
     def __str__(self):
-        return (f"PhevalLLMConfig(input_dir={self.input_dir}, "
+        return (f"PhevalLLMConfig("
                 f"testdata_dir={self.testdata_dir}, "
                 f"tmp_dir={self.tmp_dir}, "
                 f"output_dir={self.output_dir}, "

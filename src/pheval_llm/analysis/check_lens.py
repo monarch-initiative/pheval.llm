@@ -1,6 +1,6 @@
 import sys
 
-# from malco.post_process.post_process_results_format import read_raw_result_yaml
+# from pheval_llm.post_process.post_process_results_format import read_raw_result_yaml
 from pathlib import Path
 from typing import List
 

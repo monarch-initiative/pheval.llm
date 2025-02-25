@@ -1,6 +1,0 @@
-tool: template
-tool_version: 1.0.0
-variant_analysis: False
-gene_analysis: False
-disease_analysis: True
-tool_specific_configuration_options:

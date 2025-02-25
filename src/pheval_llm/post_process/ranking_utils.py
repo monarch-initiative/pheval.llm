@@ -12,8 +12,8 @@ from oaklib import get_adapter
 from oaklib.interfaces import OboGraphInterface
 from shelved_cache import PersistentCache
 
-from malco.post_process.df_save_util import safe_save_tsv
-from malco.post_process.mondo_score_utils import score_grounded_result
+from pheval_llm.post_process.df_save_util import safe_save_tsv
+from pheval_llm.post_process.mondo_score_utils import score_grounded_result
 
 FULL_SCORE = 1.0
 PARTIAL_SCORE = 0.5
@@ -38,8 +38,7 @@ def compute_mrr_and_ranks(
     comparing: str,
     output_dir: Path,
     out_subdir: str,
-    prompt_dir: str,
-    correct_answer_file: str,
+    correct_answer_file: str
 ) -> Tuple[Path, Path, dict, Path]:
     """
     Go from the slightly preprocessed data to a dataframe with ranks, correct results, and most importantly, score the results.
@@ -73,10 +72,10 @@ def compute_mrr_and_ranks(
                 results_data.append(df)
                 # Append both the subdirectory relative to output_dir and the filename
                 results_files.append(os.path.relpath(file_path, output_dir))
+                
     # Read in correct answers from prompt_dir
-    answers_path = os.path.join(os.getcwd(), prompt_dir, correct_answer_file)
     answers = pd.read_csv(
-        answers_path, sep="\t", header=None, names=["description", "term", "label"]
+        correct_answer_file, sep="\t", header=None, names=["description", "term", "label"]
     )
 
     # Mapping each label to its correct term

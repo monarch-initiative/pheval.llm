@@ -1,7 +1,7 @@
 import unittest
 
-from malco.post_process.mondo_score_utils import omim_mappings
-from malco.post_process.ranking_utils import get_adapter
+from pheval_llm.post_process.mondo_score_utils import omim_mappings
+from pheval_llm.post_process.ranking_utils import get_adapter
 
 
 class TestOntologyUtils(unittest.TestCase):

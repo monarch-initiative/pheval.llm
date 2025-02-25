@@ -4,20 +4,16 @@ version = "0.0.1"
 description = "Multilingual Analysis of LLMs for Clinical Observations"
 authors = ["Harry Caufield <jhc@lbl.gov>", "Justin Reese <justaddcoffee@gmail.com>", "Leonardo Chimirri <leonardo.chimirri@bih-charite.de>", "Enock Niyonkuru <enock.niyonkuru@jax.org>"]
 readme = "README.md"
-packages = [{include = "malco", from = "src"}]
+packages = [{include = "pheval.llm", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pheval = "^0.3.2"
 setuptools = "^69.5.1"
 shelved-cache = "^0.3.1"
 curategpt = "^0.2.2"
 psutil = "^6.1.0"
-autopep8 = "^2.3.1"
-
-[tool.poetry.plugins."pheval.plugins"]
-template = "malco.runner:MalcoRunner"
-
+click = "^8.1.8"
+pyyaml = "^6.0.2"
 
 [tool.poetry.group.dev.dependencies]
 tox = "^4.15.0"
@@ -28,8 +24,8 @@ pycodestyle = "^2.10.0"
 pytest-cov = "^6.0.0"
 mkdocs = "^1.6.1"
 mkdocs-material = "^9.5.44"
+autopep8 = "^2.3.1"
 mkdocstrings = {extras = ["python"], version = "^0.27.0"}
-ontogpt = {git = "https://github.com/monarch-initiative/ontogpt.git", tag = "v1.0.3"}
 
 [tool.pytest.ini_options]
 pythonpath = [
@@ -50,3 +46,6 @@ reverse_relative = true
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pheval_llm = "main"

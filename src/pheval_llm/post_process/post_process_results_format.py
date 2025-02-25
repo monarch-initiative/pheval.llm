@@ -1,10 +1,8 @@
-import json
+import json, yaml, os
 from pathlib import Path
 from typing import List
 
 import pandas as pd
-import yaml
-import os
 from oaklib import get_adapter
 from pheval.post_processing.post_processing import PhEvalGeneResult
 from pheval.utils.phenopacket_utils import GeneIdentifierUpdater

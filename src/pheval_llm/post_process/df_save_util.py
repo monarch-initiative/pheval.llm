@@ -1,5 +1,4 @@
-import os
-import shutil
+import os, shutil
 
 
 def safe_save_tsv(path, filename, df):

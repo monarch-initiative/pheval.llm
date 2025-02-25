@@ -1,6 +1,6 @@
 import click
 from .config import PhevalLLMConfig
-from .post_process.post_process import post_process
+# from .post_process.post_process import post_process
 from .post_process.ranking_utils import compute_mrr_and_ranks
 from .post_process.generate_plots import make_plots
 
@@ -10,7 +10,7 @@ def core():
     pass
 
 @core.command()
-def format(config: str):
+def format():
     """Takes some parameters from a combined results file and formats them into a pheval llm runner file"""
     # TODO: Ideally we settle on a format that evaluate reads (can be ontogpt yaml file format)
     # Example: Meditron code output jsonl file with prompt, gold, answer we can format this to the ontogpt yaml if we decide
@@ -29,7 +29,7 @@ def evaluate(config: str):
     """Grounds, Evaluates, and Visualizes the results of an llm results file"""
     run_config = PhevalLLMConfig(config)
 
-    post_process(run_config)
+    # post_process(run_config)
     modality = ""
     if modality == "several_languages":
         comparing = "language"

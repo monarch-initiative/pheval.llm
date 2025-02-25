@@ -1,10 +1,9 @@
-import csv
-import os
+import csv, os
 from datetime import datetime
 from pathlib import Path
 from typing import Tuple
 
-import numpy as np
+from numpy import arange
 import pandas as pd
 from cachetools import LRUCache
 from cachetools.keys import hashkey
@@ -99,7 +98,7 @@ def compute_mrr_and_ranks(
         "num_cases",
         "grounding_failed",  # and no correct reply elsewhere in the differential
     ]
-    rank_df = pd.DataFrame(0, index=np.arange(len(results_files)), columns=header)
+    rank_df = pd.DataFrame(0, index=arange(len(results_files)), columns=header)
 
     cache_file = out_caches / "cache_log.txt"
 

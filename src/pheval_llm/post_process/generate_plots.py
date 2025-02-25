@@ -3,7 +3,7 @@ import csv
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 import pandas as pd
-import seaborn as sns
+from seaborn import barplot
 
 # Make a nice plot, use it as function or as script
 
@@ -29,7 +29,7 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     print(mrr_scores)
 
     # Plotting the mrr results
-    sns.barplot(x=results_files, y=mrr_scores)
+    barplot(x=results_files, y=mrr_scores)
     plt.xlabel("Results File")
     plt.ylabel("Mean Reciprocal Rank (MRR)")
     plt.title("MRR of Correct Answers Across Different Results Files")
@@ -43,7 +43,7 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     plt.figure(figsize=(12, 6))
     plt.style.use("default")  # Set style to default
 
-    ax = sns.barplot(x="Rank_in", y="percentage", data=df_aggr, hue=comparing)
+    ax = barplot(x="Rank_in", y="percentage", data=df_aggr, hue=comparing)
     ax.yaxis.set_major_formatter(mtick.PercentFormatter())
     plt.xlabel("")
     plt.ylabel("")

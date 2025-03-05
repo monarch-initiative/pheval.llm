@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import List
 
 from phenopackets import Phenopacket
-from pheval.utils.phenopacket_utils import PhenopacketUtil, phenopacket_reader
+from malco.utils.phenopacket_utils import PhenopacketUtil, phenopacket_reader
 
 
 class FakePredictor:

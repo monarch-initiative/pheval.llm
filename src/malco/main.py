@@ -1,9 +1,8 @@
 import click
-from .config import PhevalLLMConfig
+from .config import MalcoConfig
 # from .post_process.post_process import post_process
-from .post_process.ranking_utils import compute_mrr_and_ranks
-from .post_process.generate_plots import make_plots
-
+from .process.ranking_utils import compute_mrr_and_ranks
+from .process.generate_plots import make_plots
 
 @click.group()
 def core():
@@ -27,9 +26,12 @@ def inference():
 @click.option("--config", type=click.Path(exists=True))
 def evaluate(config: str):
     """Grounds, Evaluates, and Visualizes the results of an llm results file"""
-    run_config = PhevalLLMConfig(config)
+    run_config = MalcoConfig(config)
 
+    
     # post_process(run_config)
+
+
     modality = ""
     if modality == "several_languages":
         comparing = "language"

@@ -1,7 +1,7 @@
 import os
 import shutil
 
-from pheval_llm.post_process.post_process_results_format import read_raw_result_yaml
+from malco.process.post_process_results_format import read_raw_result_yaml
 
 
 def search_ppkts(input_dir, prompt_dir, raw_results_dir, lang_or_model):

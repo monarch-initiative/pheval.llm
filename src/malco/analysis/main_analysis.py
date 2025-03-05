@@ -3,8 +3,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from pheval_llm.post_process.df_save_util import safe_save_tsv
-from pheval_llm.post_process.generate_plots import make_plots
+from malco.process.df_save_util import safe_save_tsv
+from malco.process.generate_plots import make_plots
 
 # MALCO langs check output.
 # If grounding fails number is not too different across languages, we could use

@@ -1,7 +1,0 @@
-tmp_dir: "tmp/"
-output_dir: "results/"
-version: "null"
-gold_file: "data/correct_answers.tsv"
-visualize: False
-languages: []
-models: []

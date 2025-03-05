@@ -1,5 +1,5 @@
-from pheval_llm.post_process.post_process_results_format import create_standardised_results
-from pheval_llm.config import PhevalLLMConfig
+from malco.process.post_process_results_format import create_standardised_results
+from malco.config import PhevalLLMConfig
 
 def post_process(run_config: PhevalLLMConfig) -> None:
     """

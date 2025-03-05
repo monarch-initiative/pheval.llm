@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from pheval_llm.post_process.post_process_results_format import read_raw_result_yaml
+from malco.process.post_process_results_format import read_raw_result_yaml
 
 # Each row has
 #    c1      *       c2         *  c3   *       c4         *        c5              *            c6              *  c7                       * c8

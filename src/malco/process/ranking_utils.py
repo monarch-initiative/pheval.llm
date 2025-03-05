@@ -11,8 +11,8 @@ from oaklib import get_adapter
 from oaklib.interfaces import OboGraphInterface
 from shelved_cache import PersistentCache
 
-from pheval_llm.post_process.df_save_util import safe_save_tsv
-from pheval_llm.post_process.mondo_score_utils import score_grounded_result
+from malco.process.df_save_util import safe_save_tsv
+from malco.process.mondo_score_utils import score_grounded_result
 
 FULL_SCORE = 1.0
 PARTIAL_SCORE = 0.5

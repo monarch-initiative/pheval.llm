@@ -4,8 +4,8 @@ import math
 import pandas as pd
 from scipy.stats import chi2_contingency as chi
 from scipy.stats import kruskal 
-from pheval_llm.post_process.df_save_util import safe_save_tsv
-from pheval_llm.post_process.generate_plots import make_plots
+from malco.process.df_save_util import safe_save_tsv
+from malco.process.generate_plots import make_plots
 
 # MALCO langs check output.
 # If grounding fails number is not too different across languages, we could use

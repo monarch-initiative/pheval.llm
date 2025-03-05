@@ -1,47 +1,10 @@
-import re
-from typing import List, Tuple
-
 from curategpt.store import get_store
 from oaklib.interfaces.text_annotator_interface import (
     TextAnnotationConfiguration,
     TextAnnotatorInterface,
 )
-
-# Compile a regex pattern to detect lines starting with "Differential Diagnosis:"
-dd_re = re.compile(r"^[^A-z]*Differential Diagnosis")
-
-# Function to clean and remove "Differential Diagnosis" header if present
-
-
-def clean_service_answer(answer: str) -> str:
-    """Remove the 'Differential Diagnosis' header if present, and clean the first line."""
-    lines = answer.split("\n")
-    # Filter out any line that starts with "Differential Diagnosis:"
-    cleaned_lines = [line for line in lines if not dd_re.match(line)]
-    return "\n".join(cleaned_lines)
-
-
-# Clean the diagnosis line by removing leading numbers, periods, asterisks, and spaces
-
-
-def clean_diagnosis_line(line: str) -> str:
-    """Remove leading numbers, asterisks, and unnecessary punctuation/spaces from the diagnosis."""
-    line = re.sub(r"^\**\d+\.\s*", "", line)  # Remove leading numbers and periods
-    line = line.strip("*")  # Remove asterisks around the text
-    return line.strip()  # Strip any remaining spaces
-
-
-# Split a diagnosis into its main name and synonym if present
-
-
-def split_diagnosis_and_synonym(diagnosis: str) -> Tuple[str, str]:
-    """Split the diagnosis into main name and synonym (if present in parentheses)."""
-    match = re.match(r"^(.*)\s*\((.*)\)\s*$", diagnosis)
-    if match:
-        main_diagnosis, synonym = match.groups()
-        return main_diagnosis.strip(), synonym.strip()
-    return diagnosis, None  # Return the original diagnosis if no synonym is found
-
+from typing import List, Tuple
+from malco.process.cleaning import clean_diagnosis_line
 
 def perform_curategpt_grounding(
     diagnosis: str,
@@ -142,10 +105,7 @@ def perform_oak_grounding(
             pass
         return [("N/A", "No grounding found")]
 
-
 # Now, integrate curategpt into your ground_diagnosis_text_to_mondo function
-
-
 def ground_diagnosis_text_to_mondo(
     annotator: TextAnnotatorInterface,
     differential_diagnosis: str,

@@ -1,9 +1,9 @@
 from pathlib import Path
 
-from pheval.utils.file_utils import all_files
-from pheval.utils.phenopacket_utils import create_hgnc_dict
+from malco.utils.file_utils import all_files
+from malco.utils.phenopacket_utils import create_hgnc_dict
 
-from pheval_llm.run.fake_predictor import predict_case
+from malco.run.fake_predictor import predict_case
 
 
 def run_tool(phenopacket_dir: Path, output_dir: Path) -> None:

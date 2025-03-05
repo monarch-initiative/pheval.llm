@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "pheval_llm"
+name = "malco"
 version = "0.0.1"
 description = "Multilingual Analysis of LLMs for Clinical Observations"
 authors = ["Harry Caufield <jhc@lbl.gov>", "Justin Reese <justaddcoffee@gmail.com>", "Leonardo Chimirri <leonardo.chimirri@bih-charite.de>", "Enock Niyonkuru <enock.niyonkuru@jax.org>"]
 readme = "README.md"
-packages = [{include = "pheval_llm", from = "src"}]
+packages = [{include = "malco", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -49,4 +49,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-pheval_llm = "pheval_llm:core"
+malco = "malco:core"

@@ -1,6 +1,6 @@
 import yaml
 
-class PhevalLLMConfig():
+class MalcoConfig():
     def __init__(self, config_path):
         """
         Initialize the PhevalLLMConfig object by loading the configuration from a YAML file.
@@ -20,7 +20,7 @@ class PhevalLLMConfig():
             # TODO: Enforce required fields
     
     def __str__(self):
-        return (f"PhevalLLMConfig("
+        return (f"MalcoConfig("
                 f"testdata_dir={self.testdata_dir}, "
                 f"tmp_dir={self.tmp_dir}, "
                 f"output_dir={self.output_dir}, "

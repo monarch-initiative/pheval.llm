@@ -1,0 +1,8 @@
+tmp_dir: "tmp/"
+output_dir: "data/results/"
+version: "null"
+gold_file: "data/exomiser-gold.jsonl"
+result_file: "/Users/gargam/Develop/pheval.llm/data/responses/geminiflash_response-test.jsonl"
+visualize: False
+languages: []
+models: []

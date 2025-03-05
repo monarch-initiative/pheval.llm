@@ -110,7 +110,7 @@ def ground_diagnosis_text_to_mondo(
     annotator: TextAnnotatorInterface,
     differential_diagnosis: str,
     verbose: bool,
-    include_list: List[str],
+    include_list: List[str] = ["MONDO:"],
     use_ontogpt_grounding: bool = True,
     curategpt_path: str = "../curategpt/stagedb/",
     curategpt_collection: str = "ont_mondo",

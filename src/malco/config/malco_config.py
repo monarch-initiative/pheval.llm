@@ -14,6 +14,7 @@ class MalcoConfig():
             self.output_dir = content.get("output_dir", None)
             self.version =content.get("version", None)
             self.gold_file = content.get("gold_file", None)
+            self.result_file = content.get("result_file", None)
             self.visualize = content.get("visualize", False)
             self.languages = content.get("languages", [])
             self.models = content.get("model", [])

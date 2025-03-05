@@ -3,6 +3,7 @@ from .config import MalcoConfig
 # from .post_process.post_process import post_process
 from .process.ranking_utils import compute_mrr_and_ranks
 from .process.generate_plots import make_plots
+from .process.process_results import create_single_standardised_results
 
 @click.group()
 def core():
@@ -28,39 +29,38 @@ def evaluate(config: str):
     """Grounds, Evaluates, and Visualizes the results of an llm results file"""
     run_config = MalcoConfig(config)
 
-    
-    # post_process(run_config)
+    df = create_single_standardised_results(run_config.result_file)
+    df.to_csv(run_config.output_dir / "results.tsv", sep="\t", index=False)
+    if False:
+        modality = ""
+        if modality == "several_languages":
+            comparing = "language"
+            out_subdir = "multilingual"
+        elif modality == "several_models":
+            comparing = "model"
+            out_subdir = "multimodel"
+        else:
+            raise ValueError("Not permitted run modality!\n")
 
-
-    modality = ""
-    if modality == "several_languages":
-        comparing = "language"
-        out_subdir = "multilingual"
-    elif modality == "several_models":
-        comparing = "model"
-        out_subdir = "multimodel"
-    else:
-        raise ValueError("Not permitted run modality!\n")
-
-    # This piece of work is complex across "multiple models" & "multiple languages". We need to simplify this to a piece of work like in the notebook
-    # our gold standard file needs a proper format one similar to a hugging face dataset. prompt, identifier, gold
-    mrr_file, data_dir, num_ppkt, topn_aggr_file = compute_mrr_and_ranks(
-        comparing,
-        output_dir=run_config.output_dir,
-        out_subdir=out_subdir,
-        correct_answer_file=run_config.gold_file,
-    )
-
-    if run_config.visualize:
-        make_plots(
-            mrr_file,
-            data_dir,
-            run_config.languages,
-            num_ppkt,
-            run_config.models,
-            topn_aggr_file,
+        # This piece of work is complex across "multiple models" & "multiple languages". We need to simplify this to a piece of work like in the notebook
+        # our gold standard file needs a proper format one similar to a hugging face dataset. prompt, identifier, gold
+        mrr_file, data_dir, num_ppkt, topn_aggr_file = compute_mrr_and_ranks(
             comparing,
+            output_dir=run_config.output_dir,
+            out_subdir=out_subdir,
+            correct_answer_file=run_config.gold_file,
         )
+
+        if run_config.visualize:
+            make_plots(
+                mrr_file,
+                data_dir,
+                run_config.languages,
+                num_ppkt,
+                run_config.models,
+                topn_aggr_file,
+                comparing,
+            )
 
 @core.command()
 @click.option("--config", type=click.Path(exists=True))

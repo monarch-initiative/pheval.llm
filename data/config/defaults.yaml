@@ -2,7 +2,8 @@ tmp_dir: "tmp/"
 output_dir: "data/results/"
 version: "null"
 gold_file: "data/exomiser-gold.jsonl"
-result_file: "/Users/gargam/Develop/pheval.llm/data/responses/geminiflash_response-test.jsonl"
+result_file: "data/responses/geminiflash_response.jsonl"
 visualize: False
 languages: []
 models: []
+name: "geminiflash"

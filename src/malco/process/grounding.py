@@ -112,9 +112,11 @@ def ground_diagnosis_text_to_mondo(
     verbose: bool,
     include_list: List[str] = ["MONDO:"],
     use_ontogpt_grounding: bool = True,
-    curategpt_path: str = "../curategpt/stagedb/",
+    curategpt_path: str = "stagedb/",
     curategpt_collection: str = "ont_mondo",
     curategpt_database_type: str = "chromadb",
+
+    
 ) -> List[Tuple[str, List[Tuple[str, str]]]]:
     results = []
 
@@ -148,6 +150,7 @@ def ground_diagnosis_text_to_mondo(
         "these disorders are",
     ]
     # Split the input into lines and process each one
+    # TODO: Track line number of diagnoses in case
     for line in differential_diagnosis.splitlines():
         clean_line = clean_diagnosis_line(line)
 

@@ -12,13 +12,11 @@ class MalcoConfig():
             content = yaml.safe_load(file)
             self.tmp_dir = content.get("tmp_dir", None)
             self.output_dir = content.get("output_dir", None)
-            self.version =content.get("version", None)
+            self.version = content.get("version", None)
             self.gold_file = content.get("gold_file", None)
             self.result_file = content.get("result_file", None)
             self.visualize = content.get("visualize", False)
-            self.languages = content.get("languages", [])
-            self.models = content.get("model", [])
-            # TODO: Enforce required fields
+            self.name = content.get("name", [])
     
     def __str__(self):
         return (f"MalcoConfig("

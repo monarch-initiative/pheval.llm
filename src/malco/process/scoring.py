@@ -1,4 +1,4 @@
-import csv, os
+import csv, os, logging
 from datetime import datetime
 from pathlib import Path
 from typing import Tuple
@@ -13,6 +13,9 @@ from shelved_cache import PersistentCache
 
 from malco.process.df_save_util import safe_save_tsv
 from malco.process.mondo_score_utils import score_grounded_result
+from malco.config.malco_config import MalcoConfig
+from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor
 
 FULL_SCORE = 1.0
 PARTIAL_SCORE = 0.5
@@ -32,24 +35,54 @@ def mondo_adapter() -> OboGraphInterface:
     """
     return get_adapter("sqlite:obo:mondo")
 
+def _score_response(index, row):
+    mondo = mondo_adapter()
+    grounded_diagnoses = row['grounding']
+        
+    if not row["gold"].values():
+        logging.warning(f"No correct ID found for metadata: {row['id']}")
+        return [] # Skip rows with no correct ID
+    
+    results = []
+    
+    # Loop through each grounded diagnosis and score them
+    for rank, (disease_name, grounded_list) in enumerate(grounded_diagnoses, start=1):
+        for grounded_id, _ in grounded_list:  # this is a list because there may be multiple groundings
+            grounded_score = score_grounded_result(grounded_id, row["gold"]["disease_id"], mondo)
+            is_correct = grounded_score > 0  # Score > 0 means either exact or subclass match
+            
+            # Create a result row
+            result_row = {"rank": rank, "grounded_id": grounded_id, "grounded_score": grounded_score, "is_correct": is_correct}
+            results.append(result_row)
+    return (index, results)
+    
+
+def score(df):
+    """
+    Score the results of the grounding.
+    """
+    df['scored'] = None
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = [executor.submit(_score_response, index, row) for index, row in df.iterrows()]
+        for future in tqdm(futures, total=len(df)):
+            index, scored_result = future.result()
+            df.at[index, 'scored'] = scored_result
+
+    return df
 
 def compute_mrr_and_ranks(
+    df: pd.DataFrame,
     comparing: str,
-    output_dir: Path,
-    out_subdir: str,
-    correct_answer_file: str
+    run_config: MalcoConfig,
 ) -> Tuple[Path, Path, dict, Path]:
     """
     Go from the slightly preprocessed data to a dataframe with ranks, correct results, and most importantly, score the results.
 
     The scoring happens in score_grounded_result().
     """
-
-    # Read in results TSVs from self.output_dir that match glob results*tsv
     out_caches = Path("caches")
-    # out_caches = output_dir / "caches"
     out_caches.mkdir(exist_ok=True)
-    output_dir = output_dir / out_subdir
+    output_dir = run_config.output_dir
     results_data = []
     results_files = []
     num_ppkt = {}
@@ -57,28 +90,9 @@ def compute_mrr_and_ranks(
     pc2 = PersistentCache(LRUCache, pc2_cache_file, maxsize=524288)
     pc1_cache_file = str(out_caches / "omim_mappings_cache")
     pc1 = PersistentCache(LRUCache, pc1_cache_file, maxsize=524288)
-    # Treat hits and misses as run-specific arguments, write them cache_log
     pc1.hits = pc1.misses = 0
     pc2.hits = pc2.misses = 0
     PersistentCache.cache_info = cache_info
-
-    for subdir, _dirs, files in os.walk(output_dir):
-        for filename in files:
-            if filename.startswith("result") and filename.endswith(".tsv"):
-                file_path = os.path.join(subdir, filename)
-                df = pd.read_csv(file_path, sep="\t")
-                num_ppkt[subdir.split("/")[-1]] = df["label"].nunique()
-                results_data.append(df)
-                # Append both the subdirectory relative to output_dir and the filename
-                results_files.append(os.path.relpath(file_path, output_dir))
-                
-    # Read in correct answers from prompt_dir
-    answers = pd.read_csv(
-        correct_answer_file, sep="\t", header=None, names=["description", "term", "label"]
-    )
-
-    # Mapping each label to its correct term
-    label_to_correct_term = answers.set_index("label")["term"].to_dict()
     # Calculate the Mean Reciprocal Rank (MRR) for each file
     mrr_scores = []
     header = [
@@ -96,7 +110,7 @@ def compute_mrr_and_ranks(
         "n10p",
         "nf",
         "num_cases",
-        "grounding_failed",  # and no correct reply elsewhere in the differential
+        "grounding_failed"
     ]
     rank_df = pd.DataFrame(0, index=arange(len(results_files)), columns=header)
 
@@ -108,9 +122,12 @@ def compute_mrr_and_ranks(
         mondo = mondo_adapter()
         i = 0
         # Each df is a model or a language
+        # TODO: Iterate on the row of the dataframe which is one model and a line is one response
         for df in results_data:
+            # TODO: Get the grounding result
             # For each label in the results file, find if the correct term is ranked
             df["rank"] = df.groupby("label")["score"].rank(ascending=False, method="first")
+            # 
             label_4_non_eng = df["label"].str.replace(
                 "_[a-z][a-z]-prompt", "_en-prompt", regex=True
             )
@@ -121,6 +138,7 @@ def compute_mrr_and_ranks(
 
             # Make sure caching is used in the following by unwrapping explicitly
             results = []
+            # TODO this will be our tuples
             for _idx, row in df.iterrows():
                 # call OAK and get OMIM IDs for df['term'] and see if df['correct_term'] is one of them
                 # in the case of phenotypic series, if Mondo corresponds to grouping term, accept it

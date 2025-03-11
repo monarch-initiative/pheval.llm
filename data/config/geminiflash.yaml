@@ -1,0 +1,7 @@
+tmp_dir: "tmp/"
+output_dir: "data/results/"
+gold_file: "data/exomiser-gold.jsonl"
+result_file: "data/responses/geminiflash_response.jsonl"
+visualize: False
+languages: []
+name: "geminiflash"

@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from malco.process.df_save_util import safe_save_tsv
+from malco.io.reading import safe_save_tsv
 from malco.process.generate_plots import make_plots
 
 # MALCO langs check output.

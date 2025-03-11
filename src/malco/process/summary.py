@@ -7,10 +7,12 @@ def summarize(df, run_config: MalcoConfig):
     # Initialize the counter for each rank
     rank_counter = Counter()
     for index, row in tqdm(df.iterrows(), total=len(df)):
-            # array of results
-            scored = pd.DataFrame(row["scored"])
-            # Find the first occurrence of the correct diagnosis
-            correct_rank = scored[scored['is_correct'] == True].index.min() + 1 if not scored[scored['is_correct'] == True].empty else None
+            correct_rank = None
+            if row["scored"] is not None and len(row["scored"]) > 0:
+                # array of results
+                scored = pd.DataFrame(row["scored"])
+                # Find the first occurrence of the correct diagnosis
+                correct_rank = scored[scored['is_correct'] == True].index.min() + 1 if not scored[scored['is_correct'] == True].empty else None
 
             # Increment the appropriate counter based on the rank or nf if not found
             if correct_rank is not None and 1 <= correct_rank <= 10:

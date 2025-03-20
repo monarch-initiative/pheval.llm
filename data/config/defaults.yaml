@@ -1,7 +1,8 @@
 tmp_dir: "tmp/"
 output_dir: "data/results/"
 gold_file: "data/exomiser-gold.jsonl"
-result_file: "data/responses/medfound175b_response.jsonl"
+response_file: ""
+result_file: ""
 visualize: False
 languages: []
-name: "medfound175b"
+name: ""

@@ -3,6 +3,7 @@ from datasets import Dataset, DatasetDict
 
 hub_location = "apizza/exomiser-benchmark"
 dataset = Dataset.from_json("data/exomiser-gold.jsonl")
+print(dataset)
 
 dataset_dict = DatasetDict({
     "validation": dataset

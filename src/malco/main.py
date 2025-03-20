@@ -1,11 +1,13 @@
+from pathlib import Path
+
 import click
+
 from .config import MalcoConfig
 from .process.scoring import score, mondo_adapter
-from .process.generate_plots import make_plots
+from .process.generate_plots import make_single_plot_from_file, make_single_plot, make_combined_plot_comparing
 from .process.process import create_single_standardised_results
 from .process.summary import summarize
 from .io.reading import read_result_json
-import os
 import pandas as pd
 import multiprocessing as mp
 import numpy as np
@@ -13,17 +15,6 @@ import numpy as np
 @click.group()
 def core():
     pass
-
-@core.command()
-def configure():
-    """Configures the malco tool"""
-    # Read in OpenAI key file (for curategpt grounding)
-    key_file_path = os.path.expanduser("~/openai.key")
-    # Read the key from the file and set the environment variable
-    with open(key_file_path, "r") as key_file:
-        openai_api_key = key_file.read().strip()
-    os.environ["OPENAI_API_KEY"] = openai_api_key
-    print("Successfully configured malco.")
 
 @core.command()
 def format():
@@ -46,7 +37,7 @@ def evaluate(config: str):
     run_config = MalcoConfig(config)
     print(run_config)
     mondo_adapter()
-    result = read_result_json(run_config.result_file)
+    result = read_result_json(run_config.response_file)
     df = pd.DataFrame({
         "service_answers": [x["response"] for x in result],
         "metadata":  [x["id"] for x in result],
@@ -66,15 +57,7 @@ def evaluate(config: str):
     summarize(df, run_config)
     if run_config.visualize:
         print("Visualizing...\n")
-            # make_plots(
-            #     mrr_file,
-            #     data_dir,
-            #     run_config.languages,
-            #     num_ppkt,
-            #     run_config.models,
-            #     topn_aggr_file,
-            #     comparing,
-            # )
+        make_single_plot(run_config.name, df, run_config.output_dir)
     print("Done.")
 
 def evaluate_chunk(args) -> pd.DataFrame:
@@ -83,13 +66,16 @@ def evaluate_chunk(args) -> pd.DataFrame:
 
 @core.command()
 @click.option("--dir", type=click.Path(exists=True))
-def combine():
-    """Combines the results of several evaluate results into a single report"""
-     # Cleanup
-    # tmp_dir = f"{self.input_dir}/prompts/tmp/"
-    # if os.path.isdir(tmp_dir):
-    #     rmtree(tmp_dir)
-    return None
+def combine(dir: str):
+    """Combines the results of several evaluate results into a single plot"""
+    make_combined_plot_comparing(Path(dir), "data/results/")
+
+@core.command()
+@click.option("--config", type=click.Path(exists=True))
+def plot(config: str):
+    """Generates a plot from a results file"""
+    run_config = MalcoConfig(config)
+    make_single_plot_from_file(run_config.name, run_config.result_file, run_config.output_dir)
 
 cli = click.CommandCollection(sources=[core])
 

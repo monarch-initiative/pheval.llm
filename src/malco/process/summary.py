@@ -40,7 +40,7 @@ def summarize(df, run_config: MalcoConfig):
     ]
 
     # Write the results to the output file (without 'lang' column)
-    with open(f"{run_config.output_dir}{run_config.name}_scored.tsv", 'w') as f:
+    with open(f"{run_config.result_file}", 'w') as f:
         f.write('n1\tn2\tn3\tn4\tn5\tn6\tn7\tn8\tn9\tn10\tn10p\tnf\n')
         f.write('\t'.join(map(str, output_row)) + '\n')
     return True

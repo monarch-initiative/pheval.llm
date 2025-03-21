@@ -57,6 +57,7 @@ def evaluate(config: str):
     summarize(df, run_config)
     if run_config.visualize:
         print("Visualizing...\n")
+        df["filename"] = run_config.name
         make_single_plot(run_config.name, df, run_config.output_dir)
     print("Done.")
 

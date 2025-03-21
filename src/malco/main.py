@@ -17,14 +17,6 @@ def core():
     pass
 
 @core.command()
-def format():
-    """Takes some parameters from a combined results file and formats them into a pheval llm runner file"""
-    # TODO: Ideally we settle on a format that evaluate reads (can be ontogpt yaml file format)
-    # Example: Meditron code output jsonl file with prompt, gold, answer we can format this to the ontogpt yaml if we decide
-    # Ideally in the future our inference pipeline generates this format and this command gets used less and less
-    return None
-
-@core.command()
 def inference():
     """Runs one or multiple inferences on a set of prompts"""
     # TODO: Implement this with ollama?

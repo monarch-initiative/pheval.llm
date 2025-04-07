@@ -2,7 +2,7 @@ tmp_dir: "tmp/"
 output_dir: "data/results/"
 gold_file: "data/exomiser-gold.jsonl"
 response_file: "data/responses/geminiflash_response.jsonl"
-result_file: "data/results/topn_result_geminiflash.tsv"
+result_file: "data/results/topn_result_Geminiflash.tsv"
 visualize: False
 languages: []
 name: "geminiflash"

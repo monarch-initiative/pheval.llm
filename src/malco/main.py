@@ -61,7 +61,7 @@ def evaluate_chunk(args) -> pd.DataFrame:
 @click.option("--dir", type=click.Path(exists=True))
 def combine(dir: str):
     """Combines the results of several evaluate results into a single plot"""
-    make_combined_plot_comparing(Path(dir), "data/results/")
+    make_combined_plot_comparing(Path(dir), Path("data/results/"))
 
 @core.command()
 @click.option("--config", type=click.Path(exists=True))

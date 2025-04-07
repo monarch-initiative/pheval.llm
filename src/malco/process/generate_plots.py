@@ -29,7 +29,7 @@ def make_single_plot(model_name, df, out_dir):
     # Make x-axis labels horizontal
     plt.xticks(rotation=0)
     # Move legend outside of figure
-    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+    # ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
     plt.ylim(0, 100)
     plt.savefig(plot_dir / f'{model_name}.png', bbox_inches='tight')
     plt.close()

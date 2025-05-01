@@ -60,10 +60,10 @@ def evaluate_chunk(args) -> pd.DataFrame:
 @core.command()
 @click.option("--dir", type=click.Path(exists=True))
 @click.option("--model", type=str, default="*", help="Model to compare, default is all [*].")
-@click.option("--lang", type=list, default=["en"], help="Language to compare, default is English [en].")
-def combine(dir: str, model: str, lang: list):
+@click.option("--lang", type=str, default=["en"], help="Language to compare, default is English [en].")
+def combine(dir: str, model: str, lang: str):
     """Combines the results of several evaluate results into a single plot"""
-    make_combined_plot_comparing(Path(dir), Path("data/results/"), model, lang)
+    make_combined_plot_comparing(Path(dir), Path("data/results/"), model, lang.split(","))
 
 @core.command()
 @click.option("--config", type=click.Path(exists=True))

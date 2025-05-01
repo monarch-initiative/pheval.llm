@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from pathlib import Path
 from malco.model.language import Language
-def make_single_plot(model_name, df, out_dir):
+def make_single_plot(model_name, df, out_dir, piv, title="Top-k accuracy of correct diagnoses"):
     palette_hex_codes = [
         "#f4ae3d",
         "#ee5825",
@@ -19,13 +19,13 @@ def make_single_plot(model_name, df, out_dir):
     plot_dir.mkdir(exist_ok=True)
     plt.clf()
     df = pd.DataFrame(df.apply(_percentages, axis=1).tolist(),
-                         columns=['Top-1', 'Top-3', 'Top-10', 'Model']).sort_values(by='Top-1', ascending=False)
+                         columns=['Top-1', 'Top-3', 'Top-10', piv]).sort_values(by='Top-1', ascending=False)
 
-    df.set_index('Model', inplace=True)
+    df.set_index(piv, inplace=True)
     df = df.T
     ax = df.plot(kind='bar', color=palette_hex_codes,
                     ylabel='Percent of cases', legend=True,
-                    edgecolor="white", title="Top-k accuracy of correct diagnoses")
+                    edgecolor="white", title=title)
     # Make x-axis labels horizontal
     plt.xticks(rotation=0)
     # Move legend outside of figure
@@ -43,13 +43,14 @@ def make_combined_plot_comparing(results_dir, out_dir, model, langs):
     # TODO: make this more adaptable for languages
     languages = [Language.from_short_name(lang) for lang in langs]
     glob = glob_generator(model, languages)
+    piv = "Language" if len(languages) > 1 else "Model"
     results = pd.concat(
-        [pd.read_csv(file, delimiter="\t").assign(filename=file.stem.replace("topn_result_", "")) for file in results_dir.glob(glob)],
+        [pd.read_csv(file, delimiter="\t").assign(filename=stem_replacer(file.stem, languages)) for file in results_dir.glob(glob)],
         ignore_index=True
     )
-
     output_name = f"topn_{"grouped" if model == "*" else model}_{'' if languages[0] == Language.EN else languages[0].name.lower() if len(languages) == 1 else 'v'.join([lang.name.lower() for lang in languages])}.plot"
-    make_single_plot(output_name, results, out_dir)
+    title = f"Top-k accuracy of correct diagnoses for {model}"
+    make_single_plot(output_name, results, out_dir, piv, title)
 
 def _percentages(row):
     model_name = row['filename']
@@ -71,8 +72,19 @@ def glob_generator(model: str, languages: list):
         if languages[0] == Language.EN:
             return f"topn_result_{model}.tsv"
         elif languages[0] == Language.ALL:
-            return f"topn_result_*_{model}.tsv"
+            return f"topn_result_*{model}.tsv"
         else:
             return f"topn_result_{languages[0].name.lower()}-{model}.tsv"
     else:
         return f"topn_result_{{{','.join([lang.name.lower() for lang in languages])}}}_{model}_*.tsv"
+
+
+def stem_replacer(stem, languages):
+    if Language.ALL in languages or len(languages) > 1:
+        try:
+            stem = Language.from_short_name(stem.replace("topn_result_", "").replace("_", "")[0:2].upper()).value
+        except Exception:
+            stem = "English"
+        return stem
+    else:
+        return stem.replace("topn_result_", "")

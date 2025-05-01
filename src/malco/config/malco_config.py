@@ -11,7 +11,7 @@ class MalcoConfig():
         with open(config_path, "r") as file:
             content = yaml.safe_load(file)
             self.name = content.get("name", [])
-            self.response_file = content.get("result_file", None)
+            self.response_file = content.get("response_file", None)
             self.result_file = content.get("result_file", None)
             self.output_dir = content.get("output_dir", None)
             self.tmp_dir = content.get("tmp_dir", None)

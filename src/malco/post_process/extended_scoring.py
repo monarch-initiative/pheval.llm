@@ -162,7 +162,7 @@ def ground_diagnosis_text_to_mondo(
         "differential diagnosis",
         "here is the list",
         "here is a list",
-        "here are the" "based on the clinical features",
+        "here are the", "based on the clinical features",
         "based on the symptoms",
         "based on the given case",
         "based on the limited information",

@@ -11,19 +11,23 @@ from malco.post_process.generate_plots import make_plots
 # If grounding fails number is not too different across languages, we could use
 
 data_dir = Path("/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/rank_data")
+
+# To run subsets of phenopackets, run 
+#data_dir = Path("/Users/leonardo/git/malco/multout_pyboqa/rank_data")
 comparing = "language"
 topn_file_name = "topn_result.tsv"
 topn_file = data_dir / topn_file_name
 mrr_file = data_dir / "mrr_result.tsv"
 languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl", "ja"]
 
-
+"""
 #+++++++++++++++++++++++++++++++++++++
 # MRR test
 mrr_results = {}
 samples = {}
 for lang in languages:
-    fulldf_path = Path(f"/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/{lang}/full_df_results.tsv")
+    fulldf_path = Path(f"/Users/leonardo/git/malco/multout_pyboqa/{lang}/full_df_results.tsv")
+    #fulldf_path = Path(f"/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/{lang}/full_df_results.tsv")
     df_onelang = pd.read_csv(fulldf_path, delimiter="\t")
     mrr = df_onelang.groupby("label")["reciprocal_rank"].max()
     std = mrr.std()
@@ -37,7 +41,7 @@ print(mrr_results)
 # Chi2 is for categorical, not cardinal data! --> use Kruskal Wallis test
 
 kr_correct = kruskal(*samples.values(), axis = 0) 
-
+"""
 #+++++++++++++++++++++++++++++++++++++
 """df_test = pd.DataFrame()
 df_test['language'] = df['language']

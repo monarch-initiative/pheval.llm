@@ -20,7 +20,7 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     else:
         name_string = str(len(languages))
 
-    with mrr_file.open("r", newline="") as f:
+    """with mrr_file.open("r", newline="") as f:
         lines = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC, delimiter="\t", lineterminator="\n")
         results_files = next(lines)
         mrr_scores = next(lines)
@@ -35,7 +35,7 @@ def make_plots(mrr_file, data_dir, languages, num_ppkt, models, topn_aggr_file, 
     plt.title("MRR of Correct Answers Across Different Results Files")
     plot_path = plot_dir / (name_string + "_" + comparing + "_" + str(num_ppkt) + "ppkt.png")
     plt.savefig(plot_path)
-    plt.close()
+    plt.close()"""
 
     # Plotting bar-plots with top<n> ranks
     df_aggr = pd.read_csv(topn_aggr_file, delimiter="\t")

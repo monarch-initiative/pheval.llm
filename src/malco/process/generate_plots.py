@@ -26,10 +26,7 @@ def make_single_plot(model_name, df, out_dir, piv, title="Top-k accuracy of corr
     ax = df.plot(kind='bar', color=palette_hex_codes,
                     ylabel='Percent of cases', legend=True,
                     edgecolor="white", title=title)
-    # Make x-axis labels horizontal
     plt.xticks(rotation=0)
-    # Move legend outside of figure
-    # ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
     plt.ylim(0, 100)
     plt.savefig(plot_dir / f'{model_name}.png', bbox_inches='tight')
     plt.close()
@@ -40,17 +37,15 @@ def make_single_plot_from_file(model_name, topn_aggr_file, out_dir):
 
 def make_combined_plot_comparing(results_dir, out_dir, model, langs):
     """Make a combined plot comparing the results of different models or languages"""
-    # TODO: make this more adaptable for languages
     languages = [Language.from_short_name(lang) for lang in langs]
-    glob = glob_generator(model, languages)
+    files = glob_generator(model, languages, results_dir)
     piv = "Language" if len(languages) > 1 else "Model"
     results = pd.concat(
-        [pd.read_csv(file, delimiter="\t").assign(filename=stem_replacer(file.stem, languages)) for file in results_dir.glob(glob)],
+        [pd.read_csv(file, delimiter="\t").assign(filename=stem_replacer(file.stem, languages)) for file in files],
         ignore_index=True
     )
     output_name = f"topn_{"grouped" if model == "*" else model}_{'' if languages[0] == Language.EN else languages[0].name.lower() if len(languages) == 1 else 'v'.join([lang.name.lower() for lang in languages])}.plot"
-    title = f"Top-k accuracy of correct diagnoses for {model}"
-    make_single_plot(output_name, results, out_dir, piv, title)
+    make_single_plot(output_name, results, out_dir, piv)
 
 def _percentages(row):
     model_name = row['filename']
@@ -62,7 +57,7 @@ def _percentages(row):
         model_name
     ]
 
-def glob_generator(model: str, languages: list):
+def glob_generator(model: str, languages: list, results_dir: Path) -> list:
     """
         Generate glob pattern for file search based on model and languages.
         model: * or a specific file model name
@@ -70,13 +65,14 @@ def glob_generator(model: str, languages: list):
     """
     if len(languages) == 1:
         if languages[0] == Language.EN:
-            return f"topn_result_{model}.tsv"
+            # We assume that non english languages have a hypen separating the model, and we want to filter these
+            return [file for file in list(results_dir.glob(f"topn_result_{model}.tsv")) if "-" not in str(file)]
         elif languages[0] == Language.ALL:
-            return f"topn_result_*{model}.tsv"
+            return list(results_dir.glob(f"topn_result_{model}.tsv"))
         else:
-            return f"topn_result_{languages[0].name.lower()}-{model}.tsv"
+            return list(results_dir.glob(f"topn_result_{languages[0].name.lower()}-{model}.tsv"))
     else:
-        return f"topn_result_{{{','.join([lang.name.lower() for lang in languages])}}}_{model}_*.tsv"
+        return list(results_dir.glob(f"topn_result_{{{','.join([lang.name.lower() for lang in languages])}}}_{model}_*.tsv"))
 
 
 def stem_replacer(stem, languages):

@@ -1,0 +1,8 @@
+tmp_dir: "tmp/"
+output_dir: "data/results/"
+gold_file: "data/exomiser-gold.jsonl"
+response_file: "data/responses/gmedfound176b_response.jsonl"
+result_file: "data/results/topn_result_Medfound176B.tsv"
+visualize: False
+languages: []
+name: "medfound176b"

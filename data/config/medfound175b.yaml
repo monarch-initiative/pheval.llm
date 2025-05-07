@@ -1,8 +1,0 @@
-tmp_dir: "tmp/"
-output_dir: "data/results/"
-gold_file: "data/exomiser-gold.jsonl"
-response_file: "data/responses/gmedfound175b_response.jsonl"
-result_file: "data/results/topn_result_Medfound175b.tsv"
-visualize: False
-languages: []
-name: "medfound175b"

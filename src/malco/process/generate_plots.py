@@ -68,7 +68,7 @@ def glob_generator(model: str, languages: list, results_dir: Path) -> list:
             # We assume that non english languages have a hypen separating the model, and we want to filter these
             return [file for file in list(results_dir.glob(f"topn_result_{model}.tsv")) if "-" not in str(file)]
         elif languages[0] == Language.ALL:
-            return list(results_dir.glob(f"topn_result_{model}.tsv"))
+            return list(results_dir.glob(f"topn_result_*{model}.tsv"))
         else:
             return list(results_dir.glob(f"topn_result_{languages[0].name.lower()}-{model}.tsv"))
     else:

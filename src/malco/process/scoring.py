@@ -41,8 +41,6 @@ def score(df) -> pd.DataFrame:
     PersistentCache.cache_info = cache_info
     pc1.initialize_if_not_initialized()
     pc2.initialize_if_not_initialized()
-    print(pc1.cache_info())
-    print(pc2.cache_info())
     df['scored'] = None
     mondo = mondo_adapter()
     for index, row in tqdm(df.iterrows(), total=df.shape[0], desc=f"Scoring Grounded Results"):
@@ -71,4 +69,6 @@ def score(df) -> pd.DataFrame:
         df.at[index, "scored"] = results
     pc1.close()
     pc2.close()
+    print(pc1.cache_info())
+    print(pc2.cache_info())
     return df

@@ -37,6 +37,10 @@ Two main analyses are carried out:
 ```
     poetry run malco plot --config data/config/meditron3-70b.yaml 
 ```
+## Plotting Single Model By All Languages Results
+```
+    poetry run malco combine --dir data/results --lang ALL
+```
 ## Plotting Multiple Model Results
 ```
     poetry run malco combine --dir data/results

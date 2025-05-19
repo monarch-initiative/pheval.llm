@@ -1,0 +1,9 @@
+tmp_dir: "tmp/"
+output_dir: "data/results/"
+gold_file: "data/exomiser-gold.jsonl"
+response_file: "data/responses/tr-meditron3-70b.jsonl"
+result_file: "data/results/topn_result_tr-Meditron3_70b.tsv"
+full_result_file: "data/results/full_results/full_df_tr-Meditron3_70b.tsv"
+visualize: False
+languages: []
+name: "tr-Meditron3-70b"

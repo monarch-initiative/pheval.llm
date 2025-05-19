@@ -45,6 +45,8 @@ def evaluate(config: str):
         results = list(results)
     df = pd.concat(results, ignore_index=True)
     df = score(df)
+    df.drop('service_answers', axis=1).to_csv(run_config.full_result_file, sep="\t", index=False)
+    print(f"Full results saved to {run_config.full_result_file}")
     print("\nComputing Statistics...\n")
     summarize(df, run_config)
     if run_config.visualize:
@@ -63,6 +65,8 @@ def evaluate_chunk(args) -> pd.DataFrame:
 @click.option("--lang", type=str, default="en", help="Language to compare, default is English [en].")
 def combine(dir: str, model: str, lang: str):
     """Combines the results of several evaluate results into a single plot"""
+    if model == "*" and lang == "ALL":
+        raise ValueError("You must specify a single model to compare languages.")
     make_combined_plot_comparing(Path(dir), Path("data/results/"), model, lang.split(","))
 
 @core.command()

@@ -4,6 +4,7 @@ class Language(Enum):
     CS = "Czech"
     DE = "German"
     ES = "Spanish"
+    FR = "French"
     IT = "Italian"
     JA = "Japanese"
     NL = "Dutch"

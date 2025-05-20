@@ -10,7 +10,8 @@ from malco.post_process.generate_plots import make_plots
 # MALCO langs check output.
 # If grounding fails number is not too different across languages, we could use
 
-data_dir = Path("/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/rank_data")
+data_dir = Path("/Users/leonardo/git/malco/out_manual_curation/multilingual/rank_data")
+#data_dir = Path("/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/rank_data")
 
 # To run subsets of phenopackets, run 
 #data_dir = Path("/Users/leonardo/git/malco/multout_pyboqa/rank_data")
@@ -18,7 +19,8 @@ comparing = "language"
 topn_file_name = "topn_result.tsv"
 topn_file = data_dir / topn_file_name
 mrr_file = data_dir / "mrr_result.tsv"
-languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl", "ja"]
+#languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl", "ja","fr"]
+languages = ["de_no_en", "de_w_en", "es_no_en", "es_w_en", "it_no_en", "it_w_en"]
 
 """
 #+++++++++++++++++++++++++++++++++++++

@@ -212,30 +212,35 @@ def compute_mrr_and_ranks(
         writer.writerow(mrr_scores)
 
     df = pd.read_csv(topn_file, delimiter="\t")
+
     #valid_cases = df["num_cases"] - df["grounding_failed"]
     valid_cases = df["num_cases"]
-    df["top1"] = (df["n1"]) / valid_cases
-    df["top3"] = (df["n1"] + df["n2"] + df["n3"]) / valid_cases
-    df["top5"] = (df["n1"] + df["n2"] + df["n3"] + df["n4"] + df["n5"]) / valid_cases
-    df["top10"] = (
-        df["n1"]
-        + df["n2"]
-        + df["n3"]
-        + df["n4"]
-        + df["n5"]
-        + df["n6"]
-        + df["n7"]
-        + df["n8"]
-        + df["n9"]
-        + df["n10"]
-    ) / valid_cases
-    df["not_found"] = (df["nf"]+df['grounding_failed']) / valid_cases
+    df["Top-1"] = 100 * (df["n1"]) / valid_cases
+    df["Top-3"] = 100 * (df["n1"] + df["n2"] + df["n3"]) / valid_cases
+    df["Top-5"] = 100 * (df["n1"] + df["n2"] + df["n3"] + df["n4"] + df["n5"]) / valid_cases
+    df["Top-10"] = (
+        100
+        * (
+            df["n1"]
+            + df["n2"]
+            + df["n3"]
+            + df["n4"]
+            + df["n5"]
+            + df["n6"]
+            + df["n7"]
+            + df["n8"]
+            + df["n9"]
+            + df["n10"]
+        )
+        / valid_cases
+    )
+    df["Not Found"] = 100 * (df["nf"] + df["grounding_failed"]) / valid_cases
 
     df_aggr = pd.DataFrame()
     df_aggr = pd.melt(
         df,
         id_vars=comparing,
-        value_vars=["top1", "top3", "top5", "top10", "not_found"],
+        value_vars=["Top-1", "Top-3", "Top-5", "Top-10", "Not Found"],
         var_name="Rank_in",
         value_name="percentage",
     )
@@ -244,6 +249,8 @@ def compute_mrr_and_ranks(
     # It's the user's responsibility to know only up to 2 versions can exist, then data is lost
     topn_aggr_file_name = "topn_aggr.tsv"
     topn_aggr_file = data_dir / topn_aggr_file_name
+
+    
     safe_save_tsv(data_dir, topn_aggr_file_name, df_aggr)
 
     return mrr_file, data_dir, num_ppkt, topn_aggr_file

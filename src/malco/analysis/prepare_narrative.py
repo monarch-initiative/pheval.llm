@@ -2,19 +2,40 @@ from pathlib import Path
 import re
 import pandas as pd
 import numpy as np
+import sys
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Parse input:
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+try:
+    fp = Path(str(sys.argv[1]))
+except IndexError:
+    fp = Path("/Users/leonardo/IdeaProjects/phenopacket2prompt/narrative_exp_list.txt")
+    print('\nYou can pass a txt file with a set of pubmed IDs as a first CLI argument!\n')
+try:
+    prompt_dir = Path(str(sys.argv[2]))
+except IndexError:
+    prompt_dir = Path("/Users/leonardo/IdeaProjects/phenopacket2prompt/6687ppkt_prompts/en")
+    print('\nYou can pass a directory with the prompts created with phenopacket2prompt as a second CLI argument!\n')
+try:
+    prompts4malco_dir = Path(str(sys.argv[3]))
+except IndexError:
+    prompts4malco_dir = Path("/Users/leonardo/git/malco/narrative_input/prompts/")
+    print('\nYou can pass a directory to copy the prompts to as a third CLI argument!\n')
+try:
+    narr_prompts_dir = Path(str(sys.argv[4]))
+except IndexError:
+    narr_prompts_dir = Path("/Users/leonardo/IdeaProjects/phenopacket2prompt/text_mined/original")
+    print('\nYou can pass a directory with the original narrative prompts as a fourth CLI argument!\n')
 
-fp = Path("/Users/leonardo/IdeaProjects/phenopacket2prompt/narrative_exp_list")
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 with open(fp, "r") as f:
     case_pid = f.readlines()
 
 case_pid = [x.strip() for x in case_pid]
 case_pid = [re.sub(r'.txt', '', x)  for x in case_pid]
-
-
-#prompt_dir = Path("/Users/leonardo/git/malco/in_multlingual_nov24/prompts/en/")
-prompt_dir = Path("/Users/leonardo/IdeaProjects/phenopacket2prompt/6687ppkt_prompts/en")
 
 # For each case_pid, see if there is a corresponding file starting with that name in the prompt_dir
 
@@ -64,23 +85,12 @@ manual_corrections = {
     "PMID_30643655": "PMID_30643655_F2_IV_1"
 }
 
-"""allmatches = []
-for i, item in enumerate(matches):
-    allmatches.append(item)
-    
-# Apply the corrections
-for i, item in enumerate(multiple):
-    if item in manual_corrections:
-        allmatches.append(item)
-        matches.append(manual_corrections[item])"""
 #++++++++++++++++++++++++++++++++++++++
 
 print("\nUsing matches only...\n")
 
-prompts4malco_dir = Path("/Users/leonardo/git/malco/narrative_input/prompts/")
-narr_prompts_dir = Path("/Users/leonardo/IdeaProjects/phenopacket2prompt/text_mined/original")
-# For each match, copy the file starting with that name in prompt_dir to prompts4malco_dir/"std_en" and the file starting with that name in 
-# narr_prompts_dir to prompts4malco_dir/"narrative_en"
+# For each match, copy the file starting with that name in prompt_dir to prompts4malco_dir+"/std_en" and the file starting with that name in 
+# narr_prompts_dir to prompts4malco_dir+"/narrative_en"
 for pid in matches:
     # Find the file in prompt_dir
     matching_file = [file for file in prompt_dir.iterdir() if file.name.startswith(pid)][0]

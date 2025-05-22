@@ -55,6 +55,26 @@ def evaluate(config: str):
         make_single_plot(run_config.name, df, run_config.output_dir)
     print("Done.")
 
+@core.command()
+@click.option("--config", type=click.Path(exists=True))
+@click.option("--cases", type=click.Path(exists=True))
+def select(config: str, cases: str):
+    """Selects a subset of phenopackets to run summarize on."""
+    run_config = MalcoConfig(config)
+    df = pd.read_csv(run_config.full_result_file, sep="\t")
+    # Open the cases text file
+    with open(cases, 'r') as f:
+        # Read the lines, strip whitespace and remove last n characters
+        n = len("_en-prompt.txt") # Length of the suffix to remove, equal for all languages
+        lines = [line.strip()[:-5] for line in f.readlines()]
+        
+    # Filter the DataFrame based on the lines in the cases file
+    # It is sufficient for the lines to be a substring of the metadata (to match all languages)
+    df = df[df['metadata'].str.contains('|'.join(lines))]
+    # Save the filtered DataFrame to a new file
+    summarize(df, run_config) # TODO I don't want this to use run_config.result_file but another output dir 
+
+
 def evaluate_chunk(args) -> pd.DataFrame:
     process, df, run_config = args
     return create_single_standardised_results(df, process)

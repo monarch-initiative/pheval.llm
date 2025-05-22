@@ -14,6 +14,8 @@ shelved-cache = "^0.3.1"
 curategpt = "^0.2.2"
 psutil = "^6.1.0"
 autopep8 = "^2.3.1"
+openpyxl = "^3.1.5"
+metapub = "^0.5.12"
 
 [tool.poetry.plugins."pheval.plugins"]
 template = "malco.runner:MalcoRunner"

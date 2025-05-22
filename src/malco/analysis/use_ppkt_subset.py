@@ -1,33 +1,49 @@
 import re
 import pandas as pd
 import numpy as np
+import json
+import os
 from pathlib import Path
 from malco.post_process.df_save_util import safe_save_tsv
 
 #==============================================================================
 # Change the following paths to match your system and subset of phenopacket IDs
 # Subset of phenopackets after October 2023
-output_dir = Path("/Users/leonardo/git/malco/leakage_experiment")
-ppktids_filen = "/Users/leonardo/git/malco/ppkts_after_oct23_CORRECT.txt"
+#output_dir = Path("/Users/leonardo/git/malco/leakage_experiment")
+#ppktids_filen = "/Users/leonardo/git/malco/ppkts_after_oct23_CORRECT.txt"
+
+#TODO list of files in txt is the json file name, we have to take the id in thtat file and process it to get the prompt file name 
+
 
 # Subset of 4917 phenopackets with French
-#output_dir = Path("/Users/leonardo/git/malco/final_multilingual_output")
-#ppktids_filen = "/Users/leonardo/git/malco/ppkts_set.txt"
+output_dir = Path("/Users/leonardo/git/malco/final_multilingual_output")
+ppktids_filen = "/Users/leonardo/git/malco/final_multilingual_output/ppkts_4917set.txt"
 
 # Any txt file with a list of phenopacket IDs will do
 #==============================================================================
 # Function to replace all non-word characters with underscores
-def modify_filename(ppktID):
+def modify_filename(ppktID, ppkt_dir):
     # If there is a ".json" extension, remove it
     if ppktID.endswith(".json"):
-        ppktID = ppktID[:-5]
-    modified_name = re.sub(r'[^\w]', '_', ppktID) + "_en-prompt.txt"
+        # Copy 1 to 1 the code logic of phenopacket2prompt
+        try:
+            ppkt = json.loads(os.path.join(ppkt_dir, ppktID))
+        except:
+            print(f"Error loading JSON file: {ppktID}")
+            return None
+        ppktID = ppkt['id']
+        modified_name = re.sub(r'[^\w]', '_', ppktID) + "_en-prompt.txt"
+    else:
+        modified_name = ppktID
     return modified_name
+
+# Only used if we use the json file name
+ppkt_dir = "/Users/leonardo/data/ppkts_4967_polyglot/jsons"
 
 with open(ppktids_filen, "r") as f:
     ppktids = f.readlines()
     ppktids = [x.strip() for x in ppktids]
-    ppktids = [modify_filename(x) for x in ppktids]
+    ppktids = [modify_filename(x, ppkt_dir) for x in ppktids]
 print("ppktids: ", len(ppktids))
 
 languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl", "ja", "fr"]

@@ -12988,7 +12988,7 @@ PMID_31021519_SATB2_58_from_Zarate_et_al__2018a_zh-prompt.txt	MONDO:0019019	0.5	
 PMID_31021519_SATB2_58_from_Zarate_et_al__2018a_zh-prompt.txt	MONDO:0010561	0.3333333333333333	3
 PMID_31021519_SATB2_58_from_Zarate_et_al__2018a_zh-prompt.txt	MONDO:0007947	0.25	4
 PMID_31021519_SATB2_58_from_Zarate_et_al__2018a_zh-prompt.txt	MONDO:0010383	0.2	5
-PMID_31021519_SATB2_58_from_Zarate_et_al__2018a_zh-prompt.txt	MONDO:0019188	0.16666666666666666	6
+PMID_31021519_SATB2_58_from_Zarate_et_al__2018a_zh-prompt.txt	MONDO:0019188	0.1666666666666666	6
 PMID_26162006_Individual_II_7_zh-prompt.txt	MONDO:0001868	1.0	1
 PMID_26162006_Individual_II_7_zh-prompt.txt	MONDO:0008327	0.5	2
 PMID_26162006_Individual_II_7_zh-prompt.txt	MONDO:0005338	0.3333333333333333	3
@@ -13095,7 +13095,7 @@ STX_Str_Ca_SD_zh-prompt.txt	MONDO:0016532	0.5	2
 STX_Str_Ca_SD_zh-prompt.txt	MONDO:0010726	0.3333333333333333	3
 STX_Str_Ca_SD_zh-prompt.txt	MONDO:0018097	0.25	4
 STX_Str_Ca_SD_zh-prompt.txt	MONDO:0100062	0.2	5
-STX_Str_Ca_SD_zh-prompt.txt	MONDO:0001734	0.16666666666666666	6
+STX_Str_Ca_SD_zh-prompt.txt	MONDO:0001734	0.1666666666666666	6
 PMID_15983957_F1_individual_III_3_zh-prompt.txt	MONDO:0000608	1.0	1
 PMID_15983957_F1_individual_III_3_zh-prompt.txt	MONDO:0008264	0.5	2
 PMID_18706711_Patient_II_12_zh-prompt.txt	MONDO:0007732	1.0	1
@@ -14407,7 +14407,7 @@ PMID_37964426_S6_Y567C_zh-prompt.txt	MONDO:0008944	0.5	2
 PMID_37964426_S6_Y567C_zh-prompt.txt	MONDO:0007113	0.3333333333333333	3
 PMID_37964426_S6_Y567C_zh-prompt.txt	MONDO:0010041	0.25	4
 PMID_37964426_S6_Y567C_zh-prompt.txt	MONDO:0015286	0.2	5
-PMID_37964426_S6_Y567C_zh-prompt.txt	These conditions have been chosen based on their association with the described neurological and developmental symptoms.	0.16666666666666666	6
+PMID_37964426_S6_Y567C_zh-prompt.txt	These conditions have been chosen based on their association with the described neurological and developmental symptoms.	0.1666666666666666	6
 STX_31344879_Patient3_zh-prompt.txt	MONDO:0010726	1.0	1
 STX_31344879_Patient3_zh-prompt.txt	MONDO:0007113	0.5	2
 STX_31344879_Patient3_zh-prompt.txt	MONDO:0016532	0.3333333333333333	3
@@ -14558,7 +14558,7 @@ PMID_26942284_II_1_from_Family_C_zh-prompt.txt	MONDO:0007803	0.5	2
 PMID_26942284_II_1_from_Family_C_zh-prompt.txt	MONDO:0009839	0.3333333333333333	3
 PMID_26942284_II_1_from_Family_C_zh-prompt.txt	MONDO:0007488	0.25	4
 PMID_26942284_II_1_from_Family_C_zh-prompt.txt	MONDO:0010200	0.2	5
-PMID_26942284_II_1_from_Family_C_zh-prompt.txt	MONDO:0007739	0.16666666666666666	6
+PMID_26942284_II_1_from_Family_C_zh-prompt.txt	MONDO:0007739	0.1666666666666666	6
 PMID_34722527_individual_individual_1_Arif_O_Khan_Geneticanalysi_zh-prompt.txt	MONDO:0018998	1.0	1
 PMID_34722527_individual_individual_1_Arif_O_Khan_Geneticanalysi_zh-prompt.txt	MONDO:0019200	0.5	2
 PMID_34722527_individual_individual_1_Arif_O_Khan_Geneticanalysi_zh-prompt.txt	MONDO:0018852	0.3333333333333333	3
@@ -14817,7 +14817,7 @@ PMID_35451551_proband_zh-prompt.txt	MONDO:0007318	0.5	2
 PMID_35451551_proband_zh-prompt.txt	MONDO:0018954	0.3333333333333333	3
 PMID_35451551_proband_zh-prompt.txt	MONDO:0008426	0.25	4
 PMID_35451551_proband_zh-prompt.txt	MONDO:0008644	0.2	5
-PMID_35451551_proband_zh-prompt.txt	These disorders have some overlapping features such as cardiac abnormalities, craniofacial anomalies, intellectual disabilities, and possible hematological issues that can match the symptoms you've provided. However, Jacobsen syndrome seems to be the most fitting due to the platelet count issues and facial features described.	0.16666666666666666	6
+PMID_35451551_proband_zh-prompt.txt	These disorders have some overlapping features such as cardiac abnormalities, craniofacial anomalies, intellectual disabilities, and possible hematological issues that can match the symptoms you've provided. However, Jacobsen syndrome seems to be the most fitting due to the platelet count issues and facial features described.	0.1666666666666666	6
 PMID_17534187_HH24_zh-prompt.txt	MONDO:0007732	1.0	1
 PMID_17534187_HH24_zh-prompt.txt	MONDO:0009162	0.5	2
 PMID_36745799_V_9_zh-prompt.txt	MONDO:0016971	1.0	1
@@ -14871,8 +14871,8 @@ STX_26865513_Patient_42_zh-prompt.txt	MONDO:0007113	0.5	2
 STX_26865513_Patient_42_zh-prompt.txt	MONDO:0100079	0.3333333333333333	3
 STX_26865513_Patient_42_zh-prompt.txt	MONDO:0016532	0.25	4
 STX_26865513_Patient_42_zh-prompt.txt	MONDO:0018975	0.2	5
-STX_26865513_Patient_42_zh-prompt.txt	MONDO:0001734	0.16666666666666666	6
-STX_26865513_Patient_42_zh-prompt.txt	MONDO:0010383	0.14285714285714285	7
+STX_26865513_Patient_42_zh-prompt.txt	MONDO:0001734	0.1666666666666666	6
+STX_26865513_Patient_42_zh-prompt.txt	MONDO:0010383	0.1428571428571428	7
 STX_26865513_Patient_42_zh-prompt.txt	MONDO:0010679	0.125	8
 PMID_26667307_III_3_zh-prompt.txt	MONDO:0004737	1.0	1
 PMID_26667307_III_3_zh-prompt.txt	MONDO:0007947	0.5	2
@@ -15451,7 +15451,7 @@ PMID_35743164_P16_zh-prompt.txt	MONDO:0008944	0.5	2
 PMID_35743164_P16_zh-prompt.txt	MONDO:0010529	0.3333333333333333	3
 PMID_35743164_P16_zh-prompt.txt	MONDO:0018982	0.25	4
 PMID_35743164_P16_zh-prompt.txt	MONDO:0015286	0.2	5
-PMID_35743164_P16_zh-prompt.txt	MONDO:0010714	0.16666666666666666	6
+PMID_35743164_P16_zh-prompt.txt	MONDO:0010714	0.1666666666666666	6
 PMID_33731876_fam187_zh-prompt.txt	MONDO:0100062	1.0	1
 PMID_33731876_fam187_zh-prompt.txt	MONDO:0012812	0.5	2
 PMID_33731876_fam187_zh-prompt.txt	MONDO:0018866	0.3333333333333333	3
@@ -15536,7 +15536,7 @@ PMID_37951597_Family_22_Subject_1_zh-prompt.txt	MONDO:0010383	0.5	2
 PMID_37951597_Family_22_Subject_1_zh-prompt.txt	MONDO:0007113	0.3333333333333333	3
 PMID_37951597_Family_22_Subject_1_zh-prompt.txt	MONDO:0008434	0.25	4
 PMID_37951597_Family_22_Subject_1_zh-prompt.txt	Sanfilippo syndrome (MPS III)	0.2	5
-PMID_37951597_Family_22_Subject_1_zh-prompt.txt	These diagnoses are listed considering the provided symptoms such as developmental delay and autistic behaviors, while excluding other mentioned conditions.	0.16666666666666666	6
+PMID_37951597_Family_22_Subject_1_zh-prompt.txt	These diagnoses are listed considering the provided symptoms such as developmental delay and autistic behaviors, while excluding other mentioned conditions.	0.1666666666666666	6
 STX_23533165_Patient_1_zh-prompt.txt	MONDO:0010568	1.0	1
 STX_23533165_Patient_1_zh-prompt.txt	MONDO:0100079	0.5	2
 STX_23533165_Patient_1_zh-prompt.txt	MONDO:0016532	0.3333333333333333	3
@@ -16430,8 +16430,8 @@ PMID_33731876_fam138_zh-prompt.txt	MONDO:0009697	0.5	2
 PMID_33731876_fam138_zh-prompt.txt	MONDO:0100079	0.3333333333333333	3
 PMID_33731876_fam138_zh-prompt.txt	MONDO:0016532	0.25	4
 PMID_33731876_fam138_zh-prompt.txt	MONDO:0016025	0.2	5
-PMID_33731876_fam138_zh-prompt.txt	MONDO:0018097	0.16666666666666666	6
-PMID_33731876_fam138_zh-prompt.txt	MONDO:0100039	0.14285714285714285	7
+PMID_33731876_fam138_zh-prompt.txt	MONDO:0018097	0.1666666666666666	6
+PMID_33731876_fam138_zh-prompt.txt	MONDO:0100039	0.1428571428571428	7
 PMID_23988501_Family_F3_individual_IV_9_zh-prompt.txt	MONDO:0018965	1.0	1
 PMID_23988501_Family_F3_individual_IV_9_zh-prompt.txt	Thin basement membrane nephropathy	0.5	2
 PMID_23988501_Family_F3_individual_IV_9_zh-prompt.txt	MONDO:0005342	0.3333333333333333	3
@@ -16995,7 +16995,7 @@ PMID_39013458_individual_Diagnostic110006_zh-prompt.txt	MONDO:0008678	0.5	2
 PMID_39013458_individual_Diagnostic110006_zh-prompt.txt	MONDO:0007173	0.3333333333333333	3
 PMID_39013458_individual_Diagnostic110006_zh-prompt.txt	MONDO:0007318	0.25	4
 PMID_39013458_individual_Diagnostic110006_zh-prompt.txt	MONDO:0012020	0.2	5
-PMID_39013458_individual_Diagnostic110006_zh-prompt.txt	These conditions include various congenital heart defects and developmental delays, fitting the profile provided.	0.16666666666666666	6
+PMID_39013458_individual_Diagnostic110006_zh-prompt.txt	These conditions include various congenital heart defects and developmental delays, fitting the profile provided.	0.1666666666666666	6
 PMID_12750403_66_year_old_woman_zh-prompt.txt	MONDO:0001823	1.0	1
 PMID_12750403_66_year_old_woman_zh-prompt.txt	MONDO:0005310	0.5	2
 PMID_12750403_66_year_old_woman_zh-prompt.txt	Bradycardia-tachycardia syndrome	0.3333333333333333	3
@@ -17088,7 +17088,7 @@ PMID_37951597_Family_11_Subject_1_zh-prompt.txt	MONDO:0009072	0.5	2
 PMID_37951597_Family_11_Subject_1_zh-prompt.txt	MONDO:0010100	0.3333333333333333	3
 PMID_37951597_Family_11_Subject_1_zh-prompt.txt	MONDO:0010079	0.25	4
 PMID_37951597_Family_11_Subject_1_zh-prompt.txt	MONDO:0008752	0.2	5
-PMID_37951597_Family_11_Subject_1_zh-prompt.txt	These are conditions that typically present with the described neurological and developmental symptoms, particularly the abnormalities observed in brain structure and function as described in the case.	0.16666666666666666	6
+PMID_37951597_Family_11_Subject_1_zh-prompt.txt	These are conditions that typically present with the described neurological and developmental symptoms, particularly the abnormalities observed in brain structure and function as described in the case.	0.1666666666666666	6
 PMID_27435956_case_report_zh-prompt.txt	MONDO:0018088	1.0	1
 PMID_27435956_case_report_zh-prompt.txt	MONDO:0009849	0.5	2
 PMID_27435956_case_report_zh-prompt.txt	MONDO:0016168	0.3333333333333333	3
@@ -17621,7 +17621,7 @@ PMID_12925374_Proband_III_3_zh-prompt.txt	MONDO:0004975	0.5	2
 PMID_12925374_Proband_III_3_zh-prompt.txt	MONDO:0007403	0.3333333333333333	3
 PMID_12925374_Proband_III_3_zh-prompt.txt	MONDO:0010857	0.25	4
 PMID_12925374_Proband_III_3_zh-prompt.txt	MONDO:0007488	0.2	5
-PMID_12925374_Proband_III_3_zh-prompt.txt	MONDO:0009698	0.16666666666666666	6
+PMID_12925374_Proband_III_3_zh-prompt.txt	MONDO:0009698	0.1666666666666666	6
 PMID_36444245_proband_III_1_zh-prompt.txt	MONDO:0007732	1.0	1
 PMID_36444245_proband_III_1_zh-prompt.txt	MONDO:0009215	0.5	2
 PMID_36444245_proband_III_1_zh-prompt.txt	MONDO:0010121	0.3333333333333333	3

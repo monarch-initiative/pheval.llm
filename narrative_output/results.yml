@@ -1,0 +1,6 @@
+tool: template
+tool_version: null
+config: /narrative_input
+run_timestamp: 1747067250.014034
+corpus: /tests
+tool_specific_configuration_options: null

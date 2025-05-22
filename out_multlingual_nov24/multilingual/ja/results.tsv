@@ -18818,7 +18818,7 @@ PMID_34722527_individual_MEP43_7_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	M
 PMID_34722527_individual_MEP43_7_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP43_7_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP43_7_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP43_7_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP43_7_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_24706016_individual_1_ja-prompt.txt	MONDO:0009341	1.0	1
 PMID_24706016_individual_1_ja-prompt.txt	MONDO:0010568	0.5	2
 PMID_24706016_individual_1_ja-prompt.txt	MONDO:0016532	0.3333333333333333	3
@@ -18842,7 +18842,7 @@ STX_26865513_Patient_29_ja-prompt.txt	MONDO:0016621	0.5	2
 STX_26865513_Patient_29_ja-prompt.txt	MONDO:0018866	0.3333333333333333	3
 STX_26865513_Patient_29_ja-prompt.txt	MONDO:0009281	0.25	4
 STX_26865513_Patient_29_ja-prompt.txt	MONDO:1011570	0.2	5
-STX_26865513_Patient_29_ja-prompt.txt	MONDO:0018868	0.16666666666666666	6
+STX_26865513_Patient_29_ja-prompt.txt	MONDO:0018868	0.1666666666666666	6
 PMID_31239556_individual_31_ja-prompt.txt	MONDO:0008684	1.0	1
 PMID_31239556_individual_31_ja-prompt.txt	MONDO:0018923	0.5	2
 PMID_31239556_individual_31_ja-prompt.txt	MONDO:0008678	0.3333333333333333	3
@@ -18922,8 +18922,8 @@ STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0018307	0.5	2
 STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0007803	0.3333333333333333	3
 STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0010200	0.25	4
 STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0005180	0.2	5
-STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0007739	0.16666666666666666	6
-STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0004675	0.14285714285714285	7
+STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0007739	0.1666666666666666	6
+STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0004675	0.1428571428571428	7
 STX_Fila_5_EG_CB_ja-prompt.txt	Freidreich's ataxia	0.125	8
 STX_Fila_5_EG_CB_ja-prompt.txt	MONDO:0003441	0.1111111111111111	9
 STX_Fila_5_EG_CB_ja-prompt.txt	Multiple sclerosis (less likely given the presentation)	0.1	10
@@ -18954,7 +18954,7 @@ PMID_34722527_individual_MEP3_13_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	M
 PMID_34722527_individual_MEP3_13_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP3_13_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP3_13_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP3_13_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP3_13_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_10580070_A_III_5_ja-prompt.txt	MONDO:0005045	1.0	1
 PMID_10580070_A_III_5_ja-prompt.txt	MONDO:0019171	0.5	2
 PMID_10580070_A_III_5_ja-prompt.txt	MONDO:0016587	0.3333333333333333	3
@@ -18964,13 +18964,13 @@ PMID_27290639_case_52_ja-prompt.txt	MONDO:0019234	0.5	2
 PMID_27290639_case_52_ja-prompt.txt	MONDO:0015286	0.3333333333333333	3
 PMID_27290639_case_52_ja-prompt.txt	MONDO:0010568	0.25	4
 PMID_27290639_case_52_ja-prompt.txt	MONDO:0011652	0.2	5
-PMID_27290639_case_52_ja-prompt.txt	Further genetic and metabolic testing would be necessary to narrow down the diagnosis.	0.16666666666666666	6
+PMID_27290639_case_52_ja-prompt.txt	Further genetic and metabolic testing would be necessary to narrow down the diagnosis.	0.1666666666666666	6
 PMID_34722527_individual_MEP43_6_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_MEP43_6_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_MEP43_6_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP43_6_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP43_6_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP43_6_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP43_6_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34746378_34746378_P1_ja-prompt.txt	MONDO:0009958	1.0	1
 PMID_34746378_34746378_P1_ja-prompt.txt	MONDO:0018544	0.5	2
 PMID_34746378_34746378_P1_ja-prompt.txt	MONDO:0018868	0.3333333333333333	3
@@ -18993,19 +18993,19 @@ PMID_34521999_26_ja-prompt.txt	MONDO:0016512	0.5	2
 PMID_34521999_26_ja-prompt.txt	MONDO:0008678	0.3333333333333333	3
 PMID_34521999_26_ja-prompt.txt	MONDO:0016033	0.25	4
 PMID_34521999_26_ja-prompt.txt	MONDO:0007947	0.2	5
-PMID_34521999_26_ja-prompt.txt	These are not definitive and should be further evaluated by clinical genetic testing and assessment by medical professionals.	0.16666666666666666	6
+PMID_34521999_26_ja-prompt.txt	These are not definitive and should be further evaluated by clinical genetic testing and assessment by medical professionals.	0.1666666666666666	6
 PMID_34722527_individual_237_523_6_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_237_523_6_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_237_523_6_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_237_523_6_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_237_523_6_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_237_523_6_Farzad_Jamshidi_Contributionof_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_237_523_6_Farzad_Jamshidi_Contributionof_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34722527_individual_MOL0600_1_1_Beryozkin_Current_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_MOL0600_1_1_Beryozkin_Current_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_MOL0600_1_1_Beryozkin_Current_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MOL0600_1_1_Beryozkin_Current_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MOL0600_1_1_Beryozkin_Current_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MOL0600_1_1_Beryozkin_Current_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MOL0600_1_1_Beryozkin_Current_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_30083032_individual_ja-prompt.txt	MONDO:0012020	1.0	1
 PMID_30083032_individual_ja-prompt.txt	MONDO:0008137	0.5	2
 PMID_30083032_individual_ja-prompt.txt	MONDO:0015229	0.3333333333333333	3
@@ -19026,8 +19026,8 @@ STX_Fila_2_EG_CB_ja-prompt.txt	MONDO:0016532	0.5	2
 STX_Fila_2_EG_CB_ja-prompt.txt	MONDO:0010726	0.3333333333333333	3
 STX_Fila_2_EG_CB_ja-prompt.txt	Mitochondrial disorders (such as MELAS syndrome)	0.25	4
 STX_Fila_2_EG_CB_ja-prompt.txt	MONDO:0007113	0.2	5
-STX_Fila_2_EG_CB_ja-prompt.txt	Autism spectrum disorder with epilepsy	0.16666666666666666	6
-STX_Fila_2_EG_CB_ja-prompt.txt	MONDO:0015286	0.14285714285714285	7
+STX_Fila_2_EG_CB_ja-prompt.txt	Autism spectrum disorder with epilepsy	0.1666666666666666	6
+STX_Fila_2_EG_CB_ja-prompt.txt	MONDO:0015286	0.1428571428571428	7
 STX_Fila_2_EG_CB_ja-prompt.txt	MONDO:0010035	0.125	8
 PMID_21739261_Patient_2_ja-prompt.txt	MONDO:0018910	1.0	1
 PMID_21739261_Patient_2_ja-prompt.txt	MONDO:0019312	0.5	2
@@ -19038,7 +19038,7 @@ PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_4_Clinicaland
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_4_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_4_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_4_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_4_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_4_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_33350388_Patient_KD_4_4_ja-prompt.txt	MONDO:0007113	1.0	1
 PMID_33350388_Patient_KD_4_4_ja-prompt.txt	MONDO:0010726	0.5	2
 PMID_33350388_Patient_KD_4_4_ja-prompt.txt	MONDO:0010383	0.3333333333333333	3
@@ -19084,7 +19084,7 @@ PMID_34722527_individual_individual_4_Saloni_Walia_VisualAcuityi_ja-prompt.txt	M
 PMID_34722527_individual_individual_4_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_4_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_4_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_4_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_4_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_33350388_Patient_KD_3_3_ja-prompt.txt	MONDO:0005258	1.0	1
 PMID_33350388_Patient_KD_3_3_ja-prompt.txt	MONDO:0008644	0.5	2
 PMID_33350388_Patient_KD_3_3_ja-prompt.txt	MONDO:0010383	0.3333333333333333	3
@@ -19112,7 +19112,7 @@ PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalan
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_23222957_Family_8_8_2_ja-prompt.txt	MONDO:0010568	1.0	1
 PMID_23222957_Family_8_8_2_ja-prompt.txt	MONDO:0009567	0.5	2
 PMID_23222957_Family_8_8_2_ja-prompt.txt	MONDO:0019609	0.3333333333333333	3
@@ -19135,8 +19135,8 @@ PMID_32376980_23_ja-prompt.txt	MONDO:0007947	0.5	2
 PMID_32376980_23_ja-prompt.txt	MONDO:0018997	0.3333333333333333	3
 PMID_32376980_23_ja-prompt.txt	MONDO:0010035	0.25	4
 PMID_32376980_23_ja-prompt.txt	MONDO:0008944	0.2	5
-PMID_32376980_23_ja-prompt.txt	MONDO:0020066	0.16666666666666666	6
-PMID_32376980_23_ja-prompt.txt	MONDO:0019609	0.14285714285714285	7
+PMID_32376980_23_ja-prompt.txt	MONDO:0020066	0.1666666666666666	6
+PMID_32376980_23_ja-prompt.txt	MONDO:0019609	0.1428571428571428	7
 PMID_37943620_F_28_ja-prompt.txt	MONDO:0018965	1.0	1
 PMID_37943620_F_28_ja-prompt.txt	MONDO:0010134	0.5	2
 PMID_37943620_F_28_ja-prompt.txt	MONDO:0019501	0.3333333333333333	3
@@ -19146,7 +19146,7 @@ PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MO
 PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_30580808_Chen_Pat_123_Fam_47_ja-prompt.txt	Undefined genetic craniosynostosis syndrome	1.0	1
 PMID_30580808_Chen_Pat_123_Fam_47_ja-prompt.txt	MONDO:0850078	0.5	2
 PMID_30580808_Chen_Pat_123_Fam_47_ja-prompt.txt	Other craniofacial syndromes (e.g., Apert syndrome, Crouzon syndrome)	0.3333333333333333	3
@@ -19156,7 +19156,7 @@ PMID_34722527_individual_MEP43_5_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	M
 PMID_34722527_individual_MEP43_5_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP43_5_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP43_5_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP43_5_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP43_5_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_23993194_Family_2_Case_4_ja-prompt.txt	MONDO:0010789	1.0	1
 PMID_23993194_Family_2_Case_4_ja-prompt.txt	MONDO:0009723	0.5	2
 PMID_23993194_Family_2_Case_4_ja-prompt.txt	MONDO:0018158	0.3333333333333333	3
@@ -19174,7 +19174,7 @@ PMID_34722527_individual_individual_3_Saloni_Walia_VisualAcuityi_ja-prompt.txt	M
 PMID_34722527_individual_individual_3_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_3_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_3_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_3_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_3_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_27743463_S4_ja-prompt.txt	MONDO:0010789	1.0	1
 PMID_27743463_S4_ja-prompt.txt	MONDO:0004739	0.5	2
 PMID_27743463_S4_ja-prompt.txt	MONDO:0005453	0.3333333333333333	3
@@ -19217,7 +19217,7 @@ PMID_34722527_individual_Fam7_2_3_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.t
 PMID_34722527_individual_Fam7_2_3_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_Fam7_2_3_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_Fam7_2_3_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_Fam7_2_3_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_Fam7_2_3_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_37541189_Individual_4_ja-prompt.txt	MONDO:0008678	1.0	1
 PMID_37541189_Individual_4_ja-prompt.txt	Global developmental delay due to unspecified cause	0.5	2
 PMID_37541189_Individual_4_ja-prompt.txt	MONDO:0007113	0.3333333333333333	3
@@ -19244,7 +19244,7 @@ PMID_33731876_fam403_ja-prompt.txt	MONDO:0018866	0.5	2
 PMID_33731876_fam403_ja-prompt.txt	MONDO:0016814	0.3333333333333333	3
 PMID_33731876_fam403_ja-prompt.txt	MONDO:0009499	0.25	4
 PMID_33731876_fam403_ja-prompt.txt	MONDO:0018838	0.2	5
-PMID_33731876_fam403_ja-prompt.txt	MONDO:0015286	0.16666666666666666	6
+PMID_33731876_fam403_ja-prompt.txt	MONDO:0015286	0.1666666666666666	6
 PMID_39013458_individual_VUSM110014_ja-prompt.txt	MONDO:0008300	1.0	1
 PMID_39013458_individual_VUSM110014_ja-prompt.txt	MONDO:0019349	0.5	2
 PMID_39013458_individual_VUSM110014_ja-prompt.txt	MONDO:0007534	0.3333333333333333	3
@@ -19274,7 +19274,7 @@ PMID_34722527_individual_MEP43_8_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	M
 PMID_34722527_individual_MEP43_8_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP43_8_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP43_8_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP43_8_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP43_8_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_26706854_Subject_1_1_ja-prompt.txt	MONDO:0016643	1.0	1
 PMID_26706854_Subject_1_1_ja-prompt.txt	Tessier cleft (specifically Tessier number 0 to 14 based on location)	0.5	2
 PMID_26706854_Subject_1_1_ja-prompt.txt	MONDO:0017219	0.3333333333333333	3
@@ -19316,7 +19316,7 @@ PMID_34722527_individual_MEP1_2_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MO
 PMID_34722527_individual_MEP1_2_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP1_2_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP1_2_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP1_2_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP1_2_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_30580808_Chen_Pat_124_Fam_48_ja-prompt.txt	Undefined genetic craniosynostosis syndrome	1.0	1
 PMID_30580808_Chen_Pat_124_Fam_48_ja-prompt.txt	MONDO:0850078	0.5	2
 PMID_30580808_Chen_Pat_124_Fam_48_ja-prompt.txt	Other craniofacial syndromes (e.g., Apert syndrome, Crouzon syndrome)	0.3333333333333333	3
@@ -19353,7 +19353,7 @@ PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_5_Clinicaland
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_5_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_5_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_5_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_5_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_5_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_25868664_Family_21_Case_6_ja-prompt.txt	MONDO:0016814	1.0	1
 PMID_25868664_Family_21_Case_6_ja-prompt.txt	MONDO:0019169	0.5	2
 PMID_25868664_Family_21_Case_6_ja-prompt.txt	MONDO:0018158	0.3333333333333333	3
@@ -19370,7 +19370,7 @@ PMID_34722527_individual_individual_5_Saloni_Walia_VisualAcuityi_ja-prompt.txt	M
 PMID_34722527_individual_individual_5_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_5_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_5_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_5_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_5_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_36446582_Gnazzo_2020_P23_ja-prompt.txt	MONDO:0016033	1.0	1
 PMID_36446582_Gnazzo_2020_P23_ja-prompt.txt	MONDO:0018997	0.5	2
 PMID_36446582_Gnazzo_2020_P23_ja-prompt.txt	MONDO:0019188	0.3333333333333333	3
@@ -19381,7 +19381,7 @@ PMID_34722527_individual_individual_2_Juliana_Maria_Ferraz_Sallum1_3_Clinicaland
 PMID_34722527_individual_individual_2_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_2_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_2_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_2_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_2_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_36446582_Low_2016_P11_20_ja-prompt.txt	MONDO:0027407	1.0	1
 PMID_36446582_Low_2016_P11_20_ja-prompt.txt	MONDO:0008434	0.5	2
 PMID_36446582_Low_2016_P11_20_ja-prompt.txt	MONDO:0016512	0.3333333333333333	3
@@ -19395,7 +19395,7 @@ PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicaland
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_23993195_Individual_2_ja-prompt.txt	MONDO:0100079	1.0	1
 PMID_23993195_Individual_2_ja-prompt.txt	MONDO:0016532	0.5	2
 PMID_23993195_Individual_2_ja-prompt.txt	MONDO:0018097	0.3333333333333333	3
@@ -19418,7 +19418,7 @@ STX_26865513_Patient_45_ja-prompt.txt	MONDO:0010726	0.5	2
 STX_26865513_Patient_45_ja-prompt.txt	MONDO:0008840	0.3333333333333333	3
 STX_26865513_Patient_45_ja-prompt.txt	MONDO:0016295	0.25	4
 STX_26865513_Patient_45_ja-prompt.txt	MONDO:0010383	0.2	5
-STX_26865513_Patient_45_ja-prompt.txt	These suggestions are based on the features presented but are not definitive diagnoses.	0.16666666666666666	6
+STX_26865513_Patient_45_ja-prompt.txt	These suggestions are based on the features presented but are not definitive diagnoses.	0.1666666666666666	6
 PMID_31980904_ASD172_ja-prompt.txt	MONDO:0019349	1.0	1
 PMID_31980904_ASD172_ja-prompt.txt	MONDO:0010383	0.5	2
 PMID_31980904_ASD172_ja-prompt.txt	MONDO:0008434	0.3333333333333333	3
@@ -19457,13 +19457,13 @@ PMID_34722527_individual_MEP3_16_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	M
 PMID_34722527_individual_MEP3_16_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP3_16_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP3_16_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP3_16_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP3_16_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34722527_individual_281_608_3_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_281_608_3_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_281_608_3_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_281_608_3_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_281_608_3_Farzad_Jamshidi_Contributionof_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_281_608_3_Farzad_Jamshidi_Contributionof_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_281_608_3_Farzad_Jamshidi_Contributionof_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_32274456_Family_FGCO_individual_1111_ja-prompt.txt	MONDO:0004691	1.0	1
 PMID_32274456_Family_FGCO_individual_1111_ja-prompt.txt	MONDO:0001184	0.5	2
 PMID_32274456_Family_FGCO_individual_1111_ja-prompt.txt	MONDO:0024633	0.3333333333333333	3
@@ -19495,7 +19495,7 @@ PMID_34722527_individual_individual_1_Saloni_Walia_VisualAcuityi_ja-prompt.txt	M
 PMID_34722527_individual_individual_1_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_33576469_Patient_7_ja-prompt.txt	MONDO:0009153	1.0	1
 PMID_33576469_Patient_7_ja-prompt.txt	Simple Ectopia Lentis	0.5	2
 STX_23533165_Patient_2_ja-prompt.txt	MONDO:0013389	1.0	1
@@ -19507,7 +19507,7 @@ PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_3_Clinicaland
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_23993194_Family_2_Case_2_ja-prompt.txt	MONDO:0018158	1.0	1
 PMID_23993194_Family_2_Case_2_ja-prompt.txt	MONDO:0009723	0.5	2
 PMID_23993194_Family_2_Case_2_ja-prompt.txt	MONDO:0010797	0.3333333333333333	3
@@ -19529,7 +19529,7 @@ PMID_33731876_fam184_ja-prompt.txt	MONDO:0018097	0.5	2
 PMID_33731876_fam184_ja-prompt.txt	MONDO:0016532	0.3333333333333333	3
 PMID_33731876_fam184_ja-prompt.txt	MONDO:0010790	0.25	4
 PMID_33731876_fam184_ja-prompt.txt	MONDO:0008612	0.2	5
-PMID_33731876_fam184_ja-prompt.txt	MONDO:0018868	0.16666666666666666	6
+PMID_33731876_fam184_ja-prompt.txt	MONDO:0018868	0.1666666666666666	6
 PMID_36446582_VanDongen2019_P7_ja-prompt.txt	MONDO:0010726	1.0	1
 PMID_36446582_VanDongen2019_P7_ja-prompt.txt	MONDO:0007113	0.5	2
 PMID_36446582_VanDongen2019_P7_ja-prompt.txt	MONDO:0019499	0.3333333333333333	3
@@ -19545,8 +19545,8 @@ PMID_33731876_fam107_ja-prompt.txt	MONDO:0010726	0.5	2
 PMID_33731876_fam107_ja-prompt.txt	MONDO:0008944	0.3333333333333333	3
 PMID_33731876_fam107_ja-prompt.txt	Autism spectrum disorder with epilepsy	0.25	4
 PMID_33731876_fam107_ja-prompt.txt	MONDO:0010714	0.2	5
-PMID_33731876_fam107_ja-prompt.txt	MONDO:0016814	0.16666666666666666	6
-PMID_33731876_fam107_ja-prompt.txt	MONDO:0010568	0.14285714285714285	7
+PMID_33731876_fam107_ja-prompt.txt	MONDO:0016814	0.1666666666666666	6
+PMID_33731876_fam107_ja-prompt.txt	MONDO:0010568	0.1428571428571428	7
 PMID_19896112_P2_ja-prompt.txt	MONDO:0005258	1.0	1
 PMID_19896112_P2_ja-prompt.txt	MONDO:0001071	0.5	2
 PMID_19896112_P2_ja-prompt.txt	MONDO:0010726	0.3333333333333333	3
@@ -19565,7 +19565,7 @@ PMID_34722527_individual_individual_4_Juliana_Maria_Ferraz_Sallum1_3_Clinicaland
 PMID_34722527_individual_individual_4_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_4_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_4_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_4_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_4_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 STX_STXBP1adult_Pt5_ja-prompt.txt	MONDO:0010726	1.0	1
 STX_STXBP1adult_Pt5_ja-prompt.txt	MONDO:0007113	0.5	2
 STX_STXBP1adult_Pt5_ja-prompt.txt	MONDO:0008434	0.3333333333333333	3
@@ -19587,7 +19587,7 @@ PMID_34722527_individual_MEP1_4_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MO
 PMID_34722527_individual_MEP1_4_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP1_4_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP1_4_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP1_4_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP1_4_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_35112411_35112411_P2_ja-prompt.txt	MONDO:0010383	1.0	1
 PMID_35112411_35112411_P2_ja-prompt.txt	MONDO:0018975	0.5	2
 PMID_35112411_35112411_P2_ja-prompt.txt	MONDO:0007113	0.3333333333333333	3
@@ -19610,7 +19610,7 @@ PMID_34722527_individual_MEP50_11_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	
 PMID_34722527_individual_MEP50_11_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP50_11_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP50_11_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP50_11_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP50_11_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_24969041_neonate_ja-prompt.txt	MONDO:0007739	1.0	1
 PMID_24969041_neonate_ja-prompt.txt	MONDO:0010200	0.5	2
 PMID_24969041_neonate_ja-prompt.txt	MONDO:0007661	0.3333333333333333	3
@@ -19621,7 +19621,7 @@ PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_9_Clinicaland
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_9_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_9_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_9_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_9_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_9_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_27108797_F5_II1_ja-prompt.txt	MONDO:0008795	1.0	1
 PMID_27108797_F5_II1_ja-prompt.txt	MONDO:0008944	0.5	2
 PMID_27108797_F5_II1_ja-prompt.txt	MONDO:0008840	0.3333333333333333	3
@@ -19631,7 +19631,7 @@ PMID_34722527_individual_MEP50_9_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	M
 PMID_34722527_individual_MEP50_9_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP50_9_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP50_9_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP50_9_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP50_9_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_30356099_Patient_19_ja-prompt.txt	MONDO:0010726	1.0	1
 PMID_30356099_Patient_19_ja-prompt.txt	Batten disease (Neuronal ceroid lipofuscinosis)	0.5	2
 PMID_30356099_Patient_19_ja-prompt.txt	MONDO:0009698	0.3333333333333333	3
@@ -19684,7 +19684,7 @@ PMID_34722527_individual_individual_7_Juliana_Maria_Ferraz_Sallum1_3_Clinicaland
 PMID_34722527_individual_individual_7_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_7_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_7_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_7_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_7_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_25868664_Family_7_Case_1_ja-prompt.txt	MONDO:0009026	1.0	1
 PMID_25868664_Family_7_Case_1_ja-prompt.txt	MONDO:0018997	0.5	2
 PMID_25868664_Family_7_Case_1_ja-prompt.txt	MONDO:0007265	0.3333333333333333	3
@@ -19703,7 +19703,7 @@ PMID_37433783_P1_ja-prompt.txt	MONDO:0008678	0.5	2
 PMID_37433783_P1_ja-prompt.txt	MONDO:0016512	0.3333333333333333	3
 PMID_37433783_P1_ja-prompt.txt	MONDO:0008434	0.25	4
 PMID_37433783_P1_ja-prompt.txt	MONDO:0018997	0.2	5
-PMID_37433783_P1_ja-prompt.txt	These possibilities are based on the presence of certain developmental, craniofacial, and physical features, but genetic testing would be necessary to confirm the exact diagnosis.	0.16666666666666666	6
+PMID_37433783_P1_ja-prompt.txt	These possibilities are based on the presence of certain developmental, craniofacial, and physical features, but genetic testing would be necessary to confirm the exact diagnosis.	0.1666666666666666	6
 PMID_33574344_individual_F10_ja-prompt.txt	MONDO:0004691	1.0	1
 PMID_33574344_individual_F10_ja-prompt.txt	MONDO:0008612	0.5	2
 PMID_33574344_individual_F10_ja-prompt.txt	MONDO:0008264	0.3333333333333333	3
@@ -19713,7 +19713,7 @@ PMID_34722527_individual_EYE149_1_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	
 PMID_34722527_individual_EYE149_1_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_EYE149_1_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_EYE149_1_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_EYE149_1_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_EYE149_1_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_24998929_Patient_Troina2037_ja-prompt.txt	MONDO:0007947	1.0	1
 PMID_24998929_Patient_Troina2037_ja-prompt.txt	MONDO:0018954	0.5	2
 PMID_24998929_Patient_Troina2037_ja-prompt.txt	MONDO:0005090	0.3333333333333333	3
@@ -19761,7 +19761,7 @@ PMID_34722527_individual_14_3_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO
 PMID_34722527_individual_14_3_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_14_3_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_14_3_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_14_3_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_14_3_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34722527_individual_fam22_1_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0018998	1.0	1
 PMID_34722527_individual_fam22_1_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	Nystagmus with vision loss	0.5	2
 PMID_34722527_individual_fam22_1_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0011579	0.3333333333333333	3
@@ -19779,7 +19779,7 @@ PMID_34722527_individual_15_2_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO
 PMID_34722527_individual_15_2_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_15_2_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_15_2_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_15_2_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_15_2_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_22219643_III_14_ja-prompt.txt	MONDO:0004737	1.0	1
 PMID_22219643_III_14_ja-prompt.txt	MONDO:0015998	0.5	2
 PMID_22219643_III_14_ja-prompt.txt	These are considered in light of the symptoms presented (ectopic lenses and myopia) and the list of excluded features.	0.3333333333333333	3
@@ -19788,7 +19788,7 @@ STX_Str_Ca_SD_ja-prompt.txt	MONDO:0016532	0.5	2
 STX_Str_Ca_SD_ja-prompt.txt	MONDO:0100079	0.3333333333333333	3
 STX_Str_Ca_SD_ja-prompt.txt	MONDO:0010726	0.25	4
 STX_Str_Ca_SD_ja-prompt.txt	MONDO:0006497	0.2	5
-STX_Str_Ca_SD_ja-prompt.txt	MONDO:0014133	0.16666666666666666	6
+STX_Str_Ca_SD_ja-prompt.txt	MONDO:0014133	0.1666666666666666	6
 PMID_27062503_P4_ja-prompt.txt	MONDO:0008840	1.0	1
 PMID_27062503_P4_ja-prompt.txt	MONDO:0100339	0.5	2
 PMID_27062503_P4_ja-prompt.txt	MONDO:0008944	0.3333333333333333	3
@@ -19799,13 +19799,13 @@ PMID_34722527_individual_individual_5_Juliana_Maria_Ferraz_Sallum1_3_Clinicaland
 PMID_34722527_individual_individual_5_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_5_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_5_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_5_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_5_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34722527_individual_048_044_4_Thaddeus_P__Dryja_Null_RPGRIP1_Al_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_048_044_4_Thaddeus_P__Dryja_Null_RPGRIP1_Al_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_048_044_4_Thaddeus_P__Dryja_Null_RPGRIP1_Al_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_048_044_4_Thaddeus_P__Dryja_Null_RPGRIP1_Al_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_048_044_4_Thaddeus_P__Dryja_Null_RPGRIP1_Al_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_048_044_4_Thaddeus_P__Dryja_Null_RPGRIP1_Al_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_048_044_4_Thaddeus_P__Dryja_Null_RPGRIP1_Al_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_31021519_Subject_1_from_Rosenfeld_et_al_ja-prompt.txt	MONDO:0019188	1.0	1
 PMID_31021519_Subject_1_from_Rosenfeld_et_al_ja-prompt.txt	MONDO:0007617	0.5	2
 PMID_31021519_Subject_1_from_Rosenfeld_et_al_ja-prompt.txt	MONDO:0027407	0.3333333333333333	3
@@ -19854,13 +19854,13 @@ PMID_34722527_individual_MEP3_14_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	M
 PMID_34722527_individual_MEP3_14_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP3_14_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP3_14_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP3_14_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP3_14_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34722527_individual_MEP50_12_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_MEP50_12_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_MEP50_12_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_MEP50_12_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_MEP50_12_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_MEP50_12_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_MEP50_12_Martin_McKibbin_Genotype_Phenot_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_17661815_Patient_B_II_2_ja-prompt.txt	MONDO:0007944	1.0	1
 PMID_17661815_Patient_B_II_2_ja-prompt.txt	Goldenhar syndrome (Oculo-auriculo-vertebral spectrum)	0.5	2
 PMID_33731876_fam30_ja-prompt.txt	MONDO:0100079	1.0	1
@@ -19878,13 +19878,13 @@ PMID_34722527_individual_EYE55_2_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	M
 PMID_34722527_individual_EYE55_2_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_EYE55_2_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_EYE55_2_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_EYE55_2_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_EYE55_2_Katsuhiro_Hosono_MolecularDiagn_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_7_Clinicalandmo_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_7_Clinicalandmo_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_7_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_7_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_7_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_7_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_7_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_36446582_KBG10B_ja-prompt.txt	MONDO:0016033	1.0	1
 PMID_36446582_KBG10B_ja-prompt.txt	MONDO:0019188	0.5	2
 PMID_36446582_KBG10B_ja-prompt.txt	MONDO:0007944	0.3333333333333333	3
@@ -19903,7 +19903,7 @@ PMID_34722527_individual_individual_6_Juliana_Maria_Ferraz_Sallum1_3_Clinicaland
 PMID_34722527_individual_individual_6_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_6_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_6_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_6_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_6_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_31721432_patient_16_ja-prompt.txt	MONDO:0019349	1.0	1
 PMID_31721432_patient_16_ja-prompt.txt	MONDO:0010193	0.5	2
 PMID_31721432_patient_16_ja-prompt.txt	MONDO:0017623	0.3333333333333333	3
@@ -19913,13 +19913,13 @@ PMID_34722527_individual_individual_6_Saloni_Walia_VisualAcuityi_ja-prompt.txt	M
 PMID_34722527_individual_individual_6_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_6_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_6_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_6_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_6_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_10_Clinicalandmo_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_10_Clinicalandmo_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_10_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_10_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_10_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_10_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_10_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_33731876_fam133_ja-prompt.txt	MONDO:0018614	1.0	1
 PMID_33731876_fam133_ja-prompt.txt	MONDO:0100079	0.5	2
 PMID_33731876_fam133_ja-prompt.txt	MONDO:0018097	0.3333333333333333	3
@@ -19929,7 +19929,7 @@ PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicaland
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 STX_102_ja-prompt.txt	MONDO:0008612	1.0	1
 STX_102_ja-prompt.txt	MONDO:0018975	0.5	2
 STX_102_ja-prompt.txt	MONDO:0008501	0.3333333333333333	3
@@ -19945,7 +19945,7 @@ PMID_34722527_individual_individual_3_Juliana_Maria_Ferraz_Sallum1_3_Clinicaland
 PMID_34722527_individual_individual_3_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_3_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_3_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_3_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_3_Juliana_Maria_Ferraz_Sallum1_3_Clinicalandmo_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 STX_Syrbe_4_ja-prompt.txt	MONDO:0007113	1.0	1
 STX_Syrbe_4_ja-prompt.txt	MONDO:0010726	0.5	2
 STX_Syrbe_4_ja-prompt.txt	MONDO:0016532	0.3333333333333333	3
@@ -19970,7 +19970,7 @@ PMID_34722527_individual_16_4_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO
 PMID_34722527_individual_16_4_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_16_4_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_16_4_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_16_4_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_16_4_Nicole_Weisschuh_Molecularandc_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_27275012_Patient_1_ja-prompt.txt	MONDO:0008999	1.0	1
 PMID_27275012_Patient_1_ja-prompt.txt	MONDO:0010035	0.5	2
 PMID_27275012_Patient_1_ja-prompt.txt	MONDO:0008300	0.3333333333333333	3
@@ -19991,13 +19991,13 @@ STX_P_31_ja-prompt.txt	MONDO:0016532	0.5	2
 STX_P_31_ja-prompt.txt	MONDO:0010568	0.3333333333333333	3
 STX_P_31_ja-prompt.txt	MONDO:0100062	0.25	4
 STX_P_31_ja-prompt.txt	MONDO:0010726	0.2	5
-STX_P_31_ja-prompt.txt	MONDO:0007113	0.16666666666666666	6
+STX_P_31_ja-prompt.txt	MONDO:0007113	0.1666666666666666	6
 PMID_34722527_individual_individual_2_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0019200	1.0	1
 PMID_34722527_individual_individual_2_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0019353	0.5	2
 PMID_34722527_individual_individual_2_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_individual_2_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_individual_2_Saloni_Walia_VisualAcuityi_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_individual_2_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_individual_2_Saloni_Walia_VisualAcuityi_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_27330822_proband_II_1_ja-prompt.txt	MONDO:0016761	1.0	1
 PMID_27330822_proband_II_1_ja-prompt.txt	MONDO:0016648	0.5	2
 PMID_27330822_proband_II_1_ja-prompt.txt	MONDO:0007986	0.3333333333333333	3
@@ -20012,7 +20012,7 @@ PMID_34722527_individual_Fam7_1_2_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.t
 PMID_34722527_individual_Fam7_1_2_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0018998	0.3333333333333333	3
 PMID_34722527_individual_Fam7_1_2_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0008136	0.25	4
 PMID_34722527_individual_Fam7_1_2_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	MONDO:0007362	0.2	5
-PMID_34722527_individual_Fam7_1_2_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.16666666666666666	6
+PMID_34722527_individual_Fam7_1_2_Anna_Skorczyk_Werner_Novelgenevari_ja-prompt.txt	These are general suggestions and the actual diagnosis would require more comprehensive clinical data.	0.1666666666666666	6
 PMID_37951597_Family_8_Subject_1_ja-prompt.txt	MONDO:0008944	1.0	1
 PMID_37951597_Family_8_Subject_1_ja-prompt.txt	MONDO:0007113	0.5	2
 PMID_37951597_Family_8_Subject_1_ja-prompt.txt	MONDO:0020135	0.3333333333333333	3

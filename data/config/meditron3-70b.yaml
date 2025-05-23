@@ -3,6 +3,7 @@ output_dir: "data/results/"
 gold_file: "data/exomiser-gold.jsonl"
 response_file: "data/responses/meditron3-70b.jsonl"
 result_file: "data/results/topn_result_Meditron3_70B.tsv"
+full_result_file: "data/results/full_results/full_df_en-Meditron3_70B.tsv"
 visualize: False
 languages: []
-name: "meditron3-70b"
+name: "en-Meditron3-70b"

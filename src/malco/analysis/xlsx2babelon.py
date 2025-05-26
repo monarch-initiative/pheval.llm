@@ -4,27 +4,12 @@ Create babelon complying tables from .xlsx that was sent to us
 
 import pandas as pd
 
-# tr_lang_code = "es"
-# tr_lang_code = "nl"
-# tr_lang_code = "de"
 tr_lang_code = "tr"
-# tr_lang = "spanish-1"
-# tr_lang = "dutch"
-# tr_lang = "german"
+
 tr_lang = "turkish-1"
-
-
 data_path = "/Users/leonardo/data/translate_missing/"
 data_file = data_path + "missing_hp_" + tr_lang + ".xlsx"
 
-langs = [
-    "it",
-    "de",
-    "es",
-    "cs",
-    "tr",
-]  # "zh" has a different structure, it's already been done
-# German, manually edit based on excel as well
 
 babelon_names = [
     "source_language",

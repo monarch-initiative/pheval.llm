@@ -3,9 +3,15 @@ library(dplyr)
 library(tidyr)
 library(ggsci)  # For Lancet/Nature color palettes
 
+mode <- "gpt"
+# Use switch to assign the file path
+tsv_file <- switch(mode,
+                   gpt = "/Users/leonardo/git/malco/final_multilingual_output/rank_data/topn_result.tsv",
+                   manual = "/Users/leonardo/git/malco/out_manual_curation/multilingual/rank_data/curated_topn_result.tsv",
+                   stop("Unknown mode")  # fallback if mode doesn't match
+)
+# case Meditron necessary?
 
-#tsv_file <- "/Users/leonardo/git/malco/final_multilingual_output/rank_data/topn_result.tsv"
-tsv_file <- "/Users/leonardo/git/malco/out_manual_curation/multilingual/rank_data/curated_topn_result.tsv"
 # Data
 data <- read.delim(tsv_file, header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
@@ -28,19 +34,26 @@ data <- data %>%
 data_long <- data %>%
   pivot_longer(cols = Top1:Top10, names_to = "Rank", values_to = "Proportion")
 
-# Reorder Lang: Put "en" first, followed by others alphabetically (!)
-#data_long$Lang <- factor(data_long$Lang, levels = c("en", sort(setdiff(unique(data_long$Lang), "en"))))
-data_long$Lang <- factor(data_long$Lang)
+data_long$Lang <- switch(mode,
+                         # Reorder Lang: Put "en" first, followed by others alphabetically (!)
+                         gpt = factor(data_long$Lang, levels = c("en", sort(setdiff(unique(data_long$Lang), "en")))),
+                         manual = factor(data_long$Lang),
+                         stop("Unknown mode")  # fallback if mode doesn't match
+                         )
 
 # Order the Rank levels
 data_long$Rank <- factor(data_long$Rank, levels = c("Top1", "Top3", "Top10"))
 
 # Define a custom subdued color palette
+# switch
+# case: gpt full result
 #color_palette <- c(
 #  "en" = "#1B4F72",  # Deep Blue for English
 #  "ja" = "#AAB7B8", "it" = "#D5DBDB", "cs" = "#A9CCE3", "tr" = "#F9E79F",
 #  "nl" = "#85C1E9", "de" = "#5499C7", "es" = "#5D6D7E", "zh" = "#D7BDE2", "fr" = "#F5CBA7"
 #)
+
+# case: manual curation
 color_palette <- c( 
   "de_no_en" = "#A9CCE3",
   "de_w_en" = "#D5DBDB", 
@@ -50,15 +63,25 @@ color_palette <- c(
   "it_w_en" = "#1B4F72"
   )
 
+color_palette <- switch(mode,
+                        gpt = c("en" = "#1B4F72","ja" = "#AAB7B8", "it" = "#D5DBDB", "cs" = "#A9CCE3", "tr" = "#F9E79F",
+                                "nl" = "#85C1E9","de" = "#5499C7", "es" = "#5D6D7E", "zh" = "#D7BDE2", "fr" = "#F5CBA7"),
+                        manual = c( "de_no_en" = "#A9CCE3","de_w_en" = "#D5DBDB", "es_no_en" = "#5499C7", "es_w_en" = "#85C1E9",
+                                    "it_no_en" = "#AAB7B8","it_w_en" = "#1B4F72"),
+                        stop("Unknown mode") )
 
-
-
-# alphabetically ordered, according to two-letter language code (!)
-# full_names = c("English", "Czech","German", "Spanish","French", "Italian","Japanese","Dutch","Turkish","Chinese")
-full_names = c("German Reply", "German, EN Reply","Spanish Reply", "Spanish, EN Reply", "Italian Reply","Italian, EN Reply")
-
+full_names <- switch(mode, # alphabetically ordered, according to two-letter language code (!)
+                     gpt = c("English", "Czech","German", "Spanish","French", "Italian","Japanese","Dutch","Turkish","Chinese"),
+                     manual = c("German Reply", "German, EN Reply","Spanish Reply", "Spanish, EN Reply", "Italian Reply","Italian, EN Reply"),
+                     stop("unknown mode") )
 
 # Plot
+#switch
+#case gpt
+upper_y_axis = 0.40
+# case manual curation
+upper_y_axis = 0.44
+
 ggplot(data_long, aes(x = Rank, y = Proportion, fill = Lang)) + #ylim(0,62) +
   geom_bar(stat = "identity", position = "dodge", color = "black", size = 0.3) +  # Black border, thin
   scale_fill_manual(values = color_palette, labels=full_names) +  # Professional color palette
@@ -68,7 +91,7 @@ ggplot(data_long, aes(x = Rank, y = Proportion, fill = Lang)) + #ylim(0,62) +
     fill = "Language"
   ) +
   theme_classic(base_size = 14) +  # Journal-style theme
-  scale_y_continuous(limits = c(0, 0.44),
+  scale_y_continuous(limits = c(0, upper_y_axis),
                      labels = scales::percent_format(accuracy = 1)) +
   theme(
     axis.text.x = element_text(angle = 45, hjust = 1, size = 15),

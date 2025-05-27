@@ -35,7 +35,7 @@ def summarize(df, run_config: MalcoConfig):
         rank_counter.get('n8', 0),
         rank_counter.get('n9', 0),
         rank_counter.get('n10', 0),
-        rank_counter.get('n10', 0) / total_files if total_files else 0,  # n10p: proportion of n10 hits
+        rank_counter.get('n10', 0) / total_files if total_files else 0,  # n10p: proportion of n10 hits || TODO: fix this
         rank_counter.get('nf', 0)
     ]
 

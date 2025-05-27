@@ -11,6 +11,7 @@ from .io.reading import read_result_json
 import pandas as pd
 import multiprocessing as mp
 import numpy as np
+import ast
 
 @click.group()
 def core():
@@ -45,6 +46,8 @@ def evaluate(config: str):
         results = list(results)
     df = pd.concat(results, ignore_index=True)
     df = score(df)
+    df.drop('service_answers', axis=1).to_csv(run_config.full_result_file, sep="\t", index=False)
+    print(f"Full results saved to {run_config.full_result_file}")
     print("\nComputing Statistics...\n")
     summarize(df, run_config)
     if run_config.visualize:
@@ -52,6 +55,28 @@ def evaluate(config: str):
         df["filename"] = run_config.name
         make_single_plot(run_config.name, df, run_config.output_dir)
     print("Done.")
+
+@core.command()
+@click.option("--config", type=click.Path(exists=True))
+@click.option("--cases", type=click.Path(exists=True))
+def select(config: str, cases: str):
+    """Selects a subset of phenopackets to run summarize on."""
+    run_config = MalcoConfig(config)
+    df = pd.read_csv(run_config.full_result_file, sep="\t")
+    for col in ["gold", "grounding", "scored"]:
+        df[col] = df[col].apply(ast.literal_eval)
+    # Open the cases text file
+    with open(cases, 'r') as f:
+        # Read the lines, strip whitespace and remove last n characters
+        n = len("_en-prompt.txt") # Length of the suffix to remove, equal for all languages
+        lines = [line.strip()[:-n] for line in f.readlines()]
+        
+    # Filter the DataFrame based on the lines in the cases file
+    # It is sufficient for the lines to be a substring of the metadata (to match all languages)
+    df = df[df['metadata'].str.contains('|'.join(lines))]
+    # Save the filtered DataFrame to a new file
+    summarize(df, run_config) 
+
 
 def evaluate_chunk(args) -> pd.DataFrame:
     process, df, run_config = args
@@ -61,9 +86,12 @@ def evaluate_chunk(args) -> pd.DataFrame:
 @click.option("--dir", type=click.Path(exists=True))
 @click.option("--model", type=str, default="*", help="Model to compare, default is all [*].")
 @click.option("--lang", type=str, default="en", help="Language to compare, default is English [en].")
-def combine(dir: str, model: str, lang: str):
+@click.option("--outdir", type=str, default="data/results/", help="Where to save the resulting plot")
+def combine(dir: str, model: str, lang: str, outdir: str):
     """Combines the results of several evaluate results into a single plot"""
-    make_combined_plot_comparing(Path(dir), Path("data/results/"), model, lang.split(","))
+    if model == "*" and lang == "ALL":
+        raise ValueError("You must specify a single model to compare languages.")
+    make_combined_plot_comparing(Path(dir), Path(outdir), model, lang.split(","))
 
 @core.command()
 @click.option("--config", type=click.Path(exists=True))

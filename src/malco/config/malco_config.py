@@ -13,6 +13,7 @@ class MalcoConfig():
             self.name = content.get("name", [])
             self.response_file = content.get("response_file", None)
             self.result_file = content.get("result_file", None)
+            self.full_result_file = content.get("full_result_file", None)
             self.output_dir = content.get("output_dir", None)
             self.tmp_dir = content.get("tmp_dir", None)
             self.gold_file = content.get("gold_file", None)

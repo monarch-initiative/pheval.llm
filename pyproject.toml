@@ -16,6 +16,7 @@ psutil = "^6.1.0"
 autopep8 = "^2.3.1"
 openpyxl = "^3.1.5"
 metapub = "^0.5.12"
+phenopacket-store-toolkit = "^0.1.4"
 
 [tool.poetry.plugins."pheval.plugins"]
 template = "malco.runner:MalcoRunner"

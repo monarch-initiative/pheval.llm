@@ -49,7 +49,8 @@ def make_combined_plot_comparing(results_dir, out_dir, model, langs):
 
 def _percentages(row):
     model_name = row['filename']
-    total_files = row.drop('filename').drop('n10p').sum()
+    #total_files = row.drop('filename').drop('n10p').sum()
+    total_files = row['num_cases']
     return [
         row['n1'] / total_files * 100 if total_files else 0,
         sum(row[f'n{j}'] for j in range(1, 4)) / total_files * 100 if total_files else 0,

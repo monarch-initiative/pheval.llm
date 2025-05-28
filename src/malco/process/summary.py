@@ -11,6 +11,7 @@ def summarize(df, run_config: MalcoConfig):
         grounding_failure = None
         item_number = None
         if row["scored"] is not None and len(row["scored"]) > 0:
+            # TODO the following line should really count things like "Sorry I am not able to reply"
             rank_counter['nc'] += 1  # Count the number of cases processed
             # array of results
             scored = pd.DataFrame(row["scored"])
@@ -52,7 +53,7 @@ def summarize(df, run_config: MalcoConfig):
         rank_counter.get('n10p', 0),  # rank > 10
         rank_counter.get('nf', 0),
         rank_counter.get('gf', 0), # among the not found, how many involved a grounding failrue somewhere in the dx
-        rank_counter.get('nc', 0), # total number of cases processed (count invalid replies by model, if any at all)
+        rank_counter.get('nc', 0), # total number of cases processed (count valid replies by model, if any invalid ones present at all)
         rank_counter.get('tgf', 0), # total grounding failures
         rank_counter.get('items', 0)  # total items processed
     ]

@@ -91,7 +91,7 @@ def evaluate_chunk(args) -> pd.DataFrame:
     return create_single_standardised_results(df, process)
 
 @core.command()
-@click.option("--dir", type=click.Path(exists=True))
+@click.option("--dir", type=click.Path(exists=True), help="Directory containing the scored differentials as tsv files you wish to combine.")
 @click.option("--model", type=str, default="*", help="Model to compare, default is all [*].")
 @click.option("--lang", type=str, default="en", help="Language to compare, default is English [en].")
 @click.option("--outdir", type=str, default="data/results/", help="Where to save the resulting plot")

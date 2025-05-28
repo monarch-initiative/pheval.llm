@@ -12,6 +12,7 @@ import pandas as pd
 import multiprocessing as mp
 import numpy as np
 import ast
+import re
 
 @click.group()
 def core():
@@ -20,7 +21,7 @@ def core():
 @core.command()
 def inference():
     """Runs one or multiple inferences on a set of prompts"""
-    # TODO: Implement this with ollama?
+    # TODO: Implement this with ollama for local models and litellm for API based calls?
     return None
 
 @core.command()
@@ -68,13 +69,20 @@ def select(config: str, cases: str):
     # Open the cases text file
     with open(cases, 'r') as f:
         # Read the lines, strip whitespace and remove last n characters
-        n = len("_en-prompt.txt") # Length of the suffix to remove, equal for all languages
-        lines = [line.strip()[:-n] for line in f.readlines()]
+        lines = [line.strip() for line in f.readlines()]
+        if lines[0].endswith(".json"):
+            pass
+            # TODO add support for list of json files (which should/wuill be the primary use case)
+        elif re.search(r"_[a-z][a-z]-prompt\.txt$", lines[0]):
+            n = len("_en-prompt.txt")
+            regex_lines = [re.escape(line[:-n]) + r"_[a-z][a-z]-prompt\.txt" for line in lines]
+        else:
+            raise ValueError("The cases file must contain either a list of json files or a list of phenopackets with the last n characters removed.")
         
     # Filter the DataFrame based on the lines in the cases file
     # It is sufficient for the lines to be a substring of the metadata (to match all languages)
-    df = df[df['metadata'].str.contains('|'.join(lines))]
-    # Save the filtered DataFrame to a new file
+    df = df[df['metadata'].str.contains('|'.join(regex_lines), regex=True)] 
+    # Save the counts of the filtered DataFrame to file
     summarize(df, run_config) 
 
 

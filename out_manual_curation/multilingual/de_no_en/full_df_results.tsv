@@ -1,0 +1,473 @@
+label	term	score	rank	correct_term	is_correct	reciprocal_rank
+PMID_21683322_25_de-prompt.txt	MONDO:0019188	1.0	1.0	OMIM:102370	False	0.0
+PMID_21683322_25_de-prompt.txt	Wiedemann-Steiner-Syndrom	0.5	2.0	OMIM:102370	False	0.0
+PMID_21683322_25_de-prompt.txt	Noonan-Syndrom	0.3333333333333333	3.0	OMIM:102370	False	0.0
+PMID_30580808_Chen_Pat_124_Fam_48_de-prompt.txt	Mukopolysaccharidose	1.0	1.0	OMIM:618362	False	0.0
+PMID_30580808_Chen_Pat_124_Fam_48_de-prompt.txt	Noonan-Syndrom	0.5	2.0	OMIM:618362	False	0.0
+PMID_30580808_Chen_Pat_124_Fam_48_de-prompt.txt	MONDO:0007113	0.3333333333333333	3.0	OMIM:618362	False	0.0
+PMID_30580808_Chen_Pat_124_Fam_48_de-prompt.txt	Williams-Beuren-Syndrom	0.25	4.0	OMIM:618362	False	0.0
+PMID_30580808_Chen_Pat_124_Fam_48_de-prompt.txt	Achondroplasie	0.2	5.0	OMIM:618362	False	0.0
+PMID_36586412_6_de-prompt.txt	Tuberöse Sklerose	1.0	1.0	OMIM:301111	False	0.0
+PMID_36586412_6_de-prompt.txt	Fragiles-X-Syndrom	0.5	2.0	OMIM:301111	False	0.0
+PMID_36586412_6_de-prompt.txt	MONDO:0010035	0.3333333333333333	3.0	OMIM:301111	False	0.0
+PMID_36586412_6_de-prompt.txt	Rett-Syndrom	0.25	4.0	OMIM:301111	False	0.0
+PMID_36586412_6_de-prompt.txt	MONDO:0007113	0.2	5.0	OMIM:301111	False	0.0
+PMID_28652255_V_3_de-prompt.txt	MONDO:0011873	1.0	1.0	OMIM:208920	False	0.0
+PMID_28652255_V_3_de-prompt.txt	MONDO:0008840	0.5	2.0	OMIM:208920	False	0.0
+PMID_28652255_V_3_de-prompt.txt	Morbus Wilson	0.3333333333333333	3.0	OMIM:208920	False	0.0
+PMID_28652255_V_3_de-prompt.txt	MONDO:0100339	0.25	4.0	OMIM:208920	False	0.0
+PMID_28652255_V_3_de-prompt.txt	Huntington-Krankheit	0.2	5.0	OMIM:208920	False	0.0
+PMID_35047834_Individual_7_4_Najmabadi_et_al_2011_de-prompt.txt	MONDO:0008434	1.0	1.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_7_4_Najmabadi_et_al_2011_de-prompt.txt	Cornelia-de-Lange-Syndrom	0.5	2.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_7_4_Najmabadi_et_al_2011_de-prompt.txt	Fragiles-X-Syndrom	0.3333333333333333	3.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_7_4_Najmabadi_et_al_2011_de-prompt.txt	Kleefstra-Syndrom	0.25	4.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_7_4_Najmabadi_et_al_2011_de-prompt.txt	MONDO:0019188	0.2	5.0	OMIM:620700	False	0.0
+PMID_32274456_Family_FGIT_individual_22_de-prompt.txt	Autosomal dominante Polyzystische Nierenerkrankung (ADPKD)	1.0	1.0	OMIM:162000	False	0.0
+PMID_32274456_Family_FGIT_individual_22_de-prompt.txt	MONDO:0018965	0.5	2.0	OMIM:162000	False	0.0
+PMID_32274456_Family_FGIT_individual_22_de-prompt.txt	MONDO:0009728	0.3333333333333333	3.0	OMIM:162000	False	0.0
+PMID_32274456_Family_FGIT_individual_22_de-prompt.txt	Medulläre Zystennierendegeneration	0.25	4.0	OMIM:162000	False	0.0
+PMID_28862745_PD_Case_5_de-prompt.txt	Morbus Huntington	1.0	1.0	OMIM:616840	False	0.0
+PMID_28862745_PD_Case_5_de-prompt.txt	Lewy-Körper-Demenz	0.5	2.0	OMIM:616840	False	0.0
+PMID_28862745_PD_Case_5_de-prompt.txt	Progressive supranukleäre Blickparese	0.3333333333333333	3.0	OMIM:616840	False	0.0
+PMID_28862745_PD_Case_5_de-prompt.txt	Multisystematrophie	0.25	4.0	OMIM:616840	False	0.0
+PMID_28862745_PD_Case_5_de-prompt.txt	Wilson-Krankheit	0.2	5.0	OMIM:616840	False	0.0
+PMID_26942287_EE2_de-prompt.txt	MONDO:0020066	1.0	1.0	OMIM:616364	False	0.0
+PMID_26942287_EE2_de-prompt.txt	Fragiles-X-Syndrom	0.5	2.0	OMIM:616364	False	0.0
+PMID_26942287_EE2_de-prompt.txt	Marfan-Syndrom	0.3333333333333333	3.0	OMIM:616364	False	0.0
+PMID_26942287_EE2_de-prompt.txt	MONDO:0019349	0.25	4.0	OMIM:616364	False	0.0
+PMID_26942287_EE2_de-prompt.txt	William-Beuren-Syndrom	0.2	5.0	OMIM:616364	False	0.0
+PMID_29321044_Patient_2_de-prompt.txt	Morbus Wilson	1.0	1.0	OMIM:616829	False	0.0
+PMID_29321044_Patient_2_de-prompt.txt	MONDO:0011873	0.5	2.0	OMIM:616829	False	0.0
+PMID_29321044_Patient_2_de-prompt.txt	Hereditäre Hämochromatose	0.3333333333333333	3.0	OMIM:616829	False	0.0
+PMID_29321044_Patient_2_de-prompt.txt	Lysosomale Speicherkrankheit	0.25	4.0	OMIM:616829	False	0.0
+PMID_29321044_Patient_2_de-prompt.txt	MONDO:0013282	0.2	5.0	OMIM:616829	False	0.0
+PMID_24269551_patient_IV_1_de-prompt.txt	MONDO:0019188	1.0	1.0	OMIM:605282	False	0.0
+PMID_24269551_patient_IV_1_de-prompt.txt	Cornelia-de-Lange-Syndrom	0.5	2.0	OMIM:605282	False	0.0
+PMID_24269551_patient_IV_1_de-prompt.txt	Gehäufte erbliche exosto-Weinerkrankung	0.3333333333333333	3.0	OMIM:605282	False	0.0
+PMID_24269551_patient_IV_1_de-prompt.txt	Pfeiffer-Syndrom	0.25	4.0	OMIM:605282	False	0.0
+PMID_24269551_patient_IV_1_de-prompt.txt	Holoprosenzephalie	0.2	5.0	OMIM:605282	False	0.0
+PMID_29196670_Patient_10_de-prompt.txt	Tuberöse Sklerose Complex (TSC)	1.0	1.0	OMIM:191100	False	0.0
+PMID_29196670_Patient_10_de-prompt.txt	Neurofibromatose Typ 1 (NF1)	0.5	2.0	OMIM:191100	False	0.0
+PMID_29196670_Patient_10_de-prompt.txt	MONDO:0008501	0.3333333333333333	3.0	OMIM:191100	False	0.0
+PMID_29196670_Patient_10_de-prompt.txt	Von Hippel-Lindau-Syndrom	0.25	4.0	OMIM:191100	False	0.0
+PMID_31000419_III_10_de-prompt.txt	Primäre Ovarialinsuffizienz (POI)	1.0	1.0	OMIM:620686	False	0.0
+PMID_31000419_III_10_de-prompt.txt	Turner-Syndrom	0.5	2.0	OMIM:620686	False	0.0
+PMID_31000419_III_10_de-prompt.txt	Fragiles-X-Syndrom	0.3333333333333333	3.0	OMIM:620686	False	0.0
+PMID_31000419_III_10_de-prompt.txt	Polyzystisches Ovarialsyndrom (PCOS)	0.25	4.0	OMIM:620686	False	0.0
+PMID_31000419_III_10_de-prompt.txt	Hypothalamische Amenorrhoe	0.2	5.0	OMIM:620686	False	0.0
+PMID_37761890_28__de-prompt.txt	Aicardi-Syndrom	1.0	1.0	OMIM:616362	False	0.0
+PMID_37761890_28__de-prompt.txt	Zellweger-Spektrum-Störung	0.5	2.0	OMIM:616362	False	0.0
+PMID_37761890_28__de-prompt.txt	Walker-Warburg-Syndrom	0.3333333333333333	3.0	OMIM:616362	False	0.0
+PMID_37761890_28__de-prompt.txt	Lücke-Stelzner-Syndrom (Miller-Dieker-Syndrom)	0.25	4.0	OMIM:616362	False	0.0
+PMID_37761890_28__de-prompt.txt	Andermann-Syndrom	0.2	5.0	OMIM:616362	False	0.0
+PMID_30643655_F2_IV_1_de-prompt.txt	MONDO:0019064	1.0	1.0	OMIM:613115	False	0.0
+PMID_30643655_F2_IV_1_de-prompt.txt	MONDO:0100339	0.5	2.0	OMIM:613115	False	0.0
+PMID_30643655_F2_IV_1_de-prompt.txt	Charcot-Marie-Tooth-Erkrankung (unter Berücksichtigung atypischer Präsentationen)	0.3333333333333333	3.0	OMIM:613115	False	0.0
+PMID_30643655_F2_IV_1_de-prompt.txt	Spinale Muskelatrophie mit Distalen Muskelatrophien (SMAD)	0.25	4.0	OMIM:613115	False	0.0
+PMID_30643655_F2_IV_1_de-prompt.txt	Adrenoleukodystrophie	0.2	5.0	OMIM:613115	False	0.0
+PMID_33350388_Patient_KD_5_3_de-prompt.txt	Smith-Kingsmore-Syndrom	1.0	1.0	OMIM:620820	False	0.0
+PMID_33350388_Patient_KD_5_3_de-prompt.txt	Snyder-Robinson-Syndrom	0.5	2.0	OMIM:620820	False	0.0
+PMID_33350388_Patient_KD_5_3_de-prompt.txt	Soto-Syndrom	0.3333333333333333	3.0	OMIM:620820	False	0.0
+PMID_33350388_Patient_KD_5_3_de-prompt.txt	MONDO:0009341	0.25	4.0	OMIM:620820	False	0.0
+PMID_33350388_Patient_KD_5_3_de-prompt.txt	MONDO:0012589	0.2	5.0	OMIM:620820	False	0.0
+PMID_37196654_Individual_33_de-prompt.txt	MONDO:0012496	1.0	1.0	OMIM:618505	False	0.0
+PMID_37196654_Individual_33_de-prompt.txt	MONDO:0019349	0.5	2.0	OMIM:618505	False	0.0
+PMID_37196654_Individual_33_de-prompt.txt	Wiedemann-Steiner-Syndrom	0.3333333333333333	3.0	OMIM:618505	False	0.0
+PMID_37196654_Individual_33_de-prompt.txt	MONDO:0008434	0.25	4.0	OMIM:618505	False	0.0
+PMID_37196654_Individual_33_de-prompt.txt	Williams-Beuren-Syndrom	0.2	5.0	OMIM:618505	False	0.0
+STX_29896790_P2_de-prompt.txt	West-Syndrom	1.0	1.0	OMIM:612164	False	0.0
+STX_29896790_P2_de-prompt.txt	Dravet-Syndrom	0.5	2.0	OMIM:612164	False	0.0
+STX_29896790_P2_de-prompt.txt	MONDO:0016532	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_29896790_P2_de-prompt.txt	CDKL5-Mangelstörung	0.25	4.0	OMIM:612164	False	0.0
+STX_29896790_P2_de-prompt.txt	Aicardi-Syndrom	0.2	5.0	OMIM:612164	False	0.0
+PMID_10077612_Family_B_II_2_de-prompt.txt	Holt-Oram-Syndrom	1.0	1.0	OMIM:142900	False	0.0
+PMID_10077612_Family_B_II_2_de-prompt.txt	Fanconi-Anämie	0.5	2.0	OMIM:142900	False	0.0
+PMID_10077612_Family_B_II_2_de-prompt.txt	MONDO:0010121	0.3333333333333333	3.0	OMIM:142900	False	0.0
+PMID_10077612_Family_B_II_2_de-prompt.txt	VACTERL-Assoziation	0.25	4.0	OMIM:142900	False	0.0
+PMID_10077612_Family_B_II_2_de-prompt.txt	MONDO:0019188	0.2	5.0	OMIM:142900	False	0.0
+PMID_34722527_individual_34_1_JENNIFER_A__GALVIN_EVALUATIONOFG_de-prompt.txt	Achromatopsie	1.0	1.0	OMIM:613826	False	0.0
+PMID_34722527_individual_34_1_JENNIFER_A__GALVIN_EVALUATIONOFG_de-prompt.txt	Albinismus	0.5	2.0	OMIM:613826	False	0.0
+PMID_34722527_individual_34_1_JENNIFER_A__GALVIN_EVALUATIONOFG_de-prompt.txt	MONDO:0013613	0.3333333333333333	3.0	OMIM:613826	False	0.0
+PMID_34722527_individual_34_1_JENNIFER_A__GALVIN_EVALUATIONOFG_de-prompt.txt	Optikusatrophie	0.25	4.0	OMIM:613826	False	0.0
+PMID_34722527_individual_34_1_JENNIFER_A__GALVIN_EVALUATIONOFG_de-prompt.txt	Aniridie	0.2	5.0	OMIM:613826	False	0.0
+PMID_36446582_Miyatake_2017_P1_de-prompt.txt	Cornelia-de-Lange-Syndrom	1.0	1.0	OMIM:148050	False	0.0
+PMID_36446582_Miyatake_2017_P1_de-prompt.txt	MONDO:0008434	0.5	2.0	OMIM:148050	False	0.0
+PMID_36446582_Miyatake_2017_P1_de-prompt.txt	MONDO:0019349	0.3333333333333333	3.0	OMIM:148050	False	0.0
+PMID_36446582_Miyatake_2017_P1_de-prompt.txt	MONDO:0007113	0.25	4.0	OMIM:148050	False	0.0
+PMID_36446582_Miyatake_2017_P1_de-prompt.txt	MONDO:0008684	0.2	5.0	OMIM:148050	False	0.0
+PMID_20151160_Patient_1_de-prompt.txt	Autosomal-dominante tubulointerstitielle Nierenerkrankung (ADTKD)	1.0	1.0	OMIM:162000	False	0.0
+PMID_20151160_Patient_1_de-prompt.txt	MONDO:0009728	0.5	2.0	OMIM:162000	False	0.0
+PMID_20151160_Patient_1_de-prompt.txt	Polyzystische Nierenerkrankung (autosomal-rezessive Form)	0.3333333333333333	3.0	OMIM:162000	False	0.0
+PMID_20151160_Patient_1_de-prompt.txt	MONDO:0018965	0.25	4.0	OMIM:162000	False	0.0
+PMID_33766796_2_de-prompt.txt	Fragiles X-Syndrom	1.0	1.0	OMIM:620157	False	0.0
+PMID_33766796_2_de-prompt.txt	MONDO:0019349	0.5	2.0	OMIM:620157	False	0.0
+PMID_33766796_2_de-prompt.txt	Autismus-Spektrum-Störung mit genetischer Grundlage (z.B. durch genetische Mutationen wie SHANK3)	0.3333333333333333	3.0	OMIM:620157	False	0.0
+PMID_33766796_2_de-prompt.txt	MONDO:0017623	0.25	4.0	OMIM:620157	False	0.0
+PMID_33766796_2_de-prompt.txt	MONDO:0008434	0.2	5.0	OMIM:620157	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_de-prompt.txt	MONDO:0008381	1.0	1.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_de-prompt.txt	Lebersche kongenitale Amaurose	0.5	2.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_de-prompt.txt	Stargardt-Krankheit	0.3333333333333333	3.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_de-prompt.txt	Morbus Best (Vitelliforme Makuladegeneration)	0.25	4.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_de-prompt.txt	Zapfen-Stäbchendystrophie	0.2	5.0	OMIM:613826	False	0.0
+STX_28708303_Patient_56_de-prompt.txt	MONDO:0008300	1.0	1.0	OMIM:612164	False	0.0
+STX_28708303_Patient_56_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:612164	False	0.0
+STX_28708303_Patient_56_de-prompt.txt	MONDO:0019349	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_28708303_Patient_56_de-prompt.txt	Fragiles-X-Syndrom	0.25	4.0	OMIM:612164	False	0.0
+STX_28708303_Patient_56_de-prompt.txt	Rett-Syndrom	0.2	5.0	OMIM:612164	False	0.0
+STX_23708187_T23553_de-prompt.txt	Dravet-Syndrom	1.0	1.0	OMIM:612164	False	0.0
+STX_23708187_T23553_de-prompt.txt	MONDO:0016532	0.5	2.0	OMIM:612164	False	0.0
+STX_23708187_T23553_de-prompt.txt	MONDO:0018097	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_23708187_T23553_de-prompt.txt	Rett-Syndrom	0.25	4.0	OMIM:612164	False	0.0
+STX_23708187_T23553_de-prompt.txt	MONDO:0007113	0.2	5.0	OMIM:612164	False	0.0
+PMID_34722527_individual_TB34R_R77_3_Tami_Current_de-prompt.txt	MONDO:0019200	1.0	1.0	OMIM:608194	False	0.0
+PMID_34722527_individual_TB34R_R77_3_Tami_Current_de-prompt.txt	Usher-Syndrom	0.5	2.0	OMIM:608194	False	0.0
+PMID_34722527_individual_TB34R_R77_3_Tami_Current_de-prompt.txt	MONDO:0018998	0.3333333333333333	3.0	OMIM:608194	False	0.0
+PMID_34722527_individual_TB34R_R77_3_Tami_Current_de-prompt.txt	Bardet-Biedl-Syndrom	0.25	4.0	OMIM:608194	False	0.0
+PMID_34722527_individual_TB34R_R77_3_Tami_Current_de-prompt.txt	Joubert-Syndrom	0.2	5.0	OMIM:608194	False	0.0
+PMID_33731876_fam95_de-prompt.txt	MONDO:0012812	1.0	1.0	OMIM:613721	False	0.0
+PMID_33731876_fam95_de-prompt.txt	West-Syndrom	0.5	2.0	OMIM:613721	False	0.0
+PMID_33731876_fam95_de-prompt.txt	Ohtahara-Syndrom	0.3333333333333333	3.0	OMIM:613721	False	0.0
+PMID_33731876_fam95_de-prompt.txt	Hyperekplexie-Syndrom	0.25	4.0	OMIM:613721	False	0.0
+PMID_33731876_fam95_de-prompt.txt	Rett-Syndrom	0.2	5.0	OMIM:613721	False	0.0
+PMID_36553465_P9_de-prompt.txt	Okulokutaner Albinismus	1.0	1.0	OMIM:606574	False	0.0
+PMID_36553465_P9_de-prompt.txt	MONDO:0013555	0.5	2.0	OMIM:606574	False	0.0
+PMID_36553465_P9_de-prompt.txt	MONDO:1010070	0.3333333333333333	3.0	OMIM:606574	False	0.0
+PMID_34722527_individual_LCA_F001_5_Leen_Abu_Safieh_Autozygome_guid_de-prompt.txt	Fragiles-X-Syndrom	1.0	1.0	OMIM:613826	False	0.0
+PMID_34722527_individual_LCA_F001_5_Leen_Abu_Safieh_Autozygome_guid_de-prompt.txt	MONDO:0019258	0.5	2.0	OMIM:613826	False	0.0
+PMID_34722527_individual_LCA_F001_5_Leen_Abu_Safieh_Autozygome_guid_de-prompt.txt	Neurofibromatose Typ 1	0.3333333333333333	3.0	OMIM:613826	False	0.0
+PMID_34722527_individual_LCA_F001_5_Leen_Abu_Safieh_Autozygome_guid_de-prompt.txt	Tuberöse Sklerose	0.25	4.0	OMIM:613826	False	0.0
+PMID_34722527_individual_LCA_F001_5_Leen_Abu_Safieh_Autozygome_guid_de-prompt.txt	Williams-Syndrom	0.2	5.0	OMIM:613826	False	0.0
+PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_de-prompt.txt	MONDO:0008381	1.0	1.0	OMIM:613826	False	0.0
+PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_de-prompt.txt	Lebersche kongenitale Amaurose	0.5	2.0	OMIM:613826	False	0.0
+PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_de-prompt.txt	Stargardt-Krankheit	0.3333333333333333	3.0	OMIM:613826	False	0.0
+PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_de-prompt.txt	Morbus Best (Vitelliforme Makuladegeneration)	0.25	4.0	OMIM:613826	False	0.0
+PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_de-prompt.txt	Zapfen-Stäbchendystrophie	0.2	5.0	OMIM:613826	False	0.0
+PMID_12789647_K11_III_2_de-prompt.txt	Holt-Oram-Syndrom	1.0	1.0	OMIM:142900	False	0.0
+PMID_12789647_K11_III_2_de-prompt.txt	Fanconi-Anämie	0.5	2.0	OMIM:142900	False	0.0
+PMID_12789647_K11_III_2_de-prompt.txt	Roberts-Syndrom	0.3333333333333333	3.0	OMIM:142900	False	0.0
+PMID_27040691_Individual_2_1_de-prompt.txt	MONDO:0019349	1.0	1.0	OMIM:616900	False	0.0
+PMID_27040691_Individual_2_1_de-prompt.txt	MONDO:0017623	0.5	2.0	OMIM:616900	False	0.0
+PMID_27040691_Individual_2_1_de-prompt.txt	MONDO:0007113	0.3333333333333333	3.0	OMIM:616900	False	0.0
+PMID_27040691_Individual_2_1_de-prompt.txt	Fragiles X-Syndrom	0.25	4.0	OMIM:616900	False	0.0
+PMID_27040691_Individual_2_1_de-prompt.txt	Rett-Syndrom	0.2	5.0	OMIM:616900	False	0.0
+PMID_16917909_603_1_de-prompt.txt	Holt-Oram-Syndrom	1.0	1.0	OMIM:142900	False	0.0
+PMID_16917909_603_1_de-prompt.txt	Char-Syndrom	0.5	2.0	OMIM:142900	False	0.0
+PMID_16917909_603_1_de-prompt.txt	MONDO:0009162	0.3333333333333333	3.0	OMIM:142900	False	0.0
+PMID_16917909_603_1_de-prompt.txt	Noonan-Syndrom	0.25	4.0	OMIM:142900	False	0.0
+PMID_34645992_Individual_8_de-prompt.txt	CHARGE-Syndrom	1.0	1.0	OMIM:616364	False	0.0
+PMID_34645992_Individual_8_de-prompt.txt	Aicardi-Syndrom	0.5	2.0	OMIM:616364	False	0.0
+PMID_34645992_Individual_8_de-prompt.txt	Walker-Warburg-Syndrom	0.3333333333333333	3.0	OMIM:616364	False	0.0
+PMID_34645992_Individual_8_de-prompt.txt	Holoprosenzephalie	0.25	4.0	OMIM:616364	False	0.0
+PMID_34645992_Individual_8_de-prompt.txt	Patau-Syndrom (Trisomie 13)	0.2	5.0	OMIM:616364	False	0.0
+PMID_29469822_Family_3_II_1_de-prompt.txt	Noonan-Syndrom	1.0	1.0	OMIM:605275	False	0.0
+PMID_29469822_Family_3_II_1_de-prompt.txt	Leopard-Syndrom (auch bekannt als Noonan-Syndrom mit multiplen Lentigines)	0.5	2.0	OMIM:605275	False	0.0
+PMID_29469822_Family_3_II_1_de-prompt.txt	Kohlsyndrom	0.3333333333333333	3.0	OMIM:605275	False	0.0
+PMID_22772371_MS239_V_5_de-prompt.txt	Ehlers-Danlos-Syndrom, insbesondere die hypermobile Form	1.0	1.0	OMIM:614816	False	0.0
+PMID_22772371_MS239_V_5_de-prompt.txt	Marfan-Syndrom (weniger wahrscheinlich aufgrund des Fehlens von kardiovaskulären und skelettalen Symptomen)	0.5	2.0	OMIM:614816	False	0.0
+PMID_22772371_MS239_V_5_de-prompt.txt	Loeys-Dietz-Syndrom (obwohl einige charakteristische Merkmale fehlen)	0.3333333333333333	3.0	OMIM:614816	False	0.0
+PMID_22772371_MS239_V_5_de-prompt.txt	Homocystinurie (weniger wahrscheinlich, da einige typische Merkmale fehlen)	0.25	4.0	OMIM:614816	False	0.0
+STX_25533962_258242_de-prompt.txt	MONDO:0012589	1.0	1.0	OMIM:612164	False	0.0
+STX_25533962_258242_de-prompt.txt	Syngap1-assoziierte intellektuelle Behinderung	0.5	2.0	OMIM:612164	False	0.0
+STX_25533962_258242_de-prompt.txt	MONDO:0009341	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_25533962_258242_de-prompt.txt	MONDO:0019349	0.25	4.0	OMIM:612164	False	0.0
+STX_25533962_258242_de-prompt.txt	Rett-Syndrom	0.2	5.0	OMIM:612164	False	0.0
+PMID_37951597_Family_27_Subject_1_de-prompt.txt	Mukopolysaccharidose Typ III (Sanfilippo-Syndrom)	1.0	1.0	OMIM:620785	False	0.0
+PMID_37951597_Family_27_Subject_1_de-prompt.txt	Neurodegeneration mit Eisenablagerung im Gehirn (NBIA)	0.5	2.0	OMIM:620785	False	0.0
+PMID_37951597_Family_27_Subject_1_de-prompt.txt	MONDO:0008695	0.3333333333333333	3.0	OMIM:620785	False	0.0
+PMID_37951597_Family_27_Subject_1_de-prompt.txt	Wilson-Krankheit	0.25	4.0	OMIM:620785	False	0.0
+PMID_37951597_Family_27_Subject_1_de-prompt.txt	MONDO:0011873	0.2	5.0	OMIM:620785	False	0.0
+PMID_36553465_P11_de-prompt.txt	Okulokutaner Albinismus	1.0	1.0	OMIM:606574	False	0.0
+PMID_36553465_P11_de-prompt.txt	MONDO:0013555	0.5	2.0	OMIM:606574	False	0.0
+PMID_36553465_P11_de-prompt.txt	MONDO:1010070	0.3333333333333333	3.0	OMIM:606574	False	0.0
+PMID_33045405_Puisac_et_al___2018__patient_2_de-prompt.txt	MONDO:0008721	1.0	1.0	OMIM:605911	False	0.0
+PMID_33045405_Puisac_et_al___2018__patient_2_de-prompt.txt	Glutarazidurie Typ II	0.5	2.0	OMIM:605911	False	0.0
+PMID_33045405_Puisac_et_al___2018__patient_2_de-prompt.txt	Carnitinzyklus-Defizienz	0.3333333333333333	3.0	OMIM:605911	False	0.0
+PMID_33045405_Puisac_et_al___2018__patient_2_de-prompt.txt	Morbus von Gierke (Glykogenose Typ I)	0.25	4.0	OMIM:605911	False	0.0
+PMID_33045405_Puisac_et_al___2018__patient_2_de-prompt.txt	Fatty Acid Oxidation Disorders (allgemein)	0.2	5.0	OMIM:605911	False	0.0
+PMID_11175294_B27_de-prompt.txt	Marfan-Syndrom	1.0	1.0	OMIM:154700	False	0.0
+PMID_11175294_B27_de-prompt.txt	MONDO:0016469	0.5	2.0	OMIM:154700	False	0.0
+PMID_11175294_B27_de-prompt.txt	MONDO:0018954	0.3333333333333333	3.0	OMIM:154700	False	0.0
+PMID_11175294_B27_de-prompt.txt	Homozystinurie	0.25	4.0	OMIM:154700	False	0.0
+PMID_14585638_F2_de-prompt.txt	DiGeorge-Syndrom (22q11.2 Deletionssyndrom)	1.0	1.0	OMIM:188400	False	0.0
+PMID_14585638_F2_de-prompt.txt	CHARGE-Syndrom	0.5	2.0	OMIM:188400	False	0.0
+PMID_14585638_F2_de-prompt.txt	VACTERL-Assoziation	0.3333333333333333	3.0	OMIM:188400	False	0.0
+PMID_14585638_F2_de-prompt.txt	Noonan-Syndrom	0.25	4.0	OMIM:188400	False	0.0
+PMID_24951643_Kinship_2_Patient_3_de-prompt.txt	MONDO:0008056	1.0	1.0	OMIM:615120	False	0.0
+PMID_24951643_Kinship_2_Patient_3_de-prompt.txt	Charcot-Marie-Tooth-Krankheit	0.5	2.0	OMIM:615120	False	0.0
+PMID_24951643_Kinship_2_Patient_3_de-prompt.txt	Gliedergürteldystrophie	0.3333333333333333	3.0	OMIM:615120	False	0.0
+PMID_24951643_Kinship_2_Patient_3_de-prompt.txt	Amyotrophe Lateralsklerose (ALS)	0.25	4.0	OMIM:615120	False	0.0
+PMID_33731876_fam178_de-prompt.txt	Glycin-Enzephalopathie (nichtketotische Hyperglycinämie)	1.0	1.0	OMIM:613721	False	0.0
+PMID_33731876_fam178_de-prompt.txt	Alexander-Krankheit	0.5	2.0	OMIM:613721	False	0.0
+PMID_33731876_fam178_de-prompt.txt	Mitochondriale Enzephalomyopathie	0.3333333333333333	3.0	OMIM:613721	False	0.0
+PMID_33731876_fam178_de-prompt.txt	Leigh-Syndrom	0.25	4.0	OMIM:613721	False	0.0
+PMID_33731876_fam178_de-prompt.txt	Canavan-Krankheit	0.2	5.0	OMIM:613721	False	0.0
+PMID_11479728_patient_13_de-prompt.txt	Trisomie 13 (Pätau-Syndrom)	1.0	1.0	OMIM:609637	False	0.0
+PMID_11479728_patient_13_de-prompt.txt	MONDO:0010035	0.5	2.0	OMIM:609637	False	0.0
+PMID_11479728_patient_13_de-prompt.txt	Pallister-Hall-Syndrom	0.3333333333333333	3.0	OMIM:609637	False	0.0
+PMID_11479728_patient_13_de-prompt.txt	Aicardi-Syndrom	0.25	4.0	OMIM:609637	False	0.0
+PMID_11479728_patient_13_de-prompt.txt	Greig-Zephalopolysyndaktylie-Syndrom	0.2	5.0	OMIM:609637	False	0.0
+PMID_15266616_130_de-prompt.txt	MONDO:0019188	1.0	1.0	OMIM:147791	False	0.0
+PMID_15266616_130_de-prompt.txt	Noonan-Syndrom	0.5	2.0	OMIM:147791	False	0.0
+PMID_15266616_130_de-prompt.txt	Kabuki-Syndrom	0.3333333333333333	3.0	OMIM:147791	False	0.0
+PMID_15266616_130_de-prompt.txt	Opitz G/BBB-Syndrom	0.25	4.0	OMIM:147791	False	0.0
+PMID_15266616_130_de-prompt.txt	Cornelia de Lange-Syndrom	0.2	5.0	OMIM:147791	False	0.0
+PMID_36463227_case_de-prompt.txt	Hereditäre Sphärozytose	1.0	1.0	OMIM:612653	False	0.0
+PMID_36463227_case_de-prompt.txt	Pyruvatkinase-Mangel	0.5	2.0	OMIM:612653	False	0.0
+PMID_36463227_case_de-prompt.txt	Hereditäre Elliptozytose	0.3333333333333333	3.0	OMIM:612653	False	0.0
+PMID_33731876_fam273_de-prompt.txt	Dravet-Syndrom	1.0	1.0	OMIM:613721	False	0.0
+PMID_33731876_fam273_de-prompt.txt	Rett-Syndrom	0.5	2.0	OMIM:613721	False	0.0
+PMID_33731876_fam273_de-prompt.txt	MONDO:0016532	0.3333333333333333	3.0	OMIM:613721	False	0.0
+PMID_33731876_fam273_de-prompt.txt	West-Syndrom	0.25	4.0	OMIM:613721	False	0.0
+PMID_33731876_fam273_de-prompt.txt	Pyridoxin-abhängige Epilepsie	0.2	5.0	OMIM:613721	False	0.0
+PMID_32559514_1_year_old_girl_de-prompt.txt	Leigh-Syndrom	1.0	1.0	OMIM:615471	False	0.0
+PMID_32559514_1_year_old_girl_de-prompt.txt	Pyruvatdehydrogenase-Mangel	0.5	2.0	OMIM:615471	False	0.0
+PMID_32559514_1_year_old_girl_de-prompt.txt	Mitochondriale Myopathie, Enzephalopathie, Laktatazidose und Schlaganfall-ähnliche Episoden (MELAS-Syndrom)	0.3333333333333333	3.0	OMIM:615471	False	0.0
+PMID_32559514_1_year_old_girl_de-prompt.txt	Glutarazidurie Typ I	0.25	4.0	OMIM:615471	False	0.0
+PMID_32559514_1_year_old_girl_de-prompt.txt	Multipler Acyl-CoA-Dehydrogenase-Mangel (MADD)	0.2	5.0	OMIM:615471	False	0.0
+PMID_21660509_PKDF793d_de-prompt.txt	DFNA9 (Hereditäre nichtsyndromale sensorineurale Schwerhörigkeit)	1.0	1.0	OMIM:601869	False	0.0
+PMID_21660509_PKDF793d_de-prompt.txt	Usher-Syndrom Typ 2	0.5	2.0	OMIM:601869	False	0.0
+PMID_21660509_PKDF793d_de-prompt.txt	MONDO:0018965	0.3333333333333333	3.0	OMIM:601869	False	0.0
+PMID_21660509_PKDF793d_de-prompt.txt	Pendred-Syndrom	0.25	4.0	OMIM:601869	False	0.0
+PMID_21660509_PKDF793d_de-prompt.txt	BOR-Syndrom (Branchiootorenales Syndrom)	0.2	5.0	OMIM:601869	False	0.0
+STX_Syrbe_13_de-prompt.txt	MONDO:0007113	1.0	1.0	OMIM:612164	False	0.0
+STX_Syrbe_13_de-prompt.txt	Rett-Syndrom	0.5	2.0	OMIM:612164	False	0.0
+STX_Syrbe_13_de-prompt.txt	West-Syndrom	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_Syrbe_13_de-prompt.txt	MONDO:0016532	0.25	4.0	OMIM:612164	False	0.0
+STX_Syrbe_13_de-prompt.txt	Dravet-Syndrom	0.2	5.0	OMIM:612164	False	0.0
+PMID_28625504_UW335_4_de-prompt.txt	Joubert-Syndrom	1.0	1.0	OMIM:617622	False	0.0
+PMID_28625504_UW335_4_de-prompt.txt	MONDO:0009341	0.5	2.0	OMIM:617622	False	0.0
+PMID_28625504_UW335_4_de-prompt.txt	Lhermitte-Duclos-Syndrom	0.3333333333333333	3.0	OMIM:617622	False	0.0
+PMID_28625504_UW335_4_de-prompt.txt	Fukuyama-Kongenitale-Muskeldystrophie	0.25	4.0	OMIM:617622	False	0.0
+PMID_33277917_Patient_7_de-prompt.txt	MONDO:0008434	1.0	1.0	OMIM:616364	False	0.0
+PMID_33277917_Patient_7_de-prompt.txt	Fragiles-X-Syndrom	0.5	2.0	OMIM:616364	False	0.0
+PMID_33277917_Patient_7_de-prompt.txt	22q11.2-Deletionssyndrom (DiGeorge-Syndrom)	0.3333333333333333	3.0	OMIM:616364	False	0.0
+PMID_33277917_Patient_7_de-prompt.txt	MONDO:0007113	0.25	4.0	OMIM:616364	False	0.0
+PMID_33277917_Patient_7_de-prompt.txt	Rett-Syndrom	0.2	5.0	OMIM:616364	False	0.0
+PMID_15911822_Patient_1_de-prompt.txt	MONDO:0009319	1.0	1.0	OMIM:234200	True	1.0
+PMID_15911822_Patient_1_de-prompt.txt	Huntington-Krankheit	0.5	2.0	OMIM:234200	False	0.0
+PMID_15911822_Patient_1_de-prompt.txt	Tourette-Syndrom	0.3333333333333333	3.0	OMIM:234200	False	0.0
+PMID_15911822_Patient_1_de-prompt.txt	Wilson-Krankheit	0.25	4.0	OMIM:234200	False	0.0
+PMID_28074573_KK1_de-prompt.txt	Noonan-Syndrom	1.0	1.0	OMIM:163950	False	0.0
+PMID_28074573_KK1_de-prompt.txt	Turner-Syndrom	0.5	2.0	OMIM:163950	False	0.0
+PMID_28074573_KK1_de-prompt.txt	Léri-Weill-Dyschonrosteose	0.3333333333333333	3.0	OMIM:163950	False	0.0
+PMID_28074573_KK1_de-prompt.txt	Williams-Beuren-Syndrom	0.25	4.0	OMIM:163950	False	0.0
+PMID_28074573_KK1_de-prompt.txt	Kabuki-Syndrom	0.2	5.0	OMIM:163950	False	0.0
+PMID_36446582_KBG39_de-prompt.txt	Cornelia-de-Lange-Syndrom	1.0	1.0	OMIM:148050	False	0.0
+PMID_36446582_KBG39_de-prompt.txt	MONDO:0008434	0.5	2.0	OMIM:148050	False	0.0
+PMID_36446582_KBG39_de-prompt.txt	MONDO:0019188	0.3333333333333333	3.0	OMIM:148050	False	0.0
+PMID_36446582_KBG39_de-prompt.txt	MONDO:0007113	0.25	4.0	OMIM:148050	False	0.0
+PMID_36446582_KBG39_de-prompt.txt	Rett-Syndrom	0.2	5.0	OMIM:148050	False	0.0
+PMID_15266616_98_de-prompt.txt	Wiedemann-Steiner-Syndrom	1.0	1.0	OMIM:147791	False	0.0
+PMID_15266616_98_de-prompt.txt	Kabuki-Syndrom	0.5	2.0	OMIM:147791	False	0.0
+PMID_15266616_98_de-prompt.txt	Noonan-Syndrom	0.3333333333333333	3.0	OMIM:147791	False	0.0
+PMID_15266616_98_de-prompt.txt	Cornelia de Lange-Syndrom	0.25	4.0	OMIM:147791	False	0.0
+PMID_15266616_98_de-prompt.txt	MONDO:0019188	0.2	5.0	OMIM:147791	False	0.0
+PMID_21827697_C2_de-prompt.txt	Rett-Syndrom	1.0	1.0	OMIM:610042	False	0.0
+PMID_21827697_C2_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:610042	False	0.0
+PMID_21827697_C2_de-prompt.txt	MONDO:0012589	0.3333333333333333	3.0	OMIM:610042	False	0.0
+PMID_21827697_C2_de-prompt.txt	CDKL5-Störung	0.25	4.0	OMIM:610042	False	0.0
+PMID_21827697_C2_de-prompt.txt	MECP2-Duplikationssyndrom	0.2	5.0	OMIM:610042	False	0.0
+PMID_37154409_C_II_2_de-prompt.txt	MONDO:0012450	1.0	1.0	OMIM:606658	False	0.0
+PMID_37154409_C_II_2_de-prompt.txt	MONDO:0100339	0.5	2.0	OMIM:606658	False	0.0
+PMID_37154409_C_II_2_de-prompt.txt	Episodische Ataxie	0.3333333333333333	3.0	OMIM:606658	False	0.0
+PMID_37154409_C_II_2_de-prompt.txt	MONDO:0008840	0.25	4.0	OMIM:606658	False	0.0
+PMID_25168959_Y29_de-prompt.txt	Cornelia-de-Lange-Syndrom	1.0	1.0	OMIM:614608	False	0.0
+PMID_25168959_Y29_de-prompt.txt	MONDO:0010035	0.5	2.0	OMIM:614608	False	0.0
+PMID_25168959_Y29_de-prompt.txt	MONDO:0019188	0.3333333333333333	3.0	OMIM:614608	False	0.0
+PMID_25168959_Y29_de-prompt.txt	MONDO:0007113	0.25	4.0	OMIM:614608	False	0.0
+PMID_25168959_Y29_de-prompt.txt	MONDO:0014838	0.2	5.0	OMIM:614608	False	0.0
+PMID_28132691_Subject_3_de-prompt.txt	Fragiles-X-Syndrom	1.0	1.0	OMIM:617516	False	0.0
+PMID_28132691_Subject_3_de-prompt.txt	Rett-Syndrom	0.5	2.0	OMIM:617516	False	0.0
+PMID_28132691_Subject_3_de-prompt.txt	MONDO:0008434	0.3333333333333333	3.0	OMIM:617516	False	0.0
+PMID_28132691_Subject_3_de-prompt.txt	MONDO:0007113	0.25	4.0	OMIM:617516	False	0.0
+PMID_28132691_Subject_3_de-prompt.txt	Autismus-Spektrum-Störung mit genetischer Ursache	0.2	5.0	OMIM:617516	False	0.0
+STX_23708187_T1266_de-prompt.txt	Dravet-Syndrom	1.0	1.0	OMIM:612164	False	0.0
+STX_23708187_T1266_de-prompt.txt	MONDO:0016532	0.5	2.0	OMIM:612164	False	0.0
+STX_23708187_T1266_de-prompt.txt	MONDO:0018097	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_23708187_T1266_de-prompt.txt	Rett-Syndrom	0.25	4.0	OMIM:612164	False	0.0
+STX_23708187_T1266_de-prompt.txt	MONDO:0007113	0.2	5.0	OMIM:612164	False	0.0
+STX_20887364_Subject_1979_de-prompt.txt	Aicardi-Syndrom	1.0	1.0	OMIM:612164	False	0.0
+STX_20887364_Subject_1979_de-prompt.txt	West-Syndrom (wenn mit einer zugrunde liegenden genetischen Ursache kombiniert)	0.5	2.0	OMIM:612164	False	0.0
+STX_20887364_Subject_1979_de-prompt.txt	Zellweger-Syndrom	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_20887364_Subject_1979_de-prompt.txt	Mitochondriale Erkrankungen, z. B. Leigh-Syndrom	0.25	4.0	OMIM:612164	False	0.0
+STX_20887364_Subject_1979_de-prompt.txt	MONDO:0016532	0.2	5.0	OMIM:612164	False	0.0
+PMID_26162006_Individual_I_1_de-prompt.txt	Primäres Offenwinkelglaukom (POAG)	1.0	1.0	OMIM:611276	False	0.0
+PMID_26162006_Individual_I_1_de-prompt.txt	Pseudoexfoliationssyndrom (PEX)	0.5	2.0	OMIM:611276	False	0.0
+PMID_26162006_Individual_I_1_de-prompt.txt	Pigmentdispersionssyndrom (PDS)	0.3333333333333333	3.0	OMIM:611276	False	0.0
+PMID_26162006_Individual_I_1_de-prompt.txt	Normaldruckglaukom	0.25	4.0	OMIM:611276	False	0.0
+PMID_15266616_152_de-prompt.txt	MONDO:0010589	1.0	1.0	OMIM:147791	False	0.0
+PMID_15266616_152_de-prompt.txt	Noonan-Syndrom	0.5	2.0	OMIM:147791	False	0.0
+PMID_15266616_152_de-prompt.txt	MONDO:0007534	0.3333333333333333	3.0	OMIM:147791	False	0.0
+PMID_15266616_152_de-prompt.txt	CHARGE-Syndrom	0.25	4.0	OMIM:147791	False	0.0
+PMID_15266616_152_de-prompt.txt	Fraser-Syndrom	0.2	5.0	OMIM:147791	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_de-prompt.txt	MONDO:0008381	1.0	1.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_de-prompt.txt	Lebersche kongenitale Amaurose	0.5	2.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_de-prompt.txt	Stargardt-Krankheit	0.3333333333333333	3.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_de-prompt.txt	Morbus Best (Vitelliforme Makuladegeneration)	0.25	4.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_de-prompt.txt	Zapfen-Stäbchendystrophie	0.2	5.0	OMIM:613826	False	0.0
+STX_S013_de-prompt.txt	Rett-Syndrom	1.0	1.0	OMIM:612164	False	0.0
+STX_S013_de-prompt.txt	MONDO:0008434	0.5	2.0	OMIM:612164	False	0.0
+STX_S013_de-prompt.txt	MONDO:0007113	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_S013_de-prompt.txt	Fragiles-X-Syndrom	0.25	4.0	OMIM:612164	False	0.0
+STX_S013_de-prompt.txt	Autismus-Spektrum-Störung	0.2	5.0	OMIM:612164	False	0.0
+PMID_32154675_Family_2_Patient_5_de-prompt.txt	MONDO:0018954	1.0	1.0	OMIM:613795	True	1.0
+PMID_32154675_Family_2_Patient_5_de-prompt.txt	MONDO:0008426	0.5	2.0	OMIM:613795	False	0.0
+PMID_32154675_Family_2_Patient_5_de-prompt.txt	MONDO:0016469	0.3333333333333333	3.0	OMIM:613795	False	0.0
+PMID_32154675_Family_2_Patient_5_de-prompt.txt	Marfan-Syndrom	0.25	4.0	OMIM:613795	False	0.0
+PMID_12058348_Patient_6_de-prompt.txt	LEOPARD-Syndrom (Noonan-Syndrom mit multiplen Lentigines)	1.0	1.0	OMIM:151100	False	0.0
+PMID_12058348_Patient_6_de-prompt.txt	Noonan-Syndrom	0.5	2.0	OMIM:151100	False	0.0
+PMID_12058348_Patient_6_de-prompt.txt	MONDO:0015280	0.3333333333333333	3.0	OMIM:151100	False	0.0
+PMID_12058348_Patient_6_de-prompt.txt	Costello-Syndrom	0.25	4.0	OMIM:151100	False	0.0
+PMID_12058348_Patient_6_de-prompt.txt	Kabuki-Syndrom	0.2	5.0	OMIM:151100	False	0.0
+PMID_29351582_29351582_P1_de-prompt.txt	Spinale Muskelatrophie (SMA)	1.0	1.0	OMIM:604377	False	0.0
+PMID_29351582_29351582_P1_de-prompt.txt	Charcot-Marie-Tooth-Krankheit (Typ 2)	0.5	2.0	OMIM:604377	False	0.0
+PMID_29351582_29351582_P1_de-prompt.txt	MONDO:0009688	0.3333333333333333	3.0	OMIM:604377	False	0.0
+PMID_29351582_29351582_P1_de-prompt.txt	Kongenitale myasthene Syndrome (CMS)	0.25	4.0	OMIM:604377	False	0.0
+PMID_29351582_29351582_P1_de-prompt.txt	Hereditäre motorische und sensorische Neuropathien	0.2	5.0	OMIM:604377	False	0.0
+PMID_10756346_D22_de-prompt.txt	Marfan-Syndrom	1.0	1.0	OMIM:154700	False	0.0
+PMID_10756346_D22_de-prompt.txt	MONDO:0018954	0.5	2.0	OMIM:154700	False	0.0
+PMID_10756346_D22_de-prompt.txt	Osteogenesis imperfecta (gelegentlich kann es zu ähnlich erscheinenden Merkmalen führen)	0.3333333333333333	3.0	OMIM:154700	False	0.0
+PMID_10756346_D22_de-prompt.txt	Ehlers-Danlos-Syndrom (spezifische Typen)	0.25	4.0	OMIM:154700	False	0.0
+PMID_29707406_B_III_2_de-prompt.txt	MONDO:0007113	1.0	1.0	OMIM:606854	False	0.0
+PMID_29707406_B_III_2_de-prompt.txt	Rett-Syndrom	0.5	2.0	OMIM:606854	False	0.0
+PMID_29707406_B_III_2_de-prompt.txt	Ataxia-Telangiektasie	0.3333333333333333	3.0	OMIM:606854	False	0.0
+PMID_29707406_B_III_2_de-prompt.txt	Neuronale Ceroid-Lipofuszinose	0.25	4.0	OMIM:606854	False	0.0
+PMID_29707406_B_III_2_de-prompt.txt	Joubert-Syndrom	0.2	5.0	OMIM:606854	False	0.0
+PMID_37433783_P15_de-prompt.txt	Leukodystrophie	1.0	1.0	OMIM:601674	False	0.0
+PMID_37433783_P15_de-prompt.txt	X-chromosomale Adrenoleukodystrophie	0.5	2.0	OMIM:601674	False	0.0
+PMID_37433783_P15_de-prompt.txt	MONDO:0017222	0.3333333333333333	3.0	OMIM:601674	False	0.0
+PMID_37433783_P15_de-prompt.txt	Metachromatische Leukodystrophie	0.25	4.0	OMIM:601674	False	0.0
+PMID_37433783_P15_de-prompt.txt	Krabbe-Krankheit	0.2	5.0	OMIM:601674	False	0.0
+PMID_25477417_F8_1_de-prompt.txt	Bartter-Syndrom	1.0	1.0	OMIM:248250	False	0.0
+PMID_25477417_F8_1_de-prompt.txt	Gitelman-Syndrom	0.5	2.0	OMIM:248250	False	0.0
+PMID_25477417_F8_1_de-prompt.txt	Hypomagnesiämie mit sekundärem Hypokalzämie-Syndrom	0.3333333333333333	3.0	OMIM:248250	False	0.0
+PMID_25477417_F8_1_de-prompt.txt	Dent-Krankheit	0.25	4.0	OMIM:248250	False	0.0
+PMID_25477417_F8_1_de-prompt.txt	Hyperparathyreoidismus	0.2	5.0	OMIM:248250	False	0.0
+PMID_36446582_Kutkowska_Kazmierczak2021_P5_de-prompt.txt	MONDO:0019188	1.0	1.0	OMIM:148050	False	0.0
+PMID_36446582_Kutkowska_Kazmierczak2021_P5_de-prompt.txt	Williams-Beuren-Syndrom	0.5	2.0	OMIM:148050	False	0.0
+PMID_36446582_Kutkowska_Kazmierczak2021_P5_de-prompt.txt	MONDO:0008434	0.3333333333333333	3.0	OMIM:148050	False	0.0
+PMID_36446582_Kutkowska_Kazmierczak2021_P5_de-prompt.txt	MONDO:0007113	0.25	4.0	OMIM:148050	False	0.0
+PMID_36446582_Kutkowska_Kazmierczak2021_P5_de-prompt.txt	X-chromosomale intellektuelle Beeinträchtigung (Richardson-Syndrom)	0.2	5.0	OMIM:148050	False	0.0
+STX_EG0898P_de-prompt.txt	Rett-Syndrom	1.0	1.0	OMIM:612164	False	0.0
+STX_EG0898P_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:612164	False	0.0
+STX_EG0898P_de-prompt.txt	Fragiles X-Syndrom	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_EG0898P_de-prompt.txt	MONDO:0008840	0.25	4.0	OMIM:612164	False	0.0
+STX_EG0898P_de-prompt.txt	Mitochondriale Erkrankung (z.B. MELAS-Syndrom)	0.2	5.0	OMIM:612164	False	0.0
+PMID_36074901_15_de-prompt.txt	Fragiles-X-Syndrom	1.0	1.0	OMIM:620465	False	0.0
+PMID_36074901_15_de-prompt.txt	Rett-Syndrom	0.5	2.0	OMIM:620465	False	0.0
+PMID_36074901_15_de-prompt.txt	MONDO:0007113	0.3333333333333333	3.0	OMIM:620465	False	0.0
+PMID_36074901_15_de-prompt.txt	MONDO:0008300	0.25	4.0	OMIM:620465	False	0.0
+PMID_36074901_15_de-prompt.txt	Williams-Beuren-Syndrom	0.2	5.0	OMIM:620465	False	0.0
+PMID_33731876_fam402_de-prompt.txt	Rett-Syndrom	1.0	1.0	OMIM:613721	False	0.0
+PMID_33731876_fam402_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:613721	False	0.0
+PMID_33731876_fam402_de-prompt.txt	Fragiles-X-Syndrom	0.3333333333333333	3.0	OMIM:613721	False	0.0
+PMID_33731876_fam402_de-prompt.txt	MONDO:0012589	0.25	4.0	OMIM:613721	False	0.0
+PMID_33731876_fam402_de-prompt.txt	MECP2-Duplikationssyndrom	0.2	5.0	OMIM:613721	False	0.0
+PMID_10077612_Family_B_III_2_de-prompt.txt	Thalidomid-Embryopathie	1.0	1.0	OMIM:142900	False	0.0
+PMID_10077612_Family_B_III_2_de-prompt.txt	Roberts-Syndrom	0.5	2.0	OMIM:142900	False	0.0
+PMID_10077612_Family_B_III_2_de-prompt.txt	Holt-Oram-Syndrom	0.3333333333333333	3.0	OMIM:142900	False	0.0
+PMID_10077612_Family_B_III_2_de-prompt.txt	Fanconi-Anämie	0.25	4.0	OMIM:142900	False	0.0
+PMID_35112411_35112411_P2_de-prompt.txt	Fragiles-X-Syndrom	1.0	1.0	OMIM:604377	False	0.0
+PMID_35112411_35112411_P2_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:604377	False	0.0
+PMID_35112411_35112411_P2_de-prompt.txt	Rett-Syndrom	0.3333333333333333	3.0	OMIM:604377	False	0.0
+PMID_35112411_35112411_P2_de-prompt.txt	MONDO:0019258	0.25	4.0	OMIM:604377	False	0.0
+PMID_35112411_35112411_P2_de-prompt.txt	MONDO:0008840	0.2	5.0	OMIM:604377	False	0.0
+PMID_29127725_Patient_2_de-prompt.txt	MONDO:0010035	1.0	1.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_2_de-prompt.txt	Pallister-Hall-Syndrom	0.5	2.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_2_de-prompt.txt	Joubert-Syndrom	0.3333333333333333	3.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_2_de-prompt.txt	MONDO:0008287	0.25	4.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_2_de-prompt.txt	Bardet-Biedl-Syndrom	0.2	5.0	OMIM:174300	False	0.0
+STX_29023665_No_ID_1_de-prompt.txt	Rett-Syndrom	1.0	1.0	OMIM:612164	False	0.0
+STX_29023665_No_ID_1_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:612164	False	0.0
+STX_29023665_No_ID_1_de-prompt.txt	MECP2-Duplikationssyndrom	0.3333333333333333	3.0	OMIM:612164	False	0.0
+STX_29023665_No_ID_1_de-prompt.txt	MONDO:0012589	0.25	4.0	OMIM:612164	False	0.0
+STX_29023665_No_ID_1_de-prompt.txt	Neurodegeneration mit Gehirneisenablagerungen (NBIA)	0.2	5.0	OMIM:612164	False	0.0
+PMID_36745799_V_13_de-prompt.txt	Gliedergürteldystrophie	1.0	1.0	OMIM:620375	False	0.0
+PMID_36745799_V_13_de-prompt.txt	Muskeldystrophie Typ Becker	0.5	2.0	OMIM:620375	False	0.0
+PMID_36745799_V_13_de-prompt.txt	Myotone Dystrophie Typ 1	0.3333333333333333	3.0	OMIM:620375	False	0.0
+PMID_36745799_V_13_de-prompt.txt	MONDO:0019127	0.25	4.0	OMIM:620375	False	0.0
+PMID_36745799_V_13_de-prompt.txt	Mitochondriale Myopathie	0.2	5.0	OMIM:620375	False	0.0
+PMID_37761890_12__de-prompt.txt	MONDO:0007113	1.0	1.0	OMIM:616362	False	0.0
+PMID_37761890_12__de-prompt.txt	MONDO:0008300	0.5	2.0	OMIM:616362	False	0.0
+PMID_37761890_12__de-prompt.txt	MONDO:0008434	0.3333333333333333	3.0	OMIM:616362	False	0.0
+PMID_37761890_12__de-prompt.txt	Rett-Syndrom	0.25	4.0	OMIM:616362	False	0.0
+PMID_37761890_12__de-prompt.txt	Fragiles-X-Syndrom	0.2	5.0	OMIM:616362	False	0.0
+PMID_37962958_26_de-prompt.txt	MONDO:0008434	1.0	1.0	OMIM:620535	False	0.0
+PMID_37962958_26_de-prompt.txt	Wiedemann-Steiner-Syndrom	0.5	2.0	OMIM:620535	False	0.0
+PMID_37962958_26_de-prompt.txt	Kabuki-Syndrom	0.3333333333333333	3.0	OMIM:620535	False	0.0
+PMID_37962958_26_de-prompt.txt	Williams-Beuren-Syndrom	0.25	4.0	OMIM:620535	False	0.0
+PMID_37962958_26_de-prompt.txt	Noonan-Syndrom	0.2	5.0	OMIM:620535	False	0.0
+PMID_21217753_Fam_1_IV_9_de-prompt.txt	Ehlers-Danlos-Syndrom (insbesondere das klassische oder vaskuläre Typ)	1.0	1.0	OMIM:613795	False	0.0
+PMID_21217753_Fam_1_IV_9_de-prompt.txt	Marfan-Syndrom	0.5	2.0	OMIM:613795	False	0.0
+PMID_21217753_Fam_1_IV_9_de-prompt.txt	MONDO:0018954	0.3333333333333333	3.0	OMIM:613795	True	0.3333333333333333
+PMID_21217753_Fam_1_IV_9_de-prompt.txt	Stickler-Syndrom	0.25	4.0	OMIM:613795	False	0.0
+PMID_21217753_Fam_1_IV_9_de-prompt.txt	MONDO:0019019	0.2	5.0	OMIM:613795	False	0.0
+PMID_32431071_Family_2_IV_2_de-prompt.txt	MONDO:0010035	1.0	1.0	OMIM:620655	False	0.0
+PMID_32431071_Family_2_IV_2_de-prompt.txt	MONDO:0019188	0.5	2.0	OMIM:620655	False	0.0
+PMID_32431071_Family_2_IV_2_de-prompt.txt	Noonan-Syndrom	0.3333333333333333	3.0	OMIM:620655	False	0.0
+PMID_32431071_Family_2_IV_2_de-prompt.txt	Williams-Beuren-Syndrom	0.25	4.0	OMIM:620655	False	0.0
+PMID_32431071_Family_2_IV_2_de-prompt.txt	MONDO:0019349	0.2	5.0	OMIM:620655	False	0.0
+PMID_35047834_Individual_3_1_de-prompt.txt	Rett-Syndrom	1.0	1.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_3_1_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_3_1_de-prompt.txt	Fragiles-X-Syndrom	0.3333333333333333	3.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_3_1_de-prompt.txt	MONDO:0008300	0.25	4.0	OMIM:620700	False	0.0
+PMID_35047834_Individual_3_1_de-prompt.txt	Duchenne-Muskeldystrophie	0.2	5.0	OMIM:620700	False	0.0
+PMID_25868664_Family_18_Case_20_de-prompt.txt	Pyruvat-Dehydrogenase-Mangel	1.0	1.0	OMIM:615471	False	0.0
+PMID_25868664_Family_18_Case_20_de-prompt.txt	Leigh-Syndrom	0.5	2.0	OMIM:615471	False	0.0
+PMID_25868664_Family_18_Case_20_de-prompt.txt	Glycogenose Typ II (Morbus Pompe)	0.3333333333333333	3.0	OMIM:615471	False	0.0
+PMID_25868664_Family_18_Case_20_de-prompt.txt	MONDO:0010789	0.25	4.0	OMIM:615471	False	0.0
+PMID_25868664_Family_18_Case_20_de-prompt.txt	MONDO:0010787	0.2	5.0	OMIM:615471	False	0.0
+PMID_22150416_Patient_2_de-prompt.txt	Craniometaphyseale Dysplasie	1.0	1.0	OMIM:123000	False	0.0
+PMID_22150416_Patient_2_de-prompt.txt	Osteopetrose	0.5	2.0	OMIM:123000	False	0.0
+PMID_22150416_Patient_2_de-prompt.txt	Camurati-Engelmann-Syndrom	0.3333333333333333	3.0	OMIM:123000	False	0.0
+PMID_22150416_Patient_2_de-prompt.txt	Frontometaphyseale Dysplasie	0.25	4.0	OMIM:123000	False	0.0
+PMID_33731876_fam361_de-prompt.txt	Fragiles-X-Syndrom	1.0	1.0	OMIM:613721	False	0.0
+PMID_33731876_fam361_de-prompt.txt	Rett-Syndrom (bei weiblichen Patienten)	0.5	2.0	OMIM:613721	False	0.0
+PMID_33731876_fam361_de-prompt.txt	MONDO:0008434	0.3333333333333333	3.0	OMIM:613721	False	0.0
+PMID_33731876_fam361_de-prompt.txt	MONDO:0007113	0.25	4.0	OMIM:613721	False	0.0
+PMID_33731876_fam361_de-prompt.txt	Turner-Syndrom (Eher bei weiblichem Patienten, obwohl einige Symptome nicht passen könnten)	0.2	5.0	OMIM:613721	False	0.0
+PMID_33731876_fam361_de-prompt.txt	22q11.2-Deletionssyndrom (DiGeorge-Syndrom)	0.1666666666666666	6.0	OMIM:613721	False	0.0
+PMID_33731876_fam361_de-prompt.txt	Tuberöse Sklerose (obwohl normalerweise mit Krampfanfällen)	0.1428571428571428	7.0	OMIM:613721	False	0.0
+PMID_33731876_fam361_de-prompt.txt	Williams-Syndrom	0.125	8.0	OMIM:613721	False	0.0
+PMID_27250695_Family_11_patient_15_de-prompt.txt	Rett-Syndrom	1.0	1.0	OMIM:608716	False	0.0
+PMID_27250695_Family_11_patient_15_de-prompt.txt	MONDO:0007113	0.5	2.0	OMIM:608716	False	0.0
+PMID_27250695_Family_11_patient_15_de-prompt.txt	MONDO:0010035	0.3333333333333333	3.0	OMIM:608716	False	0.0
+PMID_27250695_Family_11_patient_15_de-prompt.txt	Primäre Mikrozephalie	0.25	4.0	OMIM:608716	False	0.0
+PMID_27250695_Family_11_patient_15_de-prompt.txt	MONDO:0019188	0.2	5.0	OMIM:608716	False	0.0
+PMID_20074988__20074988_P6_de-prompt.txt	Mitochondriale Erkrankung (zum Beispiel das Leigh-Syndrom)	1.0	1.0	OMIM:256810	False	0.0
+PMID_20074988__20074988_P6_de-prompt.txt	Glycogenspeicherkrankheit Typ I (Von-Gierke-Krankheit)	0.5	2.0	OMIM:256810	False	0.0
+PMID_20074988__20074988_P6_de-prompt.txt	Glukosetransporter-1-Defizienzsyndrom	0.3333333333333333	3.0	OMIM:256810	False	0.0
+PMID_20074988__20074988_P6_de-prompt.txt	Zitrullinämie	0.25	4.0	OMIM:256810	False	0.0
+PMID_20074988__20074988_P6_de-prompt.txt	Galaktosämie	0.2	5.0	OMIM:256810	False	0.0
+PMID_36553465_P19_de-prompt.txt	Okulokutaner Albinismus	1.0	1.0	OMIM:606574	False	0.0
+PMID_36553465_P19_de-prompt.txt	MONDO:0013555	0.5	2.0	OMIM:606574	False	0.0
+PMID_36553465_P19_de-prompt.txt	MONDO:1010070	0.3333333333333333	3.0	OMIM:606574	False	0.0
+PMID_21683322_24_de-prompt.txt	MONDO:0018096	1.0	1.0	OMIM:102370	False	0.0
+PMID_21683322_24_de-prompt.txt	Geleophysischer Kleinwuchs	0.5	2.0	OMIM:102370	False	0.0
+PMID_21683322_24_de-prompt.txt	MONDO:0010196	0.3333333333333333	3.0	OMIM:102370	False	0.0
+PMID_21683322_24_de-prompt.txt	MONDO:0007481	0.25	4.0	OMIM:102370	False	0.0
+PMID_21683322_24_de-prompt.txt	Hypochondroplasie	0.2	5.0	OMIM:102370	False	0.0
+PMID_22541558_individual_L_1_de-prompt.txt	MONDO:0002457	1.0	1.0	OMIM:154400	False	0.0
+PMID_22541558_individual_L_1_de-prompt.txt	Nager-Syndrom	0.5	2.0	OMIM:154400	False	0.0
+PMID_22541558_individual_L_1_de-prompt.txt	Miller-Syndrom	0.3333333333333333	3.0	OMIM:154400	False	0.0
+PMID_22541558_individual_L_1_de-prompt.txt	Pierre-Robin-Syndrom	0.25	4.0	OMIM:154400	False	0.0
+PMID_22541558_individual_L_1_de-prompt.txt	Goldenhar-Syndrom	0.2	5.0	OMIM:154400	False	0.0
+PMID_29127725_Patient_1_de-prompt.txt	MONDO:0010731	1.0	1.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_1_de-prompt.txt	MONDO:0019188	0.5	2.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_1_de-prompt.txt	Apert-Syndrom	0.3333333333333333	3.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_1_de-prompt.txt	Pallister-Killian-Syndrom	0.25	4.0	OMIM:174300	False	0.0
+PMID_29127725_Patient_1_de-prompt.txt	MONDO:0019349	0.2	5.0	OMIM:174300	False	0.0
+PMID_12203992_B3_de-prompt.txt	Marfan-Syndrom	1.0	1.0	OMIM:154700	False	0.0
+PMID_12203992_B3_de-prompt.txt	Homozystinurie	0.5	2.0	OMIM:154700	False	0.0
+PMID_12203992_B3_de-prompt.txt	MONDO:0018954	0.3333333333333333	3.0	OMIM:154700	False	0.0
+PMID_12203992_B3_de-prompt.txt	MONDO:0016469	0.25	4.0	OMIM:154700	False	0.0
+PMID_37850357_Case_2_de-prompt.txt	MONDO:0007838	1.0	1.0	OMIM:620654	False	0.0
+PMID_37850357_Case_2_de-prompt.txt	MONDO:0008684	0.5	2.0	OMIM:620654	False	0.0
+PMID_37850357_Case_2_de-prompt.txt	Cri-du-Chat-Syndrom	0.3333333333333333	3.0	OMIM:620654	False	0.0
+PMID_37850357_Case_2_de-prompt.txt	DiGeorge-Syndrom (22q11.2-Deletion-Syndrom)	0.25	4.0	OMIM:620654	False	0.0
+PMID_37850357_Case_2_de-prompt.txt	Williams-Syndrom	0.2	5.0	OMIM:620654	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_de-prompt.txt	MONDO:0008381	1.0	1.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_de-prompt.txt	Lebersche kongenitale Amaurose	0.5	2.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_de-prompt.txt	Stargardt-Krankheit	0.3333333333333333	3.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_de-prompt.txt	Morbus Best (Vitelliforme Makuladegeneration)	0.25	4.0	OMIM:613826	False	0.0
+PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_de-prompt.txt	Zapfen-Stäbchendystrophie	0.2	5.0	OMIM:613826	False	0.0

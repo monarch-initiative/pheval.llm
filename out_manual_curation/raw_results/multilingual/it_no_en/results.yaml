@@ -1,0 +1,3589 @@
+---
+input_text: |-
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Sindrome di Prader-Willi
+  4. Sindrome di Angelman
+  5. Sindrome di Williams
+  6. Sindrome di Down
+raw_completion_output: |-
+  terms: Sindrome dell'X fragile; Sindrome di Rett; Sindrome di Prader-Willi; Sindrome di Angelman; Sindrome di Williams; Sindrome di Down  
+  label: Disease Names
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Sindrome di Prader-Willi
+  4. Sindrome di Angelman
+  5. Sindrome di Williams
+  6. Sindrome di Down
+
+  ===
+
+extracted_object:
+  id: ba3d0291-157d-48e3-8c77-02433b19bb29
+  label: PMID_37761890_12__it-prompt.txt
+  terms:
+    - Sindrome dell'X fragile
+    - Sindrome di Rett
+    - Sindrome di Prader-Willi
+    - Sindrome di Angelman
+    - Sindrome di Williams
+    - Sindrome di Down
+---
+input_text: |-
+  1. Distrofia muscolare dei cingoli tipo 2A (calpainaopatia)
+  2. Malattia di Gowers-Laing (Distrofia muscolare ereditaria posteriore)
+  3. Distrofia muscolare di Becker
+  4. Miopatia infiammatoria necrotizzante
+  5. Miopatia metabolica (ad esempio, deficit di carnitina palmitoiltransferasi II)
+  6. Malattia di Pompe ad esordio tardivo
+raw_completion_output: |-
+  terms: Distrofia muscolare dei cingoli tipo 2A (calpainaopatia); Malattia di Gowers-Laing (Distrofia muscolare ereditaria posteriore); Distrofia muscolare di Becker; Miopatia infiammatoria necrotizzante; Miopatia metabolica; Malattia di Pompe ad esordio tardivo.
+  label: Distrofia muscolare ereditaria posteriore
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Distrofia muscolare dei cingoli tipo 2A (calpainaopatia)
+  2. Malattia di Gowers-Laing (Distrofia muscolare ereditaria posteriore)
+  3. Distrofia muscolare di Becker
+  4. Miopatia infiammatoria necrotizzante
+  5. Miopatia metabolica (ad esempio, deficit di carnitina palmitoiltransferasi II)
+  6. Malattia di Pompe ad esordio tardivo
+
+  ===
+
+extracted_object:
+  id: d04ea6f6-ef81-42b6-ac60-d3d9c8d228f0
+  label: PMID_36745799_V_13_it-prompt.txt
+  terms:
+    - Distrofia muscolare dei cingoli tipo 2A (calpainaopatia)
+    - Malattia di Gowers-Laing (Distrofia muscolare ereditaria posteriore)
+    - Distrofia muscolare di Becker
+    - Miopatia infiammatoria necrotizzante
+    - Miopatia metabolica
+    - Malattia di Pompe ad esordio tardivo.
+---
+input_text: |-
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Kabuki
+  3. Sindrome di Noonan
+  4. Sindrome di Williams
+  5. Sindrome di Angelman
+raw_completion_output: |-
+  terms: Sindrome di Smith-Magenis; Sindrome di Kabuki; Sindrome di Noonan; Sindrome di Williams; Sindrome di Angelman
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Kabuki
+  3. Sindrome di Noonan
+  4. Sindrome di Williams
+  5. Sindrome di Angelman
+
+  ===
+
+extracted_object:
+  id: ab285bcc-2323-44b1-877a-ea21fa4a4527
+  label: PMID_37962958_26_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Magenis
+    - Sindrome di Kabuki
+    - Sindrome di Noonan
+    - Sindrome di Williams
+    - Sindrome di Angelman
+---
+input_text: |-
+  1. Sindrome di Rett
+  2. Sindrome di Angelman
+  3. Sindrome di Prader-Willi
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Smith-Magenis
+raw_completion_output: |-
+  terms: Sindrome di Rett;Sindrome di Angelman;Sindrome di Prader-Willi;Sindrome di Pitt-Hopkins;Sindrome di Smith-Magenis  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rett
+  2. Sindrome di Angelman
+  3. Sindrome di Prader-Willi
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Smith-Magenis
+
+  ===
+
+extracted_object:
+  id: be635867-522a-4e97-af4f-9dd37138b2fa
+  label: STX_29023665_No_ID_1_it-prompt.txt
+  terms:
+    - Sindrome di Rett
+    - Sindrome di Angelman
+    - Sindrome di Prader-Willi
+    - Sindrome di Pitt-Hopkins
+    - Sindrome di Smith-Magenis
+---
+input_text: |-
+  1. Sindrome di Smith-Lemli-Opitz
+  2. Sindrome di Greig cephalopolysyndactyly (GCPS)
+  3. Sindrome di Joubert
+  4. Sindrome di Meckel-Gruber
+  5. Sindrome di Bardet-Biedl
+raw_completion_output: |-
+  terms: Sindrome di Smith-Lemli-Opitz; Sindrome di Greig cephalopolysyndactyly; Sindrome di Joubert; Sindrome di Meckel-Gruber; Sindrome di Bardet-Biedl  
+  label: Sindrome di Greig cephalopolysyndactyly (GCPS)
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Lemli-Opitz
+  2. Sindrome di Greig cephalopolysyndactyly (GCPS)
+  3. Sindrome di Joubert
+  4. Sindrome di Meckel-Gruber
+  5. Sindrome di Bardet-Biedl
+
+  ===
+
+extracted_object:
+  id: 053544c7-714f-452b-8b8b-5dd5cafc5e68
+  label: PMID_29127725_Patient_2_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Lemli-Opitz
+    - Sindrome di Greig cephalopolysyndactyly
+    - Sindrome di Joubert
+    - Sindrome di Meckel-Gruber
+    - Sindrome di Bardet-Biedl
+---
+input_text: |-
+  1. Sindrome di Roberts
+  2. Sindrome di Holt-Oram
+  3. Sindrome di Thrombocytic-absent radius (TAR)
+  4. Sindrome di Adam Oliver
+  5. Sindrome di Cornelia de Lange
+raw_completion_output: |-
+  terms: Sindrome di Roberts; Sindrome di Holt-Oram; Sindrome di Thrombocytic-absent radius (TAR); Sindrome di Adam Oliver; Sindrome di Cornelia de Lange.
+  label: Sindrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Roberts
+  2. Sindrome di Holt-Oram
+  3. Sindrome di Thrombocytic-absent radius (TAR)
+  4. Sindrome di Adam Oliver
+  5. Sindrome di Cornelia de Lange
+
+  ===
+
+extracted_object:
+  id: 2a9ad8cf-092e-413e-8d0b-893e880454c8
+  label: PMID_10077612_Family_B_III_2_it-prompt.txt
+  terms:
+    - Sindrome di Roberts
+    - Sindrome di Holt-Oram
+    - MONDO:0010121
+    - Sindrome di Adam Oliver
+    - Sindrome di Cornelia de Lange.
+named_entities:
+  - id: MONDO:0010121
+    label: Sindrome di Thrombocytic-absent radius (TAR)
+---
+input_text: |-
+  1. Paralisi cerebrale infantile
+  2. Sindrome di Rett
+  3. Sindrome di Angelman
+  4. Disturbo dello spettro autistico associato a disabilità intellettiva
+  5. Sindrome di Lennox-Gastaut
+raw_completion_output: |-
+  terms: Paralisi cerebrale infantile; Sindrome di Rett; Sindrome di Angelman; Disturbo dello spettro autistico associato a disabilità intellettiva; Sindrome di Lennox-Gastaut
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Paralisi cerebrale infantile
+  2. Sindrome di Rett
+  3. Sindrome di Angelman
+  4. Disturbo dello spettro autistico associato a disabilità intellettiva
+  5. Sindrome di Lennox-Gastaut
+
+  ===
+
+extracted_object:
+  id: 6ea87fec-4d69-40e2-9a79-574c91128857
+  label: PMID_33731876_fam402_it-prompt.txt
+  terms:
+    - Paralisi cerebrale infantile
+    - Sindrome di Rett
+    - Sindrome di Angelman
+    - Disturbo dello spettro autistico associato a disabilità intellettiva
+    - Sindrome di Lennox-Gastaut
+---
+input_text: |-
+  1. Atassia-telangiectasia
+  2. Sindrome di Angelman
+  3. Malattia di Huntington (variante giovanile)
+  4. Sindrome di Rett
+  5. Distrofia muscolare di Duchenne (anche se il tremore è meno comune)
+  6. Sindrome dell'X fragile
+raw_completion_output: |-
+  terms: Atassia-telangiectasia;Sindrome di Angelman;Malattia di Huntington;Sindrome di Rett;Distrofia muscolare di Duchenne;Sindrome dell'X fragile
+  label: Text
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Atassia-telangiectasia
+  2. Sindrome di Angelman
+  3. Malattia di Huntington (variante giovanile)
+  4. Sindrome di Rett
+  5. Distrofia muscolare di Duchenne (anche se il tremore è meno comune)
+  6. Sindrome dell'X fragile
+
+  ===
+
+extracted_object:
+  id: 09d9ec7e-5163-4cf8-b6f4-41ac7f0e2f43
+  label: PMID_35112411_35112411_P2_it-prompt.txt
+  terms:
+    - Atassia-telangiectasia
+    - Sindrome di Angelman
+    - Malattia di Huntington
+    - Sindrome di Rett
+    - Distrofia muscolare di Duchenne
+    - Sindrome dell'X fragile
+---
+input_text: |-
+  1. Sindrome di Rett
+  2. Sindrome di Angelman
+  3. Sindrome di Prader-Willi
+  4. Malattia di Pompe
+  5. Distrofia muscolare di Duchenne
+raw_completion_output: |-
+  terms: Sindrome di Rett; Sindrome di Angelman; Sindrome di Prader-Willi; Malattia di Pompe; Distrofia muscolare di Duchenne
+  label: List of diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rett
+  2. Sindrome di Angelman
+  3. Sindrome di Prader-Willi
+  4. Malattia di Pompe
+  5. Distrofia muscolare di Duchenne
+
+  ===
+
+extracted_object:
+  id: 74f74ebb-6d03-4a8d-853f-2fecd5967641
+  label: PMID_35047834_Individual_3_1_it-prompt.txt
+  terms:
+    - Sindrome di Rett
+    - Sindrome di Angelman
+    - Sindrome di Prader-Willi
+    - Malattia di Pompe
+    - Distrofia muscolare di Duchenne
+---
+input_text: |-
+  1. Sindrome di Ehlers-Danlos, tipo classico
+  2. Cutis Laxa
+  3. Sindrome di Marfan (meno probabile, ma includiamo visto il coinvolgimento del tessuto connettivo)
+  4. Sindrome di Loeys-Dietz (meno probabile per l'assenza di alcune caratteristiche tipiche)
+  5. Sindrome di Stickler
+raw_completion_output: |-
+  terms: Sindrome di Ehlers-Danlos, tipo classico; Cutis Laxa; Sindrome di Marfan; Sindrome di Loeys-Dietz; Sindrome di Stickler
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Ehlers-Danlos, tipo classico
+  2. Cutis Laxa
+  3. Sindrome di Marfan (meno probabile, ma includiamo visto il coinvolgimento del tessuto connettivo)
+  4. Sindrome di Loeys-Dietz (meno probabile per l'assenza di alcune caratteristiche tipiche)
+  5. Sindrome di Stickler
+
+  ===
+
+extracted_object:
+  id: 9cfd4f48-c078-4c4a-9f1f-50917e4068dc
+  label: PMID_21217753_Fam_1_IV_9_it-prompt.txt
+  terms:
+    - Sindrome di Ehlers-Danlos, tipo classico
+    - MONDO:0016175
+    - Sindrome di Marfan
+    - Sindrome di Loeys-Dietz
+    - Sindrome di Stickler
+named_entities:
+  - id: MONDO:0016175
+    label: Cutis Laxa
+---
+input_text: |-
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Prader-Willi
+  3. Sindrome di Angelman
+  4. Sindrome di Williams
+  5. Sindrome di Rubinstein-Taybi
+raw_completion_output: |-
+  terms: Sindrome di Smith-Magenis; Sindrome di Prader-Willi; Sindrome di Angelman; Sindrome di Williams; Sindrome di Rubinstein-Taybi
+  label: Named things
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Prader-Willi
+  3. Sindrome di Angelman
+  4. Sindrome di Williams
+  5. Sindrome di Rubinstein-Taybi
+
+  ===
+
+extracted_object:
+  id: 2d0dce45-0fd0-4220-a2fa-31dded6f2939
+  label: PMID_32431071_Family_2_IV_2_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Magenis
+    - Sindrome di Prader-Willi
+    - Sindrome di Angelman
+    - Sindrome di Williams
+    - Sindrome di Rubinstein-Taybi
+---
+input_text: |-
+  1. Sindrome di Cornelia de Lange
+  2. Sindrome di Noonan
+  3. Acrodysostosi
+  4. Mucopolisaccaridosi tipo I (Sindrome di Hurler)
+  5. Sindrome di Turner
+raw_completion_output: |-
+  terms: Sindrome di Cornelia de Lange; Sindrome di Noonan; Acrodysostosi; Mucopolisaccaridosi tipo I (Sindrome di Hurler); Sindrome di Turner
+  label: list of syndromes and diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Cornelia de Lange
+  2. Sindrome di Noonan
+  3. Acrodysostosi
+  4. Mucopolisaccaridosi tipo I (Sindrome di Hurler)
+  5. Sindrome di Turner
+
+  ===
+
+extracted_object:
+  id: 157a187e-c159-4195-9f69-430090e6c45c
+  label: PMID_21683322_24_it-prompt.txt
+  terms:
+    - Sindrome di Cornelia de Lange
+    - Sindrome di Noonan
+    - Acrodysostosi
+    - Mucopolisaccaridosi tipo I (Sindrome di Hurler)
+    - Sindrome di Turner
+---
+input_text: |-
+  1. Albinismo oculocutaneo
+  2. Sindrome di Waardenburg
+  3. Sindrome di Hermansky-Pudlak
+  4. Sindrome di Chediak-Higashi
+raw_completion_output: |-
+  terms: Albinismo oculocutaneo; Sindrome di Waardenburg; Sindrome di Hermansky-Pudlak; Sindrome di Chediak-Higashi  
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Albinismo oculocutaneo
+  2. Sindrome di Waardenburg
+  3. Sindrome di Hermansky-Pudlak
+  4. Sindrome di Chediak-Higashi
+
+  ===
+
+extracted_object:
+  id: d488c1c0-454b-4764-a79b-f51acceaa5cc
+  label: PMID_36553465_P19_it-prompt.txt
+  terms:
+    - Albinismo oculocutaneo
+    - Sindrome di Waardenburg
+    - Sindrome di Hermansky-Pudlak
+    - Sindrome di Chediak-Higashi
+---
+input_text: |-
+  1. Sindrome di Zellweger
+  2. Sindrome di Leigh
+  3. Malattia di Niemann-Pick tipo C
+  4. Deficit di piruvato deidrogenasi
+  5. Malattia di Menkes
+raw_completion_output: |-
+  terms: Sindrome di Zellweger; Sindrome di Leigh; Malattia di Niemann-Pick tipo C; Deficit di piruvato deidrogenasi; Malattia di Menkes  
+  label: None  
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Zellweger
+  2. Sindrome di Leigh
+  3. Malattia di Niemann-Pick tipo C
+  4. Deficit di piruvato deidrogenasi
+  5. Malattia di Menkes
+
+  ===
+
+extracted_object:
+  id: 818bf11e-aa36-48a2-a4e9-7219a3e67130
+  label: PMID_20074988__20074988_P6_it-prompt.txt
+  terms:
+    - Sindrome di Zellweger
+    - Sindrome di Leigh
+    - Malattia di Niemann-Pick tipo C
+    - Deficit di piruvato deidrogenasi
+    - Malattia di Menkes
+---
+input_text: |-
+  1. Sindrome di Angelman
+  2. Sindrome di Rett (forma atipica senza epilessia)
+  3. Sindrome di Smith-Magenis
+  4. Sindrome dell'X fragile
+raw_completion_output: |-
+  terms: Sindrome di Angelman; Sindrome di Rett (forma atipica senza epilessia); Sindrome di Smith-Magenis; Sindrome dell'X fragile
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Angelman
+  2. Sindrome di Rett (forma atipica senza epilessia)
+  3. Sindrome di Smith-Magenis
+  4. Sindrome dell'X fragile
+
+  ===
+
+extracted_object:
+  id: 4a9a4d98-a3c2-4250-b159-b1fa801cd7ff
+  label: PMID_33731876_fam361_it-prompt.txt
+  terms:
+    - Sindrome di Angelman
+    - Sindrome di Rett (forma atipica senza epilessia)
+    - Sindrome di Smith-Magenis
+    - Sindrome dell'X fragile
+---
+input_text: |-
+  1. Sindrome di Rett
+  2. Sindrome di Silver-Russell
+  3. Sindrome di Cri du chat
+  4. Sindrome di Williams
+  5. Sindrome di Cornelia de Lange
+raw_completion_output: |-
+  terms: Sindrome di Rett;Sindrome di Silver-Russell;Sindrome di Cri du chat;Sindrome di Williams;Sindrome di Cornelia de Lange
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rett
+  2. Sindrome di Silver-Russell
+  3. Sindrome di Cri du chat
+  4. Sindrome di Williams
+  5. Sindrome di Cornelia de Lange
+
+  ===
+
+extracted_object:
+  id: 6ecc5681-4b92-4e56-8477-f08258583413
+  label: PMID_27250695_Family_11_patient_15_it-prompt.txt
+  terms:
+    - Sindrome di Rett
+    - Sindrome di Silver-Russell
+    - Sindrome di Cri du chat
+    - Sindrome di Williams
+    - Sindrome di Cornelia de Lange
+---
+input_text: |-
+  1. Malattia di Crouzon con acantosi nigricans
+  2. Sindrome di Apert
+  3. Displasia frontometafisaria
+  4. Sindrome di Cherubismo
+  5. Displasia craniofrontale
+raw_completion_output: |-
+  terms: Malattia di Crouzon con acantosi nigricans; Sindrome di Apert; Displasia frontometafisaria; Sindrome di Cherubismo; Displasia craniofrontale
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Malattia di Crouzon con acantosi nigricans
+  2. Sindrome di Apert
+  3. Displasia frontometafisaria
+  4. Sindrome di Cherubismo
+  5. Displasia craniofrontale
+
+  ===
+
+extracted_object:
+  id: a6ec6d05-21d3-4ed5-ae63-f7b2c53c2f04
+  label: PMID_22150416_Patient_2_it-prompt.txt
+  terms:
+    - Malattia di Crouzon con acantosi nigricans
+    - Sindrome di Apert
+    - Displasia frontometafisaria
+    - Sindrome di Cherubismo
+    - Displasia craniofrontale
+---
+input_text: |-
+  1. Sindrome di Leigh
+  2. Malattia di Pompe (Glicogenosi di tipo II)
+  3. Deficit di piruvato deidrogenasi
+  4. Aciduria lattica congenita
+  5. Deficit del complesso della catena respiratoria mitocondriale
+raw_completion_output: |-
+  terms: Sindrome di Leigh; Malattia di Pompe; Glicogenosi di tipo II; Deficit di piruvato deidrogenasi; Aciduria lattica congenita; Deficit del complesso della catena respiratoria mitocondriale  
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Leigh
+  2. Malattia di Pompe (Glicogenosi di tipo II)
+  3. Deficit di piruvato deidrogenasi
+  4. Aciduria lattica congenita
+  5. Deficit del complesso della catena respiratoria mitocondriale
+
+  ===
+
+extracted_object:
+  id: 983ff31a-39ff-4b3e-ae9e-3e6c06fbaca6
+  label: PMID_25868664_Family_18_Case_20_it-prompt.txt
+  terms:
+    - Sindrome di Leigh
+    - Malattia di Pompe
+    - Glicogenosi di tipo II
+    - Deficit di piruvato deidrogenasi
+    - Aciduria lattica congenita
+    - Deficit del complesso della catena respiratoria mitocondriale
+---
+input_text: |-
+  1. Sindrome di Jacobsen
+  2. Sindrome di Noonan
+  3. Sindrome di Williams
+raw_completion_output: |-
+  terms: Sindrome di Jacobsen; Sindrome di Noonan; Sindrome di Williams
+  label: The named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Jacobsen
+  2. Sindrome di Noonan
+  3. Sindrome di Williams
+
+  ===
+
+extracted_object:
+  id: 3e91810b-ef40-4bcc-b0a5-c65a1b02973e
+  label: PMID_37850357_Case_2_it-prompt.txt
+  terms:
+    - Sindrome di Jacobsen
+    - Sindrome di Noonan
+    - Sindrome di Williams
+---
+input_text: |-
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+raw_completion_output: |-
+  terms: Retinite pigmentosa;Degenerazione maculare;Malattia di Stargardt;Neuropatia ottica ereditaria di Leber;Amaurosi congenita di Leber
+  label: 
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+
+  ===
+
+extracted_object:
+  id: eea56ad7-4562-4608-97b8-c2046491df27
+  label: 
+    PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_6_Clinicalandmo_it-prompt.txt
+  terms:
+    - Retinite pigmentosa
+    - Degenerazione maculare
+    - Malattia di Stargardt
+    - Neuropatia ottica ereditaria di Leber
+    - Amaurosi congenita di Leber
+---
+input_text: |-
+  1. Sindrome di Wiedemann-Steiner
+  2. Sindrome di Cohen
+  3. Sindrome di Kabuki
+  4. Sindrome di Pallister-Hall
+  5. Sindrome di Greig cephalopolysyndactyly
+raw_completion_output: |-
+  terms: Sindrome di Wiedemann-Steiner; Sindrome di Cohen; Sindrome di Kabuki; Sindrome di Pallister-Hall; Sindrome di Greig cephalopolysyndactyly  
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Wiedemann-Steiner
+  2. Sindrome di Cohen
+  3. Sindrome di Kabuki
+  4. Sindrome di Pallister-Hall
+  5. Sindrome di Greig cephalopolysyndactyly
+
+  ===
+
+extracted_object:
+  id: 9d80d61b-2ac8-4213-a5cd-99c3a7fb8365
+  label: PMID_29127725_Patient_1_it-prompt.txt
+  terms:
+    - Sindrome di Wiedemann-Steiner
+    - Sindrome di Cohen
+    - Sindrome di Kabuki
+    - Sindrome di Pallister-Hall
+    - Sindrome di Greig cephalopolysyndactyly
+---
+input_text: |-
+  1. Sindrome di Marfan
+  2. Homocistinuria
+  3. Sindrome di Ehlers-Danlos
+  4. Sindrome di Loeys-Dietz
+  5. Acromegalia
+raw_completion_output: |-
+  terms: Sindrome di Marfan; Homocistinuria; Sindrome di Ehlers-Danlos; Sindrome di Loeys-Dietz; Acromegalia
+  label: List of Syndromes and Diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Marfan
+  2. Homocistinuria
+  3. Sindrome di Ehlers-Danlos
+  4. Sindrome di Loeys-Dietz
+  5. Acromegalia
+
+  ===
+
+extracted_object:
+  id: b5fdc5b9-bccf-4b7d-981c-b9b29273085f
+  label: PMID_12203992_B3_it-prompt.txt
+  terms:
+    - Sindrome di Marfan
+    - Homocistinuria
+    - Sindrome di Ehlers-Danlos
+    - Sindrome di Loeys-Dietz
+    - Acromegalia
+---
+input_text: |-
+  1. Sindrome di Treacher Collins
+  2. Sindrome di Nager
+  3. Sindrome di Miller
+  4. Sindrome di Duane-radiale
+  5. Sindrome di Goldenhar
+raw_completion_output: |-
+  terms: Sindrome di Treacher Collins; Sindrome di Nager; Sindrome di Miller; Sindrome di Duane-radiale; Sindrome di Goldenhar
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Treacher Collins
+  2. Sindrome di Nager
+  3. Sindrome di Miller
+  4. Sindrome di Duane-radiale
+  5. Sindrome di Goldenhar
+
+  ===
+
+extracted_object:
+  id: 8bdfbac6-1f16-477c-ae7f-3d7500641b9c
+  label: PMID_22541558_individual_L_1_it-prompt.txt
+  terms:
+    - Sindrome di Treacher Collins
+    - Sindrome di Nager
+    - Sindrome di Miller
+    - Sindrome di Duane-radiale
+    - Sindrome di Goldenhar
+---
+input_text: |-
+  1. Glaucoma primario ad angolo aperto
+  2. Sindrome di exfoliativa
+  3. Glaucoma secondario ad angolo aperto (ad esempio, dovuto a corticosteroidi)
+  4. Glaucoma pigmentario
+  5. Sindrome di dispersione pigmentaria
+raw_completion_output: |-
+  terms: Glaucoma primario ad angolo aperto; Sindrome di exfoliativa; Glaucoma secondario ad angolo aperto; Glaucoma pigmentario; Sindrome di dispersione pigmentaria
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Glaucoma primario ad angolo aperto
+  2. Sindrome di exfoliativa
+  3. Glaucoma secondario ad angolo aperto (ad esempio, dovuto a corticosteroidi)
+  4. Glaucoma pigmentario
+  5. Sindrome di dispersione pigmentaria
+
+  ===
+
+extracted_object:
+  id: 469859a2-9689-414e-b02c-73a68cc8544a
+  label: PMID_26162006_Individual_I_1_it-prompt.txt
+  terms:
+    - Glaucoma primario ad angolo aperto
+    - Sindrome di exfoliativa
+    - Glaucoma secondario ad angolo aperto
+    - Glaucoma pigmentario
+    - Sindrome di dispersione pigmentaria
+---
+input_text: |-
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Disturbo dello spettro autistico (ASD) con disabilità intellettiva
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Angelman
+raw_completion_output: |-
+  terms: Sindrome dell'X fragile; Sindrome di Rett; Disturbo dello spettro autistico (ASD) con disabilità intellettiva; Sindrome di Pitt-Hopkins; Sindrome di Angelman
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Disturbo dello spettro autistico (ASD) con disabilità intellettiva
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Angelman
+
+  ===
+
+extracted_object:
+  id: b8900159-07cd-423f-8170-fde954d0509e
+  label: PMID_28132691_Subject_3_it-prompt.txt
+  terms:
+    - Sindrome dell'X fragile
+    - Sindrome di Rett
+    - MONDO:0007172
+    - Sindrome di Pitt-Hopkins
+    - Sindrome di Angelman
+named_entities:
+  - id: MONDO:0007172
+    label: Disturbo dello spettro autistico (ASD) con disabilità intellettiva
+---
+input_text: |-
+  1. Sindrome di Aicardi
+  2. Sindrome di West
+  3. Sindrome di Lennox-Gastaut
+  4. Encefalopatia epilettica precoce (EIEE)
+  5. Sindrome di Dravet
+raw_completion_output: |-
+  terms: Sindrome di Aicardi; Sindrome di West; Sindrome di Lennox-Gastaut; Encefalopatia epilettica precoce (EIEE); Sindrome di Dravet
+  label: N/A
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Aicardi
+  2. Sindrome di West
+  3. Sindrome di Lennox-Gastaut
+  4. Encefalopatia epilettica precoce (EIEE)
+  5. Sindrome di Dravet
+
+  ===
+
+extracted_object:
+  id: c417ec1d-0be0-40da-85df-d61e60279b59
+  label: STX_20887364_Subject_1979_it-prompt.txt
+  terms:
+    - Sindrome di Aicardi
+    - Sindrome di West
+    - Sindrome di Lennox-Gastaut
+    - MONDO:0100062
+    - Sindrome di Dravet
+named_entities:
+  - id: MONDO:0100062
+    label: Encefalopatia epilettica precoce (EIEE)
+---
+input_text: |-
+  1. Sindrome di Dravet
+  2. Encefalopatia epilettica infantile ad esordio precoce (EIEE)
+  3. Sindrome di Lennox-Gastaut
+  4. Epilessia mioclonica grave dell'infanzia (SMEI)
+  5. Encefalopatia epilessia mioclonica progressiva (PME)
+  6. Epilessia parziale continua di Kozhevnikov
+raw_completion_output: |-
+  terms: Sindrome di Dravet; Encefalopatia epilettica infantile ad esordio precoce; Sindrome di Lennox-Gastaut; Epilessia mioclonica grave dell'infanzia; Encefalopatia epilessia mioclonica progressiva; Epilessia parziale continua di Kozhevnikov
+  label: N/A
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Dravet
+  2. Encefalopatia epilettica infantile ad esordio precoce (EIEE)
+  3. Sindrome di Lennox-Gastaut
+  4. Epilessia mioclonica grave dell'infanzia (SMEI)
+  5. Encefalopatia epilessia mioclonica progressiva (PME)
+  6. Epilessia parziale continua di Kozhevnikov
+
+  ===
+
+extracted_object:
+  id: fc95ceec-741b-420c-963c-f60fe00a0add
+  label: STX_23708187_T1266_it-prompt.txt
+  terms:
+    - Sindrome di Dravet
+    - Encefalopatia epilettica infantile ad esordio precoce
+    - Sindrome di Lennox-Gastaut
+    - Epilessia mioclonica grave dell'infanzia
+    - Encefalopatia epilessia mioclonica progressiva
+    - Epilessia parziale continua di Kozhevnikov
+---
+input_text: |-
+  1. Atrofia multisistemica - Tipo cerebellare (MSA-C)
+  2. Degenerazione spinocerebellare (varie forme, ma considerando l'età e i sintomi, potrebbe essere utile considerare specifiche forme come SCA3 o SCA6)
+  3. Malattia di Friedreich (meno probabile a causa dell'età di insorgenza)
+  4. Atassia cerebellare idiopatica ad esordio tardivo (IOCA)
+  5. Malattia di Holmes-Adie (meno probabile, ma può avere manifestazioni atassiche)
+raw_completion_output: |-
+  terms: Atrofia multisistemica - Tipo cerebellare; Degenerazione spinocerebellare; Malattia di Friedreich; Atassia cerebellare idiopatica ad esordio tardivo; Malattia di Holmes-Adie
+  label: MSA-C; SCA3; SCA6; IOCA
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Atrofia multisistemica - Tipo cerebellare (MSA-C)
+  2. Degenerazione spinocerebellare (varie forme, ma considerando l'età e i sintomi, potrebbe essere utile considerare specifiche forme come SCA3 o SCA6)
+  3. Malattia di Friedreich (meno probabile a causa dell'età di insorgenza)
+  4. Atassia cerebellare idiopatica ad esordio tardivo (IOCA)
+  5. Malattia di Holmes-Adie (meno probabile, ma può avere manifestazioni atassiche)
+
+  ===
+
+extracted_object:
+  id: 9e46fa83-ec6e-4d96-a7b4-a347f2e0981c
+  label: PMID_37154409_C_II_2_it-prompt.txt
+  terms:
+    - Atrofia multisistemica - Tipo cerebellare
+    - Degenerazione spinocerebellare
+    - Malattia di Friedreich
+    - Atassia cerebellare idiopatica ad esordio tardivo
+    - Malattia di Holmes-Adie
+---
+input_text: |-
+  1. Sindrome di Smith-Lemli-Opitz
+  2. Sindrome di Mowat-Wilson
+  3. Sindrome di Coffin-Siris
+  4. Sindrome di Cornelia de Lange
+  5. Sindrome di Noonan
+  6. Sindrome di Aarskog
+  7. Sindrome di Kabuki
+raw_completion_output: |-
+  terms: Sindrome di Smith-Lemli-Opitz; Sindrome di Mowat-Wilson; Sindrome di Coffin-Siris; Sindrome di Cornelia de Lange; Sindrome di Noonan; Sindrome di Aarskog; Sindrome di Kabuki
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Lemli-Opitz
+  2. Sindrome di Mowat-Wilson
+  3. Sindrome di Coffin-Siris
+  4. Sindrome di Cornelia de Lange
+  5. Sindrome di Noonan
+  6. Sindrome di Aarskog
+  7. Sindrome di Kabuki
+
+  ===
+
+extracted_object:
+  id: 1ffb85b2-958b-402a-ad3e-13dd679ac9c9
+  label: PMID_25168959_Y29_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Lemli-Opitz
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Coffin-Siris
+    - Sindrome di Cornelia de Lange
+    - Sindrome di Noonan
+    - Sindrome di Aarskog
+    - Sindrome di Kabuki
+---
+input_text: |-
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Rett atipica
+  3. Sindrome di Angelman
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Sotos
+  6. Sindrome dell'X fragile
+raw_completion_output: |-
+  terms: Sindrome di Smith-Magenis; Sindrome di Rett atipica; Sindrome di Angelman; Sindrome di Pitt-Hopkins; Sindrome di Sotos; Sindrome dell'X fragile
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Rett atipica
+  3. Sindrome di Angelman
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Sotos
+  6. Sindrome dell'X fragile
+
+  ===
+
+extracted_object:
+  id: e37ed076-52f8-421a-ba4c-9035b31c2664
+  label: STX_S013_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Magenis
+    - Sindrome di Rett atipica
+    - Sindrome di Angelman
+    - Sindrome di Pitt-Hopkins
+    - MONDO:0019349
+    - Sindrome dell'X fragile
+named_entities:
+  - id: MONDO:0019349
+    label: Sindrome di Sotos
+---
+input_text: |-
+  1. Sindrome di Loeys-Dietz
+  2. Sindrome di Shprintzen-Goldberg
+  3. Sindrome di Turner
+  4. Sindrome di Wiedemann-Steiner
+raw_completion_output: |-
+  terms: Sindrome di Loeys-Dietz; Sindrome di Shprintzen-Goldberg; Sindrome di Turner; Sindrome di Wiedemann-Steiner
+  label: Sindrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Loeys-Dietz
+  2. Sindrome di Shprintzen-Goldberg
+  3. Sindrome di Turner
+  4. Sindrome di Wiedemann-Steiner
+
+  ===
+
+extracted_object:
+  id: 27331c83-1b6b-42f4-89d4-f0328290f3e8
+  label: PMID_32154675_Family_2_Patient_5_it-prompt.txt
+  terms:
+    - Sindrome di Loeys-Dietz
+    - Sindrome di Shprintzen-Goldberg
+    - Sindrome di Turner
+    - Sindrome di Wiedemann-Steiner
+---
+input_text: |-
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+raw_completion_output: |-
+  terms: Retinite pigmentosa;Degenerazione maculare;Malattia di Stargardt;Neuropatia ottica ereditaria di Leber;Amaurosi congenita di Leber
+  label: 
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+
+  ===
+
+extracted_object:
+  id: d6ebb170-8aa1-4531-8243-82fceeca0f27
+  label: 
+    PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_8_Clinicalandmo_it-prompt.txt
+  terms:
+    - Retinite pigmentosa
+    - Degenerazione maculare
+    - Malattia di Stargardt
+    - Neuropatia ottica ereditaria di Leber
+    - Amaurosi congenita di Leber
+---
+input_text: |-
+  1. Sindrome di Aarskog
+  2. Sindrome di Noonan
+  3. Sindrome di Cornelia de Lange
+  4. Sindrome di Beckwith-Wiedemann
+  5. Sindrome di Smith-Lemli-Opitz
+raw_completion_output: |-
+  terms: Sindrome di Aarskog; Sindrome di Noonan; Sindrome di Cornelia de Lange; Sindrome di Beckwith-Wiedemann; Sindrome di Smith-Lemli-Opitz
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Aarskog
+  2. Sindrome di Noonan
+  3. Sindrome di Cornelia de Lange
+  4. Sindrome di Beckwith-Wiedemann
+  5. Sindrome di Smith-Lemli-Opitz
+
+  ===
+
+extracted_object:
+  id: 27bc9d58-3370-4ce2-b5d0-e5038454e013
+  label: PMID_15266616_152_it-prompt.txt
+  terms:
+    - Sindrome di Aarskog
+    - Sindrome di Noonan
+    - Sindrome di Cornelia de Lange
+    - Sindrome di Beckwith-Wiedemann
+    - Sindrome di Smith-Lemli-Opitz
+---
+input_text: |-
+  1. Sindrome di Bartter
+  2. Sindrome di Gitelman
+  3. Iperparatiroidismo primario
+  4. Ipomagnesemia con ipercalciuria e nefrocalcinosi (FHHNC)
+  5. Sindrome di Dent
+raw_completion_output: |-
+  terms: Sindrome di Bartter; Sindrome di Gitelman; Iperparatiroidismo primario; Ipomagnesemia con ipercalciuria e nefrocalcinosi; Sindrome di Dent  
+  label: FHHNC
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Bartter
+  2. Sindrome di Gitelman
+  3. Iperparatiroidismo primario
+  4. Ipomagnesemia con ipercalciuria e nefrocalcinosi (FHHNC)
+  5. Sindrome di Dent
+
+  ===
+
+extracted_object:
+  id: 4f2b16bc-afa4-4a60-aa7d-40cf455f44de
+  label: PMID_25477417_F8_1_it-prompt.txt
+  terms:
+    - Sindrome di Bartter
+    - Sindrome di Gitelman
+    - Iperparatiroidismo primario
+    - Ipomagnesemia con ipercalciuria e nefrocalcinosi
+    - Sindrome di Dent
+---
+input_text: |-
+  1. Sindrome di Rett
+  2. Leucodistrofia metacromatica
+  3. Leucoencefalopatia megaloencefalica con cisti subcorticali
+  4. Malattia di Alexander
+  5. Malattia di Pelizaeus-Merzbacher
+raw_completion_output: |-
+  terms: Sindrome di Rett; Leucodistrofia metacromatica; Leucoencefalopatia megaloencefalica con cisti subcorticali; Malattia di Alexander; Malattia di Pelizaeus-Merzbacher
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rett
+  2. Leucodistrofia metacromatica
+  3. Leucoencefalopatia megaloencefalica con cisti subcorticali
+  4. Malattia di Alexander
+  5. Malattia di Pelizaeus-Merzbacher
+
+  ===
+
+extracted_object:
+  id: e02fdee5-b710-453f-ac9d-67416a87acc4
+  label: PMID_37433783_P15_it-prompt.txt
+  terms:
+    - Sindrome di Rett
+    - Leucodistrofia metacromatica
+    - Leucoencefalopatia megaloencefalica con cisti subcorticali
+    - Malattia di Alexander
+    - Malattia di Pelizaeus-Merzbacher
+---
+input_text: |-
+  1. Atassia teleangiectasia
+  2. Sindrome di Rett
+  3. Malattia di Lafora
+  4. Epilessia mioclonica progressiva
+  5. Neurodegenerazione con accumulo di ferro nel cervello
+raw_completion_output: |-
+  terms: Atassia teleangiectasia; Sindrome di Rett; Malattia di Lafora; Epilessia mioclonica progressiva; Neurodegenerazione con accumulo di ferro nel cervello
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Atassia teleangiectasia
+  2. Sindrome di Rett
+  3. Malattia di Lafora
+  4. Epilessia mioclonica progressiva
+  5. Neurodegenerazione con accumulo di ferro nel cervello
+
+  ===
+
+extracted_object:
+  id: 2f7ecfdd-9bf6-4f47-820f-cb46a6e99cc7
+  label: PMID_29707406_B_III_2_it-prompt.txt
+  terms:
+    - Atassia teleangiectasia
+    - Sindrome di Rett
+    - Malattia di Lafora
+    - Epilessia mioclonica progressiva
+    - Neurodegenerazione con accumulo di ferro nel cervello
+---
+input_text: |-
+  1. Sindrome di Noonan
+  2. Sindrome di Noonan con lentiggini multiple (noto anche come sindrome LEOPARD)
+  3. Sindrome di Turner (forme atipiche)
+  4. Sindrome di Williams
+  5. Displasia frontonasale
+raw_completion_output: |-
+  terms: Sindrome di Noonan; Sindrome di Noonan con lentiggini multiple; Sindrome di Turner; Sindrome di Williams; Displasia frontonasale
+  label: diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Noonan
+  2. Sindrome di Noonan con lentiggini multiple (noto anche come sindrome LEOPARD)
+  3. Sindrome di Turner (forme atipiche)
+  4. Sindrome di Williams
+  5. Displasia frontonasale
+
+  ===
+
+extracted_object:
+  id: fab8a73b-a3f9-4b97-9ef2-7ffb0420b775
+  label: PMID_12058348_Patient_6_it-prompt.txt
+  terms:
+    - Sindrome di Noonan
+    - Sindrome di Noonan con lentiggini multiple
+    - Sindrome di Turner
+    - Sindrome di Williams
+    - Displasia frontonasale
+---
+input_text: |-
+  1. Sindrome di Marfan
+  2. Sindrome di Loeys-Dietz
+  3. Sindrome di Ehlers-Danlos, tipo vascolare
+  4. Omocistinuria
+raw_completion_output: |-
+  terms: Sindrome di Marfan; Sindrome di Loeys-Dietz; Sindrome di Ehlers-Danlos, tipo vascolare; Omocistinuria  
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Marfan
+  2. Sindrome di Loeys-Dietz
+  3. Sindrome di Ehlers-Danlos, tipo vascolare
+  4. Omocistinuria
+
+  ===
+
+extracted_object:
+  id: 71135cb7-8bae-42a7-bf3b-cdc403dac474
+  label: PMID_10756346_D22_it-prompt.txt
+  terms:
+    - Sindrome di Marfan
+    - Sindrome di Loeys-Dietz
+    - Sindrome di Ehlers-Danlos, tipo vascolare
+    - Omocistinuria
+---
+input_text: |-
+  1. Atrofia Muscolare Spinale (SMA) tipo III
+  2. Sindrome di Charcot-Marie-Tooth
+  3. Malattia di Kennedy (Sindrome di Kennedy)
+  4. Distrofia Muscolare di Duchenne
+  5. Amiotrofia Spinale Progressiva
+raw_completion_output: |-
+  terms: Atrofia Muscolare Spinale; Sindrome di Charcot-Marie-Tooth; Malattia di Kennedy; Sindrome di Kennedy; Distrofia Muscolare di Duchenne; Amiotrofia Spinale Progressiva
+  label: 
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Atrofia Muscolare Spinale (SMA) tipo III
+  2. Sindrome di Charcot-Marie-Tooth
+  3. Malattia di Kennedy (Sindrome di Kennedy)
+  4. Distrofia Muscolare di Duchenne
+  5. Amiotrofia Spinale Progressiva
+
+  ===
+
+extracted_object:
+  id: 846842ce-d1ab-48ee-ba80-0a8eb61483f8
+  label: PMID_29351582_29351582_P1_it-prompt.txt
+  terms:
+    - Atrofia Muscolare Spinale
+    - Sindrome di Charcot-Marie-Tooth
+    - Malattia di Kennedy
+    - Sindrome di Kennedy
+    - Distrofia Muscolare di Duchenne
+    - Amiotrofia Spinale Progressiva
+---
+input_text: |-
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Sindrome di Prader-Willi
+  4. Sindrome di Angelman
+  5. Sindrome di Williams
+raw_completion_output: |-
+  terms: Sindrome dell'X fragile;Sindrome di Rett;Sindrome di Prader-Willi;Sindrome di Angelman;Sindrome di Williams
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Sindrome di Prader-Willi
+  4. Sindrome di Angelman
+  5. Sindrome di Williams
+
+  ===
+
+extracted_object:
+  id: ec9643c4-a80a-4865-8841-2206999b0439
+  label: PMID_36074901_15_it-prompt.txt
+  terms:
+    - Sindrome dell'X fragile
+    - Sindrome di Rett
+    - Sindrome di Prader-Willi
+    - Sindrome di Angelman
+    - Sindrome di Williams
+---
+input_text: |-
+  1. Sindrome di Rett
+  2. Atassia-Teleangectasia
+  3. Sindrome dell'X fragile
+  4. Malattia di Pelizaeus-Merzbacher
+  5. Sindrome di Angelman
+  6. Malattia di Niemann-Pick tipo C
+raw_completion_output: |-
+  terms: Sindrome di Rett; Atassia-Teleangectasia; Sindrome dell'X fragile; Malattia di Pelizaeus-Merzbacher; Sindrome di Angelman; Malattia di Niemann-Pick tipo C
+  label: diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rett
+  2. Atassia-Teleangectasia
+  3. Sindrome dell'X fragile
+  4. Malattia di Pelizaeus-Merzbacher
+  5. Sindrome di Angelman
+  6. Malattia di Niemann-Pick tipo C
+
+  ===
+
+extracted_object:
+  id: d0443a5d-9fe3-4868-b180-749b5189a214
+  label: STX_EG0898P_it-prompt.txt
+  terms:
+    - Sindrome di Rett
+    - Atassia-Teleangectasia
+    - Sindrome dell'X fragile
+    - Malattia di Pelizaeus-Merzbacher
+    - Sindrome di Angelman
+    - Malattia di Niemann-Pick tipo C
+---
+input_text: |-
+  1. Sindrome di Williams
+  2. Sindrome di Silver-Russell
+  3. Sindrome di Smith-Magenis
+  4. Sindrome di Kabuki
+  5. Sindrome di Prader-Willi
+raw_completion_output: |-
+  terms: Sindrome di Williams; Sindrome di Silver-Russell; Sindrome di Smith-Magenis; Sindrome di Kabuki; Sindrome di Prader-Willi  
+  label: names of syndromes
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Williams
+  2. Sindrome di Silver-Russell
+  3. Sindrome di Smith-Magenis
+  4. Sindrome di Kabuki
+  5. Sindrome di Prader-Willi
+
+  ===
+
+extracted_object:
+  id: d6c3b990-e02d-4171-9e42-d7f1c5aeec44
+  label: PMID_36446582_Kutkowska_Kazmierczak2021_P5_it-prompt.txt
+  terms:
+    - Sindrome di Williams
+    - Sindrome di Silver-Russell
+    - Sindrome di Smith-Magenis
+    - Sindrome di Kabuki
+    - Sindrome di Prader-Willi
+---
+input_text: |-
+  1. Albinismo oculocutaneo
+  2. Sindrome di Waardenburg
+  3. Albinismo oculare
+  4. Sindrome di Hermansky-Pudlak
+  5. Sindrome di Chediak-Higashi
+raw_completion_output: |-
+  terms: Albinismo oculocutaneo; Sindrome di Waardenburg; Albinismo oculare; Sindrome di Hermansky-Pudlak; Sindrome di Chediak-Higashi
+  label: Named things from the list
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Albinismo oculocutaneo
+  2. Sindrome di Waardenburg
+  3. Albinismo oculare
+  4. Sindrome di Hermansky-Pudlak
+  5. Sindrome di Chediak-Higashi
+
+  ===
+
+extracted_object:
+  id: 53ad8b53-f555-4f9b-ab8a-2e646d76db4d
+  label: PMID_36553465_P11_it-prompt.txt
+  terms:
+    - Albinismo oculocutaneo
+    - Sindrome di Waardenburg
+    - Albinismo oculare
+    - Sindrome di Hermansky-Pudlak
+    - Sindrome di Chediak-Higashi
+---
+input_text: |-
+  1. Sindrome di Cohen
+  2. Sindrome di Prader-Willi
+  3. Sindrome di Mucopolisaccaridosi (tipo III – Sindrome di Sanfilippo)
+  4. Sindrome di Bardet-Biedl
+  5. Malattia di Niemann-Pick, tipo C
+raw_completion_output: |-
+  terms: Sindrome di Cohen; Sindrome di Prader-Willi; Sindrome di Mucopolisaccaridosi (tipo III – Sindrome di Sanfilippo); Sindrome di Bardet-Biedl; Malattia di Niemann-Pick, tipo C
+  label: List of Syndromes and Diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Cohen
+  2. Sindrome di Prader-Willi
+  3. Sindrome di Mucopolisaccaridosi (tipo III – Sindrome di Sanfilippo)
+  4. Sindrome di Bardet-Biedl
+  5. Malattia di Niemann-Pick, tipo C
+
+  ===
+
+extracted_object:
+  id: ef1ec7fe-b0a3-484e-abac-2d7d64f2047c
+  label: PMID_37951597_Family_27_Subject_1_it-prompt.txt
+  terms:
+    - Sindrome di Cohen
+    - Sindrome di Prader-Willi
+    - Sindrome di Mucopolisaccaridosi (tipo III – Sindrome di Sanfilippo)
+    - Sindrome di Bardet-Biedl
+    - Malattia di Niemann-Pick, tipo C
+---
+input_text: |-
+  1. Sindrome di Marfan
+  2. Sindrome di Ehlers-Danlos (tipo ipermobile)
+  3. Sindrome di Loeys-Dietz
+  4. Sindrome di Stickler
+raw_completion_output: |-
+  terms: Sindrome di Marfan; Sindrome di Ehlers-Danlos; Sindrome di Loeys-Dietz; Sindrome di Stickler
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Marfan
+  2. Sindrome di Ehlers-Danlos (tipo ipermobile)
+  3. Sindrome di Loeys-Dietz
+  4. Sindrome di Stickler
+
+  ===
+
+extracted_object:
+  id: 7f0d91b4-4608-4bd7-9033-ab966d1ff7db
+  label: PMID_22772371_MS239_V_5_it-prompt.txt
+  terms:
+    - Sindrome di Marfan
+    - Sindrome di Ehlers-Danlos
+    - Sindrome di Loeys-Dietz
+    - Sindrome di Stickler
+---
+input_text: |-
+  1. Sindrome di Sotos
+  2. Sindrome di Angelman
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Rett
+raw_completion_output: |-
+  terms: Sindrome di Sotos; Sindrome di Angelman; Sindrome di Mowat-Wilson; Sindrome di Pitt-Hopkins; Sindrome di Rett
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Sotos
+  2. Sindrome di Angelman
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Pitt-Hopkins
+  5. Sindrome di Rett
+
+  ===
+
+extracted_object:
+  id: 2bb1f803-793e-4ae6-bb4e-9330169f53e6
+  label: STX_25533962_258242_it-prompt.txt
+  terms:
+    - MONDO:0019349
+    - Sindrome di Angelman
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Pitt-Hopkins
+    - Sindrome di Rett
+named_entities:
+  - id: MONDO:0019349
+    label: Sindrome di Sotos
+---
+input_text: |-
+  1. Sindrome di Angelman
+  2. Sindrome di Cri du Chat
+  3. Sindrome di Rett
+  4. Paralisi cerebrale infantile
+  5. Sindrome di Prader-Willi
+raw_completion_output: |-
+  terms: Sindrome di Angelman; Sindrome di Cri du Chat; Sindrome di Rett; Paralisi cerebrale infantile; Sindrome di Prader-Willi
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Angelman
+  2. Sindrome di Cri du Chat
+  3. Sindrome di Rett
+  4. Paralisi cerebrale infantile
+  5. Sindrome di Prader-Willi
+
+  ===
+
+extracted_object:
+  id: f346d0d6-bc5a-4edf-9e23-52e73cc9416b
+  label: PMID_27040691_Individual_2_1_it-prompt.txt
+  terms:
+    - Sindrome di Angelman
+    - Sindrome di Cri du Chat
+    - Sindrome di Rett
+    - Paralisi cerebrale infantile
+    - Sindrome di Prader-Willi
+---
+input_text: |-
+  1. Sindrome di Noonan
+  2. Sindrome di Costello
+  3. Sindrome di Leopard (Sindrome Noonan con lentiggini multiple)
+  4. Sindrome di Cardiofaciocutanea
+  5. Sindrome di Kabuki
+raw_completion_output: |-
+  terms: Sindrome di Noonan;Sindrome di Costello;Sindrome di Leopard;Sindrome Noonan con lentiggini multiple;Sindrome di Cardiofaciocutanea;Sindrome di Kabuki  
+  label: A list of medical syndromes
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Noonan
+  2. Sindrome di Costello
+  3. Sindrome di Leopard (Sindrome Noonan con lentiggini multiple)
+  4. Sindrome di Cardiofaciocutanea
+  5. Sindrome di Kabuki
+
+  ===
+
+extracted_object:
+  id: 49ff14ce-d6fb-409d-bb98-0c5dce31d54c
+  label: PMID_29469822_Family_3_II_1_it-prompt.txt
+  terms:
+    - Sindrome di Noonan
+    - Sindrome di Costello
+    - Sindrome di Leopard
+    - Sindrome Noonan con lentiggini multiple
+    - Sindrome di Cardiofaciocutanea
+    - Sindrome di Kabuki
+---
+input_text: |-
+  1. Sindrome di Aicardi
+  2. Sindrome di CHARGE
+  3. Sindrome di Dandy-Walker
+  4. Sindrome di Joubert
+  5. Sindrome di Smith-Lemli-Opitz
+raw_completion_output: |-
+  terms: Sindrome di Aicardi; Sindrome di CHARGE; Sindrome di Dandy-Walker; Sindrome di Joubert; Sindrome di Smith-Lemli-Opitz
+  label: The label (name) of the named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Aicardi
+  2. Sindrome di CHARGE
+  3. Sindrome di Dandy-Walker
+  4. Sindrome di Joubert
+  5. Sindrome di Smith-Lemli-Opitz
+
+  ===
+
+extracted_object:
+  id: f4d69166-7b8d-41a6-8043-0df30c8042a4
+  label: PMID_34645992_Individual_8_it-prompt.txt
+  terms:
+    - Sindrome di Aicardi
+    - Sindrome di CHARGE
+    - Sindrome di Dandy-Walker
+    - Sindrome di Joubert
+    - Sindrome di Smith-Lemli-Opitz
+---
+input_text: |-
+  1. Sindrome di Holt-Oram
+  2. Sindrome di Noonan
+  3. Sindrome di Ellis-van Creveld
+  4. Cardiomiopatia familiare con alterazioni di conduzione
+  5. Sindrome di Down (Trisomia 21)
+raw_completion_output: |-
+  terms: Sindrome di Holt-Oram; Sindrome di Noonan; Sindrome di Ellis-van Creveld; Cardiomiopatia familiare con alterazioni di conduzione; Sindrome di Down
+  label: Trisomia 21
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Holt-Oram
+  2. Sindrome di Noonan
+  3. Sindrome di Ellis-van Creveld
+  4. Cardiomiopatia familiare con alterazioni di conduzione
+  5. Sindrome di Down (Trisomia 21)
+
+  ===
+
+extracted_object:
+  id: b939ca41-616d-48c5-9ac3-e6f4ef8be7d7
+  label: PMID_16917909_603_1_it-prompt.txt
+  terms:
+    - Sindrome di Holt-Oram
+    - Sindrome di Noonan
+    - Sindrome di Ellis-van Creveld
+    - Cardiomiopatia familiare con alterazioni di conduzione
+    - Sindrome di Down
+---
+input_text: |-
+  1. Distrofia muscolare di tipo 1 (malattia di Steinert)
+  2. Distrofia muscolare di tipo 2 (distrofia miotonica prossimale)
+  3. Sclerosi laterale amiotrofica (SLA)
+  4. Malattia di Charcot-Marie-Tooth
+  5. Neuropatia motoria multifocale
+raw_completion_output: |-
+  terms: Distrofia muscolare di tipo 1; Malattia di Steinert; Distrofia muscolare di tipo 2; Distrofia miotonica prossimale; Sclerosi laterale amiotrofica; SLA; Malattia di Charcot-Marie-Tooth; Neuropatia motoria multifocale.
+  label: List of Diseases.
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Distrofia muscolare di tipo 1 (malattia di Steinert)
+  2. Distrofia muscolare di tipo 2 (distrofia miotonica prossimale)
+  3. Sclerosi laterale amiotrofica (SLA)
+  4. Malattia di Charcot-Marie-Tooth
+  5. Neuropatia motoria multifocale
+
+  ===
+
+extracted_object:
+  id: 00d8bf47-e123-4dc0-ab64-006918713fd8
+  label: PMID_24951643_Kinship_2_Patient_3_it-prompt.txt
+  terms:
+    - Distrofia muscolare di tipo 1
+    - Malattia di Steinert
+    - Distrofia muscolare di tipo 2
+    - Distrofia miotonica prossimale
+    - Sclerosi laterale amiotrofica
+    - SLA
+    - Malattia di Charcot-Marie-Tooth
+    - Neuropatia motoria multifocale.
+---
+input_text: |-
+  1. Sindrome di Aicardi-Goutières
+  2. Encefalopatia neurotrasmettitore/nekrofiscale infantile (Megalencefalia miastenoica)
+  3. Malattia di Leigh
+  4. Encefalopatias neuro-metaboliche congenite non specificate
+  5. Sindrome epilettica mioclonica precoce (EME)
+raw_completion_output: |-
+  terms: Sindrome di Aicardi-Goutières; Encefalopatia neurotrasmettitore/nekrofiscale infantile (Megalencefalia miastenoica); Malattia di Leigh; Encefalopatias neuro-metaboliche congenite non specificate; Sindrome epilettica mioclonica precoce (EME)
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Aicardi-Goutières
+  2. Encefalopatia neurotrasmettitore/nekrofiscale infantile (Megalencefalia miastenoica)
+  3. Malattia di Leigh
+  4. Encefalopatias neuro-metaboliche congenite non specificate
+  5. Sindrome epilettica mioclonica precoce (EME)
+
+  ===
+
+extracted_object:
+  id: 6b0c33fd-4146-45d3-8a57-5e60158abd26
+  label: PMID_33731876_fam178_it-prompt.txt
+  terms:
+    - Sindrome di Aicardi-Goutières
+    - Encefalopatia neurotrasmettitore/nekrofiscale infantile (Megalencefalia miastenoica)
+    - Malattia di Leigh
+    - Encefalopatias neuro-metaboliche congenite non specificate
+    - MONDO:0016022
+named_entities:
+  - id: MONDO:0016022
+    label: Sindrome epilettica mioclonica precoce (EME)
+---
+input_text: |-
+  1. Sindrome da delezione 22q11.2 (Sindrome di DiGeorge)
+  2. Sindrome di Charge
+  3. Sindrome di Treacher Collins
+  4. Sindrome di Noonan
+  5. Sindrome di Goldenhar
+raw_completion_output: |-
+  terms: Sindrome da delezione 22q11.2; Sindrome di Charge; Sindrome di Treacher Collins; Sindrome di Noonan; Sindrome di Goldenhar
+  label: Sindrome di DiGeorge
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome da delezione 22q11.2 (Sindrome di DiGeorge)
+  2. Sindrome di Charge
+  3. Sindrome di Treacher Collins
+  4. Sindrome di Noonan
+  5. Sindrome di Goldenhar
+
+  ===
+
+extracted_object:
+  id: fb86cb77-0ca5-4126-b933-18ab899bc5f5
+  label: PMID_14585638_F2_it-prompt.txt
+  terms:
+    - Sindrome da delezione 22q11.2
+    - Sindrome di Charge
+    - Sindrome di Treacher Collins
+    - Sindrome di Noonan
+    - Sindrome di Goldenhar
+---
+input_text: |-
+  1. Sindrome di Marfan
+  2. Sindrome di Ehlers-Danlos
+  3. Sindrome di Loeys-Dietz
+  4. Osteogenesi imperfetta di tipo I
+  5. Sindrome di Shprintzen-Goldberg
+raw_completion_output: |-
+  terms: Sindrome di Marfan; Sindrome di Ehlers-Danlos; Sindrome di Loeys-Dietz; Osteogenesi imperfetta di tipo I; Sindrome di Shprintzen-Goldberg
+  label: Sindrome di Marfan; Sindrome di Ehlers-Danlos; Sindrome di Loeys-Dietz; Osteogenesi imperfetta di tipo I; Sindrome di Shprintzen-Goldberg
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Marfan
+  2. Sindrome di Ehlers-Danlos
+  3. Sindrome di Loeys-Dietz
+  4. Osteogenesi imperfetta di tipo I
+  5. Sindrome di Shprintzen-Goldberg
+
+  ===
+
+extracted_object:
+  id: 416919fa-a56d-4c01-b265-d4844227500a
+  label: PMID_11175294_B27_it-prompt.txt
+  terms:
+    - Sindrome di Marfan
+    - Sindrome di Ehlers-Danlos
+    - Sindrome di Loeys-Dietz
+    - Osteogenesi imperfetta di tipo I
+    - Sindrome di Shprintzen-Goldberg
+---
+input_text: |-
+  1. Deficit di acil-CoA deidrogenasi a catena media (MCADD)
+  2. Sindrome di Reye
+  3. Malattia metabolica da accumulo di glicogeno tipo I (GSD I)
+  4. Ipoglicemia ipochetotica
+  5. Carenza di CPT-II (Carnitina palmitoiltransferasi II)
+raw_completion_output: |-
+  terms: Deficit di acil-CoA deidrogenasi a catena media;Sindrome di Reye;Malattia metabolica da accumulo di glicogeno tipo I;Ipoglicemia ipochetotica;Carenza di CPT-II
+  label: the named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Deficit di acil-CoA deidrogenasi a catena media (MCADD)
+  2. Sindrome di Reye
+  3. Malattia metabolica da accumulo di glicogeno tipo I (GSD I)
+  4. Ipoglicemia ipochetotica
+  5. Carenza di CPT-II (Carnitina palmitoiltransferasi II)
+
+  ===
+
+extracted_object:
+  id: 6b692bcb-0e4d-4a84-8d19-c27be3fa0b6e
+  label: PMID_33045405_Puisac_et_al___2018__patient_2_it-prompt.txt
+  terms:
+    - MONDO:0024546
+    - Sindrome di Reye
+    - Malattia metabolica da accumulo di glicogeno tipo I
+    - Ipoglicemia ipochetotica
+    - Carenza di CPT-II
+named_entities:
+  - id: MONDO:0024546
+    label: Deficit di acil-CoA deidrogenasi a catena media
+---
+input_text: |-
+  1. Sindrome di Waardenburg
+  2. Sindrome di Pendred
+  3. Sindrome di Alport
+  4. Sindrome di Usher (tipo senza coinvolgimento vestibolare)
+  5. Displasia broncopolmonare (nel contesto di disturbi della conduzione uditiva sensoriale)
+raw_completion_output: |-
+  terms: Sindrome di Waardenburg; Sindrome di Pendred; Sindrome di Alport; Sindrome di Usher; Displasia broncopolmonare
+  label: disturbi della conduzione uditiva sensoriale
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Waardenburg
+  2. Sindrome di Pendred
+  3. Sindrome di Alport
+  4. Sindrome di Usher (tipo senza coinvolgimento vestibolare)
+  5. Displasia broncopolmonare (nel contesto di disturbi della conduzione uditiva sensoriale)
+
+  ===
+
+extracted_object:
+  id: f93882b9-50f4-4e92-8057-76afef954999
+  label: PMID_21660509_PKDF793d_it-prompt.txt
+  terms:
+    - Sindrome di Waardenburg
+    - Sindrome di Pendred
+    - Sindrome di Alport
+    - Sindrome di Usher
+    - Displasia broncopolmonare
+---
+input_text: |-
+  1. Sindrome di Leigh
+  2. Deficit del complesso della catena respiratoria mitocondriale
+  3. Sindrome di Mitochondrial DNA depletion
+  4. Sindrome di Pearson
+  5. Sindrome di Alpers-Huttenlocher
+raw_completion_output: |-
+  terms: Sindrome di Leigh; Deficit del complesso della catena respiratoria mitocondriale; Sindrome di Mitochondrial DNA depletion; Sindrome di Pearson; Sindrome di Alpers-Huttenlocher
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Leigh
+  2. Deficit del complesso della catena respiratoria mitocondriale
+  3. Sindrome di Mitochondrial DNA depletion
+  4. Sindrome di Pearson
+  5. Sindrome di Alpers-Huttenlocher
+
+  ===
+
+extracted_object:
+  id: 683c44c0-7a90-47d1-af15-032a82aaf35d
+  label: PMID_32559514_1_year_old_girl_it-prompt.txt
+  terms:
+    - Sindrome di Leigh
+    - Deficit del complesso della catena respiratoria mitocondriale
+    - Sindrome di Mitochondrial DNA depletion
+    - Sindrome di Pearson
+    - Sindrome di Alpers-Huttenlocher
+---
+input_text: |-
+  1. Sindrome di Dravet
+  2. Sindrome di Lennox-Gastaut
+  3. Epilessia mioclonica severa dell’infanzia (SMEI)
+  4. Epilessia generalizzata con crisi febbrili plus (GEFS+)
+  5. Sindrome di West
+raw_completion_output: |-
+  terms: Sindrome di Dravet;Sindrome di Lennox-Gastaut;Epilessia mioclonica severa dell’infanzia;Epilessia generalizzata con crisi febbrili plus;Sindrome di West.
+  label: SMEI;GEFS+.
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Dravet
+  2. Sindrome di Lennox-Gastaut
+  3. Epilessia mioclonica severa dell’infanzia (SMEI)
+  4. Epilessia generalizzata con crisi febbrili plus (GEFS+)
+  5. Sindrome di West
+
+  ===
+
+extracted_object:
+  id: 47dbf9c9-08af-4338-933f-033fcfe5591b
+  label: PMID_33731876_fam273_it-prompt.txt
+  terms:
+    - Sindrome di Dravet
+    - Sindrome di Lennox-Gastaut
+    - Epilessia mioclonica severa dell’infanzia
+    - Epilessia generalizzata con crisi febbrili plus
+    - Sindrome di West.
+---
+input_text: |-
+  1. Sindrome di Cohen
+  2. Sindrome di Rubinstein-Taybi
+  3. Sindrome di Aarskog
+  4. Sindrome di Cornelia de Lange
+  5. Sindrome di Kabuki
+raw_completion_output: |-
+  terms: Sindrome di Cohen; Sindrome di Rubinstein-Taybi; Sindrome di Aarskog; Sindrome di Cornelia de Lange; Sindrome di Kabuki
+  label: Sindrome di Cohen, Sindrome di Rubinstein-Taybi, Sindrome di Aarskog, Sindrome di Cornelia de Lange, Sindrome di Kabuki
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Cohen
+  2. Sindrome di Rubinstein-Taybi
+  3. Sindrome di Aarskog
+  4. Sindrome di Cornelia de Lange
+  5. Sindrome di Kabuki
+
+  ===
+
+extracted_object:
+  id: f86ddeb2-5e54-4dd3-bc03-53610c39ddd8
+  label: PMID_15266616_130_it-prompt.txt
+  terms:
+    - Sindrome di Cohen
+    - Sindrome di Rubinstein-Taybi
+    - Sindrome di Aarskog
+    - Sindrome di Cornelia de Lange
+    - Sindrome di Kabuki
+---
+input_text: |-
+  1. Sferocitosi ereditaria
+  2. Deficit di piruvato chinasi
+  3. Talassemia
+  4. Deficit di glucosio-6-fosfato deidrogenasi (G6PD)
+  5. Emoglobinopatia C
+raw_completion_output: |-
+  terms: Sferocitosi ereditaria; Deficit di piruvato chinasi; Talassemia; Deficit di glucosio-6-fosfato deidrogenasi (G6PD); Emoglobinopatia C
+  label: Named diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sferocitosi ereditaria
+  2. Deficit di piruvato chinasi
+  3. Talassemia
+  4. Deficit di glucosio-6-fosfato deidrogenasi (G6PD)
+  5. Emoglobinopatia C
+
+  ===
+
+extracted_object:
+  id: 3b84e111-d40c-4616-b8ca-296eea1ad566
+  label: PMID_36463227_case_it-prompt.txt
+  terms:
+    - Sferocitosi ereditaria
+    - Deficit di piruvato chinasi
+    - Talassemia
+    - MONDO:0005775
+    - Emoglobinopatia C
+named_entities:
+  - id: MONDO:0005775
+    label: Deficit di glucosio-6-fosfato deidrogenasi (G6PD)
+---
+input_text: |-
+  1. Sindrome di Smith-Lemli-Opitz
+  2. Sindrome di Patau (trisomia 13)
+  3. Sindrome di Edwards (trisomia 18)
+  4. Displasia frontonasale
+  5. Sindrome di Crouzon
+raw_completion_output: |-
+  terms: Sindrome di Smith-Lemli-Opitz; Sindrome di Patau (trisomia 13); Sindrome di Edwards (trisomia 18); Displasia frontonasale; Sindrome di Crouzon
+  label: Disease Names
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Lemli-Opitz
+  2. Sindrome di Patau (trisomia 13)
+  3. Sindrome di Edwards (trisomia 18)
+  4. Displasia frontonasale
+  5. Sindrome di Crouzon
+
+  ===
+
+extracted_object:
+  id: 8be6bbb8-5cf0-4e9b-b98f-e9911d2a2cb5
+  label: PMID_11479728_patient_13_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Lemli-Opitz
+    - Sindrome di Patau (trisomia 13)
+    - Sindrome di Edwards (trisomia 18)
+    - Displasia frontonasale
+    - Sindrome di Crouzon
+---
+input_text: |
+  1. Sindrome di Rett
+  2. Sindrome di Angelman
+  3. Epilessia generalizzata con crisi febbrili plus (GEFS+)
+  4. Sindrome di Lennox-Gastaut
+raw_completion_output: |-
+  terms: Sindrome di Rett; Sindrome di Angelman; Epilessia generalizzata con crisi febbrili plus (GEFS+); Sindrome di Lennox-Gastaut
+  label: Unnamed Text
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rett
+  2. Sindrome di Angelman
+  3. Epilessia generalizzata con crisi febbrili plus (GEFS+)
+  4. Sindrome di Lennox-Gastaut
+
+
+  ===
+
+extracted_object:
+  id: 5bd7987c-9ce9-4e49-9fcc-e78bc7c6256d
+  label: PMID_21827697_C2_it-prompt.txt
+  terms:
+    - Sindrome di Rett
+    - Sindrome di Angelman
+    - MONDO:0018214
+    - Sindrome di Lennox-Gastaut
+named_entities:
+  - id: MONDO:0018214
+    label: Epilessia generalizzata con crisi febbrili plus (GEFS+)
+---
+input_text: |-
+  1. Sindrome di Berardinelli-Seip (Lipoatrofia generalizzata congenita)
+  2. Sindrome di Noonan
+  3. Sindrome di Rubinstein-Taybi
+  4. Sindrome di Wiedemann-Steiner
+  5. Sindrome di Kabuki
+raw_completion_output: |-
+  terms: Sindrome di Berardinelli-Seip; Lipoatrofia generalizzata congenita; Sindrome di Noonan; Sindrome di Rubinstein-Taybi; Sindrome di Wiedemann-Steiner; Sindrome di Kabuki
+  label: Sindrome di Berardinelli-Seip; Sindrome di Noonan; Sindrome di Rubinstein-Taybi; Sindrome di Wiedemann-Steiner; Sindrome di Kabuki
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Berardinelli-Seip (Lipoatrofia generalizzata congenita)
+  2. Sindrome di Noonan
+  3. Sindrome di Rubinstein-Taybi
+  4. Sindrome di Wiedemann-Steiner
+  5. Sindrome di Kabuki
+
+  ===
+
+extracted_object:
+  id: 170a7986-e7d4-4f24-ad0f-2cc0f5d849e3
+  label: PMID_15266616_98_it-prompt.txt
+  terms:
+    - Sindrome di Berardinelli-Seip
+    - Lipoatrofia generalizzata congenita
+    - Sindrome di Noonan
+    - Sindrome di Rubinstein-Taybi
+    - Sindrome di Wiedemann-Steiner
+    - Sindrome di Kabuki
+---
+input_text: |-
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Rett
+  3. Sindrome di Angelman
+  4. Sindrome di Prader-Willi
+  5. Sindrome di Cornelia de Lange
+raw_completion_output: |-
+  terms: Sindrome di Smith-Magenis; Sindrome di Rett; Sindrome di Angelman; Sindrome di Prader-Willi; Sindrome di Cornelia de Lange  
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Rett
+  3. Sindrome di Angelman
+  4. Sindrome di Prader-Willi
+  5. Sindrome di Cornelia de Lange
+
+  ===
+
+extracted_object:
+  id: 97758861-0bf9-4c6b-89e2-284d6f5ba5a4
+  label: PMID_36446582_KBG39_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Magenis
+    - Sindrome di Rett
+    - Sindrome di Angelman
+    - Sindrome di Prader-Willi
+    - Sindrome di Cornelia de Lange
+---
+input_text: |-
+  1. Sindrome di Turner
+  2. Sindrome di Noonan
+  3. Sindrome di Silver-Russell
+  4. Sindrome di Williams-Beuren
+  5. Sindrome di Cornelia de Lange
+raw_completion_output: |-
+  terms: Sindrome di Turner; Sindrome di Noonan; Sindrome di Silver-Russell; Sindrome di Williams-Beuren; Sindrome di Cornelia de Lange
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Turner
+  2. Sindrome di Noonan
+  3. Sindrome di Silver-Russell
+  4. Sindrome di Williams-Beuren
+  5. Sindrome di Cornelia de Lange
+
+  ===
+
+extracted_object:
+  id: 09fb7677-0e77-450b-b223-c347bb3a7372
+  label: PMID_28074573_KK1_it-prompt.txt
+  terms:
+    - Sindrome di Turner
+    - Sindrome di Noonan
+    - Sindrome di Silver-Russell
+    - Sindrome di Williams-Beuren
+    - Sindrome di Cornelia de Lange
+---
+input_text: |-
+  1. Sindrome di Joubert
+  2. Sindrome di Mowat-Wilson
+  3. Sindrome di Baraitser-Winter
+  4. Sindrome di Zellweger
+  5. Sindrome di Aicardi
+raw_completion_output: |-
+  terms: Sindrome di Joubert; Sindrome di Mowat-Wilson; Sindrome di Baraitser-Winter; Sindrome di Zellweger; Sindrome di Aicardi  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Joubert
+  2. Sindrome di Mowat-Wilson
+  3. Sindrome di Baraitser-Winter
+  4. Sindrome di Zellweger
+  5. Sindrome di Aicardi
+
+  ===
+
+extracted_object:
+  id: 51ae2e66-a550-4ba2-b85c-014173256095
+  label: PMID_28625504_UW335_4_it-prompt.txt
+  terms:
+    - Sindrome di Joubert
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Baraitser-Winter
+    - Sindrome di Zellweger
+    - Sindrome di Aicardi
+---
+input_text: |-
+  1. Sindrome di Dravet
+  2. Epilessia mioclonica precoce
+  3. Sindrome di West
+  4. Encefalopatia epilettica ad esordio precoce (DEE)
+  5. Sindrome di Lennox-Gastaut
+raw_completion_output: |-
+  terms: Sindrome di Dravet; Epilessia mioclonica precoce; Sindrome di West; Encefalopatia epilettica ad esordio precoce (DEE); Sindrome di Lennox-Gastaut  
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Dravet
+  2. Epilessia mioclonica precoce
+  3. Sindrome di West
+  4. Encefalopatia epilettica ad esordio precoce (DEE)
+  5. Sindrome di Lennox-Gastaut
+
+  ===
+
+extracted_object:
+  id: 96ecbb04-a821-42e5-869f-0d22a54608d4
+  label: STX_Syrbe_13_it-prompt.txt
+  terms:
+    - Sindrome di Dravet
+    - Epilessia mioclonica precoce
+    - Sindrome di West
+    - MONDO:0100062
+    - Sindrome di Lennox-Gastaut
+named_entities:
+  - id: MONDO:0100062
+    label: Encefalopatia epilettica ad esordio precoce (DEE)
+---
+input_text: |-
+  1. Neurodegenerazione con accumulo di ferro nel cervello tipo 1 (NBIA1/Sindrome di Hallervorden-Spatz)
+  2. Sindrome di Tourette
+  3. Malattia di Huntington
+  4. Malattia di Wilson
+  5. Coreoacantocitosi
+raw_completion_output: |-
+  terms: Neurodegenerazione con accumulo di ferro nel cervello tipo 1; Sindrome di Tourette; Malattia di Huntington; Malattia di Wilson; Coreoacantocitosi
+  label:  Neurodegenerazione con accumulo di ferro nel cervello tipo 1 (NBIA1/Sindrome di Hallervorden-Spatz)
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Neurodegenerazione con accumulo di ferro nel cervello tipo 1 (NBIA1/Sindrome di Hallervorden-Spatz)
+  2. Sindrome di Tourette
+  3. Malattia di Huntington
+  4. Malattia di Wilson
+  5. Coreoacantocitosi
+
+  ===
+
+extracted_object:
+  id: 9adf7225-307f-4d6d-8156-47c6849671c6
+  label: PMID_15911822_Patient_1_it-prompt.txt
+  terms:
+    - Neurodegenerazione con accumulo di ferro nel cervello tipo 1
+    - Sindrome di Tourette
+    - Malattia di Huntington
+    - Malattia di Wilson
+    - Coreoacantocitosi
+---
+input_text: |-
+  1. Sindrome di Mowat-Wilson
+  2. Sindrome di Koolen-de Vries
+  3. Sindrome di Pitt-Hopkins
+  4. Sindrome dell'X fragile
+  5. Sindrome di Smith-Magenis
+raw_completion_output: |-
+  terms: Sindrome di Mowat-Wilson; Sindrome di Koolen-de Vries; Sindrome di Pitt-Hopkins; Sindrome dell'X fragile; Sindrome di Smith-Magenis
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Mowat-Wilson
+  2. Sindrome di Koolen-de Vries
+  3. Sindrome di Pitt-Hopkins
+  4. Sindrome dell'X fragile
+  5. Sindrome di Smith-Magenis
+
+  ===
+
+extracted_object:
+  id: 1de63bae-c68b-4a45-ae8a-3eb3a3c60e0c
+  label: PMID_33277917_Patient_7_it-prompt.txt
+  terms:
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Koolen-de Vries
+    - Sindrome di Pitt-Hopkins
+    - Sindrome dell'X fragile
+    - Sindrome di Smith-Magenis
+---
+input_text: |-
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Sindrome di Angelman
+  4. Sindrome di Prader-Willi
+  5. Sindrome di Williams
+  6. Sindrome di Smith-Magenis
+  7. Sindrome di Noonan
+  8. Disturbo dello spettro autistico (con disabilità intellettuale associata)
+raw_completion_output: |-
+  terms: Sindrome dell'X fragile; Sindrome di Rett; Sindrome di Angelman; Sindrome di Prader-Willi; Sindrome di Williams; Sindrome di Smith-Magenis; Sindrome di Noonan; Disturbo dello spettro autistico
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome dell'X fragile
+  2. Sindrome di Rett
+  3. Sindrome di Angelman
+  4. Sindrome di Prader-Willi
+  5. Sindrome di Williams
+  6. Sindrome di Smith-Magenis
+  7. Sindrome di Noonan
+  8. Disturbo dello spettro autistico (con disabilità intellettuale associata)
+
+  ===
+
+extracted_object:
+  id: 96e2ae65-aa55-4c2b-a4bc-ca9cca241a37
+  label: PMID_26942287_EE2_it-prompt.txt
+  terms:
+    - Sindrome dell'X fragile
+    - Sindrome di Rett
+    - Sindrome di Angelman
+    - Sindrome di Prader-Willi
+    - Sindrome di Williams
+    - Sindrome di Smith-Magenis
+    - Sindrome di Noonan
+    - Disturbo dello spettro autistico
+---
+input_text: |-
+  Certamente, ecco un elenco di diagnosi differenziali per il caso descritto:
+
+  1. Malattia di Huntington
+  2. Malattia di Parkinson ad esordio precoce
+  3. Demenza a corpi di Lewy
+  4. Paralisi sopranucleare progressiva
+  5. Atrofia multisistemica
+raw_completion_output: |-
+  terms: Malattia di Huntington; Malattia di Parkinson ad esordio precoce; Demenza a corpi di Lewy; Paralisi sopranucleare progressiva; Atrofia multisistemica  
+  label: elenco di diagnosi differenziali
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  Certamente, ecco un elenco di diagnosi differenziali per il caso descritto:
+
+  1. Malattia di Huntington
+  2. Malattia di Parkinson ad esordio precoce
+  3. Demenza a corpi di Lewy
+  4. Paralisi sopranucleare progressiva
+  5. Atrofia multisistemica
+
+  ===
+
+extracted_object:
+  id: 2eeeae84-d60e-4848-b1e8-8dce2f7e8448
+  label: PMID_28862745_PD_Case_5_it-prompt.txt
+  terms:
+    - Malattia di Huntington
+    - Malattia di Parkinson ad esordio precoce
+    - Demenza a corpi di Lewy
+    - Paralisi sopranucleare progressiva
+    - Atrofia multisistemica
+---
+input_text: |-
+  1. Nefropatia a IgA
+  2. Nefropatia diabetica
+  3. Ipertensione maligna
+  4. Nefrosclerosi ipertensiva
+  5. Glomerulosclerosi segmentaria e focale
+raw_completion_output: |-
+  terms: Nefropatia a IgA; Nefropatia diabetica; Ipertensione maligna; Nefrosclerosi ipertensiva; Glomerulosclerosi segmentaria e focale
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Nefropatia a IgA
+  2. Nefropatia diabetica
+  3. Ipertensione maligna
+  4. Nefrosclerosi ipertensiva
+  5. Glomerulosclerosi segmentaria e focale
+
+  ===
+
+extracted_object:
+  id: 7df1c79c-6382-43fa-9bc0-20abc3da3f65
+  label: PMID_32274456_Family_FGIT_individual_22_it-prompt.txt
+  terms:
+    - Nefropatia a IgA
+    - Nefropatia diabetica
+    - Ipertensione maligna
+    - Nefrosclerosi ipertensiva
+    - Glomerulosclerosi segmentaria e focale
+---
+input_text: |-
+  1. Sindrome di Joubert
+  2. Sindrome di Smith-Magenis
+  3. Sindrome di Hunter (Mucopolisaccaridosi di tipo II)
+  4. Sindrome dell'X fragile
+  5. Sindrome di Bardet-Biedl
+raw_completion_output: |-
+  terms: Sindrome di Joubert; Sindrome di Smith-Magenis; Sindrome di Hunter; Mucopolisaccaridosi di tipo II; Sindrome dell'X fragile; Sindrome di Bardet-Biedl
+  label: Sindrome di Joubert; Sindrome di Smith-Magenis; Sindrome di Hunter; Sindrome dell'X fragile; Sindrome di Bardet-Biedl
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Joubert
+  2. Sindrome di Smith-Magenis
+  3. Sindrome di Hunter (Mucopolisaccaridosi di tipo II)
+  4. Sindrome dell'X fragile
+  5. Sindrome di Bardet-Biedl
+
+  ===
+
+extracted_object:
+  id: d48187eb-0a73-403e-b12b-95d096df28f3
+  label: PMID_36586412_6_it-prompt.txt
+  terms:
+    - Sindrome di Joubert
+    - Sindrome di Smith-Magenis
+    - Sindrome di Hunter
+    - Mucopolisaccaridosi di tipo II
+    - Sindrome dell'X fragile
+    - Sindrome di Bardet-Biedl
+---
+input_text: |-
+  1. Sindrome di Pitt-Hopkins
+  2. Sindrome di Mowat-Wilson
+  3. Sindrome di Smith-Magenis
+  4. Sindrome di Sotos
+  5. Sindrome di Weaver
+raw_completion_output: |-
+  terms: Sindrome di Pitt-Hopkins; Sindrome di Mowat-Wilson; Sindrome di Smith-Magenis; Sindrome di Sotos; Sindrome di Weaver
+  label: The label (name) of the named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Pitt-Hopkins
+  2. Sindrome di Mowat-Wilson
+  3. Sindrome di Smith-Magenis
+  4. Sindrome di Sotos
+  5. Sindrome di Weaver
+
+  ===
+
+extracted_object:
+  id: 443c0678-ecfe-42c9-9605-c965e842967f
+  label: PMID_35047834_Individual_7_4_Najmabadi_et_al_2011_it-prompt.txt
+  terms:
+    - Sindrome di Pitt-Hopkins
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Smith-Magenis
+    - MONDO:0019349
+    - Sindrome di Weaver
+named_entities:
+  - id: MONDO:0019349
+    label: Sindrome di Sotos
+---
+input_text: |-
+  1. Malattia di Niemann-Pick tipo C
+  2. Atassia di Friedreich
+  3. Malattia di Wilson
+  4. Atassia-teleangiectasia
+  5. Paralisi sopranucleare progressiva
+  6. Malattia di Huntington
+raw_completion_output: |-
+  terms: Malattia di Niemann-Pick tipo C; Atassia di Friedreich; Malattia di Wilson; Atassia-teleangiectasia; Paralisi sopranucleare progressiva; Malattia di Huntington
+  label: Malattia di Niemann-Pick tipo C; Atassia di Friedreich; Malattia di Wilson; Atassia-teleangiectasia; Paralisi sopranucleare progressiva; Malattia di Huntington
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Malattia di Niemann-Pick tipo C
+  2. Atassia di Friedreich
+  3. Malattia di Wilson
+  4. Atassia-teleangiectasia
+  5. Paralisi sopranucleare progressiva
+  6. Malattia di Huntington
+
+  ===
+
+extracted_object:
+  id: 429c2873-0844-4bf5-ab32-db6c972f46f4
+  label: PMID_28652255_V_3_it-prompt.txt
+  terms:
+    - Malattia di Niemann-Pick tipo C
+    - Atassia di Friedreich
+    - Malattia di Wilson
+    - Atassia-teleangiectasia
+    - Paralisi sopranucleare progressiva
+    - Malattia di Huntington
+---
+input_text: |-
+  1. Sindrome di Rubinstein-Taybi
+  2. Sindrome di Noonan
+  3. Acromicria
+  4. Displasia di Weill-Marchesani
+  5. Sindrome di Smith-Magenis
+raw_completion_output: |-
+  terms: Sindrome di Rubinstein-Taybi; Sindrome di Noonan; Acromicria; Displasia di Weill-Marchesani; Sindrome di Smith-Magenis
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rubinstein-Taybi
+  2. Sindrome di Noonan
+  3. Acromicria
+  4. Displasia di Weill-Marchesani
+  5. Sindrome di Smith-Magenis
+
+  ===
+
+extracted_object:
+  id: fcff8e4e-7f57-4496-868f-4a688db1fa8c
+  label: PMID_21683322_25_it-prompt.txt
+  terms:
+    - Sindrome di Rubinstein-Taybi
+    - Sindrome di Noonan
+    - Acromicria
+    - Displasia di Weill-Marchesani
+    - Sindrome di Smith-Magenis
+---
+input_text: |-
+  1. Sindrome di Down
+  2. Sindrome di Williams
+  3. Sindrome di Noonan
+  4. Sindrome di Turner
+  5. Sindrome di Crouzon
+raw_completion_output: |-
+  terms: Sindrome di Down; Sindrome di Williams; Sindrome di Noonan; Sindrome di Turner; Sindrome di Crouzon
+  label: Sindrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Down
+  2. Sindrome di Williams
+  3. Sindrome di Noonan
+  4. Sindrome di Turner
+  5. Sindrome di Crouzon
+
+  ===
+
+extracted_object:
+  id: efce59d2-d1f9-4969-a1e3-a57d72ee128a
+  label: PMID_30580808_Chen_Pat_124_Fam_48_it-prompt.txt
+  terms:
+    - Sindrome di Down
+    - Sindrome di Williams
+    - Sindrome di Noonan
+    - Sindrome di Turner
+    - Sindrome di Crouzon
+---
+input_text: |-
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Cornelia de Lange
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Aarskog-Scott
+  5. Sindrome di Rubinstein-Taybi
+  6. Sindrome del Cri du Chat
+  7. Sindrome di Wolf-Hirschhorn
+raw_completion_output: |-
+  terms: Sindrome di Smith-Magenis; Sindrome di Cornelia de Lange; Sindrome di Mowat-Wilson; Sindrome di Aarskog-Scott; Sindrome di Rubinstein-Taybi; Sindrome del Cri du Chat; Sindrome di Wolf-Hirschhorn.
+  label: List of syndromes.
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Smith-Magenis
+  2. Sindrome di Cornelia de Lange
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Aarskog-Scott
+  5. Sindrome di Rubinstein-Taybi
+  6. Sindrome del Cri du Chat
+  7. Sindrome di Wolf-Hirschhorn
+
+  ===
+
+extracted_object:
+  id: 9d8be973-76e2-415f-a4ca-a6b0043b69a6
+  label: PMID_33350388_Patient_KD_5_3_it-prompt.txt
+  terms:
+    - Sindrome di Smith-Magenis
+    - Sindrome di Cornelia de Lange
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Aarskog-Scott
+    - Sindrome di Rubinstein-Taybi
+    - Sindrome del Cri du Chat
+    - Sindrome di Wolf-Hirschhorn.
+---
+input_text: |+
+  1. Adrenoleucodistrofia legata all'X
+  2. Neuropatia ereditaria sensitiva e autonomica (HSAN)
+  3. Sclerosi laterale amiotrofica (forma giovanile)
+  4. Charcot-Marie-Tooth (variante atipica)
+  5. Sindrome di Guillain-Barré (variante poco comune)
+
+raw_completion_output: |-
+  terms: Adrenoleucodistrofia legata all'X; Neuropatia ereditaria sensitiva e autonomica; Sclerosi laterale amiotrofica; Charcot-Marie-Tooth; Sindrome di Guillain-Barré
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Adrenoleucodistrofia legata all'X
+  2. Neuropatia ereditaria sensitiva e autonomica (HSAN)
+  3. Sclerosi laterale amiotrofica (forma giovanile)
+  4. Charcot-Marie-Tooth (variante atipica)
+  5. Sindrome di Guillain-Barré (variante poco comune)
+
+
+
+  ===
+
+extracted_object:
+  id: f96cb65f-9652-4e7b-bbaf-fa1a538d831f
+  label: PMID_30643655_F2_IV_1_it-prompt.txt
+  terms:
+    - Adrenoleucodistrofia legata all'X
+    - Neuropatia ereditaria sensitiva e autonomica
+    - Sclerosi laterale amiotrofica
+    - Charcot-Marie-Tooth
+    - Sindrome di Guillain-Barré
+---
+input_text: |-
+  1. Sindrome di Mowat-Wilson
+  2. Sindrome di Aicardi
+  3. Sindrome di Joubert
+  4. Sindrome di Zellweger
+  5. Lissencefalia
+raw_completion_output: |-
+  terms: Sindrome di Mowat-Wilson; Sindrome di Aicardi; Sindrome di Joubert; Sindrome di Zellweger; Lissencefalia
+  label: The label (name) of the named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Mowat-Wilson
+  2. Sindrome di Aicardi
+  3. Sindrome di Joubert
+  4. Sindrome di Zellweger
+  5. Lissencefalia
+
+  ===
+
+extracted_object:
+  id: b7e8081d-a113-487c-8164-4bae26c237ab
+  label: PMID_37761890_28__it-prompt.txt
+  terms:
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Aicardi
+    - Sindrome di Joubert
+    - Sindrome di Zellweger
+    - Lissencefalia
+---
+input_text: |-
+  1. Insufficienza ovarica precoce (POI)
+  2. Sindrome di Turner
+  3. Sindrome dell'X fragile (premutazione)
+  4. Disgenesia gonadica pura
+  5. Sindrome di Swyer
+raw_completion_output: |-
+  terms: Insufficienza ovarica precoce (POI); Sindrome di Turner; Sindrome dell'X fragile (premutazione); Disgenesia gonadica pura; Sindrome di Swyer
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Insufficienza ovarica precoce (POI)
+  2. Sindrome di Turner
+  3. Sindrome dell'X fragile (premutazione)
+  4. Disgenesia gonadica pura
+  5. Sindrome di Swyer
+
+  ===
+
+extracted_object:
+  id: 561dcca4-7957-4477-9343-9001ccdd7ab5
+  label: PMID_31000419_III_10_it-prompt.txt
+  terms:
+    - Insufficienza ovarica precoce (POI)
+    - Sindrome di Turner
+    - Sindrome dell'X fragile (premutazione)
+    - Disgenesia gonadica pura
+    - Sindrome di Swyer
+---
+input_text: |-
+  1. Sclerosi tuberosa
+  2. Complesso della sclerosi tuberosa parziale
+  3. Sindrome di Cowden
+  4. Neurofibromatosi di tipo 1 (con presentazioni atipiche)
+  5. Sindrome di Proteus
+raw_completion_output: |-
+  terms: Sclerosi tuberosa; Complesso della sclerosi tuberosa parziale; Sindrome di Cowden; Neurofibromatosi di tipo 1; Sindrome di Proteus
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sclerosi tuberosa
+  2. Complesso della sclerosi tuberosa parziale
+  3. Sindrome di Cowden
+  4. Neurofibromatosi di tipo 1 (con presentazioni atipiche)
+  5. Sindrome di Proteus
+
+  ===
+
+extracted_object:
+  id: 89b9df98-c01e-4748-91c2-d116818cbeae
+  label: PMID_29196670_Patient_10_it-prompt.txt
+  terms:
+    - Sclerosi tuberosa
+    - Complesso della sclerosi tuberosa parziale
+    - Sindrome di Cowden
+    - Neurofibromatosi di tipo 1
+    - Sindrome di Proteus
+---
+input_text: |-
+  1. Sindrome di Rubinstein-Taybi
+  2. Sindrome di Down
+  3. Sindrome di Klinefelter
+  4. Sindrome di Bardet-Biedl
+  5. Disostosi cleidocranica
+raw_completion_output: |-
+  terms: Sindrome di Rubinstein-Taybi; Sindrome di Down; Sindrome di Klinefelter; Sindrome di Bardet-Biedl; Disostosi cleidocranica  
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rubinstein-Taybi
+  2. Sindrome di Down
+  3. Sindrome di Klinefelter
+  4. Sindrome di Bardet-Biedl
+  5. Disostosi cleidocranica
+
+  ===
+
+extracted_object:
+  id: 4e825ff2-7d88-4a7b-b519-baea85faf0b9
+  label: PMID_24269551_patient_IV_1_it-prompt.txt
+  terms:
+    - Sindrome di Rubinstein-Taybi
+    - Sindrome di Down
+    - Sindrome di Klinefelter
+    - Sindrome di Bardet-Biedl
+    - Disostosi cleidocranica
+---
+input_text: |-
+  1. Malattia di Wilson
+  2. Ipotiroidismo
+  3. Epatopatia alcolica
+  4. Colestasi intraepatica
+  5. Deficit di alfa-1-antitripsina
+raw_completion_output: |-
+  terms: Malattia di Wilson; Ipotiroidismo; Epatopatia alcolica; Colestasi intraepatica; Deficit di alfa-1-antitripsina
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Malattia di Wilson
+  2. Ipotiroidismo
+  3. Epatopatia alcolica
+  4. Colestasi intraepatica
+  5. Deficit di alfa-1-antitripsina
+
+  ===
+
+extracted_object:
+  id: b31c8a4d-a1ee-4738-9891-7e9398aca209
+  label: PMID_29321044_Patient_2_it-prompt.txt
+  terms:
+    - Malattia di Wilson
+    - Ipotiroidismo
+    - Epatopatia alcolica
+    - Colestasi intraepatica
+    - Deficit di alfa-1-antitripsina
+---
+input_text: |-
+  1. Sindrome di Rubinstein-Taybi
+  2. Sindrome di Cornelia de Lange
+  3. Sindrome di Smith-Magenis
+  4. Sindrome di Prader-Willi
+  5. Sindrome di Albright (pseudopseudohipoparatiroidismo)
+raw_completion_output: |-
+  terms: Sindrome di Rubinstein-Taybi; Sindrome di Cornelia de Lange; Sindrome di Smith-Magenis; Sindrome di Prader-Willi; Sindrome di Albright (pseudopseudohipoparatiroidismo)
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Rubinstein-Taybi
+  2. Sindrome di Cornelia de Lange
+  3. Sindrome di Smith-Magenis
+  4. Sindrome di Prader-Willi
+  5. Sindrome di Albright (pseudopseudohipoparatiroidismo)
+
+  ===
+
+extracted_object:
+  id: 2880e98c-ceb4-4c27-88d9-0a7ae051af46
+  label: PMID_36446582_Miyatake_2017_P1_it-prompt.txt
+  terms:
+    - Sindrome di Rubinstein-Taybi
+    - Sindrome di Cornelia de Lange
+    - Sindrome di Smith-Magenis
+    - Sindrome di Prader-Willi
+    - Sindrome di Albright (pseudopseudohipoparatiroidismo)
+---
+input_text: |-
+  1. Malattia cistica dei tubuli renali (nefronoftisi)
+  2. Sindrome di Alport
+  3. Malattia renale policistica autosomica recessiva (ARPKD)
+  4. Sindrome di Dent
+  5. Glomerulosclerosi segmentale e focale (FSGS)
+raw_completion_output: |-
+  terms: Malattia cistica dei tubuli renali; Sindrome di Alport; Malattia renale policistica autosomica recessiva; Sindrome di Dent; Glomerulosclerosi segmentale e focale
+  label: 
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Malattia cistica dei tubuli renali (nefronoftisi)
+  2. Sindrome di Alport
+  3. Malattia renale policistica autosomica recessiva (ARPKD)
+  4. Sindrome di Dent
+  5. Glomerulosclerosi segmentale e focale (FSGS)
+
+  ===
+
+extracted_object:
+  id: 3c875fb9-385c-409b-83f2-d7d1c4e5c8d7
+  label: PMID_20151160_Patient_1_it-prompt.txt
+  terms:
+    - Malattia cistica dei tubuli renali
+    - Sindrome di Alport
+    - Malattia renale policistica autosomica recessiva
+    - Sindrome di Dent
+    - Glomerulosclerosi segmentale e focale
+---
+input_text: |-
+  1. Amaurosi congenita di Leber
+  2. Sindrome di Alström
+  3. Malattia di Stargardt
+  4. Retinite pigmentosa
+  5. Sindrome di Usher
+raw_completion_output: |-
+  terms: Amaurosi congenita di Leber; Sindrome di Alström; Malattia di Stargardt; Retinite pigmentosa; Sindrome di Usher  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Amaurosi congenita di Leber
+  2. Sindrome di Alström
+  3. Malattia di Stargardt
+  4. Retinite pigmentosa
+  5. Sindrome di Usher
+
+  ===
+
+extracted_object:
+  id: 9ac0934a-ad07-419d-950b-1490e031cfd9
+  label: PMID_34722527_individual_34_1_JENNIFER_A__GALVIN_EVALUATIONOFG_it-prompt.txt
+  terms:
+    - Amaurosi congenita di Leber
+    - Sindrome di Alström
+    - Malattia di Stargardt
+    - Retinite pigmentosa
+    - Sindrome di Usher
+---
+input_text: |-
+  1. Sindrome di Holt-Oram
+  2. Sindrome del pollice trifalangeo-soprannumerario
+  3. Sindrome di Duane-radial ray
+  4. Sindrome di Townes-Brocks
+  5. Sindrome di Fanconi
+raw_completion_output: |-
+  terms: Sindrome di Holt-Oram; Sindrome del pollice trifalangeo-soprannumerario; Sindrome di Duane-radial ray; Sindrome di Townes-Brocks; Sindrome di Fanconi
+  label: The named thing is not specified in the text.
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Holt-Oram
+  2. Sindrome del pollice trifalangeo-soprannumerario
+  3. Sindrome di Duane-radial ray
+  4. Sindrome di Townes-Brocks
+  5. Sindrome di Fanconi
+
+  ===
+
+extracted_object:
+  id: 1c999a89-c3c4-45db-aa02-b2a40d762846
+  label: PMID_10077612_Family_B_II_2_it-prompt.txt
+  terms:
+    - Sindrome di Holt-Oram
+    - Sindrome del pollice trifalangeo-soprannumerario
+    - Sindrome di Duane-radial ray
+    - Sindrome di Townes-Brocks
+    - Sindrome di Fanconi
+---
+input_text: |-
+  1. Sindrome di West
+  2. Encefalopatia epilettica precoce (EIEE)
+  3. Sindrome di Dravet
+  4. Sindrome di Ohtahara
+  5. Encefalopatia dello sviluppo e dell'epilessia (DEE)
+raw_completion_output: |-
+  terms: Sindrome di West; Encefalopatia epilettica precoce; Sindrome di Dravet; Sindrome di Ohtahara; Encefalopatia dello sviluppo e dell'epilessia
+  label: Named Things
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di West
+  2. Encefalopatia epilettica precoce (EIEE)
+  3. Sindrome di Dravet
+  4. Sindrome di Ohtahara
+  5. Encefalopatia dello sviluppo e dell'epilessia (DEE)
+
+  ===
+
+extracted_object:
+  id: f4be2ba1-ebb1-4143-950d-084a4647ed0d
+  label: STX_29896790_P2_it-prompt.txt
+  terms:
+    - Sindrome di West
+    - Encefalopatia epilettica precoce
+    - Sindrome di Dravet
+    - Sindrome di Ohtahara
+    - Encefalopatia dello sviluppo e dell'epilessia
+---
+input_text: |-
+  1. Sindrome di Sotos
+  2. Sindrome di Koolen-de Vries
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Noonan
+  5. Sindrome di Williams
+  6. Sindrome di Rubinstein-Taybi
+raw_completion_output: |-
+  terms: Sindrome di Sotos; Sindrome di Koolen-de Vries; Sindrome di Mowat-Wilson; Sindrome di Noonan; Sindrome di Williams; Sindrome di Rubinstein-Taybi  
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Sotos
+  2. Sindrome di Koolen-de Vries
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Noonan
+  5. Sindrome di Williams
+  6. Sindrome di Rubinstein-Taybi
+
+  ===
+
+extracted_object:
+  id: 4c19c85c-38cb-4834-9cce-7ea59b9dd2fa
+  label: PMID_37196654_Individual_33_it-prompt.txt
+  terms:
+    - MONDO:0019349
+    - Sindrome di Koolen-de Vries
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Noonan
+    - Sindrome di Williams
+    - Sindrome di Rubinstein-Taybi
+named_entities:
+  - id: MONDO:0019349
+    label: Sindrome di Sotos
+---
+input_text: |-
+  1. Sindrome di Holt-Oram
+  2. Sindrome TAR (Trombocitopenia con assenza del radio)
+  3. Sindrome di Roberts
+  4. Sindrome di Fanconi
+  5. Sindrome di VATER/VACTERL (meno probabile data la specificità dei sintomi)
+raw_completion_output: |-
+  terms: Sindrome di Holt-Oram; Sindrome TAR; Sindrome di Roberts; Sindrome di Fanconi; Sindrome di VATER/VACTERL
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Holt-Oram
+  2. Sindrome TAR (Trombocitopenia con assenza del radio)
+  3. Sindrome di Roberts
+  4. Sindrome di Fanconi
+  5. Sindrome di VATER/VACTERL (meno probabile data la specificità dei sintomi)
+
+  ===
+
+extracted_object:
+  id: 803aec16-e86f-49bb-8b58-ed5844f694da
+  label: PMID_12789647_K11_III_2_it-prompt.txt
+  terms:
+    - Sindrome di Holt-Oram
+    - MONDO:0010121
+    - Sindrome di Roberts
+    - Sindrome di Fanconi
+    - Sindrome di VATER/VACTERL
+named_entities:
+  - id: MONDO:0010121
+    label: Sindrome TAR
+---
+input_text: |-
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+raw_completion_output: |-
+  terms: Retinite pigmentosa;Degenerazione maculare;Malattia di Stargardt;Neuropatia ottica ereditaria di Leber;Amaurosi congenita di Leber
+  label: 
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+
+  ===
+
+extracted_object:
+  id: a208f751-f4e2-44f3-80f2-ac819c7558ce
+  label: PMID_34722527_individual_MEP1_3_Martin_McKibbin_Genotype_Phenot_it-prompt.txt
+  terms:
+    - Retinite pigmentosa
+    - Degenerazione maculare
+    - Malattia di Stargardt
+    - Neuropatia ottica ereditaria di Leber
+    - Amaurosi congenita di Leber
+---
+input_text: |-
+  1. Malattia di Stargardt
+  2. Retinite pigmentosa
+  3. Sindrome di Usher
+  4. Distrofia maculare
+  5. Sindrome di Bardet-Biedl
+raw_completion_output: |-
+  terms: Malattia di Stargardt; Retinite pigmentosa; Sindrome di Usher; Distrofia maculare; Sindrome di Bardet-Biedl
+  label: unnamed list of diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Malattia di Stargardt
+  2. Retinite pigmentosa
+  3. Sindrome di Usher
+  4. Distrofia maculare
+  5. Sindrome di Bardet-Biedl
+
+  ===
+
+extracted_object:
+  id: c0e0236d-f5d3-4a92-a78f-7d062e980843
+  label: PMID_34722527_individual_TB34R_R77_3_Tami_Current_it-prompt.txt
+  terms:
+    - Malattia di Stargardt
+    - Retinite pigmentosa
+    - Sindrome di Usher
+    - Distrofia maculare
+    - Sindrome di Bardet-Biedl
+---
+input_text: |-
+  1. Sindrome da mutazione KCNQ2
+  2. Sindrome da mutazione STXBP1
+  3. Sindrome da mutazione ARX
+  4. Sindrome Aicardi-Goutières
+  5. Sindrome di Ohtahara
+raw_completion_output: |-
+  terms: Sindrome da mutazione KCNQ2; Sindrome da mutazione STXBP1; Sindrome da mutazione ARX; Sindrome Aicardi-Goutières; Sindrome di Ohtahara
+  label: Sindrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome da mutazione KCNQ2
+  2. Sindrome da mutazione STXBP1
+  3. Sindrome da mutazione ARX
+  4. Sindrome Aicardi-Goutières
+  5. Sindrome di Ohtahara
+
+  ===
+
+extracted_object:
+  id: 24e4b151-adf9-42af-951b-988f7a65245b
+  label: PMID_33731876_fam95_it-prompt.txt
+  terms:
+    - Sindrome da mutazione KCNQ2
+    - Sindrome da mutazione STXBP1
+    - Sindrome da mutazione ARX
+    - Sindrome Aicardi-Goutières
+    - Sindrome di Ohtahara
+---
+input_text: |-
+  1. Sindrome di Dravet
+  2. Encefalopatia epilettica infantile ad esordio precoce (EIEE)
+  3. Sindrome di Lennox-Gastaut
+  4. Epilessia mioclonica grave dell'infanzia (SMEI)
+  5. Encefalopatia epilessia mioclonica progressiva (PME)
+  6. Epilessia parziale continua di Kozhevnikov
+raw_completion_output: |-
+  terms: Sindrome di Dravet; Encefalopatia epilettica infantile ad esordio precoce; Sindrome di Lennox-Gastaut; Epilessia mioclonica grave dell'infanzia; Encefalopatia epilessia mioclonica progressiva; Epilessia parziale continua di Kozhevnikov
+  label: N/A
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Dravet
+  2. Encefalopatia epilettica infantile ad esordio precoce (EIEE)
+  3. Sindrome di Lennox-Gastaut
+  4. Epilessia mioclonica grave dell'infanzia (SMEI)
+  5. Encefalopatia epilessia mioclonica progressiva (PME)
+  6. Epilessia parziale continua di Kozhevnikov
+
+  ===
+
+extracted_object:
+  id: f8021233-3b64-4e77-b372-ec938fab9ee2
+  label: STX_23708187_T23553_it-prompt.txt
+  terms:
+    - Sindrome di Dravet
+    - Encefalopatia epilettica infantile ad esordio precoce
+    - Sindrome di Lennox-Gastaut
+    - Epilessia mioclonica grave dell'infanzia
+    - Encefalopatia epilessia mioclonica progressiva
+    - Epilessia parziale continua di Kozhevnikov
+---
+input_text: |-
+  1. Sindrome di Prader-Willi
+  2. Sindrome di Angelman
+  3. Sindrome di Lennox-Gastaut
+  4. Sindrome di Dravet
+  5. Disturbo dello spettro autistico (con manifestazioni epilettiche e ritardo del linguaggio)
+raw_completion_output: |-
+  terms: Sindrome di Prader-Willi; Sindrome di Angelman; Sindrome di Lennox-Gastaut; Sindrome di Dravet; Disturbo dello spettro autistico
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome di Prader-Willi
+  2. Sindrome di Angelman
+  3. Sindrome di Lennox-Gastaut
+  4. Sindrome di Dravet
+  5. Disturbo dello spettro autistico (con manifestazioni epilettiche e ritardo del linguaggio)
+
+  ===
+
+extracted_object:
+  id: 03d0d271-745a-417e-9050-23ef8b6679ef
+  label: STX_28708303_Patient_56_it-prompt.txt
+  terms:
+    - Sindrome di Prader-Willi
+    - Sindrome di Angelman
+    - Sindrome di Lennox-Gastaut
+    - Sindrome di Dravet
+    - Disturbo dello spettro autistico
+---
+input_text: |-
+  1. Fibrosi cistica
+  2. Sindrome di Marfan
+  3. Ipercolesterolemia familiare
+  4. Malattia di Huntington
+  5. Insufficienza della valvola mitralica congenita
+raw_completion_output: |-
+  terms: Fibrosi cistica; Sindrome di Marfan; Ipercolesterolemia familiare; Malattia di Huntington; Insufficienza della valvola mitralica congenita
+  label: Named thing list
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Fibrosi cistica
+  2. Sindrome di Marfan
+  3. Ipercolesterolemia familiare
+  4. Malattia di Huntington
+  5. Insufficienza della valvola mitralica congenita
+
+  ===
+
+extracted_object:
+  id: 88208108-8ce3-4f28-9d30-ffd57979c7a6
+  label: 
+    PMID_34722527_individual_LCA_F001_5_Leen_Abu_Safieh_Autozygome_guid_it-prompt.txt
+  terms:
+    - Fibrosi cistica
+    - Sindrome di Marfan
+    - Ipercolesterolemia familiare
+    - Malattia di Huntington
+    - Insufficienza della valvola mitralica congenita
+---
+input_text: |-
+  1. Albinismo oculocutaneo di tipo 1 (OCA1)
+  2. Sindrome di Waardenburg
+  3. Albinismo oculocutaneo di tipo 2 (OCA2)
+raw_completion_output: |-
+  terms: Albinismo oculocutaneo di tipo 1; Sindrome di Waardenburg; Albinismo oculocutaneo di tipo 2
+  label: Albinismo oculocutaneo di tipo 1 (OCA1); Sindrome di Waardenburg; Albinismo oculocutaneo di tipo 2 (OCA2)
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Albinismo oculocutaneo di tipo 1 (OCA1)
+  2. Sindrome di Waardenburg
+  3. Albinismo oculocutaneo di tipo 2 (OCA2)
+
+  ===
+
+extracted_object:
+  id: b150afb4-a3ba-45f7-bc93-f34fa9deb1ef
+  label: PMID_36553465_P9_it-prompt.txt
+  terms:
+    - Albinismo oculocutaneo di tipo 1
+    - Sindrome di Waardenburg
+    - Albinismo oculocutaneo di tipo 2
+---
+input_text: |-
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+raw_completion_output: |-
+  terms: Retinite pigmentosa;Degenerazione maculare;Malattia di Stargardt;Neuropatia ottica ereditaria di Leber;Amaurosi congenita di Leber
+  label: 
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Retinite pigmentosa
+  2. Degenerazione maculare
+  3. Malattia di Stargardt
+  4. Neuropatia ottica ereditaria di Leber
+  5. Amaurosi congenita di Leber
+
+  ===
+
+extracted_object:
+  id: f4bd7ee7-509b-42e4-b7ca-5c47a31bef2b
+  label: 
+    PMID_34722527_individual_individual_1_Juliana_Maria_Ferraz_Sallum1_12_Clinicalandmo_it-prompt.txt
+  terms:
+    - Retinite pigmentosa
+    - Degenerazione maculare
+    - Malattia di Stargardt
+    - Neuropatia ottica ereditaria di Leber
+    - Amaurosi congenita di Leber
+---
+input_text: |-
+  1. Sindrome dell'X fragile
+  2. Sindrome di Sotos
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Smith-Magenis
+  5. Sindrome di Cowden
+  6. Sindrome di Klinefelter
+  7. Sindrome di Sanfilippo
+raw_completion_output: |-
+  terms: Sindrome dell'X fragile; Sindrome di Sotos; Sindrome di Mowat-Wilson; Sindrome di Smith-Magenis; Sindrome di Cowden; Sindrome di Klinefelter; Sindrome di Sanfilippo
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Sindrome dell'X fragile
+  2. Sindrome di Sotos
+  3. Sindrome di Mowat-Wilson
+  4. Sindrome di Smith-Magenis
+  5. Sindrome di Cowden
+  6. Sindrome di Klinefelter
+  7. Sindrome di Sanfilippo
+
+  ===
+
+extracted_object:
+  id: 5f0efd76-0081-4a23-b182-1c533fda7c7f
+  label: PMID_33766796_2_it-prompt.txt
+  terms:
+    - Sindrome dell'X fragile
+    - MONDO:0019349
+    - Sindrome di Mowat-Wilson
+    - Sindrome di Smith-Magenis
+    - Sindrome di Cowden
+    - Sindrome di Klinefelter
+    - Sindrome di Sanfilippo
+named_entities:
+  - id: MONDO:0019349
+    label: Sindrome di Sotos

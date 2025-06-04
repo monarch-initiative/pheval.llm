@@ -1,0 +1,31 @@
+language	Rank_in	percentage
+es_w_en	Top-1	23.0
+it_no_en	Top-1	20.0
+de_w_en	Top-1	26.0
+de_no_en	Top-1	24.0
+es_no_en	Top-1	25.0
+it_w_en	Top-1	25.0
+es_w_en	Top-3	30.0
+it_no_en	Top-3	33.0
+de_w_en	Top-3	32.0
+de_no_en	Top-3	33.0
+es_no_en	Top-3	32.0
+it_w_en	Top-3	33.0
+es_w_en	Top-5	34.0
+it_no_en	Top-5	42.0
+de_w_en	Top-5	33.0
+de_no_en	Top-5	35.0
+es_no_en	Top-5	36.0
+it_w_en	Top-5	34.0
+es_w_en	Top-10	34.0
+it_no_en	Top-10	42.0
+de_w_en	Top-10	33.0
+de_no_en	Top-10	35.0
+es_no_en	Top-10	38.0
+it_w_en	Top-10	34.0
+es_w_en	Not Found	66.0
+it_no_en	Not Found	58.0
+de_w_en	Not Found	67.0
+de_no_en	Not Found	65.0
+es_no_en	Not Found	62.0
+it_w_en	Not Found	66.0

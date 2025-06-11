@@ -1,0 +1,32 @@
+Lang  Rank  Proportion
+   <fct> <fct>      <dbl>
+ 1 en    Top1       0.154
+ 2 en    Top3       0.209
+ 3 en    Top10      0.232
+ 4 cs    Top1       0.134
+ 5 cs    Top3       0.205
+ 6 cs    Top10      0.240
+ 7 de    Top1       0.153
+ 8 de    Top3       0.221
+ 9 de    Top10      0.266
+10 es    Top1       0.154
+11 es    Top3       0.227
+12 es    Top10      0.276
+13 fr    Top1       0.153
+14 fr    Top3       0.222
+15 fr    Top10      0.250
+16 it    Top1       0.156
+17 it    Top3       0.221
+18 it    Top10      0.266
+19 ja    Top1       0.169
+20 ja    Top3       0.240
+21 ja    Top10      0.263
+22 nl    Top1       0.159
+23 nl    Top3       0.227
+24 nl    Top10      0.280
+25 tr    Top1       0.136
+26 tr    Top3       0.199
+27 tr    Top10      0.240
+28 zh    Top1       0.165
+29 zh    Top3       0.225
+30 zh    Top10      0.239

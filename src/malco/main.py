@@ -11,7 +11,12 @@ from .io.reading import read_result_json
 import pandas as pd
 import multiprocessing as mp
 import numpy as np
+import litellm
+from litellm import completion, embedding
+from litellm.caching import Cache
 import ast
+
+litellm.suppress_debug_info = True
 
 @click.group()
 def core():

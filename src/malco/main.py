@@ -15,7 +15,8 @@ import litellm
 from litellm import completion, embedding
 from litellm.caching import Cache
 import ast
-
+import os
+# Suppress debug info from litellm
 litellm.suppress_debug_info = True
 
 @click.group()
@@ -23,10 +24,52 @@ def core():
     pass
 
 @core.command()
-def inference():
+@click.option("--model", type=click.Choice(["gpt-4o", "claude-3", "llama-3.2"]), default="gpt-4o")
+@click.option("--key_file", type=click.Path(exists=True), default=os.path.expanduser("~/openai.key"))
+@click.option("--inputdir", type=click.Path(exists=True), default="test_inputdir/prompts/en/")
+@click.option("--outputdir", type=click.Path(exists=True), default="test_outputdir/differentials_by_file/")
+def inference(model: str, key_file: str, inputdir: str, outputdir: str):
     """Runs one or multiple inferences on a set of prompts"""
-    # TODO: Implement this with ollama?
-    return None
+    with open(key_file, "r") as key_file:
+        api_key = key_file.read().strip()
+        if model.startswith("gpt-"):
+            env_var = "OPENAI_API_KEY"
+            path = "openai" # TODO generalize for other models
+        elif model.startswith("claude-"):
+            env_var = "ANTHROPIC_API_KEY"
+        elif model.startswith("llama-"):
+            env_var = "OLLAMA_API_KEY"
+        else:
+            raise ValueError("Model must be one of: gpt-4o, claude-3, llama-3.2")
+    # Set the environment variable for the API key
+    if env_var not in os.environ:
+        print(f"Setting {env_var} environment variable for API key.")
+        # Set the environment variable
+        os.environ[env_var] = api_key
+    # Iteratively prompt the model with all files in the input directory
+    for filename in os.listdir(inputdir):
+        if filename.endswith(".txt"):  # Process only text files
+            input_file_path = os.path.join(inputdir, filename)
+            output_file_path = os.path.join(outputdir, filename)
+
+            # Read the content of the input file
+            with open(input_file_path, "r") as infile:
+                prompt_content = infile.read()
+
+            # Prompt the model
+            try:
+                response = litellm.completion(
+                    model=os.path.join(path, model),
+                    messages=[{"content": prompt_content, "role": "user"}]
+                )
+                # Save the response to the output file
+                with open(output_file_path, "w") as outfile:
+                    outfile.write(response.choices[0].message.content)
+                print(f"Processed {filename} and saved response to {output_file_path}")
+            except Exception as e:
+                print(f"Error processing {filename}: {e}")
+    
+
 
 @core.command()
 @click.option("--config", type=click.Path(exists=True))

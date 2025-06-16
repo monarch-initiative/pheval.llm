@@ -16,6 +16,8 @@ from litellm import completion, embedding
 from litellm.caching import Cache
 import ast
 import os
+import json
+
 # Suppress debug info from litellm
 litellm.suppress_debug_info = True
 
@@ -26,10 +28,11 @@ def core():
 @core.command()
 @click.option("--model", type=click.Choice(["gpt-4o", "claude-3", "llama-3.2"]), default="gpt-4o")
 @click.option("--key_file", type=click.Path(exists=True), default=os.path.expanduser("~/openai.key"))
-@click.option("--inputdir", type=click.Path(exists=True), default="test_inputdir/prompts/en/")
-@click.option("--outputdir", type=click.Path(exists=True), default="test_outputdir/differentials_by_file/")
+@click.option("--inputdir", type=click.Path(exists=True), default="test_inputdir/prompts/en")
+@click.option("--outputdir", type=click.Path(exists=True), default="test_outputdir/")
 def inference(model: str, key_file: str, inputdir: str, outputdir: str):
     """Runs one or multiple inferences on a set of prompts"""
+
     with open(key_file, "r") as key_file:
         api_key = key_file.read().strip()
         if model.startswith("gpt-"):
@@ -46,11 +49,26 @@ def inference(model: str, key_file: str, inputdir: str, outputdir: str):
         print(f"Setting {env_var} environment variable for API key.")
         # Set the environment variable
         os.environ[env_var] = api_key
+
+    # We suppose that next to the input directory we have a file named correct_results.tsv
+    correct_results_file = os.path.join(os.path.dirname(inputdir), "correct_results.tsv")
+    try:
+        correct_results_df = pd.read_csv(correct_results_file, sep='\t', header=None, names=['disease_name', 'disease_id', 'id'])
+        correct_results_dict = {row['id']: {'disease_id' : row['disease_id'], 'disease_name': row['disease_name']} for _, row in correct_results_df.iterrows()}
+    except FileNotFoundError:
+        print(f"Warning: {correct_results_file} not found. 'gold' will be empty.")
+        correct_results_dict = {}
+
+
+    # Create the output file path in the output directory
+    if not os.path.exists(outputdir):
+        os.makedirs(outputdir)
+    output_file_path = os.path.join(outputdir, f"{model}.jsonl")
+
     # Iteratively prompt the model with all files in the input directory
     for filename in os.listdir(inputdir):
         if filename.endswith(".txt"):  # Process only text files
             input_file_path = os.path.join(inputdir, filename)
-            output_file_path = os.path.join(outputdir, filename)
 
             # Read the content of the input file
             with open(input_file_path, "r") as infile:
@@ -62,10 +80,18 @@ def inference(model: str, key_file: str, inputdir: str, outputdir: str):
                     model=os.path.join(path, model),
                     messages=[{"content": prompt_content, "role": "user"}]
                 )
-                # Save the response to the output file
-                with open(output_file_path, "w") as outfile:
-                    outfile.write(response.choices[0].message.content)
-                print(f"Processed {filename} and saved response to {output_file_path}")
+                # Save the response to the output file as jsonl
+                gold_value = correct_results_dict.get(filename, "")
+
+                response_data = {
+                    "id": filename,
+                    "prompt": prompt_content,
+                    "gold": gold_value,
+                    "response": response.choices[0].message.content
+                }
+                with open(output_file_path, "a") as outfile: # TODO careful not to overwrite files, change something here
+                    json.dump(response_data, outfile)
+                    outfile.write('\n')  # Add a newline to separate JSON objects in .jsonl format
             except Exception as e:
                 print(f"Error processing {filename}: {e}")
     

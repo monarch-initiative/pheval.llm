@@ -3,10 +3,12 @@ library(dplyr)
 library(tidyr)
 library(ggsci)  # For Lancet/Nature color palettes
 
-mode <- "gpt"
+
+mode <- "manual"
 # Use switch to assign the file path
 tsv_file <- switch(mode,
                    gpt = "/Users/leonardo/git/malco/final_multilingual_output/rank_data/topn_result.tsv",
+                   meditron = "/Users/leonardo/git/malco/data/results/multilingual_main/plots/allmeditron.tsv",
                    manual = "/Users/leonardo/git/malco/out_manual_curation/multilingual/rank_data/curated_topn_result.tsv",
                    stop("Unknown mode")  # fallback if mode doesn't match
 )
@@ -22,7 +24,9 @@ data <- data %>%
     Top1 = n1,
     Top3 = n1 + n2 + n3,
     Top10 = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10,
-    NotRanked = grounding_failed + nf,
+    # FIX THIS
+    NotRanked = grounding_failed + nf, # FOR GPT and manual
+    #NotRanked = nf, # FOR MEDITRON
     Total = Top10 + NotRanked,
     Top1 = Top1 / Total,
     Top3 = Top3 / Total,
@@ -37,6 +41,7 @@ data_long <- data %>%
 data_long$Lang <- switch(mode,
                          # Reorder Lang: Put "en" first, followed by others alphabetically (!)
                          gpt = factor(data_long$Lang, levels = c("en", sort(setdiff(unique(data_long$Lang), "en")))),
+                         meditron = factor(data_long$Lang, levels = c("en", sort(setdiff(unique(data_long$Lang), "en")))),
                          manual = factor(data_long$Lang),
                          stop("Unknown mode")  # fallback if mode doesn't match
                          )
@@ -45,26 +50,10 @@ data_long$Lang <- switch(mode,
 data_long$Rank <- factor(data_long$Rank, levels = c("Top1", "Top3", "Top10"))
 
 # Define a custom subdued color palette
-# switch
-# case: gpt full result
-#color_palette <- c(
-#  "en" = "#1B4F72",  # Deep Blue for English
-#  "ja" = "#AAB7B8", "it" = "#D5DBDB", "cs" = "#A9CCE3", "tr" = "#F9E79F",
-#  "nl" = "#85C1E9", "de" = "#5499C7", "es" = "#5D6D7E", "zh" = "#D7BDE2", "fr" = "#F5CBA7"
-#)
-
-# case: manual curation
-color_palette <- c( 
-  "de_no_en" = "#A9CCE3",
-  "de_w_en" = "#D5DBDB", 
-  "es_no_en" = "#5499C7", 
-  "es_w_en" = "#85C1E9",
-  "it_no_en" = "#AAB7B8",
-  "it_w_en" = "#1B4F72"
-  )
-
 color_palette <- switch(mode,
                         gpt = c("en" = "#1B4F72","ja" = "#AAB7B8", "it" = "#D5DBDB", "cs" = "#A9CCE3", "tr" = "#F9E79F",
+                                "nl" = "#85C1E9","de" = "#5499C7", "es" = "#5D6D7E", "zh" = "#D7BDE2", "fr" = "#F5CBA7"),
+                        meditron = c("en" = "#1B4F72","ja" = "#AAB7B8", "it" = "#D5DBDB", "cs" = "#A9CCE3", "tr" = "#F9E79F",
                                 "nl" = "#85C1E9","de" = "#5499C7", "es" = "#5D6D7E", "zh" = "#D7BDE2", "fr" = "#F5CBA7"),
                         manual = c( "de_no_en" = "#A9CCE3","de_w_en" = "#D5DBDB", "es_no_en" = "#5499C7", "es_w_en" = "#85C1E9",
                                     "it_no_en" = "#AAB7B8","it_w_en" = "#1B4F72"),
@@ -72,21 +61,19 @@ color_palette <- switch(mode,
 
 full_names <- switch(mode, # alphabetically ordered, according to two-letter language code (!)
                      gpt = c("English", "Czech","German", "Spanish","French", "Italian","Japanese","Dutch","Turkish","Chinese"),
+                     meditron = c("English", "Czech","German", "Spanish","French", "Italian","Japanese","Dutch","Turkish","Chinese"),
                      manual = c("German Reply", "German, EN Reply","Spanish Reply", "Spanish, EN Reply", "Italian Reply","Italian, EN Reply"),
                      stop("unknown mode") )
 
 # Plot
-#switch
-#case gpt
-upper_y_axis = 0.40
-# case manual curation
-upper_y_axis = 0.44
 
-ggplot(data_long, aes(x = Rank, y = Proportion, fill = Lang)) + #ylim(0,62) +
+upper_y_axis = 0.50
+
+p <- ggplot(data_long, aes(x = Rank, y = Proportion, fill = Lang)) + #ylim(0,62) +
   geom_bar(stat = "identity", position = "dodge", color = "black", size = 0.3) +  # Black border, thin
   scale_fill_manual(values = color_palette, labels=full_names) +  # Professional color palette
   labs(
-    title = "Ranks Across Languages",
+    #title = "Ranks Across Languages",
     y = "%",
     fill = "Language"
   ) +
@@ -103,5 +90,22 @@ ggplot(data_long, aes(x = Rank, y = Proportion, fill = Lang)) + #ylim(0,62) +
     legend.position = "right",
     panel.grid.major.y = element_line(color = "#AAB7B8", linetype = "dashed")  # Subtle horizontal grid lines
   )+
-  coord_fixed(ratio=5)
+  coord_fixed(ratio=4)
 
+fn <- switch(mode, # alphabetically ordered, according to two-letter language code (!)
+             gpt = "figure2.pdf",
+             meditron= "figure3.pdf",
+             manual = 'supplemental_figure_s1.pdf',
+             stop('unknown mode')
+)
+
+#pdf()
+ggsave(
+  filename = paste0("/Users/leonardo/Desktop/papers/multlingualGPT/plots_figures/",fn),  # output filename
+  plot = p,                  # plot object
+  width = 10,                 # width in inches
+  height = 7,                # height in inches
+  units = "in"               # can be "in", "cm", or "mm"
+)
+
+def.off()

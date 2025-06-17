@@ -1,0 +1,6 @@
+tool: template
+tool_version: null
+config: /in_manual_curation
+run_timestamp: 1747735575.994768
+corpus: /tests
+tool_specific_configuration_options: null

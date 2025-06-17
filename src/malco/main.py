@@ -59,9 +59,10 @@ def evaluate(config: str):
 
 @core.command()
 @click.option("--config", type=click.Path(exists=True))
-@click.option("--cases", type=click.Path(exists=True))
+@click.option("--cases", type=click.Path(exists=True), default="data/results/multilingual_main/gpt-4o/ppkts_4917set.txt")
 def select(config: str, cases: str):
-    """Selects a subset of phenopackets to run summarize on."""
+    """Selects the subset of phenopackets passed with cases to run summarize on.
+    Currently only supports the file IDs used for prompts."""
     run_config = MalcoConfig(config)
     df = pd.read_csv(run_config.full_result_file, sep="\t")
     for col in ["gold", "grounding", "scored"]:
@@ -77,7 +78,7 @@ def select(config: str, cases: str):
             n = len("_en-prompt.txt")
             regex_lines = [re.escape(line[:-n]) + r"_[a-z][a-z]-prompt\.txt" for line in lines]
         else:
-            raise ValueError("The cases file must contain either a list of json files or a list of phenopackets with the last n characters removed.")
+            raise ValueError("The cases file must contain either a list of json files or a list of prompt file name IDs.")
         
     # Filter the DataFrame based on the lines in the cases file
     # It is sufficient for the lines to be a substring of the metadata (to match all languages)

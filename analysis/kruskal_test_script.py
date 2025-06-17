@@ -5,8 +5,11 @@ Works on individual data points..."""
 from pathlib import Path
 import math
 import pandas as pd
+from scipy.stats import chi2_contingency as chi
 from scipy.stats import kruskal 
-import ast
+from malco.post_process.df_save_util import safe_save_tsv
+from malco.post_process.generate_plots import make_plots
+
 
 # MALCO langs check output.
 languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl", "ja","fr"]
@@ -15,6 +18,7 @@ languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl", "ja","fr"]
 mrr_results = {}
 samples = {}
 for lang in languages:
+
     #fulldf_path = Path(f"/Users/leonardo/git/malco/final_multilingual_output/{lang}/full_df_results.tsv") 
     # Repackaging format:
     fulldf_path = Path(f"data/results/multilingual_main/full_results/full_df_{lang}-Meditron3_70b.tsv")

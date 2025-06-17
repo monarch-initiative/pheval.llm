@@ -8,6 +8,7 @@ except IndexError:
     print("No input file provided. Using default.")
     # Default file path
     file = Path("final_multilingual_output/rank_data/topn_result.tsv")
+
 if file.is_dir():
     # if this is not a file, but a directory, file will be the set of tsv files in that directory
     file = list(file.glob("topn_result_*.tsv"))
@@ -17,6 +18,7 @@ if isinstance(file, list):
     df = pd.concat([pd.read_csv(f, delimiter="\t") for f in file], ignore_index=True)
 else:
     df = pd.read_csv(file, delimiter="\t")
+
 
 language_mapping = {
     "en": "English",
@@ -31,7 +33,6 @@ language_mapping = {
     "fr": "French",
 }
 
-# Replace the short language codes with full names
 # if df contains a 'language' column
 if "language" in df.columns:
     lang_str =  "language"

@@ -3,6 +3,7 @@ library(dplyr)
 library(tidyr)
 library(ggsci)  # For Lancet/Nature color palettes
 
+
 mode <- "manual"
 # Use switch to assign the file path
 tsv_file <- switch(mode,
@@ -15,8 +16,6 @@ tsv_file <- switch(mode,
 
 # Data
 data <- read.delim(tsv_file, header = TRUE, sep = "\t", stringsAsFactors = FALSE)
-
-
 
 # Process and normalize data
 data <- data %>%
@@ -51,7 +50,6 @@ data_long$Lang <- switch(mode,
 data_long$Rank <- factor(data_long$Rank, levels = c("Top1", "Top3", "Top10"))
 
 # Define a custom subdued color palette
-
 color_palette <- switch(mode,
                         gpt = c("en" = "#1B4F72","ja" = "#AAB7B8", "it" = "#D5DBDB", "cs" = "#A9CCE3", "tr" = "#F9E79F",
                                 "nl" = "#85C1E9","de" = "#5499C7", "es" = "#5D6D7E", "zh" = "#D7BDE2", "fr" = "#F5CBA7"),
@@ -68,6 +66,7 @@ full_names <- switch(mode, # alphabetically ordered, according to two-letter lan
                      stop("unknown mode") )
 
 # Plot
+
 upper_y_axis = 0.50
 
 p <- ggplot(data_long, aes(x = Rank, y = Proportion, fill = Lang)) + #ylim(0,62) +

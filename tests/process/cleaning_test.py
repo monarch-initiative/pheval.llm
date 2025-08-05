@@ -104,4 +104,4 @@ def test_split_diagnosis_and_synonym_without_synonym():
 def test_split_diagnosis_and_synonym_empty_string():
     diagnosis = ""
     expected = ("", None)
-    assert split_diagnosis_and_synonym(diagnosis) == expected()
+    assert split_diagnosis_and_synonym(diagnosis) == expected

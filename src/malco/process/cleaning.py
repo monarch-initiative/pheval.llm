@@ -17,7 +17,7 @@ def clean_service_answer(answer: str) -> str:
 def split_diagnosis_from_header(answer: str) -> str:
     # Find the position of the identifier
     position = answer.find("1.")
-    if position == -1 or position == None:
+    if position == -1 or position is None:
         return ""
     # Get everything from the identifier onwards
     return answer[position:]

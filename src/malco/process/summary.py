@@ -9,7 +9,7 @@ from malco.config import MalcoConfig
 def summarize(df, run_config: MalcoConfig):
     # Initialize the counter for each rank
     rank_counter = Counter()
-    for index, row in tqdm(df.iterrows(), total=len(df)):
+    for _, row in tqdm(df.iterrows(), total=len(df)):
         correct_rank = None
         grounding_failure = None
         item_number = None
@@ -20,8 +20,8 @@ def summarize(df, run_config: MalcoConfig):
             scored = pd.DataFrame(row["scored"])
             # Find the first occurrence of the correct diagnosis
             correct_rank = (
-                scored[scored["is_correct"] == True].index.min() + 1
-                if not scored[scored["is_correct"] == True].empty
+                scored[scored["is_correct"]].index.min() + 1
+                if not scored[scored["is_correct"]].empty
                 else None
             )
             grounding_failure = any(scored["grounded_id"] == "N/A")

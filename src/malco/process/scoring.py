@@ -55,7 +55,7 @@ def score(df) -> pd.DataFrame:
 
         results = []
         # Loop through each grounded diagnosis and score them
-        for rank, (disease_name, grounded_list) in enumerate(grounded_diagnoses, start=1):
+        for rank, (_, grounded_list) in enumerate(grounded_diagnoses, start=1):
             for grounded_id, _ in grounded_list:
                 k = hashkey(grounded_id, row["gold"]["disease_id"])
                 try:

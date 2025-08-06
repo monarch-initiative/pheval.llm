@@ -45,7 +45,7 @@ def make_single_plot(
 
     df.set_index(comparing, inplace=True)
     df = df.T
-    ax = df.plot(
+    df.plot(
         kind="bar",
         color=palette_hex_codes,
         ylabel="Percent of cases",

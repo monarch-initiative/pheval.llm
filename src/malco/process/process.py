@@ -8,7 +8,7 @@ from malco.process.grounding import ground_diagnosis_text_to_mondo
 
 def create_single_standardised_results(responses: pd.DataFrame, process) -> pd.DataFrame:
     results = []
-    for index, row in tqdm(
+    for _, row in tqdm(
         responses.iterrows(),
         total=responses.shape[0],
         position=process,

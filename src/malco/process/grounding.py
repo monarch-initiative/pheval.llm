@@ -114,12 +114,19 @@ def ground_diagnosis_text_to_mondo(
     annotator: TextAnnotatorInterface,
     differential_diagnosis: str,
     verbose: bool,
-    include_list: List[str] = ["MONDO:"],
+    include_list: List[
+        str
+    ] = None,  # B006 Do not use mutable data structures for argument defaults.
     use_ontogpt_grounding: bool = True,
     curategpt_path: str = "stagedb/",
     curategpt_collection: str = "ont_mondo",
     curategpt_database_type: str = "chromadb",
 ) -> List[Tuple[str, List[Tuple[str, str]]]]:
+
+    # See https://docs.python.org/3/tutorial/controlflow.html#default-argument-values
+    if include_list is None:
+        include_list = ["MONDO:"]
+
     results = []
 
     headers_to_avoid = [

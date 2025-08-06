@@ -1,13 +1,15 @@
 import logging
 from pathlib import Path
+
 import pandas as pd
 from cachetools import LRUCache
 from cachetools.keys import hashkey
 from oaklib import get_adapter
 from oaklib.interfaces import OboGraphInterface
 from shelved_cache import PersistentCache
-from malco.process.mondo_score_utils import score_grounded_result
 from tqdm import tqdm
+
+from malco.process.mondo_score_utils import score_grounded_result
 
 FULL_SCORE = 1.0
 PARTIAL_SCORE = 0.5
@@ -26,6 +28,7 @@ def mondo_adapter() -> OboGraphInterface:
     """
     return get_adapter("sqlite:obo:mondo")
 
+
 def score(df) -> pd.DataFrame:
     """
     Score the results of the grounding.
@@ -41,10 +44,10 @@ def score(df) -> pd.DataFrame:
     PersistentCache.cache_info = cache_info
     pc1.initialize_if_not_initialized()
     pc2.initialize_if_not_initialized()
-    df['scored'] = None
+    df["scored"] = None
     mondo = mondo_adapter()
-    for index, row in tqdm(df.iterrows(), total=df.shape[0], desc=f"Scoring Grounded Results"):
-        grounded_diagnoses = row['grounding']
+    for index, row in tqdm(df.iterrows(), total=df.shape[0], desc="Scoring Grounded Results"):
+        grounded_diagnoses = row["grounding"]
 
         if not row["gold"]:
             logging.warning(f"No correct ID found for metadata: {row['id']}")
@@ -52,19 +55,26 @@ def score(df) -> pd.DataFrame:
 
         results = []
         # Loop through each grounded diagnosis and score them
-        for rank, (disease_name, grounded_list) in enumerate(grounded_diagnoses, start=1):
+        for rank, (_, grounded_list) in enumerate(grounded_diagnoses, start=1):
             for grounded_id, _ in grounded_list:
                 k = hashkey(grounded_id, row["gold"]["disease_id"])
                 try:
                     grounded_score = pc2[k]
                     pc2.hits += 1
                 except KeyError:
-                    grounded_score = score_grounded_result(grounded_id, row["gold"]["disease_id"], mondo, pc1)
+                    grounded_score = score_grounded_result(
+                        grounded_id, row["gold"]["disease_id"], mondo, pc1
+                    )
                     pc2[k] = grounded_score
                     pc2.misses += 1
 
                 is_correct = grounded_score > 0  # Score > 0 means either exact or subclass match
-                result_row = {"rank": rank, "grounded_id": grounded_id, "grounded_score": grounded_score, "is_correct": is_correct}
+                result_row = {
+                    "rank": rank,
+                    "grounded_id": grounded_id,
+                    "grounded_score": grounded_score,
+                    "is_correct": is_correct,
+                }
                 results.append(result_row)
         df.at[index, "scored"] = results
     pc1.close()

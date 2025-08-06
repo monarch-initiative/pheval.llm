@@ -1,7 +1,8 @@
 import unittest
 
-from malco.process.mondo_score_utils import omim_mappings
 from oaklib import get_adapter
+
+from malco.process.mondo_score_utils import omim_mappings
 
 
 class TestOntologyUtils(unittest.TestCase):

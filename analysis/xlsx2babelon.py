@@ -1,5 +1,5 @@
 """
-Create babelon complying tables from .xlsx that was sent to us 
+Create babelon complying tables from .xlsx that was sent to us
 """
 
 import pandas as pd

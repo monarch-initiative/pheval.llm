@@ -1,13 +1,11 @@
 import sys
 
-import numpy as np
 import pandas as pd
 from cachetools import LRUCache, cached
 from cachetools.keys import hashkey
 from oaklib import get_adapter
 from oaklib.datamodels.vocabulary import IS_A, PART_OF
 from oaklib.interfaces import MappingProviderInterface, OboGraphInterface
-from oaklib.interfaces.obograph_interface import GraphTraversalMethod
 from shelved_cache import PersistentCache
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,6 +16,7 @@ pc_cache_file = outpath + "diagnoses_hereditary_cond"
 pc = PersistentCache(LRUCache, pc_cache_file, maxsize=4096)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 def mondo_adapter() -> OboGraphInterface:
     """
     Get the adapter for the MONDO ontology.
@@ -26,7 +25,10 @@ def mondo_adapter() -> OboGraphInterface:
         Adapter: The adapter.
     """
     return get_adapter("sqlite:obo:mondo")
+
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 def mondo_mapping(term, adapter):
     mondos = []
@@ -34,7 +36,10 @@ def mondo_mapping(term, adapter):
         if m.predicate_id == "skos:exactMatch":
             mondos.append(m.subject_id)
     return mondos
+
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 @cached(pc, key=lambda omim_term, disease_categories, mondo: hashkey(omim_term))
 def find_category(omim_term, disease_categories, mondo):

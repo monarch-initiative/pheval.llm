@@ -1,7 +1,6 @@
 """Import manually curated LLM replies and update the topn_result.tsv file in out_manual_curation"""
 
 import pandas as pd
-import os
 
 rank_dir = "/Users/leonardo/git/malco/out_manual_curation/multilingual/rank_data/"
 topn_file_name = rank_dir + "topn_result.tsv"
@@ -30,7 +29,9 @@ rank_df = pd.read_csv(topn_file_name, sep="\t")
 
 rows_to_update = ["it_no_en", "es_no_en", "de_no_en"]
 # Update the rows "it_no_en" and "de_no_en" in rank_df
-rank_df.loc[rank_df["language"].isin(rows_to_update), rank_df.columns.difference(["language", "num_cases"])] = 0
+rank_df.loc[
+    rank_df["language"].isin(rows_to_update), rank_df.columns.difference(["language", "num_cases"])
+] = 0
 
 for i in range(1, 11):
     try:
@@ -55,7 +56,11 @@ rank_df.to_csv(topn_file_out, sep="\t", index=False)
 valid_cases = rank_df["num_cases"]
 rank_df["Top-1"] = 100 * (rank_df["n1"]) / valid_cases
 rank_df["Top-3"] = 100 * (rank_df["n1"] + rank_df["n2"] + rank_df["n3"]) / valid_cases
-rank_df["Top-5"] = 100 * (rank_df["n1"] + rank_df["n2"] + rank_df["n3"] + rank_df["n4"] + rank_df["n5"]) / valid_cases
+rank_df["Top-5"] = (
+    100
+    * (rank_df["n1"] + rank_df["n2"] + rank_df["n3"] + rank_df["n4"] + rank_df["n5"])
+    / valid_cases
+)
 rank_df["Top-10"] = (
     100
     * (
@@ -83,19 +88,29 @@ df_aggr = pd.melt(
     value_name="percentage",
 )
 
-    # If "topn_aggr.tsv" already exists, prepend "old_"
-    # It's the user's responsibility to know only up to 2 versions can exist, then data is lost
+# If "topn_aggr.tsv" already exists, prepend "old_"
+# It's the user's responsibility to know only up to 2 versions can exist, then data is lost
 topn_aggr_file_name = "curated_topn_aggr.tsv"
 topn_aggr_file = rank_dir + topn_aggr_file_name
 
 df_aggr.to_csv(topn_aggr_file, sep="\t", index=False)
 
 from pathlib import Path
+
 from malco.post_process.generate_plots import make_plots
+
 # Create dictinoary with the languages as key and num_cases as value
 num_ppkt = {}
-for lang in rank_df['language']:
-    num_ppkt[lang] = rank_df.loc[rank_df['language'] == lang, 'num_cases'].values[0]
+for lang in rank_df["language"]:
+    num_ppkt[lang] = rank_df.loc[rank_df["language"] == lang, "num_cases"].values[0]
 
 # Create the plots
-make_plots("USELESS", Path(rank_dir), list(rank_df['language']), num_ppkt, "USELESS", topn_aggr_file, "language")
+make_plots(
+    "USELESS",
+    Path(rank_dir),
+    list(rank_df["language"]),
+    num_ppkt,
+    "USELESS",
+    topn_aggr_file,
+    "language",
+)

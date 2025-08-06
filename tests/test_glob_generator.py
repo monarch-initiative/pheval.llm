@@ -1,6 +1,7 @@
 import unittest
 from pathlib import Path
 from unittest.mock import MagicMock
+
 from malco.model.language import Language
 from malco.process.generate_plots import glob_generator
 

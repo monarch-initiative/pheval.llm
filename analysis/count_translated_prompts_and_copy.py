@@ -1,13 +1,12 @@
-"""Look in the phenopacket2prompt output directory for the common phenopackets across languages and copy them to another directory.
-"""
+"""Look in the phenopacket2prompt output directory for the common phenopackets across languages and copy them to another directory."""
 
+import json
 import os
 import re
 import shutil
-import tqdm
 import sys
-import json
 
+import tqdm
 
 create_list_file = False
 copy_prompt_files = False
@@ -40,7 +39,11 @@ if len(sys.argv) > 4:
 else:
     # Default languages to consider
     langs = ["en", "ja", "es", "de", "it", "nl", "tr", "zh", "cs", "fr"]
-    print("No languages provided, using default languages: ", langs, "\nYou can provide them as a comma-separated list as the second argument.")
+    print(
+        "No languages provided, using default languages: ",
+        langs,
+        "\nYou can provide them as a comma-separated list as the second argument.",
+    )
 
 promptfiles = {}
 for lang in langs:
@@ -81,11 +84,13 @@ if copy_prompt_files:
 if copy_json_files:
     json_path = os.path.join(fp, "original_phenopackets")
     for jsonfile in tqdm.tqdm(os.listdir(json_path), "Copying json files..."):
-        with open(os.path.join(json_path, jsonfile), 'r') as f:
+        with open(os.path.join(json_path, jsonfile), "r") as f:
             data = json.load(f)
-            id = data['id']
-            id = re.sub(r'[^\w]', '_', id)
+            id = data["id"]
+            id = re.sub(r"[^\w]", "_", id)
             if id in intersection:
-                shutil.copy(os.path.join(json_path, jsonfile), os.path.join(dst_dir, "jsons", jsonfile))
+                shutil.copy(
+                    os.path.join(json_path, jsonfile), os.path.join(dst_dir, "jsons", jsonfile)
+                )
             else:
                 print(f"Skipping {jsonfile}, not in intersection.")

@@ -1,28 +1,26 @@
+import ast
+import json
+import multiprocessing as mp
+import os
+import re
 from pathlib import Path
 from typing import Optional
 
 import click
+import litellm
+import numpy as np
+import pandas as pd
 
 from .config import MalcoConfig
-from .process.scoring import score, mondo_adapter
+from .io.reading import read_result_json
 from .process.generate_plots import (
-    make_single_plot_from_file,
-    make_single_plot,
     make_combined_plot_comparing,
+    make_single_plot,
+    make_single_plot_from_file,
 )
 from .process.process import create_single_standardised_results
+from .process.scoring import mondo_adapter, score
 from .process.summary import summarize
-from .io.reading import read_result_json
-import pandas as pd
-import multiprocessing as mp
-import numpy as np
-import litellm
-from litellm import completion, embedding
-from litellm.caching import Cache
-import ast
-import os
-import json
-import re
 
 # Suppress debug info from litellm
 litellm.suppress_debug_info = True

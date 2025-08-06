@@ -1,10 +1,13 @@
+from typing import List, Tuple
+
 from curategpt.store import get_store
 from oaklib.interfaces.text_annotator_interface import (
     TextAnnotationConfiguration,
     TextAnnotatorInterface,
 )
-from typing import List, Tuple
+
 from malco.process.cleaning import clean_diagnosis_line
+
 
 def perform_curategpt_grounding(
     diagnosis: str,
@@ -105,19 +108,25 @@ def perform_oak_grounding(
             pass
         return [("N/A", "No grounding found")]
 
+
 # Now, integrate curategpt into your ground_diagnosis_text_to_mondo function
 def ground_diagnosis_text_to_mondo(
     annotator: TextAnnotatorInterface,
     differential_diagnosis: str,
     verbose: bool,
-    include_list: List[str] = ["MONDO:"],
+    include_list: List[
+        str
+    ] = None,  # B006 Do not use mutable data structures for argument defaults.
     use_ontogpt_grounding: bool = True,
     curategpt_path: str = "stagedb/",
     curategpt_collection: str = "ont_mondo",
     curategpt_database_type: str = "chromadb",
-
-    
 ) -> List[Tuple[str, List[Tuple[str, str]]]]:
+
+    # See https://docs.python.org/3/tutorial/controlflow.html#default-argument-values
+    if include_list is None:
+        include_list = ["MONDO:"]
+
     results = []
 
     headers_to_avoid = [

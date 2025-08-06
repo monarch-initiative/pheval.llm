@@ -1,4 +1,4 @@
-Before starting a run take care of editing the [run parameters](inputdir/run_parameters.csv) as follows:
+Before starting a run take care of editing the [yaml](data/config/) as follows:
 
 - The first line contains a non-empty comma-separated list of (supported) language codes between double quotation marks in which one wishes to prompt.
 - The second line contains a non-empty comma-separated list of (supported) model names between double quotation marks which one wishes to prompt.
@@ -7,10 +7,8 @@ Before starting a run take care of editing the [run parameters](inputdir/run_par
 At this point one can install and run the code by doing:
 ```shell
 poetry install
-poetry shell
-mkdir outputdirectory
-cp -r /path/to/promptdir inputdir/
-pheval run -i inputdir -r "malcorunner" -o outputdirectory -t tests
+poetry env activate
+#TODO
 ```
 
 As an example, the [input file](https://github.com/monarch-initiative/pheval.llm/tree/main/docs/run_parameters.csv) file will execute only the post_process block for English, prompting the models gpt-4, gpt-3.5-turbo, gpt-4o, and gpt-4-turbo.

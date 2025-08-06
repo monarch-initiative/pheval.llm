@@ -3,12 +3,14 @@ from typing import List
 from cachetools.keys import hashkey
 from oaklib.datamodels.vocabulary import IS_A
 from oaklib.interfaces import MappingProviderInterface
+from oaklib.interfaces import OboGraphInterface
+
 
 FULL_SCORE = 1.0
 PARTIAL_SCORE = 0.5
 
 
-def omim_mappings(term: str, adapter) -> List[str]:
+def omim_mappings(term: str, adapter: OboGraphInterface) -> List[str]:
     """
     Get the OMIM mappings for a term.
 
@@ -32,7 +34,9 @@ def omim_mappings(term: str, adapter) -> List[str]:
     return omims
 
 
-def score_grounded_result(prediction: str, ground_truth: str, mondo, cache=None) -> float:
+def score_grounded_result(
+    prediction: str, ground_truth: str, mondo: OboGraphInterface, cache=None
+) -> float:
     """
     Score the grounded result.
 
@@ -84,7 +88,7 @@ def score_grounded_result(prediction: str, ground_truth: str, mondo, cache=None)
 
 def get_ground_truth_from_cache_or_compute(
     term,
-    adapter,
+    adapter: OboGraphInterface,
     cache,
 ):
     if cache is None:

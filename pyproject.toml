@@ -28,6 +28,7 @@ mkdocs = "^1.6.1"
 mkdocs-material = "^9.5.44"
 autopep8 = "^2.3.1"
 mkdocstrings = {extras = ["python"], version = "^0.27.0"}
+onnxruntime = ">=1.18.0,<1.23.0"
 
 [tool.pytest.ini_options]
 pythonpath = [

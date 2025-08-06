@@ -4,6 +4,7 @@ from typing import Tuple
 # Compile a regex pattern to detect lines starting with "Differential Diagnosis:"
 DD_RE = re.compile(r"^[^A-z]*Differential Diagnosis")
 
+
 # Function to clean and remove "Differential Diagnosis" header if present
 def clean_service_answer(answer: str) -> str:
     """Remove the 'Differential Diagnosis' header if present, and clean the first line."""
@@ -12,6 +13,7 @@ def clean_service_answer(answer: str) -> str:
     cleaned_lines = [line for line in lines if not DD_RE.match(line)]
     return "\n".join(cleaned_lines)
 
+
 def split_diagnosis_from_header(answer: str) -> str:
     # Find the position of the identifier
     position = answer.find("1.")
@@ -19,6 +21,7 @@ def split_diagnosis_from_header(answer: str) -> str:
         return ""
     # Get everything from the identifier onwards
     return answer[position:]
+
 
 # Clean the diagnosis line by removing leading numbers, periods, asterisks, and spaces
 def clean_diagnosis_line(line: str) -> str:

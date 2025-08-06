@@ -1,9 +1,11 @@
+import json
+import os
+import shutil
 from pathlib import Path
 from typing import List
 
 import yaml
-import json
-import os, shutil
+
 
 def read_raw_result_yaml(raw_result_path: Path) -> List[dict]:
     """
@@ -36,6 +38,7 @@ def read_result_json(path: str) -> List[dict]:
         for line in raw_result:
             responses.append(json.loads(line))
     return responses
+
 
 def safe_save_tsv(path, filename, df):
     full_path = path / filename

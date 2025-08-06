@@ -1,11 +1,10 @@
 """This script is used to compare the LLM output by comparing replies in English and not for the Italian, Spanish, and German languages."""
 
 import os
-from pathlib import Path
 import sys
+
 import pandas as pd
 
-from malco.post_process.post_process_results_format import read_raw_result_yaml
 # =========================================================
 # Input correct results from command line
 try:
@@ -37,7 +36,19 @@ answers_dict = {k[:-remove_std_suffix]: v for k, v in cres.items()}
 
 langs = ["it", "es", "de"]
 # Define a dataframe with 100 lines and 9 columns
-df = pd.DataFrame(columns=["PMID", "correct_label", "correct_OMIM_id", "it_dx", "es_dx", "de_dx", "it_rank", "es_rank", "de_rank"])
+df = pd.DataFrame(
+    columns=[
+        "PMID",
+        "correct_label",
+        "correct_OMIM_id",
+        "it_dx",
+        "es_dx",
+        "de_dx",
+        "it_rank",
+        "es_rank",
+        "de_rank",
+    ]
+)
 
 # Load ungrounded results
 ungrounded_dir = os.path.join(output_dir, "raw_results", "multilingual")
@@ -47,7 +58,7 @@ grounded_dir = os.path.join(output_dir, "multilingual")
 # Loop over directories in ungrounded_dir and use those cotaining "no_en" in their name
 
 for lang in langs:
-    dir_path = os.path.join(ungrounded_dir, lang+"_no_en", "differentials_by_file")
+    dir_path = os.path.join(ungrounded_dir, lang + "_no_en", "differentials_by_file")
     if os.path.exists(dir_path):
         print("Found directory:", dir_path)
         # Loop over files in the directory
@@ -57,17 +68,17 @@ for lang in langs:
             with open(file_path, "r") as f:
                 file_content = f.read()
             file_key = file[:-remove_result]  # Remove the last n characters from the filename
-            if file_key not in df['PMID'].values:
+            if file_key not in df["PMID"].values:
                 # Add a new row with the file_key in the PMID column and file content in the lang+"_no_en" column
-                df = pd.concat([df, pd.DataFrame({
-                    'PMID': [file_key],
-                    lang + "_dx": [file_content]
-                })], ignore_index=True)
+                df = pd.concat(
+                    [df, pd.DataFrame({"PMID": [file_key], lang + "_dx": [file_content]})],
+                    ignore_index=True,
+                )
             else:
                 # Update the existing row in the lang+"_no_en" column
-                df.loc[df['PMID'] == file_key, lang + "_dx"] = file_content
-    
-    dir_path = os.path.join(grounded_dir, lang+"_w_en")
+                df.loc[df["PMID"] == file_key, lang + "_dx"] = file_content
+
+    dir_path = os.path.join(grounded_dir, lang + "_w_en")
     if os.path.exists(dir_path):
         print("Found directory:", dir_path)
         fulldf = pd.read_csv(os.path.join(dir_path, "full_df_results.tsv"), sep="\t")
@@ -75,7 +86,7 @@ for lang in langs:
         for label, group in fulldf.groupby("label"):
             label = label[:-remove_std_suffix]  # Remove the last n characters from the label
             # Check if the label exists in df
-            if label not in df['PMID'].values:
+            if label not in df["PMID"].values:
                 print(f"Label {label} not found in df.")
                 continue
             # If any item in column "is_correct" is True, set the corresponding "rank" value in df[lang+"_rank"]
@@ -89,8 +100,12 @@ for lang in langs:
                 df.loc[df["PMID"] == label, lang + "_rank"] = float("NaN")
 
 # Add the correct MONDO ID and description to the dataframe
-df["correct_OMIM_id"] = df["PMID"].map(lambda x: answers_dict[x]["term"] if x in answers_dict else None)
-df["correct_label"] = df["PMID"].map(lambda x: answers_dict[x]["description"] if x in answers_dict else None)
+df["correct_OMIM_id"] = df["PMID"].map(
+    lambda x: answers_dict[x]["term"] if x in answers_dict else None
+)
+df["correct_label"] = df["PMID"].map(
+    lambda x: answers_dict[x]["description"] if x in answers_dict else None
+)
 
 # ==========================================================================================================================
 # ==========================================================================================================================
@@ -110,7 +125,7 @@ ws = wb.active
 
 for row in ws.iter_rows():
     for cell in row:
-        if cell.value and isinstance(cell.value, str) and '\n' in cell.value:
+        if cell.value and isinstance(cell.value, str) and "\n" in cell.value:
             cell.alignment = Alignment(wrap_text=True)
 
 # Automatically adjust column widths based on content
@@ -126,15 +141,15 @@ for col in ws.columns:
     # Set the column width
     ws.column_dimensions[col_letter].width = max_length
     # For columns D, E, F take a smaller width
-    if col_letter in ['D', 'E', 'F']:
+    if col_letter in ["D", "E", "F"]:
         ws.column_dimensions[col_letter].width = max_length / 2
 
 # Automatically adjust row height based on content
 for row in ws.iter_rows():
     max_height = 0
     for cell in row:
-        if cell.value and isinstance(cell.value, str) and '\n' in cell.value:
-            max_height = max(max_height, cell.value.count('\n') + 1)
+        if cell.value and isinstance(cell.value, str) and "\n" in cell.value:
+            max_height = max(max_height, cell.value.count("\n") + 1)
     # Set the row height (add a small buffer for better readability)
     ws.row_dimensions[row[0].row].height = max_height * 15  # Adjust the multiplier as needed
 
@@ -145,7 +160,5 @@ wb.save(excel_path)
 # Also save the dataframe to a TSV file
 # =============================================================
 # Escape newlines explicitly for all string fields in the DataFrame
-df = df.applymap(lambda x: x.replace('\n', '\\n') if isinstance(x, str) else x)
+df = df.applymap(lambda x: x.replace("\n", "\\n") if isinstance(x, str) else x)
 df.to_csv(os.path.join(result_dir, "replies2curate.tsv"), sep="\t", index=False)
-
-

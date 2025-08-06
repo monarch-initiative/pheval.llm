@@ -60,7 +60,7 @@ languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl"]
 
 out_file = f"/Users/leonardo/git/malco/analysis_out/curategpt_score_errors_{model}.tsv"
 # out_file = f"/Users/leonardo/git/malco/analysis_out/score_errors_{model}.tsv"
-results_file_dir = f"/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/"
+results_file_dir = "/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/"
 
 if not os.path.isfile(out_file):
 

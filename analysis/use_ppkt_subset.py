@@ -1,26 +1,29 @@
-import re
-import pandas as pd
-import numpy as np
 import json
 import os
+import re
 from pathlib import Path
+
+import numpy as np
+import pandas as pd
+
 from malco.post_process.df_save_util import safe_save_tsv
 
-#==============================================================================
+# ==============================================================================
 # Change the following paths to match your system and subset of phenopacket IDs
 # Subset of phenopackets after October 2023
-#output_dir = Path("/Users/leonardo/git/malco/leakage_experiment")
-#ppktids_filen = "/Users/leonardo/git/malco/ppkts_after_oct23_CORRECT.txt"
+# output_dir = Path("/Users/leonardo/git/malco/leakage_experiment")
+# ppktids_filen = "/Users/leonardo/git/malco/ppkts_after_oct23_CORRECT.txt"
 
-#TODO list of files in txt is the json file name, we have to take the id in thtat file and process it to get the prompt file name 
+# TODO list of files in txt is the json file name, we have to take the id in thtat file and process it to get the prompt file name
 
 
 # Subset of 4917 phenopackets with French
 output_dir = Path("/Users/leonardo/git/malco/final_multilingual_output")
 ppktids_filen = "/Users/leonardo/git/malco/final_multilingual_output/ppkts_4917set.txt"
 
+
 # Any txt file with a list of phenopacket IDs will do
-#==============================================================================
+# ==============================================================================
 # Function to replace all non-word characters with underscores
 def modify_filename(ppktID, ppkt_dir):
     # If there is a ".json" extension, remove it
@@ -31,11 +34,12 @@ def modify_filename(ppktID, ppkt_dir):
         except:
             print(f"Error loading JSON file: {ppktID}")
             return None
-        ppktID = ppkt['id']
-        modified_name = re.sub(r'[^\w]', '_', ppktID) + "_en-prompt.txt"
+        ppktID = ppkt["id"]
+        modified_name = re.sub(r"[^\w]", "_", ppktID) + "_en-prompt.txt"
     else:
         modified_name = ppktID
     return modified_name
+
 
 # Only used if we use the json file name
 ppkt_dir = "/Users/leonardo/data/ppkts_4967_polyglot/jsons"
@@ -49,41 +53,40 @@ print("ppktids: ", len(ppktids))
 languages = ["en", "es", "cs", "tr", "de", "it", "zh", "nl", "ja", "fr"]
 comparing = "language"
 header = [
-        comparing,
-        "n1",
-        "n2",
-        "n3",
-        "n4",
-        "n5",
-        "n6",
-        "n7",
-        "n8",
-        "n9",
-        "n10",
-        "n10p",
-        "nf",
-        "num_cases",
-        "grounding_failed",  # and no correct reply elsewhere in the differential
-    ]
+    comparing,
+    "n1",
+    "n2",
+    "n3",
+    "n4",
+    "n5",
+    "n6",
+    "n7",
+    "n8",
+    "n9",
+    "n10",
+    "n10p",
+    "nf",
+    "num_cases",
+    "grounding_failed",  # and no correct reply elsewhere in the differential
+]
 
 rank_df = pd.DataFrame(0, index=np.arange(len(languages)), columns=header)
 
-    
-i=0
+
+i = 0
 for lang in languages:
     # import full df for a given lang
-    fulldf_path = Path(f"/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/{lang}/full_df_results.tsv")
+    fulldf_path = Path(
+        f"/Users/leonardo/git/malco/out_multlingual_nov24/multilingual/{lang}/full_df_results.tsv"
+    )
     fulldf = pd.read_csv(fulldf_path, sep="\t")
 
     # change ppktid to a given lang
-    fulldf["label"] = fulldf["label"].str.replace(
-                "_[a-z][a-z]-prompt", "_en-prompt", regex=True
-            )
+    fulldf["label"] = fulldf["label"].str.replace("_[a-z][a-z]-prompt", "_en-prompt", regex=True)
 
     # drop lines that are not in ppktids
-    fulldf = fulldf[fulldf["label"].isin(ppktids)] # ISSUE HERE
-    
-    
+    fulldf = fulldf[fulldf["label"].isin(ppktids)]  # ISSUE HERE
+
     rank_df.loc[i, comparing] = lang
 
     ppkts = fulldf.groupby("label")[["term", "rank", "is_correct"]]
@@ -108,7 +111,7 @@ for lang in languages:
                 # increase n10p
                 rank_df.loc[i, "n10p"] += 1
         rank_df.loc[i, "num_cases"] = len(ppkts)
-    i = i +1
+    i = i + 1
 
 topn_file_name = "topn_result.tsv"
 

@@ -1,6 +1,7 @@
 import yaml
 
-class MalcoConfig():
+
+class MalcoConfig:
     def __init__(self, config_path):
         """
         Initialize the PhevalLLMConfig object by loading the configuration from a YAML file.

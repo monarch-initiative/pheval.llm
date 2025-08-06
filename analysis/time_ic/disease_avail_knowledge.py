@@ -1,11 +1,11 @@
 """
-This script looks for correlations between the ability of an LLM to 
+This script looks for correlations between the ability of an LLM to
 diagnose the correct disease and certain parameters.
 
 Make sure to run rank_date_exploratory.py first!
 The output of this file can be used to try to train ML models, see logit_predict_llm.py (TODO)
 
-(1) The first idea is using time, namely dates of discovery, as a way to capture how much of a 
+(1) The first idea is using time, namely dates of discovery, as a way to capture how much of a
 disease is present in the web. This is a proxy for how much an LLM knows about such a diseases.
 We use HPOA, we do not parse out disease genes discovered after 2008 though (first thing in HPOA)
 
@@ -22,9 +22,7 @@ import re
 import sys
 from pathlib import Path
 
-import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 import seaborn as sns
 
@@ -49,7 +47,7 @@ ic_file = Path.cwd() / "data" / "ic_hpoa.txt"
 original_ppkt_dir = data_dir / "ppkt-store-0.1.19"
 original_ppkt_dir = data_dir / "phenopacket-store"
 outdir = Path.cwd() / "src" / "malco" / "analysis" / "time_ic"
-#ranking_results_filename = f"out_openAI_models/multimodel/{model}/full_df_results.tsv"
+# ranking_results_filename = f"out_openAI_models/multimodel/{model}/full_df_results.tsv"
 ranking_results_filename = f"out_multlingual_nov24/multilingual/{model}/full_df_results.tsv"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -171,7 +169,7 @@ for subdir, dirs, files in os.walk(original_ppkt_dir):
             try:
                 ppkt_ic[ppkt_id] = [ic / num_hpos, num_hpos]
                 # TODO max ic instead try
-            except ZeroDivisionError as e:
+            except ZeroDivisionError:
                 ppkts_with_zero_hpos.append(ppkt_id)
                 # print(f"No HPOs for {ppkt["id"]}.")
 
@@ -197,16 +195,16 @@ for ppkt in ppkts:
         continue
     if any(ppkt[1]["is_correct"]):
         try:
-            ppkt_ic_df.loc[ppkt_label] = ppkt_ic[ppkt_label]+[1]
+            ppkt_ic_df.loc[ppkt_label] = ppkt_ic[ppkt_label] + [1]
         except KeyError:
             label_in_store_missing_ic.append(ppkt_label)
     else:
         try:
-            ppkt_ic_df.loc[ppkt_label] = ppkt_ic[ppkt_label]+[0]
+            ppkt_ic_df.loc[ppkt_label] = ppkt_ic[ppkt_label] + [0]
         except KeyError:
             label_in_store_missing_ic.append(ppkt_label)
 #        ppkt_ic_df.loc[ppkt_label, "avg(IC)", "observed_HPOs"] = ppkt_ic[ppkt_label]
- #       ppkt_ic_df.loc[ppkt_label, "Diagnosed"] = 0
+#       ppkt_ic_df.loc[ppkt_label, "Diagnosed"] = 0
 
 # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # See https://github.com/monarch-initiative/phenopacket-store/issues/157

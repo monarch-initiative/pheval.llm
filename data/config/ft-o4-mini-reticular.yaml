@@ -1,0 +1,11 @@
+tmp_dir: "tmp/"
+output_dir: "data/results/"
+gold_file: "data/exomiser-gold.jsonl"
+response_file: "data/responses/ft:o4_mini_2025_04_16:reticular:medical_v1:C1s6tq4E.jsonl"
+result_file: "data/results/topn_result_ft_o4_mini_reticular.tsv"
+full_result_file: "data/results/full_results/full_df_ft_o4_mini_reticular.tsv"
+visualize: False
+languages: []
+name: "ft-o4-mini-reticular-medical-v1"
+save_intermediate: False
+intermediate_grounding_file: "data/results/intermediate_grounded_ft_o4_mini_reticular.tsv"

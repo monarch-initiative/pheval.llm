@@ -1,26 +1,28 @@
-import ast
-import json
-import multiprocessing as mp
-import os
-import re
 from pathlib import Path
 from typing import Optional
 
 import click
-import litellm
-import numpy as np
-import pandas as pd
 
 from .config import MalcoConfig
-from .io.reading import read_result_json
+from .process.scoring import score, mondo_adapter
 from .process.generate_plots import (
-    make_combined_plot_comparing,
-    make_single_plot,
     make_single_plot_from_file,
+    make_single_plot,
+    make_combined_plot_comparing,
 )
 from .process.process import create_single_standardised_results
-from .process.scoring import mondo_adapter, score
 from .process.summary import summarize
+from .io.reading import read_result_json
+import pandas as pd
+import multiprocessing as mp
+import numpy as np
+import litellm
+from litellm import completion, embedding
+from litellm.caching import Cache
+import ast
+import os
+import json
+import re
 
 # Suppress debug info from litellm
 litellm.suppress_debug_info = True
@@ -112,9 +114,18 @@ def inference(model: str, key_file: str, inputdir: str, outputdir: str):
 
 @core.command()
 @click.option("--config", type=click.Path(exists=True))
-def evaluate(config: str):
+@click.option("--save-intermediate", is_flag=True, help="Save intermediate grounded results before scoring")
+@click.option("--intermediate-file", type=str, help="Path to save intermediate grounded results")
+def evaluate(config: str, save_intermediate: bool, intermediate_file: str):
     """Grounds, Evaluates, and Visualizes the results of a llm results file"""
     run_config = MalcoConfig(config)
+    
+    # Override config with CLI options if provided
+    if save_intermediate:
+        run_config.save_intermediate = True
+    if intermediate_file:
+        run_config.intermediate_grounding_file = intermediate_file
+    
     print(run_config)
     mondo_adapter()
     result = read_result_json(run_config.response_file)
@@ -136,6 +147,14 @@ def evaluate(config: str):
         )
         results = list(results)
     df = pd.concat(results, ignore_index=True)
+    
+    # Save intermediate results after grounding but before scoring
+    if run_config.save_intermediate and run_config.intermediate_grounding_file:
+        intermediate_file = run_config.intermediate_grounding_file
+        print(f"Saving intermediate grounded results to {intermediate_file}")
+        df.to_csv(intermediate_file, sep="\t", index=False)
+        print(f"Intermediate grounded results saved to {intermediate_file}")
+    
     df = score(df)
     df.drop("service_answers", axis=1).to_csv(run_config.full_result_file, sep="\t", index=False)
     print(f"Full results saved to {run_config.full_result_file}")

@@ -1,7 +1,6 @@
 import yaml
 
-
-class MalcoConfig:
+class MalcoConfig():
     def __init__(self, config_path):
         """
         Initialize the PhevalLLMConfig object by loading the configuration from a YAML file.
@@ -20,6 +19,8 @@ class MalcoConfig:
             self.gold_file = content.get("gold_file", None)
             self.visualize = content.get("visualize", False)
             self.languages = content.get("languages", [])
+            self.save_intermediate = content.get("save_intermediate", False)
+            self.intermediate_grounding_file = content.get("intermediate_grounding_file", None)
 
     def __str__(self):
-        return f"MalcoConfig(name={self.name}, response_file={self.response_file}, result_file={self.result_file}, output_dir={self.output_dir}, tmp_dir={self.tmp_dir}, gold_file={self.gold_file}, visualize={self.visualize}, languages={self.languages})"
+        return f"MalcoConfig(name={self.name}, response_file={self.response_file}, result_file={self.result_file}, output_dir={self.output_dir}, tmp_dir={self.tmp_dir}, gold_file={self.gold_file}, visualize={self.visualize}, languages={self.languages}, save_intermediate={self.save_intermediate}, intermediate_grounding_file={self.intermediate_grounding_file})"

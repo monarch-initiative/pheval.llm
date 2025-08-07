@@ -1,0 +1,11 @@
+{
+  "total_samples": 5212,
+  "train_samples": 3648,
+  "valid_samples": 521,
+  "test_samples": 1043,
+  "train_ratio": 0.7,
+  "valid_ratio": 0.1,
+  "test_ratio": 0.2,
+  "seed": 42,
+  "unique_diseases": 373
+}

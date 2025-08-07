@@ -1,0 +1,9 @@
+tmp_dir: "tmp/"
+output_dir: "data/results/"
+gold_file: "data/exomiser-gold.jsonl"
+response_file: "data/responses/o4_mini_2025_04_16.jsonl"
+result_file: "data/results/topn_result_o4_mini.tsv"
+full_result_file: "data/results/full_results/full_df_o4_mini.tsv"
+visualize: False
+languages: []
+name: "o4-mini-2025-04-16"

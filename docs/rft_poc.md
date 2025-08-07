@@ -11,12 +11,16 @@ This page documents a minimal integration of reinforcement fine-tuning (RFT) res
 - `data/results/exomiser_vs_llm/topn_result_Exomiser.tsv`: Exomiser baseline top-N
 
 #### Headline results
-- Full dataset (run `ft`, 5,212 cases)
-  - Top-1 = 2,313; Top-10 = 2,978; Not ranked (`nf`) = 2,235
-- RFT test split (run `ft_rft_test`, 1,043 cases)
-  - Top-1 = 430 (41.2%); Top-10 = 591 (56.6%); Not ranked (`nf`) = 452
 - Exomiser baseline (aggregated)
   - Top-1 = 1,852; Top-10 = 3,047; `nf` = 2,165
+- o1-preview (see [`topn_result_o1_preview.tsv`](data/results/exomiser_vs_llm/topn_result_o1_preview.tsv))
+  - Top-1 = 1,232; Top-10 = 1,693; Not ranked (`nf`) = 3,293
+- o4-mini (no RFT, see [`topn_result_o4_mini.tsv`](data/results/exomiser_vs_llm/topn_result_o4_mini.tsv))
+  - Top-1 = 1,210; Top-10 = 1,893; Not ranked (`nf`) = 3,278
+- o4-mini RFT (trained on random 70% split) (run `ft`, 5,212 cases)
+  - Top-1 = 2,313; Top-10 = 2,978; Not ranked (`nf`) = 2,235
+- o4-mini RFT test split (20% heldout) (run `ft_rft_test`, 1,043 cases)
+  - Top-1 = 430 (41.2%); Top-10 = 591 (56.6%); Not ranked (`nf`) = 452
 
 These demonstrate a proof-of-concept where the RFT model’s Top-1 on the full dataset exceeds the Exomiser baseline’s Top-1 count, and it achieves strong performance on the held-out RFT test split.
 
@@ -26,8 +30,6 @@ These demonstrate a proof-of-concept where the RFT model’s Top-1 on the full d
 ```bash
 poetry run malco evaluate \
   --config data/config/ft-o4-mini-reticular.yaml \
-  --save-intermediate \
-  --intermediate-file data/results/intermediate_grounded_ft_o4_mini_reticular.tsv
 ```
 
 This writes full results to `data/results/full_results/full_df_ft_o4_mini_reticular.tsv` and the top-N summary to `data/results/exomiser_vs_llm/topn_result_ft_o4_mini_reticular.tsv`.
@@ -78,5 +80,3 @@ Then point `data/config/ft-o4-mini-reticular.yaml` to the correct `response_file
 - Structured Outputs: enforced for o4 models to return numbered diagnosis lists. This did not materially change baseline performance; the o4-mini (no RFT) run behaved similarly to o1 in our tests.
 - Prompts are stored in `data/prompts/` (e.g., `gemini-prompts.jsonl`). If you need to regenerate responses, use `notebooks/o4_and_rft/o4_inference.py` to write a JSONL under `data/responses/`, then ensure the config points to that file.
 - We intentionally reuse the repo’s established evaluation flow for minimal changes. All new artifacts are contained under `data/config/`, `data/responses/`, and `data/results/`.
-
-

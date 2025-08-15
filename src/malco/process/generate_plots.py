@@ -119,8 +119,11 @@ def make_combined_plot_comparing(
 
 def _percentages(row):
     model_name = row["filename"]
-    # total_files = row.drop('filename').drop('n10p').sum()
-    total_files = row["num_cases"]
+    if 'num_cases' in row.index and pd.notna(row['num_cases']):
+        total_files = row["num_cases"]
+    else:
+        # Calculate total sum from n1-n10 + n10p + nf columns
+        total_files = sum(row[f"n{j}"] for j in range(1, 11)) + row.get('n10p', 0) + row.get('nf', 0)
     return [
         row["n1"] / total_files * 100 if total_files else 0,
         sum(row[f"n{j}"] for j in range(1, 4)) / total_files * 100 if total_files else 0,

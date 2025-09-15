@@ -1,0 +1,3034 @@
+---
+input_text: |-
+  1. Smith-Lemli-Opitz syndrome (SLOS)
+  2. Congenital adrenal hyperplasia (CAH)
+  3. Androgen insensitivity syndrome (AIS)
+  4. 5-alpha-reductase deficiency
+  5. Campomelic dysplasia
+raw_completion_output: |-
+  ```
+  terms: Smith-Lemli-Opitz syndrome; Congenital adrenal hyperplasia; Androgen insensitivity syndrome; 5-alpha-reductase deficiency; Campomelic dysplasia
+  label: None
+  ```
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Smith-Lemli-Opitz syndrome (SLOS)
+  2. Congenital adrenal hyperplasia (CAH)
+  3. Androgen insensitivity syndrome (AIS)
+  4. 5-alpha-reductase deficiency
+  5. Campomelic dysplasia
+
+  ===
+
+extracted_object:
+  id: d576c46c-0f65-41b6-b617-ce49932e4c53
+  label: PMID_28503313_patient_en-prompt.txt
+  terms:
+    - MONDO:0010035
+    - MONDO:0018479
+    - MONDO:0019154
+    - 5-alpha-reductase deficiency
+    - MONDO:0007251
+named_entities:
+  - id: MONDO:0010035
+    label: Smith-Lemli-Opitz syndrome
+  - id: MONDO:0018479
+    label: Congenital adrenal hyperplasia
+  - id: MONDO:0019154
+    label: Androgen insensitivity syndrome
+  - id: MONDO:0007251
+    label: Campomelic dysplasia
+---
+input_text: |-
+  1. Osteogenesis imperfecta
+  2. Hypophosphatasia
+  3. Ehlers-Danlos syndrome
+  4. Juvenile Paget disease
+  5. Idiopathic juvenile osteoporosis
+raw_completion_output: |-
+  terms: Osteogenesis imperfecta; Hypophosphatasia; Ehlers-Danlos syndrome; Juvenile Paget disease; Idiopathic juvenile osteoporosis  
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Osteogenesis imperfecta
+  2. Hypophosphatasia
+  3. Ehlers-Danlos syndrome
+  4. Juvenile Paget disease
+  5. Idiopathic juvenile osteoporosis
+
+  ===
+
+extracted_object:
+  id: 4de60b31-4508-4cb5-8a19-0082ecf6c730
+  label: PMID_20089953_Patient_III_4_en-prompt.txt
+  terms:
+    - MONDO:0019019
+    - MONDO:0018570
+    - MONDO:0020066
+    - MONDO:0009394
+    - MONDO:0019409
+named_entities:
+  - id: MONDO:0019019
+    label: Osteogenesis imperfecta
+  - id: MONDO:0018570
+    label: Hypophosphatasia
+  - id: MONDO:0020066
+    label: Ehlers-Danlos syndrome
+  - id: MONDO:0009394
+    label: Juvenile Paget disease
+  - id: MONDO:0019409
+    label: Idiopathic juvenile osteoporosis
+---
+input_text: |-
+  1. Rubinstein-Taybi Syndrome
+  2. Kabuki Syndrome
+  3. Ehlers-Danlos Syndrome (Classic type)
+  4. Noonan Syndrome
+  5. Cornelia de Lange Syndrome
+raw_completion_output: |-
+  terms: Rubinstein-Taybi Syndrome; Kabuki Syndrome; Ehlers-Danlos Syndrome (Classic type); Noonan Syndrome; Cornelia de Lange Syndrome  
+  label: Syndrome List
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Rubinstein-Taybi Syndrome
+  2. Kabuki Syndrome
+  3. Ehlers-Danlos Syndrome (Classic type)
+  4. Noonan Syndrome
+  5. Cornelia de Lange Syndrome
+
+  ===
+
+extracted_object:
+  id: 9c6b746f-66e8-4a46-9d49-a273756c4bf3
+  label: PMID_30249733_Case_presentation_en-prompt.txt
+  terms:
+    - MONDO:0019188
+    - MONDO:0007843
+    - MONDO:0020066
+    - MONDO:0008104
+    - MONDO:0016033
+named_entities:
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi Syndrome
+  - id: MONDO:0007843
+    label: Kabuki Syndrome
+  - id: MONDO:0020066
+    label: Ehlers-Danlos Syndrome (Classic type)
+  - id: MONDO:0008104
+    label: Noonan Syndrome
+  - id: MONDO:0016033
+    label: Cornelia de Lange Syndrome
+---
+input_text: |-
+  1. Nager syndrome
+  2. Kabuki syndrome
+  3. Coffin-Siris syndrome
+  4. Branchio-oto-renal syndrome
+  5. Bardet-Biedl syndrome
+raw_completion_output: |-
+  terms: Nager syndrome; Kabuki syndrome; Coffin-Siris syndrome; Branchio-oto-renal syndrome; Bardet-Biedl syndrome  
+  label: syndrome list
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Nager syndrome
+  2. Kabuki syndrome
+  3. Coffin-Siris syndrome
+  4. Branchio-oto-renal syndrome
+  5. Bardet-Biedl syndrome
+
+  ===
+
+extracted_object:
+  id: 4fef6a53-b407-4e06-a785-756d10b218b9
+  label: PMID_27180139_case_1_en-prompt.txt
+  terms:
+    - MONDO:0007943
+    - MONDO:0007843
+    - MONDO:0007617
+    - MONDO:0007029
+    - MONDO:0015229
+named_entities:
+  - id: MONDO:0007943
+    label: Nager syndrome
+  - id: MONDO:0007843
+    label: Kabuki syndrome
+  - id: MONDO:0007617
+    label: Coffin-Siris syndrome
+  - id: MONDO:0007029
+    label: Branchio-oto-renal syndrome
+  - id: MONDO:0015229
+    label: Bardet-Biedl syndrome
+---
+input_text: |-
+  1. Autosomal Dominant Polycystic Kidney Disease (ADPKD)
+  2. Medullary Cystic Kidney Disease (MCKD)
+  3. Familial Juvenile Hyperuricemic Nephropathy (FJHN)
+  4. Tuberous Sclerosis Complex (TSC)
+raw_completion_output: |-
+  terms: Autosomal Dominant Polycystic Kidney Disease; Medullary Cystic Kidney Disease; Familial Juvenile Hyperuricemic Nephropathy; Tuberous Sclerosis Complex  
+  label: ADPKD; MCKD; FJHN; TSC
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Autosomal Dominant Polycystic Kidney Disease (ADPKD)
+  2. Medullary Cystic Kidney Disease (MCKD)
+  3. Familial Juvenile Hyperuricemic Nephropathy (FJHN)
+  4. Tuberous Sclerosis Complex (TSC)
+
+  ===
+
+extracted_object:
+  id: 51e4d564-c4f7-4f0c-8a11-b9c4c00443bf
+  label: PMID_15673476_proband_en-prompt.txt
+  terms:
+    - MONDO:0004691
+    - MONDO:0008264
+    - MONDO:0008073
+    - MONDO:0010029
+named_entities:
+  - id: MONDO:0004691
+    label: Autosomal Dominant Polycystic Kidney Disease
+  - id: MONDO:0008264
+    label: Medullary Cystic Kidney Disease
+  - id: MONDO:0008073
+    label: Familial Juvenile Hyperuricemic Nephropathy
+  - id: MONDO:0010029
+    label: Tuberous Sclerosis Complex
+---
+input_text: |-
+  1. Pseudoachondroplasia
+  2. Multiple epiphyseal dysplasia
+  3. Hypochondroplasia
+  4. Spondyloepiphyseal dysplasia congenita
+raw_completion_output: |-
+  terms: Pseudoachondroplasia; Multiple epiphyseal dysplasia; Hypochondroplasia; Spondyloepiphyseal dysplasia congenita
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Pseudoachondroplasia
+  2. Multiple epiphyseal dysplasia
+  3. Hypochondroplasia
+  4. Spondyloepiphyseal dysplasia congenita
+
+  ===
+
+extracted_object:
+  id: aab8ea67-9b5b-40c7-acd7-0c9154fa99f4
+  label: PMID_23562786_patient_en-prompt.txt
+  terms:
+    - MONDO:0008322
+    - MONDO:0016648
+    - MONDO:0007793
+    - MONDO:0008471
+named_entities:
+  - id: MONDO:0008322
+    label: Pseudoachondroplasia
+  - id: MONDO:0016648
+    label: Multiple epiphyseal dysplasia
+  - id: MONDO:0007793
+    label: Hypochondroplasia
+  - id: MONDO:0008471
+    label: Spondyloepiphyseal dysplasia congenita
+---
+input_text: |-
+  1. Alagille syndrome
+  2. Biliary atresia
+  3. Progressive familial intrahepatic cholestasis (PFIC)
+  4. Aagenaes syndrome
+  5. Dubin-Johnson syndrome
+raw_completion_output: |-
+  terms: Alagille syndrome; Biliary atresia; Progressive familial intrahepatic cholestasis (PFIC); Aagenaes syndrome; Dubin-Johnson syndrome
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Alagille syndrome
+  2. Biliary atresia
+  3. Progressive familial intrahepatic cholestasis (PFIC)
+  4. Aagenaes syndrome
+  5. Dubin-Johnson syndrome
+
+  ===
+
+extracted_object:
+  id: 93e4d76a-feac-4c23-ad83-75554a9909f6
+  label: PMID_30046498_proband_en-prompt.txt
+  terms:
+    - MONDO:0016862
+    - MONDO:0008867
+    - MONDO:0015762
+    - MONDO:0008966
+    - MONDO:0009380
+named_entities:
+  - id: MONDO:0016862
+    label: Alagille syndrome
+  - id: MONDO:0008867
+    label: Biliary atresia
+  - id: MONDO:0015762
+    label: Progressive familial intrahepatic cholestasis (PFIC)
+  - id: MONDO:0008966
+    label: Aagenaes syndrome
+  - id: MONDO:0009380
+    label: Dubin-Johnson syndrome
+---
+input_text: |-
+  1. Osteogenesis Imperfecta
+  2. Autosomal Recessive Osteopetrosis
+  3. Bruck Syndrome
+  4. Idiopathic Juvenile Osteoporosis
+raw_completion_output: |-
+  terms: Osteogenesis Imperfecta; Autosomal Recessive Osteopetrosis; Bruck Syndrome; Idiopathic Juvenile Osteoporosis  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Osteogenesis Imperfecta
+  2. Autosomal Recessive Osteopetrosis
+  3. Bruck Syndrome
+  4. Idiopathic Juvenile Osteoporosis
+
+  ===
+
+extracted_object:
+  id: ea739476-b96a-4108-8e0a-3d9de39f1f10
+  label: PMID_30012084_older_sister_en-prompt.txt
+  terms:
+    - MONDO:0019019
+    - MONDO:0019026
+    - MONDO:0017195
+    - MONDO:0019409
+named_entities:
+  - id: MONDO:0019019
+    label: Osteogenesis Imperfecta
+  - id: MONDO:0019026
+    label: Autosomal Recessive Osteopetrosis
+  - id: MONDO:0017195
+    label: Bruck Syndrome
+  - id: MONDO:0019409
+    label: Idiopathic Juvenile Osteoporosis
+---
+input_text: |-
+  1. Ehlers-Danlos syndrome, vascular type (vEDS)
+  2. Marfan syndrome
+  3. Loeys-Dietz syndrome
+  4. Classical Ehlers-Danlos syndrome (cEDS)
+  5. Stickler syndrome
+raw_completion_output: |-
+  terms: Ehlers-Danlos syndrome; Marfan syndrome; Loeys-Dietz syndrome; Stickler syndrome
+  label: Classical Ehlers-Danlos syndrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Ehlers-Danlos syndrome, vascular type (vEDS)
+  2. Marfan syndrome
+  3. Loeys-Dietz syndrome
+  4. Classical Ehlers-Danlos syndrome (cEDS)
+  5. Stickler syndrome
+
+  ===
+
+extracted_object:
+  id: cdfc909b-278a-4996-953e-ec27b2efdc6c
+  label: PMID_25163805_proposita_en-prompt.txt
+  terms:
+    - MONDO:0020066
+    - MONDO:0007947
+    - MONDO:0018954
+    - MONDO:0019354
+named_entities:
+  - id: MONDO:0020066
+    label: Ehlers-Danlos syndrome
+  - id: MONDO:0007947
+    label: Marfan syndrome
+  - id: MONDO:0018954
+    label: Loeys-Dietz syndrome
+  - id: MONDO:0019354
+    label: Stickler syndrome
+---
+input_text: |-
+  1. Cap myopathy
+  2. Nemaline myopathy
+  3. Congenital fiber-type disproportion
+  4. Central core disease
+  5. Myotonic dystrophy type 1
+raw_completion_output: |-
+  terms: Cap myopathy; Nemaline myopathy; Congenital fiber-type disproportion; Central core disease; Myotonic dystrophy type 1
+  label: disease names
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Cap myopathy
+  2. Nemaline myopathy
+  3. Congenital fiber-type disproportion
+  4. Central core disease
+  5. Myotonic dystrophy type 1
+
+  ===
+
+extracted_object:
+  id: a48fffde-5b02-477e-82ce-575f462e40b1
+  label: PMID_24239060_index_patient_II_2_en-prompt.txt
+  terms:
+    - MONDO:0015753
+    - MONDO:0018958
+    - MONDO:0009711
+    - MONDO:0007294
+    - MONDO:0008056
+named_entities:
+  - id: MONDO:0015753
+    label: Cap myopathy
+  - id: MONDO:0018958
+    label: Nemaline myopathy
+  - id: MONDO:0009711
+    label: Congenital fiber-type disproportion
+  - id: MONDO:0007294
+    label: Central core disease
+  - id: MONDO:0008056
+    label: Myotonic dystrophy type 1
+---
+input_text: |-
+  1. Neurofibromatosis Type 1 (NF1)
+  2. Hereditary Spastic Paraplegia (HSP)
+  3. Leukodystrophy
+  4. Pelizaeus-Merzbacher Disease
+  5. Cerebral Palsy (incorrect initial diagnosis, included for consideration despite unlikely genetic basis in context)
+  6. Tuberous Sclerosis Complex
+raw_completion_output: |-
+  terms: Neurofibromatosis Type 1; Hereditary Spastic Paraplegia; Leukodystrophy; Pelizaeus-Merzbacher Disease; Cerebral Palsy; Tuberous Sclerosis Complex  
+  label: Named Diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Neurofibromatosis Type 1 (NF1)
+  2. Hereditary Spastic Paraplegia (HSP)
+  3. Leukodystrophy
+  4. Pelizaeus-Merzbacher Disease
+  5. Cerebral Palsy (incorrect initial diagnosis, included for consideration despite unlikely genetic basis in context)
+  6. Tuberous Sclerosis Complex
+
+  ===
+
+extracted_object:
+  id: fff706da-42f0-4c20-91b1-fc3629f71249
+  label: PMID_28327087_Patient_II_1_en-prompt.txt
+  terms:
+    - MONDO:0018975
+    - MONDO:0019064
+    - MONDO:0019046
+    - MONDO:0010714
+    - MONDO:0006497
+    - MONDO:0010029
+named_entities:
+  - id: MONDO:0018975
+    label: Neurofibromatosis Type 1
+  - id: MONDO:0019064
+    label: Hereditary Spastic Paraplegia
+  - id: MONDO:0019046
+    label: Leukodystrophy
+  - id: MONDO:0010714
+    label: Pelizaeus-Merzbacher Disease
+  - id: MONDO:0006497
+    label: Cerebral Palsy
+  - id: MONDO:0010029
+    label: Tuberous Sclerosis Complex
+---
+input_text: |-
+  1. Camurati-Engelmann disease (Progressive diaphyseal dysplasia)
+  2. Osteopetrosis
+  3. Paget's disease of bone
+  4. Hyperparathyroidism (with familial isolated occurring)
+  5. Fibrous dysplasia
+raw_completion_output: |-
+  terms: Camurati-Engelmann disease; Progressive diaphyseal dysplasia; Osteopetrosis; Paget's disease of bone; Hyperparathyroidism; Fibrous dysplasia
+  label: Hyperparathyroidism (with familial isolated occurring)
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Camurati-Engelmann disease (Progressive diaphyseal dysplasia)
+  2. Osteopetrosis
+  3. Paget's disease of bone
+  4. Hyperparathyroidism (with familial isolated occurring)
+  5. Fibrous dysplasia
+
+  ===
+
+extracted_object:
+  id: 8a16fdb7-82f8-4141-bc36-517a4760be32
+  label: PMID_30034812_patient_en-prompt.txt
+  terms:
+    - MONDO:0007542
+    - MONDO:0007542
+    - MONDO:0017198
+    - MONDO:0005382
+    - MONDO:0001741
+    - MONDO:0000845
+named_entities:
+  - id: MONDO:0007542
+    label: Camurati-Engelmann disease
+  - id: MONDO:0017198
+    label: Osteopetrosis
+  - id: MONDO:0005382
+    label: Paget's disease of bone
+  - id: MONDO:0001741
+    label: Hyperparathyroidism
+  - id: MONDO:0000845
+    label: Fibrous dysplasia
+---
+input_text: |-
+  1. Townes-Brocks syndrome
+  2. VACTERL association
+  3. Otopalatodigital syndrome
+  4. CHARGE syndrome
+  5. Branchiootorenal syndrome
+raw_completion_output: |-
+  terms: Townes-Brocks syndrome; VACTERL association; Otopalatodigital syndrome; CHARGE syndrome; Branchiootorenal syndrome
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Townes-Brocks syndrome
+  2. VACTERL association
+  3. Otopalatodigital syndrome
+  4. CHARGE syndrome
+  5. Branchiootorenal syndrome
+
+  ===
+
+extracted_object:
+  id: b2959bed-ab8e-47ed-a77e-4ec464286567
+  label: PMID_29110636_proband_VMFS_en-prompt.txt
+  terms:
+    - MONDO:0007142
+    - MONDO:0008642
+    - MONDO:0019027
+    - MONDO:0008965
+    - MONDO:0007029
+named_entities:
+  - id: MONDO:0007142
+    label: Townes-Brocks syndrome
+  - id: MONDO:0008642
+    label: VACTERL association
+  - id: MONDO:0019027
+    label: Otopalatodigital syndrome
+  - id: MONDO:0008965
+    label: CHARGE syndrome
+  - id: MONDO:0007029
+    label: Branchiootorenal syndrome
+---
+input_text: |-
+  1. Hyper-IgE Syndrome (Job's Syndrome)
+  2. Wiskott-Aldrich Syndrome
+  3. Netherton Syndrome
+  4. Chronic Granulomatous Disease
+  5. Chediak-Higashi Syndrome
+raw_completion_output: |-
+  terms: Hyper-IgE Syndrome; Wiskott-Aldrich Syndrome; Netherton Syndrome; Chronic Granulomatous Disease; Chediak-Higashi Syndrome  
+  label: Hyper-IgE Syndrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hyper-IgE Syndrome (Job's Syndrome)
+  2. Wiskott-Aldrich Syndrome
+  3. Netherton Syndrome
+  4. Chronic Granulomatous Disease
+  5. Chediak-Higashi Syndrome
+
+  ===
+
+extracted_object:
+  id: 798a7bc7-4eff-4a39-afc5-34fab1af979e
+  label: PMID_28183707_nan_en-prompt.txt
+  terms:
+    - MONDO:0018037
+    - MONDO:0010518
+    - MONDO:0009735
+    - MONDO:0018305
+    - MONDO:0008963
+named_entities:
+  - id: MONDO:0018037
+    label: Hyper-IgE Syndrome
+  - id: MONDO:0010518
+    label: Wiskott-Aldrich Syndrome
+  - id: MONDO:0009735
+    label: Netherton Syndrome
+  - id: MONDO:0018305
+    label: Chronic Granulomatous Disease
+  - id: MONDO:0008963
+    label: Chediak-Higashi Syndrome
+---
+input_text: |-
+  1. Hajdu-Cheney syndrome
+  2. Pycnodysostosis
+  3. Progeria (Hutchinson-Gilford progeria syndrome)
+  4. Osteoporosis-pseudoglioma syndrome
+  5. Laron syndrome
+raw_completion_output: |-
+  terms: Hajdu-Cheney syndrome; Pycnodysostosis; Progeria; Osteoporosis-pseudoglioma syndrome; Laron syndrome
+  label: diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hajdu-Cheney syndrome
+  2. Pycnodysostosis
+  3. Progeria (Hutchinson-Gilford progeria syndrome)
+  4. Osteoporosis-pseudoglioma syndrome
+  5. Laron syndrome
+
+  ===
+
+extracted_object:
+  id: 7d163fbe-5a3c-49dd-902a-1a366d6f6d1f
+  label: PMID_23566664_nan_en-prompt.txt
+  terms:
+    - MONDO:0007057
+    - MONDO:0009940
+    - MONDO:0008310
+    - MONDO:0009820
+    - MONDO:0009877
+named_entities:
+  - id: MONDO:0007057
+    label: Hajdu-Cheney syndrome
+  - id: MONDO:0009940
+    label: Pycnodysostosis
+  - id: MONDO:0008310
+    label: Progeria
+  - id: MONDO:0009820
+    label: Osteoporosis-pseudoglioma syndrome
+  - id: MONDO:0009877
+    label: Laron syndrome
+---
+input_text: |-
+  1. Coffin-Siris syndrome
+  2. Cornelia de Lange syndrome
+  3. Smith-Lemli-Opitz syndrome
+  4. Zellweger spectrum disorder
+  5. Kabuki syndrome
+raw_completion_output: |-
+  terms: Coffin-Siris syndrome; Cornelia de Lange syndrome; Smith-Lemli-Opitz syndrome; Zellweger spectrum disorder; Kabuki syndrome  
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Coffin-Siris syndrome
+  2. Cornelia de Lange syndrome
+  3. Smith-Lemli-Opitz syndrome
+  4. Zellweger spectrum disorder
+  5. Kabuki syndrome
+
+  ===
+
+extracted_object:
+  id: 103a7853-a793-4d4a-b788-5ae6326b3155
+  label: PMID_29333303_proposita_en-prompt.txt
+  terms:
+    - MONDO:0007617
+    - MONDO:0016033
+    - MONDO:0010035
+    - MONDO:0019234
+    - MONDO:0007843
+named_entities:
+  - id: MONDO:0007617
+    label: Coffin-Siris syndrome
+  - id: MONDO:0016033
+    label: Cornelia de Lange syndrome
+  - id: MONDO:0010035
+    label: Smith-Lemli-Opitz syndrome
+  - id: MONDO:0019234
+    label: Zellweger spectrum disorder
+  - id: MONDO:0007843
+    label: Kabuki syndrome
+---
+input_text: |-
+  1. Aarskog-Scott syndrome
+  2. Kabuki syndrome
+  3. Bardet-Biedl syndrome
+  4. Smith-Lemli-Opitz syndrome
+  5. Noonan syndrome
+raw_completion_output: |-
+  terms: Aarskog-Scott syndrome; Kabuki syndrome; Bardet-Biedl syndrome; Smith-Lemli-Opitz syndrome; Noonan syndrome  
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Aarskog-Scott syndrome
+  2. Kabuki syndrome
+  3. Bardet-Biedl syndrome
+  4. Smith-Lemli-Opitz syndrome
+  5. Noonan syndrome
+
+  ===
+
+extracted_object:
+  id: f2c6c4d6-b516-45d5-ac00-e5a769ed6aec
+  label: PMID_28687524_proband_en-prompt.txt
+  terms:
+    - MONDO:0010589
+    - MONDO:0007843
+    - MONDO:0015229
+    - MONDO:0010035
+    - MONDO:0008104
+named_entities:
+  - id: MONDO:0010589
+    label: Aarskog-Scott syndrome
+  - id: MONDO:0007843
+    label: Kabuki syndrome
+  - id: MONDO:0015229
+    label: Bardet-Biedl syndrome
+  - id: MONDO:0010035
+    label: Smith-Lemli-Opitz syndrome
+  - id: MONDO:0008104
+    label: Noonan syndrome
+---
+input_text: |-
+  1. Jervell and Lange-Nielsen syndrome
+  2. Romano-Ward syndrome (part of Long QT syndrome)
+  3. Timothy syndrome
+raw_completion_output: |-
+  terms: Jervell and Lange-Nielsen syndrome; Romano-Ward syndrome; Long QT syndrome; Timothy syndrome
+  label: Long QT syndrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Jervell and Lange-Nielsen syndrome
+  2. Romano-Ward syndrome (part of Long QT syndrome)
+  3. Timothy syndrome
+
+  ===
+
+extracted_object:
+  id: 11dc0fb9-7d70-4bd1-91b9-d0d36f6c324f
+  label: PMID_29037160_Case_3_family_III_en-prompt.txt
+  terms:
+    - MONDO:0002441
+    - MONDO:0100316
+    - MONDO:0002442
+    - MONDO:0010979
+named_entities:
+  - id: MONDO:0002441
+    label: Jervell and Lange-Nielsen syndrome
+  - id: MONDO:0100316
+    label: Romano-Ward syndrome
+  - id: MONDO:0002442
+    label: Long QT syndrome
+  - id: MONDO:0010979
+    label: Timothy syndrome
+---
+input_text: |-
+  1. Smith-Magenis Syndrome
+  2. Prader-Willi Syndrome
+  3. Rubinstein-Taybi Syndrome
+  4. Noonan Syndrome
+  5. 22q11.2 Deletion Syndrome (DiGeorge Syndrome)
+raw_completion_output: |-
+  terms: Smith-Magenis Syndrome; Prader-Willi Syndrome; Rubinstein-Taybi Syndrome; Noonan Syndrome; 22q11.2 Deletion Syndrome; DiGeorge Syndrome
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Smith-Magenis Syndrome
+  2. Prader-Willi Syndrome
+  3. Rubinstein-Taybi Syndrome
+  4. Noonan Syndrome
+  5. 22q11.2 Deletion Syndrome (DiGeorge Syndrome)
+
+  ===
+
+extracted_object:
+  id: e663718b-1cf7-4e16-bd26-6c0607d1118c
+  label: PMID_20932317_SMS324_en-prompt.txt
+  terms:
+    - MONDO:0008434
+    - MONDO:0008300
+    - MONDO:0019188
+    - MONDO:0008104
+    - MONDO:0018923
+    - MONDO:0008564
+named_entities:
+  - id: MONDO:0008434
+    label: Smith-Magenis Syndrome
+  - id: MONDO:0008300
+    label: Prader-Willi Syndrome
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi Syndrome
+  - id: MONDO:0008104
+    label: Noonan Syndrome
+  - id: MONDO:0018923
+    label: 22q11.2 Deletion Syndrome
+  - id: MONDO:0008564
+    label: DiGeorge Syndrome
+---
+input_text: |-
+  1. Fibrodysplasia Ossificans Progressiva (FOP)
+  2. Progressive osseous heteroplasia (POH)
+  3. Myositis ossificans
+  4. Albright's hereditary osteodystrophy (AHO) 
+  5. Multiple Hereditary Exostoses (MHE)
+raw_completion_output: |-
+  terms: Fibrodysplasia Ossificans Progressiva; Progressive osseous heteroplasia; Myositis ossificans; Albright's hereditary osteodystrophy; Multiple Hereditary Exostoses
+  label: Named things
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Fibrodysplasia Ossificans Progressiva (FOP)
+  2. Progressive osseous heteroplasia (POH)
+  3. Myositis ossificans
+  4. Albright's hereditary osteodystrophy (AHO) 
+  5. Multiple Hereditary Exostoses (MHE)
+
+  ===
+
+extracted_object:
+  id: 110c2a89-89b8-4c87-97a8-c870db2db18b
+  label: PMID_29482508_current_case_en-prompt.txt
+  terms:
+    - MONDO:0007606
+    - MONDO:0008153
+    - MONDO:0600024
+    - MONDO:0007078
+    - Multiple Hereditary Exostoses
+named_entities:
+  - id: MONDO:0007606
+    label: Fibrodysplasia Ossificans Progressiva
+  - id: MONDO:0008153
+    label: Progressive osseous heteroplasia
+  - id: MONDO:0600024
+    label: Myositis ossificans
+  - id: MONDO:0007078
+    label: Albright's hereditary osteodystrophy
+---
+input_text: |-
+  1. Limb-Girdle Muscular Dystrophy
+  2. Facioscapulohumeral Muscular Dystrophy
+  3. Becker Muscular Dystrophy
+  4. Spinal Muscular Atrophy
+  5. Inclusion Body Myopathy 2 (Nonaka Myopathy)
+raw_completion_output: |-
+  terms: Limb-Girdle Muscular Dystrophy; Facioscapulohumeral Muscular Dystrophy; Becker Muscular Dystrophy; Spinal Muscular Atrophy; Inclusion Body Myopathy 2; Nonaka Myopathy
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Limb-Girdle Muscular Dystrophy
+  2. Facioscapulohumeral Muscular Dystrophy
+  3. Becker Muscular Dystrophy
+  4. Spinal Muscular Atrophy
+  5. Inclusion Body Myopathy 2 (Nonaka Myopathy)
+
+  ===
+
+extracted_object:
+  id: 7554f116-af60-4132-85d2-883ccc148af2
+  label: PMID_19458539_patient_en-prompt.txt
+  terms:
+    - MONDO:0016971
+    - MONDO:0008030
+    - MONDO:0010311
+    - MONDO:0001516
+    - Inclusion Body Myopathy 2
+    - MONDO:0011603
+named_entities:
+  - id: MONDO:0016971
+    label: Limb-Girdle Muscular Dystrophy
+  - id: MONDO:0008030
+    label: Facioscapulohumeral Muscular Dystrophy
+  - id: MONDO:0010311
+    label: Becker Muscular Dystrophy
+  - id: MONDO:0001516
+    label: Spinal Muscular Atrophy
+  - id: MONDO:0011603
+    label: Nonaka Myopathy
+---
+input_text: |-
+  1. Hereditary Sensory and Autonomic Neuropathy (HSAN)
+  2. Familial Dysautonomia
+  3. Congenital Insensitivity to Pain
+  4. Charcot-Marie-Tooth Disease
+  5. Friedreich's Ataxia
+raw_completion_output: |-
+  terms: Hereditary Sensory and Autonomic Neuropathy; Familial Dysautonomia; Congenital Insensitivity to Pain; Charcot-Marie-Tooth Disease; Friedreich's Ataxia  
+  label: HSAN
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hereditary Sensory and Autonomic Neuropathy (HSAN)
+  2. Familial Dysautonomia
+  3. Congenital Insensitivity to Pain
+  4. Charcot-Marie-Tooth Disease
+  5. Friedreich's Ataxia
+
+  ===
+
+extracted_object:
+  id: 15a7bf2e-d742-4fbd-b502-654e3ab80526
+  label: PMID_30643655_F2_IV_1_en-prompt.txt
+  terms:
+    - MONDO:0015364
+    - MONDO:0009131
+    - MONDO:0015364
+    - MONDO:0015626
+    - MONDO:0100339
+named_entities:
+  - id: MONDO:0015364
+    label: Hereditary Sensory and Autonomic Neuropathy
+  - id: MONDO:0009131
+    label: Familial Dysautonomia
+  - id: MONDO:0015626
+    label: Charcot-Marie-Tooth Disease
+  - id: MONDO:0100339
+    label: Friedreich's Ataxia
+---
+input_text: |-
+  1. Muckle-Wells syndrome
+  2. Familial Mediterranean fever
+  3. Schnitzler syndrome
+  4. Hyper-IgD syndrome (HIDS)
+  5. Cryopyrin-associated periodic syndrome (CAPS), unspecified subtype
+raw_completion_output: |-
+  terms: Muckle-Wells syndrome; Familial Mediterranean fever; Schnitzler syndrome; Hyper-IgD syndrome; Cryopyrin-associated periodic syndrome  
+  label: unspecified subtype
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Muckle-Wells syndrome
+  2. Familial Mediterranean fever
+  3. Schnitzler syndrome
+  4. Hyper-IgD syndrome (HIDS)
+  5. Cryopyrin-associated periodic syndrome (CAPS), unspecified subtype
+
+  ===
+
+extracted_object:
+  id: a2f3314c-48c2-436c-9cd1-5b7200de5fb0
+  label: PMID_27435956_case_report_en-prompt.txt
+  terms:
+    - MONDO:0008633
+    - MONDO:0009572
+    - MONDO:0018304
+    - MONDO:0009849
+    - MONDO:0016168
+named_entities:
+  - id: MONDO:0008633
+    label: Muckle-Wells syndrome
+  - id: MONDO:0009572
+    label: Familial Mediterranean fever
+  - id: MONDO:0018304
+    label: Schnitzler syndrome
+  - id: MONDO:0009849
+    label: Hyper-IgD syndrome
+  - id: MONDO:0016168
+    label: Cryopyrin-associated periodic syndrome
+---
+input_text: |-
+  1. Weill-Marchesani syndrome (WMS)
+  2. Acromesomelic dysplasia
+  3. Multiple epiphyseal dysplasia
+  4. Stickler syndrome
+  5. Ehlers-Danlos syndrome (Classical type)
+raw_completion_output: |-
+  terms: Weill-Marchesani syndrome;Acromesomelic dysplasia;Multiple epiphyseal dysplasia;Stickler syndrome;Ehlers-Danlos syndrome
+  label: WMS
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Weill-Marchesani syndrome (WMS)
+  2. Acromesomelic dysplasia
+  3. Multiple epiphyseal dysplasia
+  4. Stickler syndrome
+  5. Ehlers-Danlos syndrome (Classical type)
+
+  ===
+
+extracted_object:
+  id: e197c338-4f5e-41ba-95f9-b08dbc61cec0
+  label: PMID_25469541_patient_en-prompt.txt
+  terms:
+    - MONDO:0018096
+    - MONDO:0019696
+    - MONDO:0016648
+    - MONDO:0019354
+    - MONDO:0020066
+named_entities:
+  - id: MONDO:0018096
+    label: Weill-Marchesani syndrome
+  - id: MONDO:0019696
+    label: Acromesomelic dysplasia
+  - id: MONDO:0016648
+    label: Multiple epiphyseal dysplasia
+  - id: MONDO:0019354
+    label: Stickler syndrome
+  - id: MONDO:0020066
+    label: Ehlers-Danlos syndrome
+---
+input_text: |-
+  1. Ellis-van Creveld syndrome
+  2. Short rib-polydactyly syndrome
+  3. Meckel-Gruber syndrome
+  4. Jeune asphyxiating thoracic dystrophy
+  5. Pallister-Hall syndrome
+raw_completion_output: |-
+  terms: Ellis-van Creveld syndrome; Short rib-polydactyly syndrome; Meckel-Gruber syndrome; Jeune asphyxiating thoracic dystrophy; Pallister-Hall syndrome
+  label: syndromes
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Ellis-van Creveld syndrome
+  2. Short rib-polydactyly syndrome
+  3. Meckel-Gruber syndrome
+  4. Jeune asphyxiating thoracic dystrophy
+  5. Pallister-Hall syndrome
+
+  ===
+
+extracted_object:
+  id: e5b09212-89af-47a5-bbb4-c9673f0a6511
+  label: PMID_37619988_nan_en-prompt.txt
+  terms:
+    - MONDO:0009162
+    - MONDO:0015461
+    - MONDO:0009571
+    - MONDO:0018770
+    - MONDO:0007804
+named_entities:
+  - id: MONDO:0009162
+    label: Ellis-van Creveld syndrome
+  - id: MONDO:0015461
+    label: Short rib-polydactyly syndrome
+  - id: MONDO:0009571
+    label: Meckel-Gruber syndrome
+  - id: MONDO:0018770
+    label: Jeune asphyxiating thoracic dystrophy
+  - id: MONDO:0007804
+    label: Pallister-Hall syndrome
+---
+input_text: |-
+  1. Creatine transporter deficiency (SLC6A8 deficiency)
+  2. Guanidinoacetate methyltransferase deficiency (GAMT deficiency)
+  3. Arginine:glycine amidinotransferase deficiency (AGAT deficiency)
+  4. Rett syndrome
+  5. Angelman syndrome
+raw_completion_output: |-
+  terms: Creatine transporter deficiency; Guanidinoacetate methyltransferase deficiency; Arginine:glycine amidinotransferase deficiency; Rett syndrome; Angelman syndrome
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Creatine transporter deficiency (SLC6A8 deficiency)
+  2. Guanidinoacetate methyltransferase deficiency (GAMT deficiency)
+  3. Arginine:glycine amidinotransferase deficiency (AGAT deficiency)
+  4. Rett syndrome
+  5. Angelman syndrome
+
+  ===
+
+extracted_object:
+  id: f57cb4a5-070f-43a2-8690-624209ba3901
+  label: PMID_30400883_proband_en-prompt.txt
+  terms:
+    - MONDO:0010305
+    - MONDO:0012999
+    - MONDO:0012996
+    - MONDO:0010726
+    - MONDO:0007113
+named_entities:
+  - id: MONDO:0010305
+    label: Creatine transporter deficiency
+  - id: MONDO:0012999
+    label: Guanidinoacetate methyltransferase deficiency
+  - id: MONDO:0012996
+    label: Arginine:glycine amidinotransferase deficiency
+  - id: MONDO:0010726
+    label: Rett syndrome
+  - id: MONDO:0007113
+    label: Angelman syndrome
+---
+input_text: |-
+  1. Homocystinuria
+  2. Marfan syndrome
+  3. Ehlers-Danlos syndrome
+raw_completion_output: |-
+  terms: Homocystinuria; Marfan syndrome; Ehlers-Danlos syndrome  
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Homocystinuria
+  2. Marfan syndrome
+  3. Ehlers-Danlos syndrome
+
+  ===
+
+extracted_object:
+  id: 624d44ed-7c97-4bce-a922-d5120b3592d2
+  label: PMID_8755636_patient_en-prompt.txt
+  terms:
+    - MONDO:0004737
+    - MONDO:0007947
+    - MONDO:0020066
+named_entities:
+  - id: MONDO:0004737
+    label: Homocystinuria
+  - id: MONDO:0007947
+    label: Marfan syndrome
+  - id: MONDO:0020066
+    label: Ehlers-Danlos syndrome
+---
+input_text: |-
+  1. Kabuki syndrome
+  2. Rubinstein-Taybi syndrome
+  3. Noonan syndrome
+  4. Coffin-Lowry syndrome
+  5. Smith-Lemli-Opitz syndrome
+raw_completion_output: |-
+  terms: Kabuki syndrome; Rubinstein-Taybi syndrome; Noonan syndrome; Coffin-Lowry syndrome; Smith-Lemli-Opitz syndrome  
+  label: named thing  
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Kabuki syndrome
+  2. Rubinstein-Taybi syndrome
+  3. Noonan syndrome
+  4. Coffin-Lowry syndrome
+  5. Smith-Lemli-Opitz syndrome
+
+  ===
+
+extracted_object:
+  id: 7e0992bd-a163-4e62-9431-a985a9ea6903
+  label: PMID_30364145_proband_en-prompt.txt
+  terms:
+    - MONDO:0007843
+    - MONDO:0019188
+    - MONDO:0008104
+    - MONDO:0010561
+    - MONDO:0010035
+named_entities:
+  - id: MONDO:0007843
+    label: Kabuki syndrome
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi syndrome
+  - id: MONDO:0008104
+    label: Noonan syndrome
+  - id: MONDO:0010561
+    label: Coffin-Lowry syndrome
+  - id: MONDO:0010035
+    label: Smith-Lemli-Opitz syndrome
+---
+input_text: |-
+  1. Rubinstein-Taybi syndrome
+  2. Polydactyly, postaxial, associated with other anomalies (syndromic polydactyly)
+  3. Joubert syndrome
+  4. Mowat-Wilson syndrome
+  5. Aicardi-Goutières syndrome
+  6. Coffin-Siris syndrome
+  7. Klippel-Feil syndrome (less likely due to lack of classic triad)
+raw_completion_output: |-
+  terms: Rubinstein-Taybi syndrome; Polydactyly, postaxial, associated with other anomalies (syndromic polydactyly); Joubert syndrome; Mowat-Wilson syndrome; Aicardi-Goutières syndrome; Coffin-Siris syndrome; Klippel-Feil syndrome
+  label: list of syndromes and associated conditions
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Rubinstein-Taybi syndrome
+  2. Polydactyly, postaxial, associated with other anomalies (syndromic polydactyly)
+  3. Joubert syndrome
+  4. Mowat-Wilson syndrome
+  5. Aicardi-Goutières syndrome
+  6. Coffin-Siris syndrome
+  7. Klippel-Feil syndrome (less likely due to lack of classic triad)
+
+  ===
+
+extracted_object:
+  id: ec91ee13-b651-42c7-91d3-37ce679cc4af
+  label: PMID_29127725_Patient_1_en-prompt.txt
+  terms:
+    - MONDO:0019188
+    - MONDO:0021003
+    - MONDO:0008944
+    - MONDO:0009341
+    - MONDO:0018866
+    - MONDO:0007617
+    - MONDO:0001029
+named_entities:
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi syndrome
+  - id: MONDO:0021003
+    label: Polydactyly, postaxial, associated with other anomalies (syndromic polydactyly)
+  - id: MONDO:0008944
+    label: Joubert syndrome
+  - id: MONDO:0009341
+    label: Mowat-Wilson syndrome
+  - id: MONDO:0018866
+    label: Aicardi-Goutières syndrome
+  - id: MONDO:0007617
+    label: Coffin-Siris syndrome
+  - id: MONDO:0001029
+    label: Klippel-Feil syndrome
+---
+input_text: |-
+  1. Nance-Horan Syndrome (NHS)
+  2. Congenital Cataracts-Facial Dysmorphism-Neurological Disorder (CCFDN) syndrome
+  3. Oculodentodigital Dysplasia
+  4. Hypohidrotic Ectodermal Dysplasia
+  5. Marfan Syndrome
+raw_completion_output: |-
+  terms: Nance-Horan Syndrome; Congenital Cataracts-Facial Dysmorphism-Neurological Disorder syndrome; Oculodentodigital Dysplasia; Hypohidrotic Ectodermal Dysplasia; Marfan Syndrome
+  label: Nance-Horan Syndrome; Congenital Cataracts-Facial Dysmorphism-Neurological Disorder syndrome; Oculodentodigital Dysplasia; Hypohidrotic Ectodermal Dysplasia; Marfan Syndrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Nance-Horan Syndrome (NHS)
+  2. Congenital Cataracts-Facial Dysmorphism-Neurological Disorder (CCFDN) syndrome
+  3. Oculodentodigital Dysplasia
+  4. Hypohidrotic Ectodermal Dysplasia
+  5. Marfan Syndrome
+
+  ===
+
+extracted_object:
+  id: 9f6eefcc-0fb5-43e8-9c04-5ddf4baf0825
+  label: PMID_30642278_individual_II_5_en-prompt.txt
+  terms:
+    - MONDO:0010545
+    - Congenital Cataracts-Facial Dysmorphism-Neurological Disorder syndrome
+    - MONDO:0008111
+    - MONDO:0016535
+    - MONDO:0007947
+named_entities:
+  - id: MONDO:0010545
+    label: Nance-Horan Syndrome
+  - id: MONDO:0008111
+    label: Oculodentodigital Dysplasia
+  - id: MONDO:0016535
+    label: Hypohidrotic Ectodermal Dysplasia
+  - id: MONDO:0007947
+    label: Marfan Syndrome
+---
+input_text: |-
+  1. Dravet syndrome
+  2. PCDH19-related epilepsy
+  3. SCN2A-related epilepsy
+  4. CDKL5 deficiency disorder
+  5. Aicardi syndrome
+raw_completion_output: |-
+  terms: Dravet syndrome; PCDH19-related epilepsy; SCN2A-related epilepsy; CDKL5 deficiency disorder; Aicardi syndrome  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Dravet syndrome
+  2. PCDH19-related epilepsy
+  3. SCN2A-related epilepsy
+  4. CDKL5 deficiency disorder
+  5. Aicardi syndrome
+
+  ===
+
+extracted_object:
+  id: bb7178ba-bfa8-4d56-9100-69b2dbf145b5
+  label: PMID_35386260_proband_en-prompt.txt
+  terms:
+    - MONDO:0100079
+    - PCDH19-related epilepsy
+    - SCN2A-related epilepsy
+    - MONDO:0100039
+    - MONDO:0010568
+named_entities:
+  - id: MONDO:0100079
+    label: Dravet syndrome
+  - id: MONDO:0100039
+    label: CDKL5 deficiency disorder
+  - id: MONDO:0010568
+    label: Aicardi syndrome
+---
+input_text: |-
+  1. Retinitis Pigmentosa
+  2. Cone-Rod Dystrophy
+  3. Stargardt Disease
+  4. Choroideremia
+  5. X-linked Retinoschisis
+raw_completion_output: |-
+  terms: Retinitis Pigmentosa; Cone-Rod Dystrophy; Stargardt Disease; Choroideremia; X-linked Retinoschisis  
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Retinitis Pigmentosa
+  2. Cone-Rod Dystrophy
+  3. Stargardt Disease
+  4. Choroideremia
+  5. X-linked Retinoschisis
+
+  ===
+
+extracted_object:
+  id: d5b21fc0-2cd3-4b24-8175-a56059a110da
+  label: PMID_30095615_proband_en-prompt.txt
+  terms:
+    - MONDO:0019200
+    - MONDO:0007362
+    - MONDO:0019353
+    - MONDO:0010557
+    - MONDO:0010725
+named_entities:
+  - id: MONDO:0019200
+    label: Retinitis Pigmentosa
+  - id: MONDO:0007362
+    label: Cone-Rod Dystrophy
+  - id: MONDO:0019353
+    label: Stargardt Disease
+  - id: MONDO:0010557
+    label: Choroideremia
+  - id: MONDO:0010725
+    label: X-linked Retinoschisis
+---
+input_text: |-
+  1. Noonan syndrome
+  2. Costello syndrome
+  3. Cardiofaciocutaneous syndrome
+  4. RAF1 mutation-related disorder
+  5. Beckwith-Wiedemann syndrome
+raw_completion_output: |-
+  terms: Noonan syndrome;Costello syndrome;Cardiofaciocutaneous syndrome;RAF1 mutation-related disorder;Beckwith-Wiedemann syndrome
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Noonan syndrome
+  2. Costello syndrome
+  3. Cardiofaciocutaneous syndrome
+  4. RAF1 mutation-related disorder
+  5. Beckwith-Wiedemann syndrome
+
+  ===
+
+extracted_object:
+  id: f48442a7-8f3d-456a-9361-74d6bcf3b6b8
+  label: PMID_24800029_boy_en-prompt.txt
+  terms:
+    - MONDO:0008104
+    - MONDO:0009026
+    - MONDO:0015280
+    - RAF1 mutation-related disorder
+    - MONDO:0009965
+named_entities:
+  - id: MONDO:0008104
+    label: Noonan syndrome
+  - id: MONDO:0009026
+    label: Costello syndrome
+  - id: MONDO:0015280
+    label: Cardiofaciocutaneous syndrome
+  - id: MONDO:0009965
+    label: Beckwith-Wiedemann syndrome
+---
+input_text: |-
+  1. Leigh syndrome
+  2. Mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes (MELAS)
+  3. Pyruvate dehydrogenase deficiency
+  4. POLG-related disorders (such as Alpers-Huttenlocher syndrome)
+  5. Kearns-Sayre syndrome
+raw_completion_output: |-
+  terms: Leigh syndrome; Mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes; Pyruvate dehydrogenase deficiency; Alpers-Huttenlocher syndrome; Kearns-Sayre syndrome
+  label: POLG-related disorders
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Leigh syndrome
+  2. Mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes (MELAS)
+  3. Pyruvate dehydrogenase deficiency
+  4. POLG-related disorders (such as Alpers-Huttenlocher syndrome)
+  5. Kearns-Sayre syndrome
+
+  ===
+
+extracted_object:
+  id: 6b0b1161-a179-4963-8823-3edc1d5a6dc7
+  label: PMID_28757203_Individual_1_P1_en-prompt.txt
+  terms:
+    - MONDO:0009723
+    - Mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes
+    - MONDO:0019169
+    - MONDO:0008758
+    - MONDO:0010787
+named_entities:
+  - id: MONDO:0009723
+    label: Leigh syndrome
+  - id: MONDO:0019169
+    label: Pyruvate dehydrogenase deficiency
+  - id: MONDO:0008758
+    label: Alpers-Huttenlocher syndrome
+  - id: MONDO:0010787
+    label: Kearns-Sayre syndrome
+---
+input_text: |-
+  1. Primary Hyperoxaluria
+  2. Dent's Disease
+  3. Medullary Sponge Kidney
+  4. Cystinuria
+  5. Familial Juvenile Hyperuricemic Nephropathy
+raw_completion_output: |-
+  terms: Primary Hyperoxaluria; Dent's Disease; Medullary Sponge Kidney; Cystinuria; Familial Juvenile Hyperuricemic Nephropathy
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Primary Hyperoxaluria
+  2. Dent's Disease
+  3. Medullary Sponge Kidney
+  4. Cystinuria
+  5. Familial Juvenile Hyperuricemic Nephropathy
+
+  ===
+
+extracted_object:
+  id: 1ddca373-52f2-4c8a-94e3-1a49f03d7d95
+  label: PMID_28569194_nan_en-prompt.txt
+  terms:
+    - MONDO:0002474
+    - MONDO:0015612
+    - MONDO:0015268
+    - MONDO:0009067
+    - MONDO:0008073
+named_entities:
+  - id: MONDO:0002474
+    label: Primary Hyperoxaluria
+  - id: MONDO:0015612
+    label: Dent's Disease
+  - id: MONDO:0015268
+    label: Medullary Sponge Kidney
+  - id: MONDO:0009067
+    label: Cystinuria
+  - id: MONDO:0008073
+    label: Familial Juvenile Hyperuricemic Nephropathy
+---
+input_text: |-
+  1. Leigh syndrome
+  2. 3-Methylglutaconic aciduria type IV (Barth syndrome)
+  3. Mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes (MELAS)
+  4. Pyruvate dehydrogenase deficiency
+  5. Mitochondrial DNA depletion syndrome
+  6. Kearns-Sayre syndrome
+raw_completion_output: |-
+  terms: Leigh syndrome;3-Methylglutaconic aciduria type IV (Barth syndrome);Mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes (MELAS);Pyruvate dehydrogenase deficiency;Mitochondrial DNA depletion syndrome;Kearns-Sayre syndrome
+  label: Text
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Leigh syndrome
+  2. 3-Methylglutaconic aciduria type IV (Barth syndrome)
+  3. Mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes (MELAS)
+  4. Pyruvate dehydrogenase deficiency
+  5. Mitochondrial DNA depletion syndrome
+  6. Kearns-Sayre syndrome
+
+  ===
+
+extracted_object:
+  id: cc588030-63c4-4283-ad81-2aa341335cbf
+  label: PMID_31251474_proband_en-prompt.txt
+  terms:
+    - MONDO:0009723
+    - MONDO:0010543
+    - MONDO:0010789
+    - MONDO:0019169
+    - MONDO:0018158
+    - MONDO:0010787
+named_entities:
+  - id: MONDO:0009723
+    label: Leigh syndrome
+  - id: MONDO:0010543
+    label: 3-Methylglutaconic aciduria type IV (Barth syndrome)
+  - id: MONDO:0010789
+    label: Mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes
+      (MELAS)
+  - id: MONDO:0019169
+    label: Pyruvate dehydrogenase deficiency
+  - id: MONDO:0018158
+    label: Mitochondrial DNA depletion syndrome
+  - id: MONDO:0010787
+    label: Kearns-Sayre syndrome
+---
+input_text: |-
+  1. Myoclonus-dystonia syndrome
+  2. POLG-related disorder 
+  3. TUBA1A-associated lissencephaly
+  4. DYT1 dystonia
+  5. Hyperekplexia with associated presentation
+  6. Mitochondrial disorder with neuronal migrational defects
+  7. Fahr's syndrome
+raw_completion_output: |-
+  terms: Myoclonus-dystonia syndrome; POLG-related disorder; TUBA1A-associated lissencephaly; DYT1 dystonia; Hyperekplexia with associated presentation; Mitochondrial disorder with neuronal migrational defects; Fahr's syndrome
+  label: Not specified in the text
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Myoclonus-dystonia syndrome
+  2. POLG-related disorder 
+  3. TUBA1A-associated lissencephaly
+  4. DYT1 dystonia
+  5. Hyperekplexia with associated presentation
+  6. Mitochondrial disorder with neuronal migrational defects
+  7. Fahr's syndrome
+
+  ===
+
+extracted_object:
+  id: 7c6fbc23-fa8f-45e2-acac-f77c1fd0b213
+  label: PMID_28966590_patient_en-prompt.txt
+  terms:
+    - MONDO:0008044
+    - POLG-related disorder
+    - TUBA1A-associated lissencephaly
+    - MONDO:0007492
+    - Hyperekplexia with associated presentation
+    - MONDO:0008568
+    - Fahr's syndrome
+named_entities:
+  - id: MONDO:0008044
+    label: Myoclonus-dystonia syndrome
+  - id: MONDO:0007492
+    label: DYT1 dystonia
+  - id: MONDO:0008568
+    label: Mitochondrial disorder with neuronal migrational defects
+---
+input_text: |-
+  1. Hemophagocytic lymphohistiocytosis (HLH)
+  2. Severe combined immunodeficiency (SCID)
+  3. Chronic granulomatous disease (CGD)
+  4. Chediak-Higashi syndrome
+  5. Wiskott-Aldrich syndrome
+raw_completion_output: |-
+  terms: Hemophagocytic lymphohistiocytosis; Severe combined immunodeficiency; Chronic granulomatous disease; Chediak-Higashi syndrome; Wiskott-Aldrich syndrome
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hemophagocytic lymphohistiocytosis (HLH)
+  2. Severe combined immunodeficiency (SCID)
+  3. Chronic granulomatous disease (CGD)
+  4. Chediak-Higashi syndrome
+  5. Wiskott-Aldrich syndrome
+
+  ===
+
+extracted_object:
+  id: c94ed8a2-ea7a-4305-9d2a-785aab4bf82a
+  label: PMID_31068971_proband_en-prompt.txt
+  terms:
+    - MONDO:0015540
+    - MONDO:0015974
+    - MONDO:0018305
+    - MONDO:0008963
+    - MONDO:0010518
+named_entities:
+  - id: MONDO:0015540
+    label: Hemophagocytic lymphohistiocytosis
+  - id: MONDO:0015974
+    label: Severe combined immunodeficiency
+  - id: MONDO:0018305
+    label: Chronic granulomatous disease
+  - id: MONDO:0008963
+    label: Chediak-Higashi syndrome
+  - id: MONDO:0010518
+    label: Wiskott-Aldrich syndrome
+---
+input_text: |-
+  1. Oculocutaneous Albinism
+  2. Hermansky-Pudlak Syndrome
+  3. Chediak-Higashi Syndrome
+raw_completion_output: |-
+  terms: Oculocutaneous Albinism; Hermansky-Pudlak Syndrome; Chediak-Higashi Syndrome  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Oculocutaneous Albinism
+  2. Hermansky-Pudlak Syndrome
+  3. Chediak-Higashi Syndrome
+
+  ===
+
+extracted_object:
+  id: f23e0080-ad60-4fc4-8e44-6d5e4956c9b4
+  label: PMID_29050284_proband_II_5_en-prompt.txt
+  terms:
+    - MONDO:0018910
+    - MONDO:0019312
+    - MONDO:0008963
+named_entities:
+  - id: MONDO:0018910
+    label: Oculocutaneous Albinism
+  - id: MONDO:0019312
+    label: Hermansky-Pudlak Syndrome
+  - id: MONDO:0008963
+    label: Chediak-Higashi Syndrome
+---
+input_text: |-
+  1. Rett syndrome
+  2. Mowat-Wilson syndrome
+  3. Aicardi syndrome
+  4. Angelman syndrome
+  5. Smith-Magenis syndrome
+  6. Pitt-Hopkins syndrome
+raw_completion_output: |-
+  terms: Rett syndrome; Mowat-Wilson syndrome; Aicardi syndrome; Angelman syndrome; Smith-Magenis syndrome; Pitt-Hopkins syndrome.
+  label: syndrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Rett syndrome
+  2. Mowat-Wilson syndrome
+  3. Aicardi syndrome
+  4. Angelman syndrome
+  5. Smith-Magenis syndrome
+  6. Pitt-Hopkins syndrome
+
+  ===
+
+extracted_object:
+  id: 92f3306d-966a-456b-ac3e-d9dafc205a2c
+  label: PMID_29174093_proband_en-prompt.txt
+  terms:
+    - MONDO:0010726
+    - MONDO:0009341
+    - MONDO:0010568
+    - MONDO:0007113
+    - MONDO:0008434
+    - MONDO:0012589
+named_entities:
+  - id: MONDO:0010726
+    label: Rett syndrome
+  - id: MONDO:0009341
+    label: Mowat-Wilson syndrome
+  - id: MONDO:0010568
+    label: Aicardi syndrome
+  - id: MONDO:0007113
+    label: Angelman syndrome
+  - id: MONDO:0008434
+    label: Smith-Magenis syndrome
+  - id: MONDO:0012589
+    label: Pitt-Hopkins syndrome.
+---
+input_text: |-
+  1. Kabuki Syndrome
+  2. Trisomy 13 (Patau Syndrome)
+  3. Cornelia de Lange Syndrome
+  4. Rubinstein-Taybi Syndrome
+  5. Smith-Lemli-Opitz Syndrome
+raw_completion_output: |-
+  terms: Kabuki Syndrome; Trisomy 13; Patau Syndrome; Cornelia de Lange Syndrome; Rubinstein-Taybi Syndrome; Smith-Lemli-Opitz Syndrome
+  label: Named Syndromes
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Kabuki Syndrome
+  2. Trisomy 13 (Patau Syndrome)
+  3. Cornelia de Lange Syndrome
+  4. Rubinstein-Taybi Syndrome
+  5. Smith-Lemli-Opitz Syndrome
+
+  ===
+
+extracted_object:
+  id: bc988dfd-1ccd-45b2-8a2a-95517beac715
+  label: PMID_30509212_male_en-prompt.txt
+  terms:
+    - MONDO:0007843
+    - MONDO:0018068
+    - MONDO:0018068
+    - MONDO:0016033
+    - MONDO:0019188
+    - MONDO:0010035
+named_entities:
+  - id: MONDO:0007843
+    label: Kabuki Syndrome
+  - id: MONDO:0018068
+    label: Trisomy 13
+  - id: MONDO:0016033
+    label: Cornelia de Lange Syndrome
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi Syndrome
+  - id: MONDO:0010035
+    label: Smith-Lemli-Opitz Syndrome
+---
+input_text: |-
+  1. Long QT Syndrome (LQTS)
+  2. Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)
+  3. Brugada Syndrome
+  4. Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
+  5. Hypertrophic Cardiomyopathy (HCM)
+raw_completion_output: |-
+  terms: Long QT Syndrome; Catecholaminergic Polymorphic Ventricular Tachycardia; Brugada Syndrome; Arrhythmogenic Right Ventricular Cardiomyopathy; Hypertrophic Cardiomyopathy
+  label: Long QT Syndrome; Catecholaminergic Polymorphic Ventricular Tachycardia; Brugada Syndrome; Arrhythmogenic Right Ventricular Cardiomyopathy; Hypertrophic Cardiomyopathy
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Long QT Syndrome (LQTS)
+  2. Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)
+  3. Brugada Syndrome
+  4. Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
+  5. Hypertrophic Cardiomyopathy (HCM)
+
+  ===
+
+extracted_object:
+  id: 8544b77d-951c-45ac-9719-eec3b52f95d9
+  label: PMID_30296944_Case_presentation_en-prompt.txt
+  terms:
+    - MONDO:0002442
+    - MONDO:0017990
+    - MONDO:0015263
+    - MONDO:0016587
+    - MONDO:0005045
+named_entities:
+  - id: MONDO:0002442
+    label: Long QT Syndrome
+  - id: MONDO:0017990
+    label: Catecholaminergic Polymorphic Ventricular Tachycardia
+  - id: MONDO:0015263
+    label: Brugada Syndrome
+  - id: MONDO:0016587
+    label: Arrhythmogenic Right Ventricular Cardiomyopathy
+  - id: MONDO:0005045
+    label: Hypertrophic Cardiomyopathy
+---
+input_text: |-
+  1. Hyperkalemic periodic paralysis
+  2. Hyperekplexia (startle disease)
+  3. Benign familial neonatal seizures
+  4. Andersen-Tawil syndrome
+  5. Familial hemiplegic migraine
+raw_completion_output: |-
+  terms: Hyperkalemic periodic paralysis; Hyperekplexia (startle disease); Benign familial neonatal seizures; Andersen-Tawil syndrome; Familial hemiplegic migraine
+  label: diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hyperkalemic periodic paralysis
+  2. Hyperekplexia (startle disease)
+  3. Benign familial neonatal seizures
+  4. Andersen-Tawil syndrome
+  5. Familial hemiplegic migraine
+
+  ===
+
+extracted_object:
+  id: 6c3317d4-9a3d-491e-9b9f-cad2170f4075
+  label: PMID_24969041_neonate_en-prompt.txt
+  terms:
+    - MONDO:0008224
+    - MONDO:0021022
+    - MONDO:0016027
+    - MONDO:0008222
+    - MONDO:0000700
+named_entities:
+  - id: MONDO:0008224
+    label: Hyperkalemic periodic paralysis
+  - id: MONDO:0021022
+    label: Hyperekplexia (startle disease)
+  - id: MONDO:0016027
+    label: Benign familial neonatal seizures
+  - id: MONDO:0008222
+    label: Andersen-Tawil syndrome
+  - id: MONDO:0000700
+    label: Familial hemiplegic migraine
+---
+input_text: |-
+  1. Osteogenesis Imperfecta
+  2. Camurati-Engelmann Disease
+  3. Bruck Syndrome
+  4. Van Buchem Disease
+  5. Paget's Disease of Bone
+raw_completion_output: |-
+  terms: Osteogenesis Imperfecta; Camurati-Engelmann Disease; Bruck Syndrome; Van Buchem Disease; Paget's Disease of Bone  
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Osteogenesis Imperfecta
+  2. Camurati-Engelmann Disease
+  3. Bruck Syndrome
+  4. Van Buchem Disease
+  5. Paget's Disease of Bone
+
+  ===
+
+extracted_object:
+  id: cc4d34ad-c45a-4b98-9776-03642113bdb8
+  label: PMID_29382611_proband_II_5_en-prompt.txt
+  terms:
+    - MONDO:0019019
+    - MONDO:0007542
+    - MONDO:0017195
+    - MONDO:0009395
+    - MONDO:0005382
+named_entities:
+  - id: MONDO:0019019
+    label: Osteogenesis Imperfecta
+  - id: MONDO:0007542
+    label: Camurati-Engelmann Disease
+  - id: MONDO:0017195
+    label: Bruck Syndrome
+  - id: MONDO:0009395
+    label: Van Buchem Disease
+  - id: MONDO:0005382
+    label: Paget's Disease of Bone
+---
+input_text: |-
+  1. Cockayne syndrome
+  2. Marinesco-Sjögren syndrome
+  3. Aicardi-Goutières syndrome
+  4. Ataxia-telangiectasia
+  5. Krabbe disease
+raw_completion_output: |-
+  terms: Cockayne syndrome; Marinesco-Sjögren syndrome; Aicardi-Goutières syndrome; Ataxia-telangiectasia; Krabbe disease
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Cockayne syndrome
+  2. Marinesco-Sjögren syndrome
+  3. Aicardi-Goutières syndrome
+  4. Ataxia-telangiectasia
+  5. Krabbe disease
+
+  ===
+
+extracted_object:
+  id: 7175149f-5932-4d38-aa52-adebdd03f64b
+  label: PMID_28148925_proband_en-prompt.txt
+  terms:
+    - MONDO:0016006
+    - MONDO:0009567
+    - MONDO:0018866
+    - MONDO:0008840
+    - MONDO:0009499
+named_entities:
+  - id: MONDO:0016006
+    label: Cockayne syndrome
+  - id: MONDO:0009567
+    label: Marinesco-Sjögren syndrome
+  - id: MONDO:0018866
+    label: Aicardi-Goutières syndrome
+  - id: MONDO:0008840
+    label: Ataxia-telangiectasia
+  - id: MONDO:0009499
+    label: Krabbe disease
+---
+input_text: |-
+  1. Classical Ehlers-Danlos syndrome (cEDS)
+  2. Hypermobile Ehlers-Danlos syndrome (hEDS)
+  3. Other Ehlers-Danlos syndrome subtypes
+  4. Marfan syndrome
+  5. Loeys-Dietz syndrome
+raw_completion_output: |-
+  terms: Classical Ehlers-Danlos syndrome; Hypermobile Ehlers-Danlos syndrome; Ehlers-Danlos syndrome; Marfan syndrome; Loeys-Dietz syndrome.
+  label: Ehlers-Danlos syndrome
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Classical Ehlers-Danlos syndrome (cEDS)
+  2. Hypermobile Ehlers-Danlos syndrome (hEDS)
+  3. Other Ehlers-Danlos syndrome subtypes
+  4. Marfan syndrome
+  5. Loeys-Dietz syndrome
+
+  ===
+
+extracted_object:
+  id: 171ad776-0955-4c3c-ad62-5ea108fc1deb
+  label: PMID_27656288_patient_en-prompt.txt
+  terms:
+    - MONDO:0007522
+    - MONDO:0007523
+    - MONDO:0020066
+    - MONDO:0007947
+    - Loeys-Dietz syndrome.
+named_entities:
+  - id: MONDO:0007522
+    label: Classical Ehlers-Danlos syndrome
+  - id: MONDO:0007523
+    label: Hypermobile Ehlers-Danlos syndrome
+  - id: MONDO:0020066
+    label: Ehlers-Danlos syndrome
+  - id: MONDO:0007947
+    label: Marfan syndrome
+---
+input_text: |-
+  1. Marfan syndrome
+  2. Loeys-Dietz syndrome
+  3. Ehlers-Danlos syndrome (vascular type)
+  4. Homocystinuria
+raw_completion_output: |-
+  terms: Marfan syndrome; Loeys-Dietz syndrome; Ehlers-Danlos syndrome (vascular type); Homocystinuria  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Marfan syndrome
+  2. Loeys-Dietz syndrome
+  3. Ehlers-Danlos syndrome (vascular type)
+  4. Homocystinuria
+
+  ===
+
+extracted_object:
+  id: 345ec8e2-3fb3-46d7-a913-34210e207959
+  label: PMID_30701076_patient_en-prompt.txt
+  terms:
+    - MONDO:0007947
+    - MONDO:0018954
+    - MONDO:0020066
+    - MONDO:0004737
+named_entities:
+  - id: MONDO:0007947
+    label: Marfan syndrome
+  - id: MONDO:0018954
+    label: Loeys-Dietz syndrome
+  - id: MONDO:0020066
+    label: Ehlers-Danlos syndrome (vascular type)
+  - id: MONDO:0004737
+    label: Homocystinuria
+---
+input_text: |-
+  1. Dyskeratosis congenita
+  2. Idiopathic pulmonary fibrosis
+  3. Hermansky-Pudlak syndrome
+  4. Chronic hypersensitivity pneumonitis
+  5. Pulmonary Langerhans cell histiocytosis
+raw_completion_output: |-
+  terms: Dyskeratosis congenita; Idiopathic pulmonary fibrosis; Hermansky-Pudlak syndrome; Chronic hypersensitivity pneumonitis; Pulmonary Langerhans cell histiocytosis
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Dyskeratosis congenita
+  2. Idiopathic pulmonary fibrosis
+  3. Hermansky-Pudlak syndrome
+  4. Chronic hypersensitivity pneumonitis
+  5. Pulmonary Langerhans cell histiocytosis
+
+  ===
+
+extracted_object:
+  id: c41863aa-256c-4aef-a00b-5a7d2fd08f8e
+  label: PMID_29742735_proband_en-prompt.txt
+  terms:
+    - MONDO:0015780
+    - MONDO:0800029
+    - MONDO:0019312
+    - Chronic hypersensitivity pneumonitis
+    - MONDO:0020520
+named_entities:
+  - id: MONDO:0015780
+    label: Dyskeratosis congenita
+  - id: MONDO:0800029
+    label: Idiopathic pulmonary fibrosis
+  - id: MONDO:0019312
+    label: Hermansky-Pudlak syndrome
+  - id: MONDO:0020520
+    label: Pulmonary Langerhans cell histiocytosis
+---
+input_text: |-
+  1. Myotonia Congenita
+  2. Paramyotonia Congenita
+  3. Myotonic Dystrophy Type 1
+  4. Myotonic Dystrophy Type 2
+raw_completion_output: |-
+  terms: Myotonia Congenita; Paramyotonia Congenita; Myotonic Dystrophy Type 1; Myotonic Dystrophy Type 2
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Myotonia Congenita
+  2. Paramyotonia Congenita
+  3. Myotonic Dystrophy Type 1
+  4. Myotonic Dystrophy Type 2
+
+  ===
+
+extracted_object:
+  id: 8ec1287c-26bd-4859-a836-0ee80b550e61
+  label: PMID_30243293_nan_en-prompt.txt
+  terms:
+    - MONDO:0009710
+    - MONDO:0008195
+    - MONDO:0008056
+    - MONDO:0011266
+named_entities:
+  - id: MONDO:0009710
+    label: Myotonia Congenita
+  - id: MONDO:0008195
+    label: Paramyotonia Congenita
+  - id: MONDO:0008056
+    label: Myotonic Dystrophy Type 1
+  - id: MONDO:0011266
+    label: Myotonic Dystrophy Type 2
+---
+input_text: |-
+  1. Hereditary spherocytosis
+  2. Autoimmune hemolytic anemia
+  3. Pyruvate kinase deficiency
+  4. G6PD deficiency
+  5. Congenital dyserythropoietic anemia (CDA)
+raw_completion_output: |-
+  terms: Hereditary spherocytosis; Autoimmune hemolytic anemia; Pyruvate kinase deficiency; G6PD deficiency; Congenital dyserythropoietic anemia (CDA)
+  label: diseases
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hereditary spherocytosis
+  2. Autoimmune hemolytic anemia
+  3. Pyruvate kinase deficiency
+  4. G6PD deficiency
+  5. Congenital dyserythropoietic anemia (CDA)
+
+  ===
+
+extracted_object:
+  id: 9791c565-8858-4628-ac37-36f423d334f1
+  label: PMID_7803799_proband_en-prompt.txt
+  terms:
+    - MONDO:0019350
+    - MONDO:0020108
+    - MONDO:0009950
+    - MONDO:0005775
+    - MONDO:0011855
+named_entities:
+  - id: MONDO:0019350
+    label: Hereditary spherocytosis
+  - id: MONDO:0020108
+    label: Autoimmune hemolytic anemia
+  - id: MONDO:0009950
+    label: Pyruvate kinase deficiency
+  - id: MONDO:0005775
+    label: G6PD deficiency
+  - id: MONDO:0011855
+    label: Congenital dyserythropoietic anemia (CDA)
+---
+input_text: |-
+  1. Mucolipidosis II (I-cell disease)
+  2. Mucolipidosis III (pseudo-Hurler polydystrophy)
+raw_completion_output: |-
+  terms: Mucolipidosis II (I-cell disease); Mucolipidosis III (pseudo-Hurler polydystrophy)
+  label: Mucolipidosis
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Mucolipidosis II (I-cell disease)
+  2. Mucolipidosis III (pseudo-Hurler polydystrophy)
+
+  ===
+
+extracted_object:
+  id: 08bada21-7a37-4ce6-93a5-8d5bc86c359f
+  label: PMID_30208878_proband_en-prompt.txt
+  terms:
+    - MONDO:0009650
+    - MONDO:0018931
+named_entities:
+  - id: MONDO:0009650
+    label: Mucolipidosis II (I-cell disease)
+  - id: MONDO:0018931
+    label: Mucolipidosis III (pseudo-Hurler polydystrophy)
+---
+input_text: |-
+  1. Congenital nephrotic syndrome
+  2. Denys-Drash syndrome
+  3. Alport syndrome
+raw_completion_output: |-
+  terms: Congenital nephrotic syndrome; Denys-Drash syndrome; Alport syndrome  
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Congenital nephrotic syndrome
+  2. Denys-Drash syndrome
+  3. Alport syndrome
+
+  ===
+
+extracted_object:
+  id: 2bc1d935-74fb-4bab-8a3c-7f2ded60fbef
+  label: PMID_28392951_Patient_1_en-prompt.txt
+  terms:
+    - MONDO:0002350
+    - MONDO:0008682
+    - MONDO:0018965
+named_entities:
+  - id: MONDO:0002350
+    label: Congenital nephrotic syndrome
+  - id: MONDO:0008682
+    label: Denys-Drash syndrome
+  - id: MONDO:0018965
+    label: Alport syndrome
+---
+input_text: |-
+  1. Stickler syndrome
+  2. Marshall syndrome
+  3. Robinow syndrome
+  4. Weill-Marchesani syndrome
+  5. Axenfeld-Rieger syndrome
+raw_completion_output: |-
+  terms: Stickler syndrome; Marshall syndrome; Robinow syndrome; Weill-Marchesani syndrome; Axenfeld-Rieger syndrome  
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Stickler syndrome
+  2. Marshall syndrome
+  3. Robinow syndrome
+  4. Weill-Marchesani syndrome
+  5. Axenfeld-Rieger syndrome
+
+  ===
+
+extracted_object:
+  id: a87a79bd-655c-4975-9abb-a2cb26957274
+  label: PMID_28841907_boy_en-prompt.txt
+  terms:
+    - MONDO:0019354
+    - MONDO:0007949
+    - MONDO:0019978
+    - MONDO:0018096
+    - MONDO:0019187
+named_entities:
+  - id: MONDO:0019354
+    label: Stickler syndrome
+  - id: MONDO:0007949
+    label: Marshall syndrome
+  - id: MONDO:0019978
+    label: Robinow syndrome
+  - id: MONDO:0018096
+    label: Weill-Marchesani syndrome
+  - id: MONDO:0019187
+    label: Axenfeld-Rieger syndrome
+---
+input_text: |-
+  1. Inclusion Body Myopathy with Paget Disease of Bone and Frontotemporal Dementia (IBMPFD)
+  2. Paget's Disease of Bone with Myopathy
+  3. Facioscapulohumeral Muscular Dystrophy
+  4. Limb-Girdle Muscular Dystrophy
+  5. Oculopharyngeal Muscular Dystrophy
+raw_completion_output: |-
+  terms: Inclusion Body Myopathy with Paget Disease of Bone and Frontotemporal Dementia (IBMPFD); Paget's Disease of Bone with Myopathy; Facioscapulohumeral Muscular Dystrophy; Limb-Girdle Muscular Dystrophy; Oculopharyngeal Muscular Dystrophy
+  label: IBMPFD
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Inclusion Body Myopathy with Paget Disease of Bone and Frontotemporal Dementia (IBMPFD)
+  2. Paget's Disease of Bone with Myopathy
+  3. Facioscapulohumeral Muscular Dystrophy
+  4. Limb-Girdle Muscular Dystrophy
+  5. Oculopharyngeal Muscular Dystrophy
+
+  ===
+
+extracted_object:
+  id: 175cf7b4-5172-4c7c-99d7-ef6d3a730fd1
+  label: PMID_19208399_Patient_II_3_en-prompt.txt
+  terms:
+    - MONDO:0000507
+    - Paget's Disease of Bone with Myopathy
+    - MONDO:0008030
+    - MONDO:0016971
+    - MONDO:0008116
+named_entities:
+  - id: MONDO:0000507
+    label: Inclusion Body Myopathy with Paget Disease of Bone and Frontotemporal Dementia
+      (IBMPFD)
+  - id: MONDO:0008030
+    label: Facioscapulohumeral Muscular Dystrophy
+  - id: MONDO:0016971
+    label: Limb-Girdle Muscular Dystrophy
+  - id: MONDO:0008116
+    label: Oculopharyngeal Muscular Dystrophy
+---
+input_text: |-
+  1. Prader-Willi syndrome
+  2. Congenital myasthenic syndrome
+  3. Angelman syndrome
+  4. Smith-Magenis syndrome
+  5. 22q11.2 deletion syndrome
+raw_completion_output: |-
+  terms: Prader-Willi syndrome; Congenital myasthenic syndrome; Angelman syndrome; Smith-Magenis syndrome; 22q11.2 deletion syndrome  
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Prader-Willi syndrome
+  2. Congenital myasthenic syndrome
+  3. Angelman syndrome
+  4. Smith-Magenis syndrome
+  5. 22q11.2 deletion syndrome
+
+  ===
+
+extracted_object:
+  id: 6988522a-1f05-435e-8cc3-3ffd9d97428a
+  label: PMID_29483676_proband_en-prompt.txt
+  terms:
+    - MONDO:0008300
+    - MONDO:0018940
+    - MONDO:0007113
+    - MONDO:0008434
+    - MONDO:0018923
+named_entities:
+  - id: MONDO:0008300
+    label: Prader-Willi syndrome
+  - id: MONDO:0018940
+    label: Congenital myasthenic syndrome
+  - id: MONDO:0007113
+    label: Angelman syndrome
+  - id: MONDO:0008434
+    label: Smith-Magenis syndrome
+  - id: MONDO:0018923
+    label: 22q11.2 deletion syndrome
+---
+input_text: |-
+  1. Hereditary Sensory and Autonomic Neuropathy Type IV (HSAN IV) - Congenital Insensitivity to Pain with Anhidrosis (CIPA)
+  2. Hereditary Sensory and Autonomic Neuropathy Type I (HSAN I)
+  3. Hereditary Sensory Neuropathy with Recurrent Ulceration (HSN with Ulceration)
+  4. Familial Dysautonomia (Riley-Day Syndrome)
+  5. Hereditary Sensory and Autonomic Neuropathy Type II (HSAN II)
+raw_completion_output: |-
+  terms: Hereditary Sensory and Autonomic Neuropathy Type IV; Congenital Insensitivity to Pain with Anhidrosis; Hereditary Sensory and Autonomic Neuropathy Type I; Hereditary Sensory Neuropathy with Recurrent Ulceration; Familial Dysautonomia; Riley-Day Syndrome; Hereditary Sensory and Autonomic Neuropathy Type II
+  label: Hereditary Sensory and Autonomic Neuropathy
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hereditary Sensory and Autonomic Neuropathy Type IV (HSAN IV) - Congenital Insensitivity to Pain with Anhidrosis (CIPA)
+  2. Hereditary Sensory and Autonomic Neuropathy Type I (HSAN I)
+  3. Hereditary Sensory Neuropathy with Recurrent Ulceration (HSN with Ulceration)
+  4. Familial Dysautonomia (Riley-Day Syndrome)
+  5. Hereditary Sensory and Autonomic Neuropathy Type II (HSAN II)
+
+  ===
+
+extracted_object:
+  id: 20dc4b57-8a30-498b-9505-5836fae3c16b
+  label: PMID_16636245_Case_report_en-prompt.txt
+  terms:
+    - MONDO:0009746
+    - MONDO:0009746
+    - MONDO:0018213
+    - Hereditary Sensory Neuropathy with Recurrent Ulceration
+    - MONDO:0009131
+    - MONDO:0009131
+    - MONDO:0019941
+named_entities:
+  - id: MONDO:0009746
+    label: Hereditary Sensory and Autonomic Neuropathy Type IV
+  - id: MONDO:0018213
+    label: Hereditary Sensory and Autonomic Neuropathy Type I
+  - id: MONDO:0009131
+    label: Familial Dysautonomia
+  - id: MONDO:0019941
+    label: Hereditary Sensory and Autonomic Neuropathy Type II
+---
+input_text: |-
+  1. Acrodysostosis
+  2. Robinow syndrome
+  3. Melnick-Needles syndrome
+  4. Floating-Harbor syndrome
+  5. Rubinstein-Taybi syndrome
+raw_completion_output: |-
+  terms: Acrodysostosis; Robinow syndrome; Melnick-Needles syndrome; Floating-Harbor syndrome; Rubinstein-Taybi syndrome  
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Acrodysostosis
+  2. Robinow syndrome
+  3. Melnick-Needles syndrome
+  4. Floating-Harbor syndrome
+  5. Rubinstein-Taybi syndrome
+
+  ===
+
+extracted_object:
+  id: 494e3848-b4f2-4a8b-b07f-f3d417e055f4
+  label: PMID_27057656_patient_en-prompt.txt
+  terms:
+    - MONDO:0019797
+    - MONDO:0019978
+    - MONDO:0010650
+    - MONDO:0007621
+    - MONDO:0019188
+named_entities:
+  - id: MONDO:0019797
+    label: Acrodysostosis
+  - id: MONDO:0019978
+    label: Robinow syndrome
+  - id: MONDO:0010650
+    label: Melnick-Needles syndrome
+  - id: MONDO:0007621
+    label: Floating-Harbor syndrome
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi syndrome
+---
+input_text: |-
+  1. Holoprosencephaly due to SHH mutation
+  2. Smith-Lemli-Opitz syndrome
+  3. Patau syndrome (Trisomy 13)
+  4. Septo-optic dysplasia
+  5. Pallister-Hall syndrome
+raw_completion_output: |-
+  terms: Holoprosencephaly; Smith-Lemli-Opitz syndrome; Patau syndrome; Septo-optic dysplasia; Pallister-Hall syndrome
+  label: Named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Holoprosencephaly due to SHH mutation
+  2. Smith-Lemli-Opitz syndrome
+  3. Patau syndrome (Trisomy 13)
+  4. Septo-optic dysplasia
+  5. Pallister-Hall syndrome
+
+  ===
+
+extracted_object:
+  id: af8f3cf8-03a2-427d-82b9-96264a039efa
+  label: PMID_16962354_first_mutation_en-prompt.txt
+  terms:
+    - MONDO:0016296
+    - MONDO:0010035
+    - MONDO:0018068
+    - MONDO:0008428
+    - MONDO:0007804
+named_entities:
+  - id: MONDO:0016296
+    label: Holoprosencephaly
+  - id: MONDO:0010035
+    label: Smith-Lemli-Opitz syndrome
+  - id: MONDO:0018068
+    label: Patau syndrome
+  - id: MONDO:0008428
+    label: Septo-optic dysplasia
+  - id: MONDO:0007804
+    label: Pallister-Hall syndrome
+---
+input_text: 1. Farber disease (ASAH1-related disorder)
+raw_completion_output: |-
+  terms: Farber disease  
+  label: ASAH1-related disorder
+prompt: |+
+  Split the following piece of text into fields in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Farber disease (ASAH1-related disorder)
+
+  ===
+
+extracted_object:
+  id: b17a3e3e-28c8-4f4e-8a8b-d91e042310cf
+  label: PMID_31213928_patient_en-prompt.txt
+  terms:
+    - MONDO:0009218
+named_entities:
+  - id: MONDO:0009218
+    label: Farber disease
+---
+input_text: |-
+  1. Glycogen storage disease type I (Von Gierke disease)
+  2. Glycogen storage disease type III (Cori disease)
+  3. Glycogen storage disease type IV (Andersen disease)
+  4. Glycogen storage disease type VI (Hers disease)
+  5. Congenital disorder of glycosylation
+  6. Niemann-Pick disease type C
+  7. Wilson's disease
+raw_completion_output: |-
+  terms: Glycogen storage disease type I; Von Gierke disease; Glycogen storage disease type III; Cori disease; Glycogen storage disease type IV; Andersen disease; Glycogen storage disease type VI; Hers disease; Congenital disorder of glycosylation; Niemann-Pick disease type C; Wilson's disease
+  label: 
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Glycogen storage disease type I (Von Gierke disease)
+  2. Glycogen storage disease type III (Cori disease)
+  3. Glycogen storage disease type IV (Andersen disease)
+  4. Glycogen storage disease type VI (Hers disease)
+  5. Congenital disorder of glycosylation
+  6. Niemann-Pick disease type C
+  7. Wilson's disease
+
+  ===
+
+extracted_object:
+  id: 34d85be5-bde1-4edf-8da1-8c96531ecdc6
+  label: PMID_28984260_child_en-prompt.txt
+  terms:
+    - MONDO:0002413
+    - MONDO:0009287
+    - MONDO:0009291
+    - MONDO:0009291
+    - MONDO:0009292
+    - MONDO:0009292
+    - MONDO:0009294
+    - MONDO:0009294
+    - MONDO:0015286
+    - MONDO:0018982
+    - MONDO:0010200
+named_entities:
+  - id: MONDO:0002413
+    label: Glycogen storage disease type I
+  - id: MONDO:0009287
+    label: Von Gierke disease
+  - id: MONDO:0009291
+    label: Glycogen storage disease type III
+  - id: MONDO:0009292
+    label: Glycogen storage disease type IV
+  - id: MONDO:0009294
+    label: Glycogen storage disease type VI
+  - id: MONDO:0015286
+    label: Congenital disorder of glycosylation
+  - id: MONDO:0018982
+    label: Niemann-Pick disease type C
+  - id: MONDO:0010200
+    label: Wilson's disease
+---
+input_text: |-
+  1. Cryopyrin-associated periodic syndrome (CAPS), particularly Muckle-Wells syndrome
+  2. Farber disease
+  3. Stiff skin syndrome
+  4. Juvenile scleroderma
+  5. Atypical Ehlers-Danlos syndrome
+raw_completion_output: |-
+  terms: Cryopyrin-associated periodic syndrome; Muckle-Wells syndrome; Farber disease; Stiff skin syndrome; Juvenile scleroderma; Atypical Ehlers-Danlos syndrome.
+  label: The label (name) of the named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Cryopyrin-associated periodic syndrome (CAPS), particularly Muckle-Wells syndrome
+  2. Farber disease
+  3. Stiff skin syndrome
+  4. Juvenile scleroderma
+  5. Atypical Ehlers-Danlos syndrome
+
+  ===
+
+extracted_object:
+  id: 4afbc302-c17e-45de-b6eb-436f7f0e2dd6
+  label: PMID_30050362_individual_II_3_en-prompt.txt
+  terms:
+    - MONDO:0016168
+    - MONDO:0008633
+    - MONDO:0009218
+    - MONDO:0008492
+    - Juvenile scleroderma
+    - Atypical Ehlers-Danlos syndrome.
+named_entities:
+  - id: MONDO:0016168
+    label: Cryopyrin-associated periodic syndrome
+  - id: MONDO:0008633
+    label: Muckle-Wells syndrome
+  - id: MONDO:0009218
+    label: Farber disease
+  - id: MONDO:0008492
+    label: Stiff skin syndrome
+---
+input_text: |-
+  1. Microcephaly
+  2. Williams-Beuren syndrome
+  3. Silver-Russell syndrome
+  4. Fragile X syndrome
+  5. Angelman syndrome
+  6. Turner syndrome (considering the sex and growth issues)
+  7. Kleefstra syndrome
+  8. Rubinstein-Taybi syndrome
+raw_completion_output: |-
+  terms: Microcephaly; Williams-Beuren syndrome; Silver-Russell syndrome; Fragile X syndrome; Angelman syndrome; Turner syndrome; Kleefstra syndrome; Rubinstein-Taybi syndrome
+  label: Named Thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Microcephaly
+  2. Williams-Beuren syndrome
+  3. Silver-Russell syndrome
+  4. Fragile X syndrome
+  5. Angelman syndrome
+  6. Turner syndrome (considering the sex and growth issues)
+  7. Kleefstra syndrome
+  8. Rubinstein-Taybi syndrome
+
+  ===
+
+extracted_object:
+  id: 958c691c-afbf-4af1-adc2-dd171e7ede46
+  label: PMID_23726037_patient_en-prompt.txt
+  terms:
+    - MONDO:0001149
+    - MONDO:0008678
+    - MONDO:0008394
+    - MONDO:0010383
+    - MONDO:0007113
+    - MONDO:0019499
+    - MONDO:0012455
+    - MONDO:0019188
+named_entities:
+  - id: MONDO:0001149
+    label: Microcephaly
+  - id: MONDO:0008678
+    label: Williams-Beuren syndrome
+  - id: MONDO:0008394
+    label: Silver-Russell syndrome
+  - id: MONDO:0010383
+    label: Fragile X syndrome
+  - id: MONDO:0007113
+    label: Angelman syndrome
+  - id: MONDO:0019499
+    label: Turner syndrome
+  - id: MONDO:0012455
+    label: Kleefstra syndrome
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi syndrome
+---
+input_text: |-
+  1. Denys-Drash syndrome
+  2. Schimke immuno-osseous dysplasia
+  3. Galloway-Mowat syndrome
+  4. Congenital nephrotic syndrome (Finnish type)
+  5. COFS syndrome (Cerebro-oculo-facio-skeletal syndrome)
+  6. Pierson syndrome
+raw_completion_output: |-
+  terms: Denys-Drash syndrome; Schimke immuno-osseous dysplasia; Galloway-Mowat syndrome; Congenital nephrotic syndrome (Finnish type); COFS syndrome; Pierson syndrome
+  label: disease names
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Denys-Drash syndrome
+  2. Schimke immuno-osseous dysplasia
+  3. Galloway-Mowat syndrome
+  4. Congenital nephrotic syndrome (Finnish type)
+  5. COFS syndrome (Cerebro-oculo-facio-skeletal syndrome)
+  6. Pierson syndrome
+
+  ===
+
+extracted_object:
+  id: 71fd63f4-5243-4e9f-a5fb-dc490eec7e2c
+  label: PMID_30053862_Case_II_1_en-prompt.txt
+  terms:
+    - MONDO:0008682
+    - MONDO:0009458
+    - MONDO:0009627
+    - MONDO:0002350
+    - MONDO:0008955
+    - MONDO:0012184
+named_entities:
+  - id: MONDO:0008682
+    label: Denys-Drash syndrome
+  - id: MONDO:0009458
+    label: Schimke immuno-osseous dysplasia
+  - id: MONDO:0009627
+    label: Galloway-Mowat syndrome
+  - id: MONDO:0002350
+    label: Congenital nephrotic syndrome (Finnish type)
+  - id: MONDO:0008955
+    label: COFS syndrome
+  - id: MONDO:0012184
+    label: Pierson syndrome
+---
+input_text: |-
+  1. CHARGE syndrome
+  2. Wolf-Hirschhorn syndrome
+  3. Kabuki syndrome
+  4. Rubinstein-Taybi syndrome
+  5. Fraser syndrome
+raw_completion_output: |-
+  terms: CHARGE syndrome; Wolf-Hirschhorn syndrome; Kabuki syndrome; Rubinstein-Taybi syndrome; Fraser syndrome.
+  label: named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. CHARGE syndrome
+  2. Wolf-Hirschhorn syndrome
+  3. Kabuki syndrome
+  4. Rubinstein-Taybi syndrome
+  5. Fraser syndrome
+
+  ===
+
+extracted_object:
+  id: b5e16bda-11ad-4739-99ee-357a8bacc01d
+  label: PMID_29575628_nan_en-prompt.txt
+  terms:
+    - MONDO:0008965
+    - MONDO:0008684
+    - MONDO:0007843
+    - MONDO:0019188
+    - MONDO:0054737
+named_entities:
+  - id: MONDO:0008965
+    label: CHARGE syndrome
+  - id: MONDO:0008684
+    label: Wolf-Hirschhorn syndrome
+  - id: MONDO:0007843
+    label: Kabuki syndrome
+  - id: MONDO:0019188
+    label: Rubinstein-Taybi syndrome
+  - id: MONDO:0054737
+    label: Fraser syndrome.
+---
+input_text: |-
+  1. Hyper-IgE syndrome (Job's syndrome)
+  2. Common variable immunodeficiency
+  3. Chronic granulomatous disease
+  4. Severe combined immunodeficiency (less likely due to normal T cell count)
+  5. Ataxia-telangiectasia (unlikely due to lack of neurological symptoms)
+  6. Wiskott-Aldrich syndrome (less likely due to normal platelet counts and lack of eczema-related bleeding issues)
+raw_completion_output: |-
+  terms: Hyper-IgE syndrome;Common variable immunodeficiency;Chronic granulomatous disease;Severe combined immunodeficiency;Ataxia-telangiectasia;Wiskott-Aldrich syndrome
+  label: Diseases List
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Hyper-IgE syndrome (Job's syndrome)
+  2. Common variable immunodeficiency
+  3. Chronic granulomatous disease
+  4. Severe combined immunodeficiency (less likely due to normal T cell count)
+  5. Ataxia-telangiectasia (unlikely due to lack of neurological symptoms)
+  6. Wiskott-Aldrich syndrome (less likely due to normal platelet counts and lack of eczema-related bleeding issues)
+
+  ===
+
+extracted_object:
+  id: 02649b9c-56ef-4e0a-8349-bd3e1adc6331
+  label: PMID_20149460_girl_en-prompt.txt
+  terms:
+    - MONDO:0018037
+    - MONDO:0015517
+    - MONDO:0018305
+    - MONDO:0015974
+    - MONDO:0008840
+    - MONDO:0010518
+named_entities:
+  - id: MONDO:0018037
+    label: Hyper-IgE syndrome
+  - id: MONDO:0015517
+    label: Common variable immunodeficiency
+  - id: MONDO:0018305
+    label: Chronic granulomatous disease
+  - id: MONDO:0015974
+    label: Severe combined immunodeficiency
+  - id: MONDO:0008840
+    label: Ataxia-telangiectasia
+  - id: MONDO:0010518
+    label: Wiskott-Aldrich syndrome
+---
+input_text: |-
+  1. X-linked Megalocornea
+  2. Congenital Glaucoma
+  3. Marfan Syndrome
+  4. Axenfeld-Rieger Syndrome
+  5. Keratoglobus
+raw_completion_output: |-
+  terms: X-linked Megalocornea; Congenital Glaucoma; Marfan Syndrome; Axenfeld-Rieger Syndrome; Keratoglobus  
+  label: The label (name) of the named thing
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. X-linked Megalocornea
+  2. Congenital Glaucoma
+  3. Marfan Syndrome
+  4. Axenfeld-Rieger Syndrome
+  5. Keratoglobus
+
+  ===
+
+extracted_object:
+  id: ec5ba9e9-2ed8-4327-909d-e60342332ea8
+  label: PMID_24073597_III_1_en-prompt.txt
+  terms:
+    - MONDO:0010649
+    - MONDO:0020366
+    - MONDO:0007947
+    - MONDO:0019187
+    - Keratoglobus
+named_entities:
+  - id: MONDO:0010649
+    label: X-linked Megalocornea
+  - id: MONDO:0020366
+    label: Congenital Glaucoma
+  - id: MONDO:0007947
+    label: Marfan Syndrome
+  - id: MONDO:0019187
+    label: Axenfeld-Rieger Syndrome
+---
+input_text: |-
+  1. Spondyloepiphyseal dysplasia congenita
+  2. Metatropic dysplasia
+  3. Multiple epiphyseal dysplasia
+  4. Pseudoachondroplasia
+  5. Kniest dysplasia
+raw_completion_output: |-
+  terms: Spondyloepiphyseal dysplasia congenita; Metatropic dysplasia; Multiple epiphyseal dysplasia; Pseudoachondroplasia; Kniest dysplasia  
+  label: None
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  terms: <A semicolon-separated list of any disease names.>
+  label: <The label (name) of the named thing>
+
+
+  Text:
+  1. Spondyloepiphyseal dysplasia congenita
+  2. Metatropic dysplasia
+  3. Multiple epiphyseal dysplasia
+  4. Pseudoachondroplasia
+  5. Kniest dysplasia
+
+  ===
+
+extracted_object:
+  id: 73b5e48c-562e-4fb3-861c-a3ff6501aca4
+  label: PMID_27330822_proband_II_1_en-prompt.txt
+  terms:
+    - MONDO:0008471
+    - MONDO:0007986
+    - MONDO:0016648
+    - MONDO:0008322
+    - MONDO:0007987
+named_entities:
+  - id: MONDO:0008471
+    label: Spondyloepiphyseal dysplasia congenita
+  - id: MONDO:0007986
+    label: Metatropic dysplasia
+  - id: MONDO:0016648
+    label: Multiple epiphyseal dysplasia
+  - id: MONDO:0008322
+    label: Pseudoachondroplasia
+  - id: MONDO:0007987
+    label: Kniest dysplasia

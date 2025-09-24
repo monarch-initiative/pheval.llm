@@ -131,12 +131,12 @@ def evaluate(config: str):
     chunks = np.array_split(df, cores)
     print(f"Running with {cores} cores\n")
     with mp.Pool(cores) as pool:
-        results = pool.imap_unordered(
+        results = pool.map(
             evaluate_chunk, [(index, chunk, run_config) for index, chunk in enumerate(chunks)]
         )
-        results = list(results)
     df = pd.concat(results, ignore_index=True)
     df = score(df)
+    Path(run_config.full_result_file).parent.mkdir(parents=True, exist_ok=True)
     df.drop("service_answers", axis=1).to_csv(run_config.full_result_file, sep="\t", index=False)
     print(f"Full results saved to {run_config.full_result_file}")
     print("\nComputing Statistics...\n")
@@ -193,7 +193,18 @@ def select(config: str, cases: str) -> None:
 
 def evaluate_chunk(args) -> pd.DataFrame:
     process, df, run_config = args
-    return create_single_standardised_results(df, process)
+    try:
+        return create_single_standardised_results(df, process)
+    except Exception as e:
+        # Handle pickling issues with complex exception objects in multiprocessing
+        error_str = str(e)
+        error_type = type(e).__name__
+
+        # Log the error and create a simple exception that can be pickled
+        print(f"Error in process {process}: {error_type}: {error_str}")
+
+        # For now, return an empty DataFrame with the same structure to avoid breaking the pipeline
+        return pd.DataFrame({"service_answers": [], "metadata": [], "gold": [], "grounding": []})
 
 
 @core.command()

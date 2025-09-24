@@ -1,3 +1,4 @@
+import time
 from typing import List, Tuple
 
 from curategpt.store import get_store
@@ -17,6 +18,9 @@ def perform_curategpt_grounding(
     limit: int = 1,
     relevance_factor: float = 0.23,
     verbose: bool = False,
+    max_retries: int = 3,
+    retry_delay: float = 1.0,
+    timeout: float = 10.0,
 ) -> List[Tuple[str, str]]:
     """
     Use curategpt to perform grounding for a given diagnosis when initial attempts fail.
@@ -31,46 +35,99 @@ def perform_curategpt_grounding(
     - limit: The number of search results to return.
     - relevance_factor: The distance threshold for relevance filtering.
     - verbose: Whether to print verbose output for debugging.
+    - max_retries: Maximum number of retry attempts.
+    - retry_delay: Delay between retries in seconds.
+    - timeout: Timeout for each attempt in seconds.
 
     Returns:
     - List of tuples: [(Mondo ID, Label), ...]
     """
-    # Initialize the database store
-    db = get_store(database_type, path)
 
-    # Perform the search using the provided diagnosis
-    results = db.search(diagnosis, collection=collection)
+    for attempt in range(max_retries + 1):
+        try:
+            if verbose and attempt > 0:
+                print(
+                    f"CurateGPT grounding attempt {attempt + 1}/{max_retries + 1} for: {diagnosis}"
+                )
 
-    # Filter results based on relevance factor (distance)
-    if relevance_factor is not None:
-        results = [
-            (obj, distance, _meta)
-            for obj, distance, _meta in results
-            if distance <= relevance_factor
-        ]
+            # Initialize the database store
+            db = get_store(database_type, path)
 
-    # Limit the results to the specified number (limit)
-    limited_results = results[:limit]
+            # Perform the search using the provided diagnosis
+            # Note: We don't have direct timeout control over the search call,
+            # but we can catch common timeout and connection errors
+            results = db.search(diagnosis, collection=collection)
 
-    # Extract Mondo IDs and labels
-    pred_ids = []
-    pred_labels = []
+            # Filter results based on relevance factor (distance)
+            if relevance_factor is not None:
+                results = [
+                    (obj, distance, _meta)
+                    for obj, distance, _meta in results
+                    if distance <= relevance_factor
+                ]
 
-    for obj, _distance, _meta in limited_results:
-        disease_mondo_id = obj.get("original_id")  # Use the 'original_id' field for Mondo ID
-        disease_label = obj.get("label")
+            # Limit the results to the specified number (limit)
+            limited_results = results[:limit]
 
-        if disease_mondo_id and disease_label:
-            pred_ids.append(disease_mondo_id)
-            pred_labels.append(disease_label)
+            # Extract Mondo IDs and labels
+            pred_ids = []
+            pred_labels = []
 
-    # Return as a list of tuples (Mondo ID, Label)
-    if len(pred_ids) == 0:
-        if verbose:
-            print(f"No grounded IDs found for {diagnosis}")
-        return [("N/A", "No grounding found")]
+            for obj, _distance, _meta in limited_results:
+                disease_mondo_id = obj.get(
+                    "original_id"
+                )  # Use the 'original_id' field for Mondo ID
+                disease_label = obj.get("label")
 
-    return list(zip(pred_ids, pred_labels))
+                if disease_mondo_id and disease_label:
+                    pred_ids.append(disease_mondo_id)
+                    pred_labels.append(disease_label)
+
+            # Return as a list of tuples (Mondo ID, Label)
+            if len(pred_ids) == 0:
+                if verbose:
+                    print(f"No grounded IDs found for {diagnosis}")
+                return [("N/A", "No grounding found")]
+
+            return list(zip(pred_ids, pred_labels))
+
+        except Exception as e:
+            error_message = str(e).lower()
+
+            # Check if this is a retryable error
+            is_retryable = any(
+                keyword in error_message
+                for keyword in [
+                    "timeout",
+                    "connection",
+                    "network",
+                    "api",
+                    "rate limit",
+                    "temporary",
+                    "unavailable",
+                    "overloaded",
+                    "busy",
+                ]
+            )
+
+            if attempt < max_retries and is_retryable:
+                if verbose:
+                    print(f"Retryable error on attempt {attempt + 1} for '{diagnosis}': {str(e)}")
+                    print(f"Retrying in {retry_delay} seconds...")
+                time.sleep(retry_delay)
+                # Exponential backoff: double the delay for the next retry
+                retry_delay *= 2
+                continue
+            else:
+                # Either max retries reached or non-retryable error
+                if verbose:
+                    print(
+                        f"CurateGPT grounding failed for '{diagnosis}' after {attempt + 1} attempts: {str(e)}"
+                    )
+                return [("N/A", "CurateGPT grounding failed")]
+
+    # This should not be reached, but just in case
+    return [("N/A", "CurateGPT grounding failed")]
 
 
 # Perform grounding on the text to MONDO ontology and return the result

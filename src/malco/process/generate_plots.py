@@ -12,6 +12,7 @@ def make_single_plot(
     out_dir: Path,
     comparing: str = "Model",
     title: str = "Top-k accuracy of correct diagnoses",
+    legend_title: str = "Models",
 ) -> None:
     """
     Make a single plot from a DataFrame.
@@ -39,22 +40,43 @@ def make_single_plot(
     plot_dir = out_dir
     plot_dir.mkdir(exist_ok=True)
     plt.clf()
+
+    # Get total cases from the first row (they're identical across all files)
+    first_row = df.iloc[0]
+    if "num_cases" in first_row.index and pd.notna(first_row["num_cases"]):
+        total_cases = int(first_row["num_cases"])
+    else:
+        # Fallback: Calculate from n1-n10 + n10p + nf columns
+        total_cases = int(
+            sum(first_row[f"n{j}"] for j in range(1, 11))
+            + first_row.get("n10p", 0)
+            + first_row.get("nf", 0)
+        )
+
+    # Add case count to title
+    title_with_n = f"{title}, n={total_cases}"
+
     df = pd.DataFrame(
         df.apply(_percentages, axis=1).tolist(), columns=["Top-1", "Top-3", "Top-10", comparing]
     ).sort_values(by="Top-1", ascending=False)
 
     df.set_index(comparing, inplace=True)
     df = df.T
-    df.plot(
+    ax = df.plot(
         kind="bar",
         color=palette_hex_codes,
         ylabel="Percent of cases",
-        legend=True,
+        legend=False,  # Disable automatic legend
         edgecolor="white",
-        title=title,
+        title=title_with_n,
     )
     plt.xticks(rotation=0)
     plt.ylim(0, 100)
+
+    # Add legend outside the plot area with HPO range as title
+    legend = ax.legend(bbox_to_anchor=(1.05, 1), loc="upper left")
+    legend.set_title(legend_title)
+
     plt.savefig(plot_dir / f"{model_name}", bbox_inches="tight")
     plt.close()
 
@@ -105,6 +127,24 @@ def make_combined_plot_comparing(
         ignore_index=True,
     )
 
+    # Extract HPO range from first file for legend title
+    legend_title = "Models"  # Default
+    if files:
+        first_file_stem = files[0].stem
+        if "_HPO_" in first_file_stem:
+            # Extract range like "topn_result_6_10_HPO_model" -> "6_10"
+            hpo_part = first_file_stem.split("_HPO_")[0].replace("topn_result_", "")
+            hpo_range = hpo_part.replace("_", "-")
+            # Convert range like "6-10" to "6 ≤ HPOs ≤ 10"
+            if "-" in hpo_range:
+                parts = hpo_range.split("-")
+                if len(parts) == 2:
+                    legend_title = f"{parts[0]} ≤ HPOs ≤ {parts[1]}"
+            elif hpo_range.endswith("+"):
+                # Handle 50+ case
+                num = hpo_range[:-1]
+                legend_title = f"HPOs ≥ {num}"
+
     # Check if out_dir is file or directory path.
     if out_dir.suffix:
         output_name = out_dir.name
@@ -114,16 +154,18 @@ def make_combined_plot_comparing(
         output_name = f"topn_{'grouped' if model == '*' else model}_{'' if languages[0] == Language.EN else languages[0].name.lower() if len(languages) == 1 else 'v'.join([lang.name.lower() for lang in languages])}.png"
         plot_dir = out_dir / "plots"
 
-    make_single_plot(output_name, results, plot_dir, comparing)
+    make_single_plot(output_name, results, plot_dir, comparing, legend_title=legend_title)
 
 
 def _percentages(row):
     model_name = row["filename"]
-    if 'num_cases' in row.index and pd.notna(row['num_cases']):
+    if "num_cases" in row.index and pd.notna(row["num_cases"]):
         total_files = row["num_cases"]
     else:
         # Calculate total sum from n1-n10 + n10p + nf columns
-        total_files = sum(row[f"n{j}"] for j in range(1, 11)) + row.get('n10p', 0) + row.get('nf', 0)
+        total_files = (
+            sum(row[f"n{j}"] for j in range(1, 11)) + row.get("n10p", 0) + row.get("nf", 0)
+        )
     return [
         row["n1"] / total_files * 100 if total_files else 0,
         sum(row[f"n{j}"] for j in range(1, 4)) / total_files * 100 if total_files else 0,
@@ -146,12 +188,31 @@ def glob_generator(model: str, languages: list[Language], results_dir: Path) -> 
     """
     if len(languages) == 1:
         if languages[0] == Language.EN:
-            # We assume that non english languages have a hypen separating the model, and we want to filter these
-            return [
-                file
-                for file in list(results_dir.glob(f"topn_result_{model}.tsv"))
-                if "-" not in str(file)
-            ]
+            # Handle HPO-specific naming pattern: topn_result_*_HPO_{model}.tsv
+            # Also handle disease category pattern: topn_result_{category}_{model}.tsv
+            if model == "*":
+                # When model is *, get all HPO files regardless of hyphens
+                hpo_files = list(results_dir.glob(f"topn_result_*_HPO_*.tsv"))
+                # Also look for disease category files: topn_result_{category}_{model}.tsv
+                disease_files = list(results_dir.glob(f"topn_result_*_*.tsv"))
+                # Filter out HPO files from disease files to avoid duplicates
+                disease_files = [f for f in disease_files if "_HPO_" not in f.name]
+                return hpo_files + disease_files
+            else:
+                # For specific models, use the hyphen filtering logic
+                hpo_files = [
+                    file
+                    for file in list(results_dir.glob(f"topn_result_*_HPO_{model}.tsv"))
+                    if "-" not in str(file) or str(file).count("-") == str(model).count("-")
+                ]
+                # Also look for disease category files with specific model
+                disease_files = [
+                    file
+                    for file in list(results_dir.glob(f"topn_result_*_{model}.tsv"))
+                    if "_HPO_" not in file.name
+                    and ("-" not in str(file) or str(file).count("-") == str(model).count("-"))
+                ]
+                return hpo_files + disease_files
         elif languages[0] == Language.ALL:
             return list(results_dir.glob(f"topn_result_*-{model}.tsv"))
         else:
@@ -174,4 +235,15 @@ def stem_replacer(stem, languages):
             stem = "English"
         return stem
     else:
-        return stem.replace("topn_result_", "")
+        # Handle both standard format and HPO format
+        cleaned_stem = stem.replace("topn_result_", "")
+
+        # Check if this is an HPO format file (contains _HPO_)
+        if "_HPO_" in cleaned_stem:
+            # Extract only the model name after _HPO_
+            parts = cleaned_stem.split("_HPO_")
+            model_name = parts[1]
+            return model_name
+        else:
+            # Standard format
+            return cleaned_stem

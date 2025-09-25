@@ -22,11 +22,14 @@ phenopackets = []
 for root, dirs, files in os.walk(input_path):
     for filename in files:
         if filename.endswith(".json"):
-            with open(os.path.join(root, filename), "r") as f:
+            file_path = os.path.join(root, filename)
+            with open(file_path, "r") as f:
                 pkt_data = json.load(f)
                 pkt_data["_filename"] = filename  # Store the original filename
+                pkt_data["_absolute_path"] = os.path.abspath(file_path)  # Store absolute path
                 phenopackets.append(pkt_data)
 
+# ----------- HPO BINS -----------
 # Create bins based on configuration
 hpo_bins = {bin_config["name"]: [] for bin_config in config["bins"]}
 
@@ -56,11 +59,76 @@ output_config = config["output"]
 output_dir = os.path.join(output_config["base_dir"], output_config["config_name"])
 os.makedirs(output_dir, exist_ok=True)
 
-print(f"Writing subset files to: {output_dir}")
 
-# Write the json file names for each subset into a separate text file
-for bin_name, pkts in hpo_bins.items():
-    filename = f"{output_config['file_prefix']}_{bin_name}{output_config['file_extension']}"
-    with open(os.path.join(output_dir, filename), "w") as f:
-        for pkt in pkts:
-            f.write(f"{pkt.get('_filename', 'unknown')}\n")
+# Write the json file absolute paths for each subset into a separate text file
+write = False
+if write:
+    print(f"Writing subset files to: {output_dir}")
+    for bin_name, pkts in hpo_bins.items():
+        filename = f"{output_config['file_prefix']}_{bin_name}{output_config['file_extension']}"
+        with open(os.path.join(output_dir, filename), "w") as f:
+            for pkt in pkts:
+                f.write(f"{pkt.get('_absolute_path', 'unknown')}\n")
+
+# ----------- DISEASE CATEGORIES -----------
+# This part creates subsets based on disease categories using HPO
+import hpotk
+
+store = hpotk.configure_ontology_store()
+hpo = store.load_hpo()
+
+HEART = hpo.get_term("HP:0001626")  #  Abnormality of the cardiovascular system
+BRAIN = hpo.get_term("HP:0000707")  # Abnormality of the nervous system
+IMMUNE = hpo.get_term("HP:0002715")  # Abnormality of the immune system
+
+disease_categories = {"cardiac": [], "neurological": [], "immunological": []}
+for pkt in phenopackets:
+    ppkt_observed_features = [
+        feature for feature in pkt.get("phenotypicFeatures", []) if "excluded" not in feature
+    ]
+    for feature in ppkt_observed_features:
+        term_id = feature.get("type", {}).get("id")
+        if term_id:
+            term = hpo.get_term(term_id)
+            if term and hpo.graph.is_ancestor_of(HEART, term):
+                disease_categories["cardiac"].append(pkt)
+            if term and hpo.graph.is_ancestor_of(BRAIN, term):
+                disease_categories["neurological"].append(pkt)
+            if term and hpo.graph.is_ancestor_of(IMMUNE, term):
+                disease_categories["immunological"].append(pkt)
+# print the number of unique phenopackets in each disease category
+for category, pkts in disease_categories.items():
+    print(f"Phenopackets in disease category '{category}': {len(set(id(pkt) for pkt in pkts))}")
+# Print the size of the overlap between categories
+cardiac_set = set(id(pkt) for pkt in disease_categories["cardiac"])
+neurological_set = set(id(pkt) for pkt in disease_categories["neurological"])
+immunological_set = set(id(pkt) for pkt in disease_categories["immunological"])
+print(f"Overlap between cardiac and neurological: {len(cardiac_set & neurological_set)}")
+print(f"Overlap between cardiac and immunological: {len(cardiac_set & immunological_set)}")
+print(f"Overlap between neurological and immunological: {len(neurological_set & immunological_set)}")
+print(f"Overlap between all three: {len(cardiac_set & neurological_set & immunological_set)}")
+
+"""
+Phenopackets in bin '0-1': 432
+Phenopackets in bin '2-5': 1532
+Phenopackets in bin '6-10': 1777
+Phenopackets in bin '11-20': 1239
+Phenopackets in bin '21-50': 234
+Phenopackets in bin '50p': 0
+Phenopackets in disease category 'heart': 1042
+Phenopackets in disease category 'brain': 3532
+Phenopackets in disease category 'immune': 448
+Overlap between heart and brain: 487
+Overlap between heart and immune: 156
+Overlap between brain and immune: 292
+Overlap between all three: 100
+"""
+# write the phenopacket json paths for each disease category into a separate text file
+write = True
+if write:
+    print(f"Writing disease category files to: {output_dir}")
+    for category, pkts in disease_categories.items():
+        filename = f"{output_config['file_prefix']}_{category}{output_config['file_extension']}"
+        with open(os.path.join(output_dir, filename), "w") as f:
+            for pkt in pkts:
+                f.write(f"{pkt.get('_absolute_path', 'unknown')}\n")

@@ -151,21 +151,31 @@ def evaluate(config: str):
 @core.command()
 @click.option("--config", type=click.Path(exists=True))
 @click.option(
+    "-oo",
+    "--altpath",
+    type=click.Path(),
+    default=None,
+    help="Alternative output directory and file",
+)
+@click.option(
     "--cases",
     type=click.Path(exists=True),
     default="data/results/multilingual_main/gpt-4o/ppkts_4917set.txt",
 )
-def select(config: str, cases: str) -> None:
+def select(config: str, cases: str, altpath: Optional[str]) -> None:
     """
     Selects the subset of phenopackets listed in the file `cases` and runs summarize on those only.
     Currently only supports the file IDs used for prompts.
     Args:
         config (str): Path to the configuration file.
-        cases (str): Path to the file containing the phenopacket IDs or JSON files to select.
+        cases (str): Path to the file containing the phenopacket IDs or absolute paths to JSON files to select.
+        altpath (Optional[str]): Alternative output directory and file path.
     Examples:
         malco select --config data/config/defaults.yaml --cases data/results/my_favorite_phenopacket_set.txt
     """
     run_config = MalcoConfig(config)
+    if altpath is not None:
+        run_config.result_file = altpath
     df = pd.read_csv(run_config.full_result_file, sep="\t")
     for col in ["gold", "grounding", "scored"]:
         df[col] = df[col].apply(ast.literal_eval)
@@ -174,8 +184,18 @@ def select(config: str, cases: str) -> None:
         # Read the lines, strip whitespace and remove last n characters
         lines = [line.strip() for line in f.readlines()]
         if lines[0].endswith(".json"):
-            pass
-            # TODO add support for list of json files (which should/wuill be the primary use case)
+            # Handle list of json files by reading their ID and converting to prompt filename format
+            regex_lines = []
+            for json_file_path in lines:
+                try:
+                    with open(json_file_path.strip(), "r") as json_file:
+                        ppkt_data = json.load(json_file)
+                        ppkt_id = ppkt_data.get("id", "unknown")
+                        modified_name = re.sub(r"[^\w]", "_", ppkt_id) + "_en-prompt.txt"
+                        regex_lines.append(re.escape(modified_name))
+                except Exception as e:
+                    print(f"Warning: Could not process JSON file {json_file_path}: {e}")
+                    continue
         elif re.search(r"_[a-z][a-z]-prompt\.txt$", lines[0]):
             n = len("_en-prompt.txt")
             regex_lines = [re.escape(line[:-n]) + r"_[a-z][a-z]-prompt\.txt" for line in lines]
@@ -231,7 +251,7 @@ def evaluate_chunk(args) -> pd.DataFrame:
 )
 def combine(dir: str, model: str, lang: str, outdir: str, comparing: Optional[str] = None) -> None:
     """
-    Combines the results of several evaluate results into a single plot.
+    Combines the results of several evaluate (or select) results into a single plot.
     We assume that non english languages have a hypen separating the model, and we want to filter these
 
     The files have to be named topn_result_{model}.tsv and the `model` cannot contain special characters like a "-"

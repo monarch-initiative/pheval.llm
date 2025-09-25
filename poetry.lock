@@ -2316,6 +2316,27 @@ files = [
 ]
 
 [[package]]
+name = "hpo-toolkit"
+version = "0.7.0"
+description = "A toolkit for working with Human Phenotype Ontology in Python"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "hpo_toolkit-0.7.0-py3-none-any.whl", hash = "sha256:02bb526a4943204c614eade7e4dec8c900c791d557d4eff8dc160d4f25ef7c54"},
+    {file = "hpo_toolkit-0.7.0.tar.gz", hash = "sha256:72a978e1acf0e275c1cd05bdccb76b3a9364b74fa150b5cc533894727ae742ff"},
+]
+
+[package.dependencies]
+certifi = "*"
+numpy = ">=1.23"
+
+[package.extras]
+bench = ["pandas (>=1.0.0,<3.0)"]
+docs = ["sphinx (>=7.0.0)", "sphinx-copybutton (>=0.5.0)", "sphinx-rtd-theme (>=1.3.0)"]
+test = ["ddt (>=1.6.0)", "pytest (>=8.0.0,<9.0.0)", "ruff (==0.12.2)"]
+
+[[package]]
 name = "httpcore"
 version = "0.17.3"
 description = "A minimal low-level HTTP client."
@@ -9053,4 +9074,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.13"
-content-hash = "69d311d418b48cda266438d8dfb5c5e740a8fe6f325a73ec9f19098972722b81"
+content-hash = "513e0eb215325dbf28d2e9784be7c1e0ed42dcac796cb7506e3ef9fe7840e038"

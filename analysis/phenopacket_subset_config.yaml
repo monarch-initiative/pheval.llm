@@ -1,0 +1,30 @@
+# Configuration for phenopacket subset creation
+# Define HPO count bins and output settings
+
+# Bin definitions: each bin has a name and min/max HPO counts (inclusive)
+bins:
+  - name: "0-1"
+    min_hpos: 0
+    max_hpos: 1
+  - name: "2-5"  
+    min_hpos: 2
+    max_hpos: 5
+  - name: "6-10"
+    min_hpos: 6
+    max_hpos: 10
+  - name: "11-20"
+    min_hpos: 11
+    max_hpos: 20
+  - name: "21-50"
+    min_hpos: 21
+    max_hpos: 50
+  - name: "50p" # 50 plus
+    min_hpos: 51
+    max_hpos: null  # null means no upper limit
+
+# Output settings
+output:
+  base_dir: "analysis_out/phenopacket_subsets"
+  config_name: "disease_category"
+  file_prefix: "phenopackets"
+  file_extension: ".txt"

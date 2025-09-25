@@ -1,0 +1,9 @@
+tmp_dir: "tmp/"
+output_dir: "data/results/ex_vs_llm_review/"
+gold_file: "data/exomiser-gold.jsonl"
+response_file: "data/responses/geminiflash_response.jsonl"
+result_file: "data/results/ex_vs_llm_review/topn_result_geminiflash.tsv"
+full_result_file: "data/results/ex_vs_llm_review/full_results/full_df_geminiflash.tsv"
+visualize: False
+languages: []
+name: "geminiflash"

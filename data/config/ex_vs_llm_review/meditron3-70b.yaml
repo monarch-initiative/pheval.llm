@@ -2,7 +2,7 @@ tmp_dir: "tmp/"
 output_dir: "data/results/ex_vs_llm_review/"
 gold_file: "data/exomiser-gold.jsonl"
 response_file: "data/responses/meditron3-70b.jsonl"
-result_file: "data/results/ex_vs_llm_review/topn_result_meditron3-70b.tsv"
+result_file: "data/results/ex_vs_llm_review/topn_result_Meditron3-70B.tsv"
 full_result_file: "data/results/ex_vs_llm_review/full_results/full_df_meditron3-70b.tsv"
 visualize: False
 languages: []

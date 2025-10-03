@@ -65,7 +65,7 @@ def make_single_plot(
     ax = df.plot(
         kind="bar",
         color=palette_hex_codes,
-        ylabel="Percent of cases",
+        ylabel="%",
         legend=False,  # Disable automatic legend
         edgecolor="white",
         title=title_with_n,

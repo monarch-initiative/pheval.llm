@@ -2,7 +2,7 @@ tmp_dir: "tmp/"
 output_dir: "data/results/ex_vs_llm_review/"
 gold_file: "data/exomiser-gold.jsonl"
 response_file: "data/responses/gpt-01-preview.jsonl"
-result_file: "data/results/ex_vs_llm_review/topn_result_gpt-01-preview.tsv"
+result_file: "data/results/ex_vs_llm_review/topn_result_01-preview.tsv"
 full_result_file: "data/results/ex_vs_llm_review/full_results/full_df_gpt-01-preview.tsv"
 visualize: False
 languages: []

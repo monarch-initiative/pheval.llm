@@ -3,11 +3,8 @@
 
 # Bin definitions: each bin has a name and min/max HPO counts (inclusive)
 bins:
-  - name: "0-1"
-    min_hpos: 0
-    max_hpos: 1
-  - name: "2-5"  
-    min_hpos: 2
+  - name: "1-5"
+    min_hpos: 1
     max_hpos: 5
   - name: "6-10"
     min_hpos: 6

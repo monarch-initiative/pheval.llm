@@ -51,22 +51,31 @@ for model in "${models[@]}"; do
   echo "Running analysis for model: $(model_label "$model") ($model), type: $analysis_type"
   case "$analysis_type" in
     nHPO_1_5|nHPO_6_10|nHPO_11_20|nHPO_21_50)
-      range="${analysis_type#nHPO_}"
-      cases_file="analysis_out/phenopacket_subsets/nHPO/phenopackets_${range//_/-}.txt"
-      altpath="data/results/ex_vs_llm_review/${analysis_type}/topn_result_${range}_HPO_${model}.tsv"
-      poetry run malco select \
+        range="${analysis_type#nHPO_}"
+        cases_file="analysis_out/phenopacket_subsets/nHPO/phenopackets_${range//_/-}.txt"
+        altpath="data/results/ex_vs_llm_review/${analysis_type}/topn_result_${range}_HPO_${model}.tsv"
+        poetry run malco select \
         --config "data/config/ex_vs_llm_review/${model}.yaml" \
         --cases "$cases_file" \
         --altpath "$altpath"
+        ;;
+    rare|common)
+        prevalence="${analysis_type#prevalence_}"
+        cases_file="analysis_out/phenopacket_subsets/prevalence/phenopackets_${analysis_type}.txt"
+        altpath="data/results/ex_vs_llm_review/${analysis_type}/topn_result_${analysis_type}_${model}.tsv"
+        poetry run malco select \
+            --config "data/config/ex_vs_llm_review/${model}.yaml" \
+            --cases "$cases_file" \
+            --altpath "$altpath"
       ;;
     cardiac|immunological|neurological)
-      cases_file="analysis_out/phenopacket_subsets/disease_category/phenopackets_${analysis_type}.txt"
-      altpath="data/results/ex_vs_llm_review/${analysis_type}/topn_result_${analysis_type}_${model}.tsv"
-      poetry run malco select \
+        cases_file="analysis_out/phenopacket_subsets/disease_category/phenopackets_${analysis_type}.txt"
+        altpath="data/results/ex_vs_llm_review/${analysis_type}/topn_result_${analysis_type}_${model}.tsv"
+        poetry run malco select \
         --config "data/config/ex_vs_llm_review/${model}.yaml" \
         --cases "$cases_file" \
         --altpath "$altpath"
-      ;;
+        ;;
     *)
       echo "Unknown analysis type: $analysis_type" >&2
       exit 1

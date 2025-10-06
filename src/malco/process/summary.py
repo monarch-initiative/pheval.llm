@@ -1,5 +1,5 @@
 from collections import Counter
-
+import os
 import pandas as pd
 from tqdm import tqdm
 
@@ -69,6 +69,8 @@ def summarize(df, run_config: MalcoConfig):
     ]
 
     # Write the results to the output file (without 'lang' column)
+    # create the output directory if it doesn't exist
+    os.makedirs(os.path.dirname(run_config.result_file), exist_ok=True)
     with open(f"{run_config.result_file}", "w") as f:
         f.write(
             "run\tn1\tn2\tn3\tn4\tn5\tn6\tn7\tn8\tn9\tn10\tn10p\tnf\tgrounding_failed\tnum_cases\ttotal_grounding_failures\titems_processed\n"

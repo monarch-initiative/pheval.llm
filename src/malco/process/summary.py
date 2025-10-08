@@ -67,7 +67,9 @@ def summarize(df, run_config: MalcoConfig):
         rank_counter.get("tgf", 0),  # total grounding failures
         rank_counter.get("items", 0),  # total items processed
     ]
-
+    if sum(output_row[1:13]) != len(df):
+        print("Error: The sum of n1 to nf does not equal the number of cases processed.")
+        exit(1)
     # Write the results to the output file (without 'lang' column)
     # create the output directory if it doesn't exist
     os.makedirs(os.path.dirname(run_config.result_file), exist_ok=True)

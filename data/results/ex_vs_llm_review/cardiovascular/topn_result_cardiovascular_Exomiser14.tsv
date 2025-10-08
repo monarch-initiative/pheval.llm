@@ -1,2 +1,2 @@
 run	n1	n2	n3	n4	n5	n6	n7	n8	n9	n10	n10p	nf	grounding_failed	num_cases	total_grounding_failures	items_processed
-ge	405	88	28	15	14	10	10	2	0	0	4	466	204	1042	431	9769
+ex	507	81	24	33	13	18	8	10	9	14	74	234	176	1025	658	17100

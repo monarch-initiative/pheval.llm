@@ -42,17 +42,8 @@ def make_single_plot(
     plt.clf()
 
     # Get total cases from the first row (they're identical across all files)
-    first_row = df.iloc[0]
-    if "num_cases" in first_row.index and pd.notna(first_row["num_cases"]):
-        total_cases = int(first_row["num_cases"])
-    else:
-        # Fallback: Calculate from n1-n10 + n10p + nf columns
-        total_cases = int(
-            sum(first_row[f"n{j}"] for j in range(1, 11))
-            + first_row.get("n10p", 0)
-            + first_row.get("nf", 0)
-        )
-
+    total_cases = df.loc[0, ["n1", "n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10", "n10p", "nf"]].sum()
+        
     # Add case count to title
     title_with_n = f"{title}, n={total_cases}"
 
@@ -128,7 +119,7 @@ def make_combined_plot_comparing(
     )
 
     # Extract HPO range from first file for legend title
-    legend_title = "Models"  # Default
+    title = "Top-k accuracy of correct diagnoses\n"  # Default
     if files:
         first_file_stem = files[0].stem
         if "_HPO_" in first_file_stem:
@@ -139,12 +130,21 @@ def make_combined_plot_comparing(
             if "-" in hpo_range:
                 parts = hpo_range.split("-")
                 if len(parts) == 2:
-                    legend_title = f"{parts[0]} ≤ HPOs ≤ {parts[1]}"
+                    title = f"{title} {parts[0]} ≤ HPOs ≤ {parts[1]}"
             elif hpo_range.endswith("+"):
                 # Handle 50+ case
                 num = hpo_range[:-1]
-                legend_title = f"HPOs ≥ {num}"
-
+                title = f"{title} HPOs ≥ {num}"
+        elif "neurological" in first_file_stem.lower():
+            title = f"{title} neurological features"
+        elif "cardiovascular" in first_file_stem.lower():
+            title = f"{title} cardiovascular features"
+        elif "immunological" in first_file_stem.lower():
+            title = f"{title} immunological features"
+        elif "rare" in first_file_stem.lower():
+            title = f"{title} rare diseases"
+        elif "common" in first_file_stem.lower():
+            title = f"{title} common diseases"
     # Check if out_dir is file or directory path.
     if out_dir.suffix:
         output_name = out_dir.name
@@ -154,7 +154,7 @@ def make_combined_plot_comparing(
         output_name = f"topn_{'grouped' if model == '*' else model}_{'' if languages[0] == Language.EN else languages[0].name.lower() if len(languages) == 1 else 'v'.join([lang.name.lower() for lang in languages])}.png"
         plot_dir = out_dir / "plots"
 
-    make_single_plot(output_name, results, plot_dir, comparing, legend_title=legend_title)
+    make_single_plot(output_name, results, plot_dir, comparing, title=title)
 
 
 def _percentages(row):
@@ -243,6 +243,26 @@ def stem_replacer(stem, languages):
             # Extract only the model name after _HPO_
             parts = cleaned_stem.split("_HPO_")
             model_name = parts[1]
+            return model_name
+        elif "neurological" in cleaned_stem.lower():
+            parts = cleaned_stem.split("neurological")
+            model_name = parts[1].lstrip("_")
+            return model_name
+        elif "cardiovascular" in cleaned_stem.lower():
+            parts = cleaned_stem.split("cardiovascular")
+            model_name = parts[1].lstrip("_")
+            return model_name
+        elif "immunological" in cleaned_stem.lower():
+            parts = cleaned_stem.split("immunological")
+            model_name = parts[1].lstrip("_")
+            return model_name
+        elif "rare" in cleaned_stem.lower():
+            parts = cleaned_stem.split("rare")
+            model_name = parts[1].lstrip("_")
+            return model_name
+        elif "common" in cleaned_stem.lower():
+            parts = cleaned_stem.split("common")
+            model_name = parts[1].lstrip("_")
             return model_name
         else:
             # Standard format

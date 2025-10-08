@@ -68,7 +68,7 @@ for model in "${models[@]}"; do
             --cases "$cases_file" \
             --altpath "$altpath"
       ;;
-    cardiac|immunological|neurological)
+    cardiovascular|immunological|neurological)
         cases_file="analysis_out/phenopacket_subsets/disease_category/phenopackets_${analysis_type}.txt"
         altpath="data/results/ex_vs_llm_review/${analysis_type}/topn_result_${analysis_type}_${model}.tsv"
         poetry run malco select \

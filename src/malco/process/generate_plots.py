@@ -141,10 +141,12 @@ def make_combined_plot_comparing(
             title = f"{title} cardiovascular features"
         elif "immunological" in first_file_stem.lower():
             title = f"{title} immunological features"
-        elif "rare" in first_file_stem.lower():
-            title = f"{title} rare diseases"
         elif "common" in first_file_stem.lower():
-            title = f"{title} common diseases"
+            title = f"{title} prevalence > 1 / 1M"
+        elif "rare" in first_file_stem.lower():
+            title = f"{title} prevalence < 1 / 1M"
+
+            
     # Check if out_dir is file or directory path.
     if out_dir.suffix:
         output_name = out_dir.name

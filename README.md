@@ -7,6 +7,10 @@
 
 ## Evaluate LLMs' capability at performing differential diagnosis for rare genetic diseases through medical-vignette-like prompts created with [phenopacket2prompt](https://github.com/monarch-initiative/phenopacket2prompt). 
 
+<p align="center">
+<img src="assets/coverimage.jpg" alt="Cover Image of Multilingual Project" width="500">
+</p>
+
 ### Description
 To systematically assess and evaluate an LLM's ability to perform differential diagnostics tasks, we employed prompts programatically created with [phenopacket2prompt](https://github.com/monarch-initiative/phenopacket2prompt), thereby avoiding any patient privacy issues. The original data are phenopackets located at [phenopacket-store](https://github.com/monarch-initiative/phenopacket-store/). A programmatic approach for scoring and grounding results is also developed, made possible thanks to the ontological structure of the [Mondo Disease Ontology](https://mondo.monarchinitiative.org/).
 

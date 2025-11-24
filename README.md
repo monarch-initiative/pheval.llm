@@ -38,6 +38,23 @@ Where the embedding model is selected via the `-m` argument. For non openAI mode
     cp data/config/default.yaml data/config/<your_model>.yaml
     poetry run malco evaluate --config data/config/meditron3-70b.yaml
 ```
+
+## Saving Intermediate Grounding Results
+You can save intermediate results after grounding but before scoring, which is useful for debugging or analyzing the grounding process separately:
+
+### Using Configuration File
+Add the following to your config YAML file:
+```yaml
+save_intermediate: True
+intermediate_grounding_file: "data/results/intermediate_grounded_results.tsv"
+```
+
+### Using Command Line Options
+```
+    poetry run malco evaluate --config data/config/meditron3-70b.yaml --save-intermediate --intermediate-file data/results/intermediate_grounded_results.tsv
+```
+
+The intermediate file will contain all the grounded results with the `grounding` column populated, but before the scoring step that adds the `scored` column. This allows you to inspect the grounding quality or resume processing from this point if needed.
 ## Plotting Single Model Results
 ```
     poetry run malco plot --config data/config/meditron3-70b.yaml 

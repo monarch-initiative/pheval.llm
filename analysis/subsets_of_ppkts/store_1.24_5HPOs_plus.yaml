@@ -1,0 +1,21 @@
+# Configuration for phenopacket subset creation
+# Define HPO count bins and output settings
+
+# Bin definitions: each bin has a name and min/max HPO counts (inclusive)
+bins: # leave empty if no HPO number based binning is of interest
+  - name: "1-4"
+    min_hpos: 1
+    max_hpos: 4
+  - name: "5plus" 
+    min_hpos: 5
+    max_hpos: null  # null means no upper limit
+
+
+# Output settings
+output:
+  base_dir: "/Users/leonardo/data/subsets_of_ppkts_0.1.24"
+  config_name: "more_than_4HPOs"
+  file_prefix: "phenopackets"
+  file_extension: ".txt"
+
+categories:

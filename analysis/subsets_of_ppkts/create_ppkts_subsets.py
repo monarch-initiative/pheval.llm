@@ -206,8 +206,34 @@ if config["hpoa"]:
     import pandas as pd
 
     hpoa_df = pd.read_csv(hpoa_file, header=4, sep="\t", usecols=["reference"])
-    hpoa_set = set(hpoa_df["reference"])
 
+    # TODO the regex will miss a few (very few!) entries in HPOA
+    raw_hpoa_counts = (
+        hpoa_df["reference"].str.extract(r"^([A-Z]+):\d+")[0].value_counts().to_string(header=False)
+    )
+    print("\n\nIn HPOA the reference column has (not unique values, simply counting):\n")
+    print(raw_hpoa_counts, "\n")
+    hpoa_unique = hpoa_df["reference"].unique()
+    print(
+        f"Within those, we have a set of {len(hpoa_unique)} unique lines, but some contain multiple references splitted by `;`.\n"
+    )
+    hpoa_set = set(hpoa_df["reference"].str.split(";").explode().dropna())
+    print(
+        f"Accounting for that, the set of actually unique PMID, ORPHAs and so on contains {len(hpoa_set)} items."
+    )
+
+    true_counts = (
+        hpoa_df["reference"]
+        .str.split(";")
+        .explode()
+        .dropna()
+        .drop_duplicates()
+        .str.extract(r"^([A-Z]+):\d+")[0]
+        .value_counts()
+    )
+
+    print(f'After splitting multi-entries we obtain the following "distribution" of sources:\n')
+    print(true_counts.to_string(header=False), "\n")
     no_correlation_ppkts = []
 
     def get_ref_ids_from_phenopacket(pkt_data):
@@ -219,13 +245,49 @@ if config["hpoa"]:
             ref_ids.append(ref_id)
         return ref_ids
 
+    phenopacket_origin_set = set()
+    all_ppkt_refs = []
+
     for ppkt in phenopackets:
         ref_ids = get_ref_ids_from_phenopacket(ppkt)
+        all_ppkt_refs.extend(ref_ids)
+        phenopacket_origin_set.update(ref_ids)
         if any(refid not in hpoa_set for refid in ref_ids):
             no_correlation_ppkts.append(ppkt)
 
     print(f"We get {len(no_correlation_ppkts)} usable phenopackets.")
+
+    # ppkt_raw_counts = pd.Series(all_ppkt_refs).str.extract(r"^([A-Z]+):\d+")[0].value_counts()
+    # print(
+    #     f"Phenopacket raw origin counts (counting duplicates):\n",
+    #     ppkt_raw_counts.to_string(header=False),
+    # )
+    print(
+        f"Phenopackets contain {len(phenopacket_origin_set)} unique reference IDs, and they are all PubMed IDs.\n"
+    )
+
+    # ppkt_true_counts = (
+    #     pd.Series(list(phenopacket_origin_set))  # <-- convert set to list
+    #     .str.extract(r"^([A-Z]+):\d+")[0]
+    #     .value_counts()
+    # )
+
+    # print(f"Phenopacket unique counts per source:\n", ppkt_true_counts.to_string(header=False))
+    intersection_size = len(hpoa_set & phenopacket_origin_set)
+    print(f"Number of PubMed IDs in the intersection: {intersection_size}\n")
+    print(
+        f"Number of PubMed IDs in phenopacket-store \\ HPOA: {len(phenopacket_origin_set - hpoa_set)}\n"
+    )
+    print(
+        f"Number of PubMed IDs in HPOA \\ phenopacket-store : {true_counts['PMID'] - intersection_size}\n"
+    )
+
     filename = f"{output_config['file_prefix']}_hpoa{output_config['file_extension']}"
-    with open(os.path.join(output_dir, filename), "w") as f:
+    file_path = os.path.join(output_dir, filename)
+    with open(file_path, "w") as f:
         for pkt in no_correlation_ppkts:
             f.write(f"{pkt.get('_absolute_path', 'unknown')}\n")
+
+    print(
+        f"Written absolute paths to phenopacket JSON files that do not contain PubMed IDs also present in HPOA to this file: {file_path}"
+    )

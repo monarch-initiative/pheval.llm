@@ -13,7 +13,7 @@ hpoa: "True"
 # Output settings
 output:
   base_dir: "/Users/leonardo/data/subsets_of_ppkts_0.1.26"
-  config_name: "disjunctive_union"
+  config_name: "disjunctive_union_v2"
   file_prefix: "phenopackets"
   file_extension: ".txt"
 

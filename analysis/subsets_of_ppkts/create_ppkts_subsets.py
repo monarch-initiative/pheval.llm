@@ -6,6 +6,7 @@ import json
 import yaml
 from pathlib import Path
 import argparse
+from read_phenopackets import read_phenopackets
 
 # Get script directory to find config file
 script_dir = Path(__file__).parent
@@ -71,16 +72,7 @@ def print_and_log(message):
 
 
 # import all json files in the given directory and subdirectories
-phenopackets = []
-for root, dirs, files in os.walk(input_path):
-    for filename in files:
-        if filename.endswith(".json"):
-            file_path = os.path.join(root, filename)
-            with open(file_path, "r") as f:
-                pkt_data = json.load(f)
-                pkt_data["_filename"] = filename  # Store the original filename
-                pkt_data["_absolute_path"] = os.path.abspath(file_path)  # Store absolute path
-                phenopackets.append(pkt_data)
+phenopackets = read_phenopackets(input_path)
 
 # Create output directory based on config
 output_config = config["output"]

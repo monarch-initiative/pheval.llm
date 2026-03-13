@@ -8,12 +8,18 @@ Needs an NCBI API key to work. The key can be set in the environment variable NC
 import json
 import os
 import sys
+from pathlib import Path
 
 from metapub import PubMedFetcher
 from tqdm import tqdm
 
-# Check if the script is being run directly
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# Construct the output file path relative to the script's directory
+# output_json_file = os.path.join(script_dir, "../../../leakage_experiment", "pmid2date_dict.json")
+output_json_file = os.path.join(script_dir, "subsets_of_ppkts", "pmid2date_dict.json")
 
+# Check if the script is being run directly
 
 # Path to the directory containing the JSON files as cli input
 try:
@@ -21,8 +27,6 @@ try:
 except IndexError:
     ppkts_dir = "/Users/leonardo/data/ppkts_4967_polyglot/jsons"
 
-# Get the directory of the current script
-script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Set up the NCBI API key
 # Uncomment the following lines to read the API key from a file (does not work...)
@@ -33,15 +37,23 @@ with open(os.path.expanduser('~/ncbi.key'), 'r') as f:
 
 # Iterate over all json files in the directory and populate a dictionary with as a key the filename and as a value the field .metaData.externalReferences
 ppkts = {}
-for filename in os.listdir(ppkts_dir):
-    if filename.endswith(".json"):
-        with open(os.path.join(ppkts_dir, filename), "r") as f:
-            data = json.load(f)
-            # Check if the key exists in the JSON data
-            if "metaData" in data and "externalReferences" in data["metaData"]:
-                ppkts[filename] = data["metaData"]["externalReferences"]
-            else:
-                print(f"Key not found in {filename}")
+ppkt_paths = []
+if ppkts_dir.endswith(".txt"):
+    with open(ppkts_dir, "r") as f:
+        for line in f:
+            ppkt_paths.append(line.strip())
+else:
+    for filename in os.listdir(ppkts_dir):
+        if filename.endswith(".json"):
+            ppkt_paths.append(os.path.join(ppkts_dir, filename))
+for filepath in ppkt_paths:
+    with open(filepath, "r") as f:
+        data = json.load(f)
+        # Check if the key exists in the JSON data
+        if "metaData" in data and "externalReferences" in data["metaData"]:
+            ppkts[Path(filepath).stem] = data["metaData"]["externalReferences"]
+        else:
+            print(f"Key not found in {filename}")
 
 pmid_list = []
 # Iterate over the dictionary and make a list on unique PubMed IDs
@@ -65,8 +77,6 @@ for pmid in tqdm(pmid_list, desc="Fetching PubMed data", unit="PMID"):
 
 
 # Save the dictionary to a JSON file
-# Construct the output file path relative to the script's directory
-output_json_file = os.path.join(script_dir, "../../../leakage_experiment", "pmid2date_dict.json")
 # Ensure the output directory exists
 output_dir = os.path.dirname(output_json_file)
 os.makedirs(output_dir, exist_ok=True)

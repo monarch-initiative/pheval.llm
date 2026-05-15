@@ -39,16 +39,18 @@ class Phenopacket:
         ]
 
     @property
-    def gene_ids(self) -> list[str | None]:
+    def gene_ids(self) -> list[CURIE | None]:
         interpretations = self.data.get("interpretations", [])
         genomic_interpretations = [
             i.get("diagnosis", {}).get("genomicInterpretations", []) for i in interpretations
         ]
         return [
-            g.get("variantInterpretation", {})
-            .get("variationDescriptor", {})
-            .get("geneContext", {})
-            .get("valueId", {})
+            CURIE(
+                g.get("variantInterpretation", {})
+                .get("variationDescriptor", {})
+                .get("geneContext", {})
+                .get("valueId", {})
+            )
             for g in genomic_interpretations
         ]
 
